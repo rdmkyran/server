@@ -51,6 +51,7 @@ ai.condition =
     PT_HAS_TANK        = 21,
     NOT_PT_HAS_TANK    = 22,
     IS_ECOSYSTEM       = 23,
+    HP_MISSING         = 24,
 }
 ai.c = ai.condition
 
@@ -63,7 +64,6 @@ ai.reaction =
     JA      = 3,
     WS      = 4,
     MS      = 5,
-    MSG     = 6,
 }
 ai.r = ai.reaction
 

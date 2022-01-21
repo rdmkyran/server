@@ -54,6 +54,7 @@ namespace gambits
         PT_HAS_TANK        = 21,
         NOT_PT_HAS_TANK    = 22,
         IS_ECOSYSTEM       = 23,
+        HP_MISSING         = 24,
     };
 
     enum class G_REACTION : uint16
@@ -64,7 +65,6 @@ namespace gambits
         JA      = 3,
         WS      = 4,
         MS      = 5,
-        MSG     = 6,
     };
 
     enum class G_SELECT : uint16
