@@ -1,7 +1,6 @@
 -----------------------------------
 -- Mix: Panacea-1 - Removes anything a Panacea can remove.
 -----------------------------------
-require("scripts/settings/main")
 require("scripts/globals/status")
 require("scripts/globals/mobskills")
 -----------------------------------

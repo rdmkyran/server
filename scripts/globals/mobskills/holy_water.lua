@@ -1,7 +1,6 @@
 -----------------------------------
 -- Holy Water - Removes Curse, Zombie, and Doom.
 -----------------------------------
-require("scripts/settings/main")
 require("scripts/globals/status")
 require("scripts/globals/mobskills")
 -----------------------------------

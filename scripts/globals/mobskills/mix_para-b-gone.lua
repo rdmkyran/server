@@ -1,7 +1,6 @@
 -----------------------------------
 -- Mix: Para-b-gone - Removes Paralysis.
 -----------------------------------
-require("scripts/settings/main")
 require("scripts/globals/status")
 require("scripts/globals/mobskills")
 -----------------------------------

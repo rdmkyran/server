@@ -199,6 +199,7 @@ namespace gambits
             else if (predicate.target == G_TARGET::PARTY_MULTI)
             {
                 uint8 count = 0;
+                // clang-format off
                 static_cast<CCharEntity*>(POwner->PMaster)->ForPartyWithTrusts([&](CBattleEntity* PMember)
                 {
                     if (isValidMember(PMember) && CheckTrigger(PMember, predicate))
@@ -206,6 +207,7 @@ namespace gambits
                         ++count;
                     }
                 });
+                // clang-format on
                 return count > 1;
             }
 

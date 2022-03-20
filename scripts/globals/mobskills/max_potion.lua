@@ -1,7 +1,6 @@
 -----------------------------------
 -- Max Potion - Restores 500 HP.
 -----------------------------------
-require("scripts/settings/main")
 require("scripts/globals/status")
 require("scripts/globals/mobskills")
 -----------------------------------
