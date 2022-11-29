@@ -4465,7 +4465,7 @@ xi.casket_loot.casketItems =
             { 1500,  4155 }, -- Remedy
             {  700,  4173 }, -- Hi-Reraiser
             {  640,  4449 }, -- Reishi Mushroom
-            {  340,  9068 }, -- Barrier Module
+            {  340,  8555 }, -- Barrier Module
         },
     },
 }
