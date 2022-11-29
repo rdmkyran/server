@@ -1951,7 +1951,6 @@ xi.items =
     ABYSSAL_ABJURATION_LEGS         = 8790,
     ABYSSAL_ABJURATION_FEET         = 8791,
     MOBLIN_OIL                      = 8801,
-    BARRIER_MODULE                  = 9068,
     CLUMP_OF_BEE_POLLEN             = 9082,
     MANDRAGORA_DEWDROP              = 9083,
     MOG_KUPON_W_PULSE               = 9089,
