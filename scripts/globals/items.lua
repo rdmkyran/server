@@ -1665,6 +1665,7 @@ xi.items =
     LAND_CRAB_MEAT                  = 4400,
     TORTILLA                        = 4408,
     HARD_BOILED_EGG                 = 4409,
+    APPLE_PIE                       = 4413,
     BOTTLE_OF_APPLE_JUICE           = 4423,
     BOTTLE_OF_MELON_JUICE           = 4424,
     BOTTLE_OF_TOMATO_JUICE          = 4425,
