@@ -4,6 +4,7 @@
 -----------------------------------
 require("scripts/globals/battlefield")
 require("scripts/globals/bcnm")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -13,29 +14,29 @@ local loot =
     [865] =
     {
         {
-            { itemid =  5287, droprate =   97 }, -- Bitter Cluster
-            { itemid =  5286, droprate =  174 }, -- Burning Cluster
-            { itemid =  5288, droprate =  124 }, -- Fleeting Cluster
-            { itemid =  5293, droprate =  140 }, -- Malevolent Cluster
-            { itemid =  5289, droprate =  124 }, -- Profane Cluster
-            { itemid =  5292, droprate =  124 }, -- Radiant Cluster
-            { itemid =  5291, droprate =   93 }, -- Somber Cluster
-            { itemid =  5290, droprate =  124 }, -- Startling Cluster
+            { itemid =  xi.items.CLUSTER_OF_BITTER_MEMORIES, droprate =   97 },
+            { itemid =  xi.items.CLUSTER_OF_BURNING_MEMORIES, droprate =  174 },
+            { itemid =  xi.items.CLUSTER_OF_FLEETING_MEMORIES, droprate =  124 },
+            { itemid =  xi.items.CLUSTER_OF_MALEVOLENT_MEMORIES, droprate =  140 },
+            { itemid =  xi.items.CLUSTER_OF_PROFANE_MEMORIES, droprate =  124 },
+            { itemid =  xi.items.CLUSTER_OF_RADIANT_MEMORIES, droprate =  124 },
+            { itemid =  xi.items.CLUSTER_OF_SOMBER_MEMORIES, droprate =   93 },
+            { itemid =  xi.items.CLUSTER_OF_STARTLING_MEMORIES, droprate =  124 },
         },
         {
-            { itemid =  1794, droprate =  291 }, -- Beatific Image
-            { itemid =  1793, droprate =  372 }, -- Grave Image
-            { itemid =  1795, droprate =  337 }, -- Valorous Image
+            { itemid =  xi.items.BEATIFIC_IMAGE, droprate =  291 },
+            { itemid =  xi.items.GRAVE_IMAGE, droprate =  372 },
+            { itemid =  xi.items.VALOROUS_IMAGE, droprate =  337 },
         },
         {
-            { itemid =  1796, droprate =  523 }, -- Ancient Image
-            { itemid =  1797, droprate =  477 }, -- Virgin Image
+            { itemid =  xi.items.ANCIENT_IMAGE, droprate =  523 },
+            { itemid =  xi.items.VIRGIN_IMAGE, droprate =  477 },
         },
         {
-            { itemid =     0, droprate =  736 }, -- nothing
-            { itemid =  1790, droprate =  167 }, -- Impetuous Vision
-            { itemid =  1792, droprate =   66 }, -- Snide Vision
-            { itemid =  1791, droprate =   31 }, -- Tenuous Vision
+            { itemid =     xi.items.NONE, droprate =  736 },
+            { itemid =  xi.items.IMPETUOUS_VISION, droprate =  167 },
+            { itemid =  xi.items.SNIDE_VISION, droprate =   66 },
+            { itemid =  xi.items.TENUOUS_VISION, droprate =   31 },
         },
     },
 }

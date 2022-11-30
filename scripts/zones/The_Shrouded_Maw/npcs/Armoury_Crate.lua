@@ -3,6 +3,7 @@
 --  NPC: Armoury Crate
 -----------------------------------
 require("scripts/globals/battlefield")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -12,19 +13,19 @@ local loot =
     [705] =
     {
         {
-            { itemid =    0, droprate = 950 }, -- Nothing
-            { itemid = 1842, droprate =  50 }, -- Cloud Evoker
+            { itemid = xi.items.NONE, droprate = 950 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate =  50 },
         },
         {
-            { itemid =     0, droprate = 750 }, -- Nothing
-            { itemid = 14766, droprate = 250 }, -- Geist Earring
-            { itemid = 15432, droprate = 250 }, -- Quick Belt
+            { itemid = xi.items.NONE, droprate = 750 },
+            { itemid = xi.items.GEIST_EARRING, droprate = 250 },
+            { itemid = xi.items.QUICK_BELT, droprate = 250 },
         },
         {
-            { itemid =     0, droprate = 350 }, -- Nothing
-            { itemid = 13550, droprate = 200 }, -- Crossbowman's Ring
-            { itemid = 14675, droprate = 150 }, -- Woodsman Ring
-            { itemid = 13549, droprate = 300 }, -- Ether Ring
+            { itemid = xi.items.NONE, droprate = 350 },
+            { itemid = xi.items.CROSSBOWMANS_RING, droprate = 200 },
+            { itemid = xi.items.WOODSMAN_RING, droprate = 150 },
+            { itemid = xi.items.ETHER_RING, droprate = 300 },
         },
     },
 }

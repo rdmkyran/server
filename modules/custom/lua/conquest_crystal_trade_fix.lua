@@ -11,6 +11,7 @@ require("scripts/globals/settings")
 require("scripts/globals/status")
 require("scripts/globals/zone")
 require("scripts/globals/garrison")
+require("scripts/globals/items")
 -----------------------------------
 
 local m = Module:new("conquest_crystal_trade_fix")
@@ -20,40 +21,40 @@ xi.conquest = xi.conquest or {}
 
 local crystals =
 {
-    [4096] = 12,
-    [4097] = 12,
-    [4098] = 12,
-    [4099] = 12,
-    [4100] = 12,
-    [4101] = 12,
-    [4102] = 16,
-    [4103] = 16,
-    [4238] = 12,
-    [4239] = 12,
-    [4240] = 12,
-    [4241] = 12,
-    [4242] = 12,
-    [4243] = 12,
-    [4244] = 16,
-    [4245] = 16,
+    [xi.items.FIRE_CRYSTAL] = 12,
+    [xi.items.ICE_CRYSTAL] = 12,
+    [xi.items.WIND_CRYSTAL] = 12,
+    [xi.items.EARTH_CRYSTAL] = 12,
+    [xi.items.LIGHTNING_CRYSTAL] = 12,
+    [xi.items.WATER_CRYSTAL] = 12,
+    [xi.items.LIGHT_CRYSTAL] = 16,
+    [xi.items.DARK_CRYSTAL] = 16,
+    [xi.items.INFERNO_CRYSTAL] = 12,
+    [xi.items.GLACIER_CRYSTAL] = 12,
+    [xi.items.CYCLONE_CRYSTAL] = 12,
+    [xi.items.TERRA_CRYSTAL] = 12,
+    [xi.items.PLASMA_CRYSTAL] = 12,
+    [xi.items.TORRENT_CRYSTAL] = 12,
+    [xi.items.AURORA_CRYSTAL] = 16,
+    [xi.items.TWILIGHT_CRYSTAL] = 16,
 }
 
 local expRings =
 {
-    [15761] = {cp=350, charges=7},
-    [15762] = {cp=700, charges=7},
-    [15763] = {cp=600, charges=3},
+    [xi.items.CHARIOT_BAND] = {cp=350, charges=7},
+    [xi.items.EMPRESS_BAND] = {cp=700, charges=7},
+    [xi.items.EMPEROR_BAND] = {cp=600, charges=3},
 }
 
 m:addOverride("xi.conquest.overseerOnTrade", function(player, npc, trade, guardNation, guardType)
     -- Garrison Trade
-	if 
-		guardType == xi.conq.guard.OUTPOST and 
-		(trade:getItemId() >= 1528 and trade:getItemId() <= 1543) 
+	if
+		guardType == xi.conq.guard.OUTPOST and
+		(trade:getItemId() >= 1528 and trade:getItemId() <= 1543)
 	then
 		xi.garrison.onTrade(player, npc, trade, guardNation)
 	end
-	
+
   if player:getNation() == guardNation or guardNation == xi.nation.OTHER then
       local item = trade:getItemId()
       local tradeConfirmed = false

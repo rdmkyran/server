@@ -4,6 +4,7 @@
 -----------------------------------
 require("scripts/globals/battlefield")
 require("scripts/globals/bcnm")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -13,45 +14,45 @@ local loot =
     [833] =
     {
         {
-            { itemid =    0, droprate = 200 }, -- Nothing
-            { itemid = 5287, droprate = 100 }, -- Bitter Cluster
-            { itemid = 5286, droprate = 100 }, -- Burning Cluster
-            { itemid = 5288, droprate = 100 }, -- Fleeting Cluster
-            { itemid = 5293, droprate = 100 }, -- Malevolent Cluster
-            { itemid = 5289, droprate = 100 }, -- Profane Cluster
-            { itemid = 5292, droprate = 100 }, -- Radiant Cluster
-            { itemid = 5291, droprate = 100 }, -- Somber Cluster
-            { itemid = 5290, droprate = 100 }, -- Startling Cluster
+            { itemid =    xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.CLUSTER_OF_BITTER_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_BURNING_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_FLEETING_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_MALEVOLENT_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_PROFANE_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_RADIANT_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_SOMBER_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_STARTLING_MEMORIES, droprate = 100 },
         },
         {
-            { itemid =    0, droprate = 200 }, -- Nothing
-            { itemid = 5287, droprate = 100 }, -- Bitter Cluster
-            { itemid = 5286, droprate = 100 }, -- Burning Cluster
-            { itemid = 5288, droprate = 100 }, -- Fleeting Cluster
-            { itemid = 5293, droprate = 100 }, -- Malevolent Cluster
-            { itemid = 5289, droprate = 100 }, -- Profane Cluster
-            { itemid = 5292, droprate = 100 }, -- Radiant Cluster
-            { itemid = 5291, droprate = 100 }, -- Somber Cluster
-            { itemid = 5290, droprate = 100 }, -- Startling Cluster
+            { itemid =    xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.CLUSTER_OF_BITTER_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_BURNING_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_FLEETING_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_MALEVOLENT_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_PROFANE_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_RADIANT_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_SOMBER_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_STARTLING_MEMORIES, droprate = 100 },
         },
         {
-            { itemid =    0, droprate = 200 }, -- Nothing
-            { itemid = 5287, droprate = 100 }, -- Bitter Cluster
-            { itemid = 5286, droprate = 100 }, -- Burning Cluster
-            { itemid = 5288, droprate = 100 }, -- Fleeting Cluster
-            { itemid = 5293, droprate = 100 }, -- Malevolent Cluster
-            { itemid = 5289, droprate = 100 }, -- Profane Cluster
-            { itemid = 5292, droprate = 100 }, -- Radiant Cluster
-            { itemid = 5291, droprate = 100 }, -- Somber Cluster
-            { itemid = 5290, droprate = 100 }, -- Startling Cluster
+            { itemid =    xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.CLUSTER_OF_BITTER_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_BURNING_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_FLEETING_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_MALEVOLENT_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_PROFANE_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_RADIANT_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_SOMBER_MEMORIES, droprate = 100 },
+            { itemid = xi.items.CLUSTER_OF_STARTLING_MEMORIES, droprate = 100 },
         },
         {
-            { itemid =    0, droprate = 500 }, -- Nothing
-            { itemid = 1801, droprate = 100 }, -- Solemn Vision (Guarding Earring)
-            { itemid = 1804, droprate = 100 }, -- Valiant Vision (Augmenting Earring)
-            { itemid = 1806, droprate = 100 }, -- Pretentious Vision (Elemental Earring)
-            { itemid = 1809, droprate = 100 }, -- Malicious Vision (Ninjutsu Earring)
-            { itemid = 1812, droprate = 100 }, -- Pristine Vision (Wind Earring)
+            { itemid =    xi.items.NONE, droprate = 500 },
+            { itemid = xi.items.SOLEMN_VISION, droprate = 100 },
+            { itemid = xi.items.VALIANT_VISION, droprate = 100 },
+            { itemid = xi.items.PRETENTIOUS_VISION, droprate = 100 },
+            { itemid = xi.items.MALICIOUS_VISION, droprate = 100 },
+            { itemid = xi.items.PRISTINE_VISION, droprate = 100 },
         },
     },
 }

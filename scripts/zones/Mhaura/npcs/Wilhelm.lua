@@ -7,21 +7,22 @@
 local ID = require("scripts/zones/Mhaura/IDs")
 require("scripts/globals/missions")
 require("scripts/globals/npc_util")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
 local limbusArmor =
 {
-    [1920] = { csid = 328, reward = 15241 }, -- Ultima's Cerebrum (Nashira Turban)
-    [1921] = { csid = 328, reward = 14489 }, -- Ultima's Heart    (Nashira Manteel)
-    [1922] = { csid = 328, reward = 14906 }, -- Ultima's Claw     (Nashira Gages)
-    [1923] = { csid = 328, reward = 15577 }, -- Ultima's Leg      (Nashira Seraweels)
-    [1924] = { csid = 328, reward = 15662 }, -- Ultima's Tail     (Nashira Crackows)
-    [1925] = { csid = 330, reward = 15240 }, -- Omega's Eye       (Homam Zucchetto)
-    [1926] = { csid = 330, reward = 14488 }, -- Omega's Heart     (Homam Corazza)
-    [1927] = { csid = 330, reward = 14905 }, -- Omega's Foreleg   (Homam Manopolas)
-    [1928] = { csid = 330, reward = 15576 }, -- Omega's Hindleg   (Homam Cosciales)
-    [1929] = { csid = 330, reward = 15661 }, -- Omega's Tail      (Homam Gambieras)
+    [xi.items.PIECE_OF_ULTIMAS_CEREBRUM] = { csid = 328, reward = xi.items.NASHIRA_TURBAN },
+    [xi.items.PIECE_OF_ULTIMAS_HEART] = { csid = 328, reward = xi.items.NASHIRA_MANTEEL },
+    [xi.items.SEGMENT_OF_ULTIMAS_CLAW] = { csid = 328, reward = xi.items.NASHIRA_GAGES },
+    [xi.items.SEGMENT_OF_ULTIMAS_LEG] = { csid = 328, reward = xi.items.NASHIRA_SERAWEELS },
+    [xi.items.SEGMENT_OF_ULTIMAS_TAIL] = { csid = 328, reward = xi.items.NASHIRA_CRACKOWS },
+    [xi.items.PIECE_OF_OMEGAS_EYE] = { csid = 330, reward = xi.items.HOMAM_ZUCCHETTO },
+    [xi.items.PIECE_OF_OMEGAS_HEART] = { csid = 330, reward = xi.items.HOMAM_CORAZZA },
+    [xi.items.SEGMENT_OF_OMEGAS_FORELEG] = { csid = 330, reward = xi.items.HOMAM_MANOPOLAS },
+    [xi.items.SEGMENT_OF_OMEGAS_HIND_LEG] = { csid = 330, reward = xi.items.HOMAM_COSCIALES },
+    [xi.items.SEGMENT_OF_OMEGAS_TAIL] = { csid = 330, reward = xi.items.HOMAM_GAMBIERAS },
 }
 
 entity.onTrade = function(player, npc, trade)

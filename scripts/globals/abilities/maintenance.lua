@@ -9,15 +9,16 @@ require("scripts/globals/settings")
 require("scripts/globals/status")
 require("scripts/globals/pets")
 require("scripts/globals/msg")
+require("scripts/globals/items")
 -----------------------------------
 local abilityObject = {}
 
 local idStrengths =
 {
-    [18731] = 1, -- Automaton Oil
-    [18732] = 2, -- Automaton Oil + 1
-    [18733] = 3, -- Automaton Oil + 2
-    [19185] = 4  -- Automaton Oil + 3
+    [xi.items.CAN_OF_AUTOMATON_OIL] = 1,
+    [xi.items.CAN_OF_AUTOMATON_OIL_P1] = 2,
+    [xi.items.CAN_OF_AUTOMATON_OIL_P2] = 3,
+    [xi.items.CAN_OF_AUTOMATON_OIL_P3] = 4
 }
 
 abilityObject.onAbilityCheck = function(player, target, ability)

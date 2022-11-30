@@ -82,7 +82,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 250 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 250 },
             { itemid = xi.items.FUMA_KYAHAN,      droprate = 100 },
             { itemid = xi.items.PEACE_RING,       droprate = 200 },
             { itemid = xi.items.ENHANCING_MANTLE, droprate = 200 },
@@ -91,7 +91,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 850 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 850 },
             { itemid = xi.items.HI_RERAISER,    droprate = 100 },
             { itemid = xi.items.VILE_ELIXIR_P1, droprate =  50 },
         },
@@ -117,7 +117,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 517 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 517 },
             { itemid = xi.items.MAHOGANY_LOG, droprate = 333 },
             { itemid = xi.items.EBONY_LOG,    droprate = 150 },
         },
@@ -204,7 +204,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 300 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 300 },
             { itemid = xi.items.SINGERS_EARRING,    droprate = 40 },
             { itemid = xi.items.ASHIGARU_EARRING,   droprate = 50 },
             { itemid = xi.items.MAGICIANS_EARRING,  droprate = 50 },
@@ -242,19 +242,19 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 500 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.SHEET_OF_BAST_PARCHMENT, droprate =  400 },
             { itemid = xi.items.HI_POTION,               droprate =  100 },
         },
 
         {
-            { itemid = 0, droprate = 500 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.CHESTNUT_LOG, droprate =  250 },
             { itemid = xi.items.HI_ETHER,     droprate =  250 },
         },
 
         {
-            { itemid = 0, droprate = 250 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 250 },
             { itemid = xi.items.SCROLL_OF_ERASE,        droprate =  150 },
             { itemid = xi.items.SCROLL_OF_DISPEL,       droprate =  200 },
             { itemid = xi.items.SCROLL_OF_MAGIC_FINALE, droprate =  250 },
@@ -262,7 +262,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 300 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 300 },
             { itemid = xi.items.AMBER_STONE,            droprate =   50 },
             { itemid = xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =   50 },
             { itemid = xi.items.ELM_LOG,                droprate =   50 },
@@ -359,17 +359,17 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 500 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.GIANT_FEMUR, droprate = 500 },
         },
 
         {
-            { itemid = 0, droprate = 500 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.SLICE_OF_DHALMEL_MEAT, droprate = 500 },
         },
 
         {
-            { itemid = 0, droprate = 400 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 400 },
             { itemid = xi.items.MERCENARY_MANTLE, droprate = 150 },
             { itemid = xi.items.BEATERS_MANTLE,   droprate = 150 },
             { itemid = xi.items.ESQUIRES_MANTLE,  droprate = 150 },
@@ -377,14 +377,14 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 400 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 400 },
             { itemid = xi.items.WIZARDS_SHIELD, droprate = 200 },
             { itemid = xi.items.TRIMMERS_ASPIS, droprate = 200 },
             { itemid = xi.items.WYVERNS_TARGE,  droprate = 200 },
         },
 
         {
-            { itemid = 0, droprate = 200 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 200 },
             { itemid = xi.items.SCROLL_OF_ERASE,        droprate = 200 },
             { itemid = xi.items.SCROLL_OF_DISPEL,       droprate = 200 },
             { itemid = xi.items.SCROLL_OF_MAGIC_FINALE, droprate = 200 },
@@ -392,14 +392,14 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 250 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 250 },
             { itemid = xi.items.SQUARE_OF_VELVET_CLOTH, droprate = 250 },
             { itemid = xi.items.SQUARE_OF_LINEN_CLOTH,  droprate = 250 },
             { itemid = xi.items.SQUARE_OF_WOOL_CLOTH,   droprate = 250 },
         },
 
         {
-            { itemid = 0, droprate = 600 }, -- nothing
+            { itemid = xi.items.NONE, droprate = 600 },
             { itemid = xi.items.MANNEQUIN_HEAD,  droprate = 200 },
             { itemid = xi.items.MANNEQUIN_HANDS, droprate = 200 },
         },
@@ -750,7 +750,7 @@ local loot =
             { itemid = xi.items.WARWOLF_BELT,     droprate = 300 },
         },
         {
-            { itemid = 0, droprate = 300 }, -- Nothing
+            { itemid = xi.items.NONE, droprate = 300 },
             { itemid = xi.items.CLAYMORE_GRIP, droprate =  70 },
             { itemid = xi.items.POLE_GRIP,     droprate = 100 },
             { itemid = xi.items.SWORD_STRAP,   droprate = 280 },
@@ -805,7 +805,7 @@ local loot =
              { itemid = xi.items.COCKATRICE_SKIN, droprate = 1000 },
          },
          {
-             { itemid = 0, droprate = 800 }, -- Nothing
+             { itemid = xi.items.NONE, droprate = 800 },
              { itemid = xi.items.DODO_SKIN, droprate = 200 },
          },
          {
@@ -826,7 +826,7 @@ local loot =
              { itemid = xi.items.ABSORBING_SHIELD, droprate = 350 },
          },
          {
-             { itemid = 0, droprate = 300 }, -- Nothing
+             { itemid = xi.items.NONE, droprate = 300 },
              { itemid = xi.items.POLE_GRIP,     droprate = 500 },
              { itemid = xi.items.SPEAR_STRAP,   droprate = 100 },
              { itemid = xi.items.CLAYMORE_GRIP, droprate = 100 },

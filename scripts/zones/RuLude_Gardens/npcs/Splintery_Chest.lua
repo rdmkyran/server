@@ -4,6 +4,7 @@
 -----------------------------------
 local ID = require("scripts/zones/RuLude_Gardens/IDs")
 require("scripts/globals/settings")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -25,53 +26,53 @@ entity.onEventFinish = function(player, csid, option, npc)
     local itemId = 0
     local optionTable =
     {
-        [0] = 19327, -- Pugilists
-        [4] = 19332, -- Peeler
-        [8] = 19337, -- Side-sword
-        [12] = 19342, -- Break Blade
-        [16] = 19347, -- Chopper
-        [20] = 19352, -- Lumberjack
-        [24] = 19357, -- Farmhand
-        [28] = 19362, -- Ranseur
-        [32] = 19367, -- KibaShiri
-        [36] = 19372, -- Donto
-        [40] = 19377, -- Stenz
-        [44] = 19382, -- Crook
-        [48] = 19387, -- Sparrow
-        [52] = 19392, -- Thunderstick
+        [0] = xi.items.PUGILISTS,
+        [4] = xi.items.PEELER,
+        [8] = xi.items.SIDE_SWORD,
+        [12] = xi.items.BREAK_BLADE,
+        [16] = xi.items.CHOPPER,
+        [20] = xi.items.LUMBERJACK,
+        [24] = xi.items.FARMHAND,
+        [28] = xi.items.RANSEUR,
+        [32] = xi.items.KIBASHIRI,
+        [36] = xi.items.DONTO,
+        [40] = xi.items.STENZ,
+        [44] = xi.items.CROOK,
+        [48] = xi.items.SPARROW,
+        [52] = xi.items.THUNDERSTICK,
     -----------------------------------
         -- Page 2
     -----------------------------------
-        [64] = 19415, -- Barracudas
-        [68] = 19419, -- Fusetto
-        [72] = 19423, -- Machaera
-        [76] = 19427, -- Kalavejs
-        [80] = 19431, -- Renausd's Axe
-        [84] = 19435, -- Sumaru
-        [88] = 19439, -- Reckoning
-        [92] = 19443, -- Stingray
-        [96] = 19447, -- Uzuru
-        [100] = 19451, -- Keitonotachi
-        [104] = 19455, -- Makhila
-        [108] = 18932, -- Sedikutchi
-        [112] = 18936, -- Sparrowhawk
-        [116] = 18940, -- Anachry
+        [64] = xi.items.BARRACUDAS,
+        [68] = xi.items.FUSETTO,
+        [72] = xi.items.MACHAERA,
+        [76] = xi.items.KALAVEJS,
+        [80] = xi.items.RENAUDS_AXE,
+        [84] = xi.items.SUMERU,
+        [88] = xi.items.RECKONING,
+        [92] = xi.items.STINGRAY,
+        [96] = xi.items.UZURA,
+        [100] = xi.items.KEITONOTACHI,
+        [104] = xi.items.MAKHILA,
+        [108] = xi.items.SEDIKUTCHI,
+        [112] = xi.items.SPARROWHAWK,
+        [116] = xi.items.ANARCHY,
     -----------------------------------
         -- Page 3
     -----------------------------------
-        [128] = 20544, -- Dumuzis -1
-        [132] = 20631, -- Khandroma -1
-        [140] = 20732, -- Brunello -1
-        [144] = 20769, -- Xiphias -1
-        [148] = 20821, -- Sacripante -1
-        [152] = 20867, -- Shamash -1
-        [156] = 20912, -- Umiliati -1
-        [160] = 20959, -- Daboya -1
-        [164] = 21001, -- Kasasagi -1
-        [168] = 21048, -- Torigashiranotachi -1
-        [172] = 21121, -- Rose Couverte -1
-        [176] = 21234, -- Circinae -1
-        [180] = 21283, -- Mollfrith -1
+        [128] = xi.items.DUMUZIS_M1,
+        [132] = xi.items.KHANDROMA_M1,
+        [140] = xi.items.BRUNELLO_M1,
+        [144] = xi.items.XIPHIAS_M1,
+        [148] = xi.items.SACRIPANTE_M1,
+        [152] = xi.items.SHAMASH_M1,
+        [156] = xi.items.UMILIATI_M1,
+        [160] = xi.items.DABOYA_M1,
+        [164] = xi.items.KASASAGI_M1,
+        [168] = xi.items.TORIGASHIRANOTACHI_M1,
+        [172] = xi.items.ROSE_COUVERTE_M1,
+        [176] = xi.items.CIRCINAE_M1,
+        [180] = xi.items.MOLLFRITH_M1,
     }
 
     itemId = optionTable[option]

@@ -7,32 +7,33 @@ require("scripts/globals/keyitems")
 require("scripts/globals/missions")
 require("scripts/globals/npc_util")
 require("scripts/globals/quests")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
 -- [tradedItemId] = rewardItemId
 local trades =
 {
-    [1783] =  5410, -- Luminion Tissue      -> Virtue Stone Pouch
-    [1784] =  5410, -- Phuabo Organ         -> Virtue Stone Pouch
-    [1785] =  5410, -- Xzomit Organ         -> Virtue Stone Pouch
-    [1786] =  5410, -- Aern Organ           -> Virtue Stone Pouch
-    [1787] =  5410, -- Hpemde Organ         -> Virtue Stone Pouch
-    [1788] =  5410, -- Yovra Organ          -> Virtue Stone Pouch
-    [1818] =  5410, -- Euvhi Organ          -> Virtue Stone Pouch
-    [1819] =  5410, -- Luminion Chip        -> Virtue Stone Pouch
-    [1901] = 15471, -- Vice of Antipathy    -> Merciful Cape
-    [1902] = 15472, -- Vice of Avarice      -> Altruistic Cape
-    [1903] = 15473, -- Vice of Aspersion    -> Astute Cape
-    [1911] = 14808, -- Aura of Adulation    -> Novio Earring
-    [1912] = 14809, -- Aura of Voracity     -> Novia Earring
-    [1913] = 15458, -- Sin of Indignation   -> Ninurta's Sash
-    [1914] = 18245, -- Sin of Indolence     -> Aureole
-    [1915] = 17810, -- Sin of Indulgence    -> Futsuno Mitama
-    [1916] = 18398, -- Sin of Invidiousness -> Raphael Rod
-    [1917] = 15548, -- Sin of Insolence     -> Mars Ring
-    [1918] = 15549, -- Sin of Infatuation   -> Bellona Ring
-    [1919] = 15550, -- Sin of Intemperance  -> Minerva Ring
+    [xi.items.SAMPLE_OF_LUMINIAN_TISSUE] = xi.items.VIRTUE_STONE_POUCH,
+    [xi.items.PHUABO_ORGAN]              = xi.items.VIRTUE_STONE_POUCH,
+    [xi.items.XZOMIT_ORGAN]              = xi.items.VIRTUE_STONE_POUCH,
+    [xi.items.AERN_ORGAN]                = xi.items.VIRTUE_STONE_POUCH,
+    [xi.items.HPEMDE_ORGAN]              = xi.items.VIRTUE_STONE_POUCH,
+    [xi.items.YOVRA_ORGAN]               = xi.items.VIRTUE_STONE_POUCH,
+    [xi.items.EUVHI_ORGAN]               = xi.items.VIRTUE_STONE_POUCH,
+    [xi.items.LUMINION_CHIP]             = xi.items.VIRTUE_STONE_POUCH,
+    [xi.items.VICE_OF_ANTIPATHY]         = xi.items.MERCIFUL_CAPE,
+    [xi.items.VICE_OF_AVARICE]           = xi.items.ALTRUISTIC_CAPE,
+    [xi.items.VICE_OF_ASPERSION]         = xi.items.ASTUTE_CAPE,
+    [xi.items.AURA_OF_ADULATION]         = xi.items.NOVIO_EARRING,
+    [xi.items.AURA_OF_VORACITY]          = xi.items.NOVIA_EARRING,
+    [xi.items.SIN_OF_INDIGNATION]        = xi.items.NINURTAS_SASH,
+    [xi.items.SIN_OF_INDOLENCE]          = xi.items.AUREOLE,
+    [xi.items.SIN_OF_INDULGENCE]         = xi.items.FUTSUNO_MITAMA,
+    [xi.items.SIN_OF_INVIDIOUSNESS]      = xi.items.RAPHAELS_ROD,
+    [xi.items.SIN_OF_INSOLENCE]          = xi.items.MARSS_RING,
+    [xi.items.SIN_OF_INFATUATION]        = xi.items.BELLONAS_RING,
+    [xi.items.SIN_OF_INTEMPERANCE]       = xi.items.MINERVAS_RING,
 }
 
 entity.onTrade = function(player, npc, trade)

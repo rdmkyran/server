@@ -5,6 +5,7 @@
 require("scripts/globals/battlefield")
 require("scripts/globals/titles")
 require("scripts/globals/quests")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -14,31 +15,31 @@ local loot =
     [673] =
     {
         {
-            { itemid =    0, droprate = 140 }, -- nothing
-            { itemid = 1763, droprate = 310 }, -- Viridian Urushi
-            { itemid = 1769, droprate = 241 }, -- Square of Galateia
-            { itemid = 1764, droprate = 310 }, -- Kejusu Satin
+            { itemid = xi.items.NONE, droprate = 140 },
+            { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI, droprate = 310 },
+            { itemid = xi.items.SQUARE_OF_GALATEIA, droprate = 241 },
+            { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN, droprate = 310 },
         },
 
         {
-            { itemid =    0, droprate = 862 }, -- nothing
-            { itemid = 1842, droprate = 138 }, -- Cloud Evoker
+            { itemid = xi.items.NONE, droprate = 862 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate = 138 },
         },
 
         {
-            { itemid =     0, droprate = 380 }, -- nothing
-            { itemid = 17946, droprate = 138 }, -- Maneater
-            { itemid = 18358, droprate = 172 }, -- Wagh Baghnakhs
-            { itemid = 16976, droprate = 138 }, -- Onimaru
-            { itemid =  4990, droprate = 172 }, -- Army's Paeon V
+            { itemid = xi.items.NONE, droprate = 380 },
+            { itemid = xi.items.MANEATER, droprate = 138 },
+            { itemid = xi.items.WAGH_BAGHNAKHS, droprate = 172 },
+            { itemid = xi.items.ONIMARU, droprate = 138 },
+            { itemid = xi.items.SCROLL_OF_ARMYS_PAEON_V, droprate = 172 },
         },
 
         {
-            { itemid =     0, droprate = 380 }, -- nothing
-            { itemid = 17946, droprate = 138 }, -- Maneater
-            { itemid = 18358, droprate = 172 }, -- Wagh Baghnakhs
-            { itemid = 16976, droprate = 138 }, -- Onimaru
-            { itemid =  4990, droprate = 172 }, -- Army's Paeon V
+            { itemid = xi.items.NONE, droprate = 380 },
+            { itemid = xi.items.MANEATER, droprate = 138 },
+            { itemid = xi.items.WAGH_BAGHNAKHS, droprate = 172 },
+            { itemid = xi.items.ONIMARU, droprate = 138 },
+            { itemid = xi.items.SCROLL_OF_ARMYS_PAEON_V, droprate = 172 },
         },
     },
 
@@ -46,23 +47,23 @@ local loot =
     [674] =
     {
         {
-            { itemid =    0, droprate = 124 }, -- Nothing
-            { itemid = 1769, droprate = 268 }, -- Square of Galateia (26.8% Drop Rate)
-            { itemid = 1764, droprate = 266 }, -- Kejusu Satin
-            { itemid = 1763, droprate = 342 }, -- Viridian Urushi
+            { itemid = xi.items.NONE, droprate = 124 },
+            { itemid = xi.items.SQUARE_OF_GALATEIA, droprate = 268 },
+            { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN, droprate = 266 },
+            { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI, droprate = 342 },
         },
 
         {
-            { itemid =    0, droprate = 944 }, -- Nothing
-            { itemid = 1842, droprate =  56 }, -- Cloud Evoker (5.6% Drop Rate)
+            { itemid = xi.items.NONE, droprate = 944 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate =  56 },
         },
 
         {
-            { itemid = 17829, droprate =  82 }, -- Hagun
-            { itemid = 17945, droprate =  92 }, -- Martial Axe
-            { itemid = 17467, droprate =  63 }, -- Martial Wand
-            { itemid = 13690, droprate = 105 }, -- Forager's Mantle
-            { itemid = 13109, droprate = 121 }, -- Harmonia's Torque
+            { itemid = xi.items.HAGUN, droprate =  82 },
+            { itemid = xi.items.MARTIAL_AXE, droprate =  92 },
+            { itemid = xi.items.MARTIAL_WAND, droprate =  63 },
+            { itemid = xi.items.FORAGERS_MANTLE, droprate = 105 },
+            { itemid = xi.items.HARMONIAS_TORQUE, droprate = 121 },
         },
     },
 
@@ -70,31 +71,31 @@ local loot =
     [675] =
     {
         {
-            { itemid =    0, droprate = 250 }, -- Nothing
-            { itemid = 1762, droprate = 350 }, -- Cassia Lumber
-            { itemid = 1767, droprate = 325 }, -- Eltoro Leather
-            { itemid = 1771, droprate = 250 }, -- Dragon Bone
+            { itemid = xi.items.NONE, droprate = 250 },
+            { itemid = xi.items.PIECE_OF_CASSIA_LUMBER, droprate = 350 },
+            { itemid = xi.items.SQUARE_OF_ELTORO_LEATHER, droprate = 325 },
+            { itemid = xi.items.DRAGON_BONE, droprate = 250 },
         },
 
         {
-            { itemid =    0, droprate = 812 }, -- Nothing
-            { itemid = 1842, droprate = 188 }, -- Cloud Evoker
+            { itemid = xi.items.NONE, droprate = 812 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate = 188 },
         },
 
         {
-            { itemid =     0, droprate = 200 }, -- Nothing
-            { itemid = 18099, droprate = 150 }, -- Stone-splitter
-            { itemid = 17365, droprate = 175 }, -- Frenzy Fife
-            { itemid = 18015, droprate = 238 }, -- Blau Dolch
-            { itemid =  4990, droprate = 237 },  -- Scroll of Army's Paeon V
+            { itemid = xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.STONE_SPLITTER, droprate = 150 },
+            { itemid = xi.items.FRENZY_FIFE, droprate = 175 },
+            { itemid = xi.items.BLAU_DOLCH, droprate = 238 },
+            { itemid = xi.items.SCROLL_OF_ARMYS_PAEON_V, droprate = 237 },
         },
 
         {
-            { itemid =     0, droprate = 200 }, -- Nothing
-            { itemid = 18099, droprate = 150 }, -- Stone-splitter
-            { itemid = 17365, droprate = 175 }, -- Frenzy Fife
-            { itemid = 18015, droprate = 238 }, -- Blau Dolch
-            { itemid =  4990, droprate = 237 },  -- Scroll of Army's Paeon V
+            { itemid = xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.STONE_SPLITTER, droprate = 150 },
+            { itemid = xi.items.FRENZY_FIFE, droprate = 175 },
+            { itemid = xi.items.BLAU_DOLCH, droprate = 238 },
+            { itemid = xi.items.SCROLL_OF_ARMYS_PAEON_V, droprate = 237 },
         },
     },
 
@@ -102,33 +103,33 @@ local loot =
     [676] =
     {
         {
-            { itemid =    0, droprate = 800 }, -- Nothing
-            { itemid = 1842, droprate = 200 }, -- Cloud Evoker
+            { itemid = xi.items.NONE, droprate = 800 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate = 200 },
         },
         {
-            { itemid =     0, droprate = 325 }, -- Nothing
-            { itemid = 16976, droprate = 100 }, -- Onimaru
-            { itemid = 18015, droprate = 250 }, -- Blau Dolch
-            { itemid = 18099, droprate = 150 }, -- Stone-splitter
-            { itemid = 17365, droprate = 175 }, -- Frenzy Fife
+            { itemid = xi.items.NONE, droprate = 325 },
+            { itemid = xi.items.ONIMARU, droprate = 100 },
+            { itemid = xi.items.BLAU_DOLCH, droprate = 250 },
+            { itemid = xi.items.STONE_SPLITTER, droprate = 150 },
+            { itemid = xi.items.FRENZY_FIFE, droprate = 175 },
         },
         {
-            { itemid =     0, droprate = 670 }, -- Nothing
-            { itemid = 17946, droprate = 100 }, -- Maneater
-            { itemid = 18358, droprate =  65 }, -- Wagh Baghnakhs
-            { itemid = 17469, droprate =  65 }, -- Raise II Rod
-            { itemid = 15464, droprate = 100 }, -- Corse Cape
+            { itemid = xi.items.NONE, droprate = 670 },
+            { itemid = xi.items.MANEATER, droprate = 100 },
+            { itemid = xi.items.WAGH_BAGHNAKHS, droprate =  65 },
+            { itemid = xi.items.RAISE_II_ROD, droprate =  65 },
+            { itemid = xi.items.CORSE_CAPE, droprate = 100 },
         },
         {
-            { itemid =    0, droprate = 325 }, -- Nothing
-            { itemid = 1763, droprate = 350 }, -- Viridian Urushi
-            { itemid = 1767, droprate = 325 }, -- Eltoro Leather
+            { itemid = xi.items.NONE, droprate = 325 },
+            { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI, droprate = 350 },
+            { itemid = xi.items.SQUARE_OF_ELTORO_LEATHER, droprate = 325 },
         },
         {
-            { itemid =    0, droprate = 150 }, -- Nothing
-            { itemid = 1841, droprate = 225 }, -- Unicorn Horn
-            { itemid = 1762, droprate = 375 }, -- Cassia Lumber
-            { itemid = 1771, droprate = 250 }, -- Dragon Bone
+            { itemid = xi.items.NONE, droprate = 150 },
+            { itemid = xi.items.UNICORN_HORN, droprate = 225 },
+            { itemid = xi.items.PIECE_OF_CASSIA_LUMBER, droprate = 375 },
+            { itemid = xi.items.DRAGON_BONE, droprate = 250 },
         },
     },
 
@@ -136,48 +137,48 @@ local loot =
     [678] =
     {
         {
-            { itemid =    0, droprate = 655 }, -- Nothing
-            { itemid = 1762, droprate = 150 }, -- Cassia Lumber
-            { itemid = 1767, droprate = 120 }, -- Eltoro Leather
-            { itemid = 1771, droprate =  75 }, -- Dragon Bone
+            { itemid = xi.items.NONE, droprate = 655 },
+            { itemid = xi.items.PIECE_OF_CASSIA_LUMBER, droprate = 150 },
+            { itemid = xi.items.SQUARE_OF_ELTORO_LEATHER, droprate = 120 },
+            { itemid = xi.items.DRAGON_BONE, droprate =  75 },
         },
         {
-            { itemid =    0, droprate = 655 }, -- Nothing
-            { itemid = 1762, droprate = 150 }, -- Cassia Lumber
-            { itemid = 1767, droprate = 120 }, -- Eltoro Leather
-            { itemid = 1771, droprate =  75 }, -- Dragon Bone
+            { itemid = xi.items.NONE, droprate = 655 },
+            { itemid = xi.items.PIECE_OF_CASSIA_LUMBER, droprate = 150 },
+            { itemid = xi.items.SQUARE_OF_ELTORO_LEATHER, droprate = 120 },
+            { itemid = xi.items.DRAGON_BONE, droprate =  75 },
         },
         {
-            { itemid =    0, droprate = 650 }, -- Nothing
-            { itemid = 1763, droprate = 110 }, -- Viridian Urushi
-            { itemid = 1764, droprate = 120 }, -- Kejusu Satin
-            { itemid = 1769, droprate = 110 }, -- Galateia
+            { itemid = xi.items.NONE, droprate = 650 },
+            { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI, droprate = 110 },
+            { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN, droprate = 120 },
+            { itemid = xi.items.SQUARE_OF_GALATEIA, droprate = 110 },
         },
         {
-            { itemid =    0, droprate = 650 }, -- Nothing
-            { itemid = 1763, droprate = 110 }, -- Viridian Urushi
-            { itemid = 1764, droprate = 120 }, -- Kejusu Satin
-            { itemid = 1769, droprate = 110 }, -- Galateia
+            { itemid = xi.items.NONE, droprate = 650 },
+            { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI, droprate = 110 },
+            { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN, droprate = 120 },
+            { itemid = xi.items.SQUARE_OF_GALATEIA, droprate = 110 },
         },
         {
-            { itemid =    0, droprate = 745 }, -- Nothing
-            { itemid = 18019, droprate = 75 }, -- X's Knife
-            { itemid = 18057, droprate = 90 }, -- Y's Scythe
-            { itemid = 18101, droprate = 90 }, -- Z's Trident
+            { itemid = xi.items.NONE, droprate = 745 },
+            { itemid = xi.items.XS_KNIFE, droprate = 75 },
+            { itemid = xi.items.YS_SCYTHE, droprate = 90 },
+            { itemid = xi.items.ZS_TRIDENT, droprate = 90 },
         },
         {
-            { itemid =    0, droprate = 835 }, -- Nothing
-            { itemid =  844, droprate = 110 }, -- Phoenix Feather
-            { itemid =  942, droprate =  45 }, -- Philosopher's Stone
-            { itemid = 1446, droprate =  10 }, -- Lacquer Tree Log
+            { itemid = xi.items.NONE, droprate = 835 },
+            { itemid = xi.items.PHOENIX_FEATHER, droprate = 110 },
+            { itemid = xi.items.PHILOSOPHERS_STONE, droprate =  45 },
+            { itemid = xi.items.LACQUER_TREE_LOG, droprate =  10 },
         },
         {
-            { itemid =    0, droprate = 805 }, -- Nothing
-            { itemid =  703, droprate =  50 }, -- Petrified Log
-            { itemid =  722, droprate =  10 }, -- Divine Log
-            { itemid =  831, droprate =  10 }, -- Shining Cloth
-            { itemid = 1132, droprate =  75 }, -- Raxa
-            { itemid = 1465, droprate =  50 }, -- Granite
+            { itemid = xi.items.NONE, droprate = 805 },
+            { itemid = xi.items.PETRIFIED_LOG, droprate =  50 },
+            { itemid = xi.items.DIVINE_LOG, droprate =  10 },
+            { itemid = xi.items.SQUARE_OF_SHINING_CLOTH, droprate =  10 },
+            { itemid = xi.items.SQUARE_OF_RAXA, droprate =  75 },
+            { itemid = xi.items.SLAB_OF_GRANITE, droprate =  50 },
         },
     },
 }

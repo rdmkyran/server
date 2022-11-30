@@ -7,6 +7,7 @@
 --  offset by 20.
 -----------------------------------
 require("scripts/globals/battlefield")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -18,29 +19,29 @@ local loot =
     [738] =
     {
         {
-            { itemid =    0, droprate = 900 }, -- Nothing
-            { itemid = 1842, droprate = 100 }, -- Cloud Evoker
+            { itemid = xi.items.NONE, droprate = 900 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate = 100 },
         },
         {
-            { itemid = 1767, droprate = 333 }, -- Eltoro Leather
-            { itemid = 1762, droprate = 333 }, -- Cassia Lumber
-            { itemid = 1771, droprate = 334 }, -- Dragon Bone
+            { itemid = xi.items.SQUARE_OF_ELTORO_LEATHER, droprate = 333 },
+            { itemid = xi.items.PIECE_OF_CASSIA_LUMBER, droprate = 333 },
+            { itemid = xi.items.DRAGON_BONE, droprate = 334 },
         },
         {
-            { itemid =     0, droprate = 625 }, -- nothing
-            { itemid = 18009, droprate =  75 }, -- Martial Knife
-            { itemid = 18056, droprate =  75 }, -- Martial Scythe
-            { itemid = 13695, droprate =  75 }, -- Commander's Cape
-            { itemid = 15195, droprate = 100 }, -- Faerie Hairpin
-            { itemid =  4748, droprate =  50 }, -- Raise III
+            { itemid = xi.items.NONE, droprate = 625 },
+            { itemid = xi.items.MARTIAL_KNIFE, droprate =  75 },
+            { itemid = xi.items.MARTIAL_SCYTHE, droprate =  75 },
+            { itemid = xi.items.COMMANDERS_CAPE, droprate =  75 },
+            { itemid = xi.items.FAERIE_HAIRPIN, droprate = 100 },
+            { itemid = xi.items.SCROLL_OF_RAISE_III, droprate =  50 },
         },
         {
-            { itemid =     0, droprate = 625 }, -- nothing
-            { itemid = 18009, droprate =  75 }, -- Martial Knife
-            { itemid = 18056, droprate =  75 }, -- Martial Scythe
-            { itemid = 13695, droprate =  75 }, -- Commander's Cape
-            { itemid = 15195, droprate = 100 }, -- Faerie Hairpin
-            { itemid =  4748, droprate =  50 }, -- Raise III
+            { itemid = xi.items.NONE, droprate = 625 },
+            { itemid = xi.items.MARTIAL_KNIFE, droprate =  75 },
+            { itemid = xi.items.MARTIAL_SCYTHE, droprate =  75 },
+            { itemid = xi.items.COMMANDERS_CAPE, droprate =  75 },
+            { itemid = xi.items.FAERIE_HAIRPIN, droprate = 100 },
+            { itemid = xi.items.SCROLL_OF_RAISE_III, droprate =  50 },
         },
     },
 
@@ -48,16 +49,16 @@ local loot =
     [xi.race.HUME_M + lootOffset] =
     {
         {
-            { itemid = 0,    droprate = 800 }, -- Nothing
-            { itemid = 1830, droprate = 200 }, -- Lugworm Sand
+            { itemid = xi.items.NONE,    droprate = 800 },
+            { itemid = xi.items.SACK_OF_LUGWORM_SAND, droprate = 200 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14793, droprate = 100 }, -- Belinky's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.BELINKYS_EARRING, droprate = 100 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14794, droprate = 100 }, -- Quantz's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.QUANTZS_EARRING, droprate = 100 },
         },
     },
 
@@ -65,16 +66,16 @@ local loot =
     [xi.race.ELVAAN_M + lootOffset] =
     {
         {
-            { itemid = 0,    droprate = 800 }, -- Nothing
-            { itemid = 1830, droprate = 200 }, -- Lugworm Sand
+            { itemid = xi.items.NONE,    droprate = 800 },
+            { itemid = xi.items.SACK_OF_LUGWORM_SAND, droprate = 200 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14795, droprate = 100 }, -- Desamilion's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.DESAMILIONS_EARRING, droprate = 100 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14796, droprate = 100 }, -- Melnina's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.MELNINAS_EARRING, droprate = 100 },
         },
     },
 
@@ -82,16 +83,16 @@ local loot =
     [xi.race.TARU_M + lootOffset] =
     {
         {
-            { itemid = 0,    droprate = 800 }, -- Nothing
-            { itemid = 1830, droprate = 200 }, -- Lugworm Sand
+            { itemid = xi.items.NONE,    droprate = 800 },
+            { itemid = xi.items.SACK_OF_LUGWORM_SAND, droprate = 200 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14797, droprate = 100 }, -- Waetoto's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.WAETOTOS_EARRING, droprate = 100 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14798, droprate = 100 }, -- Morukaka's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.MORUKAKAS_EARRING, droprate = 100 },
         },
     },
 
@@ -99,16 +100,16 @@ local loot =
     [xi.race.MITHRA + lootOffset] =
     {
         {
-            { itemid = 0,    droprate = 800 }, -- Nothing
-            { itemid = 1830, droprate = 200 }, -- Lugworm Sand
+            { itemid = xi.items.NONE,    droprate = 800 },
+            { itemid = xi.items.SACK_OF_LUGWORM_SAND, droprate = 200 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14799, droprate = 100 }, -- Ryakho's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.RYAKHOS_EARRING, droprate = 100 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14799, droprate = 100 }, -- Feyuh's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.RYAKHOS_EARRING, droprate = 100 },
         },
     },
 
@@ -116,16 +117,16 @@ local loot =
     [xi.race.GALKA + lootOffset] =
     {
         {
-            { itemid = 0,    droprate = 800 }, -- Nothing
-            { itemid = 1830, droprate = 200 }, -- Lugworm Sand
+            { itemid = xi.items.NONE,    droprate = 800 },
+            { itemid = xi.items.SACK_OF_LUGWORM_SAND, droprate = 200 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14801, droprate = 100 }, -- Zedoma's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.ZEDOMAS_EARRING, droprate = 100 },
         },
         {
-            { itemid = 0,     droprate = 900 }, -- Nothing
-            { itemid = 14802, droprate = 100 }, -- Gayanj's Earring
+            { itemid = xi.items.NONE,     droprate = 900 },
+            { itemid = xi.items.GAYANJS_EARRING, droprate = 100 },
         },
     },
 

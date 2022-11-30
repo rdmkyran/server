@@ -4,6 +4,7 @@
 -----------------------------------
 require("scripts/globals/battlefield")
 require("scripts/globals/bcnm")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -13,19 +14,19 @@ local loot =
     [962] =
     {
         {
-            { itemid =    0, droprate = 950 }, -- Nothing
-            { itemid = 1842, droprate =  50 }, -- Cloud Evoker
+            { itemid = xi.items.NONE, droprate = 950 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate =  50 },
         },
         {
-            { itemid =     0, droprate = 500 }, -- Nothing
-            { itemid = 17215, droprate = 250 }, -- Thug's Zamburak
-            { itemid = 16708, droprate = 250 }, -- Horror Voulge
+            { itemid = xi.items.NONE, droprate = 500 },
+            { itemid = xi.items.THUGS_ZAMBURAK, droprate = 250 },
+            { itemid = xi.items.HORROR_VOULGE, droprate = 250 },
         },
         {
-            { itemid =     0, droprate = 350 }, -- Nothing
-            { itemid = 13550, droprate = 200 }, -- Crossbowman's Ring
-            { itemid = 14675, droprate = 150 }, -- Woodsman Ring
-            { itemid = 13549, droprate = 300 }, -- Ether Ring
+            { itemid = xi.items.NONE, droprate = 350 },
+            { itemid = xi.items.CROSSBOWMANS_RING, droprate = 200 },
+            { itemid = xi.items.WOODSMAN_RING, droprate = 150 },
+            { itemid = xi.items.ETHER_RING, droprate = 300 },
         },
     },
 
@@ -33,19 +34,19 @@ local loot =
     [963] =
     {
         {
-            { itemid =    0, droprate = 950 }, -- Nothing
-            { itemid = 1842, droprate =  50 }, -- Cloud Evoker
+            { itemid = xi.items.NONE, droprate = 950 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate =  50 },
         },
         {
-            { itemid =     0, droprate = 500 }, -- Nothing
-            { itemid = 15433, droprate = 250 }, -- Reverend Sash
-            { itemid = 15434, droprate = 250 }, -- Vanguard Belt
+            { itemid = xi.items.NONE, droprate = 500 },
+            { itemid = xi.items.REVEREND_SASH, droprate = 250 },
+            { itemid = xi.items.VANGUARD_BELT, droprate = 250 },
         },
         {
-            { itemid =     0, droprate = 350 }, -- Nothing
-            { itemid = 13550, droprate = 200 }, -- Crossbowman's Ring
-            { itemid = 14675, droprate = 150 }, -- Woodsman Ring
-            { itemid = 13549, droprate = 300 }, -- Ether Ring
+            { itemid = xi.items.NONE, droprate = 350 },
+            { itemid = xi.items.CROSSBOWMANS_RING, droprate = 200 },
+            { itemid = xi.items.WOODSMAN_RING, droprate = 150 },
+            { itemid = xi.items.ETHER_RING, droprate = 300 },
         },
     },
 
@@ -53,64 +54,64 @@ local loot =
     [964] =
     {
         {
-            { itemid = 678, droprate = 1000 }, -- Aluminum Ore
+            { itemid = xi.items.CHUNK_OF_ALUMINUM_ORE, droprate = 1000 },
         },
         {
-            { itemid = 678, droprate = 1000 }, -- Aluminum Ore
+            { itemid = xi.items.CHUNK_OF_ALUMINUM_ORE, droprate = 1000 },
         },
         {
-            { itemid =    0, droprate = 950 }, -- Nothing
-            { itemid = 1842, droprate =  50 }, -- Cloud Evoker
+            { itemid = xi.items.NONE, droprate = 950 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate =  50 },
         },
         {
-            { itemid =     0, droprate = 700 }, -- Nothing
-            { itemid = 17133, droprate = 100 }, -- Chanter's Staff
-            { itemid = 16965, droprate = 100 }, -- Koryukagemitsu
-            { itemid = 18411, droprate = 100 }, -- Buboso
+            { itemid = xi.items.NONE, droprate = 700 },
+            { itemid = xi.items.CHANTERS_STAFF, droprate = 100 },
+            { itemid = xi.items.KORYUKAGEMITSU, droprate = 100 },
+            { itemid = xi.items.BUBOSO, droprate = 100 },
         },
         {
-            { itemid =     0, droprate = 600 }, -- Nothing
-            { itemid = 14682, droprate = 100 }, -- Kshama Ring No. 2
-            { itemid = 14683, droprate = 100 }, -- Kshama Ring No. 4
-            { itemid = 14685, droprate = 100 }, -- Kshama Ring No. 5
-            { itemid = 14686, droprate = 100 }, -- Kshama Ring No. 9
+            { itemid = xi.items.NONE, droprate = 600 },
+            { itemid = xi.items.KSHAMA_RING_NO2, droprate = 100 },
+            { itemid = xi.items.KSHAMA_RING_NO4, droprate = 100 },
+            { itemid = xi.items.KSHAMA_RING_NO5, droprate = 100 },
+            { itemid = xi.items.KSHAMA_RING_NO9, droprate = 100 },
         },
     },
     -- ENM: Beloved of the Atlantes
     [965] =
     {
         {
-            { itemid = 678, droprate = 1000 }, -- Aluminum Ore
+            { itemid = xi.items.CHUNK_OF_ALUMINUM_ORE, droprate = 1000 },
         },
         {
-            { itemid = 678, droprate = 1000 }, -- Aluminum Ore
+            { itemid = xi.items.CHUNK_OF_ALUMINUM_ORE, droprate = 1000 },
         },
         {
-            { itemid = 678, droprate = 1000 },-- Aluminum Ore
+            { itemid = xi.items.CHUNK_OF_ALUMINUM_ORE, droprate = 1000 },
         },
         {
-            { itemid = 678, droprate = 1000 }, -- Aluminum Ore
+            { itemid = xi.items.CHUNK_OF_ALUMINUM_ORE, droprate = 1000 },
         },
         {
-            { itemid =    0, droprate = 950 }, -- Nothing
-            { itemid = 1842, droprate =  50 }, -- Cloud Evoker
+            { itemid = xi.items.NONE, droprate = 950 },
+            { itemid = xi.items.CLOUD_EVOKER, droprate =  50 },
         },
         {
-            { itemid =     0, droprate = 600 }, -- Nothing
-            { itemid = 17133, droprate = 100 }, -- Chanter's Staff
-            { itemid = 16965, droprate = 100 }, -- Koryukagemitsu
-            { itemid = 18411, droprate = 100 }, -- Buboso
-            { itemid = 18411, droprate = 100 }, -- Raise Rod
+            { itemid = xi.items.NONE, droprate = 600 },
+            { itemid = xi.items.CHANTERS_STAFF, droprate = 100 },
+            { itemid = xi.items.KORYUKAGEMITSU, droprate = 100 },
+            { itemid = xi.items.BUBOSO, droprate = 100 },
+            { itemid = xi.items.BUBOSO, droprate = 100 },
         },
         {
-            { itemid =     0, droprate = 600 }, -- Nothing
-            { itemid = 14682, droprate = 100 }, -- Kshama Ring No. 2
-            { itemid = 14684, droprate = 100 }, -- Kshama Ring No. 3
-            { itemid = 14683, droprate = 100 }, -- Kshama Ring No. 4
-            { itemid = 14685, droprate = 100 }, -- Kshama Ring No. 5
-            { itemid = 14687, droprate = 100 }, -- Kshama Ring No. 6
-            { itemid = 13551, droprate = 100 }, -- Kshama Ring No. 8
-            { itemid = 14686, droprate = 100 }, -- Kshama Ring No. 9
+            { itemid = xi.items.NONE, droprate = 600 },
+            { itemid = xi.items.KSHAMA_RING_NO2, droprate = 100 },
+            { itemid = xi.items.KSHAMA_RING_NO3, droprate = 100 },
+            { itemid = xi.items.KSHAMA_RING_NO4, droprate = 100 },
+            { itemid = xi.items.KSHAMA_RING_NO5, droprate = 100 },
+            { itemid = xi.items.KSHAMA_RING_NO6, droprate = 100 },
+            { itemid = xi.items.KSHAMA_RING_NO8, droprate = 100 },
+            { itemid = xi.items.KSHAMA_RING_NO9, droprate = 100 },
         },
     },
 }

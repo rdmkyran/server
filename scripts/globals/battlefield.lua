@@ -1114,11 +1114,11 @@ function Battlefield:handleLootRolls(battlefield, lootTable, npc)
                         current = current + entry.droprate
 
                         if current > roll then
-                            if entry.itemid == 0 then
+                            if entry.itemid == xi.items.NONE then
                                 break
                             end
 
-                            if entry.itemid == 65535 then
+                            if entry.itemid == xi.items.GIL then
                                 local gil = entry.amount / #players
 
                                 for k = 1, #players, 1 do

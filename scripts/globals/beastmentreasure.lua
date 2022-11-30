@@ -6,6 +6,7 @@ require('scripts/globals/keyitems')
 require('scripts/globals/quests')
 require('scripts/globals/status')
 require('scripts/globals/zone')
+require("scripts/globals/items")
 -----------------------------------
 xi = xi or {}
 xi.beastmentreasure = xi.beastmentreasure or {}
@@ -20,15 +21,15 @@ local zoneData =
         day = xi.day.WINDSDAY,
         fetchitems =
         {
-            1480, -- Mermaid Head
-            1481, -- Mermaid Body
-            1482, -- Mermaid Hands
-            1483  -- Mermaid Tail
+            xi.items.MERMAID_HEAD,
+            xi.items.MERMAID_BODY,
+            xi.items.MERMAID_HANDS,
+            xi.items.MERMAID_TAIL
         },
         loot =
         {
-            unique = { [14626] = 5 }, -- Mermaid's Ring
-            racial = { [887]   = 3 }  -- Coral Fragment
+            unique = { [xi.items.MERMAIDS_RING] = 5 },
+            racial = { [xi.items.CORAL_FRAGMENT] = 3 }
         }
     },
     [xi.zone.YHOATOR_JUNGLE] =
@@ -39,15 +40,15 @@ local zoneData =
         day = xi.day.LIGHTNINGDAY,
         fetchitems =
         {
-            1484, -- Rancor Mantle
-            1485, -- Rancor Globe
-            1486, -- Rancor Tank
-            1487  -- Rancor Handle
+            xi.items.RANCOR_MANTLE,
+            xi.items.RANCOR_GLOBE,
+            xi.items.RANCOR_TANK,
+            xi.items.RANCOR_HANDLE
         },
         loot =
         {
-            unique = { [13400] = 5 }, -- Bitter Earring
-            racial = { [4158]  = 3 }  -- Venom Potion
+            unique = { [xi.items.BITTER_EARRING] = 5 },
+            racial = { [xi.items.FLASK_OF_VENOM_POTION] = 3 }
         }
     },
     [xi.zone.WESTERN_ALTEPA_DESERT] =
@@ -58,15 +59,15 @@ local zoneData =
         day = xi.day.EARTHSDAY,
         fetchitems =
         {
-            1476, -- Xhifhut Strings
-            1477, -- Xhifhut Body
-            1478, -- Xhifhut Bow
-            1479  -- Xhifhut Head
+            xi.items.BAG_OF_XHIFHUT_STRINGS,
+            xi.items.XHIFHUT_BODY,
+            xi.items.XHIFHUT_BOW,
+            xi.items.XHIFHUT_HEAD
         },
         loot =
         {
-            unique = { [13655] = 5 }, -- Sand Mantle
-            racial = { [645]   = 3 }  -- Darksteel Ore
+            unique = { [xi.items.SAND_MANTLE] = 5 },
+            racial = { [xi.items.CHUNK_OF_DARKSTEEL_ORE] = 3 }
         }
     }
 }
@@ -76,40 +77,40 @@ local sharedLoot =
     -- All items are assigned a "weight" here
     rocksgems =
     {
-        [769] = 1, -- Red rock
-        [770] = 1, -- Blue rock
-        [771] = 1, -- Yellow rock
-        [772] = 1, -- Green rock
-        [773] = 1, -- Translucent rock
-        [774] = 1, -- Purple rock
-        [775] = 1, -- Black rock
-        [776] = 1, -- White rock
+        [xi.items.RED_ROCK] = 1,
+        [xi.items.BLUE_ROCK] = 1,
+        [xi.items.YELLOW_ROCK] = 1,
+        [xi.items.GREEN_ROCK] = 1,
+        [xi.items.TRANSLUCENT_ROCK] = 1,
+        [xi.items.PURPLE_ROCK] = 1,
+        [xi.items.BLACK_ROCK] = 1,
+        [xi.items.WHITE_ROCK] = 1,
         -- Tier 1 gems
-        [795] = 2, -- Lapis Lazuli (blue)
-        [796] = 2, -- Light Opal   (white)
-        [799] = 2, -- Onyx         (black)
-        [800] = 2, -- Amethyst     (purple)
-        [806] = 2, -- Tourmaline   (green)
-        [807] = 2, -- Sardonyx     (red)
-        [809] = 2, -- Clear Topaz  (translucent)
-        [814] = 2, -- Amber        (yellow)
+        [xi.items.LAPIS_LAZULI] = 2,
+        [xi.items.LIGHT_OPAL] = 2,
+        [xi.items.ONYX] = 2,
+        [xi.items.AMETHYST] = 2,
+        [xi.items.TOURMALINE] = 2,
+        [xi.items.SARDONYX] = 2,
+        [xi.items.CLEAR_TOPAZ] = 2,
+        [xi.items.AMBER_STONE] = 2,
     },
     seeds =
     {
-        [572] = 1, -- Herb seeds
-        [573] = 1, -- Vegetable seeds
-        [574] = 1, -- Fruit seeds
-        [575] = 1, -- Grain seeds
+        [xi.items.BAG_OF_HERB_SEEDS] = 1,
+        [xi.items.BAG_OF_VEGETABLE_SEEDS] = 1,
+        [xi.items.BAG_OF_FRUIT_SEEDS] = 1,
+        [xi.items.BAG_OF_GRAIN_SEEDS] = 1,
     },
     coins =
     {
-        [748] = 1, -- Gold beastcoin
-        [749] = 1, -- Mythril beastcoin
-        [750] = 1, -- Silver beastcoin
+        [xi.items.GOLD_BEASTCOIN] = 1,
+        [xi.items.MYTHRIL_BEASTCOIN] = 1,
+        [xi.items.SILVER_BEASTCOIN] = 1,
     },
     seals =
     {
-        [1126] = 2 -- Beastmen's Seal
+        [xi.items.BEASTMENS_SEAL] = 2
     }
 }
 

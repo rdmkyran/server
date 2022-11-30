@@ -9,6 +9,7 @@ require("scripts/globals/settings")
 require("scripts/globals/status")
 require("scripts/globals/pets")
 require("scripts/globals/msg")
+require("scripts/globals/items")
 -----------------------------------
 local abilityObject = {}
 
@@ -23,14 +24,14 @@ abilityObject.onAbilityCheck = function(player, target, ability)
         if (id >= 17016 and id <= 17023) then
             local playerLevel = player:getMainLvl()
             local itemLevels = {}
-            itemLevels[17016] = 12 -- Alpha
-            itemLevels[17017] = 24 -- Beta
-            itemLevels[17018] = 36 -- Gamma
-            itemLevels[17019] = 48 -- Delta
-            itemLevels[17020] = 60 -- Epsilon
-            itemLevels[17021] = 72 -- Zeta
-            itemLevels[17022] = 84 -- Eta
-            itemLevels[17023] = 96 -- Theta
+            itemLevels[xi.items.PET_FOOD_ALPHA_BISCUIT] = 12
+            itemLevels[xi.items.PET_FOOD_BETA_BISCUIT] = 24
+            itemLevels[xi.items.PET_FOOD_GAMMA_BISCUIT] = 36
+            itemLevels[xi.items.PET_FOOD_DELTA_BISCUIT] = 48
+            itemLevels[xi.items.PET_FOOD_EPSILON_BISCUIT] = 60
+            itemLevels[xi.items.PET_FOOD_ZETA_BISCUIT] = 72
+            itemLevels[xi.items.PET_FOOD_ETA_BISCUIT] = 84
+            itemLevels[xi.items.PET_FOOD_THETA_BISCUIT] = 96
 
             if playerLevel < itemLevels[id] then return xi.msg.basic.MUST_HAVE_FOOD, 0 end
             return 0, 0
@@ -61,7 +62,7 @@ abilityObject.onUseAbility = function(player, target, ability, action)
     -- http://wiki.ffxiclopedia.org/wiki/Reward
 
     switch (rangeObj) : caseof {
-        [17016] = function (x) -- pet food alpha biscuit
+        [xi.items.PET_FOOD_ALPHA_BISCUIT] = function (x)
             minimumHealing = 20
             if xi.settings.main.ENABLE_ABYSSEA == 1 then
                 minimumHealing = 50
@@ -69,7 +70,7 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             regenAmount = 1
             totalHealing = math.floor(minimumHealing + 2 * (playerMnd - 10))
             end,
-        [17017] = function (x) -- pet food beta biscuit
+        [xi.items.PET_FOOD_BETA_BISCUIT] = function (x)
             minimumHealing = 50
             if xi.settings.main.ENABLE_ABYSSEA == 1 then
                 minimumHealing = 180
@@ -77,7 +78,7 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             regenAmount = 3
             totalHealing = math.floor(minimumHealing + 1 * (playerMnd - 33))
             end,
-        [17018] = function (x) -- pet food gamma biscuit
+        [xi.items.PET_FOOD_GAMMA_BISCUIT] = function (x)
             minimumHealing = 100
             if xi.settings.main.ENABLE_ABYSSEA == 1 then
                 minimumHealing = 300
@@ -85,7 +86,7 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             regenAmount = 5
             totalHealing = math.floor(minimumHealing + 1 * (playerMnd - 35)) -- TO BE VERIFIED.
             end,
-        [17019] = function (x) -- pet food delta biscuit
+        [xi.items.PET_FOOD_DELTA_BISCUIT] = function (x)
             minimumHealing = 150
             if xi.settings.main.ENABLE_ABYSSEA == 1 then
                 minimumHealing = 530
@@ -93,7 +94,7 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             regenAmount = 8
             totalHealing = math.floor(minimumHealing + 2 * (playerMnd - 40)) -- TO BE VERIFIED.
             end,
-        [17020] = function (x) -- pet food epsilon biscuit
+        [xi.items.PET_FOOD_EPSILON_BISCUIT] = function (x)
             minimumHealing = 300
             if xi.settings.main.ENABLE_ABYSSEA == 1 then
                 minimumHealing = 750
@@ -101,7 +102,7 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             regenAmount = 11
             totalHealing = math.floor(minimumHealing + 2 * (playerMnd - 45))
             end,
-        [17021] = function (x) -- pet food zeta biscuit
+        [xi.items.PET_FOOD_ZETA_BISCUIT] = function (x)
             minimumHealing = 350
             if xi.settings.main.ENABLE_ABYSSEA == 1 then
                 minimumHealing = 900
@@ -109,12 +110,12 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             regenAmount = 14
             totalHealing = math.floor(minimumHealing + 3 * (playerMnd - 45))
             end,
-        [17022] = function (x) -- pet food eta biscuit
+        [xi.items.PET_FOOD_ETA_BISCUIT] = function (x)
             minimumHealing = 1200
             regenAmount = 17
             totalHealing = math.floor(minimumHealing + 4 * (playerMnd - 50))
             end,
-        [17023] = function (x) -- pet food theta biscuit
+        [xi.items.PET_FOOD_THETA_BISCUIT] = function (x)
             minimumHealing = 1600
             regenAmount = 20
             totalHealing = math.floor(minimumHealing + 4 * (playerMnd - 55))
@@ -125,13 +126,13 @@ abilityObject.onUseAbility = function(player, target, ability, action)
     local body = player:getEquipID(xi.slot.BODY)
 
     switch (body) : caseof {
-        [12646] = function (x) -- beast jackcoat
+        [xi.items.BEAST_JACKCOAT] = function (x)
             -- This will remove Paralyze, Poison and Blind from the pet.
             pet:delStatusEffect(xi.effect.PARALYSIS)
             pet:delStatusEffect(xi.effect.POISON)
             pet:delStatusEffect(xi.effect.BLINDNESS)
             end,
-        [14481] = function (x) -- beast jackcoat +1
+        [xi.items.BEAST_JACKCOAT_P1] = function (x)
             -- This will remove Paralyze, Poison, Blind, Weight, Slow and Silence from the pet.
             pet:delStatusEffect(xi.effect.PARALYSIS)
             pet:delStatusEffect(xi.effect.POISON)
@@ -140,13 +141,13 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             pet:delStatusEffect(xi.effect.SLOW)
             pet:delStatusEffect(xi.effect.SILENCE)
             end,
-        [15095] = function (x) -- monster jackcoat
+        [xi.items.MONSTER_JACKCOAT] = function (x)
             -- This will remove Weight, Slow and Silence from the pet.
             pet:delStatusEffect(xi.effect.WEIGHT)
             pet:delStatusEffect(xi.effect.SLOW)
             pet:delStatusEffect(xi.effect.SILENCE)
             end,
-        [14508] = function (x) -- monster jackcoat +1
+        [xi.items.MONSTER_JACKCOAT_P1] = function (x)
             -- This will remove Paralyze, Poison, Blind, Weight, Slow and Silence from the pet.
             pet:delStatusEffect(xi.effect.PARALYSIS)
             pet:delStatusEffect(xi.effect.POISON)
