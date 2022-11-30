@@ -15,7 +15,7 @@ entity.onTrade = function(player, npc, trade)
 
     if
         (forgetTheAntidote == QUEST_ACCEPTED or forgetTheAntidote == QUEST_COMPLETED) and
-        trade:hasItemQty(1209, 1) and
+        trade:hasItemQty(xi.items.VIAL_OF_DESERT_VENOM, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(4, 0, 1209)

@@ -9,7 +9,7 @@ require("scripts/globals/keyitems")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if trade:getItemCount() == 1 and trade:hasItemQty(2185, 1) then -- Silver
+    if trade:getItemCount() == 1 and trade:hasItemQty(xi.items.IMPERIAL_SILVER_PIECE, 1) then
         player:tradeComplete()
         player:startEvent(223)
     end

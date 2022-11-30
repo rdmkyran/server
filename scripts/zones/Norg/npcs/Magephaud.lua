@@ -12,7 +12,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     local everyonesGrudge = player:getQuestStatus(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.EVERYONES_GRUDGE)
     if everyonesGrudge == QUEST_ACCEPTED then
-        if trade:hasItemQty(748, 3) and trade:getItemCount() == 3 then
+        if trade:hasItemQty(xi.items.GOLD_BEASTCOIN, 3) and trade:getItemCount() == 3 then
             player:startEvent(118, 748)
         end
     end

@@ -18,7 +18,7 @@ entity.onTrade = function(player, npc, trade)
     if
         player:getQuestStatus(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_REQUIEM) == QUEST_ACCEPTED and
         player:getCharVar("TheRequiemCS") == 2 and
-        trade:hasItemQty(4154, 1) and
+        trade:hasItemQty(xi.items.FLASK_OF_HOLY_WATER, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(151)

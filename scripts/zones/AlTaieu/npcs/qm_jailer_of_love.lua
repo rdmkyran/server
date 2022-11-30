@@ -14,9 +14,9 @@ entity.onTrade = function(player, npc, trade)
     if
         (not GetMobByID(ID.mob.JAILER_OF_LOVE):isSpawned() and
         not GetMobByID(ID.mob.ABSOLUTE_VIRTUE):isSpawned() and
-        trade:hasItemQty(1848, 1) and -- fourth_virtue
-        trade:hasItemQty(1847, 1) and -- fifth_virtue
-        trade:hasItemQty(1849, 1) and -- sixth_virtue
+        trade:hasItemQty(xi.items.FOURTH_VIRTUE, 1) and
+        trade:hasItemQty(xi.items.FIFTH_VIRTUE, 1) and
+        trade:hasItemQty(xi.items.SIXTH_VIRTUE, 1) and
         trade:getItemCount() == 3 and
         npcUtil.popFromQM(player, npc, { ID.mob.JAILER_OF_LOVE }, { claim = true }))
     then

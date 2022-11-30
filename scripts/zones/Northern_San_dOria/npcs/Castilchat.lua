@@ -14,7 +14,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     local count = trade:getItemCount()
     if
-        trade:hasItemQty(1545, 1) and
+        trade:hasItemQty(xi.items.MINI_TUNING_FORK_OF_ICE, 1) and
         player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.TRIAL_SIZE_TRIAL_BY_ICE) == QUEST_ACCEPTED and
         player:getMainJob() == xi.job.SMN and
         count == 1

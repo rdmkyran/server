@@ -18,13 +18,13 @@ entity.onTrade = function(player, npc, trade)
     local count = trade:getItemCount()
 
     if turmoil == QUEST_ACCEPTED then
-        if count == 3 and trade:getGil() == 0 and trade:hasItemQty(906, 3) then --Check that all 3 items have been traded
+        if count == 3 and trade:getGil() == 0 and trade:hasItemQty(xi.items.STARMITE_SHELL, 3) then
             player:startEvent(791)
         else
             player:startEvent(786, 4500, 267, 906) -- Reminder of needed items
         end
     elseif turmoil == QUEST_COMPLETED then
-        if count == 3 and trade:getGil() == 0 and trade:hasItemQty(906, 3) then --Check that all 3 items have been traded
+        if count == 3 and trade:getGil() == 0 and trade:hasItemQty(xi.items.STARMITE_SHELL, 3) then
             player:startEvent(791)
         else
             player:startEvent(795, 4500, 0, 906) -- Reminder of needed items for repeated quest

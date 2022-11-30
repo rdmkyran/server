@@ -14,7 +14,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        trade:hasItemQty(555, 1) and
+        trade:hasItemQty(xi.items.CLOCK_TOWER_PETITION, 1) and
         trade:getGil() == 0 and
         trade:getItemCount() == 1
     then
@@ -45,7 +45,7 @@ entity.onTrade = function(player, npc, trade)
 
     elseif player:getQuestStatus(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.NORTHWARD) == QUEST_ACCEPTED then
         if
-            trade:hasItemQty(16522, 1) and
+            trade:hasItemQty(xi.items.FLAME_DEGEN, 1) and
             trade:getGil() == 0 and
             trade:getItemCount() == 1
         then

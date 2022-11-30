@@ -13,7 +13,7 @@ local entity = {}
 -- Lufet Salt can be obtained by killing Crabs in normal West Ronfaure.
 
 entity.onTrade = function(player, npc, trade)
-    local lufetSalt = trade:hasItemQty(1019, 1)
+    local lufetSalt = trade:hasItemQty(xi.items.CHUNK_OF_LUFET_SALT, 1)
     local cnt = trade:getItemCount()
     local beansAhoy = player:getQuestStatus(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.BEANS_AHOY)
 

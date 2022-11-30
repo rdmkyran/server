@@ -12,9 +12,9 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     local count = trade:getItemCount()
-    local northernFurs = trade:hasItemQty(1199, 4)
-    local easternPottery = trade:hasItemQty(1200, 4)
-    local southernMummies = trade:hasItemQty(1201, 4)
+    local northernFurs = trade:hasItemQty(xi.items.NORTHERN_FUR, 4)
+    local easternPottery = trade:hasItemQty(xi.items.PIECE_OF_EASTERN_POTTERY, 4)
+    local southernMummies = trade:hasItemQty(xi.items.SOUTHERN_MUMMY, 4)
 
     if
         player:getQuestStatus(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.BLACK_MARKET) == QUEST_ACCEPTED or

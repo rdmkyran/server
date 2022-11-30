@@ -13,7 +13,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     -- "The Setting Sun" conditional script
     if player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_SETTING_SUN) == QUEST_ACCEPTED then
-        if trade:hasItemQty(535, 1) and trade:getItemCount() == 1 then
+        if trade:hasItemQty(xi.items.ENGRAVED_KEY, 1) and trade:getItemCount() == 1 then
             player:startEvent (658)
         end
     end

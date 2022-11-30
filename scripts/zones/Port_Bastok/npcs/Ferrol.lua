@@ -13,7 +13,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        trade:hasItemQty(1547, 1) and
+        trade:hasItemQty(xi.items.MINI_TUNING_FORK_OF_EARTH, 1) and
         player:getQuestStatus(xi.quest.log_id.BASTOK, xi.quest.id.bastok.TRIAL_SIZE_TRIAL_BY_EARTH) == QUEST_ACCEPTED and
         player:getMainJob() == xi.job.SMN
     then

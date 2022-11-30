@@ -19,7 +19,7 @@ entity.onTrade = function(player, npc, trade)
 
     if aLittleKnowledge == QUEST_ACCEPTED and aLittleKnowledgeProgress == 1 then
         if
-            trade:hasItemQty(2550, 12) and
+            trade:hasItemQty(xi.items.VELLUM, 12) and
             trade:getGil() == 0 and
             trade:getItemCount() == 12
         then

@@ -13,9 +13,9 @@ entity.onTrade = function(player, npc, trade)
     -- JAILER OF JUSTICE
     if
         (not GetMobByID(ID.mob.JAILER_OF_JUSTICE):isSpawned() and
-        trade:hasItemQty(1853, 1) and -- second_virtue
-        trade:hasItemQty(1854, 1) and -- deed_of_moderation
-        trade:hasItemQty(1855, 1) and -- hq_xzomit_organ
+        trade:hasItemQty(xi.items.SECOND_VIRTUE, 1) and
+        trade:hasItemQty(xi.items.DEED_OF_MODERATION, 1) and
+        trade:hasItemQty(xi.items.HIGH_QUALITY_XZOMIT_ORGAN, 1) and
         trade:getItemCount() == 3 and
         npcUtil.popFromQM(player, npc, { ID.mob.JAILER_OF_JUSTICE }, { claim = true }))
     then

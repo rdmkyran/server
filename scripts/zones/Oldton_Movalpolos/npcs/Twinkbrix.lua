@@ -40,7 +40,7 @@ entity.onTrade = function(player, npc, trade)
         player:startEvent(55, tradeGil, maxRoll, diceRoll, mineShaftWarpCost)
 
     elseif
-        trade:hasItemQty(1781, 1) and
+        trade:hasItemQty(xi.items.SYLVAN_STONE, 1) and
         trade:getItemCount() == 1 and
         operatingLeverCD < os.time()
     then

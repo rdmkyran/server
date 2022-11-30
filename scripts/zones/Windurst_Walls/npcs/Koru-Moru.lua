@@ -16,13 +16,13 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     local count = trade:getItemCount()
 
-    if trade:hasItemQty(829, 1) and count == 1 and trade:getGil() == 0 then
+    if trade:hasItemQty(xi.items.SQUARE_OF_SILK_CLOTH, 1) and count == 1 and trade:getGil() == 0 then
         if player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_ROOT_OF_THE_PROBLEM) == QUEST_ACCEPTED then
             player:startEvent(349)
             player:tradeComplete()
             player:setCharVar("rootProblem", 2)
         end
-    elseif trade:hasItemQty(17299, 4) and count == 4 and trade:getGil() == 0 then -- trade:getItemCount() is apparently checking total of all 8 slots combined. Could have sworn that wasn't how it worked before.
+    elseif trade:hasItemQty(xi.items.ASTRAGALOS, 4) and count == 4 and trade:getGil() == 0 then
         if
             player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.CLASS_REUNION) == QUEST_ACCEPTED and
             player:getCharVar("ClassReunionProgress") == 2

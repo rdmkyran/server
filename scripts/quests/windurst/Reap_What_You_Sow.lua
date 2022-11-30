@@ -77,9 +77,9 @@ quest.sections =
 
                 onTrade = function(player, npc, trade)
                     if trade:getItemCount() == 1 then
-                        if (trade:hasItemQty(4565, 1) == true) then
+                        if (trade:hasItemQty(xi.items.SOBBING_FUNGUS, 1) == true) then
                             return quest:progressEvent(475, 500, 131) -- Sobbing Fungus
-                        elseif (trade:hasItemQty(4566, 1) == true) then
+                        elseif (trade:hasItemQty(xi.items.DEATHBALL, 1) == true) then
                             return quest:progressEvent(477, 700) -- Deathball
                         end
                     end
@@ -137,9 +137,9 @@ quest.sections =
 
                 onTrade = function(player, npc, trade)
                     if trade:getItemCount() == 1 then
-                        if (trade:hasItemQty(4565, 1) == true) then
+                        if (trade:hasItemQty(xi.items.SOBBING_FUNGUS, 1) == true) then
                             player:startEvent(475, 500, 131) -- Sobbing Fungus
-                        elseif (trade:hasItemQty(4566, 1) == true) then
+                        elseif (trade:hasItemQty(xi.items.DEATHBALL, 1) == true) then
                             player:startEvent(477, 700) -- Deathball
                         end
                     end

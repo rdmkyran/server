@@ -10,7 +10,7 @@ local ID = require("scripts/zones/Port_Bastok/IDs")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if trade:hasItemQty(536, 1) and trade:getItemCount() == 1 then
+    if trade:hasItemQty(xi.items.ADVENTURER_COUPON, 1) and trade:getItemCount() == 1 then
         player:startEvent(8)
     end
 end

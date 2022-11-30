@@ -132,25 +132,25 @@ quest.sections =
 
                 onTrade = function(player, npc, trade)
                     if quest:getVar(player, 'Prog') >= 2 and quest:getVar(player, 'Prog') < 7 then
-                        if trade:hasItemQty(1669, 1) and trade:getItemCount() == 1 then
+                        if trade:hasItemQty(xi.items.PINCH_OF_HOARY_BOMB_ASH, 1) and trade:getItemCount() == 1 then
                             if player:hasKeyItem(xi.ki.DUSTY_TOME) then
                                 return quest:progressEvent(4, 0, 0, 0)
                             else
                                 return quest:progressEvent(4, 0, 0, 1)
                             end
-                        elseif trade:hasItemQty(1669, 2) and trade:getItemCount() == 2 then
+                        elseif trade:hasItemQty(xi.items.PINCH_OF_HOARY_BOMB_ASH, 2) and trade:getItemCount() == 2 then
                             if player:hasKeyItem(xi.ki.POINTED_JUG) then
                                 return quest:progressEvent(4, 0, 0, 0)
                             else
                                 return quest:progressEvent(4, 0, 0, 2)
                             end
-                        elseif trade:hasItemQty(1669, 3) and trade:getItemCount() == 3 then
+                        elseif trade:hasItemQty(xi.items.PINCH_OF_HOARY_BOMB_ASH, 3) and trade:getItemCount() == 3 then
                             if player:hasKeyItem(xi.ki.CRACKED_CLUB) then
                                 return quest:progressEvent(4, 0, 0, 0)
                             else
                                 return quest:progressEvent(4, 0, 0, 3)
                             end
-                        elseif trade:hasItemQty(1669, 4) and trade:getItemCount() == 4 then
+                        elseif trade:hasItemQty(xi.items.PINCH_OF_HOARY_BOMB_ASH, 4) and trade:getItemCount() == 4 then
                             if player:hasKeyItem(xi.ki.PEELING_HAIRPIN) then
                                 return quest:progressEvent(4, 0, 0, 0)
                             else

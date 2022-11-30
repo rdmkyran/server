@@ -16,21 +16,21 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     if
         player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_THREE_MAGI) == QUEST_ACCEPTED and
-        trade:hasItemQty(1104, 1) and
+        trade:hasItemQty(xi.items.GLOWSTONE, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(269) -- Finish Quest "The Three Magi"
     elseif
         player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.RECOLLECTIONS) == QUEST_ACCEPTED and
         player:getCharVar("recollectionsQuest") < 2 and
-        trade:hasItemQty(1105, 1) and
+        trade:hasItemQty(xi.items.BAG_OF_SEEDS, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(271, 0, 520)
     elseif
         player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_ROOT_OF_THE_PROBLEM) == QUEST_ACCEPTED and
         player:getCharVar("rootProblem") == 1 and
-        trade:hasItemQty(829, 1) and
+        trade:hasItemQty(xi.items.SQUARE_OF_SILK_CLOTH, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(278)

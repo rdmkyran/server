@@ -15,7 +15,7 @@ entity.onTrade = function(player, npc, trade)
     local offer = trade:getItemId()
 
     if flowerProgress == 3 then
-        if trade:hasItemQty(950, 1) and trade:getItemCount() == 1 then
+        if trade:hasItemQty(xi.items.TAHRONGI_CACTUS, 1) and trade:getItemCount() == 1 then
             if sayFlowers == QUEST_COMPLETED then
                 player:startEvent(525, xi.settings.main.GIL_RATE * 400)
             else

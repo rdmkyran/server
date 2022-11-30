@@ -12,7 +12,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     if
         player:getQuestStatus(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.SECRET_OF_THE_DAMP_SCROLL) == QUEST_ACCEPTED and
-        trade:hasItemQty(1210, 1) and trade:getItemCount() == 1
+        trade:hasItemQty(xi.items.DAMP_SCROLL, 1) and trade:getItemCount() == 1
     then
         player:startEvent(2, 1210)
     end

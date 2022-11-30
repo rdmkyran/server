@@ -25,12 +25,12 @@ entity.onTrade = function(player, npc, trade)
 
     if brygidReturns == QUEST_ACCEPTED and wantsSubligar ~= 0 then
         if wantsSubligar == 13 then
-            if trade:getItemCount() == 1 and trade:hasItemQty(15375 + wantsSubligar, 1) then
+            if trade:getItemCount() == 1 and trade:hasItemQty(xi.items.ARIES_SUBLIGAR + wantsSubligar, 1) then
                 player:tradeComplete()
                 player:startEvent(383)
             end
         else
-            if trade:getItemCount() == 1 and trade:hasItemQty(15374 + wantsSubligar, 1) then
+            if trade:getItemCount() == 1 and trade:hasItemQty(xi.items.DRUIDS_SLOPS + wantsSubligar, 1) then
                 player:tradeComplete()
                 player:startEvent(383)
             end

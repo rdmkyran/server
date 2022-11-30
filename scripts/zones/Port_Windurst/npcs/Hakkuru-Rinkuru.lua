@@ -16,16 +16,16 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.MAKING_AMENDS) == QUEST_ACCEPTED then
-        if trade:hasItemQty(937, 1) and trade:getItemCount() == 1 then
+        if trade:hasItemQty(xi.items.BLOCK_OF_ANIMAL_GLUE, 1) and trade:getItemCount() == 1 then
             player:startEvent(277, 1500)
         else
             player:startEvent(275, 0, 937)
         end
     elseif player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.WONDER_WANDS) == QUEST_ACCEPTED then
         if
-            trade:hasItemQty(17091, 1) and
-            trade:hasItemQty(17061, 1) and
-            trade:hasItemQty(17053, 1) and
+            trade:hasItemQty(xi.items.OAK_STAFF, 1) and
+            trade:hasItemQty(xi.items.MYTHRIL_ROD, 1) and
+            trade:hasItemQty(xi.items.ROSE_WAND, 1) and
             trade:getItemCount() == 3
         then
             -- Check that all 3 items have been traded, one each

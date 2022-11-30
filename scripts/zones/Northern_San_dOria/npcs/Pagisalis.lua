@@ -12,7 +12,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.UNDYING_FLAMES) == QUEST_ACCEPTED then
-        if trade:hasItemQty(913, 2) and trade:getItemCount() == 2 then -- Trade Lump of Beeswax
+        if trade:hasItemQty(xi.items.LUMP_OF_BEESWAX, 2) and trade:getItemCount() == 2 then
             player:startEvent(563)
         else
             player:startEvent(564)

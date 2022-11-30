@@ -15,10 +15,10 @@ entity.onTrade = function(player, npc, trade)
     if
         letterRed == 2 and
         trade:getItemCount() == 4 and
-        trade:hasItemQty(761, 1) and
-        trade:hasItemQty(828, 1) and
-        trade:hasItemQty(1829, 1) and
-        trade:hasItemQty(1997, 1)
+        trade:hasItemQty(xi.items.GOLD_CHAIN, 1) and
+        trade:hasItemQty(xi.items.SQUARE_OF_VELVET_CLOTH, 1) and
+        trade:hasItemQty(xi.items.SQUARE_OF_RED_GRASS_CLOTH, 1) and
+        trade:hasItemQty(xi.items.SQUARE_OF_SAILCLOTH, 1)
     then
         player:startEvent(755) -- accepts materials, now bring me imperial gold piece
 
@@ -26,7 +26,7 @@ entity.onTrade = function(player, npc, trade)
     elseif
         letterRed == 3 and
         trade:getItemCount() == 1 and
-        trade:hasItemQty(2187, 1)
+        trade:hasItemQty(xi.items.IMPERIAL_GOLD_PIECE, 1)
     then
         player:startEvent(760) -- accepts gold piece, now wait for next vana'diel day
 

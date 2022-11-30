@@ -11,7 +11,7 @@ require("scripts/globals/quests")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if trade:hasItemQty(13315, 1) and trade:getItemCount() == 1 then -- Trade gold earring (during Rng AF3 quest)
+    if trade:hasItemQty(xi.items.GOLD_EARRING, 1) and trade:getItemCount() == 1 then
         local unbridledPassionCS = player:getCharVar("unbridledPassion")
         if unbridledPassionCS == 2 then
             player:startEvent(10011)

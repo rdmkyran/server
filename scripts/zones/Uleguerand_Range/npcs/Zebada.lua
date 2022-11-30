@@ -11,7 +11,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     -- Trade Chamnaet Ice
-    if trade:hasItemQty(1780, 1) and trade:getItemCount() == 1 then
+    if trade:hasItemQty(xi.items.HANDFUL_OF_CHAMNAET_ICE, 1) and trade:getItemCount() == 1 then
         player:tradeComplete()
         player:startEvent(13)
     end

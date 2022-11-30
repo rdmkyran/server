@@ -15,7 +15,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     if
         player:getCharVar("MissionaryManVar") == 1 and
-        trade:hasItemQty(1146, 1) and
+        trade:hasItemQty(xi.items.SLAB_OF_ELSHIMO_MARBLE, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(139) -- Trading elshimo marble

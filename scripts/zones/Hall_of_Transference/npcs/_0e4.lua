@@ -11,7 +11,7 @@ entity.onTrade = function(player, npc, trade)
     if
         player:getCharVar("HollaChipRegistration") == 0 and
         player:getCharVar("skyShortcut") == 1 and
-        trade:hasItemQty(478, 1) and
+        trade:hasItemQty(xi.items.CLEAR_CHIP, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(166)

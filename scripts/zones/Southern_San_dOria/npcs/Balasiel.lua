@@ -15,7 +15,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_SQUIRE_S_TEST) == QUEST_ACCEPTED then
-        if trade:hasItemQty(940, 1) and trade:getItemCount() == 1 then
+        if trade:hasItemQty(xi.items.REVIVAL_TREE_ROOT, 1) and trade:getItemCount() == 1 then
             player:startEvent(617)
         end
     end

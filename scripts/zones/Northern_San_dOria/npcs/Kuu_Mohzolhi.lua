@@ -14,29 +14,29 @@ entity.onTrade = function(player, npc, trade)
     local itemQuality = 0
 
     if trade:getItemCount() == 1 and trade:getGil() == 0 then
-        if trade:hasItemQty(958, 1) then            -- Marguerite
+        if trade:hasItemQty(xi.items.MARGUERITE, 1) then
             itemQuality = 2
         elseif
-            trade:hasItemQty(957, 1)  or        -- Amaryllis
-            trade:hasItemQty(2554, 1) or        -- Asphodel
-            trade:hasItemQty(948, 1)  or        -- Carnation
-            trade:hasItemQty(1120, 1) or        -- Casablanca
-            trade:hasItemQty(1413, 1) or        -- Cattleya
-            trade:hasItemQty(636, 1)  or        -- Chamomile
-            trade:hasItemQty(959, 1)  or        -- Dahlia
-            trade:hasItemQty(835, 1)  or        -- Flax Flower
-            trade:hasItemQty(956, 1)  or        -- Lilac
-            trade:hasItemQty(2507, 1) or        -- Lycopodium Flower
-            trade:hasItemQty(1412, 1) or        -- Olive Flower
-            trade:hasItemQty(938, 1)  or        -- Papaka Grass
-            trade:hasItemQty(1411, 1) or        -- Phalaenopsis
-            trade:hasItemQty(949, 1)  or        -- Rain Lily
-            trade:hasItemQty(941, 1)  or        -- Red Rose
-            trade:hasItemQty(1725, 1) or        -- Snow Lily
-            trade:hasItemQty(1410, 1) or        -- Sweet William
-            trade:hasItemQty(950, 1)  or        -- Tahrongi Cactus
-            trade:hasItemQty(2960, 1) or        -- Water Lily
-            trade:hasItemQty(951, 1)            -- Wijnruit
+            trade:hasItemQty(xi.items.AMARYLLIS, 1)  or
+            trade:hasItemQty(xi.items.ASPHODEL, 1) or
+            trade:hasItemQty(xi.items.CARNATION, 1)  or
+            trade:hasItemQty(xi.items.CASABLANCA, 1) or
+            trade:hasItemQty(xi.items.CATTLEYA, 1) or
+            trade:hasItemQty(xi.items.CHAMOMILE, 1)  or
+            trade:hasItemQty(xi.items.DAHLIA, 1)  or
+            trade:hasItemQty(xi.items.FLAX_FLOWER, 1)  or
+            trade:hasItemQty(xi.items.LILAC, 1)  or
+            trade:hasItemQty(xi.items.LYCOPODIUM_FLOWER, 1) or
+            trade:hasItemQty(xi.items.OLIVE_FLOWER, 1) or
+            trade:hasItemQty(xi.items.PAPAKA_GRASS, 1)  or
+            trade:hasItemQty(xi.items.PHALAENOPSIS, 1) or
+            trade:hasItemQty(xi.items.RAIN_LILY, 1)  or
+            trade:hasItemQty(xi.items.RED_ROSE, 1)  or
+            trade:hasItemQty(xi.items.SNOW_LILY, 1) or
+            trade:hasItemQty(xi.items.SWEET_WILLIAM, 1) or
+            trade:hasItemQty(xi.items.TAHRONGI_CACTUS, 1)  or
+            trade:hasItemQty(xi.items.WATER_LILY, 1) or
+            trade:hasItemQty(xi.items.WIJNRUIT, 1)
         then
             itemQuality = 1
         end

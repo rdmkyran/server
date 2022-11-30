@@ -15,20 +15,20 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.MESSENGER_FROM_BEYOND) == QUEST_ACCEPTED then
-        if trade:hasItemQty(1096, 1) and trade:getItemCount() == 1 then -- Trade Tavnazia Pass
+        if trade:hasItemQty(xi.items.TAVNAZIA_PASS, 1) and trade:getItemCount() == 1 then
             player:startEvent(690) -- Finish quest "Messenger from Beyond"
         end
     elseif player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.PRELUDE_OF_BLACK_AND_WHITE) == QUEST_ACCEPTED then
         if
-            trade:hasItemQty(1097, 1) and
-            trade:hasItemQty(12995, 1) and
+            trade:hasItemQty(xi.items.CANTEEN_OF_YAGUDO_HOLY_WATER, 1) and
+            trade:hasItemQty(xi.items.MOCCASINS, 1) and
             trade:getItemCount() == 2
         then
             -- Trade Yagudo Holy Water & Moccasins
             player:startEvent(691) -- Finish quest "Prelude of Black and White"
         end
     elseif player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.PIEUJE_S_DECISION) == QUEST_ACCEPTED then
-        if trade:hasItemQty(13842, 1) and trade:getItemCount() == 1 then -- Trade Tavnazian Mask
+        if trade:hasItemQty(xi.items.TAVNAZIAN_MASK, 1) and trade:getItemCount() == 1 then
             player:startEvent(692) -- Finish quest "Pieuje's Decision"
         end
     end

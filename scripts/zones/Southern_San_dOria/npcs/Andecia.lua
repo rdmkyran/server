@@ -14,7 +14,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     if player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.GRAVE_CONCERNS) == QUEST_ACCEPTED then
         if
-            trade:hasItemQty(547, 1) and
+            trade:hasItemQty(xi.items.TOMB_GUARDS_WATERSKIN, 1) and
             trade:getItemCount() == 1 and
             player:getCharVar("OfferingWaterOK") == 1
         then

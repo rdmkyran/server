@@ -17,11 +17,11 @@ entity.onTrade = function(player, npc, trade)
     if questStatus == QUEST_ACCEPTED and trade:getItemCount() == 1 then
         local veraOldLadyVar = player:getCharVar("VeraOldLadyVar")
 
-        if veraOldLadyVar == 1 and trade:hasItemQty(542, 1) then
+        if veraOldLadyVar == 1 and trade:hasItemQty(xi.items.WILD_RABBIT_TAIL, 1) then
             player:startEvent(135, 541)
-        elseif veraOldLadyVar == 2 and trade:hasItemQty(541, 1) then
+        elseif veraOldLadyVar == 2 and trade:hasItemQty(xi.items.CUP_OF_DHALMEL_SALIVA, 1) then
             player:startEvent(136, 540)
-        elseif veraOldLadyVar == 3 and trade:hasItemQty(540, 1) then
+        elseif veraOldLadyVar == 3 and trade:hasItemQty(xi.items.BLOODY_ROBE, 1) then
             player:startEvent(137)
         end
     end

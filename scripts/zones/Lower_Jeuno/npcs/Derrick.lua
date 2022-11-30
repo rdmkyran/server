@@ -16,7 +16,7 @@ entity.onTrade = function(player, npc, trade)
 
     if
         totalNPC == 1023 and
-        trade:hasItemQty(555, 1) and
+        trade:hasItemQty(xi.items.CLOCK_TOWER_PETITION, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(231) -- Ending quest "save the clock tower"

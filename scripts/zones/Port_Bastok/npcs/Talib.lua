@@ -11,7 +11,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if player:getQuestStatus(xi.quest.log_id.BASTOK, xi.quest.id.bastok.BEAUTY_AND_THE_GALKA) == QUEST_ACCEPTED then
-        if trade:hasItemQty(642, 1) and trade:getItemCount() == 1 then
+        if trade:hasItemQty(xi.items.CHUNK_OF_ZINC_ORE, 1) and trade:getItemCount() == 1 then
             player:startEvent(3)
         end
     end

@@ -13,7 +13,7 @@ entity.onTrade = function(player, npc, trade)
     local needToZone     = player:needToZone()
 
     if tokakaSpokenTo == 1 and not needToZone then
-        if trade:hasItemQty(4360, 1) and trade:getItemCount() == 1 then
+        if trade:hasItemQty(xi.items.BASTORE_SARDINE, 1) and trade:getItemCount() == 1 then
             player:startEvent(210, xi.settings.main.GIL_RATE * 70, 4360)
         end
     end

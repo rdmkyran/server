@@ -77,7 +77,7 @@ quest.sections =
                 end,
 
                 onTrade = function(player, npc, trade)
-                    if trade:hasItemQty(557, 1) and trade:getItemCount() == 1 and quest:getVar(player, 'Prog') == 0 then
+                    if trade:hasItemQty(xi.items.AHRIMAN_LENS, 1) and trade:getItemCount() == 1 and quest:getVar(player, 'Prog') == 0 then
                         return quest:progressEvent(288, 0, 557, xi.items.SHELLING_PIECE, 0, 0, 0, 0, 4)
 
                     -- Fake Shelling Piece
@@ -125,7 +125,7 @@ quest.sections =
             ['_5i0'] =
             {
                 onTrade = function(player, npc, trade)
-                    if trade:hasItemQty(543, 1) and trade:getItemCount() == 1 and quest:getVar(player, 'Prog') == 1 then
+                    if trade:hasItemQty(xi.items.RUSTY_KEY, 1) and trade:getItemCount() == 1 and quest:getVar(player, 'Prog') == 1 then
                         return quest:progressEvent(41)
                     end
                 end,

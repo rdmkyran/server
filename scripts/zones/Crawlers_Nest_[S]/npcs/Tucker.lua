@@ -19,7 +19,7 @@ entity.onTrade = function(player, npc, trade)
         sheetsofVellumProgress < 4
     then
         if
-            trade:hasItemQty(4365, 48) and
+            trade:hasItemQty(xi.items.ROLANBERRY, 48) and
             trade:getGil() == 0 and
             trade:getItemCount() == 48
         then

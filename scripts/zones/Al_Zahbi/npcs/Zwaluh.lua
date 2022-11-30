@@ -14,7 +14,7 @@ entity.onTrade = function(player, npc, trade)
     local guildMember = xi.crafting.isGuildMember(player, 7)
 
     if guildMember == 1 then
-        if trade:hasItemQty(2184, 1) and trade:getItemCount() == 1 then
+        if trade:hasItemQty(xi.items.IMPERIAL_BRONZE_PIECE, 1) and trade:getItemCount() == 1 then
             if not player:hasStatusEffect(xi.effect.LEATHERCRAFT_IMAGERY) then
                 player:tradeComplete()
                 player:startEvent(227, 8, 0, 0, 0, 188, 0, 5, 0)

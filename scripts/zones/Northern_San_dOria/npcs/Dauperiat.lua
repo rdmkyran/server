@@ -18,7 +18,7 @@ entity.onTrade = function(player, npc, trade)
     local questState = player:getCharVar("BlackMailQuest")
 
     if black == QUEST_ACCEPTED and questState == 2 or black == QUEST_COMPLETED then
-        if trade:hasItemQty(530, 1) and trade:getItemCount() == 1 then
+        if trade:hasItemQty(xi.items.COPY_OF_THE_CASTLE_FLOOR_PLANS, 1) and trade:getItemCount() == 1 then
             player:startEvent(648, 0, 530) --648
         end
     end

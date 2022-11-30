@@ -14,7 +14,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        trade:hasItemQty(1549, 1) and
+        trade:hasItemQty(xi.items.MINI_TUNING_FORK_OF_WATER, 1) and
         player:getQuestStatus(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.TRIAL_SIZE_TRIAL_BY_WATER) == QUEST_ACCEPTED and
         player:getMainJob() == xi.job.SMN
     then

@@ -16,17 +16,17 @@ entity.onTrade = function(player, npc, trade)
         local reward = 0
         local anima = 0
 
-        if trade:hasItemQty(1759, 1) and count == 1 then -- Recollection of Suffering --> Hamayumi
+        if trade:hasItemQty(xi.items.RECOLLECTION_OF_SUFFERING, 1) and count == 1 then -- Recollection of Suffering
             reward = 17208
-        elseif trade:hasItemQty(1760, 1) and count == 1 then -- Recollection of Animosity --> Dia Wand
+        elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_ANIMOSITY, 1) and count == 1 then -- Recollection of Animosity
             reward = 17466
-        elseif trade:hasItemQty(1761, 1) and count == 1 then -- Recollection of Anxiety --> Stone Gorget
+        elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_ANXIETY, 1) and count == 1 then -- Recollection of Anxiety
             reward = 13177
-        elseif trade:hasItemQty(1688, 1) and count == 2 then -- Recollection of Pain --> Hysteroanima (Amnesia)
+        elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_PAIN, 1) and count == 2 then -- Recollection of Pain
             anima = 5262
-        elseif trade:hasItemQty(1689, 1) and count == 2 then -- Recollection of Guilt --> Terroanima (Run in Terror)
+        elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_GUILT, 1) and count == 2 then -- Recollection of Guilt
             anima = 5263
-        elseif trade:hasItemQty(1687, 1) and count == 2 then -- Recollection of Fear --> Psychoanima (Intimidation)
+        elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_FEAR, 1) and count == 2 then -- Recollection of Fear
             anima = 5261
         end
 

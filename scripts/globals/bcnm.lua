@@ -1843,19 +1843,19 @@ xi.bcnm.onTrade = function(player, npc, trade, onUpdate)
     -- Chips for limbus
     elseif
         trade:getItemCount() == 3 and
-        trade:hasItemQty(1907, 1) and
-        trade:hasItemQty(1908, 1) and
-        trade:hasItemQty(1986, 1)
+        trade:hasItemQty(xi.items.SILVER_CHIP, 1) and
+        trade:hasItemQty(xi.items.CERULEAN_CHIP, 1) and
+        trade:hasItemQty(xi.items.ORCHID_CHIP, 1)
     then
         itemId = -1
 
     -- Chips for limbus
     elseif
         trade:getItemCount() == 4 and
-        trade:hasItemQty(1909, 1) and
-        trade:hasItemQty(1910, 1) and
-        trade:hasItemQty(1987, 1) and
-        trade:hasItemQty(1988, 1)
+        trade:hasItemQty(xi.items.SMALT_CHIP, 1) and
+        trade:hasItemQty(xi.items.SMOKY_CHIP, 1) and
+        trade:hasItemQty(xi.items.CHARCOAL_CHIP, 1) and
+        trade:hasItemQty(xi.items.MAGENTA_CHIP, 1)
     then
         itemId = -2
 

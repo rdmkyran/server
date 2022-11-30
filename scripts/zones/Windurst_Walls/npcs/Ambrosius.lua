@@ -27,10 +27,10 @@ entity.onTrade = function(player, npc, trade)
     if postman ~= QUEST_AVAILABLE then
         local reward = 0
 
-        if trade:hasItemQty(584, 1) then reward = reward + 1 end
-        if trade:hasItemQty(585, 1) then reward = reward + 1 end
-        if trade:hasItemQty(586, 1) then reward = reward + 1 end
-        if trade:hasItemQty(587, 1) then reward = reward + 1 end
+        if trade:hasItemQty(xi.items.TORN_EPISTLE, 1) then reward = reward + 1 end
+        if trade:hasItemQty(xi.items.MUDDY_BAR_TAB, 1) then reward = reward + 1 end
+        if trade:hasItemQty(xi.items.ODD_POSTCARD, 1) then reward = reward + 1 end
+        if trade:hasItemQty(xi.items.DAMP_ENVELOPE, 1) then reward = reward + 1 end
 
         if trade:getItemCount() == reward then
             if reward == 1 then

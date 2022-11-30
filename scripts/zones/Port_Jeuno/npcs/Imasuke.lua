@@ -16,7 +16,7 @@ entity.onTrade = function(player, npc, trade)
     -- THE ANTIQUE COLLECTOR (kaiser sword)
     if
         player:getQuestStatus(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_ANTIQUE_COLLECTOR) == QUEST_ACCEPTED and
-        trade:hasItemQty(16631, 1) and
+        trade:hasItemQty(xi.items.KAISER_SWORD, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(15) -- End quest

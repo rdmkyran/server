@@ -16,7 +16,7 @@ entity.onTrade = function(player, npc, trade)
     local starstatus = player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.TO_CATCH_A_FALLING_STAR)
     if
         starstatus == 1 and
-        trade:hasItemQty(546, 1) and
+        trade:hasItemQty(xi.items.STARFALL_TEAR, 1) and
         trade:getItemCount() == 1 and
         trade:getGil() == 0
     then

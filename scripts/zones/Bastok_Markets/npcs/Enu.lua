@@ -10,7 +10,7 @@ require("scripts/globals/world")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if trade:hasItemQty(1192, 1) and trade:getItemCount() == 1 then -- Quest: Wish Upon a Star - Trade Fallen Star
+    if trade:hasItemQty(xi.items.FALLEN_STAR, 1) and trade:getItemCount() == 1 then
         if player:getCharVar("WishUponAStar_Status") == 3 then
             if
                 player:getWeather() == xi.weather.NONE and

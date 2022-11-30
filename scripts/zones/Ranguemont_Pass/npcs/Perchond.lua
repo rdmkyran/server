@@ -9,7 +9,7 @@ require("scripts/globals/keyitems")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if trade:hasItemQty(1107, 1) and trade:getItemCount() == 1 then -- glitter sand
+    if trade:hasItemQty(xi.items.PINCH_OF_GLITTERSAND, 1) and trade:getItemCount() == 1 then
         local sinHunting = player:getCharVar("sinHunting")    -- RNG AF1
 
         if sinHunting == 2 then

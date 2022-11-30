@@ -21,7 +21,7 @@ entity.onTrade = function(player, npc, trade)
     -- HER MAJESTY'S GARDEN (derfland humus)
     if
         herMajestysGarden == QUEST_ACCEPTED and
-        trade:hasItemQty(533, 1) and
+        trade:hasItemQty(xi.items.CHUNK_OF_DERFLAND_HUMUS, 1) and
         trade:getItemCount() == 1
     then
         player:startEvent(83)

@@ -17,7 +17,7 @@ entity.onTrade = function(player, npc, trade)
         player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.CHASING_QUOTAS) == QUEST_ACCEPTED and
         player:getCharVar("ChasingQuotas_Progress") == 0 and
         trade:getItemCount() == 1 and
-        trade:hasItemQty(12494, 1) and
+        trade:hasItemQty(xi.items.GOLD_HAIRPIN, 1) and
         trade:getGil() == 0
     then -- Trading gold hairpin only
             player:tradeComplete()
