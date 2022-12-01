@@ -43,17 +43,17 @@ entity.onTrigger = function(player, npc)
                 gownQuestProgress == 2
             )
         then
-            local itemid   = 14580 -- Scholar's Gown
+            local itemid   = xi.items.SCHOLARS_GOWN
             local firstKI  = xi.ki.PEISTE_DUNG
             local secondKI = xi.ki.SAMPLE_OF_GRAUBERG_CHERT
 
             if loafersQuestProgress == 1 or loafersQuestProgress == 2 then
-                itemid   = 15748 -- Scholar's Loafers
+                itemid   = xi.items.SCHOLARS_LOAFERS
                 firstKI  = xi.ki.RAFFLESIA_DREAMSPIT
                 secondKI = xi.ki.DROGAROGAN_BONEMEAL
 
             elseif pantsQuestProgress == 1 or pantsQuestProgress == 2 then
-                itemid   = 16311 -- Scholar's Pants
+                itemid   = xi.items.SCHOLARS_PANTS
                 firstKI  = xi.ki.SLUG_MUCUS
                 secondKI = xi.ki.DJINN_EMBER
             end

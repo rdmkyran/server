@@ -74,12 +74,12 @@ end
 entity.onEventFinish = function(player, csid, option)
     local flowerList =
     {
-        [0] = { itemid = 948, gil = 300 }, -- Carnation
-        [1] = { itemid = 941, gil = 200 }, -- Red Rose
-        [2] = { itemid = 949, gil = 250 }, -- Rain Lily
-        [3] = { itemid = 956, gil = 150 }, -- Lilac
-        [4] = { itemid = 957, gil = 200 }, -- Amaryllis
-        [5] = { itemid = 958, gil = 100 }  -- Marguerite
+        [0] = { itemid = xi.items.CARNATION, gil = 300 },
+        [1] = { itemid = xi.items.RED_ROSE, gil = 200 },
+        [2] = { itemid = xi.items.RAIN_LILY, gil = 250 },
+        [3] = { itemid = xi.items.LILAC, gil = 150 },
+        [4] = { itemid = xi.items.AMARYLLIS, gil = 200 },
+        [5] = { itemid = xi.items.MARGUERITE, gil = 100 }
     }
 
     -- Check Missions first (priority?)

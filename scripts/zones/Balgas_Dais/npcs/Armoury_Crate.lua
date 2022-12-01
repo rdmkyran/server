@@ -21,12 +21,12 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate =  750 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  750 },
             { itemid = xi.items.VILE_ELIXIR, droprate =  250 },
         },
 
         {
-            { itemid =     0, droprate =  600 }, -- nothing
+            { itemid =     xi.items.NONE, droprate =  600 },
             { itemid = xi.items.SURVIVAL_BELT,     droprate = 100 },
             { itemid = xi.items.GUARDING_GORGET,   droprate = 100 },
             { itemid = xi.items.ENHANCING_EARRING, droprate = 100 },
@@ -60,7 +60,7 @@ local loot =
         },
 
         {
-            { itemid =     0, droprate =  125 }, -- nothing
+            { itemid =     xi.items.NONE, droprate =  125 },
             { itemid = xi.items.SCROLL_OF_REFRESH,     droprate = 125 },
             { itemid = xi.items.SCROLL_OF_ERASE,       droprate = 125 },
             { itemid = xi.items.SCROLL_OF_ABSORB_INT,  droprate = 125 },
@@ -190,16 +190,16 @@ local loot =
         },
 
         {
-            { itemid = 65535, droprate = 1000, amount = 3000 }, -- gil
+            { itemid = xi.items.GIL, droprate = 1000, amount = 3000 },
         },
 
         {
-            { itemid = 0, droprate =  700 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  700 },
             { itemid = xi.items.SPOOL_OF_SILK_THREAD, droprate =  300 },
         },
 
         {
-            { itemid = 0, droprate =  900 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  900 },
             { itemid = xi.items.SPOOL_OF_SILK_THREAD, droprate =  100 },
         },
 
@@ -223,7 +223,7 @@ local loot =
         },
 
         {
-            { itemid =     0, droprate =  700 }, -- nothing
+            { itemid =     xi.items.NONE, droprate =  700 },
             { itemid = xi.items.SINGERS_EARRING,    droprate = 20 },
             { itemid = xi.items.ASHIGARU_EARRING,   droprate = 20 },
             { itemid = xi.items.MAGICIANS_EARRING,  droprate = 20 },
@@ -281,7 +281,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate =  300 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  300 },
             { itemid = xi.items.AMBER_STONE,            droprate = 50 },
             { itemid = xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate = 50 },
             { itemid = xi.items.ELM_LOG,                droprate = 50 },
@@ -325,17 +325,17 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate = 800 },    -- Nothing
+            { itemid = xi.items.NONE, droprate = 800 },
             { itemid = xi.items.PLATOON_CUTTER, droprate = 167 },
         },
 
         {
-            { itemid = 0, droprate = 500 },    -- Nothing
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.VIAL_OF_FIEND_BLOOD, droprate = 500 },
         },
 
         {
-            { itemid = 0, droprate = 500 },    -- Nothing
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.VIAL_OF_FIEND_BLOOD, droprate = 500 },
         },
 
@@ -524,7 +524,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate =  300 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  300 },
             { itemid = xi.items.DUSKY_STAFF,      droprate =  100 },
             { itemid = xi.items.JONGLEURS_DAGGER, droprate =  100 },
             { itemid = xi.items.CALVELEYS_DAGGER, droprate =  100 },
@@ -535,14 +535,14 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate =  100 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  100 },
             { itemid = xi.items.GENIN_EARRING, droprate =  300 },
             { itemid = xi.items.AGILE_GORGET,  droprate =  300 },
             { itemid = xi.items.JAGD_GORGET,   droprate =  300 },
         },
 
         {
-            { itemid = 0, droprate =  370 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  370 },
             { itemid = xi.items.TURQUOISE,            droprate =  100 },
             { itemid = xi.items.BUNCH_OF_PAMAMAS,     droprate =  100 },
             { itemid = xi.items.SQUARE_OF_SILK_CLOTH, droprate =  110 },
@@ -558,7 +558,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate =  600 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  600 },
             { itemid = xi.items.GOLD_BEASTCOIN, droprate =  400 },
         },
     },
@@ -575,7 +575,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate =  190 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  190 },
             { itemid = xi.items.SLY_GAUNTLETS,           droprate =  10 },
             { itemid = xi.items.SPIKED_FINGER_GAUNTLETS, droprate = 120 },
             { itemid = xi.items.RUSH_GLOVES,             droprate = 140 },
@@ -585,7 +585,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate =   30 }, -- nothing
+            { itemid = xi.items.NONE, droprate =   30 },
             { itemid = xi.items.STORM_GORGET,     droprate = 100 },
             { itemid = xi.items.INTELLECT_TORQUE, droprate = 100 },
             { itemid = xi.items.BENIGN_NECKLACE,  droprate = 120 },
@@ -596,14 +596,14 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate =  230 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  230 },
             { itemid = xi.items.MYTHRIL_INGOT,     droprate =  200 },
             { itemid = xi.items.CHUNK_OF_IRON_ORE, droprate =  200 },
             { itemid = xi.items.PETRIFIED_LOG,     droprate =  370 },
         },
 
         {
-            { itemid = 0, droprate =  560 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  560 },
             { itemid = xi.items.RERAISER, droprate =  440 },
         },
     },
@@ -646,7 +646,7 @@ local loot =
         },
 
         {
-            { itemid = 0, droprate =  848 }, -- nothing
+            { itemid = xi.items.NONE, droprate =  848 },
             { itemid = xi.items.WALKURE_MASK, droprate = 58 },
             { itemid = xi.items.HI_RERAISER,  droprate = 78 },
             { itemid = xi.items.EBONY_LOG,    droprate = 16 },

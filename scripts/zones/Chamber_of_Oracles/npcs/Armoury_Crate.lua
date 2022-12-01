@@ -142,7 +142,7 @@ local loot =
         },
 
         {
-            { itemid = 65535, droprate = 1000, amount = 24000 }, -- gil
+            { itemid = xi.items.GIL, droprate = 1000, amount = 24000 },
 
         },
 

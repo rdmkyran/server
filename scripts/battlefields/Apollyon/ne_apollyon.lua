@@ -294,39 +294,39 @@ content.loot =
     {
         {
             quantity = 3,
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid =    0, droprate = 1000 }, -- Nothing
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid = 1953, droprate = 304 }, -- SAM
-            { itemid = 1943, droprate =  18 }, -- PLD
-            { itemid = 1941, droprate = 200 }, -- THF
-            { itemid = 2715, droprate = 200 }, -- DNC
-            { itemid = 2661, droprate =  36 }, -- PUP
-            { itemid = 1933, droprate =  18 }, -- MNK
-            { itemid = 1939, droprate =  36 }, -- RDM
-            { itemid = 1935, droprate = 411 }, -- WHM
-            { itemid = 2717, droprate = 482 }, -- SCH
-            { itemid = 1947, droprate =  18 }, -- BST
+            { itemid = xi.items.SHEET_OF_KUROGANE, droprate = 304 },
+            { itemid = xi.items.WHITE_RIVET, droprate =  18 },
+            { itemid = xi.items.SPOOL_OF_LIGHT_FILAMENT, droprate = 200 },
+            { itemid = xi.items.GOLD_STUD, droprate = 200 },
+            { itemid = xi.items.SQUARE_OF_CORDUROY_CLOTH, droprate =  36 },
+            { itemid = xi.items.ANCIENT_BRASS_INGOT, droprate =  18 },
+            { itemid = xi.items.SQUARE_OF_CARDINAL_CLOTH, droprate =  36 },
+            { itemid = xi.items.SPOOL_OF_BENEDICT_YARN, droprate = 411 },
+            { itemid = xi.items.ELECTRUM_STUD, droprate = 482 },
+            { itemid = xi.items.FETID_LANOLIN_CUBE, droprate =  18 },
         },
 
         {
-            { itemid =    0, droprate = 1000 }, -- SAM
-            { itemid = 1953, droprate =  304 }, -- SAM
-            { itemid = 1943, droprate =   18 }, -- PLD
-            { itemid = 1941, droprate =  200 }, -- THF
-            { itemid = 2715, droprate =  200 }, -- DNC
-            { itemid = 2661, droprate =   36 }, -- PUP
-            { itemid = 1933, droprate =   18 }, -- MNK
-            { itemid = 1939, droprate =   36 }, -- RDM
-            { itemid = 1935, droprate =  411 }, -- WHM
-            { itemid = 2717, droprate =  482 }, -- SCH
-            { itemid = 1947, droprate =   18 }, -- BST
+            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.SHEET_OF_KUROGANE, droprate =  304 },
+            { itemid = xi.items.WHITE_RIVET, droprate =   18 },
+            { itemid = xi.items.SPOOL_OF_LIGHT_FILAMENT, droprate =  200 },
+            { itemid = xi.items.GOLD_STUD, droprate =  200 },
+            { itemid = xi.items.SQUARE_OF_CORDUROY_CLOTH, droprate =   36 },
+            { itemid = xi.items.ANCIENT_BRASS_INGOT, droprate =   18 },
+            { itemid = xi.items.SQUARE_OF_CARDINAL_CLOTH, droprate =   36 },
+            { itemid = xi.items.SPOOL_OF_BENEDICT_YARN, droprate =  411 },
+            { itemid = xi.items.ELECTRUM_STUD, droprate =  482 },
+            { itemid = xi.items.FETID_LANOLIN_CUBE, droprate =   18 },
         },
     },
 
@@ -335,37 +335,37 @@ content.loot =
     {
         {
             quantity = 3,
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid =    0, droprate = 1000 }, -- Nothing
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid = 1947, droprate =  26 }, -- BST
-            { itemid = 1933, droprate =  53 }, -- MNK
-            { itemid = 1943, droprate =  26 }, -- PLD
-            { itemid = 2661, droprate =  26 }, -- PUP
-            { itemid = 1937, droprate = 395 }, -- BLM
-            { itemid = 1957, droprate = 289 }, -- DRG
-            { itemid = 1941, droprate =  53 }, -- THF
-            { itemid = 1939, droprate = 112 }, -- RDM
-            { itemid = 2657, droprate = 477 }, -- BLU
+            { itemid = xi.items.FETID_LANOLIN_CUBE, droprate =  26 },
+            { itemid = xi.items.ANCIENT_BRASS_INGOT, droprate =  53 },
+            { itemid = xi.items.WHITE_RIVET, droprate =  26 },
+            { itemid = xi.items.SQUARE_OF_CORDUROY_CLOTH, droprate =  26 },
+            { itemid = xi.items.SPOOL_OF_DIABOLIC_YARN, droprate = 395 },
+            { itemid = xi.items.BLUE_RIVET, droprate = 289 },
+            { itemid = xi.items.SPOOL_OF_LIGHT_FILAMENT, droprate =  53 },
+            { itemid = xi.items.SQUARE_OF_CARDINAL_CLOTH, droprate = 112 },
+            { itemid = xi.items.SQUARE_OF_FLAMESHUN_CLOTH, droprate = 477 },
         },
 
         {
-            { itemid =    0, droprate =  1000 }, -- Nothing
-            { itemid = 1947, droprate =    26 }, -- BST
-            { itemid = 1933, droprate =    53 }, -- MNK
-            { itemid = 1943, droprate =    26 }, -- PLD
-            { itemid = 2661, droprate =    26 }, -- PUP
-            { itemid = 1937, droprate =   395 }, -- BLM
-            { itemid = 1957, droprate =   289 }, -- DRG
-            { itemid = 1941, droprate =    53 }, -- THF
-            { itemid = 1939, droprate =   112 }, -- RDM
-            { itemid = 2657, droprate =   477 }, -- BLU
+            { itemid =    xi.items.NONE, droprate =  1000 },
+            { itemid = xi.items.FETID_LANOLIN_CUBE, droprate =    26 },
+            { itemid = xi.items.ANCIENT_BRASS_INGOT, droprate =    53 },
+            { itemid = xi.items.WHITE_RIVET, droprate =    26 },
+            { itemid = xi.items.SQUARE_OF_CORDUROY_CLOTH, droprate =    26 },
+            { itemid = xi.items.SPOOL_OF_DIABOLIC_YARN, droprate =   395 },
+            { itemid = xi.items.BLUE_RIVET, droprate =   289 },
+            { itemid = xi.items.SPOOL_OF_LIGHT_FILAMENT, droprate =    53 },
+            { itemid = xi.items.SQUARE_OF_CARDINAL_CLOTH, droprate =   112 },
+            { itemid = xi.items.SQUARE_OF_FLAMESHUN_CLOTH, droprate =   477 },
         },
     },
 
@@ -374,53 +374,53 @@ content.loot =
     {
         {
             quantity = 4,
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid =    0, droprate = 1000 }, -- Nothing
-            { itemid = 1931, droprate =  788 }, -- WAR
-            { itemid = 1939, droprate =   30 }, -- RDM
-            { itemid = 1953, droprate =  130 }, -- SAM
-            { itemid = 1957, droprate =  100 }, -- DRG
-            { itemid = 1947, droprate =   90 }, -- BST
-            { itemid = 1933, droprate =   30 }, -- MNK
-            { itemid = 1941, droprate =   99 }, -- THF
-            { itemid = 2661, droprate =   61 }, -- PUP
-            { itemid = 2715, droprate =   30 }, -- DNC
-            { itemid = 1943, droprate =  160 }, -- PLD
+            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.ARGYRO_RIVET, droprate =  788 },
+            { itemid = xi.items.SQUARE_OF_CARDINAL_CLOTH, droprate =   30 },
+            { itemid = xi.items.SHEET_OF_KUROGANE, droprate =  130 },
+            { itemid = xi.items.BLUE_RIVET, droprate =  100 },
+            { itemid = xi.items.FETID_LANOLIN_CUBE, droprate =   90 },
+            { itemid = xi.items.ANCIENT_BRASS_INGOT, droprate =   30 },
+            { itemid = xi.items.SPOOL_OF_LIGHT_FILAMENT, droprate =   99 },
+            { itemid = xi.items.SQUARE_OF_CORDUROY_CLOTH, droprate =   61 },
+            { itemid = xi.items.GOLD_STUD, droprate =   30 },
+            { itemid = xi.items.WHITE_RIVET, droprate =  160 },
         },
 
         {
-            { itemid =    0, droprate = 1000 }, -- Nothing
-            { itemid = 1931, droprate =  788 }, -- WAR
-            { itemid = 1939, droprate =   30 }, -- RDM
-            { itemid = 1953, droprate =  130 }, -- SAM
-            { itemid = 1957, droprate =  100 }, -- DRG
-            { itemid = 1947, droprate =   90 }, -- BST
-            { itemid = 1933, droprate =   30 }, -- MNK
-            { itemid = 1941, droprate =   99 }, -- THF
-            { itemid = 2661, droprate =   61 }, -- PUP
-            { itemid = 2715, droprate =   30 }, -- DNC
-            { itemid = 1943, droprate =  160 }, -- PLD
+            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.ARGYRO_RIVET, droprate =  788 },
+            { itemid = xi.items.SQUARE_OF_CARDINAL_CLOTH, droprate =   30 },
+            { itemid = xi.items.SHEET_OF_KUROGANE, droprate =  130 },
+            { itemid = xi.items.BLUE_RIVET, droprate =  100 },
+            { itemid = xi.items.FETID_LANOLIN_CUBE, droprate =   90 },
+            { itemid = xi.items.ANCIENT_BRASS_INGOT, droprate =   30 },
+            { itemid = xi.items.SPOOL_OF_LIGHT_FILAMENT, droprate =   99 },
+            { itemid = xi.items.SQUARE_OF_CORDUROY_CLOTH, droprate =   61 },
+            { itemid = xi.items.GOLD_STUD, droprate =   30 },
+            { itemid = xi.items.WHITE_RIVET, droprate =  160 },
         },
 
         {
-            { itemid =    0, droprate = 180 }, -- Nothing
-            { itemid = 1633, droprate =  30 }, -- Clot Plasma
-            { itemid =  821, droprate =  40 }, -- Rainbow Thread
-            { itemid = 1311, droprate =  50 }, -- Oxblood
-            { itemid = 1883, droprate =  40 }, -- Shell Powder
-            { itemid = 2004, droprate =  20 }, -- Carapace Powder
+            { itemid =    xi.items.NONE, droprate = 180 },
+            { itemid = xi.items.HANDFUL_OF_CLOT_PLASMA, droprate =  30 },
+            { itemid =  xi.items.SPOOL_OF_RAINBOW_THREAD, droprate =  40 },
+            { itemid = xi.items.OXBLOOD, droprate =  50 },
+            { itemid = xi.items.PONZE_OF_SHELL_POWDER, droprate =  40 },
+            { itemid = xi.items.PONZE_OF_CARAPACE_POWDER, droprate =  20 },
         },
 
         {
-            { itemid =    0, droprate = 180 }, -- Nothing
-            { itemid = 1633, droprate =  30 }, -- Clot Plasma
-            { itemid =  821, droprate =  40 }, -- Rainbow Thread
-            { itemid = 1311, droprate =  50 }, -- Oxblood
-            { itemid = 1883, droprate =  40 }, -- Shell Powder
-            { itemid = 2004, droprate =  20 }, -- Carapace Powder
+            { itemid =    xi.items.NONE, droprate = 180 },
+            { itemid = xi.items.HANDFUL_OF_CLOT_PLASMA, droprate =  30 },
+            { itemid =  xi.items.SPOOL_OF_RAINBOW_THREAD, droprate =  40 },
+            { itemid = xi.items.OXBLOOD, droprate =  50 },
+            { itemid = xi.items.PONZE_OF_SHELL_POWDER, droprate =  40 },
+            { itemid = xi.items.PONZE_OF_CARAPACE_POWDER, droprate =  20 },
         },
     },
 
@@ -429,31 +429,31 @@ content.loot =
     {
         {
             quantity = 6,
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid =    0, droprate = 1000 }, -- Nothing
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid = 1949, droprate = 326 }, -- BRD
-            { itemid = 1945, droprate = 256 }, -- DRK
-            { itemid = 1951, droprate = 395 }, -- RNG
-            { itemid = 1959, droprate = 279 }, -- SMN
-            { itemid = 1955, droprate = 256 }, -- NIN
-            { itemid = 2659, droprate = 326 }, -- COR
+            { itemid = xi.items.SQUARE_OF_BROWN_DOESKIN, droprate = 326 },
+            { itemid = xi.items.BLACK_RIVET, droprate = 256 },
+            { itemid = xi.items.SQUARE_OF_CHARCOAL_COTTON, droprate = 395 },
+            { itemid = xi.items.SQUARE_OF_ASTRAL_LEATHER, droprate = 279 },
+            { itemid = xi.items.POT_OF_EBONY_LACQUER, droprate = 256 },
+            { itemid = xi.items.SQUARE_OF_CANVAS_TOILE, droprate = 326 },
         },
 
         {
-            { itemid =    0, droprate = 1000 }, -- Nothing
-            { itemid = 1949, droprate =  326 }, -- BRD
-            { itemid = 1945, droprate =  256 }, -- DRK
-            { itemid = 1951, droprate =  395 }, -- RNG
-            { itemid = 1959, droprate =  279 }, -- SMN
-            { itemid = 1955, droprate =  256 }, -- NIN
-            { itemid = 2659, droprate =  326 }, -- COR
+            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.SQUARE_OF_BROWN_DOESKIN, droprate =  326 },
+            { itemid = xi.items.BLACK_RIVET, droprate =  256 },
+            { itemid = xi.items.SQUARE_OF_CHARCOAL_COTTON, droprate =  395 },
+            { itemid = xi.items.SQUARE_OF_ASTRAL_LEATHER, droprate =  279 },
+            { itemid = xi.items.POT_OF_EBONY_LACQUER, droprate =  256 },
+            { itemid = xi.items.SQUARE_OF_CANVAS_TOILE, droprate =  326 },
         },
     },
 
@@ -462,16 +462,16 @@ content.loot =
     {
         {
             quantity = 7,
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid = 1910, droprate = 1000 }, -- Smoky Chip
+            { itemid = xi.items.SMOKY_CHIP, droprate = 1000 },
         },
 
         {
-            { itemid =    0, droprate = 100 }, -- Nothing
-            { itemid = 2127, droprate =  59 }, -- Metal Chip
+            { itemid =    xi.items.NONE, droprate = 100 },
+            { itemid = xi.items.METAL_CHIP, droprate =  59 },
         },
     },
 }

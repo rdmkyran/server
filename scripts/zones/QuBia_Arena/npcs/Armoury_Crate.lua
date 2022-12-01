@@ -107,7 +107,7 @@ local loot =
             { itemid = xi.items.SCROLL_OF_CURE_V, droprate =  50 },
             { itemid = xi.items.SCROLL_OF_SHELL_IV, droprate = 250 },
             { itemid = xi.items.SCROLL_OF_THUNDER_III, droprate = 200 },
-            { itemid = 4748, droprate =  50 }, --Raise III
+            { itemid = xi.items.SCROLL_OF_RAISE_III, droprate =  50 },
         },
         {
             { itemid = xi.items.NONE,   droprate = 250 },

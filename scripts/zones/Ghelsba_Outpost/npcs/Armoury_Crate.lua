@@ -14,45 +14,45 @@ local loot =
     [34] =
     {
         {
-            { itemid = 891, droprate = 1000 }, -- Bat Fang
+            { itemid = xi.items.BAT_FANG, droprate = 1000 },
         },
 
         {
-            { itemid = 4744, droprate = 319 }, -- Scroll Of Invisible
-            { itemid = 4745, droprate = 125 }, -- Scroll Of Sneak
-            { itemid = 4746, droprate = 222 }, -- Scroll Of Deodorize
-            { itemid = 4900, droprate = 306 }, -- Thunder Spirit Pact
+            { itemid = xi.items.SCROLL_OF_INVISIBLE, droprate = 319 },
+            { itemid = xi.items.SCROLL_OF_SNEAK, droprate = 125 },
+            { itemid = xi.items.SCROLL_OF_DEODORIZE, droprate = 222 },
+            { itemid = xi.items.THUNDER_SPIRIT_PACT, droprate = 306 },
         },
 
         {
-            { itemid =   749, droprate = 444 }, -- Mythril Beastcoin
-            { itemid =   773, droprate =  56 }, -- Translucent Rock
-            { itemid = 16687, droprate =  83 }, -- Platoon Axe
-            { itemid = 17571, droprate =  97 }, -- Platoon Pole
-            { itemid = 17786, droprate = 153 }, -- Ganko
-            { itemid = 17993, droprate = 125 }, -- Platoon Dagger
-            { itemid = 18170, droprate = 139 }, -- Platoon Edge
+            { itemid =   xi.items.MYTHRIL_BEASTCOIN, droprate = 444 },
+            { itemid =   xi.items.TRANSLUCENT_ROCK, droprate =  56 },
+            { itemid = xi.items.PLATOON_AXE, droprate =  83 },
+            { itemid = xi.items.PLATOON_POLE, droprate =  97 },
+            { itemid = xi.items.GANKO, droprate = 153 },
+            { itemid = xi.items.PLATOON_DAGGE, droprate = 125 },
+            { itemid = xi.items.PLATOON_EDGE, droprate = 139 },
         },
 
         {
-            { itemid =   770, droprate =  69 }, -- Blue Rock
-            { itemid =   771, droprate =  14 }, -- Yellow Rock
-            { itemid =   772, droprate =  28 }, -- Green Rock
-            { itemid =   775, droprate =  28 }, -- Black Rock
-            { itemid =   776, droprate =  14 }, -- White Rock
-            { itemid =   769, droprate =  69 }, -- Red Rock
-            { itemid =   774, droprate =  97 }, -- Purple Rock
-            { itemid = 16959, droprate = 181 }, -- Platoon Sword
-            { itemid = 17993, droprate = 139 }, -- Platoon Dagger
-            { itemid = 17820, droprate = 111 }, -- Gunromaru
-            { itemid = 18085, droprate =  42 }, -- Platoon Lance
-            { itemid = 18170, droprate = 139 }, -- Platoon Edge
+            { itemid =   xi.items.BLUE_ROCK, droprate =  69 },
+            { itemid =   xi.items.YELLOW_ROCK, droprate =  14 },
+            { itemid =   xi.items.GREEN_ROCK, droprate =  28 },
+            { itemid =   xi.items.BLACK_ROCK, droprate =  28 },
+            { itemid =   xi.items.WHITE_ROCK, droprate =  14 },
+            { itemid =   xi.items.RED_ROCK, droprate =  69 },
+            { itemid =   xi.items.PURPLE_ROCK, droprate =  97 },
+            { itemid = xi.items.PLATOON_SWORD, droprate = 181 },
+            { itemid = xi.items.PLATOON_DAGGE, droprate = 139 },
+            { itemid = xi.items.GUNROMARU, droprate = 111 },
+            { itemid = xi.items.PLATOON_LANCE, droprate =  42 },
+            { itemid = xi.items.PLATOON_EDGE, droprate = 139 },
         },
 
         {
-            { itemid =     0, droprate = 389 }, -- nothing
-            { itemid =   922, droprate = 444 }, -- bat_wing
-            { itemid = 13548, droprate = 167 }, -- astral_ring
+            { itemid =     xi.items.NONE, droprate = 389 },
+            { itemid =   xi.items.BAT_WING, droprate = 444 },
+            { itemid = xi.items.ASTRAL_RING, droprate = 167 },
         },
     },
 
@@ -60,95 +60,95 @@ local loot =
     [35] =
     {
         {
-            { itemid = 852, droprate = 1000 }, -- Lizard Skin
+            { itemid = xi.items.LIZARD_SKIN, droprate = 1000 },
         },
 
         {
-            { itemid =     0, droprate = 900 }, -- nothing
-            { itemid = 13014, droprate = 100 }, -- leaping_boots
+            { itemid =     xi.items.NONE, droprate = 900 },
+            { itemid = xi.items.LEAPING_BOOTS, droprate = 100 },
         },
 
         {
-            { itemid =     0, droprate = 100 }, -- nothing
-            { itemid =   652, droprate = 100 }, -- Steel Ingot
-            { itemid =   690, droprate = 350 }, -- Elm Log
-            { itemid =   694, droprate = 175 }, -- Chestnut Log
-            { itemid = 15275, droprate =  75 }, -- Rapier Belt
-            { itemid = 15278, droprate = 175 }, -- Scythe Belt
-            { itemid = 15282, droprate =  50 }, -- Katana Obi
+            { itemid =     xi.items.NONE, droprate = 100 },
+            { itemid =   xi.items.STEEL_INGOT, droprate = 100 },
+            { itemid =   xi.items.ELM_LOG, droprate = 350 },
+            { itemid =   xi.items.CHESTNUT_LOG, droprate = 175 },
+            { itemid = xi.items.RAPIER_BELT, droprate =  75 },
+            { itemid = xi.items.SCYTHE_BELT, droprate = 175 },
+            { itemid = xi.items.KATANA_OBI, droprate =  50 },
         },
 
         {
-            { itemid =     0, droprate = 100 }, -- nothing
-            { itemid =   652, droprate = 100 }, -- Steel Ingot
-            { itemid =   694, droprate = 175 }, -- Chestnut Log
-            { itemid =   690, droprate = 350 }, -- Elm Log
-            { itemid = 15275, droprate =  75 }, -- Rapier Belt
-            { itemid = 15278, droprate = 175 }, -- Scythe Belt
-            { itemid = 15282, droprate =  50 }, -- Katana Obi
+            { itemid =     xi.items.NONE, droprate = 100 },
+            { itemid =   xi.items.STEEL_INGOT, droprate = 100 },
+            { itemid =   xi.items.CHESTNUT_LOG, droprate = 175 },
+            { itemid =   xi.items.ELM_LOG, droprate = 350 },
+            { itemid = xi.items.RAPIER_BELT, droprate =  75 },
+            { itemid = xi.items.SCYTHE_BELT, droprate = 175 },
+            { itemid = xi.items.KATANA_OBI, droprate =  50 },
         },
 
         {
-            { itemid =   643, droprate = 131 }, -- Chunk Of Iron Ore
-            { itemid =   644, droprate =  79 }, -- Chunk Of Mythril Ore
-            { itemid =   651, droprate = 131 }, -- Iron Ingot
-            { itemid =   736, droprate =  79 }, -- Chunk Of Silver Ore
-            { itemid =   795, droprate = 131 }, -- Lapis Lazuli
-            { itemid = 15279, droprate = 105 }, -- Pick Belt
-            { itemid = 15285, droprate = 105 }, -- Avatar Belt
+            { itemid =   xi.items.CHUNK_OF_IRON_ORE, droprate = 131 },
+            { itemid =   xi.items.CHUNK_OF_MYTHRIL_ORE, droprate =  79 },
+            { itemid =   xi.items.IRON_INGOT, droprate = 131 },
+            { itemid =   xi.items.CHUNK_OF_SILVER_ORE, droprate =  79 },
+            { itemid =   xi.items.LAPIS_LAZULI, droprate = 131 },
+            { itemid = xi.items.PICK_BELT, droprate = 105 },
+            { itemid = xi.items.AVATAR_BELT, droprate = 105 },
         },
 
         {
-            { itemid =  4751, droprate =  79 }, -- Scroll Of Erase
-            { itemid =  4868, droprate = 105 }, -- Scroll Of Dispel
-            { itemid =  4876, droprate = 289 }, -- Scroll Of Absorb-vit
-            { itemid =  4877, droprate = 263 }, -- Scroll Of Absorb-agi
-            { itemid =  4878, droprate = 210 }, -- Scroll Of Absorb-int
-            { itemid =  4947, droprate =  79 }, -- Scroll Of Utsusemi Ni
-            { itemid =  5070, droprate = 421 }, -- Scroll Of Magic Finale
-            { itemid = 17867, droprate = 552 }, -- Jug Of Cold Carrion Broth
+            { itemid =  xi.items.SCROLL_OF_ERASE, droprate =  79 },
+            { itemid =  xi.items.SCROLL_OF_DISPEL, droprate = 105 },
+            { itemid =  xi.items.SCROLL_OF_ABSORB_VIT, droprate = 289 },
+            { itemid =  xi.items.SCROLL_OF_ABSORB_AGI, droprate = 263 },
+            { itemid =  xi.items.SCROLL_OF_ABSORB_INT, droprate = 210 },
+            { itemid =  xi.items.SCROLL_OF_UTSUSEMI_NI, droprate =  79 },
+            { itemid =  xi.items.SCROLL_OF_MAGIC_FINALE, droprate = 421 },
+            { itemid = xi.items.JUG_OF_COLD_CARRION_BROTH, droprate = 552 },
         },
 
         {
-            { itemid =     0, droprate =  736 }, -- nothing (25%)
-            { itemid =   653, droprate =  200 }, -- Mythril Ingot
-            { itemid =   645, droprate =  100 }, -- Darksteel Ore
-            { itemid =   744, droprate =  100 }, -- Silver Ingot
-            { itemid =   796, droprate =   75 }, -- Light Opal
-            { itemid =   799, droprate =   25 }, -- Onyx
-            { itemid =   806, droprate =  125 }, -- Tourmaline
-            { itemid =   809, droprate =   10 }, -- Clear Topaz
-            { itemid =  4132, droprate =  175 }, -- Hi-ether
-            { itemid = 15273, droprate =  175 }, -- Mace Belt
-            { itemid = 15277, droprate =  100 }, -- Shield Belt
-            { itemid = 15281, droprate =   25 }, -- Gun Belt
-            { itemid = 15283, droprate =  250 }, -- Sarashi
-            { itemid = 15280, droprate =  100 }, -- Song Belt
-            { itemid = 15274, droprate =  150 }, -- Staff Belt
-            { itemid = 15271, droprate =  200 }, -- Axe Belt
-            { itemid = 15272, droprate =  125 }, -- Cestus Belt
-            { itemid = 15276, droprate =   75 }, -- Dagger Belt
-            { itemid = 15284, droprate =  200 }, -- Lance Belt
+            { itemid =     xi.items.NONE, droprate =  736 },
+            { itemid =   xi.items.MYTHRIL_INGOT, droprate =  200 },
+            { itemid =   xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  100 },
+            { itemid =   xi.items.SILVER_INGOT, droprate =  100 },
+            { itemid =   xi.items.LIGHT_OPAL, droprate =   75 },
+            { itemid =   xi.items.ONYX, droprate =   25 },
+            { itemid =   xi.items.TOURMALINE, droprate =  125 },
+            { itemid =   xi.items.CLEAR_TOPAZ, droprate =   10 },
+            { itemid =  xi.items.HI_ETHER, droprate =  175 },
+            { itemid = xi.items.MACE_BELT, droprate =  175 },
+            { itemid = xi.items.SHIELD_BELT, droprate =  100 },
+            { itemid = xi.items.GUN_BELT, droprate =   25 },
+            { itemid = xi.items.SARASHI, droprate =  250 },
+            { itemid = xi.items.SONG_BELT, droprate =  100 },
+            { itemid = xi.items.STAFF_BELT, droprate =  150 },
+            { itemid = xi.items.AXE_BELT, droprate =  200 },
+            { itemid = xi.items.CESTUS_BELT, droprate =  125 },
+            { itemid = xi.items.DAGGER_BELT, droprate =   75 },
+            { itemid = xi.items.LANCE_BELT, droprate =  200 },
         },
         {
-            { itemid =   653, droprate =  200 }, -- Mythril Ingot
-            { itemid =   645, droprate =  100 }, -- Darksteel Ore
-            { itemid =   744, droprate =  100 }, -- Silver Ingot
-            { itemid =   796, droprate =   75 }, -- Light Opal
-            { itemid =   799, droprate =   25 }, -- Onyx
-            { itemid =   806, droprate =  125 }, -- Tourmaline
-            { itemid =   809, droprate =   10 }, -- Clear Topaz
-            { itemid =  4132, droprate =  175 }, -- Hi-ether
-            { itemid = 15273, droprate =  175 }, -- Mace Belt
-            { itemid = 15271, droprate =  200 }, -- Axe Belt
-            { itemid = 15272, droprate =  125 }, -- Cestus Belt
-            { itemid = 15274, droprate =  150 }, -- Staff Belt
-            { itemid = 15276, droprate =   75 }, -- Dagger Belt
-            { itemid = 15277, droprate =  100 }, -- Shield Belt
-            { itemid = 15280, droprate =  100 }, -- Song Belt
-            { itemid = 15281, droprate =   25 }, -- Gun Belt
-            { itemid = 15283, droprate =  250 }, -- Sarashi
-            { itemid = 15284, droprate =  200 }, -- Lance Belt
+            { itemid =   xi.items.MYTHRIL_INGOT, droprate =  200 },
+            { itemid =   xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  100 },
+            { itemid =   xi.items.SILVER_INGOT, droprate =  100 },
+            { itemid =   xi.items.LIGHT_OPAL, droprate =   75 },
+            { itemid =   xi.items.ONYX, droprate =   25 },
+            { itemid =   xi.items.TOURMALINE, droprate =  125 },
+            { itemid =   xi.items.CLEAR_TOPAZ, droprate =   10 },
+            { itemid =  xi.items.HI_ETHER, droprate =  175 },
+            { itemid = xi.items.MACE_BELT, droprate =  175 },
+            { itemid = xi.items.AXE_BELT, droprate =  200 },
+            { itemid = xi.items.CESTUS_BELT, droprate =  125 },
+            { itemid = xi.items.STAFF_BELT, droprate =  150 },
+            { itemid = xi.items.DAGGER_BELT, droprate =   75 },
+            { itemid = xi.items.SHIELD_BELT, droprate =  100 },
+            { itemid = xi.items.SONG_BELT, droprate =  100 },
+            { itemid = xi.items.GUN_BELT, droprate =   25 },
+            { itemid = xi.items.SARASHI, droprate =  250 },
+            { itemid = xi.items.LANCE_BELT, droprate =  200 },
         },
     },
 
@@ -156,40 +156,40 @@ local loot =
     [36] =
     {
         {
-            { itemid = 4386, droprate = 1000 }, -- king_truffle
+            { itemid = xi.items.KING_TRUFFLE, droprate = 1000 },
         },
 
         {
-            { itemid = 17880, droprate = 1000 }, -- jug_of_seedbed_soil
+            { itemid = xi.items.JUG_OF_SEEDBED_SOIL, droprate = 1000 },
         },
 
         {
-            { itemid =     0, droprate = 200 }, -- nothing
-            { itemid = 12403, droprate = 200 }, -- magicians_shield
-            { itemid = 12389, droprate = 200 }, -- mercenarys_targe
-            { itemid = 12399, droprate = 200 }, -- beaters_aspis
-            { itemid = 12394, droprate = 200 }, -- pilferers_aspis
+            { itemid =     xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.MAGICIANS_SHIELD, droprate = 200 },
+            { itemid = xi.items.MERCENARYS_SHIELD, droprate = 200 },
+            { itemid = xi.items.BEATERS_SHIELD, droprate = 200 },
+            { itemid = xi.items.PILFERERS_ASPIS, droprate = 200 },
         },
 
         {
-            { itemid =     0, droprate = 250 }, -- nothing
-            { itemid = 13667, droprate = 250 }, -- trimmers_mantle
-            { itemid = 13671, droprate = 250 }, -- genin_mantle
-            { itemid = 13663, droprate = 250 }, -- warlocks_mantle
+            { itemid =     xi.items.NONE, droprate = 250 },
+            { itemid = xi.items.TRIMMERS_MANTLE, droprate = 250 },
+            { itemid = xi.items.GENIN_MANTLE, droprate = 250 },
+            { itemid = xi.items.WARLOCKS_MANTLE, droprate = 250 },
         },
 
         {
-            { itemid =    0, droprate = 625 }, -- nothing
-            { itemid = 4947, droprate = 125 }, -- scroll_of_utsusemi_ni
-            { itemid = 4714, droprate = 125 }, -- scroll_of_phalanx
-            { itemid = 4751, droprate = 125 }, -- scroll_of_erase
+            { itemid =    xi.items.NONE, droprate = 625 },
+            { itemid = xi.items.SCROLL_OF_UTSUSEMI_NI, droprate = 125 },
+            { itemid = xi.items.SCROLL_OF_PHALANX, droprate = 125 },
+            { itemid = xi.items.SCROLL_OF_ERASE, droprate = 125 },
         },
 
         {
-            { itemid =    0, droprate = 250 }, -- nothing
-            { itemid = 1601, droprate = 250 }, -- mannequin_head
-            { itemid = 1602, droprate = 250 }, -- mannequin_body
-            { itemid = 1603, droprate = 250 }, -- mannequin_hands
+            { itemid =    xi.items.NONE, droprate = 250 },
+            { itemid = xi.items.MANNEQUIN_HEAD, droprate = 250 },
+            { itemid = xi.items.MANNEQUIN_BODY, droprate = 250 },
+            { itemid = xi.items.MANNEQUIN_HANDS, droprate = 250 },
         },
     },
 }

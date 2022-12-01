@@ -9,78 +9,78 @@ local loot =
     [1] = -- AF
     {
         {
-            { itemid = 1933, droprate =  9 }, -- MNK
-            { itemid = 1931, droprate = 53 }, -- WAR
-            { itemid = 1959, droprate =  6 }, -- SMN
-            { itemid = 1935, droprate = 12 }, -- WHM
-            { itemid = 1945, droprate = 29 }, -- DRK
-            { itemid = 1957, droprate = 12 }, -- DRG
-            { itemid = 1949, droprate = 35 }, -- BRD
-            { itemid = 2659, droprate = 35 }, -- COR
-            { itemid = 1939, droprate = 12 }, -- RDM
-            { itemid = 1951, droprate = 12 }, -- RNG
-            { itemid = 2661, droprate = 12 }, -- PUP
-            { itemid = 1937, droprate = 18 }, -- BLM
-            { itemid = 1955, droprate = 29 }, -- NIN
-            { itemid = 2717, droprate = 12 }, -- SCH
-            { itemid = 1947, droprate = 12 }, -- BST
-            { itemid = 2657, droprate = 18 }, -- BLU
-            { itemid = 2715, droprate =  5 }, -- DNC
-            { itemid = 1953, droprate = 35 }, -- SAM
-            { itemid = 1941, droprate = 41 }, -- THF
-            { itemid = 1943, droprate = 18 }, -- PLD
+            { itemid = xi.items.ANCIENT_BRASS_INGOT, droprate =  9 },
+            { itemid = xi.items.ARGYRO_RIVET, droprate = 53 },
+            { itemid = xi.items.SQUARE_OF_ASTRAL_LEATHER, droprate =  6 },
+            { itemid = xi.items.SPOOL_OF_BENEDICT_YARN, droprate = 12 },
+            { itemid = xi.items.BLACK_RIVET, droprate = 29 },
+            { itemid = xi.items.BLUE_RIVET, droprate = 12 },
+            { itemid = xi.items.SQUARE_OF_BROWN_DOESKIN, droprate = 35 },
+            { itemid = xi.items.SQUARE_OF_CANVAS_TOILE, droprate = 35 },
+            { itemid = xi.items.SQUARE_OF_CARDINAL_CLOTH, droprate = 12 },
+            { itemid = xi.items.SQUARE_OF_CHARCOAL_COTTON, droprate = 12 },
+            { itemid = xi.items.SQUARE_OF_CORDUROY_CLOTH, droprate = 12 },
+            { itemid = xi.items.SPOOL_OF_DIABOLIC_YARN, droprate = 18 },
+            { itemid = xi.items.POT_OF_EBONY_LACQUER, droprate = 29 },
+            { itemid = xi.items.ELECTRUM_STUD, droprate = 12 },
+            { itemid = xi.items.FETID_LANOLIN_CUBE, droprate = 12 },
+            { itemid = xi.items.SQUARE_OF_FLAMESHUN_CLOTH, droprate = 18 },
+            { itemid = xi.items.GOLD_STUD, droprate =  5 },
+            { itemid = xi.items.SHEET_OF_KUROGANE, droprate = 35 },
+            { itemid = xi.items.SPOOL_OF_LIGHT_FILAMENT, droprate = 41 },
+            { itemid = xi.items.WHITE_RIVET, droprate = 18 },
         },
     },
 
     [2] = -- Chip
     {
         {
-            { itemid = 1987, droprate = 53 }, -- Charcoal Chip
-            { itemid = 1988, droprate = 76 }, -- Magenta Chip
-            { itemid = 1909, droprate = 64 }, -- Smalt Chip
-            { itemid = 1910, droprate = 41 }, -- Smoky Chip
+            { itemid = xi.items.CHARCOAL_CHIP, droprate = 53 },
+            { itemid = xi.items.MAGENTA_CHIP, droprate = 76 },
+            { itemid = xi.items.SMALT_CHIP, droprate = 64 },
+            { itemid = xi.items.SMOKY_CHIP, droprate = 41 },
         },
     },
 
     [3] = -- Crafting
     {
         {
-            { itemid =  646, droprate = 50 }, -- Adaman Ore
-            { itemid = 1633, droprate = 50 }, -- Clot Plasma
-            { itemid =  664, droprate = 50 }, -- Darksteel Sheet
-            { itemid =  645, droprate = 50 }, -- Darksteel Ore
-            { itemid = 1311, droprate = 50 }, -- Oxblood
-            { itemid = 1681, droprate = 50 }, -- Light Steel
-            { itemid =  821, droprate = 50 }, -- Rainbow Thread
-            { itemid = 1883, droprate = 50 }, -- Shell Powder
+            { itemid =  xi.items.CHUNK_OF_ADAMAN_ORE, droprate = 50 },
+            { itemid = xi.items.HANDFUL_OF_CLOT_PLASMA, droprate = 50 },
+            { itemid =  xi.items.DARKSTEEL_SHEET, droprate = 50 },
+            { itemid =  xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate = 50 },
+            { itemid = xi.items.OXBLOOD, droprate = 50 },
+            { itemid = xi.items.LIGHT_STEEL_INGOT, droprate = 50 },
+            { itemid =  xi.items.SPOOL_OF_RAINBOW_THREAD, droprate = 50 },
+            { itemid = xi.items.PONZE_OF_SHELL_POWDER, droprate = 50 },
         },
     },
 
     [4] = -- ABCs
     {
         {
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid =    0, droprate = 1000 }, -- Ancient Beastcoin
-            { itemid = 1875, droprate = 1000 }, -- Ancient Beastcoin
+            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
     },
 }
