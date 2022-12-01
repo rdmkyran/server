@@ -54,17 +54,17 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1880, 1522 }, -- Fresh Marjoram
-                    { 1060, 2236 }, -- Simsim
-                    { 1310, 2295 }, -- Mohbwa Grass
-                    { 1760, 2164 }, -- Pephredo Hive Chip
-                    {  590, 4388 }, -- Eggplant
-                    {  960, 2270 }, -- Coffee Cherries
-                    {  450, 2645 }, -- Eastern Ginger
-                    {  860, 2156 }, -- Imperial Tea Leaves
-                    {  470, 1845 }, -- Red Moko Grass
-                    {  430, 1524 }, -- Fresh Mugwort
-                    {  240,  951 }, -- Wijnruit
+                    { 1880, xi.items.SPRIG_OF_FRESH_MARJORAM },
+                    { 1060, xi.items.BAG_OF_SIMSIM },
+                    { 1310, xi.items.CLUMP_OF_MOHBWA_GRASS },
+                    { 1760, xi.items.PEPHREDO_HIVE_CHIP },
+                    {  590, xi.items.EGGPLANT },
+                    {  960, xi.items.BAG_OF_COFFEE_CHERRIES },
+                    {  450, xi.items.EASTERN_GINGER_ROOT },
+                    {  860, xi.items.CLUMP_OF_IMPERIAL_TEA_LEAVES },
+                    {  470, xi.items.CLUMP_OF_RED_MOKO_GRASS },
+                    {  430, xi.items.SPRIG_OF_FRESH_MUGWORT },
+                    {  240,  xi.items.WIJNRUIT },
                 },
 
                 points =
@@ -94,17 +94,17 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1510, 2295 }, -- Mohbwa Grass
-                    { 1470, 1522 }, -- Fresh Marjoram
-                    { 1480, 2164 }, -- Pephredo Hive Chip
-                    { 1170, 2236 }, -- Simsim
-                    { 1100, 2156 }, -- Imperial Tea Leaves
-                    { 1000, 2270 }, -- Coffee Cherries
-                    {  510, 4388 }, -- Eggplant
-                    {  580, 1845 }, -- Red Moko Grass
-                    {  460, 1524 }, -- Fresh Mugwort
-                    {  370,  951 }, -- Wijnruit
-                    {  360, 2645 }, -- Eastern Ginger
+                    { 1510, xi.items.CLUMP_OF_MOHBWA_GRASS },
+                    { 1470, xi.items.SPRIG_OF_FRESH_MARJORAM },
+                    { 1480, xi.items.PEPHREDO_HIVE_CHIP },
+                    { 1170, xi.items.BAG_OF_SIMSIM },
+                    { 1100, xi.items.CLUMP_OF_IMPERIAL_TEA_LEAVES },
+                    { 1000, xi.items.BAG_OF_COFFEE_CHERRIES },
+                    {  510, xi.items.EGGPLANT },
+                    {  580, xi.items.CLUMP_OF_RED_MOKO_GRASS },
+                    {  460, xi.items.SPRIG_OF_FRESH_MUGWORT },
+                    {  370,  xi.items.WIJNRUIT },
+                    {  360, xi.items.EASTERN_GINGER_ROOT },
                 },
 
                 points =
@@ -126,14 +126,14 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1830,  833 }, -- Moko Grass
-                    { 1850, 1845 }, -- Red Moko Grass
-                    { 1250,  573 }, -- Vegetable Seeds
-                    { 1560, 5651 }, -- Burdock
-                    { 1060,  575 }, -- Grain Seeds
-                    { 1200,  572 }, -- Herb Seeds
-                    { 1270, 2155 }, -- Lesser Chigoe
-                    { 1160, 5907 }, -- Winterflower
+                    { 1830,  xi.items.CLUMP_OF_MOKO_GRASS },
+                    { 1850, xi.items.CLUMP_OF_RED_MOKO_GRASS },
+                    { 1250,  xi.items.BAG_OF_VEGETABLE_SEEDS },
+                    { 1560, xi.items.BURDOCK_ROOT },
+                    { 1060,  xi.items.BAG_OF_GRAIN_SEEDS },
+                    { 1200,  xi.items.BAG_OF_HERB_SEEDS },
+                    { 1270, xi.items.LESSER_CHIGOE },
+                    { 1160, xi.items.WINTERFLOWER },
                 },
 
                 points =
@@ -151,18 +151,18 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1630, 1522 }, -- Fresh Marjoram
-                    { 1580,  833 }, -- Moko Grass
-                    { 1680,  834 }, -- Saruta Cotton
-                    {  890, 5651 }, -- Burdock
-                    {  830, 1845 }, -- Red Moko Grass
-                    {  910,  835 }, -- Flax Flower
-                    {  540,  573 }, -- Vegetable Seeds
-                    {  550, 1981 }, -- Skull Locust
-                    {  390, 1524 }, -- Fresh Mugwort
-                    {  350, 1982 }, -- King Locust
-                    {  280,  572 }, -- Herb Seeds
-                    {  370,  575 }, -- Grain Seeds
+                    { 1630, xi.items.SPRIG_OF_FRESH_MARJORAM },
+                    { 1580,  xi.items.CLUMP_OF_MOKO_GRASS },
+                    { 1680,  xi.items.BALL_OF_SARUTA_COTTON },
+                    {  890, xi.items.BURDOCK_ROOT },
+                    {  830, xi.items.CLUMP_OF_RED_MOKO_GRASS },
+                    {  910,  xi.items.FLAX_FLOWER },
+                    {  540,  xi.items.BAG_OF_VEGETABLE_SEEDS },
+                    {  550, xi.items.SKULL_LOCUST },
+                    {  390, xi.items.SPRIG_OF_FRESH_MUGWORT },
+                    {  350, xi.items.KING_LOCUST },
+                    {  280,  xi.items.BAG_OF_HERB_SEEDS },
+                    {  370,  xi.items.BAG_OF_GRAIN_SEEDS },
                 },
 
                 points =
@@ -180,21 +180,21 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1680,  833 }, -- Moko Grass
-                    { 1290,  834 }, -- Saruta Cotton
-                    { 1180, 1522 }, -- Fresh Marjoram
-                    { 1090, 1845 }, -- Red Moko Grass
-                    {  920,  835 }, -- Flax Flower
-                    {  880, 2713 }, -- Dyer's Woad
-                    {  670, 4545 }, -- Gysahl Greens
-                    {  650,  635 }, -- Windurstian Tea Leaves
-                    {  480, 1981 }, -- Skull Locust
-                    {  360,  951 }, -- Wijnruit
-                    {  320,  573 }, -- Vegetable Seeds
-                    {  210,  572 }, -- Herb Seeds
-                    {  190,  575 }, -- Grain Seeds
-                    {  160,  839 }, -- Crawler Cocoon
-                    {   10, 1524 }, -- Fresh Mugwort
+                    { 1680,  xi.items.CLUMP_OF_MOKO_GRASS },
+                    { 1290,  xi.items.BALL_OF_SARUTA_COTTON },
+                    { 1180, xi.items.SPRIG_OF_FRESH_MARJORAM },
+                    { 1090, xi.items.CLUMP_OF_RED_MOKO_GRASS },
+                    {  920,  xi.items.FLAX_FLOWER },
+                    {  880, xi.items.SPRIG_OF_DYERS_WOAD },
+                    {  670, xi.items.BUNCH_OF_GYSAHL_GREENS },
+                    {  650,  xi.items.CLUMP_OF_WINDURSTIAN_TEA_LEAVES },
+                    {  480, xi.items.SKULL_LOCUST },
+                    {  360,  xi.items.WIJNRUIT },
+                    {  320,  xi.items.BAG_OF_VEGETABLE_SEEDS },
+                    {  210,  xi.items.BAG_OF_HERB_SEEDS },
+                    {  190,  xi.items.BAG_OF_GRAIN_SEEDS },
+                    {  160,  xi.items.PIECE_OF_CRAWLER_COCOON },
+                    {   10, xi.items.SPRIG_OF_FRESH_MUGWORT },
                 },
 
                 points =
@@ -212,13 +212,13 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 4000, 4373 }, -- Woozyshroom
-                    { 2000, 4375 }, -- Danceshroom
-                    { 2000, 4374 }, -- Sleepshroom
-                    {  700, 4447 }, -- Scream Fungus
-                    {  700, 4448 }, -- Puffball
-                    {  300, 4386 }, -- King Truffle
-                    {  300, 1983 }, -- Mushroom Locust
+                    { 4000, xi.items.WOOZYSHROOM },
+                    { 2000, xi.items.DANCESHROOM },
+                    { 2000, xi.items.SLEEPSHROOM },
+                    {  700, xi.items.SCREAM_FUNGUS },
+                    {  700, xi.items.PUFFBALL },
+                    {  300, xi.items.KING_TRUFFLE },
+                    {  300, xi.items.MUSHROOM_LOCUST },
                 },
 
                 points =
@@ -233,13 +233,13 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 4000, 4373 }, -- Woozyshroom
-                    { 2000, 4375 }, -- Danceshroom
-                    { 2000, 4374 }, -- Sleepshroom
-                    {  700, 4447 }, -- Scream Fungus
-                    {  700, 4450 }, -- Coral Fungus
-                    {  300, 4449 }, -- Reishi Mushroom
-                    {  300, 1983 }, -- Mushroom Locust
+                    { 4000, xi.items.WOOZYSHROOM },
+                    { 2000, xi.items.DANCESHROOM },
+                    { 2000, xi.items.SLEEPSHROOM },
+                    {  700, xi.items.SCREAM_FUNGUS },
+                    {  700, xi.items.CORAL_FUNGUS },
+                    {  300, xi.items.REISHI_MUSHROOM },
+                    {  300, xi.items.MUSHROOM_LOCUST },
                 },
 
                 points =
@@ -254,21 +254,21 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1500, 1845 }, -- Red Moko Grass
-                    { 1430, 2713 }, -- Dyer's Woad
-                    { 1430,  835 }, -- Flax Flower
-                    { 1400,  834 }, -- Saruta Cotton
-                    { 1210, 1522 }, -- Fresh Marjoram
-                    { 1030,  833 }, -- Moko Grass
-                    {  570,  635 }, -- Windurstian Tea Leaves
-                    {  520, 4545 }, -- Gysahl Greens
-                    {  440, 1982 }, -- King Locust
-                    {  370,  951 }, -- Wijnruit
-                    {  230,  575 }, -- Grain Seeds
-                    {  210,  572 }, -- Herb Seeds
-                    {  200, 1524 }, -- Fresh Mugwort
-                    {  190,  839 }, -- Crawler Cocoon
-                    {  160,  573 }, -- Vegetable Seeds
+                    { 1500, xi.items.CLUMP_OF_RED_MOKO_GRASS },
+                    { 1430, xi.items.SPRIG_OF_DYERS_WOAD },
+                    { 1430,  xi.items.FLAX_FLOWER },
+                    { 1400,  xi.items.BALL_OF_SARUTA_COTTON },
+                    { 1210, xi.items.SPRIG_OF_FRESH_MARJORAM },
+                    { 1030,  xi.items.CLUMP_OF_MOKO_GRASS },
+                    {  570,  xi.items.CLUMP_OF_WINDURSTIAN_TEA_LEAVES },
+                    {  520, xi.items.BUNCH_OF_GYSAHL_GREENS },
+                    {  440, xi.items.KING_LOCUST },
+                    {  370,  xi.items.WIJNRUIT },
+                    {  230,  xi.items.BAG_OF_GRAIN_SEEDS },
+                    {  210,  xi.items.BAG_OF_HERB_SEEDS },
+                    {  200, xi.items.SPRIG_OF_FRESH_MUGWORT },
+                    {  190,  xi.items.PIECE_OF_CRAWLER_COCOON },
+                    {  160,  xi.items.BAG_OF_VEGETABLE_SEEDS },
                 },
 
                 points =
@@ -312,14 +312,14 @@ local helmInfo =
             {
                 drops =
                 {
-                    {  970,  572 }, -- Herb Seeds
-                    { 1330,  833 }, -- Moko Grass
-                    {  880, 2155 }, -- Lesser Chigoe
-                    {  880,  575 }, -- Grain Seeds
-                    { 1180, 1845 }, -- Red Moko Grass
-                    { 1000, 5651 }, -- Burdock
-                    {  790,  573 }, -- Vegetable Seeds
-                    {  940, 5444 }, -- Grauberg Greens
+                    {  970,  xi.items.BAG_OF_HERB_SEEDS },
+                    { 1330,  xi.items.CLUMP_OF_MOKO_GRASS },
+                    {  880, xi.items.LESSER_CHIGOE },
+                    {  880,  xi.items.BAG_OF_GRAIN_SEEDS },
+                    { 1180, xi.items.CLUMP_OF_RED_MOKO_GRASS },
+                    { 1000, xi.items.BURDOCK_ROOT },
+                    {  790,  xi.items.BAG_OF_VEGETABLE_SEEDS },
+                    {  940, xi.items.BUNCH_OF_GRAUBERG_GREENS },
                 },
 
                 points =
@@ -365,16 +365,16 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2220,   880 }, -- Bone Chip
-                    { 2220,   898 }, -- Chicken Bone
-                    { 1220,   891 }, -- Bat Fang
-                    { 1220, 17396 }, -- Little Worm
-                    {  720,   897 }, -- Scorpion Claw
+                    { 2220,   xi.items.BONE_CHIP },
+                    { 2220,   xi.items.CHICKEN_BONE },
+                    { 1220,   xi.items.BAT_FANG },
+                    { 1220, xi.items.LITTLE_WORM },
+                    {  720,   xi.items.SCORPION_CLAW },
                     {  720,   896 }, -- Scorpion Shell
-                    {  420,  1616 }, -- Antlion Jaw
-                    {  420,  1236 }, -- Cactus Stems
-                    {  420,  1473 }, -- High Quality Scorpion Shell
-                    {  420,   769 }, -- Colored Rock
+                    {  420,  xi.items.ANTLION_JAW },
+                    {  420,  xi.items.BAG_OF_CACTUS_STEMS },
+                    {  420,  xi.items.HIGH_QUALITY_SCORPION_SHELL },
+                    {  420,   xi.items.RED_ROCK },
                 },
 
                 points =
@@ -394,15 +394,15 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2690,   880 }, -- Bone Chip
-                    { 1830,   898 }, -- Chicken Bone
-                    { 1300,   891 }, -- Bat Fang
-                    { 1440,   893 }, -- Giant Femur
-                    { 1250, 17396 }, -- Little Worm
-                    {   50,   897 }, -- Scorpion Claw
+                    { 2690,   xi.items.BONE_CHIP },
+                    { 1830,   xi.items.CHICKEN_BONE },
+                    { 1300,   xi.items.BAT_FANG },
+                    { 1440,   xi.items.GIANT_FEMUR },
+                    { 1250, xi.items.LITTLE_WORM },
+                    {   50,   xi.items.SCORPION_CLAW },
                     {  290,   896 }, -- Scorpion Shell
-                    {  240,   885 }, -- Turtle Shell
-                    {  190,  1888 }, -- Silica
+                    {  240,   xi.items.TURTLE_SHELL },
+                    {  190,  xi.items.SACK_OF_SILICA },
                 },
 
                 points =
@@ -430,17 +430,17 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2130,   936 }, -- Rock Salt
-                    { 1700,   888 }, -- Seashell
-                    {  430,   881 }, -- Crab Shell
-                    { 1490,   864 }, -- Fish Scales
-                    { 2130, 17395 }, -- Lugworm
-                    { 1060, 17397 }, -- Shell Bug
-                    {  100,   887 }, -- Coral Fragment
-                    {  100,   573 }, -- Vegetable Seeds
-                    {  430,   885 }, -- Turtle Shell
-                    {  100,   575 }, -- Grain Seeds
-                    {  640,  1985 }, -- Helmet Mole
+                    { 2130,   xi.items.CHUNK_OF_ROCK_SALT },
+                    { 1700,   xi.items.SEASHELL },
+                    {  430,   xi.items.CRAB_SHELL },
+                    { 1490,   xi.items.HANDFUL_OF_FISH_SCALES },
+                    { 2130, xi.items.LUGWORM },
+                    { 1060, xi.items.SHELL_BUG },
+                    {  100,   xi.items.CORAL_FRAGMENT },
+                    {  100,   xi.items.BAG_OF_VEGETABLE_SEEDS },
+                    {  430,   xi.items.TURTLE_SHELL },
+                    {  100,   xi.items.BAG_OF_GRAIN_SEEDS },
+                    {  640,  xi.items.HELMET_MOLE },
                 },
 
                 points =
@@ -461,15 +461,15 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2560,   880 }, -- Bone Chip
-                    { 2560,   891 }, -- Bat Fang
-                    { 2330, 17396 }, -- Little Worm
-                    {  930,   893 }, -- Giant Femur
-                    {  700,   897 }, -- Scorpion Claw
+                    { 2560,   xi.items.BONE_CHIP },
+                    { 2560,   xi.items.BAT_FANG },
+                    { 2330, xi.items.LITTLE_WORM },
+                    {  930,   xi.items.GIANT_FEMUR },
+                    {  700,   xi.items.SCORPION_CLAW },
                     {  230,   896 }, -- Scorpion Shell
-                    {  230,   703 }, -- Petrified Log
-                    {  100,   769 }, -- Colored Rock
-                    {  470,  1888 }, -- Silica
+                    {  230,   xi.items.PETRIFIED_LOG },
+                    {  100,   xi.items.RED_ROCK },
+                    {  470,  xi.items.SACK_OF_SILICA },
                 },
 
                 points =
@@ -510,14 +510,14 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1750,  693 }, -- Walnut Log
-                    { 1750,  695 }, -- Willow Log
-                    { 1000,  696 }, -- Yew Log
-                    {  750,  688 }, -- Arrowwood Log
-                    {  500,  698 }, -- Ash Log
-                    {  500,  923 }, -- Dryad Root
-                    {  250, 4504 }, -- Acorn
-                    {  100,  699 }, -- Oak Log
+                    { 1750,  xi.items.WALNUT_LOG },
+                    { 1750,  xi.items.WILLOW_LOG },
+                    { 1000,  xi.items.YEW_LOG },
+                    {  750,  xi.items.ARROWWOOD_LOG },
+                    {  500,  xi.items.ASH_LOG },
+                    {  500,  xi.items.DRYAD_ROOT },
+                    {  250, xi.items.ACORN },
+                    {  100,  xi.items.OAK_LOG },
                 },
 
                 points =
@@ -532,14 +532,14 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 3330,  688 }, -- Arrowwood Log
-                    { 1750,  698 }, -- Ash Log
-                    { 2000,  691 }, -- Maple Log
-                    { 1420, 4363 }, -- Faerie Apple
-                    {  830,  693 }, -- Walnut Log
-                    {  170, 4504 }, -- Acorn
-                    {  330,  690 }, -- Elm Log
-                    {  170,  699 }, -- Oak Log
+                    { 3330,  xi.items.ARROWWOOD_LOG },
+                    { 1750,  xi.items.ASH_LOG },
+                    { 2000,  xi.items.MAPLE_LOG },
+                    { 1420, xi.items.FAERIE_APPLE },
+                    {  830,  xi.items.WALNUT_LOG },
+                    {  170, xi.items.ACORN },
+                    {  330,  xi.items.ELM_LOG },
+                    {  170,  xi.items.OAK_LOG },
                 },
 
                 points =
@@ -555,14 +555,14 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2220,  688 }, -- Arrowwood Log
-                    { 2220, 4363 }, -- Faerie Apple
-                    { 2220,  698 }, -- Ash Log
-                    { 2220,  691 }, -- Maple Log
-                    {  100,  693 }, -- Walnut Log
-                    {  100, 4504 }, -- Acorn
-                    { 1110,  690 }, -- Elm Log
-                    {  100,  699 }, -- Oak Log
+                    { 2220,  xi.items.ARROWWOOD_LOG },
+                    { 2220, xi.items.FAERIE_APPLE },
+                    { 2220,  xi.items.ASH_LOG },
+                    { 2220,  xi.items.MAPLE_LOG },
+                    {  100,  xi.items.WALNUT_LOG },
+                    {  100, xi.items.ACORN },
+                    { 1110,  xi.items.ELM_LOG },
+                    {  100,  xi.items.OAK_LOG },
                 },
 
                 points =
@@ -578,16 +578,16 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1070,  688 }, -- Arrowwood Log
-                    { 1070,  727 }, -- Dogwood Log
-                    { 2300, 2213 }, -- Pine Nuts
-                    { 1070, 2503 }, -- Almonds
-                    {  500,  694 }, -- Chestnut Log
-                    { 2300, 5566 }, -- Date
-                    {  500,  702 }, -- Ebony Log
-                    {  500,  689 }, -- Lauan Log
-                    {  490,  701 }, -- Rosewood Log
-                    {  200,  729 }, -- Bloodwood Log
+                    { 1070,  xi.items.ARROWWOOD_LOG },
+                    { 1070,  xi.items.DOGWOOD_LOG },
+                    { 2300, xi.items.HANDFUL_OF_PINE_NUTS },
+                    { 1070, xi.items.HANDFUL_OF_ALMONDS },
+                    {  500,  xi.items.CHESTNUT_LOG },
+                    { 2300, xi.items.DATE },
+                    {  500,  xi.items.EBONY_LOG },
+                    {  500,  xi.items.LAUAN_LOG },
+                    {  490,  xi.items.ROSEWOOD_LOG },
+                    {  200,  xi.items.BLOODWOOD_LOG },
                 },
 
                 points =
@@ -604,16 +604,16 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2200,  727 }, -- Dogwood Log
-                    { 1520, 2503 }, -- Almonds
-                    { 1260,  688 }, -- Arrowwood Log
-                    {  470,  694 }, -- Chestnut Log
-                    {  680, 5566 }, -- Date
-                    {  940,  689 }, -- Lauan Log
-                    { 1150, 2213 }, -- Pine Nuts
-                    {  680,  701 }, -- Rosewood Log
-                    {  260,  729 }, -- Bloodwood Log
-                    {  310,  702 }, -- Ebony Log
+                    { 2200,  xi.items.DOGWOOD_LOG },
+                    { 1520, xi.items.HANDFUL_OF_ALMONDS },
+                    { 1260,  xi.items.ARROWWOOD_LOG },
+                    {  470,  xi.items.CHESTNUT_LOG },
+                    {  680, xi.items.DATE },
+                    {  940,  xi.items.LAUAN_LOG },
+                    { 1150, xi.items.HANDFUL_OF_PINE_NUTS },
+                    {  680,  xi.items.ROSEWOOD_LOG },
+                    {  260,  xi.items.BLOODWOOD_LOG },
+                    {  310,  xi.items.EBONY_LOG },
                 },
 
                 points =
@@ -630,17 +630,17 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1890,  688 }, -- Arrowwood Log
-                    { 1400,  698 }, -- Ash Log
-                    { 1430,  691 }, -- Maple Log
-                    { 1270, 5661 }, -- Walnut
-                    {  850,  694 }, -- Chestnut Log
-                    { 1000,  639 }, -- Ronfaure Chestnut
-                    {  760,  693 }, -- Walnut Log
-                    {  490,  574 }, -- Fruit Seeds
-                    {   40, 2534 }, -- Jacaranda Log
-                    {  400,  699 }, -- Oak Log
-                    {  290, 2532 }, -- Teak Log
+                    { 1890,  xi.items.ARROWWOOD_LOG },
+                    { 1400,  xi.items.ASH_LOG },
+                    { 1430,  xi.items.MAPLE_LOG },
+                    { 1270, xi.items.WALNUT },
+                    {  850,  xi.items.CHESTNUT_LOG },
+                    { 1000,  xi.items.RONFAURE_CHESTNUT },
+                    {  760,  xi.items.WALNUT_LOG },
+                    {  490,  xi.items.BAG_OF_FRUIT_SEEDS },
+                    {   40, xi.items.JACARANDA_LOG },
+                    {  400,  xi.items.OAK_LOG },
+                    {  290, xi.items.TEAK_LOG },
                 },
 
                 points =
@@ -658,15 +658,15 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2000, 5661 }, -- Walnut
-                    { 1540,  693 }, -- Walnut Log
-                    { 1140,  688 }, -- Arrowwood Log
-                    { 1090,  698 }, -- Ash Log
-                    {  860,  699 }, -- Oak Log
-                    {  860,  695 }, -- Willow Log
-                    {  510, 4504 }, -- Acorn
-                    {  170, 2534 }, -- Jacaranda Log
-                    {  230, 2532 }, -- Teak Log
+                    { 2000, xi.items.WALNUT },
+                    { 1540,  xi.items.WALNUT_LOG },
+                    { 1140,  xi.items.ARROWWOOD_LOG },
+                    { 1090,  xi.items.ASH_LOG },
+                    {  860,  xi.items.OAK_LOG },
+                    {  860,  xi.items.WILLOW_LOG },
+                    {  510, xi.items.ACORN },
+                    {  170, xi.items.JACARANDA_LOG },
+                    {  230, xi.items.TEAK_LOG },
                 },
 
                 points =
@@ -684,13 +684,13 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2910,  4154 }, -- Holy Water
-                    { 2230,  5650 }, -- Nopales
-                    { 1650,  5662 }, -- Dragon Fruit
-                    { 1490,   847 }, -- Bird Feather
-                    { 1250,  4570 }, -- Bird Egg
-                    {  170,  1236 }, -- Cactus Stems
-                    {   50, 18175 }, -- Optical Needle
+                    { 2910,  xi.items.FLASK_OF_HOLY_WATER },
+                    { 2230,  xi.items.PAIR_OF_NOPALES },
+                    { 1650,  xi.items.DRAGON_FRUIT },
+                    { 1490,   xi.items.BIRD_FEATHER },
+                    { 1250,  xi.items.BIRD_EGG },
+                    {  170,  xi.items.BAG_OF_CACTUS_STEMS },
+                    {   50, xi.items.OPTICAL_NEEDLE },
                 },
 
                 points =
@@ -708,13 +708,13 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2610, 688 }, -- Arrowwood Log
-                    { 2030, 698 }, -- Ash Log
-                    { 2570, 691 }, -- Maple Log
-                    {  540, 694 }, -- Chestnut Log
-                    {  580, 574 }, -- Fruit Seeds
-                    {  910, 696 }, -- Yew Log
-                    {  410, 639 }, -- Ronfaure Chestnut
+                    { 2610, xi.items.ARROWWOOD_LOG },
+                    { 2030, xi.items.ASH_LOG },
+                    { 2570, xi.items.MAPLE_LOG },
+                    {  540, xi.items.CHESTNUT_LOG },
+                    {  580, xi.items.BAG_OF_FRUIT_SEEDS },
+                    {  910, xi.items.YEW_LOG },
+                    {  410, xi.items.RONFAURE_CHESTNUT },
                 },
 
                 points =
@@ -751,14 +751,14 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2040,  693 }, -- Walnut Log
-                    { 1850,  695 }, -- Willow Log
-                    { 1790,  696 }, -- Yew Log
-                    { 1460,  688 }, -- Arrowwood Log
-                    { 1430,  698 }, -- Ash Log
-                    {  580, 4504 }, -- Acorn
-                    {  550,  923 }, -- Dryad Root
-                    {   60,  699 }, -- Oak Log
+                    { 2040,  xi.items.WALNUT_LOG },
+                    { 1850,  xi.items.WILLOW_LOG },
+                    { 1790,  xi.items.YEW_LOG },
+                    { 1460,  xi.items.ARROWWOOD_LOG },
+                    { 1430,  xi.items.ASH_LOG },
+                    {  580, xi.items.ACORN },
+                    {  550,  xi.items.DRYAD_ROOT },
+                    {   60,  xi.items.OAK_LOG },
                 },
 
                 points =
@@ -796,16 +796,16 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2410,  689 }, -- Lauan Log
-                    { 1980,  688 }, -- Arrowwood Log
-                    { 1550, 4445 }, -- Yagudo Cherry
-                    { 1030, 4503 }, -- Buburimu Grapes
-                    {  780,  923 }, -- Dryad Root
-                    {  520,  574 }, -- Fruit Seeds
-                    {  950,  697 }, -- Holly Log
-                    {  340,  702 }, -- Ebony Log
-                    {  170,  700 }, -- Mahogany Log
-                    {  260,  701 }, -- Rosewood Log
+                    { 2410,  xi.items.LAUAN_LOG },
+                    { 1980,  xi.items.ARROWWOOD_LOG },
+                    { 1550, xi.items.YAGUDO_CHERRY },
+                    { 1030, xi.items.BUNCH_OF_BUBURIMU_GRAPES },
+                    {  780,  xi.items.DRYAD_ROOT },
+                    {  520,  xi.items.BAG_OF_FRUIT_SEEDS },
+                    {  950,  xi.items.HOLLY_LOG },
+                    {  340,  xi.items.EBONY_LOG },
+                    {  170,  xi.items.MAHOGANY_LOG },
+                    {  260,  xi.items.ROSEWOOD_LOG },
                 },
 
                 points =
@@ -849,17 +849,17 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1900,  688 }, -- Arrowwood Log
-                    { 1430,  721 }, -- Rattan Lumber
-                    { 1190,  689 }, -- Lauan Log
-                    { 1190,  940 }, -- Revival Tree Root
-                    {  950,  731 }, -- Aquilaria Log
-                    {  480,  912 }, -- Beehive Chip
-                    {  480, 1237 }, -- Tree Cuttings
-                    {  100, 5662 }, -- Dragon Fruit
-                    {  240,  702 }, -- Ebony Log
-                    {  100,  697 }, -- Holly Log
-                    {  100,  701 }, -- Rosewood Log
+                    { 1900,  xi.items.ARROWWOOD_LOG },
+                    { 1430,  xi.items.PIECE_OF_RATTAN_LUMBER },
+                    { 1190,  xi.items.LAUAN_LOG },
+                    { 1190,  xi.items.REVIVAL_TREE_ROOT },
+                    {  950,  xi.items.AQUILARIA_LOG },
+                    {  480,  xi.items.BEEHIVE_CHIP },
+                    {  480, xi.items.BAG_OF_TREE_CUTTINGS },
+                    {  100, xi.items.DRAGON_FRUIT },
+                    {  240,  xi.items.EBONY_LOG },
+                    {  100,  xi.items.HOLLY_LOG },
+                    {  100,  xi.items.ROSEWOOD_LOG },
                 },
 
                 points =
@@ -876,18 +876,18 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2220,  688 }, -- Arrowwood Log
-                    { 2220,  721 }, -- Rattan Lumber
-                    { 1130,  689 }, -- Lauan Log
-                    {  780,  912 }, -- Beehive Chip
-                    {  650,  923 }, -- Dryad Root
-                    {  650, 5908 }, -- Butterpear
-                    {  610,  940 }, -- Revival Tree Root
-                    {  610,  731 }, -- Aquilaria Log
-                    {  570,  732 }, -- Kapor Log
-                    {  350,  700 }, -- Mahogany Log
-                    {  170,  702 }, -- Ebony Log
-                    {   90, 1237 }, -- Tree Cuttings
+                    { 2220,  xi.items.ARROWWOOD_LOG },
+                    { 2220,  xi.items.PIECE_OF_RATTAN_LUMBER },
+                    { 1130,  xi.items.LAUAN_LOG },
+                    {  780,  xi.items.BEEHIVE_CHIP },
+                    {  650,  xi.items.DRYAD_ROOT },
+                    {  650, xi.items.BUTTERPEAR },
+                    {  610,  xi.items.REVIVAL_TREE_ROOT },
+                    {  610,  xi.items.AQUILARIA_LOG },
+                    {  570,  xi.items.KAPOR_LOG },
+                    {  350,  xi.items.MAHOGANY_LOG },
+                    {  170,  xi.items.EBONY_LOG },
+                    {   90, xi.items.BAG_OF_TREE_CUTTINGS },
                 },
 
                 points =
@@ -919,12 +919,12 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2950, 688 }, -- Arrowwood Log
-                    { 2230, 698 }, -- Ash Log
-                    { 2120, 691 }, -- Maple Log
-                    { 1000, 695 }, -- Willow Log
-                    {  620, 690 }, -- Elm Log
-                    {  650, 697 }, -- Holly Log
+                    { 2950, xi.items.ARROWWOOD_LOG },
+                    { 2230, xi.items.ASH_LOG },
+                    { 2120, xi.items.MAPLE_LOG },
+                    { 1000, xi.items.WILLOW_LOG },
+                    {  620, xi.items.ELM_LOG },
+                    {  650, xi.items.HOLLY_LOG },
                 },
 
                 points =
@@ -965,21 +965,21 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1150, 1654 }, -- Igneous Rock
-                    { 1130,  642 }, -- Zinc Ore
-                    { 1100,  640 }, -- Copper Ore
-                    { 1080,  641 }, -- Tin Ore
-                    { 1050,  736 }, -- Silver Ore
-                    {  970,  643 }, -- Iron Ore
-                    {  680, 1632 }, -- Moblin Mail
-                    {  630, 1625 }, -- Moblin Helm
-                    {  600, 1638 }, -- Moblin Mask
-                    {  570,  568 }, -- Goblin Die
-                    {  570, 1631 }, -- Moblin Armor
-                    {   80,  645 }, -- Darksteel Ore
-                    {   80,  644 }, -- Mythril Ore
-                    {   70,  737 }, -- Gold Ore
-                    {   70,  738 }, -- Platium Ore
+                    { 1150, xi.items.IGNEOUS_ROCK },
+                    { 1130,  xi.items.CHUNK_OF_ZINC_ORE },
+                    { 1100,  xi.items.CHUNK_OF_COPPER_ORE },
+                    { 1080,  xi.items.CHUNK_OF_TIN_ORE },
+                    { 1050,  xi.items.CHUNK_OF_SILVER_ORE },
+                    {  970,  xi.items.CHUNK_OF_IRON_ORE },
+                    {  680, xi.items.MOBLIN_MAIL },
+                    {  630, xi.items.MOBLIN_HELM },
+                    {  600, xi.items.MOBLIN_MASK },
+                    {  570,  xi.items.GOBLIN_DIE },
+                    {  570, xi.items.MOBLIN_ARMOR },
+                    {   80,  xi.items.CHUNK_OF_DARKSTEEL_ORE },
+                    {   80,  xi.items.CHUNK_OF_MYTHRIL_ORE },
+                    {   70,  xi.items.CHUNK_OF_GOLD_ORE },
+                    {   70,  xi.items.CHUNK_OF_PLATINUM_ORE },
                 },
 
                 points =
@@ -1004,18 +1004,18 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1660,  640 }, -- Copper Ore
-                    { 1100,  641 }, -- Tin Ore
-                    { 1450,  642 }, -- Zinc Ore
-                    { 1790, 1654 }, -- Igneous Rock
-                    { 1450,  736 }, -- Silver Ore
-                    {  140,  678 }, -- Aluminum Ore
-                    { 1720,  643 }, -- Iron Ore
-                    {   70,  645 }, -- Darksteel Ore
-                    {  210,  644 }, -- Mythril Ore
-                    {  140,  737 }, -- Gold Ore
-                    {  340,  738 }, -- Platium Ore
-                    {   70,  769 }, -- Colored Rock
+                    { 1660,  xi.items.CHUNK_OF_COPPER_ORE },
+                    { 1100,  xi.items.CHUNK_OF_TIN_ORE },
+                    { 1450,  xi.items.CHUNK_OF_ZINC_ORE },
+                    { 1790, xi.items.IGNEOUS_ROCK },
+                    { 1450,  xi.items.CHUNK_OF_SILVER_ORE },
+                    {  140,  xi.items.CHUNK_OF_ALUMINUM_ORE },
+                    { 1720,  xi.items.CHUNK_OF_IRON_ORE },
+                    {   70,  xi.items.CHUNK_OF_DARKSTEEL_ORE },
+                    {  210,  xi.items.CHUNK_OF_MYTHRIL_ORE },
+                    {  140,  xi.items.CHUNK_OF_GOLD_ORE },
+                    {  340,  xi.items.CHUNK_OF_PLATINUM_ORE },
+                    {   70,  xi.items.RED_ROCK },
                 },
 
                 points =
@@ -1037,20 +1037,20 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2250, 1108 }, -- Sulfur
-                    { 2990,  643 }, -- Iron Ore
-                    { 1590, 1155 }, -- Iron Sand
-                    { 1540,  768 }, -- Flint Stone
-                    { 1340,  928 }, -- Bomb Ash
-                    {  960, 1632 }, -- Moblin Mail
-                    { 1150, 1625 }, -- Moblin Helm
-                    {  450, 1631 }, -- Moblin Armor
-                    {  380, 2160 }, -- Troll Pauldron
-                    {  450, 2161 }, -- Troll Vambrace
-                    {  430, 1638 }, -- Moblin Mask
-                    {  210,  902 }, -- Demon Horn
-                    {  140,  646 }, -- Adaman Ore
-                    {   30,  685 }, -- Khroma Ore
+                    { 2250, xi.items.PINCH_OF_SULFUR },
+                    { 2990,  xi.items.CHUNK_OF_IRON_ORE },
+                    { 1590, xi.items.HANDFUL_OF_IRON_SAND },
+                    { 1540,  xi.items.FLINT_STONE },
+                    { 1340,  xi.items.PINCH_OF_BOMB_ASH },
+                    {  960, xi.items.MOBLIN_MAIL },
+                    { 1150, xi.items.MOBLIN_HELM },
+                    {  450, xi.items.MOBLIN_ARMOR },
+                    {  380, xi.items.TROLL_PAULDRON },
+                    {  450, xi.items.TROLL_VAMBRACE },
+                    {  430, xi.items.MOBLIN_MASK },
+                    {  210,  xi.items.DEMON_HORN },
+                    {  140,  xi.items.CHUNK_OF_ADAMAN_ORE },
+                    {   30,  xi.items.CHUNK_OF_KHROMA_ORE },
                 },
 
                 points =
@@ -1084,20 +1084,20 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2010, 2417 }, -- Aht Urhgan Brass
-                    { 1000,  928 }, -- Bomb Ash
-                    { 1720,  768 }, -- Flint Stone
-                    {  290,  737 }, -- Gold Ore
-                    { 1440, 1155 }, -- Iron Sand
-                    {   50, 2228 }, -- Luminium Ore
-                    {  430, 1631 }, -- Moblin Armor
-                    {  430, 1625 }, -- Moblin Helm
-                    {  480, 1632 }, -- Moblin Mail
-                    {  290, 1638 }, -- Moblin Mask
-                    {  100,  739 }, -- Orichalcum Ore
-                    { 1200, 1108 }, -- Pinch of Sulfur
-                    {  480, 2160 }, -- Troll Pauldron
-                    {  330, 2161 }, -- Troll Vambrace
+                    { 2010, xi.items.CHUNK_OF_AHT_URHGAN_BRASS },
+                    { 1000,  xi.items.PINCH_OF_BOMB_ASH },
+                    { 1720,  xi.items.FLINT_STONE },
+                    {  290,  xi.items.CHUNK_OF_GOLD_ORE },
+                    { 1440, xi.items.HANDFUL_OF_IRON_SAND },
+                    {   50, xi.items.CHUNK_OF_LUMINIUM_ORE },
+                    {  430, xi.items.MOBLIN_ARMOR },
+                    {  430, xi.items.MOBLIN_HELM },
+                    {  480, xi.items.MOBLIN_MAIL },
+                    {  290, xi.items.MOBLIN_MASK },
+                    {  100,  xi.items.CHUNK_OF_ORICHALCUM_ORE },
+                    { 1200, xi.items.PINCH_OF_SULFUR },
+                    {  480, xi.items.TROLL_PAULDRON },
+                    {  330, xi.items.TROLL_VAMBRACE },
                 },
 
                 points =
@@ -1129,18 +1129,18 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1870,   640 }, -- Copper Ore
-                    { 1930,   642 }, -- Zinc Ore
-                    { 1500,   641 }, -- Tin Ore
-                    { 1340, 17296 }, -- Pebble
-                    {  860,   736 }, -- Silver Ore
-                    { 1180,   643 }, -- Iron Ore
-                    {  750,   644 }, -- Mythril Ore
-                    {  210,  1638 }, -- Moblin Mask
-                    {  110,  1625 }, -- Moblin Helm
-                    {  110,  1632 }, -- Moblin Mail
-                    {   50,  1631 }, -- Moblin Armor
-                    {  160,   738 }, -- Platium Ore
+                    { 1870,   xi.items.CHUNK_OF_COPPER_ORE },
+                    { 1930,   xi.items.CHUNK_OF_ZINC_ORE },
+                    { 1500,   xi.items.CHUNK_OF_TIN_ORE },
+                    { 1340, xi.items.PEBBLE },
+                    {  860,   xi.items.CHUNK_OF_SILVER_ORE },
+                    { 1180,   xi.items.CHUNK_OF_IRON_ORE },
+                    {  750,   xi.items.CHUNK_OF_MYTHRIL_ORE },
+                    {  210,  xi.items.MOBLIN_MASK },
+                    {  110,  xi.items.MOBLIN_HELM },
+                    {  110,  xi.items.MOBLIN_MAIL },
+                    {   50,  xi.items.MOBLIN_ARMOR },
+                    {  160,   xi.items.CHUNK_OF_PLATINUM_ORE },
                 },
 
                 points =
@@ -1181,16 +1181,16 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1460,   640 }, -- Copper Ore
-                    { 1650,   643 }, -- Iron Ore
-                    { 1300,   641 }, -- Tin Ore
-                    { 1140, 17296 }, -- Pebble
-                    { 1320,   642 }, -- Zinc Ore
-                    {  840,   768 }, -- Flint Stone
-                    {  360,   736 }, -- Silver Ore
-                    {  170,   769 }, -- Colored Rock
-                    {  150,   645 }, -- Darksteel Ore
-                    {  110,   737 }, -- Gold Ore
+                    { 1460,   xi.items.CHUNK_OF_COPPER_ORE },
+                    { 1650,   xi.items.CHUNK_OF_IRON_ORE },
+                    { 1300,   xi.items.CHUNK_OF_TIN_ORE },
+                    { 1140, xi.items.PEBBLE },
+                    { 1320,   xi.items.CHUNK_OF_ZINC_ORE },
+                    {  840,   xi.items.FLINT_STONE },
+                    {  360,   xi.items.CHUNK_OF_SILVER_ORE },
+                    {  170,   xi.items.RED_ROCK },
+                    {  150,   xi.items.CHUNK_OF_DARKSTEEL_ORE },
+                    {  110,   xi.items.CHUNK_OF_GOLD_ORE },
                 },
 
                 points =
@@ -1236,14 +1236,14 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1130,   642 }, -- Zinc Ore
-                    {  940,   643 }, -- Iron Ore
-                    { 1040, 17296 }, -- Pebble
-                    {  970,   641 }, -- Tin Ore
-                    {  900,   644 }, -- Mythril Ore
-                    {  900,   736 }, -- Silver Ore
-                    {  800,   640 }, -- Copper Ore
-                    {  100,   738 }, -- Platinum Ore
+                    { 1130,   xi.items.CHUNK_OF_ZINC_ORE },
+                    {  940,   xi.items.CHUNK_OF_IRON_ORE },
+                    { 1040, xi.items.PEBBLE },
+                    {  970,   xi.items.CHUNK_OF_TIN_ORE },
+                    {  900,   xi.items.CHUNK_OF_MYTHRIL_ORE },
+                    {  900,   xi.items.CHUNK_OF_SILVER_ORE },
+                    {  800,   xi.items.CHUNK_OF_COPPER_ORE },
+                    {  100,   xi.items.CHUNK_OF_PLATINUM_ORE },
                 },
 
                 points =
@@ -1276,14 +1276,14 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2450,   643 }, -- Iron Ore
-                    { 1800, 17296 }, -- Pebble
-                    { 1850,   640 }, -- Copper Ore
-                    { 1330,   642 }, -- Zinc Ore
-                    { 1120,   641 }, -- Tin Ore
-                    {  550,  1984 }, -- Snapping Mole
-                    {  180,   736 }, -- Silver Ore
-                    {   40,   645 }, -- Darksteel Ore
+                    { 2450,   xi.items.CHUNK_OF_IRON_ORE },
+                    { 1800, xi.items.PEBBLE },
+                    { 1850,   xi.items.CHUNK_OF_COPPER_ORE },
+                    { 1330,   xi.items.CHUNK_OF_ZINC_ORE },
+                    { 1120,   xi.items.CHUNK_OF_TIN_ORE },
+                    {  550,  xi.items.SNAPPING_MOLE },
+                    {  180,   xi.items.CHUNK_OF_SILVER_ORE },
+                    {   40,   xi.items.CHUNK_OF_DARKSTEEL_ORE },
                 },
 
                 points =
@@ -1319,15 +1319,15 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 1890, 17296 }, -- Pebble
-                    { 1670,   642 }, -- Zinc Ore
-                    { 1510,   640 }, -- Copper Ore
-                    { 1470,   641 }, -- Tin Ore
-                    { 1450,   643 }, -- Iron Ore
-                    {  810,   736 }, -- Silver Ore
-                    {  590,   645 }, -- Darksteel Ore
-                    {  400,   769 }, -- Colored Rock
-                    {   80,   737 }, -- Gold Ore
+                    { 1890, xi.items.PEBBLE },
+                    { 1670,   xi.items.CHUNK_OF_ZINC_ORE },
+                    { 1510,   xi.items.CHUNK_OF_COPPER_ORE },
+                    { 1470,   xi.items.CHUNK_OF_TIN_ORE },
+                    { 1450,   xi.items.CHUNK_OF_IRON_ORE },
+                    {  810,   xi.items.CHUNK_OF_SILVER_ORE },
+                    {  590,   xi.items.CHUNK_OF_DARKSTEEL_ORE },
+                    {  400,   xi.items.RED_ROCK },
+                    {   80,   xi.items.CHUNK_OF_GOLD_ORE },
                 },
 
                 points =
@@ -1357,17 +1357,17 @@ local helmInfo =
             {
                 drops =
                 {
-                    { 2710,   768 }, -- Flint Stone
-                    { 1440,   643 }, -- Iron Ore
-                    {  510,  1108 }, -- Sulfur
-                    {  110, 17316 }, -- Bomb Arm
-                    {  680,   928 }, -- Bomb Ash
-                    {  510,  1155 }, -- Iron Sand
-                    {  170,   646 }, -- Adaman Ore
-                    {  250,   645 }, -- Darksteel Ore
-                    { 1610,  2126 }, -- Orpiment
-                    {  100,   739 }, -- Orichalcum Ore
-                    {  340,   769 }, -- Colored Rock
+                    { 2710,   xi.items.FLINT_STONE },
+                    { 1440,   xi.items.CHUNK_OF_IRON_ORE },
+                    {  510,  xi.items.PINCH_OF_SULFUR },
+                    {  110, xi.items.BOMB_ARM },
+                    {  680,   xi.items.PINCH_OF_BOMB_ASH },
+                    {  510,  xi.items.HANDFUL_OF_IRON_SAND },
+                    {  170,   xi.items.CHUNK_OF_ADAMAN_ORE },
+                    {  250,   xi.items.CHUNK_OF_DARKSTEEL_ORE },
+                    { 1610,  xi.items.CHUNK_OF_ORPIMENT },
+                    {  100,   xi.items.CHUNK_OF_ORICHALCUM_ORE },
+                    {  340,   xi.items.RED_ROCK },
                 },
 
                 points =
