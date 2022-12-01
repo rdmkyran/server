@@ -81,13 +81,13 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 112 then
         local item = 0
         if option == 1 then
-            item = 17439         -- Leviathan's Rod
+            item = xi.items.LEVIATHANS_ROD
         elseif option == 2 then
-            item = 13246  -- Water Belt
+            item = xi.items.WATER_BELT
         elseif option == 3 then
-            item = 13565  -- Water Ring
+            item = xi.items.WATER_RING
         elseif option == 4 then
-            item = 1204     -- Eye of Nept
+            item = xi.items.EYE_OF_NEPT
         end
 
         if player:getFreeSlotsCount() == 0 and (option ~= 5 or option ~= 6) then

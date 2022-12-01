@@ -100,13 +100,13 @@ entity.onEventFinish = function(player, csid, option)
         local item = 0
 
         if option == 1 then
-            item = 17492 -- Shiva's Claws
+            item = xi.items.SHIVAS_CLAWS
         elseif option == 2 then
-            item = 13242 -- Ice Belt
+            item = xi.items.ICE_BELT
         elseif option == 3 then
-            item = 13561 -- Ice Ring
+            item = xi.items.ICE_RING
         elseif option == 4 then
-            item = 1207  -- Rust 'B' Gone
+            item = xi.items.BOTTLE_OF_RUST_B_GONE
         end
 
         if player:getFreeSlotsCount() == 0 and (option ~= 5 or option ~= 6) then

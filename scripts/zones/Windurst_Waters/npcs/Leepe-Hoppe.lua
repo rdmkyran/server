@@ -230,7 +230,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif
         csid == 897 and
         npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.TUNING_OUT, {
-            item = 15180, -- Cache-Nez
+            item = xi.items.CACHE_NEZ,
             title = xi.title.FRIEND_OF_THE_HELMED,
         })
     then

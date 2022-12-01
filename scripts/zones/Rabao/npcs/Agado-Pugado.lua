@@ -102,10 +102,10 @@ entity.onEventFinish = function(player, csid, option)
         player:messageSpecial(ID.text.KEYITEM_OBTAINED, xi.ki.TUNING_FORK_OF_WIND)
     elseif csid == 69 then
         local item = 0
-        if option == 1 then item = 17627         -- Garuda's Dagger
-        elseif option == 2 then item = 13243  -- Wind Belt
-        elseif option == 3 then item = 13562  -- Wind Ring
-        elseif option == 4 then item = 1202     -- Bubbly Water
+        if option == 1 then item = xi.items.GARUDAS_DAGGER
+        elseif option == 2 then item = xi.items.WIND_BELT
+        elseif option == 3 then item = xi.items.WIND_RING
+        elseif option == 4 then item = xi.items.BOTTLE_OF_BUBBLY_WATER
         end
 
         if player:getFreeSlotsCount() == 0 and (option ~= 5 or option ~= 6) then

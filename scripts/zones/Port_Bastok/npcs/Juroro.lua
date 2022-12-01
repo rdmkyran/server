@@ -77,13 +77,13 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 252 then
         local item = 0
         if option == 1 then
-            item = 17438         -- Titan's Cudgel
+            item = xi.items.TITANS_CUDGEL
         elseif option == 2 then
-            item = 13244  -- Earth Belt
+            item = xi.items.EARTH_BELT
         elseif option == 3 then
-            item = 13563  -- Earth Ring
+            item = xi.items.EARTH_RING
         elseif option == 4 then
-            item = 1205     -- Desert Light
+            item = xi.items.DOSE_OF_DESERT_LIGHT
         end
 
         if player:getFreeSlotsCount() == 0 and (option ~= 5 or option ~= 6) then

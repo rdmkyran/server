@@ -43,7 +43,7 @@ entity.onEventFinish = function(player, csid, option)
     if csid == 174 then -- Option doesn't matter as NPC will take key item if yes or no
         if
             npcUtil.completeQuest(player, xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.SAY_IT_WITH_A_HANDBAG, {
-                item = 19110, -- Trainee's Needle
+                item = xi.items.TRAINEES_NEEDLE,
                 var = "sayItWithAHandbagCS"
             })
         then

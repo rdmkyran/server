@@ -95,13 +95,13 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 10019 then
         local item = 0
         if option == 1 then
-            item = 17531         -- Ramuh's Staff
+            item = xi.items.RAMUHS_STAFF
         elseif option == 2 then
-            item = 13245  -- Lightning Belt
+            item = xi.items.LIGHTNING_BELT
         elseif option == 3 then
-            item = 13564  -- Lightning Ring
+            item = xi.items.LIGHTNING_RING
         elseif option == 4 then
-            item = 1206     -- Elder Branch
+            item = xi.items.ELDER_BRANCH
         end
 
         if player:getFreeSlotsCount() == 0 and (option ~= 5 or option ~= 6) then
