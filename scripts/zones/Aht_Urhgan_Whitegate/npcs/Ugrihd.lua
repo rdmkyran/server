@@ -5,6 +5,7 @@
 -- !pos -63.079 -6 -28.571 50
 -----------------------------------
 local ID = require("scripts/zones/Aht_Urhgan_Whitegate/IDs")
+require("scripts/globals/items")
 -----------------------------------
 require("scripts/globals/besieged")
 require("scripts/globals/status")

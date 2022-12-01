@@ -5,6 +5,7 @@
 -- !pos 473 -31 75 79
 -----------------------------------
 local ID = require("scripts/zones/Caedarva_Mire/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/quests")
 -----------------------------------

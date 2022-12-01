@@ -5,6 +5,7 @@
 -- !pos-20.617, 1.097, -29.165, 133
 -----------------------------------
 require("scripts/globals/keyitems")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 require("scripts/globals/npc_util")
 -----------------------------------

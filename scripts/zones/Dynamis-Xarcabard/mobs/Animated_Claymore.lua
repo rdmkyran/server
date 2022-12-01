@@ -3,6 +3,7 @@
 --  Mob: Animated Claymore
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Dynamis-Xarcabard/IDs")
 -----------------------------------
 local entity = {}

@@ -5,6 +5,7 @@
 -- !pos 468.767 -12.292 111.817 54
 -----------------------------------
 local ID = require("scripts/zones/Arrapago_Reef/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 require("scripts/globals/settings")

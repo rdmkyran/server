@@ -3,6 +3,7 @@
 -----------------------------------
 require("modules/module_utils")
 require("scripts/globals/conquest")
+require("scripts/globals/items")
 require("scripts/globals/zone")
 require("settings/main")
 

@@ -5,6 +5,7 @@
 -- !zone 121
 -----------------------------------
 local ID = require("scripts/zones/The_Sanctuary_of_ZiTah/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/quests")
 require("scripts/globals/world")

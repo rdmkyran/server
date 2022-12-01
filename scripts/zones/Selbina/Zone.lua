@@ -2,6 +2,7 @@
 -- Zone: Selbina (248)
 -----------------------------------
 local ID = require('scripts/zones/Selbina/IDs')
+require("scripts/globals/items")
 require('scripts/globals/conquest')
 require('scripts/globals/keyitems')
 require('scripts/globals/missions')

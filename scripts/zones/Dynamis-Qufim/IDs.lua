@@ -2,6 +2,7 @@
 -- Area: Dynamis-Qufim
 -----------------------------------
 require("scripts/globals/keyitems")
+require("scripts/globals/items")
 require("scripts/globals/dynamis")
 require("scripts/globals/zone")
 -----------------------------------

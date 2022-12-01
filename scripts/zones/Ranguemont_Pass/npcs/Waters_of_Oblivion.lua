@@ -5,6 +5,7 @@
 -- !pos -284 -45 210 166
 -----------------------------------
 local ID = require("scripts/zones/Ranguemont_Pass/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 require("scripts/globals/quests")

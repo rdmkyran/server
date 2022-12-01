@@ -2,6 +2,7 @@
 -- Zone: Northern_San_dOria (231)
 -----------------------------------
 local ID = require('scripts/zones/Northern_San_dOria/IDs')
+require("scripts/globals/items")
 require('scripts/globals/events/harvest_festivals')
 require('scripts/globals/events/starlight_celebrations')
 require('scripts/quests/flyers_for_regine')

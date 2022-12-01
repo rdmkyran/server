@@ -4,6 +4,7 @@
 -- Ghelsba_Outpost Armoury_Crate
 -----------------------------------
 require("scripts/globals/bcnm")
+require("scripts/globals/items")
 require("scripts/globals/battlefield")
 -----------------------------------
 local entity = {}

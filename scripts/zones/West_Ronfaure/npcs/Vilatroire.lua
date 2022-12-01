@@ -6,6 +6,7 @@
 -- !pos -260.361 -70.999 423.420 100
 -----------------------------------
 local ID = require("scripts/zones/West_Ronfaure/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 require("scripts/globals/titles")
 require("scripts/globals/status")

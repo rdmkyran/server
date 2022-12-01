@@ -4,6 +4,7 @@
 -- Starts & Finishes Repeatable Quest: Twinstone Bonding
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Woods/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/settings")
 require("scripts/globals/quests")

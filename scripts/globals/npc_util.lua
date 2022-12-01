@@ -16,6 +16,7 @@
     npcUtil.fishingAnimation(npc, phaseDuration, func)
 --]]
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/status")
 require("scripts/globals/msg")
 

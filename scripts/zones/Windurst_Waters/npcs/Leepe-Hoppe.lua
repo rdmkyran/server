@@ -5,6 +5,7 @@
 -- !pos 13 -9 -197 238
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/missions")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")

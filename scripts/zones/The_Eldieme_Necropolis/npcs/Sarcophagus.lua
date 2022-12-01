@@ -5,6 +5,7 @@
 -- !pos -420 8 500 195
 -----------------------------------
 local ID = require("scripts/zones/The_Eldieme_Necropolis/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 require("scripts/globals/quests")
