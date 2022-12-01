@@ -102,7 +102,7 @@ entity.onTrade = function(player, npc, trade)
     local progress = player:getCharVar("OPO_OPO_PROGRESS")
     local failed = player:getCharVar("OPO_OPO_FAILED")
     local goodtrade = trade:hasItemQty(xi.items.BLACKENED_TOAD, 1)
-    local badtrade = trade:hasItemQty(xi.items.BROKEN_MITHRAN_FISHING_ROD, 1) or trade:hasItemQty(22, 1) or trade:hasItemQty(1157, 1) or trade:hasItemQty(1158, 1) or trade:hasItemQty(904, 1) or trade:hasItemQty(1008, 1) or trade:hasItemQty(905, 1) or trade:hasItemQty(1147, 1) or trade:hasItemQty(4600, 1)
+    local badtrade = trade:hasItemQty(xi.items.BROKEN_MITHRAN_FISHING_ROD, 1) or trade:hasItemQty(xi.items.WORKBENCH, 1) or trade:hasItemQty(xi.items.HANDFUL_OF_THE_SANDS_OF_SILENCE, 1) or trade:hasItemQty(xi.items.WANDERING_BULB, 1) or trade:hasItemQty(xi.items.SET_OF_GIANT_FISH_BONES, 1) or trade:hasItemQty(xi.items.TEN_OF_COINS_CARD, 1) or trade:hasItemQty(xi.items.WYVERN_SKULL, 1) or trade:hasItemQty(xi.items.ROCK_OF_ANCIENT_SALT, 1) or trade:hasItemQty(xi.items.LUCKY_EGG, 1)
 
     if opoOpoAndIStatus == QUEST_ACCEPTED then
         if progress == 6 or failed == 7 then
