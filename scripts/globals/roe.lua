@@ -211,7 +211,7 @@ RoeParseRecords(records)
     completeRecord(player, record#)
     reward =
     {
-        item = { { 640, 2 }, 641 },      -- see npcUtil.giveItem for formats (Only given on first completion)
+        item = { { xi.items.CHUNK_OF_COPPER_ORE, 2 }, 641 },      -- see npcUtil.giveItem for formats (Only given on first completion)
         keyItem = xi.ki.ZERUHN_REPORT,   -- see npcUtil.giveKeyItem for formats
         sparks = 500,
         xp = 1000,
