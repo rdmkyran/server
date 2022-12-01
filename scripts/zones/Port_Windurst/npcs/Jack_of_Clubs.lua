@@ -5,6 +5,7 @@
 -- Working 100%
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

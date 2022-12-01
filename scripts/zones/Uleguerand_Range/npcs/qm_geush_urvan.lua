@@ -3,6 +3,7 @@
 --  NPC: ??? (Spawns Geush Urvan)
 -----------------------------------
 local ID = require("scripts/zones/Uleguerand_Range/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

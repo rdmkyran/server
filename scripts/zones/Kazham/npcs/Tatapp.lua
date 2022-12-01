@@ -4,6 +4,7 @@
 -- Standard Merchant NPC
 -----------------------------------
 require("scripts/globals/pathfind")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

@@ -3,6 +3,7 @@
 --  NPC: Logging Point
 -----------------------------------
 require("scripts/globals/helm")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

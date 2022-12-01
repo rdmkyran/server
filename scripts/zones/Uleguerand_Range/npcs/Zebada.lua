@@ -5,6 +5,7 @@
 -- !pos -308.112 -42.137 -570.096 5
 -----------------------------------
 local ID = require("scripts/zones/Uleguerand_Range/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 -----------------------------------
 local entity = {}

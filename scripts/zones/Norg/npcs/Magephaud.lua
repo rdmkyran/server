@@ -3,6 +3,7 @@
 --  NPC: Magephaud
 -----------------------------------
 local ID = require("scripts/zones/Norg/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/quests")
 require("scripts/globals/titles")

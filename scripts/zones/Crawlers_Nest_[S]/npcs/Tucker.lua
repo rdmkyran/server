@@ -3,6 +3,7 @@
 --  NPC: Tucker
 -----------------------------------
 local ID = require("scripts/zones/Crawlers_Nest_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 -----------------------------------
 local entity = {}

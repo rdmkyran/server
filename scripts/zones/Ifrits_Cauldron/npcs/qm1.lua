@@ -5,6 +5,7 @@
 -- !pos 126 18 166 205
 -----------------------------------
 local ID = require("scripts/zones/Ifrits_Cauldron/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

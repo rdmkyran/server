@@ -6,6 +6,7 @@
 -- !pos 5 9 -39 243
 -----------------------------------
 local ID = require("scripts/zones/RuLude_Gardens/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/titles")
 require("scripts/globals/quests")

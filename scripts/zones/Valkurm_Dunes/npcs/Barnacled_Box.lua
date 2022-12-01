@@ -3,6 +3,7 @@
 --  NPC: Barnacled Box
 -----------------------------------
 local ID = require("scripts/zones/Valkurm_Dunes/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

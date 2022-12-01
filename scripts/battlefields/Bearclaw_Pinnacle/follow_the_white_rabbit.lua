@@ -5,6 +5,7 @@
 -- !pos -877 -47 -43 6
 -----------------------------------
 local ID = require("scripts/zones/Bearclaw_Pinnacle/IDs")
+require("scripts/globals/items")
 require("scripts/globals/battlefield")
 require("scripts/globals/keyitems")
 require("scripts/globals/zone")

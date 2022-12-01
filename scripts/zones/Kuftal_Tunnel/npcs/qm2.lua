@@ -5,6 +5,7 @@
 -- !pos -25.238 -12.785 -148.393 174
 -----------------------------------
 local ID = require("scripts/zones/Kuftal_Tunnel/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

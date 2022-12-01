@@ -5,6 +5,7 @@
 -- !pos -440.998 0.107 -740.015 79
 -----------------------------------
 require("scripts/globals/keyitems")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

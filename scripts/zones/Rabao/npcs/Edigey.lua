@@ -4,6 +4,7 @@
 -- Starts and Ends Quest: Don't Forget the Antidote
 -----------------------------------
 require("scripts/globals/titles")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/quests")
 local ID = require("scripts/zones/Rabao/IDs")

@@ -3,6 +3,7 @@
 -- !instance 5600
 -----------------------------------
 require("scripts/globals/instance")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/missions")
 local ID = require("scripts/zones/Periqia/IDs")

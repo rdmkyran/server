@@ -5,6 +5,7 @@
 -- !pos -237 -12 -41 235
 -----------------------------------
 local ID = require("scripts/zones/Bastok_Markets/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 -----------------------------------
 local entity = {}

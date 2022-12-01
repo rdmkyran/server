@@ -5,6 +5,7 @@
 -- !pos 206 -32 316
 -----------------------------------
 local ID = require("scripts/zones/Vunkerl_Inlet_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 -----------------------------------
 local entity = {}

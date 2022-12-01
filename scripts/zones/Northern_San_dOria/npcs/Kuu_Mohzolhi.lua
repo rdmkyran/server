@@ -5,6 +5,7 @@
 -- !pos -123 0 80 231
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 local ID = require("scripts/zones/Northern_San_dOria/IDs")
 -----------------------------------

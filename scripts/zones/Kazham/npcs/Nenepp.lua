@@ -3,6 +3,7 @@
 --  NPC: Nenepp
 -----------------------------------
 local ID = require("scripts/zones/Kazham/IDs")
+require("scripts/globals/items")
 require("scripts/globals/pathfind")
 require("scripts/globals/quests")
 require("scripts/globals/titles")

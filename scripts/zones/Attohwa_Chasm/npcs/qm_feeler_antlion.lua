@@ -4,6 +4,7 @@
 -- !pos -402.574 3.999 -202.750 7
 -----------------------------------
 local ID = require("scripts/zones/Attohwa_Chasm/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

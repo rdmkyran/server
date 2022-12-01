@@ -5,6 +5,7 @@
 -- !pos 334.133 50.623 141.163 102
 -----------------------------------
 local ID = require("scripts/zones/La_Theine_Plateau/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

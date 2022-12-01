@@ -29,6 +29,7 @@
 -- Bearclaw Pinnacle (HP2) : !pos 379 23 -62.6 5
 -----------------------------------
 require('scripts/globals/interaction/mission')
+require("scripts/globals/items")
 require('scripts/globals/missions')
 require('scripts/globals/npc_util')
 require('scripts/globals/titles')

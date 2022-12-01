@@ -5,6 +5,7 @@
 -- !pos 33.708 6.499 -39.425 236
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 require("scripts/globals/teleports")
 local ID = require("scripts/zones/Port_Bastok/IDs")

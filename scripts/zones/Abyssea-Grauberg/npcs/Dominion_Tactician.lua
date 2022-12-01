@@ -3,6 +3,7 @@
 --  NPC: Dominion Tactician
 -----------------------------------
 local ID = require("scripts/zones/Abyssea-Grauberg/IDs")
+require("scripts/globals/items")
 require("scripts/globals/abyssea")
 -----------------------------------
 local entity = {}

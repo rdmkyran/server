@@ -5,6 +5,7 @@
 -- !pos -160 4 -131 103
 -----------------------------------
 local ID = require("scripts/zones/Valkurm_Dunes/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

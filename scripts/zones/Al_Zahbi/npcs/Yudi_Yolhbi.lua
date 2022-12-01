@@ -5,6 +5,7 @@
 -- !pos -71.584 -7 -56.018 48
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/crafting")
 local ID = require("scripts/zones/Al_Zahbi/IDs")
 -----------------------------------

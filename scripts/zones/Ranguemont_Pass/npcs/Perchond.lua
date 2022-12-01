@@ -4,6 +4,7 @@
 -- !pos -182.844 4 -164.948 166
 -----------------------------------
 local ID = require("scripts/zones/Ranguemont_Pass/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 -----------------------------------
 local entity = {}

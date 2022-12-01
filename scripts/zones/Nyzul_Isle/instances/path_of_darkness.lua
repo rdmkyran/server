@@ -3,6 +3,7 @@
 -- !instance 7700
 -----------------------------------
 local ID = require("scripts/zones/Nyzul_Isle/IDs")
+require("scripts/globals/items")
 require("scripts/globals/instance")
 require("scripts/globals/keyitems")
 require("scripts/globals/missions")

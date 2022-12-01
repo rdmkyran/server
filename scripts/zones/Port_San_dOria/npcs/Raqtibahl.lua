@@ -4,6 +4,7 @@
 -- (Corsair's Frac) !pos -59 -4 -39 232
 -----------------------------------
 local ID = require("scripts/zones/Port_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 -----------------------------------
 local entity = {}

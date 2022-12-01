@@ -1,4 +1,5 @@
 require("scripts/globals/spell_data")
+require("scripts/globals/items")
 require("scripts/globals/jobpoints")
 require("scripts/globals/magicburst")
 require("scripts/globals/settings")

@@ -2,6 +2,7 @@
 -- Concentric Pulse
 -----------------------------------
 require("scripts/globals/mobskills")
+require("scripts/globals/items")
 require("scripts/globals/utils")
 require("scripts/globals/settings")
 require("scripts/globals/status")

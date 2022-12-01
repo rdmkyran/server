@@ -5,6 +5,7 @@
 -- Quest NPC
 -----------------------------------
 require("scripts/globals/campaign")
+require("scripts/globals/items")
 require("scripts/globals/titles")
 require("scripts/globals/quests")
 require("scripts/globals/settings")

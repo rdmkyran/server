@@ -5,6 +5,7 @@
 -- !pos -144.711 6.246 -250.309 7
 -----------------------------------
 local ID = require("scripts/zones/Attohwa_Chasm/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/settings")
 -----------------------------------

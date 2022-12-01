@@ -6,6 +6,7 @@
 --  Starts and Finishes Quest: To Bee or Not to Bee?
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 -----------------------------------
 local entity = {}

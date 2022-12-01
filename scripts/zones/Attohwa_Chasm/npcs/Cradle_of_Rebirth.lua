@@ -3,6 +3,7 @@
 --  NPC: Cradle_of_Rebirth
 -----------------------------------
 local ID = require("scripts/zones/Attohwa_Chasm/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

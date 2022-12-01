@@ -5,6 +5,7 @@
 -- !pos 448.045 -7.808 319.980 116
 -----------------------------------
 local ID = require("scripts/zones/East_Sarutabaruta/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

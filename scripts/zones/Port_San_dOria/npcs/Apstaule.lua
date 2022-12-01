@@ -4,6 +4,7 @@
 -- Not used cutscenes: 541
 -----------------------------------
 require("scripts/globals/quests")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

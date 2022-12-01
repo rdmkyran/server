@@ -5,6 +5,7 @@
 -- !pos 301.600 -1.925 -10.000 9
 -----------------------------------
 local psoXjaGlobal = require("scripts/zones/PsoXja/globals")
+require("scripts/globals/items")
 require("scripts/globals/status")
 -----------------------------------
 local entity = {}

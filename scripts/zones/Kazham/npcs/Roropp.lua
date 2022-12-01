@@ -3,6 +3,7 @@
 --  NPC: Roropp
 -----------------------------------
 require("scripts/globals/pathfind")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

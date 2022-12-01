@@ -4,6 +4,7 @@
 -- Type: Cruor NPC
 -----------------------------------
 require("scripts/globals/abyssea")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/status")
 -----------------------------------

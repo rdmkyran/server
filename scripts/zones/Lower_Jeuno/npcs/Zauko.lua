@@ -5,6 +5,7 @@
 -- !pos -3 0 11 245
 -----------------------------------
 require("scripts/zones/Lower_Jeuno/globals")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Lower_Jeuno/IDs")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")

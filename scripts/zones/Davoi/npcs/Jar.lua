@@ -5,6 +5,7 @@
 -- Notes: Used to obtain Power Sandals
 -----------------------------------
 local ID = require("scripts/zones/Davoi/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

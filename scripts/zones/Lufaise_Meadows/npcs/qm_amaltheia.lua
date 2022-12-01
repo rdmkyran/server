@@ -4,6 +4,7 @@
 -- !pos 347.897 -10.895 264.382 24
 -----------------------------------
 local ID = require("scripts/zones/Lufaise_Meadows/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

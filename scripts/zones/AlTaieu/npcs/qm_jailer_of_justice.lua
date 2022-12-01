@@ -5,6 +5,7 @@
 -- !pos , -278 0 -463
 -----------------------------------
 local ID = require("scripts/zones/AlTaieu/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

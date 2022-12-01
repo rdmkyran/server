@@ -5,6 +5,7 @@
 -- !pos -270.063 31.395 256.812 9
 -----------------------------------
 local ID = require("scripts/zones/PsoXja/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

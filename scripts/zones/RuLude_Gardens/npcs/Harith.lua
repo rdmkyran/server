@@ -4,6 +4,7 @@
 -- !pos -4.349 1 134.014 243
 -----------------------------------
 require("scripts/globals/quests")
+require("scripts/globals/items")
 require("scripts/globals/missions")
 local ID = require("scripts/zones/RuLude_Gardens/IDs")
 -----------------------------------

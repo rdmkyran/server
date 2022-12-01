@@ -4,6 +4,7 @@
 -- Adventurer's Assistant
 -----------------------------------
 local ID = require("scripts/zones/Northern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 -----------------------------------
 local entity = {}

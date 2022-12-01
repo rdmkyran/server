@@ -4,6 +4,7 @@
 -- !pos -242.301 -1.849 269.867 14
 -----------------------------------
 local ID = require("scripts/zones/Hall_of_Transference/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

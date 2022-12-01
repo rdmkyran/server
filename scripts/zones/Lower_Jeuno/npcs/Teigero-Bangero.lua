@@ -5,6 +5,7 @@
 -- !pos -58 0 -143 245
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 -----------------------------------
 local entity = {}

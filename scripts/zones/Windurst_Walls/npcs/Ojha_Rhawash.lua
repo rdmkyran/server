@@ -5,6 +5,7 @@
 -- !pos -209 0 -134 239
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Walls/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 -----------------------------------
 local entity = {}

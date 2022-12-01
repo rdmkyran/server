@@ -13,6 +13,7 @@
 --  ^-- ticket type                     ^-- signature: PlanA
 -----------------------------------
 local ID = require("scripts/zones/Upper_Jeuno/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

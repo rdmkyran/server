@@ -5,6 +5,7 @@
 -- !pos 320.755 -4.000 368.722 118
 -----------------------------------
 local ID = require("scripts/zones/Buburimu_Peninsula/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

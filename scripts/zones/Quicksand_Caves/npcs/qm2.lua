@@ -5,6 +5,7 @@
 -- !pos -49.944 -0.891 -139.485 208
 -----------------------------------
 local ID = require("scripts/zones/Quicksand_Caves/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

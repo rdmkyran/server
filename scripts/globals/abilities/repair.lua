@@ -6,6 +6,7 @@
 -- Duration: Instant
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/pets")
 require("scripts/globals/msg")
 -----------------------------------

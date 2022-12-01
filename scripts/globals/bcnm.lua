@@ -2,6 +2,7 @@
 -- BCNM Functions
 -----------------------------------
 require("scripts/globals/keyitems")
+require("scripts/globals/items")
 require("scripts/globals/missions")
 require("scripts/globals/quests")
 require("scripts/globals/status")

@@ -4,6 +4,7 @@
 -- Notes: Used to spawn Swift Belt NM's
 -----------------------------------
 local ID = require("scripts/zones/Sacrarium/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

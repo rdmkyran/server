@@ -2,6 +2,7 @@
 -- Enhancing Spell Utilities
 -----------------------------------
 require("scripts/globals/spell_data")
+require("scripts/globals/items")
 require("scripts/globals/jobpoints")
 require("scripts/globals/status")
 require("scripts/globals/utils")

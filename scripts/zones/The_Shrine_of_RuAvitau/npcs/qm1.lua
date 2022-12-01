@@ -4,6 +4,7 @@
 -- !pos 851 0.1 92 178
 -----------------------------------
 local ID = require("scripts/zones/The_Shrine_of_RuAvitau/IDs")
+require("scripts/globals/items")
 require("scripts/globals/status")
 -----------------------------------
 local entity = {}

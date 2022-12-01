@@ -4,6 +4,7 @@
 -- Teleport NPC
 -----------------------------------
 require("scripts/globals/zone")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

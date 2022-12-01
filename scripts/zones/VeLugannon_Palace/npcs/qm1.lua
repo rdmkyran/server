@@ -4,6 +4,7 @@
 -- !pos -370.039 16.014 -274.378 177
 -----------------------------------
 local ID = require("scripts/zones/VeLugannon_Palace/IDs")
+require("scripts/globals/items")
 require('scripts/globals/npc_util')
 -----------------------------------
 local entity = {}

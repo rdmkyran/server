@@ -10,6 +10,7 @@
 -- Sueleen        : !pos 612 132 774 32
 -----------------------------------
 require('scripts/globals/interaction/mission')
+require("scripts/globals/items")
 require('scripts/globals/missions')
 require('scripts/globals/npc_util')
 require('scripts/globals/utils')

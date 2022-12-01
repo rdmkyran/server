@@ -5,6 +5,7 @@
 -- !pos 380 0 540 34
 -----------------------------------
 local ID = require("scripts/zones/Grand_Palace_of_HuXzoi/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/status")
 -----------------------------------

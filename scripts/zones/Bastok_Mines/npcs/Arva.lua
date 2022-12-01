@@ -4,6 +4,7 @@
 -- Adventurer's Assistant
 -----------------------------------
 local ID = require("scripts/zones/Bastok_Mines/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 -----------------------------------
 local entity = {}

@@ -6,6 +6,7 @@
 -- !pos 23 -5 -193 238
 -----------------------------------
 require("scripts/globals/quests")
+require("scripts/globals/items")
 require("scripts/globals/titles")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")

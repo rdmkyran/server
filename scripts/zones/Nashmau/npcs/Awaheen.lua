@@ -3,6 +3,7 @@
 --  NPC: Awaheen
 -----------------------------------
 local ID = require("scripts/zones/Nashmau/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

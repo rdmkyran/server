@@ -4,6 +4,7 @@
 -- 20 -30 597 z 52
 -----------------------------------
 require("scripts/globals/keyitems")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Bhaflau_Thickets/IDs")
 -----------------------------------
 local entity = {}

@@ -4,6 +4,7 @@
 -- !pos 444 -37 -18 139
 -----------------------------------
 local ID = require("scripts/zones/Horlais_Peak/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 require("scripts/globals/titles")
 -----------------------------------

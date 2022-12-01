@@ -5,6 +5,7 @@
 -- !pos 100.231 -1.414 51.700 28
 -----------------------------------
 local ID = require("scripts/zones/Sacrarium/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 -----------------------------------

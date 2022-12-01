@@ -3,6 +3,7 @@
 --  NPC: ??? (Spawns Sozu Rogberry NM)
 -----------------------------------
 local ID = require("scripts/zones/Temple_of_Uggalepih/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

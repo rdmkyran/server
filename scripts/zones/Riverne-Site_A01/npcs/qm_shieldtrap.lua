@@ -3,6 +3,7 @@
 --  NPC: ??? - Shieldtrap spawn
 -----------------------------------
 local ID = require("scripts/zones/Riverne-Site_A01/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

@@ -6,6 +6,7 @@
 -- Crystalline Field !pos .1 -10 -464 33
 -----------------------------------
 require('scripts/globals/interaction/mission')
+require("scripts/globals/items")
 require('scripts/globals/missions')
 require('scripts/globals/npc_util')
 require("scripts/globals/teleports")

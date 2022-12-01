@@ -5,6 +5,7 @@
 -- !pos 185.669 9.049 -614.025 105
 -----------------------------------
 local ID = require("scripts/zones/Batallia_Downs/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
