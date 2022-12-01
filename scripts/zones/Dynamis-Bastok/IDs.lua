@@ -103,14 +103,14 @@ zones[xi.zone.DYNAMIS_BASTOK] =
                 param = { 3354, 3409, 3410, 3411, 3412, 3413 },
                 trade =
                 {
-                    { item = 3354,                             mob = 17539073 }, -- Gu'Dha Effigy
-                    { item = { 3409, 3410, 3411, 3412, 3413 }, mob = 17539312 }, -- Arch Gu'Dha Effigy
+                    { item = xi.items.STEELWALL_BIJOU,                             mob = 17539073 }, -- Gu'Dha Effigy
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_6, 3410, 3411, 3412, 3413 }, mob = 17539312 }, -- Arch Gu'Dha Effigy
                 }
             },
-            [17539323] = { trade = { { item = 3384, mob = 17539307 } } }, -- Zo'Pha Forgesoul
-            [17539324] = { trade = { { item = 3385, mob = 17539308 } } }, -- Ra'Gho Darkfount
-            [17539325] = { trade = { { item = 3386, mob = 17539310 } } }, -- Va'Zhe Pummelsong
-            [17539326] = { trade = { { item = 3387, mob = 17539311 } } }, -- Bu'Bho Truesteel
+            [17539323] = { trade = { { item = xi.items.ODIOUS_CHARM, mob = 17539307 } } }, -- Zo'Pha Forgesoul
+            [17539324] = { trade = { { item = xi.items.ODIOUS_BACKSCALE, mob = 17539308 } } }, -- Ra'Gho Darkfount
+            [17539325] = { trade = { { item = xi.items.ODIOUS_ENGRAVING, mob = 17539310 } } }, -- Va'Zhe Pummelsong
+            [17539326] = { trade = { { item = xi.items.ODIOUS_LETTERBOX, mob = 17539311 } } }, -- Bu'Bho Truesteel
         },
     },
 }

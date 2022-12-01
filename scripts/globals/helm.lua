@@ -1465,7 +1465,7 @@ local function pickItem(player, info)
     end
 
     -- if we picked a colored rock, change it to the day's element
-    if item == 769 then
+    if item == xi.items.RED_ROCK then
         item = rocks[VanadielDayElement()]
     end
 

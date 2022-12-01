@@ -170,7 +170,7 @@ entity.onEventFinish = function(player, csid, option)
             player:getLocalVar("introToTmwrk_pass") == 1
         then
             npcUtil.completeQuest(player, xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.INTRODUCTION_TO_TEAMWORK, {
-                item = 13442,
+                item = xi.items.SHELL_RING,
                 fame = 80, -- fame defaults to 30 if not set
                 title = xi.title.THIRD_RATE_ORGANIZER,
             })
@@ -179,7 +179,7 @@ entity.onEventFinish = function(player, csid, option)
             player:getLocalVar("intermedTmwrk_pass") == 1
         then
             npcUtil.completeQuest(player, xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.INTERMEDIATE_TEAMWORK, {
-                item = 4994,
+                item = xi.items.SCROLL_OF_MAGES_BALLAD,
                 fame = 80, -- fame defaults to 30 if not set
                 title = xi.title.SECOND_RATE_ORGANIZER,
             })
@@ -188,7 +188,7 @@ entity.onEventFinish = function(player, csid, option)
             player:getLocalVar("advTmwrk_pass") == 1
         then
             npcUtil.completeQuest(player, xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.ADVANCED_TEAMWORK, {
-                item = 13459,
+                item = xi.items.HORN_RING,
                 fame = 80, -- fame defaults to 30 if not set
                 title = xi.title.FIRST_RATE_ORGANIZER,
             })

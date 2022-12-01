@@ -15,22 +15,22 @@ local ImperialPieces =
 {
     [1] = -- Imperial Bronze Piece
     {
-        item = 2184,
+        item = xi.items.IMPERIAL_BRONZE_PIECE,
         price = 20
     },
     [2] = -- Imperial Silver Piece
     {
-        item = 2185,
+        item = xi.items.IMPERIAL_SILVER_PIECE,
         price = 100
     },
     [3] = -- Imperial Mythril Piece
     {
-        item = 2186,
+        item = xi.items.IMPERIAL_MYTHRIL_PIECE,
         price = 200
     },
     [4] = -- Imperial Gold Piece
     {
-        item = 2187,
+        item = xi.items.IMPERIAL_GOLD_PIECE,
         price = 1000
     }
 }

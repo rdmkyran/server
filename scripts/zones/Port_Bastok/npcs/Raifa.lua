@@ -49,7 +49,7 @@ entity.onEventFinish = function(player, csid, option)
         csid == 282 and
         npcUtil.completeQuest(player, xi.quest.log_id.BASTOK, xi.quest.id.bastok.ECO_WARRIOR, {
             gil = 5000,
-            item = 4198,
+            item = xi.items.DRAGON_CHRONICLES,
             title = xi.title.CERULEAN_SOLDIER,
             fame = 80,
             var = "EcoStatus"

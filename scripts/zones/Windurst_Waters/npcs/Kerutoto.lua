@@ -58,13 +58,13 @@ entity.onEventFinish = function(player, csid, option)
         local reward = { fame = 0 }
 
         if option == 1 and not player:hasItem(17599) then
-            reward.item = 17599
+            reward.item = xi.items.DIABOLOSS_POLE
         elseif option == 2 and not player:hasItem(14814) then
-            reward.item = 14814
+            reward.item = xi.items.DIABOLOSS_EARRING
         elseif option == 3 and not player:hasItem(15557) then
-            reward.item = 15557
+            reward.item = xi.items.DIABOLOSS_RING
         elseif option == 4 and not player:hasItem(15516) then
-            reward.item = 15516
+            reward.item = xi.items.DIABOLOSS_TORQUE
         elseif option == 5 then
             reward.gil = 15000
         elseif option == 6 and not player:hasSpell(304) then

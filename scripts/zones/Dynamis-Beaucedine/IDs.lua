@@ -152,20 +152,20 @@ zones[xi.zone.DYNAMIS_BEAUCEDINE] =
                 param = { 3357, 3424, 3425, 3426, 3427, 3428 },
                 trade =
                 {
-                    { item = 3357,                             mob = 17326081 }, -- Angra Mainyu
-                    { item = { 3424, 3425, 3426, 3427, 3428 }, mob = 17326098 }, -- Arch Angra Mainyu
+                    { item = xi.items.LEERING_BIJOU,                             mob = 17326081 }, -- Angra Mainyu
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_21, 3425, 3426, 3427, 3428 }, mob = 17326098 }, -- Arch Angra Mainyu
                 }
             },
 
-            [17326801] = { trade = { { item = 3396, mob = 17326093 } } }, -- Taquede
-            [17326802] = { trade = { { item = 3397, mob = 17326095 } } }, -- Pignonpausard
-            [17326803] = { trade = { { item = 3398, mob = 17326096 } } }, -- Hitaume
-            [17326804] = { trade = { { item = 3399, mob = 17326097 } } }, -- Cavanneche
-            [17326805] = { trade = { { item = 3359, mob = 17326086 } } }, -- Goublefaupe
-            [17326806] = { trade = { { item = 3360, mob = 17326087 } } }, -- Quiebitiel
-            [17326807] = { trade = { { item = 3361, mob = 17326088 } } }, -- Mildaunegeux
-            [17326808] = { trade = { { item = 3362, mob = 17326089 } } }, -- Velosareon
-            [17326809] = { trade = { { item = 3363, mob = 17326090 } } }, -- Dagourmarche
+            [17326801] = { trade = { { item = xi.items.ODIOUS_TALISMAN, mob = 17326093 } } }, -- Taquede
+            [17326802] = { trade = { { item = xi.items.ODIOUS_BELL, mob = 17326095 } } }, -- Pignonpausard
+            [17326803] = { trade = { { item = xi.items.ODIOUS_TREE_ROOT, mob = 17326096 } } }, -- Hitaume
+            [17326804] = { trade = { { item = xi.items.ODIOUS_MIRROR, mob = 17326097 } } }, -- Cavanneche
+            [17326805] = { trade = { { item = xi.items.DESPOTS_FORTUNE_PARCHMENT, mob = 17326086 } } }, -- Goublefaupe
+            [17326806] = { trade = { { item = xi.items.SADISTS_FORTUNE_PARCHMENT, mob = 17326087 } } }, -- Quiebitiel
+            [17326807] = { trade = { { item = xi.items.VILLAINS_FORTUNE_PARCHMENT, mob = 17326088 } } }, -- Mildaunegeux
+            [17326808] = { trade = { { item = xi.items.DELUDERS_FORTUNE_PARCHMENT, mob = 17326089 } } }, -- Velosareon
+            [17326809] = { trade = { { item = xi.items.TRAITORS_FORTUNE_PARCHMENT, mob = 17326090 } } }, -- Dagourmarche
         },
     },
 }

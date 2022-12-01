@@ -87,7 +87,7 @@ entity.onEventFinish = function(player, csid, option, npc)
         player:setCharVar("theHolyCrestCheck", 1)
     elseif
         csid == 12 and
-        npcUtil.completeQuest(player, xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_RUMOR, { item = 4853 })
+        npcUtil.completeQuest(player, xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_RUMOR, { item = xi.items.SCROLL_OF_DRAIN })
     then
         player:confirmTrade()
     elseif csid == 13 and option == 1 then

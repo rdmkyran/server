@@ -67,12 +67,12 @@ entity.onTrigger = function(player, npc)
         guildMember == 150995375 and
         canRankUp >= 3
     then
-        local item = 0
+        local item = xi.items.NONE
         local asaStatus = player:getCharVar("ASA_Status")
 
         -- TODO: Other Enfeebling Kits
         if asaStatus == 0 then
-            item = 2779
+            item = xi.items.ENFEEBLEMENT_KIT_OF_POISON
         else
             printf("Error: Unknown ASA Status Encountered <%u>", asaStatus)
         end

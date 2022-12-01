@@ -80,7 +80,7 @@ zoneObject.onEventFinish = function(player, csid, option)
         end
     elseif
         csid == 1101 and
-        npcUtil.completeQuest(player, xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.I_LL_TAKE_THE_BIG_BOX, { item = 14226, fameArea = xi.quest.fame_area.NORG, var = { "Enagakure_Killed", "illTakeTheBigBoxCS" } })
+        npcUtil.completeQuest(player, xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.I_LL_TAKE_THE_BIG_BOX, { item = xi.items.NINJA_HAKAMA, fameArea = xi.quest.fame_area.NORG, var = { "Enagakure_Killed", "illTakeTheBigBoxCS" } })
     then
         player:delKeyItem(xi.ki.SEANCE_STAFF)
     elseif csid == 220 and option == 0 then

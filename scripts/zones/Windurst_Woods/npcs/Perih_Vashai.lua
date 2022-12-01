@@ -105,7 +105,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("TheFangedOneCS", 1)
     elseif
         (csid == 357 or csid == 358) and
-        npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_FANGED_ONE, { item = 13117, title = xi.title.THE_FANGED_ONE, var = { "TheFangedOne_Event", "TheFangedOneCS" } })
+        npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_FANGED_ONE, { item = xi.items.RANGERS_NECKLACE, title = xi.title.THE_FANGED_ONE, var = { "TheFangedOne_Event", "TheFangedOneCS" } })
     then
         player:delKeyItem(xi.ki.OLD_TIGERS_FANG)
         player:unlockJob(xi.job.RNG)
@@ -118,7 +118,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("sinHunting", 1)
     elseif
         csid == 527 and
-        npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.SIN_HUNTING, { item = 17188, var = "sinHunting" })
+        npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.SIN_HUNTING, { item = xi.items.SNIPING_BOW, var = "sinHunting" })
     then
         -- complete quest RNG AF1
         player:delKeyItem(xi.ki.CHIEFTAINNESSS_TWINSTONE_EARRING)
@@ -132,7 +132,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("fireAndBrimstone", 5)
     elseif
         csid == 537 and
-        npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.FIRE_AND_BRIMSTONE, { item = 12518, var = "fireAndBrimstone" })
+        npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.FIRE_AND_BRIMSTONE, { item = xi.items.HUNTERS_BERET, var = "fireAndBrimstone" })
     then
         -- complete quest RNG AF2
         player:confirmTrade()
@@ -143,7 +143,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("unbridledPassion", 1)
     elseif
         csid == 546 and
-        npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.UNBRIDLED_PASSION, { item = 14099, var = "unbridledPassion" })
+        npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.UNBRIDLED_PASSION, { item = xi.items.HUNTERS_SOCKS, var = "unbridledPassion" })
     then
         -- complete quest RNG AF3
         player:delKeyItem(xi.ki.KOHS_LETTER)

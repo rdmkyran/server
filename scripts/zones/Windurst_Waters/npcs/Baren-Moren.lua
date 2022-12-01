@@ -102,10 +102,10 @@ entity.onEventFinish = function(player, csid, option)
 
         if rewardTier == 5 then
             rewards.gil = 200
-            rewards.item = 12543
+            rewards.item = xi.items.WINDSHEAR_HAT
         elseif rewardTier == 4 then
             rewards.gil = 175
-            rewards.item = 12543
+            rewards.item = xi.items.WINDSHEAR_HAT
         elseif rewardTier == 3 then
             rewards.gil = 150
         elseif rewardTier == 2 then

@@ -610,7 +610,7 @@ end
 
 function xi.events.starlightCelebration.merryMakersGoblinOnTrade(player, npc, trade, id)
     local item = trade:getItemId()
-    if item == 4495 then
+    if item == xi.items.CHUNK_OF_GOBLIN_CHOCOLATE then
         player:setLocalVar("[StarlightMerryMakers]GoblinTrust", npc:getID())
         player:tradeComplete()
         player:showText(npc, id.text.MERRYMAKER_TRADE)

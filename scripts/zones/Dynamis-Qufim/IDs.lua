@@ -203,13 +203,13 @@ zones[xi.zone.DYNAMIS_QUFIM] =
             --     param = { 3458, 3479, 3480, 3481, 3482 },
             --     trade =
             --     {
-            --         { item = 3458,                       mob = 16945153 }, -- Antaeus
-            --         { item = { 3479, 3480, 3481, 3482 }, mob = 16945403 }, -- Arch Antaeus
+            --         { item = xi.items.UNDYING_JUJU,                       mob = 16945153 }, -- Antaeus
+            --         { item = { xi.items.FIENDISH_TOME_II_CHAPTER_10, 3480, 3481, 3482 }, mob = 16945403 }, -- Arch Antaeus
             --     }
             -- },
-            -- [16945639] = { trade = { { item = 3468, mob = 16945421 } } }, -- Lost Stringes
-            -- [16945640] = { trade = { { item = 3467, mob = 16945457 } } }, -- Lost Scolopendra
-            -- [16945641] = { trade = { { item = 3469, mob = 16945470 } } }, -- Lost Suttung
+            -- [16945639] = { trade = { { item = xi.items.VIAL_OF_NIGHTMARE_BLOOD, mob = 16945421 } } }, -- Lost Stringes
+            -- [16945640] = { trade = { { item = xi.items.NIGHTMARE_SHELL, mob = 16945457 } } }, -- Lost Scolopendra
+            -- [16945641] = { trade = { { item = xi.items.NIGHTMARE_SHARD, mob = 16945470 } } }, -- Lost Suttung
         },
     },
 }

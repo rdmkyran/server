@@ -85,14 +85,14 @@ zones[xi.zone.DYNAMIS_SAN_DORIA] =
                 param = { 3353, 3404, 3405, 3406, 3407, 3408 },
                 trade =
                 {
-                    { item = 3353,                             mob = 17534977 }, -- Overlord's Tombstone
-                    { item = { 3404, 3405, 3406, 3407, 3408 }, mob = 17535213 }, -- Arch Overlord Tombstone
+                    { item = xi.items.BARBARIC_BIJOU,                             mob = 17534977 }, -- Overlord's Tombstone
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_1, 3405, 3406, 3407, 3408 }, mob = 17535213 }, -- Arch Overlord Tombstone
                 }
             },
-            [17535224] = { trade = { { item = 3380, mob = 17535207 } } }, -- Bladeburner Rokgevok
-            [17535225] = { trade = { { item = 3381, mob = 17535208 } } }, -- Steelshank Kratzvatz
-            [17535226] = { trade = { { item = 3382, mob = 17535210 } } }, -- Bloodfist Voshgrosh
-            [17535227] = { trade = { { item = 3383, mob = 17535211 } } }, -- Spellspear Djokvukk
+            [17535224] = { trade = { { item = xi.items.ODIOUS_SCALE, mob = 17535207 } } }, -- Bladeburner Rokgevok
+            [17535225] = { trade = { { item = xi.items.SQUARE_OF_ODIOUS_LEATHER, mob = 17535208 } } }, -- Steelshank Kratzvatz
+            [17535226] = { trade = { { item = xi.items.ODIOUS_CRYPTEX, mob = 17535210 } } }, -- Bloodfist Voshgrosh
+            [17535227] = { trade = { { item = xi.items.ODIOUS_STRONGBOX, mob = 17535211 } } }, -- Spellspear Djokvukk
         },
     },
 }

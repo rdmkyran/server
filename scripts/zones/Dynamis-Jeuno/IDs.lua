@@ -76,14 +76,14 @@ zones[xi.zone.DYNAMIS_JEUNO] =
                 param = { 3356, 3419, 3420, 3421, 3422, 3423 },
                 trade =
                 {
-                    { item = 3356,                             mob = 17547265 }, -- Goblin Golem
-                    { item = { 3419, 3420, 3421, 3422, 3423 }, mob = 17547499 }, -- Arch Goblin Golem
+                    { item = xi.items.ROVING_BIJOU,                             mob = 17547265 }, -- Goblin Golem
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_16, 3420, 3421, 3422, 3423 }, mob = 17547499 }, -- Arch Goblin Golem
                 }
             },
-            [17547510] = { trade = { { item = 3392, mob = 17547493 } } }, -- Quicktrix Hexhands
-            [17547511] = { trade = { { item = 3393, mob = 17547494 } } }, -- Feralox Honeylips
-            [17547512] = { trade = { { item = 3394, mob = 17547496 } } }, -- Scourquix Scaleskin
-            [17547513] = { trade = { { item = 3395, mob = 17547498 } } }, -- Wilywox Tenderpalm
+            [17547510] = { trade = { { item = xi.items.ODIOUS_CUP, mob = 17547493 } } }, -- Quicktrix Hexhands
+            [17547511] = { trade = { { item = xi.items.ODIOUS_DIE, mob = 17547494 } } }, -- Feralox Honeylips
+            [17547512] = { trade = { { item = xi.items.ODIOUS_MASK, mob = 17547496 } } }, -- Scourquix Scaleskin
+            [17547513] = { trade = { { item = xi.items.ODIOUS_GRENADE, mob = 17547498 } } }, -- Wilywox Tenderpalm
         },
     },
 }

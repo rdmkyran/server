@@ -149,13 +149,13 @@ zones[xi.zone.DYNAMIS_VALKURM] =
             --     param = { 3456, 3470, 3471, 3472, 3473 },
             --     trade =
             --     {
-            --         { item = 3456,                     mob = 16936961 }, -- Cirrate Christelle
-            --         { item = { 3470, 3471, 3472, 3473 }, mob = 16937290 }, -- Arch Christelle
+            --         { item = xi.items.CREEPERS_JUJU,                     mob = 16936961 }, -- Cirrate Christelle
+            --         { item = { xi.items.FIENDISH_TOME_II_CHAPTER_1, 3471, 3472, 3473 }, mob = 16937290 }, -- Arch Christelle
             --     }
             -- },
-            -- [16937586] = { trade = { { item = 3461, mob = 16937311 } } }, -- Lost Nant'ina
-            -- [16937587] = { trade = { { item = 3460, mob = 16937432 } } }, -- Lost Fairy Ring
-            -- [16937588] = { trade = { { item = 3462, mob = 16937415 } } }, -- Lost Stcemqestcint
+            -- [16937586] = { trade = { { item = xi.items.NIGHTMARE_BUD, mob = 16937311 } } }, -- Lost Nant'ina
+            -- [16937587] = { trade = { { item = xi.items.NIGHTMARE_LOG, mob = 16937432 } } }, -- Lost Fairy Ring
+            -- [16937588] = { trade = { { item = xi.items.FLASK_OF_NIGHTMARE_WATER, mob = 16937415 } } }, -- Lost Stcemqestcint
         },
     },
 }

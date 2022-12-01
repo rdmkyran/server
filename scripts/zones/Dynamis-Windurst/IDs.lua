@@ -88,14 +88,14 @@ zones[xi.zone.DYNAMIS_WINDURST] =
                 param = { 3355, 3414, 3415, 3416, 3417, 3418 },
                 trade =
                 {
-                    { item = 3355,                             mob = 17543169 }, -- Tzee Xicu Idol
-                    { item = { 3414, 3415, 3416, 3417, 3418 }, mob = 17543469 }, -- Arch Tzee Xicu Idol
+                    { item = xi.items.DIVINE_BIJOU,                             mob = 17543169 }, -- Tzee Xicu Idol
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_11, 3415, 3416, 3417, 3418 }, mob = 17543469 }, -- Arch Tzee Xicu Idol
                 }
             },
-            [17543480] = { trade = { { item = 3388, mob = 17543464 } } }, -- Xuu Bhoqa the Enigma
-            [17543481] = { trade = { { item = 3389, mob = 17543466 } } }, -- Fuu Tzapo the Blessed
-            [17543482] = { trade = { { item = 3390, mob = 17543467 } } }, -- Naa Yixo the Stillrage
-            [17543483] = { trade = { { item = 3391, mob = 17543468 } } }, -- Tee Zaksa the Ceaseless
+            [17543480] = { trade = { { item = xi.items.ODIOUS_NECKLACE, mob = 17543464 } } }, -- Xuu Bhoqa the Enigma
+            [17543481] = { trade = { { item = xi.items.ODIOUS_FEATHER, mob = 17543466 } } }, -- Fuu Tzapo the Blessed
+            [17543482] = { trade = { { item = xi.items.CANTEEN_OF_ODIOUS_HOLY_WATER, mob = 17543467 } } }, -- Naa Yixo the Stillrage
+            [17543483] = { trade = { { item = xi.items.ODIOUS_QUIPU, mob = 17543468 } } }, -- Tee Zaksa the Ceaseless
         },
     },
 }

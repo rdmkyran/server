@@ -44,7 +44,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.THE_FUMBLING_FRIAR)
     elseif
         csid == 28 and
-        npcUtil.completeQuest(player, xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.THE_FUMBLING_FRIAR, { item = 4688 })
+        npcUtil.completeQuest(player, xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.THE_FUMBLING_FRIAR, { item = xi.items.SCROLL_OF_RECALL_PASHH })
     then
         player:delKeyItem(xi.ki.ORNATE_PACKAGE)
     end

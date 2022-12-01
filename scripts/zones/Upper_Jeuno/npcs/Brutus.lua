@@ -105,7 +105,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("wingsOfGold_shortCS", 0)
     elseif
         csid == 138 and
-        npcUtil.completeQuest(player, xi.quest.log_id.JEUNO, xi.quest.id.jeuno.WINGS_OF_GOLD, { item = 16680, fame = 20 })
+        npcUtil.completeQuest(player, xi.quest.log_id.JEUNO, xi.quest.id.jeuno.WINGS_OF_GOLD, { item = xi.items.BARBAROI_AXE, fame = 20 })
     then
         player:delKeyItem(xi.ki.GUIDING_BELL)
 
@@ -117,7 +117,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 144 then
         player:setCharVar("scatIntoShadowCS", 1)
     elseif csid == 135 then
-        npcUtil.completeQuest(player, xi.quest.log_id.JEUNO, xi.quest.id.jeuno.SCATTERED_INTO_SHADOW, { item = 14097, fame = 40, var = "scatIntoShadowCS" })
+        npcUtil.completeQuest(player, xi.quest.log_id.JEUNO, xi.quest.id.jeuno.SCATTERED_INTO_SHADOW, { item = xi.items.BEAST_GAITERS, fame = 40, var = "scatIntoShadowCS" })
     end
 end
 

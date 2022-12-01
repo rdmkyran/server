@@ -49,7 +49,7 @@ entity.onEventFinish = function(player, csid, option)
         csid == 822 and
         npcUtil.completeQuest(player, xi.quest.log_id.WINDURST, xi.quest.id.windurst.ECO_WARRIOR, {
             gil = 5000,
-            item = 4198,
+            item = xi.items.DRAGON_CHRONICLES,
             title = xi.title.EMERALD_EXTERMINATOR,
             fame = 80,
             fameArea = xi.quest.fame_area.WINDURST,
