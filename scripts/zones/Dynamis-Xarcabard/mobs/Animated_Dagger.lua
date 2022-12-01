@@ -10,9 +10,9 @@ local entity = {}
 entity.onMobEngaged = function(mob, target)
 
     if mob:getAnimationSub() == 3 then
-        SetDropRate(103, 1572, 1000)
+        SetDropRate(103, xi.items.ORNATE_FRAGMENT, 1000)
     else
-        SetDropRate(103, 1572, 0)
+        SetDropRate(103, xi.items.ORNATE_FRAGMENT, 0)
     end
 
     target:showText(mob, ID.text.ANIMATED_DAGGER_DIALOG)

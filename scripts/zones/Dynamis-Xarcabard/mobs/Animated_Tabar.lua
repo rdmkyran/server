@@ -9,9 +9,9 @@ local entity = {}
 
 entity.onMobEngaged = function(mob, target)
     if mob:getAnimationSub() == 3 then
-        SetDropRate(116, 1575, 1000)
+        SetDropRate(116, xi.items.RUNAEIC_FRAGMENT, 1000)
     else
-        SetDropRate(116, 1575, 0)
+        SetDropRate(116, xi.items.RUNAEIC_FRAGMENT, 0)
     end
 
     target:showText(mob, ID.text.ANIMATED_TABAR_DIALOG)

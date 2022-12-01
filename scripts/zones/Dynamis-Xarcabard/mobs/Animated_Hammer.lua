@@ -10,9 +10,9 @@ local entity = {}
 entity.onMobEngaged = function(mob, target)
 
     if mob:getAnimationSub() == 3 then
-        SetDropRate(106, 1581, 1000)
+        SetDropRate(106, xi.items.HEAVENLY_FRAGMENT, 1000)
     else
-        SetDropRate(106, 1581, 0)
+        SetDropRate(106, xi.items.HEAVENLY_FRAGMENT, 0)
     end
 
     target:showText(mob, ID.text.ANIMATED_HORN_DIALOG)

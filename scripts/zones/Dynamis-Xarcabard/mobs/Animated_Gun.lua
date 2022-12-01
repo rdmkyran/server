@@ -10,9 +10,9 @@ local entity = {}
 entity.onMobEngaged = function(mob, target)
 
     if mob:getAnimationSub() == 3 then
-        SetDropRate(105, 1585, 1000)
+        SetDropRate(105, xi.items.ETHEREAL_FRAGMENT, 1000)
     else
-        SetDropRate(105, 1585, 0)
+        SetDropRate(105, xi.items.ETHEREAL_FRAGMENT, 0)
     end
 
     target:showText(mob, ID.text.ANIMATED_GUN_DIALOG)

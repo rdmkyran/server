@@ -9,9 +9,9 @@ local entity = {}
 
 entity.onMobEngaged = function(mob, target)
     if mob:getAnimationSub() == 3 then
-        SetDropRate(110, 1583, 1000)
+        SetDropRate(110, xi.items.SNARLED_FRAGMENT, 1000)
     else
-        SetDropRate(110, 1583, 0)
+        SetDropRate(110, xi.items.SNARLED_FRAGMENT, 0)
     end
 
     target:showText(mob, ID.text.ANIMATED_LONGBOW_DIALOG)

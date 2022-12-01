@@ -21,7 +21,7 @@ entity.onTrade = function(player, npc, trade)
 
     if shieldChance > 0 and npcUtil.popFromQM(player, npc, ID.mob.GRATION) then
         player:confirmTrade()
-        SetDropRate(1218, 12360, shieldChance)
+        SetDropRate(1218, xi.items.TATAMI_SHIELD, shieldChance)
         if npc:getLocalVar("shield") == 1 then
             player:messageSpecial(ID.text.SNATCHED_AWAY, 12359)
         else

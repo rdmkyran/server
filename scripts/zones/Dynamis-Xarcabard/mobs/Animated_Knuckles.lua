@@ -10,9 +10,9 @@ local entity = {}
 entity.onMobEngaged = function(mob, target)
 
     if mob:getAnimationSub() == 3 then
-        SetDropRate(108, 1571, 1000)
+        SetDropRate(108, xi.items.MYSTIC_FRAGMENT, 1000)
     else
-        SetDropRate(108, 1571, 0)
+        SetDropRate(108, xi.items.MYSTIC_FRAGMENT, 0)
     end
 
     target:showText(mob, ID.text.ANIMATED_KNUCKLES_DIALOG)

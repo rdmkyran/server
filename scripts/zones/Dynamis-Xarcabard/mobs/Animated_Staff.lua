@@ -9,9 +9,9 @@ local entity = {}
 
 entity.onMobEngaged = function(mob, target)
     if mob:getAnimationSub() == 3 then
-        SetDropRate(115, 1582, 1000)
+        SetDropRate(115, xi.items.CELESTIAL_FRAGMENT, 1000)
     else
-        SetDropRate(115, 1582, 0)
+        SetDropRate(115, xi.items.CELESTIAL_FRAGMENT, 0)
     end
 
     target:showText(mob, ID.text.ANIMATED_STAFF_DIALOG)

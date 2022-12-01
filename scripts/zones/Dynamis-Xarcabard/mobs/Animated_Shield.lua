@@ -10,9 +10,9 @@ local entity = {}
 entity.onMobEngaged = function(mob, target)
 
     if mob:getAnimationSub() == 3 then
-        SetDropRate(113, 1822, 1000)
+        SetDropRate(113, xi.items.SUPERNAL_FRAGMENT, 1000)
     else
-        SetDropRate(113, 1822, 0)
+        SetDropRate(113, xi.items.SUPERNAL_FRAGMENT, 0)
     end
 
     target:showText(mob, ID.text.ANIMATED_SHIELD_DIALOG)

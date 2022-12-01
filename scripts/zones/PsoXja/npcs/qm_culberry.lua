@@ -23,7 +23,7 @@ entity.onTrade = function(player, npc, trade)
         npcUtil.popFromQM(player, npc, ID.mob.GOLDEN_TONGUED_CULBERRY)
     then
         player:confirmTrade()
-        SetDropRate(1190, 13145, pendantChance)
+        SetDropRate(1190, xi.items.UGGALEPIH_PENDANT, pendantChance)
     end
 end
 

@@ -10,9 +10,9 @@ local entity = {}
 entity.onMobEngaged = function(mob, target)
 
     if mob:getAnimationSub() == 3 then
-        SetDropRate(104, 1576, 1000)
+        SetDropRate(104, xi.items.SERAPHIC_FRAGMENT, 1000)
     else
-        SetDropRate(104, 1576, 0)
+        SetDropRate(104, xi.items.SERAPHIC_FRAGMENT, 0)
     end
 
     target:showText(mob, ID.text.ANIMATED_GREATAXE_DIALOG)
