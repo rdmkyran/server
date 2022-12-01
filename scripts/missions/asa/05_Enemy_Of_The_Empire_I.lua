@@ -6,6 +6,7 @@
 -- Andrause : !pos 22.72 -5.13 18.51 252
 -----------------------------------
 require('scripts/globals/missions')
+require("scripts/globals/items")
 require('scripts/globals/keyitems')
 require('scripts/globals/interaction/mission')
 require('scripts/globals/zone')

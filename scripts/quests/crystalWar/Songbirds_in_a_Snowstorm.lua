@@ -10,6 +10,7 @@
 -- Compressed Snow    : !pos 46.437 -0.762 -370.178 136
 -----------------------------------
 require('scripts/globals/keyitems')
+require("scripts/globals/items")
 require('scripts/globals/npc_util')
 require('scripts/globals/quests')
 require('scripts/globals/zone')

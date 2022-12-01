@@ -10,6 +10,7 @@
 -- Gravestone : !pos 149.728 -5.109 -395.121 105
 -----------------------------------
 require('scripts/globals/keyitems')
+require("scripts/globals/items")
 require('scripts/globals/missions')
 require('scripts/globals/interaction/quest')
 require('scripts/globals/quests')

@@ -5,6 +5,7 @@
 -- Metallic Hodgepodge : !pos -285.493 -7.819 -163.707 104
 -----------------------------------
 require('scripts/globals/npc_util')
+require("scripts/globals/items")
 require('scripts/globals/quests')
 require('scripts/globals/zone')
 require('scripts/globals/interaction/quest')

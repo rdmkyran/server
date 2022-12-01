@@ -8,6 +8,7 @@
 -- Patt-Pott       : !pos 23 -17 42 237
 -----------------------------------
 require('scripts/globals/keyitems')
+require("scripts/globals/items")
 require('scripts/globals/missions')
 require('scripts/globals/npc_util')
 require('scripts/globals/interaction/mission')

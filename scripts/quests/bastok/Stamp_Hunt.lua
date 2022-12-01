@@ -12,6 +12,7 @@
 -- Latifah       : !pos 51.241 7.499 -55.407 236
 -----------------------------------
 require('scripts/globals/keyitems')
+require("scripts/globals/items")
 require('scripts/globals/npc_util')
 require('scripts/globals/quests')
 require('scripts/globals/titles')

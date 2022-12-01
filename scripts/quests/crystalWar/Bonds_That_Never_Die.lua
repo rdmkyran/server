@@ -5,6 +5,7 @@
 -- Rholont : !pos -168 -2 56 80
 -----------------------------------
 require('scripts/globals/npc_util')
+require("scripts/globals/items")
 require('scripts/globals/quests')
 require('scripts/globals/zone')
 require('scripts/globals/interaction/quest')

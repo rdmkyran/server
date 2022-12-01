@@ -6,6 +6,7 @@
 -- Exoroche : !pos 72 -1 60 230
 -----------------------------------
 require('scripts/globals/npc_util')
+require("scripts/globals/items")
 require('scripts/globals/quests')
 require('scripts/globals/titles')
 require('scripts/globals/zone')

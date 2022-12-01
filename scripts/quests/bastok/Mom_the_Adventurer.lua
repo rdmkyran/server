@@ -6,6 +6,7 @@
 -- Roh Latteh : !pos -11.823 6.999 -9.249 234
 -----------------------------------
 require('scripts/globals/keyitems')
+require("scripts/globals/items")
 require('scripts/globals/npc_util')
 require('scripts/globals/quests')
 require('scripts/globals/titles')

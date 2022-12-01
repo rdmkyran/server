@@ -6,6 +6,7 @@
 -- Baren-Moren !pos -66 -2 -145
 -----------------------------------
 require('scripts/globals/interaction/quest')
+require("scripts/globals/items")
 require('scripts/globals/keyitems')
 require('scripts/globals/npc_util')
 require('scripts/globals/quests')

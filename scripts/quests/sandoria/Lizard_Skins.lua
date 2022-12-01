@@ -5,6 +5,7 @@
 -- Hanaa Punaa : !pos -179.726 -8.8 27.574 230
 -----------------------------------
 require('scripts/globals/npc_util')
+require("scripts/globals/items")
 require('scripts/globals/quests')
 require('scripts/globals/status')
 require('scripts/globals/titles')

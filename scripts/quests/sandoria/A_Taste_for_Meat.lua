@@ -6,6 +6,7 @@
 -- Thierride : !pos -67 -5 -28 232
 -----------------------------------
 require('scripts/globals/npc_util')
+require("scripts/globals/items")
 require('scripts/globals/quests')
 require('scripts/globals/titles')
 require('scripts/globals/zone')

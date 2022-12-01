@@ -7,6 +7,7 @@
 -- Spell-worked Snow  : !pos 75.989 -24.249 -248.089 137
 -----------------------------------
 require('scripts/globals/missions')
+require("scripts/globals/items")
 require('scripts/globals/interaction/mission')
 require('scripts/globals/zone')
 -----------------------------------

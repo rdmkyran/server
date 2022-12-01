@@ -6,6 +6,7 @@
 -- Weathered Gravestone : !pos 149.728 -5.109 -395.121 105
 -----------------------------------
 require('scripts/globals/missions')
+require("scripts/globals/items")
 require('scripts/globals/interaction/mission')
 require('scripts/globals/zone')
 -----------------------------------

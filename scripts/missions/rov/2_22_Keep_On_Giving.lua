@@ -6,6 +6,7 @@
 -- qm_rov2_20 : !pos -44.741 -23.753 568.504 25
 -----------------------------------
 require('scripts/globals/missions')
+require("scripts/globals/items")
 require('scripts/globals/rhapsodies')
 require('scripts/globals/zone')
 require('scripts/globals/interaction/mission')

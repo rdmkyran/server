@@ -7,6 +7,7 @@
 -- Sewer Entrance : !pos 28 -12 44 26
 -----------------------------------
 require('scripts/globals/interaction/mission')
+require("scripts/globals/items")
 require('scripts/globals/missions')
 require('scripts/globals/utils')
 require('scripts/globals/zone')

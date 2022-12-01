@@ -5,6 +5,7 @@
 -- Hariga-Origa : !pos -70.244,-3.800,-4.439
 -----------------------------------
 require('scripts/globals/interaction/quest')
+require("scripts/globals/items")
 require('scripts/globals/npc_util')
 require('scripts/globals/quests')
 require('scripts/globals/zone')

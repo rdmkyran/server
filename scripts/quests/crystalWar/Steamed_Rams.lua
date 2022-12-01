@@ -9,6 +9,7 @@
 -- qm5         : !pos 380.015 -26.5 -22.525
 -----------------------------------
 require('scripts/globals/keyitems')
+require("scripts/globals/items")
 require('scripts/globals/npc_util')
 require('scripts/globals/quests')
 require('scripts/globals/titles')

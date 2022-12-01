@@ -6,6 +6,7 @@
 -- Leadavox     : !pos 206 -32 316 83
 -----------------------------------
 require('scripts/globals/interaction/quest')
+require("scripts/globals/items")
 require('scripts/globals/missions')
 require('scripts/globals/quests')
 require('scripts/globals/zone')
