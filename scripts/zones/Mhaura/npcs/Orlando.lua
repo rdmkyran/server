@@ -7,6 +7,7 @@ local ID = require("scripts/zones/Mhaura/IDs")
 require("scripts/globals/keyitems")
 require("scripts/globals/settings")
 require("scripts/globals/quests")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -15,17 +16,17 @@ entity.onTrade = function(player, npc, trade)
     local itemID = trade:getItemId()
     local itemList =
     {
-        {   564, 200 }, -- Fingernail Sack
-        {   565, 250 }, -- Teeth Sack
-        {   566, 200 }, -- Goblin Cup
-        {   568, 120 }, -- Goblin Die
-        {   656, 600 }, -- Beastcoin
-        {   748, 900 }, -- Gold Beastcoin
-        {   749, 800 }, -- Mythril Beastcoin
-        {   750, 750 }, -- Silver Beastcoin
-        {   898, 120 }, -- Chicken Bone
-        {   900, 100 }, -- Fish Bone
-        { 16995, 150 }, -- Rotten Meat
+        {   xi.items.SACK_OF_FINGERNAILS, 200 },
+        {   xi.items.SACK_OF_TEETH, 250 },
+        {   xi.items.GOBLIN_CUP, 200 },
+        {   xi.items.GOBLIN_DIE, 120 },
+        {   xi.items.BEASTCOIN, 600 },
+        {   xi.items.GOLD_BEASTCOIN, 900 },
+        {   xi.items.MYTHRIL_BEASTCOIN, 800 },
+        {   xi.items.SILVER_BEASTCOIN, 750 },
+        {   xi.items.CHICKEN_BONE, 120 },
+        {   xi.items.SET_OF_FISH_BONES, 100 },
+        { xi.items.PIECE_OF_ROTTEN_MEAT, 150 },
     }
 
     for x, item in pairs(itemList) do
