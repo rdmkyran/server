@@ -136,7 +136,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ICE_PENDULUM)
             player:setCharVar("ClassReunionProgress", 5)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1171)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.ICE_PENDULUM)
         end
     end
 end

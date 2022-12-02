@@ -54,7 +54,7 @@ end
 entity.onEventFinish = function(player, csid, option)
     if csid == 108 and option == 1 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1546) --Mini tuning fork
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MINI_TUNING_FORK_OF_WIND)
         else
             player:addQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.TRIAL_SIZE_TRIAL_BY_WIND)
             player:addItem(xi.items.MINI_TUNING_FORK_OF_WIND)
@@ -62,7 +62,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 112 and option == 1 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1546) --Mini tuning fork
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MINI_TUNING_FORK_OF_WIND)
         else
             player:addItem(xi.items.MINI_TUNING_FORK_OF_WIND)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MINI_TUNING_FORK_OF_WIND)

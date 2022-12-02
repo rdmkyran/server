@@ -47,7 +47,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("[ENM]ZephyrFan", os.time() + (xi.settings.main.ENM_COOLDOWN * 3600)) -- Current time + (ENM_COOLDOWN*1hr in seconds)
     elseif csid == 14 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1779) -- Cotton Pouch
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.COTTON_POUCH)
             return
         else
             player:addItem(xi.items.COTTON_POUCH)

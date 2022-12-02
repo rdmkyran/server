@@ -21,7 +21,7 @@ entity.onTrade = function(player, npc, trade)
                 player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.WALAHRA_TURBAN)
                 player:startEvent(102, 2184, 0, tradeCount)
             else
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 15270)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.WALAHRA_TURBAN)
             end
         else -- turning in less than the amount needed to finish the quest
             if tradeCount >= 100 then -- give bonus walahra water - only one water per trade, regardless of the amount.

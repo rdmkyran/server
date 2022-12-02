@@ -44,7 +44,7 @@ entity.onEventFinish = function(player, csid, option)
         player:messageSpecial(ID.text.KEYITEM_OBTAINED, xi.ki.SCRIPTURE_OF_WIND)
     elseif csid == 620 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13584)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.COTTON_CAPE)
         else
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.GATES_TO_PARADISE)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)

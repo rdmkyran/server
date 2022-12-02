@@ -103,7 +103,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_SQUIRE_S_TEST)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 16565) -- Spatha
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.SPATHA)
         end
     elseif csid == 625 or csid == 630 then
         player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_SQUIRE_S_TEST_II)
@@ -142,7 +142,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_KNIGHT_S_TEST)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 12306) -- Kite Shield
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.KITE_SHIELD)
         end
     elseif csid == 63 then
         player:setCharVar("KnightStalker_Progress", 3)

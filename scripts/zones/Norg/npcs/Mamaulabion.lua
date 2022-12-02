@@ -120,7 +120,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("MamaMia_date", getMidnight())
     elseif csid == 197 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14625) -- Evokers Ring
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.EVOKERS_RING)
         else
             player:addItem(xi.items.EVOKERS_RING)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.EVOKERS_RING)

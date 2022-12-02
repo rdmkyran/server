@@ -69,7 +69,7 @@ entity.onEventFinish = function(player, csid, option)
 
     elseif csid == 152 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17083)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.TIME_HAMMER)
         else
             player:addQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_CLOCKMASTER)
             player:addTitle(xi.title.TIMEKEEPER)
@@ -83,7 +83,7 @@ entity.onEventFinish = function(player, csid, option)
 
     elseif csid == 202 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 12727)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.ENGINEERS_GLOVES)
         else
             player:addTitle(xi.title.PROFESSIONAL_LOAFER)
             player:delKeyItem(xi.ki.CLOCK_TOWER_OIL)

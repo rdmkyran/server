@@ -21,7 +21,7 @@ entity.onTrigger = function(player, npc)
         -- ??? dissapears for 3 hours and reappears on new position
         hideTime = 10800
     else
-        player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 16575) -- Curtana
+        player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.CURTANA)
 
         -- ??? just change position
         hideTime = 1

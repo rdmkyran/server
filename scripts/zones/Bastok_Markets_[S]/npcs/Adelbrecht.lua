@@ -99,7 +99,7 @@ entity.onEventFinish = function(player, csid, option)
                 player:messageSpecial(ID.text.KEYITEM_OBTAINED, xi.ki.BRONZE_RIBBON_OF_SERVICE)
                 player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SPRINTERS_SHOES)
             else
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 15754)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.SPRINTERS_SHOES)
             end
         else
             player:setCampaignAllegiance(2)

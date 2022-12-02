@@ -41,7 +41,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.UNDYING_FLAMES)
     elseif csid == 563 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13211) -- Friars Rope
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.FRIARS_ROPE)
         else
             player:tradeComplete()
             player:addTitle(xi.title.FAITH_LIKE_A_CANDLE)

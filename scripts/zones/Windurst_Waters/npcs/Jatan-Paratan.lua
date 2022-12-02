@@ -63,7 +63,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.WONDERING_MINSTREL)
     elseif csid == 638 then  -- WONDERING_MINSTREL: Quest Finish
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17349)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.FAERIE_PICCOLO)
         else
             player:tradeComplete()
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.WONDERING_MINSTREL)

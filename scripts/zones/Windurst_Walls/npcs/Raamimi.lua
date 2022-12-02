@@ -49,7 +49,7 @@ end
 entity.onEventFinish = function(player, csid, option)
     if csid == 67 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4370) -- Cannot give Honey because player Inventory is full
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.POT_OF_HONEY)
         else
             player:addQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.TO_BEE_OR_NOT_TO_BEE)
             player:addItem(xi.items.POT_OF_HONEY)
@@ -57,7 +57,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 80 then -- After Honey#5: ToBee quest Finish (tooth hurts from all the Honey)
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4156) -- Cannot give Mulsum because player Inventory is full
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.BOTTLE_OF_MULSUM)
         else
             player:setCharVar("ToBeeOrNot_var", 0)
             player:addItem(4156, 3) -- Mulsum x3

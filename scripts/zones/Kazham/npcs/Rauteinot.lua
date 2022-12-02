@@ -62,7 +62,7 @@ entity.onEventFinish = function(player, csid, option)
         player:tradeComplete()
     elseif csid == 141 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4728)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.SCROLL_OF_TELEPORT_YHOAT)
         else
             player:setCharVar("MissionaryManVar", 0)
             player:delKeyItem(xi.ki.SUBLIME_STATUE_OF_THE_GODDESS)

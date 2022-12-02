@@ -76,7 +76,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("twentyInPirateYearsCS", 1)
     elseif csid == 134 then
         if player:getFreeSlotsCount() <= 1 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17771)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.ANJU)
         else
             player:delKeyItem(xi.ki.TRICK_BOX)
             player:addItem(xi.items.ANJU)

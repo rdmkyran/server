@@ -55,7 +55,7 @@ end
 entity.onEventFinish = function(player, csid, option)
     if csid == 733 and option == 1 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1545)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MINI_TUNING_FORK_OF_ICE)
         else
             player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.TRIAL_SIZE_TRIAL_BY_ICE)
             player:addItem(xi.items.MINI_TUNING_FORK_OF_ICE)
@@ -63,7 +63,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 734 and option == 0 or csid == 737 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1545)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MINI_TUNING_FORK_OF_ICE)
         else
             player:addItem(xi.items.MINI_TUNING_FORK_OF_ICE)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MINI_TUNING_FORK_OF_ICE)

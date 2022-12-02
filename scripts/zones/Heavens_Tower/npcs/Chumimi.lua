@@ -105,7 +105,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("theThreeMagiSupport", option)
     elseif csid == 269 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17423) -- Casting Wand
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.CASTING_WAND)
         else
             local choosetitle = player:getCharVar("theThreeMagiSupport")
 
@@ -132,7 +132,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("recollectionsQuest", 2)
     elseif csid == 275 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14092) -- wizards sabots
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.WIZARDS_SABOTS)
         else
             player:setCharVar("recollectionsQuest", 0)
             player:delKeyItem(xi.ki.FOE_FINDER_MK_I)

@@ -74,7 +74,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_WONDER_MAGIC_SET)
     elseif csid == 33 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13328)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MYTHRIL_EARRING)
         else
             player:addTitle(xi.title.FOOLS_ERRAND_RUNNER)
             player:delKeyItem(xi.ki.WONDER_MAGIC_SET)
@@ -88,7 +88,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("theLostCardianVar", 2)
     elseif csid == 35 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13596)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.GREEN_CAPE)
         else
             player:addTitle(xi.title.BRINGER_OF_BLISS)
             player:delKeyItem(xi.ki.TWO_OF_SWORDS)

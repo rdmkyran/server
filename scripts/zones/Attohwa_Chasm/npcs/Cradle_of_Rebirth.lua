@@ -11,7 +11,7 @@ entity.onTrade = function(player, npc, trade)
     -- Trade Flaxen Pouch
     if trade:hasItemQty(xi.items.FLAXEN_POUCH, 1) and trade:getItemCount() == 1 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1778) -- Parradamo Stones
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.POUCH_OF_PARRADAMO_STONES)
         else
             player:tradeComplete()
             player:addItem(xi.items.POUCH_OF_PARRADAMO_STONES)

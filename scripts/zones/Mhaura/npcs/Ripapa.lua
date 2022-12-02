@@ -131,7 +131,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.LIGHTNING_PENDULUM)
             player:setCharVar("CarbuncleDebacleProgress", 3)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1172)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.LIGHTNING_PENDULUM)
         end
     end
 end

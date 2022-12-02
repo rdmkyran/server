@@ -85,7 +85,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 230 and option == 20 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 555)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.CLOCK_TOWER_PETITION)
         else
             player:addItem(xi.items.CLOCK_TOWER_PETITION)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CLOCK_TOWER_PETITION)
@@ -101,7 +101,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("saveTheClockTowerNPCz2", 0)
         else
             if player:getFreeSlotsCount() == 0 then
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 555)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.CLOCK_TOWER_PETITION)
             else
                 player:addItem(xi.items.CLOCK_TOWER_PETITION)
                 player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CLOCK_TOWER_PETITION)

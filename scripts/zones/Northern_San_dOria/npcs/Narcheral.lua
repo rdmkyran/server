@@ -61,7 +61,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.MESSENGER_FROM_BEYOND)
     elseif csid == 690 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17422)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.BLESSED_HAMMER)
         else
             player:addItem(xi.items.BLESSED_HAMMER)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.BLESSED_HAMMER)
@@ -71,7 +71,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 691 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14091) -- Healer's Duckbills
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.HEALERS_DUCKBILLS)
         else
             player:addItem(xi.items.HEALERS_DUCKBILLS)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.HEALERS_DUCKBILLS)
@@ -81,7 +81,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 692 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 12640) -- Healer's Briault
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.HEALERS_BRIAULT)
         else
             player:addTitle(xi.title.PARAGON_OF_WHITE_MAGE_EXCELLENCE)
             player:setCharVar("pieujesDecisionCS", 0)

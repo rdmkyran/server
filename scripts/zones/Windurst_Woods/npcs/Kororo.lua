@@ -66,7 +66,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("AGreetingCardian_Event", 4)
     elseif csid == 303 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13330) -- Tourmaline Earring
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.TOURMALINE_EARRING)
         else
             player:addItem(xi.items.TOURMALINE_EARRING)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.TOURMALINE_EARRING)

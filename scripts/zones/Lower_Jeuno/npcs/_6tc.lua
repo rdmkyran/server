@@ -79,7 +79,7 @@ entity.onEventFinish = function(player, csid, option)
         player:tradeComplete()
     elseif csid == 159 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13186)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.BLACK_BELT)
         else
             player:addTitle(xi.title.BLACK_BELT)
             player:addItem(xi.items.BLACK_BELT)

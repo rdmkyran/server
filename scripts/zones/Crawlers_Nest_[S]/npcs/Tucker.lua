@@ -66,7 +66,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_OBTAINED + 9, 2550, 4)
             player:setCharVar("SheetsofVellum", 2)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 2550)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.VELLUM)
         end
     elseif csid == 10 then
         if player:getFreeSlotsCount() > 0 then
@@ -75,7 +75,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_OBTAINED + 9, 2550, 4)
             player:setCharVar("SheetsofVellum", 3)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 2550)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.VELLUM)
         end
     elseif csid == 11 then
         if player:getFreeSlotsCount() > 0 then
@@ -84,7 +84,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_OBTAINED + 9, 2550, 4)
             player:setCharVar("SheetsofVellum", 4)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 2550)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.VELLUM)
         end
     end
 end

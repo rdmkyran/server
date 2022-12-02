@@ -90,10 +90,10 @@ entity.onEventFinish = function(player, csid, option)
         local rand = math.random(1, 3) --Setup random variable to determine which 2 items are returned upon quest completion
         if rand == 1 then
             if player:getFreeSlotsCount() == 1 then
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17061)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MYTHRIL_ROD)
             elseif player:getFreeSlotsCount() == 0 then
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17091)
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17061)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.OAK_STAFF)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MYTHRIL_ROD)
             else
                 player:addItem(17091, 1)
                 player:addItem(17061, 1) --Returns the Oak Staff and the Mythril Rod
@@ -103,10 +103,10 @@ entity.onEventFinish = function(player, csid, option)
             end
         elseif rand == 2 then
             if player:getFreeSlotsCount() == 1 then
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17053)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.ROSE_WAND)
             elseif player:getFreeSlotsCount() == 0 then
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17091)
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17053)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.OAK_STAFF)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.ROSE_WAND)
             else
                 player:addItem(17091, 1)
                 player:addItem(17053, 1) --Returns the Oak Staff and the Rose Wand
@@ -116,10 +116,10 @@ entity.onEventFinish = function(player, csid, option)
             end
         elseif rand == 3 then
             if player:getFreeSlotsCount() == 1 then
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17053)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.ROSE_WAND)
             elseif player:getFreeSlotsCount() == 0 then
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17061)
-                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17053)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MYTHRIL_ROD)
+                player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.ROSE_WAND)
             else
                 player:addItem(17061, 1)
                 player:addItem(17053, 1) --Returns the Rose Wand and the Mythril Rod
@@ -130,7 +130,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 265 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 12750) -- New Moon Armlets
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.NEW_MOON_ARMLETS)
         else
             player:tradeComplete()
             player:addGil(xi.settings.main.GIL_RATE * 4800)

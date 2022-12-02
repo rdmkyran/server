@@ -84,7 +84,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 101 and option == 1 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4096)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.FIRE_CRYSTAL)
         else
             player:addItem(xi.items.FIRE_CRYSTAL)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.FIRE_CRYSTAL)

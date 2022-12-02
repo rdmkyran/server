@@ -58,7 +58,7 @@ entity.onEventFinish = function(player, csid, option)
         player:needToZone(true)
     elseif csid == 340 or csid == 342 then
         if player:hasItem(5704, 1) or player:getFreeSlotsCount() < 1 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 5704)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.ANGLERS_CASSOULET)
         else
             player:addItem(5704, 1)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ANGLERS_CASSOULET)

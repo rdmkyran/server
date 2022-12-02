@@ -90,7 +90,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("saveMySisterVar", 3)
     elseif csid == 107 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17041)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.HOLY_MACE)
         else
             player:addTitle(xi.title.EXORCIST_IN_TRAINING)
             player:addGil(xi.settings.main.GIL_RATE * 3000)

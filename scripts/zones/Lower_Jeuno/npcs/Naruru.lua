@@ -85,7 +85,7 @@ entity.onEventFinish = function(player, csid, option)
 
     elseif csid == 187 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13446)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MYTHRIL_RING)
         else
             player:addTitle(xi.title.MERCY_ERRAND_RUNNER)
             player:delKeyItem(xi.ki.SUPER_SOUP_POT)

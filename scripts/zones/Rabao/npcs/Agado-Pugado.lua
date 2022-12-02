@@ -135,7 +135,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.WIND_PENDULUM)
             player:setCharVar("CarbuncleDebacleProgress", 6)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1174)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.WIND_PENDULUM)
         end
     end
 end

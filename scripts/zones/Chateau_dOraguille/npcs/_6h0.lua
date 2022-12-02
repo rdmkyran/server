@@ -90,7 +90,7 @@ end
 entity.onEventFinish = function(player, csid, option)
     if csid == 88 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14095)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.GALLANT_LEGGINGS)
         else
             if player:getMainJob() == xi.job.PLD then
                 player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.UNDER_OATH)
@@ -108,7 +108,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("UnderOathCS", 0)
     elseif csid == 89 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 12644)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.GALLANT_SURCOAT)
         else
             player:addItem(xi.items.GALLANT_SURCOAT)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.GALLANT_SURCOAT)

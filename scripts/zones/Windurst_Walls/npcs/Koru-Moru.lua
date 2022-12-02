@@ -111,7 +111,7 @@ entity.onEventFinish = function(player, csid, option)
             player:needToZone(true)
             player:addFame(xi.quest.fame_area.WINDURST, 40)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14228)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.EVOKERS_SPATS)
         end
     elseif csid == 416 then
         player:setCharVar("CarbuncleDebacleProgress", 2)
@@ -129,7 +129,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("CarbuncleDebacleProgress", 0)
             player:needToZone(true)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 12520)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.EVOKERS_HORN)
         end
     end
 end

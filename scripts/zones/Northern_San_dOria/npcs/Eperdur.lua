@@ -71,7 +71,7 @@ entity.onEventFinish = function(player, csid, option)
         player:messageSpecial(ID.text.KEYITEM_OBTAINED, xi.ki.SEAL_OF_BANISHING)
     elseif csid == 683 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4730)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.SCROLL_OF_TELEPORT_HOLLA)
         else
             player:addTitle(xi.title.PILGRIM_TO_HOLLA)
             player:addItem(xi.items.SCROLL_OF_TELEPORT_HOLLA)
@@ -84,7 +84,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.SORCERY_OF_THE_NORTH)
     elseif csid == 687 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4747)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.SCROLL_OF_TELEPORT_VAHZL)
         else
             player:delKeyItem(xi.ki.FEIYIN_MAGIC_TOME)
             player:addItem(xi.items.SCROLL_OF_TELEPORT_VAHZL)

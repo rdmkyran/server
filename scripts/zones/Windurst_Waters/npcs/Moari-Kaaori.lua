@@ -74,7 +74,7 @@ entity.onEventFinish = function(player, csid, option)
             player:needToZone(true)
             player:setTitle(xi.title.CUPIDS_FLORIST)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 16536)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.IRON_SWORD)
         end
     elseif csid == 522 then -- Wrong flowers so complete quest, but smaller reward/fame and no title.
         player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.SAY_IT_WITH_FLOWERS)

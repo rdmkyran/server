@@ -114,7 +114,7 @@ entity.onEventFinish = function(player, csid, option)
 
     elseif csid == 150 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14098)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.CHORAL_SLIPPERS)
         else
             player:addItem(xi.items.CHORAL_SLIPPERS)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CHORAL_SLIPPERS)

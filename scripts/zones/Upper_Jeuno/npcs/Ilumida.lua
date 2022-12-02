@@ -62,7 +62,7 @@ entity.onEventFinish = function(player, csid, option)
 
     elseif csid == 198 then --finish quest, note: no title granted
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4882)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.SCROLL_OF_SLEEPGA_II)
         else
             player:delKeyItem(xi.ki.MOONDROP)
             player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 3000)

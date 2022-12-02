@@ -50,7 +50,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addItem(xi.items.BRONZE_KNIFE)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.BRONZE_KNIFE)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 16465)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.BRONZE_KNIFE)
         end
     end
 end

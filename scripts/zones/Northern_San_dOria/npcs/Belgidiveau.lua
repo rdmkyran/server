@@ -45,7 +45,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("troubleAtTheSluiceVar", 1)
     elseif csid == 56 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 16706)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.HEAVY_AXE)
         else
             player:tradeComplete()
             player:delKeyItem(xi.ki.NEUTRALIZER)

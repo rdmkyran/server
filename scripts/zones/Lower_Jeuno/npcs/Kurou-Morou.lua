@@ -113,7 +113,7 @@ entity.onEventFinish = function(player, csid, option)
 
     elseif csid == 203 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13477)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.GARNET_RING)
         else
             player:addGil(xi.settings.main.GIL_RATE * 1200)
             player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 1200)

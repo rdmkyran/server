@@ -98,7 +98,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.SAVE_MY_SON)
         else
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13110)
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.BEAST_WHISTLE)
         end
     elseif csid == 132 then
         player:setCharVar("SaveMySon_Event", 0)
