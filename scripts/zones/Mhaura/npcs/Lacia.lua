@@ -57,14 +57,14 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1548) --Mini tuning fork
         else
             player:addQuest(xi.quest.log_id.OTHER_AREAS, xi.quest.id.otherAreas.TRIAL_SIZE_TRIAL_BY_LIGHTNING)
-            player:addItem(1548)
+            player:addItem(xi.items.MINI_TUNING_FORK_OF_LIGHTNING)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 1548)
         end
     elseif csid == 10029 and option == 1 then
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1548) --Mini tuning fork
         else
-            player:addItem(1548)
+            player:addItem(xi.items.MINI_TUNING_FORK_OF_LIGHTNING)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 1548)
         end
     elseif csid == 10026 and option == 1 then

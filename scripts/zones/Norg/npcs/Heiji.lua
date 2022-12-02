@@ -5,6 +5,7 @@
 -- !pos -1 -5 25 252
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/titles")
 require("scripts/globals/shop")
 require("scripts/globals/quests")
@@ -59,7 +60,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 125 then
         player:tradeComplete()
         player:addTitle(xi.title.LOOKS_SUBLIME_IN_A_SUBLIGAR)
-        player:addItem(4955) -- Scroll of Kurayami: Ichi
+        player:addItem(xi.items.SCROLL_OF_KURAYAMI_ICHI)
         player:messageSpecial(ID.text.ITEM_OBTAINED, 4955) -- Scroll of Kurayami: Ichi
         player:setCharVar("shiningSubligar_nb", 0)
         player:addFame(xi.quest.fame_area.NORG, 100)

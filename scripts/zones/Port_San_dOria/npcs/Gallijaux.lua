@@ -71,7 +71,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17386)
         else
             player:tradeComplete()
-            player:addItem(17386)
+            player:addItem(xi.items.LU_SHANGS_FISHING_ROD)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 17386)
             player:addTitle(xi.title.CARP_DIEM)
             player:addKeyItem(xi.ki.TESTIMONIAL)

@@ -242,7 +242,7 @@ for _, npcEntry in pairs(hourglassVendors) do
                 player:messageSpecial(zones[player:getZoneID()].text.ITEM_CANNOT_BE_OBTAINED, 4236)
             else
                 player:tradeComplete()
-                player:addItem(4236)
+                player:addItem(xi.items.TIMELESS_HOURGLASS)
                 player:messageSpecial(zones[player:getZoneID()].text.ITEM_OBTAINED, 4236)
             end
         elseif csid == eventId + 5 then -- Currency conversion to Singles

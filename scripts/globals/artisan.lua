@@ -89,7 +89,7 @@ xi.artisan.moogleOnFinish = function(player, csid, option)
 
     if option == 99 then -- Get Scroll
         if player:getCharVar("[artisan]nextScroll") < getMidnight() then
-            if player:addItem(4181) then
+            if player:addItem(xi.items.SCROLL_OF_INSTANT_WARP) then
                 player:messageSpecial(zone.text.ITEM_OBTAINED, 4181)
                 player:setCharVar("[artisan]nextScroll", getMidnight())
             else

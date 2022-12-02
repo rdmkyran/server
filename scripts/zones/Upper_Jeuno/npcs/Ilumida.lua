@@ -66,7 +66,7 @@ entity.onEventFinish = function(player, csid, option)
             player:delKeyItem(xi.ki.MOONDROP)
             player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 3000)
             -- TODO: Actually add Gil?
-            player:addItem(4882)
+            player:addItem(xi.items.SCROLL_OF_SLEEPGA_II)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4882)
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.SEARCHING_FOR_THE_RIGHT_WORDS)

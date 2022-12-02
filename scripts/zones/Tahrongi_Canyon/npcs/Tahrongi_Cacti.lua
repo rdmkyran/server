@@ -5,6 +5,7 @@
 -- !pos -308.721 7.477 264.454
 -----------------------------------
 local ID = require("scripts/zones/Tahrongi_Canyon/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 -----------------------------------
 local entity = {}
@@ -15,7 +16,7 @@ entity.onTrigger = function(player, npc)
         player:getCharVar("FLOWER_PROGRESS") == 3
     then
         if player:getFreeSlotsCount() > 0 and not player:hasItem(950) then
-            player:addItem(950) -- Tahrongi Cactus
+            player:addItem(xi.items.TAHRONGI_CACTUS)
             player:messageSpecial(ID.text.BUD_BREAKS_OFF, 0, 950)
         else
             player:messageSpecial(ID.text.CANT_TAKE_ANY_MORE)

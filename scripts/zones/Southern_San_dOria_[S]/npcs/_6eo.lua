@@ -31,7 +31,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 751)
         else
             player:completeQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.KNOT_QUITE_THERE)
-            player:addItem(751)
+            player:addItem(xi.items.PLATINUM_BEASTCOIN)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 751) --Platinum Beastcoin
             player:setCharVar("KnotQuiteThere", 0)
         end

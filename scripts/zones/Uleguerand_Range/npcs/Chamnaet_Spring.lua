@@ -17,7 +17,7 @@ entity.onTrade = function(player, npc, trade)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1780) -- Chamnaet Ice
         else
             player:tradeComplete()
-            player:addItem(1780)
+            player:addItem(xi.items.HANDFUL_OF_CHAMNAET_ICE)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 1780) -- Chamnaet Ice
         end
     end

@@ -51,7 +51,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4370) -- Cannot give Honey because player Inventory is full
         else
             player:addQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.TO_BEE_OR_NOT_TO_BEE)
-            player:addItem(4370)
+            player:addItem(xi.items.POT_OF_HONEY)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4370) -- Gives player Honey x1
         end
     elseif csid == 80 then -- After Honey#5: ToBee quest Finish (tooth hurts from all the Honey)

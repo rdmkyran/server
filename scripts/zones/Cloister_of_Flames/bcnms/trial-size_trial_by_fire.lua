@@ -3,6 +3,7 @@
 -- BCNM: Trial-size Trial by Fire
 -----------------------------------
 local ID = require("scripts/zones/Cloister_of_Flames/IDs")
+require("scripts/globals/items")
 require("scripts/globals/battlefield")
 require("scripts/globals/quests")
 -----------------------------------
@@ -39,7 +40,7 @@ battlefieldObject.onEventFinish = function(player, csid, option)
         end
 
         if not player:hasItem(4181) then
-            player:addItem(4181) -- Scroll of instant warp
+            player:addItem(xi.items.SCROLL_OF_INSTANT_WARP)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4181)
         end
 

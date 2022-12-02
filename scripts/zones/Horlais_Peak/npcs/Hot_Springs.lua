@@ -28,7 +28,7 @@ end
 entity.onEventFinish = function(player, csid, option)
     if csid == 2 then
         player:tradeComplete()
-        player:addItem(4949) -- Scroll of Jubaku: Ichi
+        player:addItem(xi.items.SCROLL_OF_JUBAKU_ICHI)
         player:messageSpecial(ID.text.ITEM_OBTAINED, 4949)
         player:addFame(xi.quest.fame_area.NORG, 75)
         player:addTitle(xi.title.CRACKER_OF_THE_SECRET_CODE)

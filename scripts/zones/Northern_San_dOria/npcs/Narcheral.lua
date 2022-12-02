@@ -63,7 +63,7 @@ entity.onEventFinish = function(player, csid, option)
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17422)
         else
-            player:addItem(17422)
+            player:addItem(xi.items.BLESSED_HAMMER)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 17422) -- Blessed Hammer
             player:tradeComplete()
             player:addFame(xi.quest.fame_area.SANDORIA, 20)
@@ -73,7 +73,7 @@ entity.onEventFinish = function(player, csid, option)
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14091) -- Healer's Duckbills
         else
-            player:addItem(14091)
+            player:addItem(xi.items.HEALERS_DUCKBILLS)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 14091) -- Healer's Duckbills
             player:tradeComplete()
             player:addFame(xi.quest.fame_area.SANDORIA, 40)
@@ -85,7 +85,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:addTitle(xi.title.PARAGON_OF_WHITE_MAGE_EXCELLENCE)
             player:setCharVar("pieujesDecisionCS", 0)
-            player:addItem(12640)
+            player:addItem(xi.items.HEALERS_BRIAULT)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 12640) -- Healer's Briault
             player:tradeComplete()
             player:addFame(xi.quest.fame_area.SANDORIA, 60)

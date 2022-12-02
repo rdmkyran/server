@@ -5,6 +5,7 @@
 -- !pos 58.249 -13.086 -49.084 250
 -----------------------------------
 local ID = require("scripts/zones/Kazham/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 -----------------------------------
 local entity = {}
@@ -42,7 +43,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13247)
         else
             player:completeQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.PERSONAL_HYGIENE)
-            player:addItem(13247) -- Mithran Stone
+            player:addItem(xi.items.MITHRAN_STONE)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 13247)
         end
     end

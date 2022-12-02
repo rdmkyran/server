@@ -14,7 +14,7 @@ entity.onTrade = function(player, npc, trade)
 
     if tradeCount > 0 and tradeCount == trade:getItemCount() then
         if walahraCoinCount + tradeCount >= 1000 then -- give player turban, donated over 1000
-            if player:addItem(15270) then
+            if player:addItem(xi.items.WALAHRA_TURBAN) then
                 player:setCharVar("walahraCoinCount", walahraCoinCount - (1000 - tradeCount))
                 player:tradeComplete()
                 player:messageSpecial(ID.text.ITEM_OBTAINED, 15270)
@@ -26,7 +26,7 @@ entity.onTrade = function(player, npc, trade)
             if tradeCount >= 100 then -- give bonus walahra water - only one water per trade, regardless of the amount.
                 player:tradeComplete()
                 player:setCharVar("walahraCoinCount", walahraCoinCount + tradeCount)
-                player:addItem(5354)
+                player:addItem(xi.items.FLASK_OF_WALAHRA_WATER)
                 player:messageSpecial(ID.text.ITEM_OBTAINED, 5354)
                 player:startEvent(102, 2184, 0, tradeCount)
             else

@@ -4,6 +4,7 @@
 -- Starts and Ends Quest: It's Not Your Vault
 -----------------------------------
 local ID = require("scripts/zones/Norg/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")
 require("scripts/globals/quests")
@@ -107,7 +108,7 @@ entity.onEventFinish = function(player, csid, option, npc)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4961)
         else
             player:delKeyItem(xi.ki.SEALED_IRON_BOX)
-            player:addItem(4961) -- Scroll of Tonko: Ichi
+            player:addItem(xi.items.SCROLL_OF_TONKO_ICHI)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4961)
             player:addFame(xi.quest.fame_area.NORG, 50)
             player:completeQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.ITS_NOT_YOUR_VAULT)

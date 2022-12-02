@@ -3,6 +3,7 @@
 -- nebimonite_belt
 -----------------------------------
 require("scripts/globals/msg")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
@@ -16,7 +17,7 @@ itemObject.onItemCheck = function(target)
 end
 
 itemObject.onItemUse = function(target)
-    target:addItem(4361) -- nebimonite
+    target:addItem(xi.items.NEBIMONITE)
 end
 
 return itemObject

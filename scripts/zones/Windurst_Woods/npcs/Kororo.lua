@@ -67,7 +67,7 @@ entity.onEventFinish = function(player, csid, option)
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13330) -- Tourmaline Earring
         else
-            player:addItem(13330)
+            player:addItem(xi.items.TOURMALINE_EARRING)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 13330) -- Tourmaline Earring
             player:addFame(xi.quest.fame_area.WINDURST, 30)
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.A_GREETING_CARDIAN)

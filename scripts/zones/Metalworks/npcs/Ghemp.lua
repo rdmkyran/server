@@ -85,7 +85,7 @@ entity.onEventFinish = function(player, csid, option)
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4096)
         else
-            player:addItem(4096)
+            player:addItem(xi.items.FIRE_CRYSTAL)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4096) -- Fire Crystal
             xi.crafting.signupGuild(player, xi.crafting.guild.smithing)
         end

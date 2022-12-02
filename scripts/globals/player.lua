@@ -140,7 +140,7 @@ xi.player.charCreate = function(player)
         player:setGil(xi.settings.main.START_GIL)
     end
 
-    player:addItem(536) -- adventurer coupon
+    player:addItem(xi.items.ADVENTURER_COUPON)
     player:addTitle(xi.title.NEW_ADVENTURER)
     player:setCharVar("HQuest[moghouseExpo]notSeen", 1) -- needs Moghouse intro
     player:setCharVar("spokeKindlix", 1) -- Kindlix introduction

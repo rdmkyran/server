@@ -117,7 +117,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:addGil(xi.settings.main.GIL_RATE * 1200)
             player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 1200)
-            player:addItem(13477)
+            player:addItem(xi.items.GARNET_RING)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 13477)
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:tradeComplete()

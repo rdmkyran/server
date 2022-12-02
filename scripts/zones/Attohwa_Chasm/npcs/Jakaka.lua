@@ -51,7 +51,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1777) -- Flaxen Pouch
             return
         else
-            player:addItem(1777)
+            player:addItem(xi.items.FLAXEN_POUCH)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 1777) -- Flaxen Pouch
         end
     end

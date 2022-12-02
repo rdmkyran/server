@@ -116,7 +116,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14227)
         else
             player:delKeyItem(xi.ki.RANCHURIOMES_LEGACY)
-            player:addItem(14227)
+            player:addItem(xi.items.DRACHEN_BRAIS)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 14227) -- Drachen Brais
             player:addFame(xi.quest.fame_area.SANDORIA, 40)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.CHASING_QUOTAS)

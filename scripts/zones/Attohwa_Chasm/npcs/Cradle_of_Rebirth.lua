@@ -14,7 +14,7 @@ entity.onTrade = function(player, npc, trade)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1778) -- Parradamo Stones
         else
             player:tradeComplete()
-            player:addItem(1778)
+            player:addItem(xi.items.POUCH_OF_PARRADAMO_STONES)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 1778) -- Parradamo Stones
         end
     end

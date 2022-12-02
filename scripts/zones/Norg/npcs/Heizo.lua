@@ -5,6 +5,7 @@
 -- !pos -1 -5 25 252
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/titles")
 require("scripts/globals/shop")
 require("scripts/globals/quests")
@@ -58,7 +59,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.LIKE_A_SHINING_LEGGINGS)
     elseif csid == 129 then
         player:tradeComplete()
-        player:addItem(4958) -- Scroll of Dokumori: Ichi
+        player:addItem(xi.items.SCROLL_OF_DOKUMORI_ICHI)
         player:messageSpecial(ID.text.ITEM_OBTAINED, 4958) -- Scroll of Dokumori: Ichi
         player:addFame(xi.quest.fame_area.NORG, 100)
         player:addTitle(xi.title.LOOKS_GOOD_IN_LEGGINGS)

@@ -88,7 +88,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 163 then
         if player:getFreeSlotsCount(0) >= 1 then
             player:addTitle(xi.title.LIFE_SAVER)
-            player:addItem(13110)
+            player:addItem(xi.items.BEAST_WHISTLE)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 13110)
             player:addGil(xi.settings.main.GIL_RATE * 2100)
             player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 2100)

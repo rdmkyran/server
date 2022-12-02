@@ -71,7 +71,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("corAfSubmitDay", vanaDay())
     elseif csid == 756 then
         player:setCharVar("LeleroonsLetterRed", 5)
-        player:addItem(14522) -- corsair's frac
+        player:addItem(xi.items.CORSAIRS_FRAC)
         player:messageSpecial(ID.text.ITEM_OBTAINED, 14522)
     end
 end

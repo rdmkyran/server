@@ -82,7 +82,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13186)
         else
             player:addTitle(xi.title.BLACK_BELT)
-            player:addItem(13186)
+            player:addItem(xi.items.BLACK_BELT)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 13186)
             player:setCharVar("BeatAroundTheBushin", 0)
             player:addFame(xi.quest.fame_area.NORG, 125)

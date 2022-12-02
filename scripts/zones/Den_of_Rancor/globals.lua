@@ -2,6 +2,7 @@
 -- Desc: this file contains functions that are shared by multiple luas in this zone's directory
 -----------------------------------
 local ID = require("scripts/zones/Den_of_Rancor/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/settings")
 require("scripts/globals/status")
@@ -18,7 +19,7 @@ local denOfRancorGlobal =
                 player:messageSpecial(ID.text.LANTERN_OFFSET + 7) -- already lit
             else
                 player:confirmTrade()
-                player:addItem(1138) -- return unlit lantern
+                player:addItem(xi.items.UNLIT_LANTERN)
 
                 npc:openDoor(xi.settings.main.LANTERNS_STAY_LIT) -- light lantern
 
@@ -51,7 +52,7 @@ local denOfRancorGlobal =
                 player:messageSpecial(ID.text.LANTERN_OFFSET + 7) -- already lit
             else
                 player:confirmTrade()
-                player:addItem(1138) -- return unlit lantern
+                player:addItem(xi.items.UNLIT_LANTERN)
 
                 npc:openDoor(xi.settings.main.LANTERNS_STAY_LIT) -- light lantern
 
@@ -85,7 +86,7 @@ local denOfRancorGlobal =
                 player:messageSpecial(ID.text.LANTERN_OFFSET + 7) -- already lit
             else
                 player:confirmTrade()
-                player:addItem(1138) -- return unlit lantern
+                player:addItem(xi.items.UNLIT_LANTERN)
 
                 npc:openDoor(xi.settings.main.LANTERNS_STAY_LIT) -- light lantern
 

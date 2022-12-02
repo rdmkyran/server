@@ -80,7 +80,7 @@ entity.onEventFinish = function(player, csid, option, npc)
             player:tradeComplete()
             player:addFame(xi.quest.fame_area.WINDURST, 75)
             player:completeQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.THE_OPO_OPO_AND_I)
-            player:addItem(13870)   -- opo opo crown
+            player:addItem(xi.items.OPO_OPO_CROWN)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 13870)
             player:addItem(4468, 3)  -- 3 pamamas
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4468, 3)

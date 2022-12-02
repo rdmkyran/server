@@ -74,7 +74,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("corAfSubmitDay", vanaDay())
     elseif csid == 944 then
         player:setCharVar("LeleroonsletterGreen", 5)
-        player:addItem(14929) -- corsair's gants
+        player:addItem(xi.items.CORSAIRS_GANTS)
         player:messageSpecial(ID.text.ITEM_OBTAINED, 14929)
     end
 end

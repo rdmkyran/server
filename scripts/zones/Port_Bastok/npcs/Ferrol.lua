@@ -57,14 +57,14 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1547) --Mini tuning fork
         else
             player:addQuest(xi.quest.log_id.BASTOK, xi.quest.id.bastok.TRIAL_SIZE_TRIAL_BY_EARTH)
-            player:addItem(1547)
+            player:addItem(xi.items.MINI_TUNING_FORK_OF_EARTH)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 1547)
         end
     elseif csid == 301 and option == 1 then
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1547) --Mini tuning fork
         else
-            player:addItem(1547)
+            player:addItem(xi.items.MINI_TUNING_FORK_OF_EARTH)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 1547)
         end
     elseif csid == 298 and option == 1 then

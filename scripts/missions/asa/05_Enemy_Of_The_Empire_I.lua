@@ -253,7 +253,7 @@ mission.sections =
                     if mission:getVar(player, 'AndrauseBuy') == 1 and player:getGil() > 800 then
                         player:delGil(800)
                         if not player:hasItem(18721) then
-                            player:addItem(18721)
+                            player:addItem(xi.items.SOULTRAPPER)
                             player:messageSpecial(norgID.text.ITEM_OBTAINED, 18721) -- Soultrapper
                         end
 

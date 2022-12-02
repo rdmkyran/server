@@ -48,7 +48,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:tradeComplete()
             player:delKeyItem(xi.ki.NEUTRALIZER)
-            player:addItem(16706)
+            player:addItem(xi.items.HEAVY_AXE)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 16706) -- Heavy Axe
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.TROUBLE_AT_THE_SLUICE)

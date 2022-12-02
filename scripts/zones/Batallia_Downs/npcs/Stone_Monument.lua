@@ -16,7 +16,7 @@ end
 entity.onTrade = function(player, npc, trade)
     if trade:getItemCount() == 1 and trade:hasItemQty(xi.items.LUMP_OF_SELBINA_CLAY, 1) then
         player:tradeComplete()
-        player:addItem(570)
+        player:addItem(xi.items.CLAY_TABLET)
         player:messageSpecial(ID.text.ITEM_OBTAINED, 570)
         player:setCharVar("anExplorer-CurrentTablet", 0x10000)
     end

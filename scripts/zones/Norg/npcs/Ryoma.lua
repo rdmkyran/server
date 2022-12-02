@@ -78,8 +78,8 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17771)
         else
             player:delKeyItem(xi.ki.TRICK_BOX)
-            player:addItem(17771)
-            player:addItem(17772)
+            player:addItem(xi.items.ANJU)
+            player:addItem(xi.items.ZUSHIO)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 17771) -- Anju
             player:messageSpecial(ID.text.ITEM_OBTAINED, 17772) -- Zushio
             player:needToZone()

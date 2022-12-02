@@ -63,7 +63,7 @@ entity.onEventFinish = function(player, csid, option)
     local freeSlots = player:getFreeSlotsCount()
     if csid == 509 and option == 0 then
         if freeSlots ~= 0 then
-            player:addItem(593)
+            player:addItem(xi.items.PARCEL_FOR_THE_MAGIC_SHOP)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 593)
             player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_BRUGAIRE_CONSORTIUM)
             player:setCharVar("TheBrugaireConsortium-Parcels", 10)
@@ -72,7 +72,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 511 then
         if freeSlots ~= 0 then
-            player:addItem(594)
+            player:addItem(xi.items.PARCEL_FOR_THE_AUCTION_HOUSE)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 594)
             player:setCharVar("TheBrugaireConsortium-Parcels", 20)
         else
@@ -80,7 +80,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 512 then
         if freeSlots ~= 0 then
-            player:addItem(595)
+            player:addItem(xi.items.PARCEL_FOR_THE_PUB)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 595)
             player:setCharVar("TheBrugaireConsortium-Parcels", 30)
         else
@@ -90,7 +90,7 @@ entity.onEventFinish = function(player, csid, option)
         player:tradeComplete()
     elseif csid == 515 then
         if freeSlots ~= 0 then
-            player:addItem(12289)
+            player:addItem(xi.items.LAUAN_SHIELD)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 12289)
             player:addTitle(xi.title.COURIER_EXTRAORDINAIRE)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_BRUGAIRE_CONSORTIUM)

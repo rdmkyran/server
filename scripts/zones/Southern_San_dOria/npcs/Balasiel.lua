@@ -98,7 +98,7 @@ entity.onEventFinish = function(player, csid, option)
         if player:getFreeSlotsCount(0) >= 1 then
             player:tradeComplete()
             player:addTitle(xi.title.KNIGHT_IN_TRAINING)
-            player:addItem(16565)
+            player:addItem(xi.items.SPATHA)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 16565) -- Spatha
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_SQUIRE_S_TEST)
@@ -135,7 +135,7 @@ entity.onEventFinish = function(player, csid, option)
             player:delKeyItem(xi.ki.BOOK_OF_TASKS)
             player:delKeyItem(xi.ki.BOOK_OF_THE_WEST)
             player:delKeyItem(xi.ki.BOOK_OF_THE_EAST)
-            player:addItem(12306)
+            player:addItem(xi.items.KITE_SHIELD)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 12306) -- Kite Shield
             player:unlockJob(xi.job.PLD)
             player:messageSpecial(ID.text.UNLOCK_PALADIN)

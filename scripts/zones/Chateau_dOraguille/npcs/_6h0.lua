@@ -96,7 +96,7 @@ entity.onEventFinish = function(player, csid, option)
             end
 
             player:delKeyItem(xi.ki.KNIGHTS_BOOTS)
-            player:addItem(14095)
+            player:addItem(xi.items.GALLANT_LEGGINGS)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 14095) -- Gallant Leggings
             player:setCharVar("aBoysDreamCS", 0)
             player:addFame(xi.quest.fame_area.SANDORIA, 40)
@@ -109,7 +109,7 @@ entity.onEventFinish = function(player, csid, option)
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 12644)
         else
-            player:addItem(12644)
+            player:addItem(xi.items.GALLANT_SURCOAT)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 12644) -- Gallant Surcoat
             player:setCharVar("UnderOathCS", 9)
             player:addFame(xi.quest.fame_area.SANDORIA, 60)

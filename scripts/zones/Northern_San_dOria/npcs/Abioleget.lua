@@ -51,7 +51,7 @@ entity.onEventFinish = function(player, csid, option)
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13465)
         else
-            player:addItem(13465)
+            player:addItem(xi.items.BRASS_RING)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 13465)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:addTitle(xi.title.THE_BENEVOLENT_ONE)
@@ -61,7 +61,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 589 then
         player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_VICASQUE_S_SERMON)
     elseif csid == 591 then
-        player:addItem(618)
+        player:addItem(xi.items.BLUE_PEAS)
         player:messageSpecial(ID.text.ITEM_OBTAINED, 618)
     end
 end

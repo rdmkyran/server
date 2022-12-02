@@ -46,7 +46,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("BeautyAndTheGalkaDenied", 0)
             player:delKeyItem(xi.ki.PALBOROUGH_MINES_LOGS)
             player:addFame(xi.quest.fame_area.BASTOK, 75)
-            player:addItem(16465)
+            player:addItem(xi.items.BRONZE_KNIFE)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 16465)
         else
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 16465)

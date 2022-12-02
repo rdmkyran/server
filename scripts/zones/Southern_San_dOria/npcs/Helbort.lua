@@ -46,7 +46,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:addTitle(xi.title.ARMS_TRADER)
             player:delKeyItem(xi.ki.WEAPONS_RECEIPT)
-            player:addItem(17090)
+            player:addItem(xi.items.ELM_STAFF)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 17090) -- Elm Staff
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_PURCHASE_OF_ARMS)

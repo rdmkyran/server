@@ -83,7 +83,7 @@ entity.onEventFinish = function(player, csid, option)
         player:messageSpecial(ID.text.KEYITEM_OBTAINED, xi.ki.MOON_RING)
     elseif csid == 96 then
         if player:getFreeSlotsCount() ~= 0 then
-            player:addItem(12647)
+            player:addItem(xi.items.CHORAL_JUSTAUCORPS)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 12647)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_CIRCLE_OF_TIME)
             player:addTitle(xi.title.PARAGON_OF_BARD_EXCELLENCE)

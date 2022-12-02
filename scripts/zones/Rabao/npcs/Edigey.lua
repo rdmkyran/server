@@ -51,7 +51,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("DontForgetAntidoteVar", 0)
         player:tradeComplete()
         player:addTitle(xi.title.DESERT_HUNTER)
-        player:addItem(16974) -- Dotanuki
+        player:addItem(xi.items.DOTANUKI)
         player:messageSpecial(ID.text.ITEM_OBTAINED, 16974)
         player:completeQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.DONT_FORGET_THE_ANTIDOTE)
         player:addFame(xi.quest.fame_area.SELBINA_RABAO, 60)

@@ -116,7 +116,7 @@ entity.onEventFinish = function(player, csid, option)
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14098)
         else
-            player:addItem(14098)
+            player:addItem(xi.items.CHORAL_SLIPPERS)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 14098) -- Choral Slippers
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_REQUIEM)

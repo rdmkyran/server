@@ -102,7 +102,7 @@ entity.onEventFinish = function(player, csid, option)
         player:setCharVar("ClassReunionProgress", 3)
     elseif csid == 410 then
         if player:getFreeSlotsCount() ~= 0 then
-            player:addItem(14228)
+            player:addItem(xi.items.EVOKERS_SPATS)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 14228)
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.CLASS_REUNION)
             player:setCharVar("ClassReunionProgress", 0)
@@ -121,7 +121,7 @@ entity.onEventFinish = function(player, csid, option)
         player:messageSpecial(ID.text.KEYITEM_OBTAINED, xi.ki.DAZE_BREAKER_CHARM)
     elseif csid == 419 then
         if player:getFreeSlotsCount() ~= 0 then
-            player:addItem(12520) -- Evoker's Horn
+            player:addItem(xi.items.EVOKERS_HORN)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 12520)
             player:addTitle(xi.title.PARAGON_OF_SUMMONER_EXCELLENCE)
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.CARBUNCLE_DEBACLE)

@@ -66,7 +66,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 520 then -- First completion, Iron Sword awarded.
         if player:getFreeSlotsCount() > 0 then
             player:tradeComplete()
-            player:addItem(16536)
+            player:addItem(xi.items.IRON_SWORD)
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.SAY_IT_WITH_FLOWERS)
             player:addFame(xi.quest.fame_area.WINDURST, 30)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 16536)

@@ -127,7 +127,7 @@ entity.onEventFinish = function(player, csid, option)
         end
     elseif csid == 10022 or csid == 10023 then
         if player:getFreeSlotsCount() ~= 0 then
-            player:addItem(1172)
+            player:addItem(xi.items.LIGHTNING_PENDULUM)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 1172)
             player:setCharVar("CarbuncleDebacleProgress", 3)
         else

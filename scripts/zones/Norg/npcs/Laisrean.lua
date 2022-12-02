@@ -5,6 +5,7 @@
 -- !pos -2.251 -1 21.654 252
 -----------------------------------
 require("scripts/globals/titles")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")
 require("scripts/globals/quests")
@@ -47,7 +48,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4946)
         else
             player:delKeyItem(xi.ki.SEA_SERPENT_STATUE)
-            player:addItem(4946) -- Scroll of Utsusemi: Ichi
+            player:addItem(xi.items.SCROLL_OF_UTSUSEMI_ICHI)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4946)
             player:addTitle(xi.title.TREASURE_HOUSE_RANSACKER)
             player:addFame(xi.quest.fame_area.NORG, 75)

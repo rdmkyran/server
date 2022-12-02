@@ -67,7 +67,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:tradeComplete()
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.WONDERING_MINSTREL)
-            player:addItem(17349)
+            player:addItem(xi.items.FAERIE_PICCOLO)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 17349)
             player:addFame(xi.quest.fame_area.WINDURST, 75)
             player:addTitle(xi.title.DOWN_PIPER_PIPE_UPPERER)

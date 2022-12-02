@@ -73,7 +73,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4730)
         else
             player:addTitle(xi.title.PILGRIM_TO_HOLLA)
-            player:addItem(4730)
+            player:addItem(xi.items.SCROLL_OF_TELEPORT_HOLLA)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4730) -- Scroll of Teleport-Holla
             player:needToZone(true)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
@@ -86,7 +86,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4747)
         else
             player:delKeyItem(xi.ki.FEIYIN_MAGIC_TOME)
-            player:addItem(4747)
+            player:addItem(xi.items.SCROLL_OF_TELEPORT_VAHZL)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4747) -- Scroll of Teleport-Vahzl
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.SORCERY_OF_THE_NORTH)

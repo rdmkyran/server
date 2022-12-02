@@ -91,7 +91,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("CooksPrideVar", 0)
             player:addGil(xi.settings.main.GIL_RATE * 3000)
             player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 3000)
-            player:addItem(13446)
+            player:addItem(xi.items.MYTHRIL_RING)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 13446) -- Mythril Ring
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.COOK_S_PRIDE)

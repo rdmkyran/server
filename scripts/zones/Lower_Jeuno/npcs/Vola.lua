@@ -67,7 +67,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13202)
         else
             player:addTitle(xi.title.BROWN_BELT)
-            player:addItem(13202)
+            player:addItem(xi.items.BROWN_BELT)
             player:messageSpecial(ID.text.ITEM_OBTAINED, 13202)
             player:addFame(xi.quest.fame_area.NORG, 125)
             player:tradeComplete()
