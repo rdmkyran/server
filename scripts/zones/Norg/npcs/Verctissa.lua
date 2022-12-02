@@ -35,7 +35,7 @@ entity.onTrigger = function(player, npc)
         --Requires player to be Summoner at least lvl 20
         player:startEvent(199, 0, 1549, 2, 20)     --mini tuning fork of water, zone, level
     elseif trialSizeWater == QUEST_ACCEPTED then
-        local waterFork = player:hasItem(1549)
+        local waterFork = player:hasItem(xi.items.MINI_TUNING_FORK_OF_WATER)
 
         if waterFork then
             player:startEvent(111) --Dialogue given to remind player to be prepared

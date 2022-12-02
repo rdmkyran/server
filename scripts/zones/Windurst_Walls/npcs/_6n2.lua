@@ -27,7 +27,7 @@ entity.onTrigger = function(player, npc)
     if
         iCanHearARainbow == QUEST_AVAILABLE and
         player:getMainLvl() >= 30 and
-        player:hasItem(1125)
+        player:hasItem(xi.items.CARBUNCLES_RUBY)
     then
         player:startEvent(384, 1125, 1125, 1125, 1125, 1125, 1125, 1125, 1125)
     elseif iCanHearARainbow == QUEST_ACCEPTED then

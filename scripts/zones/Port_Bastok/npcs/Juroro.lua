@@ -35,19 +35,19 @@ entity.onTrigger = function(player, npc)
     elseif trialByEarth == QUEST_ACCEPTED and hasWhisperOfTremors then
         local numitem = 0
 
-        if player:hasItem(17438) then
+        if player:hasItem(xi.items.TITANS_CUDGEL) then
             numitem = numitem + 1
         end  -- Titan's Cudgel
 
-        if player:hasItem(13244) then
+        if player:hasItem(xi.items.EARTH_BELT) then
             numitem = numitem + 2
         end  -- Earth Belt
 
-        if player:hasItem(13563) then
+        if player:hasItem(xi.items.EARTH_RING) then
             numitem = numitem + 4
         end  -- Earth Ring
 
-        if player:hasItem(1205) then
+        if player:hasItem(xi.items.DOSE_OF_DESERT_LIGHT) then
             numitem = numitem + 8
         end   -- Desert Light
 

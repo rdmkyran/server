@@ -36,7 +36,7 @@ entity.onTrigger = function(player, npc)
     local indomitableTimer = player:getCharVar("IndomitableSpiritTimer")
 
     if
-        player:hasItem(489) and
+        player:hasItem(xi.items.BROKEN_LU_SHANGS_FISHING_ROD) and
         (ImmortalLuShang == QUEST_AVAILABLE or ImmortalLuShang == QUEST_COMPLETED)
     then
         player:startEvent(77) --Offer the quest if the player has the broken rod

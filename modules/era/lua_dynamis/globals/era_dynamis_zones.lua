@@ -177,7 +177,7 @@ for _, npcEntry in pairs(hourglassVendors) do
         local eventId = npcEntry[5]
         if player:hasKeyItem(xi.ki.VIAL_OF_SHROUDED_SAND) then
             -- buy timeless hourglass
-            if (gil == xi.settings.main.TIMELESS_HOURGLASS_COST and count == 1 and not player:hasItem(4236)) then
+            if (gil == xi.settings.main.TIMELESS_HOURGLASS_COST and count == 1 and not player:hasItem(xi.items.TIMELESS_HOURGLASS)) then
                 player:startEvent(eventId + 4)
             -- currency exchanges
             elseif (count == xi.settings.main.CURRENCY_EXCHANGE_RATE and trade:hasItemQty(npcEntry[3][1], xi.settings.main.CURRENCY_EXCHANGE_RATE)) then

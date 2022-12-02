@@ -236,7 +236,7 @@ mission.sections =
                 [237] = function(player, csid, option, npc)
                     if mission:getVar(player, 'AndrauseBuy') == 1 and player:getGil() > 800 then
                         player:delGil(800)
-                        if not player:hasItem(18721) then
+                        if not player:hasItem(xi.items.SOULTRAPPER) then
                             npcUtil.giveItem(player, 18721)
                         end
 
@@ -252,7 +252,7 @@ mission.sections =
                 [238] = function(player, csid, option, npc)
                     if mission:getVar(player, 'AndrauseBuy') == 1 and player:getGil() > 800 then
                         player:delGil(800)
-                        if not player:hasItem(18721) then
+                        if not player:hasItem(xi.items.SOULTRAPPER) then
                             player:addItem(xi.items.SOULTRAPPER)
                             player:messageSpecial(norgID.text.ITEM_OBTAINED, 18721) -- Soultrapper
                         end

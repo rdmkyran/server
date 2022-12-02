@@ -295,8 +295,8 @@ function xi.events.starlightCelebration.tokenMoogleOnFinish(player, id, csid, op
         end
 
     elseif (csid == 32705 and option == 1) then
-        local hasNQ = player:hasItem(18863)
-        local hasHQ = player:hasItem(18864)
+        local hasNQ = player:hasItem(xi.items.DREAM_BELL)
+        local hasHQ = player:hasItem(xi.items.DREAM_BELL_P1)
         local invAvailable = player:getFreeSlotsCount()
 
         if invAvailable ~= 0 then
@@ -327,7 +327,7 @@ function xi.events.starlightCelebration.smileBringerSergeantOnTrigger(player, np
     local completedDay = player:getCharVar("[SmileBootCamp]Completed")
     local currentDay = VanadielUniqueDay()
     local gil = player:getGil()
-    local hasTree = player:hasItem(138)
+    local hasTree = player:hasItem(xi.items.JEUNOAN_TREE)
     local recordHolderID = npc:getLocalVar("recordHolderID")
     local recordHolderName = ""
     local recordTime = 0
@@ -386,7 +386,7 @@ function xi.events.starlightCelebration.smileBringerSergeantOnFinish(player, npc
         player:setLocalVar("playerBCCP", 1)
         xi.events.starlightCelebration.toggleSmileHelpers(zoneid)
     elseif csid == 7005 then
-        local hasItem = player:hasItem(138)
+        local hasItem = player:hasItem(xi.items.JEUNOAN_TREE)
         if hasItem == true then
             player:resetLocalVars()
             player:setCharVar("[SmileBootCamp]Completed", VanadielUniqueDay())
@@ -673,10 +673,10 @@ end
 
 function xi.events.starlightCelebration.merryMakersMoogleOnFinish(player, id, csid, option)
     if csid == 4702 then
-        local dreamPants = player:hasItem(11967)
-        local dreamTrousers = player:hasItem(11965)
-        local dreamPantsHQ = player:hasItem(11968)
-        local dreamTrousersHQ = player:hasItem(11966)
+        local dreamPants = player:hasItem(xi.items.DREAM_PANTS)
+        local dreamTrousers = player:hasItem(xi.items.DREAM_TROUSERS)
+        local dreamPantsHQ = player:hasItem(xi.items.DREAM_PANTS_P1)
+        local dreamTrousersHQ = player:hasItem(xi.items.DREAM_TROUSERS_P1)
         local starToken = player:hasKeyItem(xi.keyItem.STAR_THEMED_GIFT_TOKEN)
 
         local gender = player:getGender()

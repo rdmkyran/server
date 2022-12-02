@@ -34,7 +34,7 @@ entity.onTrigger = function(player, npc)
     then --Requires player to be Summoner at least lvl 20
         player:startEvent(286, 0, 1544, 0, 20)     --mini tuning fork, zone, level
     elseif trialSizeFire == QUEST_ACCEPTED then
-        local hasFireFork = player:hasItem(1544)
+        local hasFireFork = player:hasItem(xi.items.MINI_TUNING_FORK_OF_FIRE)
 
         if hasFireFork then
             player:startEvent(272) --Dialogue given to remind player to be prepared

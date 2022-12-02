@@ -42,7 +42,7 @@ local trustMemory = function(player)
         memories = memories + 16
     end
 
-    -- 32 - hasItem(286) Nanaa Mihgo statue
+    -- 32 - hasItem(xi.items.NANAA_MIHGO_STATUE) Nanaa Mihgo statue
     if player:hasItem(xi.items.NANAA_MIHGO_STATUE) then
         memories = memories + 32
     end

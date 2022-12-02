@@ -29,7 +29,7 @@ entity.onTrigger = function(player, npc)
     elseif
         classReunion == 1 and
         classReunionProgress == 5 and
-        not player:hasItem(1171)
+        not player:hasItem(xi.items.ICE_PENDULUM)
     then
         player:startEvent(712, 0, 1171, 0, 0, 0, 0, 0, 0) -- lost the ice pendulum need another one
     -----------------------------------
@@ -55,19 +55,19 @@ entity.onTrigger = function(player, npc)
     then
         local numitem = 0
 
-        if player:hasItem(17492) then
+        if player:hasItem(xi.items.SHIVAS_CLAWS) then
             numitem = numitem + 1
         end  -- Shiva's Claws
 
-        if player:hasItem(13242) then
+        if player:hasItem(xi.items.ICE_BELT) then
             numitem = numitem + 2
         end  -- Ice Belt
 
-        if player:hasItem(13561) then
+        if player:hasItem(xi.items.ICE_RING) then
             numitem = numitem + 4
         end  -- Ice Ring
 
-        if player:hasItem(1207) then
+        if player:hasItem(xi.items.BOTTLE_OF_RUST_B_GONE) then
             numitem = numitem + 8
         end   -- Rust 'B' Gone
 

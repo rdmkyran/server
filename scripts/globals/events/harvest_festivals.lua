@@ -47,13 +47,13 @@ local function halloweenItemsCheck(player)
     -- Checks for HQ Upgrade
     for ri = 1, #reward_list do
         if headSlot == reward_list[ri] or mainHand == reward_list[ri] then
-            if headSlot == pumpkinHead and not player:hasItem(13917) then
+            if headSlot == pumpkinHead and not player:hasItem(xi.items.HORROR_HEAD) then
                 reward = 13917 -- Horror Head
-            elseif headSlot == pumpkinHead2 and not player:hasItem(15177) then
+            elseif headSlot == pumpkinHead2 and not player:hasItem(xi.items.HORROR_HEAD_II) then
                 reward = 15177 -- Horror Head II
-            elseif mainHand == trickStaff and not player:hasItem(17566) then
+            elseif mainHand == trickStaff and not player:hasItem(xi.items.TREAT_STAFF) then
                 reward =  17566 -- Treat Staff
-            elseif mainHand == trickStaff2 and not player:hasItem(17588) then
+            elseif mainHand == trickStaff2 and not player:hasItem(xi.items.TREAT_STAFF_II) then
                 reward = 17588 -- Treat Staff II
             end
 

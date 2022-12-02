@@ -30,7 +30,7 @@ entity.onTrigger = function(player, npc)
     then
         player:startEvent(86) -- get the wind pendulum, lets go to Cloister of Gales
     elseif carbuncleDebacle == QUEST_ACCEPTED and carbuncleDebacleProgress == 6 then
-        if not player:hasItem(1174) then
+        if not player:hasItem(xi.items.WIND_PENDULUM) then
             player:startEvent(87, 0, 1174, 0, 0, 0, 0, 0, 0) -- "lost the pendulum?" This one too~???
         else
             player:startEvent(88) -- reminder to go to Cloister of Gales
@@ -59,19 +59,19 @@ entity.onTrigger = function(player, npc)
     then
         local numitem = 0
 
-        if player:hasItem(17627) then
+        if player:hasItem(xi.items.GARUDAS_DAGGER) then
             numitem = numitem + 1
         end  -- Garuda's Dagger
 
-        if player:hasItem(13243) then
+        if player:hasItem(xi.items.WIND_BELT) then
             numitem = numitem + 2
         end  -- Wind Belt
 
-        if player:hasItem(13562) then
+        if player:hasItem(xi.items.WIND_RING) then
             numitem = numitem + 4
         end  -- Wind Ring
 
-        if player:hasItem(1202) then
+        if player:hasItem(xi.items.BOTTLE_OF_BUBBLY_WATER) then
             numitem = numitem + 8
         end   -- Bubbly Water
 

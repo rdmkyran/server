@@ -72,7 +72,7 @@ end
 entity.onTrigger = function(player, npc)
     local mamaMia = player:getQuestStatus(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.MAMA_MIA)
     local moonlitPath = player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_MOONLIT_PATH)
-    local evokersRing = player:hasItem(14625)
+    local evokersRing = player:hasItem(xi.items.EVOKERS_RING)
     local questday = player:getCharVar("MamaMia_date")
 
     if

@@ -37,19 +37,19 @@ entity.onTrigger = function(player, npc)
     elseif trialByWater == QUEST_ACCEPTED and hasWhisperOfTides then
         local numitem = 0
 
-        if player:hasItem(17439) then
+        if player:hasItem(xi.items.LEVIATHANS_ROD) then
             numitem = numitem + 1
         end  -- Leviathan's Rod
 
-        if player:hasItem(13246) then
+        if player:hasItem(xi.items.WATER_BELT) then
             numitem = numitem + 2
         end  -- Water Belt
 
-        if player:hasItem(13565) then
+        if player:hasItem(xi.items.WATER_RING) then
             numitem = numitem + 4
         end  -- Water Ring
 
-        if player:hasItem(1204) then
+        if player:hasItem(xi.items.EYE_OF_NEPT) then
             numitem = numitem + 8
         end   -- Eye of Nept
 

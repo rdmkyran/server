@@ -14,7 +14,7 @@ entity.onTrade = function(player, npc, trade)
     if
         player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_THREE_MAGI) == QUEST_ACCEPTED and
         npcUtil.tradeHas(trade, 613) and
-        not player:hasItem(1104) and
+        not player:hasItem(xi.items.GLOWSTONE) and
         npcUtil.popFromQM(player, npc, ID.mob.CHAOS_ELEMENTAL)
     then
         player:confirmTrade()

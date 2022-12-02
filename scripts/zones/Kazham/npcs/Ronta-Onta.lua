@@ -36,19 +36,19 @@ entity.onTrigger = function(player, npc)
     elseif trialByFire == QUEST_ACCEPTED and hasWhisperOfFlames then
         local numitem = 0
 
-        if player:hasItem(17665) then
+        if player:hasItem(xi.items.IFRITS_BLADE) then
             numitem = numitem + 1
         end  -- Ifrits Blade
 
-        if player:hasItem(13241) then
+        if player:hasItem(xi.items.FIRE_BELT) then
             numitem = numitem + 2
         end  -- Fire Belt
 
-        if player:hasItem(13560) then
+        if player:hasItem(xi.items.FIRE_RING) then
             numitem = numitem + 4
         end  -- Fire Ring
 
-        if player:hasItem(1203) then
+        if player:hasItem(xi.items.EGILS_TORCH) then
             numitem = numitem + 8
         end   -- Egil's Torch
 

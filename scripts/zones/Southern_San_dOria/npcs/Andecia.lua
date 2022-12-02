@@ -31,13 +31,13 @@ entity.onTrigger = function(player, npc)
         player:startEvent(541)
     elseif
         tomb == QUEST_ACCEPTED and
-        not player:hasItem(567) and
+        not player:hasItem(xi.items.SKIN_OF_WELL_WATER) and
         player:getCharVar("OfferingWaterOK") == 0
     then
         player:startEvent(622)
     elseif
         tomb == QUEST_ACCEPTED and
-        player:hasItem(547) and
+        player:hasItem(xi.items.TOMB_GUARDS_WATERSKIN) and
         player:getCharVar("OfferingWaterOK") == 0
     then
         player:startEvent(623)

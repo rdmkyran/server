@@ -34,7 +34,7 @@ entity.onTrigger = function(player, npc)
         --Requires player to be Summoner at least lvl 20
         player:startEvent(108, 0, 1546, 3, 20)     --mini tuning fork, zone, level
     elseif trialSizeWind == QUEST_ACCEPTED then
-        local windFork = player:hasItem(1546)
+        local windFork = player:hasItem(xi.items.MINI_TUNING_FORK_OF_WIND)
 
         if windFork then
             player:startEvent(68) -- Dialogue given to remind player to be prepared

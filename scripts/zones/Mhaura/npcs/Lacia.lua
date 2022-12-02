@@ -34,7 +34,7 @@ entity.onTrigger = function(player, npc)
         --Requires player to be Summoner at least lvl 20
         player:startEvent(10025, 0, 1548, 5, 20)     --mini tuning fork of lightning, zone, level
     elseif trialSizeLightning == QUEST_ACCEPTED then
-        local hasLightningFork = player:hasItem(1548)
+        local hasLightningFork = player:hasItem(xi.items.MINI_TUNING_FORK_OF_LIGHTNING)
 
         if hasLightningFork then
             player:startEvent(10018) --Dialogue given to remind player to be prepared

@@ -94,7 +94,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("saveTheClockTowerNPCz2", 0)
         end
     elseif csid == 230 and option == 30 then
-        if player:hasItem(555) then
+        if player:hasItem(xi.items.CLOCK_TOWER_PETITION) then
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CLOCK_TOWER_PETITION)
             player:setCharVar("saveTheClockTowerVar", 1)
             player:setCharVar("saveTheClockTowerNPCz1", 0)

@@ -30,7 +30,7 @@ entity.onTrigger = function(player, npc)
     elseif
         carbuncleDebacle == QUEST_ACCEPTED and
         carbuncleDebacleProgress == 3 and
-        not player:hasItem(1172)
+        not player:hasItem(xi.items.LIGHTNING_PENDULUM)
     then
         player:startEvent(10023, 0, 1172, 0, 0, 0, 0, 0, 0) -- "lost the pendulum?"
     -----------------------------------
@@ -51,19 +51,19 @@ entity.onTrigger = function(player, npc)
     elseif trialByLightning == QUEST_ACCEPTED and hasWhisperOfStorms then
         local numitem = 0
 
-        if player:hasItem(17531) then
+        if player:hasItem(xi.items.RAMUHS_STAFF) then
             numitem = numitem + 1
         end  -- Ramuh's Staff
 
-        if player:hasItem(13245) then
+        if player:hasItem(xi.items.LIGHTNING_BELT) then
             numitem = numitem + 2
         end  -- Lightning Belt
 
-        if player:hasItem(13564) then
+        if player:hasItem(xi.items.LIGHTNING_RING) then
             numitem = numitem + 4
         end  -- Lightning Ring
 
-        if player:hasItem(1206) then
+        if player:hasItem(xi.items.ELDER_BRANCH) then
             numitem = numitem + 8
         end   -- Elder Branch
 

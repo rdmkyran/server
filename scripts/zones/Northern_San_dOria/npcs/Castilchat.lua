@@ -35,7 +35,7 @@ entity.onTrigger = function(player, npc)
     then -- Requires player to be Summoner at least lvl 20
         player:startEvent(733, 0, 1545, 4, 20)     --mini tuning fork of ice, zone, level
     elseif trialSizeByIce == QUEST_ACCEPTED then
-        local iceFork = player:hasItem(1545)
+        local iceFork = player:hasItem(xi.items.MINI_TUNING_FORK_OF_ICE)
 
         if iceFork then
             player:startEvent(708) --Dialogue given to remind player to be prepared

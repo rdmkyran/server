@@ -21,7 +21,7 @@ end
 entity.onTrigger = function(player, npc)
     if
         player:getCharVar("peaceForTheSpiritCS") == 4 and
-        not player:hasItem(1094) and
+        not player:hasItem(xi.items.NAIL_PULLER) and
         not GetMobByID(ID.mob.GUARDIAN_STATUE):isSpawned()
     then -- Nail Puller
         player:messageSpecial(ID.text.SENSE_OF_FOREBODING)

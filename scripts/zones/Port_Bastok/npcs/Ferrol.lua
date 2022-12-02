@@ -34,7 +34,7 @@ entity.onTrigger = function(player, npc)
         -- Requires player to be Summoner at least lvl 20
         player:startEvent(297, 0, 1547, 1, 20)     --mini tuning fork, zone, level
     elseif trialSizeEarth == QUEST_ACCEPTED then
-        local earthFork = player:hasItem(1547)
+        local earthFork = player:hasItem(xi.items.MINI_TUNING_FORK_OF_EARTH)
 
         if earthFork then
             player:startEvent(251) -- Dialogue given to remind player to be prepared

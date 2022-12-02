@@ -39,7 +39,7 @@ battlefieldObject.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.TITAN_UNLOCKED, 0, 0, 1)
         end
 
-        if not player:hasItem(4181) then
+        if not player:hasItem(xi.items.SCROLL_OF_INSTANT_WARP) then
             player:addItem(xi.items.SCROLL_OF_INSTANT_WARP)
             player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SCROLL_OF_INSTANT_WARP)
         end
