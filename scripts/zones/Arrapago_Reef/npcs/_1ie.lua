@@ -4,6 +4,7 @@
 -- !pos 580 -17 120
 -----------------------------------
 local ID = require("scripts/zones/Arrapago_Reef/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/status")
 -----------------------------------
@@ -15,7 +16,7 @@ entity.onTrade = function(player, npc, trade)
             npc:openDoor()
             player:messageSpecial(ID.text.KEY_BREAKS, 2219)
             player:confirmTrade()
-        elseif npcUtil.tradeHas(trade, 1022) and player:getMainJob() == xi.job.THF then -- thief's tools
+        elseif npcUtil.tradeHas(trade, xi.items.SET_OF_THIEFS_TOOLS) and player:getMainJob() == xi.job.THF then
             if math.random(1, 2) == 1 then -- TODO: figure out actual percentage chance to pick locks; 50% for now
                 player:messageSpecial(ID.text.LOCK_SUCCESS, 1022)
                 npc:openDoor()
@@ -24,7 +25,7 @@ entity.onTrade = function(player, npc, trade)
             end
 
             player:confirmTrade()
-        elseif npcUtil.tradeHas(trade, 1023) and player:getMainJob() == xi.job.THF then -- living key
+        elseif npcUtil.tradeHas(trade, xi.items.LIVING_KEY) and player:getMainJob() == xi.job.THF then
             if math.random(1, 2) == 1 then -- TODO: figure out actual percentage chance to pick locks; 50% for now
                 player:messageSpecial(ID.text.LOCK_SUCCESS, 1023)
                 npc:openDoor()
@@ -33,7 +34,7 @@ entity.onTrade = function(player, npc, trade)
             end
 
             player:confirmTrade()
-        elseif npcUtil.tradeHas(trade, 1115) and player:getMainJob() == xi.job.THF then -- skeleton key
+        elseif npcUtil.tradeHas(trade, xi.items.SKELETON_KEY) and player:getMainJob() == xi.job.THF then
             if math.random(1, 2) == 1 then -- TODO: figure out actual percentage chance to pick locks; 50% for now
                 player:messageSpecial(ID.text.LOCK_SUCCESS, 1115)
                 npc:openDoor()

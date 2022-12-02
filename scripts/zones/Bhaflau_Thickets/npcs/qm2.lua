@@ -10,7 +10,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 2576) and
+        npcUtil.tradeHas(trade, xi.items.OLZHIRYAN_CACTUS_PADDLE) and
         npcUtil.popFromQM(player, npc, ID.mob.DEA)
     then
         -- Trade Olzhiryan Cactus

@@ -11,7 +11,7 @@ require("scripts/globals/npc_util")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if player:getCharVar("UnderOathCS") == 5 and npcUtil.tradeHas(trade, 1095) then
+    if player:getCharVar("UnderOathCS") == 5 and npcUtil.tradeHas(trade, xi.items.WELL_WEIGHT) then
         player:startEvent(113)
     else
         player:messageSpecial(ID.text.A_WELL)

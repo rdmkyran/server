@@ -10,7 +10,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 2590) and
+        npcUtil.tradeHas(trade, xi.items.CLUMP_OF_SHADELEAVES) and
         npcUtil.popFromQM(player, npc, ID.mob.BRASS_BORER)
     then
         -- Trade Shadeleaf

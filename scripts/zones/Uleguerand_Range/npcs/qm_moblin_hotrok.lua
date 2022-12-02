@@ -19,7 +19,7 @@ entity.onTrade = function(player, npc, trade)
     -- Taking a logical guess what criteria displays what message.
     if
         overTheHillsAndFarAway == QUEST_ACCEPTED and
-        npcUtil.tradeHas(trade, 1729)
+        npcUtil.tradeHas(trade, xi.items.MOBLIN_HOTROK)
     then
         -- 1729 = Moblin Hotrok
         if player:getMissionStatus(xi.mission.log_id.COP, xi.mission.status.COP.LOUVERANCE) == 14 then

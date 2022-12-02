@@ -136,7 +136,7 @@ xi.chocobo.renterOnTrade = function(player, npc, trade, eventSucceed, eventFail)
             player:setLocalVar("ChocopassDuration", 120)
             player:startEvent(eventSucceed, price, currency)
         end
-    elseif npcUtil.tradeHasExactly(trade, xi.items.CHOCOBO_TICKET) then -- Chocobo Ticket
+    elseif npcUtil.tradeHasExactly(trade, xi.items.CHOCOBO_TICKET) then
         if info.past then -- Fails for Past Zones
             player:startEvent(eventFail)
         else

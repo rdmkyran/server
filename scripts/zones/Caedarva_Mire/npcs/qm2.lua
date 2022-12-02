@@ -10,7 +10,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 2595) and
+        npcUtil.tradeHas(trade, xi.items.CLUMP_OF_MYRRH) and
         npcUtil.popFromQM(player, npc, ID.mob.EXPERIMENTAL_LAMIA)
     then
         -- Trade Myrrh

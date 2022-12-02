@@ -18,11 +18,11 @@ entity.onTrade = function(player, npc, trade)
     if questStatus == QUEST_ACCEPTED then
         local IsacioElderMemVar = player:getCharVar("IsacioElderMemVar")
 
-        if IsacioElderMemVar == 1 and npcUtil.tradeHas(trade, 538) then
+        if IsacioElderMemVar == 1 and npcUtil.tradeHas(trade, xi.items.MAGICKED_SKULL) then
             player:startEvent(115, 537)
-        elseif IsacioElderMemVar == 2 and npcUtil.tradeHas(trade, 537) then
+        elseif IsacioElderMemVar == 2 and npcUtil.tradeHas(trade, xi.items.DAMSELFLY_WORM) then
             player:startEvent(116, 539)
-        elseif IsacioElderMemVar == 3 and npcUtil.tradeHas(trade, 539) then
+        elseif IsacioElderMemVar == 3 and npcUtil.tradeHas(trade, xi.items.CRAB_APRON) then
             player:startEvent(117)
         end
     end

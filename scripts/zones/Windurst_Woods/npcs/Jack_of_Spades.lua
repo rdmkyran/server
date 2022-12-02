@@ -5,12 +5,13 @@
 -- Working 100%
 -----------------------------------
 require("scripts/globals/npc_util")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 -----------------------------------
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if npcUtil.tradeHas(trade, 536) then -- adventurer coupon
+    if npcUtil.tradeHas(trade, xi.items.ADVENTURER_COUPON) then
         player:startEvent(10010, xi.settings.main.GIL_RATE * 50)
     end
 end

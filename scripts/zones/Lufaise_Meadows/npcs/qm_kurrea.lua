@@ -11,7 +11,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 5210) and
+        npcUtil.tradeHas(trade, xi.items.ADAMANTOISE_SOUP) and
         npcUtil.popFromQM(player, npc, ID.mob.KURREA)
     then
         -- Adamantoise Soup

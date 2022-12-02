@@ -10,7 +10,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 1878) and
+        npcUtil.tradeHas(trade, xi.items.AIR_TANK) and
         npcUtil.popFromQM(player, npc, ID.mob.BUGBEAR_MATMAN)
     then
         -- Air tank

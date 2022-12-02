@@ -11,7 +11,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 1757) and
+        npcUtil.tradeHas(trade, xi.items.REMNANT_OF_A_COVETER) and
         npcUtil.popFromQM(player, npc, ID.mob.WAILER)
     then
         -- Coveter Remnant

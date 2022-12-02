@@ -13,7 +13,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     if
         player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.PEACE_FOR_THE_SPIRIT) == QUEST_ACCEPTED and
-        npcUtil.tradeHas(trade, 1094)
+        npcUtil.tradeHas(trade, xi.items.NAIL_PULLER)
     then -- Nail Puller
         player:startEvent(14)
     end

@@ -9,7 +9,7 @@ require("scripts/globals/npc_util")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if npcUtil.tradeHas(trade, 749) then
+    if npcUtil.tradeHas(trade, xi.items.MYTHRIL_BEASTCOIN) then
         if player:getCharVar("SSG_MythrilDoor") == 7 then
             npc:openDoor(5) -- Open the door if a mythril beastcoin has been traded after checking the door the required number of times
         end

@@ -20,7 +20,7 @@ entity.onTrade = function(player, npc, trade)
     -- FIRE AND BRIMSTONE
     if
         player:getCharVar("fireAndBrimstone") == 5 and
-        npcUtil.tradeHas(trade, 1113)
+        npcUtil.tradeHas(trade, xi.items.OLD_EARRING)
     then
         -- old earring
         player:startEvent(537, 0, 13360)

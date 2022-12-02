@@ -5,12 +5,13 @@
 -- !pos -11 -8 -99 159
 -----------------------------------
 local ID = require("scripts/zones/Temple_of_Uggalepih/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if npcUtil.tradeHas(trade, 1137) then -- Prelate Key
+    if npcUtil.tradeHas(trade, xi.items.PRELATE_KEY) then
         player:confirmTrade()
         player:messageSpecial(ID.text.YOUR_KEY_BREAKS, 0, 1137)
         npc:openDoor(6.5)

@@ -16,7 +16,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     -- A BOY'S DREAM
-    if player:getCharVar("aBoysDreamCS") >= 4 and npcUtil.tradeHas(trade, 4562) then
+    if player:getCharVar("aBoysDreamCS") >= 4 and npcUtil.tradeHas(trade, xi.items.ODONTOTYRANNUS) then
         player:startEvent(85)
     end
 end

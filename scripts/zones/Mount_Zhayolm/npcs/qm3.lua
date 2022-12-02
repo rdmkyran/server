@@ -10,7 +10,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 2587) and
+        npcUtil.tradeHas(trade, xi.items.SLAB_OF_RAW_BUFFALO) and
         npcUtil.popFromQM(player, npc, ID.mob.ANANTABOGA, { hide = 0 })
     then
         -- Trade Raw Buffalo

@@ -33,7 +33,7 @@ entity.onTrade = function(player, npc, trade)
     elseif exoticDelicacies == QUEST_ACCEPTED then
         if npcUtil.tradeHas(trade, { 3916, 5949, { 5954, 2 } }) then
             player:startEvent(2861)
-        elseif npcUtil.tradeHas(trade, 5974) or npcUtil.tradeHas(trade, 5975) then
+        elseif npcUtil.tradeHas(trade, xi.items.PLATE_OF_BARNACLE_PAELLA) or npcUtil.tradeHas(trade, 5975) then
             player:startEvent(2862)
         end
     end

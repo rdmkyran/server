@@ -10,7 +10,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 2581) and
+        npcUtil.tradeHas(trade, xi.items.JUG_OF_FLORAL_NECTAR) and
         npcUtil.popFromQM(player, npc, ID.mob.CHAMROSH)
     then
         -- Trade Floral Nectar

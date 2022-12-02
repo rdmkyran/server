@@ -10,7 +10,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 2588) and
+        npcUtil.tradeHas(trade, xi.items.LUMP_OF_BONE_CHARCOAL) and
         npcUtil.popFromQM(player, npc, ID.mob.REACTON)
     then
         -- Trade Bone Charcoal

@@ -6,6 +6,7 @@
 -- !pos 25 -6 6 248
 -----------------------------------
 local ID = require("scripts/zones/Selbina/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 require("scripts/globals/quests")
@@ -18,7 +19,7 @@ entity.onTrade = function(player, npc, trade)
             player:startEvent(62, 0, 4366)
         elseif npcUtil.tradeHas(trade, { { 629, 3 } }) then -- Millioncorn x3
             player:startEvent(63, 0, 629)
-        elseif npcUtil.tradeHas(trade, 919) then -- Boyahda Moss x1
+        elseif npcUtil.tradeHas(trade, xi.items.CLUMP_OF_BOYAHDA_MOSS) then
             player:startEvent(64, 0, 919)
         end
     end

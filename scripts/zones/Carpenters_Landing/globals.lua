@@ -37,7 +37,7 @@ local carpentersLandingGlobal =
     herculesTreeOnTrade = function(player, npc, trade)
         local msgOffset = ID.text.HERCULES_TREE_NOTHING_YET
 
-        if npcUtil.tradeHas(trade, 4370) then
+        if npcUtil.tradeHas(trade, xi.items.POT_OF_HONEY) then
             if npc:getLocalVar("honey") == 0 then
                 player:messageSpecial(msgOffset + 4, 4370) -- "You plaster the contents of a pot of honey on the tree."
 

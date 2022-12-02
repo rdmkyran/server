@@ -5,13 +5,14 @@
 -- !pos 60 0.1 8 159
 -----------------------------------
 local ID = require("scripts/zones/Temple_of_Uggalepih/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if npcUtil.tradeHas(trade, 1136) and player:getZPos() < 11 then -- Uggalepih key
+    if npcUtil.tradeHas(trade, xi.items.UGGALEPIH_KEY) and player:getZPos() < 11 then
         player:startEvent(46)
     end
 end

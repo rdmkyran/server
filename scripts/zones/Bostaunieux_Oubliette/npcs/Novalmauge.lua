@@ -34,12 +34,12 @@ end
 entity.onTrade = function(player, npc, trade)
     if
         player:getCharVar("troubleAtTheSluiceVar") == 2 and
-        npcUtil.tradeHas(trade, 959)
+        npcUtil.tradeHas(trade, xi.items.DAHLIA)
     then -- Dahlia
         player:startEvent(17)
     elseif
         player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_RUMOR) == QUEST_ACCEPTED and
-        npcUtil.tradeHas(trade, 930)
+        npcUtil.tradeHas(trade, xi.items.VIAL_OF_BEASTMAN_BLOOD)
     then -- Beastman Blood
         player:startEvent(12)
     end

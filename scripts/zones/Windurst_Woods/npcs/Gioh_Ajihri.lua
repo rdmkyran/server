@@ -16,7 +16,7 @@ entity.onTrade = function(player, npc, trade)
     if
         player:getCharVar("GiohAijhriSpokenTo") == 1 and
         not player:needToZone() and
-        npcUtil.tradeHas(trade, 13360)
+        npcUtil.tradeHas(trade, xi.items.TWINSTONE_EARRING)
     then
         player:startEvent(490)
     end

@@ -36,7 +36,7 @@ end
 entity.onTrade = function(player, npc, trade)
     if
         player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_AMAZIN_SCORPIO) == QUEST_ACCEPTED and
-        npcUtil.tradeHas(trade, 1017)
+        npcUtil.tradeHas(trade, xi.items.SCORPION_STINGER)
     then
         player:startEvent(484)
     end

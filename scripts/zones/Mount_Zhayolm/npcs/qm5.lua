@@ -10,7 +10,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 2583) and
+        npcUtil.tradeHas(trade, xi.items.CHUNK_OF_BUFFALO_CORPSE) and
         npcUtil.popFromQM(player, npc, ID.mob.SARAMEYA, { hide = 0 })
     then
         -- Trade Buffalo Corpse

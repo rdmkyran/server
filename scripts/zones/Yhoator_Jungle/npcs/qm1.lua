@@ -4,14 +4,15 @@
 -- !pos 545.7346 0.1819 -433.2258
 -----------------------------------
 local ID = require("scripts/zones/Yhoator_Jungle/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     local spawnChance = 0
-    if npcUtil.tradeHas(trade, 4468) then -- pamamas
+    if npcUtil.tradeHas(trade, xi.items.BUNCH_OF_PAMAMAS) then
         spawnChance = 5
-    elseif npcUtil.tradeHas(trade, 4596) then -- wild pamamas
+    elseif npcUtil.tradeHas(trade, xi.items.BUNCH_OF_WILD_PAMAMAS) then
         spawnChance = 50
     end
 

@@ -22,7 +22,7 @@ entity.onTrade = function(player, npc, trade)
         player:getQuestStatus(xi.quest.log_id.OTHER_AREAS, xi.quest.id.otherAreas.A_POTTER_S_PREFERENCE) == QUEST_ACCEPTED or
         player:getCharVar("QuestAPotterPrefeRepeat_var") == 1
     then
-        if npcUtil.tradeHas(trade, 569) then
+        if npcUtil.tradeHas(trade, xi.items.DISH_OF_GUSGEN_CLAY) then
             player:startEvent(113) -- quest done!
         end
     end

@@ -10,7 +10,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, 2579) and
+        npcUtil.tradeHas(trade, xi.items.STRAND_OF_SAMARIRI_CORPSEHAIR) and
         npcUtil.popFromQM(player, npc, ID.mob.IRIRI_SAMARIRI)
     then
         -- Trade Samariri Corpsehair
