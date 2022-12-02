@@ -10,7 +10,7 @@ require("scripts/globals/npc_util")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if npcUtil.tradeHas(trade, { xi.items.SEAL_OF_GENBU, xi.items.SEAL_OF_SEIRYU, xi.items.SEAL_OF_BYAKKO, 1407 }) then
+    if npcUtil.tradeHas(trade, { xi.items.SEAL_OF_GENBU, xi.items.SEAL_OF_SEIRYU, xi.items.SEAL_OF_BYAKKO, xi.items.SEAL_OF_SUZAKU }) then
         player:startEvent(101)
         player:confirmTrade()
     end

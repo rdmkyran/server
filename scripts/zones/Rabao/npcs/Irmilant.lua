@@ -19,12 +19,12 @@ entity.onTrade = function(player, npc, trade)
 
     if
         (ImmortalLuShang == QUEST_ACCEPTED or ImmortalLuShang == QUEST_COMPLETED) and
-        npcUtil.tradeHas(trade, { xi.items.PIECE_OF_ANCIENT_LUMBER, xi.items.BROKEN_LU_SHANGS_FISHING_ROD, 4102 })
+        npcUtil.tradeHas(trade, { xi.items.PIECE_OF_ANCIENT_LUMBER, xi.items.BROKEN_LU_SHANGS_FISHING_ROD, xi.items.LIGHT_CRYSTAL })
     then
         player:startEvent(78)
     elseif
         (Indomitable == QUEST_ACCEPTED or Indomitable == QUEST_COMPLETED) and
-        npcUtil.tradeHas(trade, { xi.items.SABER_SHOOT, 1826 })
+        npcUtil.tradeHas(trade, { xi.items.SABER_SHOOT, xi.items.SPOOL_OF_OPAL_SILK })
     then
         player:startEvent(132)
     end

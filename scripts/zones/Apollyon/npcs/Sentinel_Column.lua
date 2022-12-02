@@ -8,7 +8,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     if npcUtil.tradeHas(trade, xi.items.METAL_CHIP) then
         player:startEvent(221, 65)
-    elseif npcUtil.tradeHas(trade, { xi.items.SMALT_CHIP, xi.items.SMOKY_CHIP, xi.items.CHARCOAL_CHIP, 1988 }) then
+    elseif npcUtil.tradeHas(trade, { xi.items.SMALT_CHIP, xi.items.SMOKY_CHIP, xi.items.CHARCOAL_CHIP, xi.items.MAGENTA_CHIP }) then
         player:startEvent(221, 33)
     end
 end

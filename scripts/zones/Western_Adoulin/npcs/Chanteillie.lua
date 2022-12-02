@@ -22,7 +22,7 @@ entity.onTrade = function(player, npc, trade)
     if
         dngitl == QUEST_ACCEPTED and
         player:getCharVar("DNGITL_Status") == 3 and
-        npcUtil.tradeHas(trade, { xi.items.PIECE_OF_URUNDAY_LUMBER, xi.items.DAMASCUS_INGOT, 4096 })
+        npcUtil.tradeHas(trade, { xi.items.PIECE_OF_URUNDAY_LUMBER, xi.items.DAMASCUS_INGOT, xi.items.FIRE_CRYSTAL })
     then
         player:startEvent(5076)
 
@@ -30,7 +30,7 @@ entity.onTrade = function(player, npc, trade)
     elseif
         vvc == QUEST_ACCEPTED and
         player:getCharVar("VVC_Status") == 1 and
-        npcUtil.tradeHas(trade, { xi.items.PIECE_OF_URUNDAY_LUMBER, xi.items.MIDRIUM_INGOT, 8708 })
+        npcUtil.tradeHas(trade, { xi.items.PIECE_OF_URUNDAY_LUMBER, xi.items.MIDRIUM_INGOT, xi.items.SQUARE_OF_RAAZ_LEATHER })
     then
         player:startEvent(5089)
     end
