@@ -4,6 +4,7 @@
 -- !pos -697 -7 -123 51
 -----------------------------------
 local ID = require("scripts/zones/Wajaom_Woodlands/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

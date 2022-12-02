@@ -19,7 +19,7 @@ entity.onTrade = function(player, npc, trade)
         player:hasKeyItem(xi.ki.TRAINERS_WHISTLE) and
         trade:getSlotCount() == 1 and
         -- The Fenrir (10057) and Omega (10067) items and mounts have their own questlines, so they aren't valid trades here
-        not (npcUtil.tradeHasExactly(trade, 10057) or npcUtil.tradeHasExactly(trade, 10067))
+        not (npcUtil.tradeHasExactly(trade, xi.items.FENRIR) or npcUtil.tradeHasExactly(trade, xi.items.OMEGA))
     then
         local item = trade:getItemId(0)
         local mount = item - 10050

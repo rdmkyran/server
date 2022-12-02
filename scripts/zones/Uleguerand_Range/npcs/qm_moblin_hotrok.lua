@@ -5,6 +5,7 @@
 -- Involved in Quests: Over The Hills And Far Away
 -----------------------------------
 local ID = require("scripts/zones/Uleguerand_Range/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/titles")
 -----------------------------------

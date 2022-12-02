@@ -3,6 +3,7 @@
 --  NPC: Furnace_Hatch
 -----------------------------------
 local ID = require("scripts/zones/Newton_Movalpolos/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/status")
 -----------------------------------

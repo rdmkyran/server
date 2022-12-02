@@ -4,6 +4,7 @@
 -- !pos -34 10 336 62
 -----------------------------------
 local ID = require("scripts/zones/Halvung/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

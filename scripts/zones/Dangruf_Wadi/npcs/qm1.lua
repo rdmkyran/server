@@ -5,6 +5,7 @@
 -- !pos -430 4 115 191
 -----------------------------------
 local ID = require("scripts/zones/Dangruf_Wadi/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

@@ -2,6 +2,7 @@
 -- Flyers for Regine
 -----------------------------------
 require('scripts/globals/npc_util')
+require("scripts/globals/items")
 require('scripts/globals/quests')
 require('scripts/globals/utils')
 require('scripts/globals/zone')

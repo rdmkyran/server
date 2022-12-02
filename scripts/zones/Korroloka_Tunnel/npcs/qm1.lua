@@ -4,6 +4,7 @@
 -- !pos 254.652 -6.039 20.878 173
 -----------------------------------
 local ID = require("scripts/zones/Korroloka_Tunnel/IDs")
+require("scripts/globals/items")
 local korrolokaGlobal = require("scripts/zones/Korroloka_Tunnel/globals")
 require("scripts/globals/npc_util")
 -----------------------------------

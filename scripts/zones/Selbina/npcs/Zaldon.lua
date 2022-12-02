@@ -6,6 +6,7 @@
 -- !pos -13 -7 -5 248
 -----------------------------------
 local ID = require("scripts/zones/Selbina/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 require("scripts/globals/settings")

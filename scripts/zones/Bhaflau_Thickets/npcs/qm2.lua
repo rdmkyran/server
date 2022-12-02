@@ -5,6 +5,7 @@
 -----------------------------------
 local ID = zones[xi.zone.BHAFLAU_THICKETS]
 require("scripts/globals/npc_util")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

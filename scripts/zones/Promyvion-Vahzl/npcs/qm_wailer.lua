@@ -5,6 +5,7 @@
 -- !pos 339.000 -1.883 144.000 22
 -----------------------------------
 local ID = require("scripts/zones/Promyvion-Vahzl/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

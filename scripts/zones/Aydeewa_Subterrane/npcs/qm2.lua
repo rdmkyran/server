@@ -4,6 +4,7 @@
 -- !pos 200 33 -140 68
 -----------------------------------
 local ID = require("scripts/zones/Aydeewa_Subterrane/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

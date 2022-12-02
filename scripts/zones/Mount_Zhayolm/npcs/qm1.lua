@@ -4,6 +4,7 @@
 -- !pos 399 -27 120 61
 -----------------------------------
 local ID = require("scripts/zones/Mount_Zhayolm/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

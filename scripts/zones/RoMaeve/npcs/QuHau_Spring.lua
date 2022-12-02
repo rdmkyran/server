@@ -3,6 +3,7 @@
 -- Area: Ro'Maeve
 -----------------------------------
 local ID = require("scripts/zones/RoMaeve/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/missions")
 require("scripts/globals/npc_util")
@@ -38,7 +39,7 @@ entity.onTrade = function(player, npc, trade)
                     player:startEvent(7, 917, 1408) -- Ark Pentasphere Trade
                 elseif
                     dmRepeat == QUEST_ACCEPTED and
-                    npcUtil.tradeHasExactly(trade, 1261) and
+                    npcUtil.tradeHasExactly(trade, xi.items.CHUNK_OF_LIGHT_ORE) and
                     not player:hasKeyItem(xi.ki.MOONLIGHT_ORE)
                 then
                     player:startEvent(8) -- Moonlight Ore trade

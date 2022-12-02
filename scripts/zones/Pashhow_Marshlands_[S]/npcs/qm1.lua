@@ -4,6 +4,7 @@
 -- Allow player to spawn Kinepikwa with Peiste pellets
 -----------------------------------
 local ID = require("scripts/zones/Pashhow_Marshlands_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

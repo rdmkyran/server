@@ -4,6 +4,7 @@
 -- !pos 124.544 19.988 -60.670 12
 -----------------------------------
 local ID = require("scripts/zones/Newton_Movalpolos/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

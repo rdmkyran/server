@@ -4,6 +4,7 @@
 -- !pos 586 0 66 37
 -----------------------------------
 require("scripts/globals/npc_util")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

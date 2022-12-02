@@ -4,6 +4,7 @@
 -- !pos 206 14 -285 65
 -----------------------------------
 local ID = require("scripts/zones/Mamook/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

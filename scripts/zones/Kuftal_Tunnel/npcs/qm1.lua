@@ -5,6 +5,7 @@
 -- position changes every 5 seconds
 -----------------------------------
 local ID = require("scripts/zones/Kuftal_Tunnel/IDs")
+require("scripts/globals/items")
 local kuftalGlobal = require("scripts/zones/Kuftal_Tunnel/globals")
 require("scripts/globals/npc_util")
 -----------------------------------

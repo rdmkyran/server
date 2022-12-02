@@ -4,6 +4,7 @@
 -- !pos 24 25 -306 160
 -----------------------------------
 local ID = require("scripts/zones/Den_of_Rancor/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}

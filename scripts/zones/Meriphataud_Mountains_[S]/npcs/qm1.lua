@@ -4,6 +4,7 @@
 -- !pos 757 -16 -446 97
 -----------------------------------
 local ID = require("scripts/zones/Meriphataud_Mountains_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}
