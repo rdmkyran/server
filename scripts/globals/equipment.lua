@@ -54,67 +54,67 @@ xi.equipment.relicIDs =
 {
     [xi.equipment.relic.SPHARAI] =
     {
-        18264, 18265, 18637, 18651, 18665, 19746, 19839, 20480, 20481, 20509
+        xi.items.SPHARAI, xi.items.SPHARAI_T2, xi.items.SPHARAI_T3, xi.items.SPHARAI_T4, xi.items.SPHARAI_T5, xi.items.SPHARAI_T6, xi.items.SPHARAI_T7, xi.items.SPHARAI_T8, xi.items.SPHARAI_T9, xi.items.SPHARAI_T10
     },
     [xi.equipment.relic.MANDAU] =
     {
-        18270, 18271, 18638, 18652, 18666, 19747, 19840, 20555, 20556, 20583
+        xi.items.MANDAU, xi.items.MANDAU_T2, xi.items.MANDAU_T3, xi.items.MANDAU_T4, xi.items.MANDAU_T5, xi.items.MANDAU_T6, xi.items.MANDAU_T7, xi.items.MANDAU_T8, xi.items.MANDAU_T9, xi.items.MANDAU_T10
     },
     [xi.equipment.relic.EXCALIBUR] =
     {
-        18276, 18277, 18639, 18653, 18667, 19748, 19841, 20645, 20646, 20685
+        xi.items.EXCALIBUR, xi.items.EXCALIBUR_T2, xi.items.EXCALIBUR_T3, xi.items.EXCALIBUR_T4, xi.items.EXCALIBUR_T5, xi.items.EXCALIBUR_T6, xi.items.EXCALIBUR_T7, xi.items.EXCALIBUR_T8, xi.items.EXCALIBUR_T9, xi.items.EXCALIBUR_T10
     },
     [xi.equipment.relic.RAGNAROK] =
     {
-        18282, 18283, 18640, 18654, 18668, 19749, 19842, 20745, 20746, 21683
+        xi.items.RAGNAROK, xi.items.RAGNAROK_T2, xi.items.RAGNAROK_T3, xi.items.RAGNAROK_T4, xi.items.RAGNAROK_T5, xi.items.RAGNAROK_T6, xi.items.RAGNAROK_T7, xi.items.RAGNAROK_T8, xi.items.RAGNAROK_T9, xi.items.RAGNAROK_T10
     },
     [xi.equipment.relic.GUTTLER] =
     {
-        18288, 18289, 18641, 18655, 18669, 19750, 19843, 20790, 20791, 21750
+        xi.items.GUTTLER, xi.items.GUTTLER_T2, xi.items.GUTTLER_T3, xi.items.GUTTLER_T4, xi.items.GUTTLER_T5, xi.items.GUTTLER_T6, xi.items.GUTTLER_T7, xi.items.GUTTLER_T8, xi.items.GUTTLER_T9, xi.items.GUTTLER_T10
     },
     [xi.equipment.relic.BRAVURA] =
     {
-        18294, 18295, 18642, 18656, 18670, 19751, 19844, 20835, 20836, 21756
+        xi.items.BRAVURA, xi.items.BRAVURA_T2, xi.items.BRAVURA_T3, xi.items.BRAVURA_T4, xi.items.BRAVURA_T5, xi.items.BRAVURA_T6, xi.items.BRAVURA_T7, xi.items.BRAVURA_T8, xi.items.BRAVURA_T9, xi.items.BRAVURA_T10
     },
     [xi.equipment.relic.APOCALYPSE] =
     {
-        18306, 18307, 18644, 18658, 18672, 19753, 19846, 20880, 20881, 21808
+        xi.items.APOCALYPSE, xi.items.APOCALYPSE_T2, xi.items.APOCALYPSE_T3, xi.items.APOCALYPSE_T4, xi.items.APOCALYPSE_T5, xi.items.APOCALYPSE_T6, xi.items.APOCALYPSE_T7, xi.items.APOCALYPSE_T8, xi.items.APOCALYPSE_T9, xi.items.APOCALYPSE_T10
     },
     [xi.equipment.relic.GUNGNIR] =
     {
-        18300, 18301, 18643, 18657, 18671, 19752, 19845, 20925, 20926, 21857
+        xi.items.GUNGNIR, xi.items.GUNGNIR_T2, xi.items.GUNGNIR_T3, xi.items.GUNGNIR_T4, xi.items.GUNGNIR_T5, xi.items.GUNGNIR_T6, xi.items.GUNGNIR_T7, xi.items.GUNGNIR_T8, xi.items.GUNGNIR_T9, xi.items.GUNGNIR_T10
     },
     [xi.equipment.relic.KIKOKU] =
     {
-        18312, 18313, 18645, 18659, 18673, 19754, 19847, 20970, 20971, 21906
+        xi.items.KIKOKU, xi.items.KIKOKU_T2, xi.items.KIKOKU_T3, xi.items.KIKOKU_T4, xi.items.KIKOKU_T5, xi.items.KIKOKU_T6, xi.items.KIKOKU_T7, xi.items.KIKOKU_T8, xi.items.KIKOKU_T9, xi.items.KIKOKU_T10
     },
     [xi.equipment.relic.AMANOMURAKUMO] =
     {
-        18318, 18319, 18646, 18660, 18674, 19755, 19848, 21015, 21016, 21954
+        xi.items.AMANOMURAKUMO, xi.items.AMANOMURAKUMO_T2, xi.items.AMANOMURAKUMO_T3, xi.items.AMANOMURAKUMO_T4, xi.items.AMANOMURAKUMO_T5, xi.items.AMANOMURAKUMO_T6, xi.items.AMANOMURAKUMO_T7, xi.items.AMANOMURAKUMO_T8, xi.items.AMANOMURAKUMO_T9, xi.items.AMANOMURAKUMO_T10
     },
     [xi.equipment.relic.MJOLLNIR] =
     {
-        18324, 18325, 18647, 18661, 18675, 19756, 19849, 21060, 21061, 21077
+        xi.items.MJOLLNIR, xi.items.MJOLLNIR_T2, xi.items.MJOLLNIR_T3, xi.items.MJOLLNIR_T4, xi.items.MJOLLNIR_T5, xi.items.MJOLLNIR_T6, xi.items.MJOLLNIR_T7, xi.items.MJOLLNIR_T8, xi.items.MJOLLNIR_T9, xi.items.MJOLLNIR_T10
     },
     [xi.equipment.relic.CLAUSTRUM] =
     {
-        18330, 18331, 18648, 18662, 18676, 19757, 19850, 21135, 21136, 22060
+        xi.items.CLAUSTRUM, xi.items.CLAUSTRUM_T2, xi.items.CLAUSTRUM_T3, xi.items.CLAUSTRUM_T4, xi.items.CLAUSTRUM_T5, xi.items.CLAUSTRUM_T6, xi.items.CLAUSTRUM_T7, xi.items.CLAUSTRUM_T8, xi.items.CLAUSTRUM_T9, xi.items.CLAUSTRUM_T10
     },
     [xi.equipment.relic.YOICHINOYUMI] =
     {
-        18348, 18349, 18650, 18664, 18678, 19759, 19852, 21210, 21211, 22115, 22129
+        xi.items.YOICHINOYUMI, xi.items.YOICHINOYUMI_T2, xi.items.YOICHINOYUMI_T3, xi.items.YOICHINOYUMI_T4, xi.items.YOICHINOYUMI_T5, xi.items.YOICHINOYUMI_T6, xi.items.YOICHINOYUMI_T7, xi.items.YOICHINOYUMI_T8, xi.items.YOICHINOYUMI_T9, xi.items.YOICHINOYUMI_T10, xi.items.YOICHINOYUMI_T11
     },
     [xi.equipment.relic.ANNIHILATOR] =
     {
-        18336, 18337, 18649, 18663, 18677, 19758, 19851, 21260, 21261, 21267, 22140
+        xi.items.ANNIHILATOR, xi.items.ANNIHILATOR_T2, xi.items.ANNIHILATOR_T3, xi.items.ANNIHILATOR_T4, xi.items.ANNIHILATOR_T5, xi.items.ANNIHILATOR_T6, xi.items.ANNIHILATOR_T7, xi.items.ANNIHILATOR_T8, xi.items.ANNIHILATOR_T9, xi.items.ANNIHILATOR_T10, xi.items.ANNIHILATOR_T11
     },
     [xi.equipment.relic.GJALLARHORN] =
     {
-        18342, 18577, 18578, 18579, 18580, 18572, 18840
+        xi.items.GJALLARHORN, xi.items.GJALLARHORN_T2, xi.items.GJALLARHORN_T3, xi.items.GJALLARHORN_T4, xi.items.GJALLARHORN_T5, xi.items.GJALLARHORN_T6, xi.items.GJALLARHORN_T6
     },
     [xi.equipment.relic.AEGIS] =
     {
-        15070, 16195, 16196, 16197, 16198, 11927, 16200
+        xi.items.AEGIS, xi.items.AEGIS_T2, xi.items.AEGIS_T3, xi.items.AEGIS_T4, xi.items.AEGIS_T5, xi.items.AEGIS_T6, xi.items.AEGIS_T7
     },
 }
 
