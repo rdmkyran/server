@@ -5,87 +5,88 @@
 -- !pos 111 8 -47 236
 -----------------------------------
 local ID = require("scripts/zones/Port_Bastok/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     local ammoList =
     {
-        { 21307, 6199 }, -- arrow, achiyalabopa
-        { 21306, 6200 }, -- arrow, adlivun
-        { 19195, 5819 }, -- arrow, antlion
-        { 18154, 4221 }, -- arrow, beetle
-        { 21309, 6137 }, -- arrow, chapuli
-        { 18159, 4224 }, -- arrow, demon
-        { 21302, 6269 }, -- arrow, eminent
-        { 19800, 5912 }, -- arrow, gargouille
-        { 18156, 4222 }, -- arrow, horn
-        { 17320, 4225 }, -- arrow, iron
-        { 17325, 5332 }, -- arrow, kabura
-        { 21308, 6138 }, -- arrow, mantid
-        { 21303, 6280 }, -- arrow, ra'kaznar
-        { 21304, 6202 }, -- arrow, raaz
-        { 19182, 5871 }, -- arrow, ruszor
-        { 18155, 4223 }, -- arrow, scorpion
-        { 17321, 4226 }, -- arrow, silver
-        { 18158, 5333 }, -- arrow, sleep
-        { 17330, 4219 }, -- arrow, stone
-        { 21305, 6201 }, -- arrow, tulfaire
+        { xi.items.ACHIYALABOPA_ARROW, xi.items.ACHIYALABOPA_QUIVER },
+        { xi.items.ADLIVUN_ARROW, xi.items.ADLIVUN_QUIVER },
+        { xi.items.ANTLION_ARROW, xi.items.ANTLION_QUIVER },
+        { xi.items.BEETLE_ARROW, xi.items.BEETLE_QUIVER },
+        { xi.items.CHAPULI_ARROW, xi.items.CHAPULI_QUIVER },
+        { xi.items.DEMON_ARROW, xi.items.DEMON_QUIVER },
+        { xi.items.EMINENT_ARROW, xi.items.EMINENT_QUIVER },
+        { xi.items.GARGOUILLE_ARROW, xi.items.GARGOUILLE_QUIVER },
+        { xi.items.HORN_ARROW, xi.items.HORN_QUIVER },
+        { xi.items.IRON_ARROW, xi.items.IRON_QUIVER },
+        { xi.items.KABURA_ARROW, xi.items.KABURA_QUIVER },
+        { xi.items.MANTID_ARROW, xi.items.MANTID_QUIVER },
+        { xi.items.RAKAZNAR_ARROW, xi.items.RAKAZNAR_QUIVER },
+        { xi.items.RAAZ_ARROW, xi.items.RAAZ_QUIVER },
+        { xi.items.RUSZOR_ARROW, xi.items.RUSZOR_QUIVER },
+        { xi.items.SCORPION_ARROW, xi.items.SCORPION_QUIVER },
+        { xi.items.SILVER_ARROW, xi.items.SILVER_QUIVER },
+        { xi.items.SLEEP_ARROW, xi.items.SLEEP_QUIVER },
+        { xi.items.STONE_ARROW, xi.items.STONE_QUIVER },
+        { xi.items.TULFAIRE_ARROW, xi.items.TULFAIRE_QUIVER },
 
-        { 21314, 6278 }, -- bolt, abrasion
-        { 21321, 6203 }, -- bolt, achiyalabopa
-        { 18148, 5335 }, -- bolt, acid
-        { 19801, 5913 }, -- bolt, adaman
-        { 21320, 6204 }, -- bolt, adlivun
-        { 21318, 6206 }, -- bolt, bismuth
-        { 18150, 5334 }, -- bolt, blind
-        { 18151, 5339 }, -- bolt, bloody
-        { 21322, 6140 }, -- bolt, damascus
-        { 19183, 5872 }, -- bolt, dark adaman
-        { 19196, 5820 }, -- bolt, darkling
-        { 17338, 4229 }, -- bolt, darksteel
-        { 21316, 6270 }, -- bolt, eminent
-        { 19197, 5821 }, -- bolt, fusion
-        { 21313, 6310 }, -- bolt, gashing
-        { 18153, 5336 }, -- bolt, holy
-        { 21324, 6139 }, -- bolt, midrium
-        { 17337, 4228 }, -- bolt, mythril
-        { 21323, 6141 }, -- bolt, oxidant
-        { 21317, 6281 }, -- bolt, ra'kaznar
-        { 21315, 6279 }, -- bolt, righteous
-        { 18149, 5337 }, -- bolt, sleep
-        { 21319, 6205 }, -- bolt, titanium
-        { 18152, 5338 }, -- bolt, venom
+        { xi.items.ABRASION_BOLT, xi.items.ABRASION_BOLT_QUIVER },
+        { xi.items.ACHIYALABOPA_BOLT, xi.items.ACHIYALABOPA_BOLT_QUIVER },
+        { xi.items.ACID_BOLT, xi.items.ACID_BOLT_QUIVER },
+        { xi.items.ADAMAN_BOLT, xi.items.ADAMAN_BOLT_QUIVER },
+        { xi.items.ADLIVUN_BOLT, xi.items.ADLIVUN_BOLT_QUIVER },
+        { xi.items.BISMUTH_BOLT, xi.items.BISMUTH_BOLT_QUIVER },
+        { xi.items.BLIND_BOLT, xi.items.BLIND_BOLT_QUIVER },
+        { xi.items.BLOODY_BOLT, xi.items.BLOODY_BOLT_QUIVER },
+        { xi.items.DAMASCUS_BOLT, xi.items.DAMASCUS_BOLT_QUIVER },
+        { xi.items.DARK_ADAMAN_BOLT, xi.items.DARK_ADAMAN_BOLT_QUIVER },
+        { xi.items.DARKLING_BOLT, xi.items.DARKLING_BOLT_QUIVER },
+        { xi.items.DARKSTEEL_BOLT, xi.items.DARKSTEEL_BOLT_QUIVER },
+        { xi.items.EMINENT_BOLT, xi.items.EMINENT_BOLT_QUIVER },
+        { xi.items.FUSION_BOLT, xi.items.FUSION_BOLT_QUIVER },
+        { xi.items.GASHING_BOLT, xi.items.GASHING_BOLT_QUIVER },
+        { xi.items.HOLY_BOLT, xi.items.HOLY_BOLT_QUIVER },
+        { xi.items.MIDRIUM_BOLT, xi.items.MIDRIUM_BOLT_QUIVER },
+        { xi.items.MYTHRIL_BOLT, xi.items.MYTHRIL_BOLT_QUIVER },
+        { xi.items.OXIDANT_BOLT, xi.items.OXIDANT_BOLT_QUIVER },
+        { xi.items.RAKAZNAR_BOLT, xi.items.RAKAZNAR_BOLT_QUIVER },
+        { xi.items.RIGHTEOUS_BOLT, xi.items.RIGHTEOUS_BOLT_QUIVER },
+        { xi.items.SLEEP_BOLT, xi.items.SLEEP_BOLT_QUIVER },
+        { xi.items.TITANIUM_BOLT, xi.items.TITANIUM_BOLT_QUIVER },
+        { xi.items.VENOM_BOLT, xi.items.VENOM_BOLT_QUIVER },
 
-        { 19803, 5915 }, -- bullet, adaman
-        { 21336, 6208 }, -- bullet, adlivun
-        { 21337, 6207 }, -- bullet, achiyalabopa
-        { 17340, 5363 }, -- bullet
-        { 21333, 6210 }, -- bullet, bismuth
-        { 17343, 5359 }, -- bullet, bronze
-        { 21338, 6143 }, -- bullet, damascus
-        { 19184, 5873 }, -- bullet, dark adaman
-        { 21330, 6311 }, -- bullet, decimating
-        { 21328, 6437 }, -- bullet, divine
-        { 19198, 5822 }, -- bullet, dweomer
-        { 21331, 6271 }, -- bullet, eminent
-        { 17312, 5353 }, -- bullet, iron
-        { 19802, 5914 }, -- bullet, orichalcum
-        { 19199, 5823 }, -- bullet, oberon's
-        { 21332, 6282 }, -- bullet, ra'kaznar
-        { 17341, 5340 }, -- bullet, silver
-        { 18723, 5416 }, -- bullet, steel
-        { 18160, 5341 }, -- bullet, spartan
-        { 21335, 6209 }, -- bullet, titanium
+        { xi.items.ADAMAN_BULLET, xi.items.ADAMAN_BULLET_POUCH },
+        { xi.items.ADLIVUN_BULLET, xi.items.ADLIVUN_BULLET_POUCH },
+        { xi.items.ACHIYALABOPA_BULLET, xi.items.ACHIYALABOPA_BULLET_POUCH },
+        { xi.items.BULLET, xi.items.BULLET_POUCH },
+        { xi.items.BISMUTH_BULLET, xi.items.BISMUTH_BULLET_POUCH },
+        { xi.items.BRONZE_BULLET, xi.items.BRONZE_BULLET_POUCH },
+        { xi.items.DAMASCUS_BULLET, xi.items.DAMASCUS_BULLET_POUCH },
+        { xi.items.DARK_ADAMAN_BULLET, xi.items.DARK_ADAMAN_BULLET_POUCH },
+        { xi.items.DECIMATING_BULLET, xi.items.DECIMATING_BULLET_POUCH },
+        { xi.items.DIVINE_BULLET, xi.items.DIVINE_BULLET_POUCH },
+        { xi.items.DWEOMER_BULLET, xi.items.DWEOMER_BULLET_POUCH },
+        { xi.items.EMINENT_BULLET, xi.items.EMINENT_BULLET_POUCH },
+        { xi.items.IRON_BULLET, xi.items.IRON_BULLET_POUCH },
+        { xi.items.ORICHALCUM_BULLET, xi.items.ORICHALCUM_BULLET_POUCH },
+        { xi.items.OBERONS_BULLET, xi.items.OBERON_BULLET_POUCH },
+        { xi.items.RAKAZNAR_BULLET, xi.items.RAKAZNAR_BULLET_POUCH },
+        { xi.items.SILVER_BULLET, xi.items.SILVER_BULLET_POUCH },
+        { xi.items.STEEL_BULLET, xi.items.STEEL_BULLET_POUCH },
+        { xi.items.SPARTAN_BULLET, xi.items.SPARTAN_BULLET_POUCH },
+        { xi.items.TITANIUM_BULLET, xi.items.TITANIUM_BULLET_POUCH },
 
-        { 2176, 5402 }, -- card, fire
-        { 2177, 5403 }, -- card, ice
-        { 2178, 5404 }, -- card, wind
-        { 2179, 5405 }, -- card, earth
-        { 2180, 5406 }, -- card, thunder
-        { 2181, 5407 }, -- card, water
-        { 2182, 5408 }, -- card, light
-        { 2183, 5409 }, -- card, dark
+        { xi.items.FIRE_CARD, xi.items.FIRE_CARD_CASE },
+        { xi.items.ICE_CARD, xi.items.ICE_CARD_CASE },
+        { xi.items.WIND_CARD, xi.items.WIND_CARD_CASE },
+        { xi.items.EARTH_CARD, xi.items.EARTH_CARD_CASE },
+        { xi.items.THUNDER_CARD, xi.items.THUNDER_CARD_CASE },
+        { xi.items.WATER_CARD, xi.items.WATER_CARD_CASE },
+        { xi.items.LIGHT_CARD, xi.items.LIGHT_CARD_CASE },
+        { xi.items.DARK_CARD, xi.items.DARK_CARD_CASE },
     }
 
     local carnationsNeeded = 0
