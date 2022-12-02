@@ -5,12 +5,13 @@
 -----------------------------------
 require("scripts/globals/missions")
 require("scripts/globals/npc_util")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHasExactly(trade, { 1695, 4297, 4506 }) and -- Habaneros, Black Curry, Mutton Tortilla
+        npcUtil.tradeHasExactly(trade, { xi.items.BUNCH_OF_HABANERO_PEPPERS, xi.items.SERVING_OF_BLACK_CURRY, xi.items.MUTTON_TORTILLA }) and
         player:getCharVar("TuningOut_Progress") == 6
     then
         player:startEvent(207, 0, 1695) -- Receives spicy food, mentions only one of them
