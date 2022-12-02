@@ -59,7 +59,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.GRAVE_CONCERNS)
             player:setCharVar("graveConcernsVar", 0)
             player:addItem(xi.items.SKIN_OF_WELL_WATER)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 567) -- Well Water
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SKIN_OF_WELL_WATER)
         end
     elseif csid == 624 then
         player:tradeComplete()

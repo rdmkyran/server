@@ -133,7 +133,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 713 or csid == 712 then
         if player:getFreeSlotsCount() ~= 0 then
             player:addItem(xi.items.ICE_PENDULUM)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1171)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ICE_PENDULUM)
             player:setCharVar("ClassReunionProgress", 5)
         else
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1171)

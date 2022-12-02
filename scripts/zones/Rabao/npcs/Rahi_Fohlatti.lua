@@ -58,14 +58,14 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:addQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.TRIAL_SIZE_TRIAL_BY_WIND)
             player:addItem(xi.items.MINI_TUNING_FORK_OF_WIND)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1546)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MINI_TUNING_FORK_OF_WIND)
         end
     elseif csid == 112 and option == 1 then
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1546) --Mini tuning fork
         else
             player:addItem(xi.items.MINI_TUNING_FORK_OF_WIND)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1546)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MINI_TUNING_FORK_OF_WIND)
         end
     elseif csid == 109 and option == 1 then
         xi.teleport.to(player, xi.teleport.id.CLOISTER_OF_GALES)

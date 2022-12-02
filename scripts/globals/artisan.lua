@@ -4,6 +4,7 @@
 --
 -----------------------------------
 require('scripts/globals/zone')
+require("scripts/globals/items")
 require('scripts/globals/status')
 -----------------------------------
 

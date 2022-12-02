@@ -81,7 +81,7 @@ entity.onEventFinish = function(player, csid, option, npc)
             player:addFame(xi.quest.fame_area.WINDURST, 75)
             player:completeQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.THE_OPO_OPO_AND_I)
             player:addItem(xi.items.OPO_OPO_CROWN)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13870)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.OPO_OPO_CROWN)
             player:addItem(4468, 3)  -- 3 pamamas
             player:messageSpecial(ID.text.ITEM_OBTAINED, 4468, 3)
             player:setCharVar("OPO_OPO_PROGRESS", 0)

@@ -5,6 +5,7 @@
 -- !pos -17 2 10 230
 -----------------------------------
 local ID = require("scripts/zones/Southern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/quests")
 require("scripts/globals/utils")
@@ -65,7 +66,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:delKeyItem(xi.ki.MYTHRIL_HEARTS)
             player:addItem(13585, 1)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13585)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.WHITE_CAPE)
             player:setCharVar("DistantLoyaltiesProgress", 0)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.DISTANT_LOYALTIES)
         end

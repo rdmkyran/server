@@ -6,6 +6,7 @@
 -- Starts and Finishes Quest: Gates of Paradise
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/titles")
 require("scripts/globals/keyitems")
 require("scripts/globals/quests")
@@ -50,7 +51,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addTitle(xi.title.THE_PIOUS_ONE)
             player:delKeyItem(xi.ki.SCRIPTURE_OF_WATER)
             player:addItem(13584, 1)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13584)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.COTTON_CAPE)
         end
     end
 end

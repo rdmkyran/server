@@ -6,6 +6,7 @@
 --  Involved in Quest: To Bee or Not to Bee?
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Walls/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/quests")
 -----------------------------------
@@ -52,7 +53,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:addQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.TO_BEE_OR_NOT_TO_BEE)
             player:addItem(xi.items.POT_OF_HONEY)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 4370) -- Gives player Honey x1
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.POT_OF_HONEY)
         end
     elseif csid == 80 then -- After Honey#5: ToBee quest Finish (tooth hurts from all the Honey)
         if player:getFreeSlotsCount() == 0 then

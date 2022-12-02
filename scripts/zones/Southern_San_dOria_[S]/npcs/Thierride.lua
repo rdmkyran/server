@@ -61,7 +61,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 5704)
         else
             player:addItem(5704, 1)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 5704)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ANGLERS_CASSOULET)
             player:setCharVar("BeansAhoy_ConquestWeek", getConquestTally())
             if csid == 340 then
                 player:completeQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.BEANS_AHOY)

@@ -5,6 +5,7 @@
 -- !pos -14 -2 -45 232
 -----------------------------------
 local ID = require("scripts/zones/Port_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")
@@ -72,7 +73,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:tradeComplete()
             player:addItem(xi.items.LU_SHANGS_FISHING_ROD)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 17386)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.LU_SHANGS_FISHING_ROD)
             player:addTitle(xi.title.CARP_DIEM)
             player:addKeyItem(xi.ki.TESTIMONIAL)
             player:messageSpecial(ID.text.KEYITEM_OBTAINED, xi.ki.TESTIMONIAL)

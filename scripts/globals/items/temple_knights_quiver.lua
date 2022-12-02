@@ -4,6 +4,7 @@
 -- When used, you will obtain one Temple Knight's Arrow
 -----------------------------------
 require("scripts/globals/msg")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 

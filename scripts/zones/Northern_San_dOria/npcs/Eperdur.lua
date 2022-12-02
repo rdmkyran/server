@@ -5,6 +5,7 @@
 -- !pos 129 -6 96 231
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/titles")
 require("scripts/globals/keyitems")
 require("scripts/globals/quests")
@@ -74,7 +75,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:addTitle(xi.title.PILGRIM_TO_HOLLA)
             player:addItem(xi.items.SCROLL_OF_TELEPORT_HOLLA)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 4730) -- Scroll of Teleport-Holla
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SCROLL_OF_TELEPORT_HOLLA)
             player:needToZone(true)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.HEALING_THE_LAND)
@@ -87,7 +88,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:delKeyItem(xi.ki.FEIYIN_MAGIC_TOME)
             player:addItem(xi.items.SCROLL_OF_TELEPORT_VAHZL)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 4747) -- Scroll of Teleport-Vahzl
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SCROLL_OF_TELEPORT_VAHZL)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.SORCERY_OF_THE_NORTH)
         end

@@ -123,7 +123,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14625) -- Evokers Ring
         else
             player:addItem(xi.items.EVOKERS_RING)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 14625) -- Evokers Ring
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.EVOKERS_RING)
             player:addFame(xi.quest.fame_area.NORG, 30) --idk how much fame the quest adds, just left at 30 which the levi quest gave.
             player:completeQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.MAMA_MIA)
             player:setCharVar("tradesMamaMia", 0)

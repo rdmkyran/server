@@ -117,7 +117,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:delKeyItem(xi.ki.ORDELLE_WHETSTONE)
             player:addItem(xi.items.HONOR_SWORD)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 17643) -- Honor Sword
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.HONOR_SWORD)
             player:setCharVar("sharpeningTheSwordCS", 0)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.SHARPENING_THE_SWORD)

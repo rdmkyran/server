@@ -7,6 +7,7 @@
 -- Involved in quests: Lost Chick
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Woods/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 require("scripts/globals/titles")
 -----------------------------------
@@ -68,7 +69,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13330) -- Tourmaline Earring
         else
             player:addItem(xi.items.TOURMALINE_EARRING)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13330) -- Tourmaline Earring
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.TOURMALINE_EARRING)
             player:addFame(xi.quest.fame_area.WINDURST, 30)
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.A_GREETING_CARDIAN)
             player:needToZone(true) -- zone before starting Legendary Plan B

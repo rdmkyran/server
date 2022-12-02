@@ -93,7 +93,7 @@ end
 
 zoneObject.onEventFinish = function(player, csid, option)
     if csid == 535 then
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 536) -- adventurer coupon
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ADVENTURER_COUPON)
     elseif csid == 569 then
         player:setPos(0, 0, -13, 192, 233)
     elseif

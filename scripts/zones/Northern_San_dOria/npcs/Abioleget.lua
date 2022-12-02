@@ -52,7 +52,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 13465)
         else
             player:addItem(xi.items.BRASS_RING)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13465)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.BRASS_RING)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:addTitle(xi.title.THE_BENEVOLENT_ONE)
             player:setCharVar("sermonQuestVar", 0)
@@ -62,7 +62,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_VICASQUE_S_SERMON)
     elseif csid == 591 then
         player:addItem(xi.items.BLUE_PEAS)
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 618)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.BLUE_PEAS)
     end
 end
 

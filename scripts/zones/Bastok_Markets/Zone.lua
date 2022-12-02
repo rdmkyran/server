@@ -2,6 +2,7 @@
 -- Zone: Bastok_Markets (235)
 -----------------------------------
 require('scripts/globals/events/harvest_festivals')
+require("scripts/globals/items")
 require('scripts/globals/events/starlight_celebrations')
 require('scripts/globals/cutscenes')
 require('scripts/globals/settings')
@@ -61,7 +62,7 @@ end
 
 zoneObject.onEventFinish = function(player, csid, option)
     if csid == 0 then
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 536)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ADVENTURER_COUPON)
     end
 end
 

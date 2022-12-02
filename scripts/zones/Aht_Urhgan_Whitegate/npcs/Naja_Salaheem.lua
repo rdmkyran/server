@@ -5,6 +5,7 @@
 -- !pos 22.700 -8.804 -45.591 50
 -----------------------------------
 local ID = require("scripts/zones/Aht_Urhgan_Whitegate/IDs")
+require("scripts/globals/items")
 require("scripts/globals/missions")
 require("scripts/globals/keyitems")
 require("scripts/globals/titles")
@@ -34,7 +35,7 @@ entity.onEventFinish = function(player, csid, option)
     if csid == 3144 then
         player:completeMission(xi.mission.log_id.TOAU, xi.mission.id.toau.THE_EMPRESS_CROWNED)
         player:addItem(xi.items.GLORY_CROWN)
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 16070)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.GLORY_CROWN)
         player:addMission(xi.mission.log_id.TOAU, xi.mission.id.toau.ETERNAL_MERCENARY)
     end
 end

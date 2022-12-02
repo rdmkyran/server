@@ -119,7 +119,7 @@ entity.onEventFinish = function(player, csid, option)
 
             player:tradeComplete()
             player:addItem(xi.items.CASTING_WAND)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 17423) -- Casting Wand
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CASTING_WAND)
             player:needToZone(true)
             player:setCharVar("theThreeMagiSupport", 0)
             player:addFame(xi.quest.fame_area.WINDURST, 20)
@@ -137,7 +137,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("recollectionsQuest", 0)
             player:delKeyItem(xi.ki.FOE_FINDER_MK_I)
             player:addItem(xi.items.WIZARDS_SABOTS)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 14092) -- wizards sabots
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.WIZARDS_SABOTS)
             player:addFame(xi.quest.fame_area.WINDURST, 40)
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.RECOLLECTIONS)
         end
@@ -153,7 +153,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_ROOT_OF_THE_PROBLEM)
             player:addItem(xi.items.WIZARDS_PETASOS)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13856)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.WIZARDS_PETASOS)
             player:addTitle(xi.title.PARAGON_OF_BLACK_MAGE_EXCELLENCE)
             player:delKeyItem(xi.ki.SLUICE_SURVEYOR_MK_I)
         end

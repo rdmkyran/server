@@ -41,7 +41,7 @@ battlefieldObject.onEventFinish = function(player, csid, option)
 
         if not player:hasItem(4181) then
             player:addItem(xi.items.SCROLL_OF_INSTANT_WARP)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 4181)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SCROLL_OF_INSTANT_WARP)
         end
 
         player:addFame(xi.quest.fame_area.BASTOK, 30)

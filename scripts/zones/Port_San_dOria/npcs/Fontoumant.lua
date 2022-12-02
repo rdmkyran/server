@@ -6,6 +6,7 @@
 -- !pos -10 -10 -122 232
 -----------------------------------
 local ID = require("scripts/zones/Port_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/settings")
 require("scripts/globals/quests")
@@ -64,7 +65,7 @@ entity.onEventFinish = function(player, csid, option)
     if csid == 509 and option == 0 then
         if freeSlots ~= 0 then
             player:addItem(xi.items.PARCEL_FOR_THE_MAGIC_SHOP)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 593)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.PARCEL_FOR_THE_MAGIC_SHOP)
             player:addQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_BRUGAIRE_CONSORTIUM)
             player:setCharVar("TheBrugaireConsortium-Parcels", 10)
         else
@@ -73,7 +74,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 511 then
         if freeSlots ~= 0 then
             player:addItem(xi.items.PARCEL_FOR_THE_AUCTION_HOUSE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 594)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.PARCEL_FOR_THE_AUCTION_HOUSE)
             player:setCharVar("TheBrugaireConsortium-Parcels", 20)
         else
             player:startEvent(537)
@@ -81,7 +82,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 512 then
         if freeSlots ~= 0 then
             player:addItem(xi.items.PARCEL_FOR_THE_PUB)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 595)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.PARCEL_FOR_THE_PUB)
             player:setCharVar("TheBrugaireConsortium-Parcels", 30)
         else
             player:startEvent(537)
@@ -91,7 +92,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 515 then
         if freeSlots ~= 0 then
             player:addItem(xi.items.LAUAN_SHIELD)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 12289)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.LAUAN_SHIELD)
             player:addTitle(xi.title.COURIER_EXTRAORDINAIRE)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.THE_BRUGAIRE_CONSORTIUM)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)

@@ -6,6 +6,7 @@
 -- !pos -38 -3 73 233
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")
 require("scripts/globals/missions")
@@ -97,7 +98,7 @@ entity.onEventFinish = function(player, csid, option)
 
             player:delKeyItem(xi.ki.KNIGHTS_BOOTS)
             player:addItem(xi.items.GALLANT_LEGGINGS)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 14095) -- Gallant Leggings
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.GALLANT_LEGGINGS)
             player:setCharVar("aBoysDreamCS", 0)
             player:addFame(xi.quest.fame_area.SANDORIA, 40)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_BOY_S_DREAM)
@@ -110,7 +111,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 12644)
         else
             player:addItem(xi.items.GALLANT_SURCOAT)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 12644) -- Gallant Surcoat
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.GALLANT_SURCOAT)
             player:setCharVar("UnderOathCS", 9)
             player:addFame(xi.quest.fame_area.SANDORIA, 60)
             player:setTitle(xi.title.PARAGON_OF_PALADIN_EXCELLENCE)

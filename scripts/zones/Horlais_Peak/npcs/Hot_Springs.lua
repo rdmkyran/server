@@ -29,7 +29,7 @@ entity.onEventFinish = function(player, csid, option)
     if csid == 2 then
         player:tradeComplete()
         player:addItem(xi.items.SCROLL_OF_JUBAKU_ICHI)
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 4949)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SCROLL_OF_JUBAKU_ICHI)
         player:addFame(xi.quest.fame_area.NORG, 75)
         player:addTitle(xi.title.CRACKER_OF_THE_SECRET_CODE)
         player:completeQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.SECRET_OF_THE_DAMP_SCROLL)

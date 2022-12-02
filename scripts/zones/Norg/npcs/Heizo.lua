@@ -60,7 +60,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 129 then
         player:tradeComplete()
         player:addItem(xi.items.SCROLL_OF_DOKUMORI_ICHI)
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 4958) -- Scroll of Dokumori: Ichi
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SCROLL_OF_DOKUMORI_ICHI)
         player:addFame(xi.quest.fame_area.NORG, 100)
         player:addTitle(xi.title.LOOKS_GOOD_IN_LEGGINGS)
         player:setCharVar("shiningLeggings_nb", 0)

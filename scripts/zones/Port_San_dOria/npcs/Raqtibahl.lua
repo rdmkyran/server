@@ -72,7 +72,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 756 then
         player:setCharVar("LeleroonsLetterRed", 5)
         player:addItem(xi.items.CORSAIRS_FRAC)
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 14522)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CORSAIRS_FRAC)
     end
 end
 

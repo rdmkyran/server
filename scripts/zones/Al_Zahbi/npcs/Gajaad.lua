@@ -5,6 +5,7 @@
 -- !pos 40.781 -1.398 116.261 48
 -----------------------------------
 local ID = require("scripts/zones/Al_Zahbi/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -17,7 +18,7 @@ entity.onTrade = function(player, npc, trade)
             if player:addItem(xi.items.WALAHRA_TURBAN) then
                 player:setCharVar("walahraCoinCount", walahraCoinCount - (1000 - tradeCount))
                 player:tradeComplete()
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 15270)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.WALAHRA_TURBAN)
                 player:startEvent(102, 2184, 0, tradeCount)
             else
                 player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 15270)
@@ -27,7 +28,7 @@ entity.onTrade = function(player, npc, trade)
                 player:tradeComplete()
                 player:setCharVar("walahraCoinCount", walahraCoinCount + tradeCount)
                 player:addItem(xi.items.FLASK_OF_WALAHRA_WATER)
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 5354)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.FLASK_OF_WALAHRA_WATER)
                 player:startEvent(102, 2184, 0, tradeCount)
             else
                 player:tradeComplete()

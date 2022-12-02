@@ -5,6 +5,7 @@
 -- !pos 71 -1 65 230
 -----------------------------------
 local ID = require("scripts/zones/Southern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")
 require("scripts/globals/titles")
@@ -47,7 +48,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addTitle(xi.title.ARMS_TRADER)
             player:delKeyItem(xi.ki.WEAPONS_RECEIPT)
             player:addItem(xi.items.ELM_STAFF)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 17090) -- Elm Staff
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ELM_STAFF)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_PURCHASE_OF_ARMS)
         end

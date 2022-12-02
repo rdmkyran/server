@@ -5,6 +5,7 @@
 -- !pos 180 -32 167 143
 -----------------------------------
 local ID = require("scripts/zones/Palborough_Mines/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 

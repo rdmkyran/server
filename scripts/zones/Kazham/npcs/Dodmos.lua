@@ -58,14 +58,14 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:addQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.TRIAL_SIZE_TRIAL_BY_FIRE)
             player:addItem(xi.items.MINI_TUNING_FORK_OF_FIRE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1544)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MINI_TUNING_FORK_OF_FIRE)
         end
     elseif csid == 290 and option == 1 then
         if player:getFreeSlotsCount() == 0 then
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 1544) --Mini tuning fork
         else
             player:addItem(xi.items.MINI_TUNING_FORK_OF_FIRE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1544)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MINI_TUNING_FORK_OF_FIRE)
         end
     elseif csid == 287 and option == 1 then
         xi.teleport.to(player, xi.teleport.id.CLOISTER_OF_FLAMES)

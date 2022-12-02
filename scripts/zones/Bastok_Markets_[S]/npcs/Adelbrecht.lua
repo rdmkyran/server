@@ -15,6 +15,7 @@
 -- Todo: medal loss from nation switching. Since there is no rank-up yet, this isn't so important for now.
 -----------------------------------
 local ID = require("scripts/zones/Bastok_Markets_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")
 require("scripts/globals/titles")
@@ -96,7 +97,7 @@ entity.onEventFinish = function(player, csid, option)
                 player:addItem(xi.items.SPRINTERS_SHOES)
                 player:completeQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.THE_FIGHTING_FOURTH)
                 player:messageSpecial(ID.text.KEYITEM_OBTAINED, xi.ki.BRONZE_RIBBON_OF_SERVICE)
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 15754)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SPRINTERS_SHOES)
             else
                 player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 15754)
             end

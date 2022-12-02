@@ -5,6 +5,7 @@
 -- !pos -80 0 104 244
 -----------------------------------
 local ID = require("scripts/zones/Upper_Jeuno/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/quests")
 require("scripts/globals/titles")
@@ -75,7 +76,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addGil(1200)
             player:messageSpecial(ID.text.GIL_OBTAINED, 1200)
             player:addItem(xi.items.TIME_HAMMER)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 17083)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.TIME_HAMMER)
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_CLOCKMASTER)
         end
@@ -89,7 +90,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addGil(1200)
             player:messageSpecial(ID.text.GIL_OBTAINED, 1200)
             player:addItem(xi.items.ENGINEERS_GLOVES)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 12727)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ENGINEERS_GLOVES)
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.A_CLOCK_MOST_DELICATE)
             player:addQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.SAVE_THE_CLOCK_TOWER) -- Start next quest "Save the Clock Tower"

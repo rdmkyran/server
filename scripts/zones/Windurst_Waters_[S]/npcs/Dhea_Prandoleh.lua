@@ -5,6 +5,7 @@
 -- !pos 1 -1 15 94
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 require("scripts/globals/titles")
 -----------------------------------
@@ -47,7 +48,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.THE_TIGRESS_STRIKES)
     elseif csid == 134 then
         player:addItem(xi.items.STAR_GLOBE)
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 139)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.STAR_GLOBE)
         player:completeQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.THE_TIGRESS_STRIKES)
         player:needToZone(true)
         player:addTitle(xi.title.AJIDO_MARUJIDOS_MINDER)

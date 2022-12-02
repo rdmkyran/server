@@ -44,7 +44,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:completeQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.PERSONAL_HYGIENE)
             player:addItem(xi.items.MITHRAN_STONE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13247)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MITHRAN_STONE)
         end
     end
 end

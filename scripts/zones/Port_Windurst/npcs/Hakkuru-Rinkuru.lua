@@ -97,8 +97,8 @@ entity.onEventFinish = function(player, csid, option)
             else
                 player:addItem(17091, 1)
                 player:addItem(17061, 1) --Returns the Oak Staff and the Mythril Rod
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 17091)
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 17061)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.OAK_STAFF)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MYTHRIL_ROD)
                 player:setCharVar("SecondRewardVar", 0)
             end
         elseif rand == 2 then
@@ -110,8 +110,8 @@ entity.onEventFinish = function(player, csid, option)
             else
                 player:addItem(17091, 1)
                 player:addItem(17053, 1) --Returns the Oak Staff and the Rose Wand
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 17091)
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 17053)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.OAK_STAFF)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ROSE_WAND)
                 player:setCharVar("SecondRewardVar", 0)
             end
         elseif rand == 3 then
@@ -123,8 +123,8 @@ entity.onEventFinish = function(player, csid, option)
             else
                 player:addItem(17061, 1)
                 player:addItem(17053, 1) --Returns the Rose Wand and the Mythril Rod
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 17061)
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 17053)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MYTHRIL_ROD)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ROSE_WAND)
                 player:setCharVar("SecondRewardVar", 0)
             end
         end
@@ -136,7 +136,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addGil(xi.settings.main.GIL_RATE * 4800)
             player:messageSpecial(ID.text.GIL_OBTAINED, 4800)
             player:addItem(xi.items.NEW_MOON_ARMLETS)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 12750) -- New Moon Armlets
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.NEW_MOON_ARMLETS)
             player:addFame(xi.quest.fame_area.WINDURST, 150)
             player:addTitle(xi.title.DOCTOR_SHANTOTTOS_GUINEA_PIG)
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.WONDER_WANDS)

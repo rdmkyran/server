@@ -88,14 +88,14 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 555)
         else
             player:addItem(xi.items.CLOCK_TOWER_PETITION)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 555)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CLOCK_TOWER_PETITION)
             player:setCharVar("saveTheClockTowerVar", 1)
             player:setCharVar("saveTheClockTowerNPCz1", 0)
             player:setCharVar("saveTheClockTowerNPCz2", 0)
         end
     elseif csid == 230 and option == 30 then
         if player:hasItem(555) then
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 555)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CLOCK_TOWER_PETITION)
             player:setCharVar("saveTheClockTowerVar", 1)
             player:setCharVar("saveTheClockTowerNPCz1", 0)
             player:setCharVar("saveTheClockTowerNPCz2", 0)
@@ -104,7 +104,7 @@ entity.onEventFinish = function(player, csid, option)
                 player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 555)
             else
                 player:addItem(xi.items.CLOCK_TOWER_PETITION)
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 555)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CLOCK_TOWER_PETITION)
                 player:setCharVar("saveTheClockTowerVar", 1)
                 player:setCharVar("saveTheClockTowerNPCz1", 0)
                 player:setCharVar("saveTheClockTowerNPCz2", 0)

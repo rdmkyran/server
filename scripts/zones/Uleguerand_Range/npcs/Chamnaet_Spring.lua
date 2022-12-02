@@ -18,7 +18,7 @@ entity.onTrade = function(player, npc, trade)
         else
             player:tradeComplete()
             player:addItem(xi.items.HANDFUL_OF_CHAMNAET_ICE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1780) -- Chamnaet Ice
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.HANDFUL_OF_CHAMNAET_ICE)
         end
     end
 end

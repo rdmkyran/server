@@ -2,6 +2,7 @@
 -- Zone: Bastok_Mines (234)
 -----------------------------------
 local ID = require('scripts/zones/Bastok_Mines/IDs')
+require("scripts/globals/items")
 require('scripts/globals/events/harvest_festivals')
 require('scripts/globals/events/starlight_celebrations')
 require('scripts/globals/conquest')
@@ -57,7 +58,7 @@ end
 
 zoneObject.onEventFinish = function(player, csid, option)
     if csid == 1 then
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 536) -- adventurer coupon
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ADVENTURER_COUPON)
     end
 end
 

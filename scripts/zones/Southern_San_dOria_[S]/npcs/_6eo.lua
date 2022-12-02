@@ -5,6 +5,7 @@
 -- Involved in Knot Quite There
 -----------------------------------
 local ID = require("scripts/zones/Southern_San_dOria_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 require("scripts/globals/settings")
 -----------------------------------
@@ -32,7 +33,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:completeQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.KNOT_QUITE_THERE)
             player:addItem(xi.items.PLATINUM_BEASTCOIN)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 751) --Platinum Beastcoin
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.PLATINUM_BEASTCOIN)
             player:setCharVar("KnotQuiteThere", 0)
         end
     end

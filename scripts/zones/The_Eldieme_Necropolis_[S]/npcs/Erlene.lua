@@ -145,7 +145,7 @@ entity.onEventFinish = function(player, csid, option)
             player:delKeyItem(xi.ki.SCHULTZS_SEALED_LETTER)
             player:completeQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.ON_SABBATICAL)
             player:addItem(xi.items.KLIMAFORM_SCHEMA)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 6058)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.KLIMAFORM_SCHEMA)
             player:setCharVar("onSabbatical", 0)
             player:setCharVar("Erlene_Sabbatical_Timer", VanadielDayOfTheYear())
         end
@@ -160,7 +160,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:completeQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.DOWNWARD_HELIX)
             player:addItem(xi.items.SCHOLARS_BRACERS)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 15004)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SCHOLARS_BRACERS)
             player:setCharVar("DownwardHelix", 0)
         end
     end

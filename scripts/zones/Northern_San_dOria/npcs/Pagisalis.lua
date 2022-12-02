@@ -46,7 +46,7 @@ entity.onEventFinish = function(player, csid, option)
             player:tradeComplete()
             player:addTitle(xi.title.FAITH_LIKE_A_CANDLE)
             player:addItem(xi.items.FRIARS_ROPE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13211) -- Friars Rope
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.FRIARS_ROPE)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.UNDYING_FLAMES)
         end

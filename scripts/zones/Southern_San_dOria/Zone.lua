@@ -2,6 +2,7 @@
 -- Zone: Southern_San_dOria (230)
 -----------------------------------
 local ID = require('scripts/zones/Southern_San_dOria/IDs')
+require("scripts/globals/items")
 require('scripts/globals/events/harvest_festivals')
 require('scripts/globals/events/starlight_celebrations')
 require('scripts/quests/flyers_for_regine')
@@ -63,7 +64,7 @@ end
 
 zoneObject.onEventFinish = function(player, csid, option)
     if csid == 503 then
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 536)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ADVENTURER_COUPON)
     end
 end
 

@@ -103,7 +103,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 410 then
         if player:getFreeSlotsCount() ~= 0 then
             player:addItem(xi.items.EVOKERS_SPATS)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 14228)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.EVOKERS_SPATS)
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.CLASS_REUNION)
             player:setCharVar("ClassReunionProgress", 0)
             player:setCharVar("ClassReunion_TalkedToFurakku", 0)
@@ -122,7 +122,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 419 then
         if player:getFreeSlotsCount() ~= 0 then
             player:addItem(xi.items.EVOKERS_HORN)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 12520)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.EVOKERS_HORN)
             player:addTitle(xi.title.PARAGON_OF_SUMMONER_EXCELLENCE)
             player:completeQuest(xi.quest.log_id.WINDURST, xi.quest.id.windurst.CARBUNCLE_DEBACLE)
             player:addFame(xi.quest.fame_area.WINDURST, 60)

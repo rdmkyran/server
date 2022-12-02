@@ -5,6 +5,7 @@
 -- !pos -193.584 10 148.655 231
 -----------------------------------
 local ID = require("scripts/zones/Northern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/crafting")
 require("scripts/globals/roe")
 require("scripts/globals/status")
@@ -86,7 +87,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 4096)
         else
             player:addItem(xi.items.FIRE_CRYSTAL)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 4096) -- Fire Crystal
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.FIRE_CRYSTAL)
             xi.crafting.signupGuild(player, xi.crafting.guild.smithing)
         end
     elseif (csid == 626 and option > 900) then

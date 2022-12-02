@@ -109,7 +109,7 @@ entity.onEventFinish = function(player, csid, option)
 
     elseif csid == 151 then
         player:setCharVar("TheRequiemCS", 3)
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 4154) -- Holy Water (just message)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.FLASK_OF_HOLY_WATER)
         player:setCharVar("TheRequiemRandom", math.random(1, 5)) -- pick a random sarcophagus
 
     elseif csid == 150 then
@@ -117,7 +117,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14098)
         else
             player:addItem(xi.items.CHORAL_SLIPPERS)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 14098) -- Choral Slippers
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.CHORAL_SLIPPERS)
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_REQUIEM)
         end

@@ -4,6 +4,7 @@
 -- !pos 5.323 -2 37.462 94
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/missions")
 require("scripts/globals/settings")
@@ -100,7 +101,7 @@ entity.onEventFinish = function(player, csid, option)
                 player:completeQuest(xi.quest.log_id.CRYSTAL_WAR, xi.quest.id.crystalWar.SNAKE_ON_THE_PLAINS)
                 player:setCharVar("SEALED_DOORS", 0)
                 player:messageSpecial(ID.text.KEYITEM_OBTAINED, xi.ki.BRONZE_RIBBON_OF_SERVICE)
-                player:messageSpecial(ID.text.ITEM_OBTAINED, 15754)
+                player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SPRINTERS_SHOES)
             else
                 player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 15754)
             end

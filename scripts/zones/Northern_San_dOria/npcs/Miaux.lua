@@ -5,6 +5,7 @@
 -- !pos -169.127 2.999 158.677 231
 -----------------------------------
 local ID = require("scripts/zones/Northern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")
 require("scripts/globals/quests")
@@ -64,7 +65,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("aCraftsmanWork", 0)
             player:delKeyItem(xi.ki.ALTEPA_POLISHING_STONE)
             player:addItem(xi.items.PEREGRINE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 16887) -- Peregrine (DRG AF1)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.PEREGRINE)
             player:addFame(xi.quest.fame_area.SANDORIA, 20)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_CRAFTSMAN_S_WORK)
         end

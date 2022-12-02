@@ -6,6 +6,7 @@
 -- !pos -23 0 -9 252
 -----------------------------------
 local ID = require("scripts/zones/Norg/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/settings")
 require("scripts/globals/quests")
@@ -80,8 +81,8 @@ entity.onEventFinish = function(player, csid, option)
             player:delKeyItem(xi.ki.TRICK_BOX)
             player:addItem(xi.items.ANJU)
             player:addItem(xi.items.ZUSHIO)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 17771) -- Anju
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 17772) -- Zushio
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ANJU)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ZUSHIO)
             player:needToZone()
             player:setCharVar("twentyInPirateYearsCS", 0)
             player:addFame(xi.quest.fame_area.NORG, 30)

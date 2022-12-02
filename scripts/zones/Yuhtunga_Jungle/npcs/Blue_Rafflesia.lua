@@ -96,7 +96,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("RafflesiaScentDay", VanadielDayOfTheYear())
             player:setCharVar("RafflesiaScentYear", VanadielYear())
             player:addItem(xi.items.JAR_OF_RAFFLESIA_NECTAR)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1144)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.JAR_OF_RAFFLESIA_NECTAR)
             player:messageSpecial(ID.text.FEEL_DIZZY) -- You feel slightly dizzy. You must have breathed in too much of the pollen.
             if evenmoreTravelsStatus == QUEST_ACCEPTED then
                 player:setCharVar("EVEN_MORE_GULLIBLES_PROGRESS", 2)
@@ -104,7 +104,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:setCharVar("FirstBlueRafflesiaCS", 1)
             player:addItem(xi.items.JAR_OF_RAFFLESIA_NECTAR)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1144)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.JAR_OF_RAFFLESIA_NECTAR)
         end
     elseif csid == 22 and option == 1 then
         if
@@ -117,7 +117,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("RafflesiaScentDay", VanadielDayOfTheYear())
             player:setCharVar("RafflesiaScentYear", VanadielYear())
             player:addItem(xi.items.JAR_OF_RAFFLESIA_NECTAR)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1144)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.JAR_OF_RAFFLESIA_NECTAR)
             player:messageSpecial(ID.text.FEEL_DIZZY) -- You feel slightly dizzy. You must have breathed in too much of the pollen.
             if evenmoreTravelsStatus == QUEST_ACCEPTED then
                 player:setCharVar("EVEN_MORE_GULLIBLES_PROGRESS", 2)
@@ -125,7 +125,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:setCharVar("SecondBlueRafflesiaCS", 1)
             player:addItem(xi.items.JAR_OF_RAFFLESIA_NECTAR)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1144)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.JAR_OF_RAFFLESIA_NECTAR)
         end
     elseif csid == 23 and option == 1 then
         if
@@ -138,7 +138,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("RafflesiaScentDay", VanadielDayOfTheYear())
             player:setCharVar("RafflesiaScentYear", VanadielYear())
             player:addItem(xi.items.JAR_OF_RAFFLESIA_NECTAR)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1144)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.JAR_OF_RAFFLESIA_NECTAR)
             player:messageSpecial(ID.text.FEEL_DIZZY) -- You feel slightly dizzy. You must have breathed in too much of the pollen.
             if evenmoreTravelsStatus == QUEST_ACCEPTED then
                 player:setCharVar("EVEN_MORE_GULLIBLES_PROGRESS", 2)
@@ -146,7 +146,7 @@ entity.onEventFinish = function(player, csid, option)
         else
             player:setCharVar("ThirdBlueRafflesiaCS", 1)
             player:addItem(xi.items.JAR_OF_RAFFLESIA_NECTAR)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1144)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.JAR_OF_RAFFLESIA_NECTAR)
         end
     end
 end

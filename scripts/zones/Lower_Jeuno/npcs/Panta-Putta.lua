@@ -6,6 +6,7 @@
 -- !pos -61 0 -140 245
 -----------------------------------
 local ID = require("scripts/zones/Lower_Jeuno/IDs")
+require("scripts/globals/items")
 require("scripts/globals/titles")
 require("scripts/globals/keyitems")
 require("scripts/globals/quests")
@@ -78,7 +79,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addTitle(xi.title.FOOLS_ERRAND_RUNNER)
             player:delKeyItem(xi.ki.WONDER_MAGIC_SET)
             player:addItem(xi.items.MYTHRIL_EARRING)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13328)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MYTHRIL_EARRING)
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:needToZone(true)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_WONDER_MAGIC_SET)
@@ -93,7 +94,7 @@ entity.onEventFinish = function(player, csid, option)
             player:delKeyItem(xi.ki.TWO_OF_SWORDS)
             player:setCharVar("theKindCardianVar", 0)
             player:addItem(xi.items.GREEN_CAPE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13596) -- Green Cape
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.GREEN_CAPE)
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.THE_KIND_CARDIAN)
         end

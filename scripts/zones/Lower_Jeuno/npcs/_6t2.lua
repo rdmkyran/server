@@ -5,6 +5,7 @@
 -- Optional Involvement in Quest: Chocobo's Wounds, Path of the Beastmaster
 -----------------------------------
 local ID = require("scripts/zones/Lower_Jeuno/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/quests")
 require("scripts/globals/status")
@@ -89,7 +90,7 @@ entity.onEventFinish = function(player, csid, option)
         if player:getFreeSlotsCount(0) >= 1 then
             player:addTitle(xi.title.LIFE_SAVER)
             player:addItem(xi.items.BEAST_WHISTLE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13110)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.BEAST_WHISTLE)
             player:addGil(xi.settings.main.GIL_RATE * 2100)
             player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 2100)
             player:setCharVar("SaveMySon_Event", 2)

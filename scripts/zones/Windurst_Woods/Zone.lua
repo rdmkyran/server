@@ -2,6 +2,7 @@
 -- Zone: Windurst_Woods (241)
 -----------------------------------
 local ID = require('scripts/zones/Windurst_Woods/IDs')
+require("scripts/globals/items")
 require('scripts/globals/events/harvest_festivals')
 require('scripts/globals/events/starlight_celebrations')
 require('scripts/globals/conquest')
@@ -57,7 +58,7 @@ end
 
 zoneObject.onEventFinish = function(player, csid, option)
     if csid == 367 then
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 536)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ADVENTURER_COUPON)
     end
 end
 

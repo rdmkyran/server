@@ -4,6 +4,7 @@
 -- Type: Special Event NPC
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/status")
 require("scripts/globals/utils")
@@ -88,7 +89,7 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 892 then
         if player:getFreeSlotsCount() >= 1 then
             player:addItem(1742, 1)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1742)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.PRESENT_FOR_THE_KIDDIES)
             player:setCharVar("smilebringersconvo", 1)
             player:setCharVar("previousDay", VanadielDayOfTheWeek())
             if player:getCharVar("SmilebringersFameReset") ~= 1 then

@@ -5,6 +5,7 @@
 -- !pos -56 0.1 -138 245
 -----------------------------------
 local ID = require("scripts/zones/Lower_Jeuno/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/settings")
 require("scripts/globals/quests")
@@ -92,7 +93,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addGil(xi.settings.main.GIL_RATE * 3000)
             player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 3000)
             player:addItem(xi.items.MYTHRIL_RING)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 13446) -- Mythril Ring
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MYTHRIL_RING)
             player:addFame(xi.quest.fame_area.JEUNO, 30)
             player:completeQuest(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.COOK_S_PRIDE)
         end

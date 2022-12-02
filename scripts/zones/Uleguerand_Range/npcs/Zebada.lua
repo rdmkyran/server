@@ -51,7 +51,7 @@ entity.onEventFinish = function(player, csid, option)
             return
         else
             player:addItem(xi.items.COTTON_POUCH)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1779) -- Cotton Pouch
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.COTTON_POUCH)
         end
     end
 end

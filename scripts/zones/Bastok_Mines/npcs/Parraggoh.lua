@@ -4,6 +4,7 @@
 -- Finishes Quest: Beauty and the Galka
 -----------------------------------
 local ID = require("scripts/zones/Bastok_Mines/IDs")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 require("scripts/globals/keyitems")
 -----------------------------------
@@ -47,7 +48,7 @@ entity.onEventFinish = function(player, csid, option)
             player:delKeyItem(xi.ki.PALBOROUGH_MINES_LOGS)
             player:addFame(xi.quest.fame_area.BASTOK, 75)
             player:addItem(xi.items.BRONZE_KNIFE)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 16465)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.BRONZE_KNIFE)
         else
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 16465)
         end

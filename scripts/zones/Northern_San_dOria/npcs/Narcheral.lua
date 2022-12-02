@@ -64,7 +64,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 17422)
         else
             player:addItem(xi.items.BLESSED_HAMMER)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 17422) -- Blessed Hammer
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.BLESSED_HAMMER)
             player:tradeComplete()
             player:addFame(xi.quest.fame_area.SANDORIA, 20)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.MESSENGER_FROM_BEYOND)
@@ -74,7 +74,7 @@ entity.onEventFinish = function(player, csid, option)
             player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, 14091) -- Healer's Duckbills
         else
             player:addItem(xi.items.HEALERS_DUCKBILLS)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 14091) -- Healer's Duckbills
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.HEALERS_DUCKBILLS)
             player:tradeComplete()
             player:addFame(xi.quest.fame_area.SANDORIA, 40)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.PRELUDE_OF_BLACK_AND_WHITE)
@@ -86,7 +86,7 @@ entity.onEventFinish = function(player, csid, option)
             player:addTitle(xi.title.PARAGON_OF_WHITE_MAGE_EXCELLENCE)
             player:setCharVar("pieujesDecisionCS", 0)
             player:addItem(xi.items.HEALERS_BRIAULT)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 12640) -- Healer's Briault
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.HEALERS_BRIAULT)
             player:tradeComplete()
             player:addFame(xi.quest.fame_area.SANDORIA, 60)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.PIEUJE_S_DECISION)

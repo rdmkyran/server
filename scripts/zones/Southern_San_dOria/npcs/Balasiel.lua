@@ -99,7 +99,7 @@ entity.onEventFinish = function(player, csid, option)
             player:tradeComplete()
             player:addTitle(xi.title.KNIGHT_IN_TRAINING)
             player:addItem(xi.items.SPATHA)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 16565) -- Spatha
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SPATHA)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)
             player:completeQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_SQUIRE_S_TEST)
         else
@@ -136,7 +136,7 @@ entity.onEventFinish = function(player, csid, option)
             player:delKeyItem(xi.ki.BOOK_OF_THE_WEST)
             player:delKeyItem(xi.ki.BOOK_OF_THE_EAST)
             player:addItem(xi.items.KITE_SHIELD)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 12306) -- Kite Shield
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.KITE_SHIELD)
             player:unlockJob(xi.job.PLD)
             player:messageSpecial(ID.text.UNLOCK_PALADIN)
             player:addFame(xi.quest.fame_area.SANDORIA, 30)

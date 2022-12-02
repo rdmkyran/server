@@ -15,7 +15,7 @@ entity.onTrade = function(player, npc, trade)
         else
             player:tradeComplete()
             player:addItem(xi.items.POUCH_OF_PARRADAMO_STONES)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 1778) -- Parradamo Stones
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.POUCH_OF_PARRADAMO_STONES)
         end
     end
 end

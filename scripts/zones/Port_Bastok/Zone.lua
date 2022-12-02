@@ -2,6 +2,7 @@
 -- Zone: Port_Bastok (236)
 -----------------------------------
 local ID = require('scripts/zones/Port_Bastok/IDs')
+require("scripts/globals/items")
 require('scripts/globals/events/starlight_celebrations')
 require('scripts/globals/conquest')
 require('scripts/globals/cutscenes')
@@ -70,7 +71,7 @@ end
 
 zoneObject.onEventFinish = function(player, csid, option)
     if csid == 1 then
-        player:messageSpecial(ID.text.ITEM_OBTAINED, 536)
+        player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ADVENTURER_COUPON)
     elseif csid == 71 then
         player:setPos(0, 0, 0, 0, 224)
     end

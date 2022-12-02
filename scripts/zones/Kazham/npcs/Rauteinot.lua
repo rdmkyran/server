@@ -67,7 +67,7 @@ entity.onEventFinish = function(player, csid, option)
             player:setCharVar("MissionaryManVar", 0)
             player:delKeyItem(xi.ki.SUBLIME_STATUE_OF_THE_GODDESS)
             player:addItem(xi.items.SCROLL_OF_TELEPORT_YHOAT)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 4728)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SCROLL_OF_TELEPORT_YHOAT)
             player:addFame(xi.quest.fame_area.WINDURST, 30)
             player:completeQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.MISSIONARY_MAN)
         end

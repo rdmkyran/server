@@ -16,7 +16,7 @@ entity.onTrade = function(player, npc, trade)
         if trade:hasItemQty(xi.items.TOMB_GUARDS_WATERSKIN, 1) and trade:getItemCount() == 1 then
             player:tradeComplete()
             player:addItem(xi.items.SKIN_OF_WELL_WATER)
-            player:messageSpecial(ID.text.ITEM_OBTAINED, 567) -- Tomb Waterskin
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.SKIN_OF_WELL_WATER)
         end
     end
 end
