@@ -5,6 +5,7 @@
 -- !pos -191.050 -2.15 12.285 230
 -----------------------------------
 local ID = require("scripts/zones/Southern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/crafting")
 require("scripts/globals/quests")
