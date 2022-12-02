@@ -164,15 +164,15 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 846 or csid == 850 then -- Turn-in event
         local reward = 0
         if option == 1 then
-            reward = 18165 -- Fenrir's Stone
+            reward = xi.items.FENRIRS_STONE
         elseif option == 2 then
-            reward = 13572 -- Fenrir's Cape
+            reward = xi.items.FENRIRS_CAPE
         elseif option == 3 then
-            reward = 13138 -- Fenrir's Torque
+            reward = xi.items.FENRIRS_TORQUE
         elseif option == 4 then
-            reward = 13399 -- Fenrir's Earring
+            reward = xi.items.FENRIRS_EARRING
         elseif option == 5 then
-            reward = 1208 -- Ancient's Key
+            reward = xi.items.ANCIENTS_KEY
         elseif option == 6 then
             player:addGil(xi.settings.main.GIL_RATE * 15000)
             player:messageSpecial(ID.text.GIL_OBTAINED, xi.settings.main.GIL_RATE * 15000) -- Gil

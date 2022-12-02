@@ -95,15 +95,15 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 55 or csid == 59 then -- Turning in Divine Might or Repeat
         local reward = 0
         if option == 1 then
-            reward = 14739 -- Suppanomimi
+            reward = xi.items.SUPPANOMIMI
         elseif option == 2 then
-            reward = 14740 -- Knight's Earring
+            reward = xi.items.KNIGHTS_EARRING
         elseif option == 3 then
-            reward = 14741 -- Abyssal Earring
+            reward = xi.items.ABYSSAL_EARRING
         elseif option == 4 then
-            reward = 14742 -- Beastly Earring
+            reward = xi.items.BEASTLY_EARRING
         elseif option == 5 then
-            reward = 14743 -- Bushinomimi
+            reward = xi.items.BUSHINOMIMI
         end
 
         if reward ~= 0 then
