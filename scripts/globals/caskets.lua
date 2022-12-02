@@ -292,7 +292,7 @@ end
 -- Desc: Checks to see if the item needs multiples, i.e. Arrowheads, if so, sends true and the item is multiplied
 -----------------------------------
 local function multipleItemCheck(itemId)
-    local multiples = { 1214, 1215, 1211, 1212, 1213, 1217, 1222, 1962 }
+    local multiples = { xi.items.HANDFUL_OF_BRONZE_BOLT_HEADS, xi.items.HANDFUL_OF_MYTHRIL_BOLT_HEADS, xi.items.HANDFUL_OF_DARKSTEEL_BOLT_HEADS, xi.items.HANDFUL_OF_STONE_ARROWHEADS, xi.items.HANDFUL_OF_BONE_ARROWHEADS, xi.items.HANDFUL_OF_SILVER_ARROWHEADS, xi.items.BAG_OF_YAGUDO_FLETCHINGS, xi.items.HANDFUL_OF_PLATINUM_ARROWHEADS }
 
     for i = 1, #multiples do
         if itemId == multiples[i] then
