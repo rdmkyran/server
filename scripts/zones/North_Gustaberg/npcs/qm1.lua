@@ -65,8 +65,8 @@ entity.onEventFinish = function(player, csid, option)
         local npc = player:getEventTarget()
 
         if
-            player:getEquipID(xi.slot.MAIN) == 0 and
-            player:getEquipID(xi.slot.SUB) == 0
+            player:getEquipID(xi.slot.MAIN) == xi.items.NONE and
+            player:getEquipID(xi.slot.SUB) == xi.items.NONE
         then
             if player:hasItem(xi.items.SIRENS_TEAR) then
                 player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED_TWICE, xi.items.SIRENS_TEAR)

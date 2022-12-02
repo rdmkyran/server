@@ -9,6 +9,7 @@
 -- Agility +10
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
@@ -27,7 +28,7 @@ end
 
 itemObject.onItemUse = function(target)
     local chocoboShirt
-    if target:getEquipID(xi.slot.BODY) == 10293 then
+    if target:getEquipID(xi.slot.BODY) == xi.items.CHOCOBO_SHIRT then
         chocoboShirt = 1
     else
         chocoboShirt = 0

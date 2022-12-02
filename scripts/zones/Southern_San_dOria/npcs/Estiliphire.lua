@@ -12,7 +12,7 @@ end
 
 entity.onTrigger = function(player, npc)
     -- if xi.settings.main.ENABLE_CHRISTMAS == 1 then
-    --     if player:getEquipID(xi.slot.HANDS) == 10382 or player:getEquipID(xi.slot.HANDS) == 10383 then
+    --     if player:getEquipID(xi.slot.HANDS) == xi.items.DREAM_MITTENS or player:getEquipID(xi.slot.HANDS) == xi.items.DREAM_MITTENS_P1 then
     --         player:startEvent(986, 1, 2)
     --     else
     --         player:startEvent(986)

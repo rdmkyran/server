@@ -433,7 +433,7 @@ xi.job_utils.dragoon.useSpiritLink = function(player, target, ability)
     local healPet = drainamount * 2
 
     -- TODO: replace with item mod
-    if player:getEquipID(xi.slot.HEAD) == 15238 then
+    if player:getEquipID(xi.slot.HEAD) == xi.items.DRACHEN_ARMET_P1 then
         healPet = healPet + 15
     end
 

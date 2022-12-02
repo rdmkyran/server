@@ -2,6 +2,7 @@
 -- Geomancer Job Utilities
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/ability")
 require("scripts/globals/status")
 require("scripts/globals/spell_data")
@@ -202,7 +203,7 @@ local function getEffectPotency(player, effect)
     end
 
     if
-        player:getEquipID(xi.slot.RANGED) == 0 or
+        player:getEquipID(xi.slot.RANGED) == xi.items.NONE or
         player:getWeaponSkillType(xi.slot.RANGED) ~= xi.skill.HANDBELL
     then
         handbellSkill = 0

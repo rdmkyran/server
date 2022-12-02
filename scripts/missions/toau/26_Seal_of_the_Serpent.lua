@@ -36,8 +36,8 @@ mission.sections =
             {
                 onTrigger = function(player, npc)
                     if
-                        player:getEquipID(xi.slot.MAIN) == 0 and
-                        player:getEquipID(xi.slot.SUB) == 0 and
+                        player:getEquipID(xi.slot.MAIN) == xi.items.NONE and
+                        player:getEquipID(xi.slot.SUB) == xi.items.NONE and
                         whitegateShared.doRoyalPalaceArmorCheck(player)
                     then
                         return mission:progressEvent(3111)

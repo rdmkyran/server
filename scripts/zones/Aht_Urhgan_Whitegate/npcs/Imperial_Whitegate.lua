@@ -19,7 +19,7 @@ entity.onTrade = function(player, npc, trade)
 end
 
 entity.onTrigger = function(player, npc)
-    local noWeapons = player:getEquipID(xi.slot.MAIN) == 0 and player:getEquipID(xi.slot.SUB) == 0
+    local noWeapons = player:getEquipID(xi.slot.MAIN) == xi.items.NONE and player:getEquipID(xi.slot.SUB) == xi.items.NONE
 
     if
         player:getCurrentMission(xi.mission.log_id.TOAU) == xi.mission.id.toau.IMPERIAL_CORONATION and

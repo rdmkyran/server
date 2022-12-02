@@ -2,6 +2,7 @@
 -- Trust: Abenzio
 -----------------------------------
 require("scripts/globals/trust")
+require("scripts/globals/items")
 -----------------------------------
 local spellObject = {}
 
@@ -14,8 +15,8 @@ spellObject.onSpellCast = function(caster, target, spell)
 end
 
 local isWearingMandragoraGear = function(player)
-    local wearingHead = player:getEquipID(xi.slot.HEAD) == 26705 or player:getEquipID(xi.slot.HEAD) == 26706 -- Mandragora Masque or Masque + 1
-    local wearingBody = player:getEquipID(xi.slot.BODY) == 27854 or player:getEquipID(xi.slot.BODY) == 27855 -- Mandragora Suit or Suit + 1
+    local wearingHead = player:getEquipID(xi.slot.HEAD) == xi.items.MANDRAGORA_MASQUE or player:getEquipID(xi.slot.HEAD) == xi.items.MANDRAGORA_MASQUE_P1
+    local wearingBody = player:getEquipID(xi.slot.BODY) == xi.items.MANDRAGORA_SUIT or player:getEquipID(xi.slot.BODY) == xi.items.MANDRAGORA_SUIT_P1
     return wearingHead and wearingBody
 end
 
