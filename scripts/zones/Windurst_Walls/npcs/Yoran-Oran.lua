@@ -4,6 +4,7 @@
 -- !pos -109.987 -14 203.338 239
 -----------------------------------
 require("scripts/globals/quests")
+require("scripts/globals/items")
 require("scripts/globals/missions")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")

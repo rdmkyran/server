@@ -13,7 +13,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     -- Sleepshroom, Woozyshroom, Danceshroom
     if
-        npcUtil.tradeHas(trade, { xi.items.WOOZYSHROOM, 4374, 4375 }) and
+        npcUtil.tradeHas(trade, { xi.items.WOOZYSHROOM, xi.items.SLEEPSHROOM, 4375 }) and
         npcUtil.popFromQM(player, npc, ID.mob.MYCOPHILE)
     then
         player:confirmTrade()

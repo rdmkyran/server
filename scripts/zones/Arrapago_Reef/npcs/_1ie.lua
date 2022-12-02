@@ -12,7 +12,7 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if npc:getAnimation() == xi.anim.CLOSE_DOOR then
-        if npcUtil.tradeHas(trade, 2219) then
+        if npcUtil.tradeHas(trade, xi.items.LAMIAN_FANG_KEY) then
             npc:openDoor()
             player:messageSpecial(ID.text.KEY_BREAKS, 2219)
             player:confirmTrade()

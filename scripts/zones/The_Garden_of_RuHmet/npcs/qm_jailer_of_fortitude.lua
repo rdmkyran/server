@@ -9,6 +9,7 @@
 -- NW / Mithra tower   !pos -796 0 460 35
 -----------------------------------
 local ID = require("scripts/zones/The_Garden_of_RuHmet/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}
