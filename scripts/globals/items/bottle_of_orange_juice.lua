@@ -15,7 +15,7 @@ end
 itemObject.onItemUse = function(target)
     local power = 1
     local legs = target:getEquipID(xi.slot.LEGS)
-    if legs == 11966 or legs == 11968 then -- Dream Trousers +1 & Dream Pants +1
+    if legs == xi.items.DREAM_TROUSERS_P1 or legs == xi.items.DREAM_PANTS_P1 then
         power = power + 1
     end
 
