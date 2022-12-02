@@ -15,7 +15,7 @@ entity.onTrade = function(player, npc, trade)
     if player:getQuestStatus(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.EMPTY_MEMORIES) >= QUEST_ACCEPTED then
         local count = trade:getItemCount()
         local reward = xi.items.NONE
-        local anima = 0
+        local anima = xi.items.NONE
 
         if trade:hasItemQty(xi.items.RECOLLECTION_OF_SUFFERING, 1) and count == 1 then -- Recollection of Suffering
             reward = xi.items.HAMAYUMI
@@ -24,11 +24,11 @@ entity.onTrade = function(player, npc, trade)
         elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_ANXIETY, 1) and count == 1 then -- Recollection of Anxiety
             reward = xi.items.STONE_GORGET
         elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_PAIN, 1) and count == 2 then -- Recollection of Pain
-            anima = 5262
+            anima = xi.items.BOTTLE_OF_HYSTEROANIMA
         elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_GUILT, 1) and count == 2 then -- Recollection of Guilt
-            anima = 5263
+            anima = xi.items.BOTTLE_OF_TERROANIMA
         elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_FEAR, 1) and count == 2 then -- Recollection of Fear
-            anima = 5261
+            anima = xi.items.BOTTLE_OF_PSYCHOANIMA
         end
 
         if reward > 7000 then

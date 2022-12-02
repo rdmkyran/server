@@ -5,6 +5,7 @@
 -- !pos 98.108 -1 137.999 231
 -----------------------------------
 require('scripts/globals/abjurations')
+require("scripts/globals/items")
 local nsandyID = require('scripts/zones/Northern_San_dOria/IDs')
 -----------------------------------
 local entity = {}
