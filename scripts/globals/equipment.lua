@@ -4,26 +4,26 @@ xi.equipment = xi.equipment or {}
 
 xi.equipment.baseNyzulWeapons =
 {
-    18492, -- (WAR) Sturdy Axe
-    18753, -- (MNK) Burning Fists
-    18851, -- (WHM) Werebuster
-    18589, -- (BLM) Mage's Staff
-    17742, -- (RDM) Vorpal Sword
-    18003, -- (THF) Swordbreaker
-    17744, -- (PLD) Brave Blade
-    18944, -- (DRK) Death Sickle
-    17956, -- (BST) Double Axe
-    18034, -- (BRD) Dancing Dagger
-    18719, -- (RNG) Killer Bow
-    18443, -- (SAM) Windslicer
-    18426, -- (NIN) Sasuke Katana
-    18120, -- (DRG) Radiant Lance
-    18590, -- (SMN) Scepter Staff
-    17743, -- (BLU) Wightslayer
-    18720, -- (COR) Quicksilver
-    18754, -- (PUP) Inferno Claws
-    19102, -- (DNC) Main Gauche
-    18592  -- (SCH) Elder Staff
+    xi.items.STURDY_AXE                    , -- (WAR) Sturdy Axe
+    xi.items.BURNING_FISTS                 , -- (MNK) Burning Fists
+    xi.items.WEREBUSTER                    , -- (WHM) Werebuster
+    xi.items.MAGES_STAFF                   , -- (BLM) Mage's Staff
+    xi.items.VORPAL_SWORD                  , -- (RDM) Vorpal Sword
+    xi.items.SWORDBREAKER                  , -- (THF) Swordbreaker
+    xi.items.BRAVE_BLADE                   , -- (PLD) Brave Blade
+    xi.items.DEATH_SICKLE                  , -- (DRK) Death Sickle
+    xi.items.DOUBLE_AXE                    , -- (BST) Double Axe
+    xi.items.DANCING_DAGGER                , -- (BRD) Dancing Dagger
+    xi.items.KILLER_BOW                    , -- (RNG) Killer Bow
+    xi.items.WINDSLICER                    , -- (SAM) Windslicer
+    xi.items.SASUKE_KATANA                 , -- (NIN) Sasuke Katana
+    xi.items.RADIANT_LANCE                 , -- (DRG) Radiant Lance
+    xi.items.SCEPTER_STAFF                 , -- (SMN) Scepter Staff
+    xi.items.WIGHTSLAYER                   , -- (BLU) Wightslayer
+    xi.items.QUICKSILVER                   , -- (COR) Quicksilver
+    xi.items.INFERNO_CLAWS                 , -- (PUP) Inferno Claws
+    xi.items.MAIN_GAUCHE                   , -- (DNC) Main Gauche
+    xi.items.ELDER_STAFF                     -- (SCH) Elder Staff
 }
 
 -----------------------------------
@@ -126,24 +126,24 @@ xi.equipment.relicIDs =
 local artifactArmorRanges =
 {
 --      Min,   Max
-    { 12511, 12520 }, -- Original Head
-    { 13855, 13857 },
-    { 13868, 13869 },
-    { 12638, 12650 }, -- Original Body
-    { 13781, 13782 },
-    { 13961, 13975 }, -- Original Hand
-    { 14089, 14103 }, -- Original Feet
-    { 14214, 14228 }, -- Original Legs
-    { 15265, 15267 }, -- ToAU Head
-    { 14521, 14523 }, -- ToAU Body
-    { 14928, 14930 }, -- ToAU Hand
-    { 15684, 15686 }, -- ToAU Feet
-    { 15600, 15602 }, -- ToAU Legs
-    { 16138, 16140 }, -- WotG Head
-    { 14578, 14580 }, -- WotG Body
-    { 15002, 15004 }, -- WotG Hand
-    { 15746, 15748 }, -- WotG Feet
-    { 15659, 15661 }, -- WotG Legs
+    { xi.items.FIGHTERS_MASK                 , xi.items.EVOKERS_HORN                   }, -- Original Head
+    { xi.items.HEALERS_CAP                   , xi.items.CHORAL_ROUNDLET                },
+    { xi.items.MYOCHIN_KABUTO                , xi.items.NINJA_HATSUBURI                },
+    { xi.items.FIGHTERS_LORICA               , xi.items.EVOKERS_DOUBLET                }, -- Original Body
+    { xi.items.MYOCHIN_DOMARU                , xi.items.NINJA_CHAINMAIL                },
+    { xi.items.FIGHTERS_MUFFLERS             , xi.items.EVOKERS_BRACERS                }, -- Original Hand
+    { xi.items.FIGHTERS_CALLIGAE             , xi.items.EVOKERS_PIGACHES               }, -- Original Feet
+    { xi.items.FIGHTERS_CUISSES              , xi.items.EVOKERS_SPATS                  }, -- Original Legs
+    { xi.items.MAGUS_KEFFIYEH                , xi.items.PUPPETRY_TAJ                   }, -- ToAU Head
+    { xi.items.MAGUS_JUBBAH                  , xi.items.PUPPETRY_TOBE                  }, -- ToAU Body
+    { xi.items.MAGUS_BAZUBANDS               , xi.items.PUPPETRY_DASTANAS              }, -- ToAU Hand
+    { xi.items.MAGUS_CHARUQS                 , xi.items.PUPPETRY_BABOUCHES             }, -- ToAU Feet
+    { xi.items.MAGUS_SHALWAR                 , xi.items.PUPPETRY_CHURIDARS             }, -- ToAU Legs
+    { xi.items.DANCERS_TIARA_M               , xi.items.SCHOLARS_MORTARBOARD           }, -- WotG Head
+    { xi.items.DANCERS_CASAQUE_M             , xi.items.SCHOLARS_GOWN                  }, -- WotG Body
+    { xi.items.DANCERS_BANGLES_M             , xi.items.SCHOLARS_BRACERS               }, -- WotG Hand
+    { xi.items.DANCERS_TOE_SHOES_M           , xi.items.SCHOLARS_LOAFERS               }, -- WotG Feet
+    { xi.items.DANCERS_TIGHTS_M              , xi.items.HOMAM_GAMBIERAS                }, -- WotG Legs
 }
 
 xi.equipment.isArtifactArmor = function(itemId)
