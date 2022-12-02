@@ -47,42 +47,42 @@ local hqCrystals =
 {
     [1] =
     {
-        id = 4238,
+        id = xi.items.INFERNO_CRYSTAL,
         cost = 200
     },
     [2] =
     {
-        id = 4239,
+        id = xi.items.GLACIER_CRYSTAL,
         cost = 200
     },
     [3] =
     {
-        id = 4240,
+        id = xi.items.CYCLONE_CRYSTAL,
         cost = 200
     },
     [4] =
     {
-        id = 4241,
+        id = xi.items.TERRA_CRYSTAL,
         cost = 200
     },
     [5] =
     {
-        id = 4242,
+        id = xi.items.PLASMA_CRYSTAL,
         cost = 200
     },
     [6] =
     {
-        id = 4243,
+        id = xi.items.TORRENT_CRYSTAL,
         cost = 200
     },
     [7] =
     {
-        id = 4244,
+        id = xi.items.AURORA_CRYSTAL,
         cost = 500
     },
     [8] =
     {
-        id = 4245,
+        id = xi.items.TWILIGHT_CRYSTAL,
         cost = 500
     },
 }
