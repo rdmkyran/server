@@ -53,7 +53,7 @@ local function halloweenItemsCheck(player)
             elseif headSlot == pumpkinHead2 and not player:hasItem(xi.items.HORROR_HEAD_II) then
                 reward = xi.items.HORROR_HEAD_II
             elseif mainHand == trickStaff and not player:hasItem(xi.items.TREAT_STAFF) then
-                reward =  17566 -- Treat Staff
+                reward = xi.items.TREAT_STAFF
             elseif mainHand == trickStaff2 and not player:hasItem(xi.items.TREAT_STAFF_II) then
                 reward = xi.items.TREAT_STAFF_II
             end

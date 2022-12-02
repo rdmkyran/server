@@ -9,6 +9,7 @@
 -- applications of damage mods ('Damage varies with TP.')
 -- performance of the actual WS (rand numbers, etc)
 require("scripts/globals/magicburst")
+require("scripts/globals/items")
 require("scripts/globals/magiantrials")
 require("scripts/globals/ability")
 require("scripts/globals/status")
@@ -1270,7 +1271,7 @@ xi.weaponskills.handleWSGorgetBelt = function(attacker)
             end
         end
 
-        if neck == 27510 then -- Fotia Gorget
+        if neck == xi.items.FOTIA_GORGET then
             accBonus = accBonus + 10
             ftpBonus = ftpBonus + 0.1
         end
@@ -1290,7 +1291,7 @@ xi.weaponskills.handleWSGorgetBelt = function(attacker)
             end
         end
 
-        if belt == 28420 then -- Fotia Belt
+        if belt == xi.items.FOTIA_BELT then
             accBonus = accBonus + 10
             ftpBonus = ftpBonus + 0.1
         end
