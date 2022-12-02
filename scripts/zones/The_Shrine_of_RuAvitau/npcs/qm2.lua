@@ -4,12 +4,13 @@
 -- !pos -81 32 2 178
 -----------------------------------
 local ID = require("scripts/zones/The_Shrine_of_RuAvitau/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-    if npcUtil.tradeHas(trade, { 1404, 1405, 1406, 1407 }) then
+    if npcUtil.tradeHas(trade, { xi.items.SEAL_OF_GENBU, 1405, 1406, 1407 }) then
         player:startEvent(101)
         player:confirmTrade()
     end

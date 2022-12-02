@@ -5,6 +5,7 @@
 -- !pos -120.342 -19.471 306.661 126
 -----------------------------------
 local ID = require("scripts/zones/Qufim_Island/IDs")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/keyitems")
 require("scripts/globals/missions")
@@ -15,7 +16,7 @@ entity.onTrade = function(player, npc, trade)
     -- Trade Seedspall's Lux, Luna, Astrum
     if
         player:getCurrentMission(xi.mission.log_id.ACP) == xi.mission.id.acp.THE_ECHO_AWAKENS and
-        npcUtil.tradeHas(trade, { 2740, 2741, 2742 })
+        npcUtil.tradeHas(trade, { xi.items.SEEDSPALL_LUX, 2741, 2742 })
     then
         player:startEvent(31)
     end

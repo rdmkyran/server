@@ -5,6 +5,7 @@
 -- !pos 145.500 -9.000 -699.000 2
 -----------------------------------
 local ID = require("scripts/zones/Carpenters_Landing/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}
@@ -12,7 +13,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     -- Sleepshroom, Woozyshroom, Danceshroom
     if
-        npcUtil.tradeHas(trade, { 4373, 4374, 4375 }) and
+        npcUtil.tradeHas(trade, { xi.items.WOOZYSHROOM, 4374, 4375 }) and
         npcUtil.popFromQM(player, npc, ID.mob.MYCOPHILE)
     then
         player:confirmTrade()

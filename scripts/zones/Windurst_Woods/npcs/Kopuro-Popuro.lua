@@ -21,7 +21,7 @@ entity.onTrade = function(player, npc, trade)
 
     -- THE ALL NEW C-2000
     if allNewC2000 == QUEST_ACCEPTED then
-        if npcUtil.tradeHas(trade, { 846, 856, 4368 }) then
+        if npcUtil.tradeHas(trade, { xi.items.INSECT_WING, xi.items.RABBIT_HIDE, 4368 }) then
             player:startEvent(292, xi.settings.main.GIL_RATE * 200) -- Correct items given, complete quest.
         else
             player:startEvent(288, 0, 856, 846, 4368) -- Incorrect or not enough items.
@@ -29,7 +29,7 @@ entity.onTrade = function(player, npc, trade)
 
     -- LEGENDARY PLAN B
     elseif legendaryPlanB == QUEST_ACCEPTED then
-        if npcUtil.tradeHas(trade, { 529, 858, 940 }) then
+        if npcUtil.tradeHas(trade, { xi.items.LUMINICLOTH, xi.items.WOLF_HIDE, 940 }) then
             player:startEvent(314, 0, 529, 940, 858) -- Correct items given, complete quest in onEventUpdate
         else
             player:startEvent(309, 0, 529, 940, 858) -- Incorrect or not enough items
@@ -37,7 +37,7 @@ entity.onTrade = function(player, npc, trade)
 
     -- THE ALL NEW C-3000
     elseif allNewC3000 == QUEST_ACCEPTED or allNewC3000 == QUEST_COMPLETED then
-        if npcUtil.tradeHas(trade, { 889, 939 }) then
+        if npcUtil.tradeHas(trade, { xi.items.BEETLE_SHELL, 939 }) then
             player:startEvent(657, 0, 889, 939) -- Correct items given, complete quest in onEventUpdate
         else
             player:startEvent(656, 0, 889, 939) -- Incorrect or not enough items

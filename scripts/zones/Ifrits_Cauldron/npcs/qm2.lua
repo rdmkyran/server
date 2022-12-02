@@ -5,13 +5,14 @@
 -- !pos 18 20 -104 205
 -----------------------------------
 local ID = require("scripts/zones/Ifrits_Cauldron/IDs")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 -----------------------------------
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if
-        npcUtil.tradeHas(trade, { 1186, { 1187, 3 } }) and
+        npcUtil.tradeHas(trade, { xi.items.BOMB_QUEEN_CORE, { 1187, 3 } }) and
         npcUtil.popFromQM(player, npc, ID.mob.BOMB_QUEEN)
     then
         player:confirmTrade()

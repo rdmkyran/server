@@ -24,10 +24,10 @@ entity.onTrade = function(player, npc, trade)
 
     -- PAYING LIP SERVICE
     elseif player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.PAYING_LIP_SERVICE) >= QUEST_ACCEPTED then
-        if npcUtil.tradeHas(trade, { { 912, 3 } }) then -- beehive_chip
+        if npcUtil.tradeHas(trade, { { xi.items.BEEHIVE_CHIP, 3 } }) then
             player:setLocalVar("lipService", 1)
             player:startEvent(479, 0, 912, 1016, 0)
-        elseif npcUtil.tradeHas(trade, { { 1016, 2 } }) then -- remi_shell
+        elseif npcUtil.tradeHas(trade, { { xi.items.REMI_SHELL, 2 } }) then
             player:setLocalVar("lipService", 2)
             player:startEvent(479, 0, 912, 1016, 0)
         end

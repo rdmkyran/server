@@ -15,9 +15,9 @@ local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     if player:getQuestStatus(xi.quest.log_id.OTHER_AREAS, xi.quest.id.otherAreas.ONLY_THE_BEST) ~= QUEST_AVAILABLE then
-        if npcUtil.tradeHas(trade, { { 4366, 5 } }) then -- La Theine Cabbage x5
+        if npcUtil.tradeHas(trade, { { xi.items.LA_THEINE_CABBAGE, 5 } }) then -- La Theine Cabbage x5
             player:startEvent(62, 0, 4366)
-        elseif npcUtil.tradeHas(trade, { { 629, 3 } }) then -- Millioncorn x3
+        elseif npcUtil.tradeHas(trade, { { xi.items.EAR_OF_MILLIONCORN, 3 } }) then -- Millioncorn x3
             player:startEvent(63, 0, 629)
         elseif npcUtil.tradeHas(trade, xi.items.CLUMP_OF_BOYAHDA_MOSS) then
             player:startEvent(64, 0, 919)

@@ -7,6 +7,7 @@
 -- !pos 89 0 -75 256
 -----------------------------------
 require("scripts/globals/keyitems")
+require("scripts/globals/items")
 require("scripts/globals/missions")
 require("scripts/globals/npc_util")
 require("scripts/globals/quests")
@@ -21,7 +22,7 @@ entity.onTrade = function(player, npc, trade)
     if
         dngitl == QUEST_ACCEPTED and
         player:getCharVar("DNGITL_Status") == 3 and
-        npcUtil.tradeHas(trade, { 3927, 658, 4096 })
+        npcUtil.tradeHas(trade, { xi.items.PIECE_OF_URUNDAY_LUMBER, 658, 4096 })
     then
         player:startEvent(5076)
 
@@ -29,7 +30,7 @@ entity.onTrade = function(player, npc, trade)
     elseif
         vvc == QUEST_ACCEPTED and
         player:getCharVar("VVC_Status") == 1 and
-        npcUtil.tradeHas(trade, { 3927, 3919, 8708 })
+        npcUtil.tradeHas(trade, { xi.items.PIECE_OF_URUNDAY_LUMBER, 3919, 8708 })
     then
         player:startEvent(5089)
     end
