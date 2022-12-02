@@ -8,7 +8,7 @@ local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENFIRE)
-    if effect ~= nil and effect:getSubType() == 18381 then
+    if effect ~= nil and effect:getSubType() == xi.items.PROMINENCE_SWORD then
         target:delStatusEffect(xi.effect.ENFIRE)
     end
     return 0

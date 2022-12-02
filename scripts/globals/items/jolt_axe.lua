@@ -5,12 +5,13 @@
 -- Duration: 30 Minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ATTACK_BOOST)
-    if effect ~= nil and effect:getSubType() == 17954 then
+    if effect ~= nil and effect:getSubType() == xi.items.JOLT_AXE then
         target:delStatusEffect(xi.effect.ATTACK_BOOST)
     end
 

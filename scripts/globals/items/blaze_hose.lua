@@ -4,13 +4,14 @@
 -- Item Effect: Blaze Spikes
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/status")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.BLAZE_SPIKES)
-    if effect ~= nil and effect:getSubType() == 15652 then
+    if effect ~= nil and effect:getSubType() == xi.items.BLAZE_HOSE then
         target:delStatusEffect(xi.effect.BLAZE_SPIKES)
     end
     return 0

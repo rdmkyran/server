@@ -7,7 +7,7 @@ local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.FLEE)
-    if effect ~= nil and effect:getSubType() == 15320 then
+    if effect ~= nil and effect:getSubType() == xi.items.POWDER_BOOTS then
         target:delStatusEffect(xi.effect.FLEE)
     end
     return 0

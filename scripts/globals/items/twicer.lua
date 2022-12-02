@@ -5,12 +5,13 @@
 -- Duration: 30 seconds
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENCHANTMENT)
-    if effect ~= nil and effect:getSubType() == 18216 then
+    if effect ~= nil and effect:getSubType() == xi.items.TWICER then
         target:delStatusEffect(xi.effect.ENCHANTMENT)
     end
 

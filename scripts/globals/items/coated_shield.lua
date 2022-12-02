@@ -4,13 +4,14 @@
 -- Item Effect: Shell
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.SHELL)
-    if effect ~= nil and effect:getSubType() == 12406 then
+    if effect ~= nil and effect:getSubType() == xi.items.COATED_SHIELD then
         target:delStatusEffect(xi.effect.SHELL)
     end
     return 0

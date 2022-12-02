@@ -5,12 +5,13 @@
 -- Duration: 3 Minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.POTENCY)
-    if effect ~= nil and effect:getSubType() == 15261 then
+    if effect ~= nil and effect:getSubType() == xi.items.HYDRA_TIARA then
         target:delStatusEffect(xi.effect.POTENCY)
     end
     return 0

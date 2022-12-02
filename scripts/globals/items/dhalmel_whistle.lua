@@ -5,12 +5,13 @@
 -- Duration: 3 minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENCHANTMENT)
-    if effect ~= nil and effect:getSubType() == 15505 then
+    if effect ~= nil and effect:getSubType() == xi.items.DHALMEL_WHISTLE then
         target:delStatusEffect(xi.effect.ENCHANTMENT)
     end
 

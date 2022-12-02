@@ -5,13 +5,14 @@
 -- Durration: 10 Mins
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/status")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ARCANE_CIRCLE)
-    if effect ~= nil and effect:getSubType() == 17826 then
+    if effect ~= nil and effect:getSubType() == xi.items.MESSHIKIMARU then
         target:delStatusEffect(xi.effect.ARCANE_CIRCLE)
     end
     return 0

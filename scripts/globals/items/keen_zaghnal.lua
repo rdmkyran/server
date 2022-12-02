@@ -6,12 +6,13 @@
 --  Effect lasts for 30 minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ACCURACY_BOOST)
-    if effect ~= nil and effect:getSubType() == 18067 then
+    if effect ~= nil and effect:getSubType() == xi.items.KEEN_ZAGHNAL then
         target:delStatusEffect(xi.effect.ACCURACY_BOOST)
     end
 

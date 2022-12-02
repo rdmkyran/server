@@ -5,13 +5,14 @@
 -- Duration: 3 minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.HASTE)
-    if effect ~= nil and effect:getSubType() == 15596 then
+    if effect ~= nil and effect:getSubType() == xi.items.HYDRA_TIGHTS then
         target:delStatusEffect(xi.effect.HASTE)
     end
     return 0

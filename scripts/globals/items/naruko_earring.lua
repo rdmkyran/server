@@ -5,12 +5,13 @@
 -- Duration: 3 Minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENMITY_BOOST)
-    if effect ~= nil and effect:getSubType() == 14789 then
+    if effect ~= nil and effect:getSubType() == xi.items.NARUKO_EARRING then
         target:delStatusEffect(xi.effect.ENMITY_BOOST)
     end
 

@@ -8,7 +8,7 @@ local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENLIGHT)
-    if effect ~= nil and effect:getSubType() == 17683 then
+    if effect ~= nil and effect:getSubType() == xi.items.SACRED_DEGEN then
         target:delStatusEffect(xi.effect.ENLIGHT)
     end
     return 0

@@ -7,7 +7,7 @@ local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENBLIZZARD)
-    if effect ~= nil and effect:getSubType() == 14990 then
+    if effect ~= nil and effect:getSubType() == xi.items.BLIZZARD_GLOVES then
         target:delStatusEffect(xi.effect.ENBLIZZARD)
     end
     return 0

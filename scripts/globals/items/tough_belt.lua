@@ -5,12 +5,13 @@
 -- Duration: 60 seconds
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.VIT_BOOST)
-    if effect ~= nil and effect:getSubType() == 15864 then
+    if effect ~= nil and effect:getSubType() == xi.items.TOUGH_BELT then
         target:delStatusEffect(xi.effect.VIT_BOOST)
     end
 

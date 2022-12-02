@@ -5,13 +5,14 @@
 -- Duration: 3 Minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENCHANTMENT)
-    if effect ~= nil and effect:getSubType() == 14864 then
+    if effect ~= nil and effect:getSubType() == xi.items.PALMERS_BANGLES then
         target:delStatusEffect(xi.effect.ENCHANTMENT)
     end
     return 0

@@ -5,12 +5,13 @@
 -- Duration: 20 Minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.EVASION_BOOST)
-    if effect ~= nil and effect:getSubType() == 15681 then
+    if effect ~= nil and effect:getSubType() == xi.items.HYDRA_SPATS then
         target:delStatusEffect(xi.effect.EVASION_BOOST)
     end
 

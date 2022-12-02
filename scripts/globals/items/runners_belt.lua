@@ -5,12 +5,13 @@
 -- Duration: 60 seconds
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.DEX_BOOST)
-    if effect ~= nil and effect:getSubType() == 15865 then
+    if effect ~= nil and effect:getSubType() == xi.items.RUNNERS_BELT then
         target:delStatusEffect(xi.effect.DEX_BOOST)
     end
 

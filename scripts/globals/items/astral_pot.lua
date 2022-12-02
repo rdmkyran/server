@@ -5,6 +5,7 @@
 -- Duration 5 Minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
@@ -14,7 +15,7 @@ itemObject.onItemCheck = function(target)
     local pet = target:getPet()
     if not pet then
         return xi.msg.basic.REQUIRES_A_PET, 0
-    elseif effect ~= nil and effect:getSubType() == 18243 then
+    elseif effect ~= nil and effect:getSubType() == xi.items.ASTRAL_POT then
         target:delStatusEffect(xi.effect.ENCHANTMENT)
     end
 

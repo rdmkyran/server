@@ -4,6 +4,7 @@
 -- Item Effect: HP+18 / Enmity+3
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/status")
 -----------------------------------
 local itemObject = {}
@@ -11,7 +12,7 @@ local itemObject = {}
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENCHANTMENT)
     if effect ~= nil then
-        if effect:getSubType() == 15486 then
+        if effect:getSubType() == xi.items.BREATH_MANTLE then
             target:delStatusEffect(xi.effect.ENCHANTMENT)
         end
     end

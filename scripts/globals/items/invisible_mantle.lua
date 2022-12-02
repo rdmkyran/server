@@ -4,6 +4,7 @@
 -- Item Effect: gives invisible
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/status")
 require("scripts/globals/msg")
 -----------------------------------
@@ -11,7 +12,7 @@ local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.INVISIBLE)
-    if effect ~= nil and effect:getSubType() == 13685 then
+    if effect ~= nil and effect:getSubType() == xi.items.INVISIBLE_MANTLE then
         target:delStatusEffect(xi.effect.INVISIBLE)
     end
     return 0

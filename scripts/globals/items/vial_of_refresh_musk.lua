@@ -5,12 +5,13 @@
 -- Duration: 30 Seconds
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.REFRESH)
-    if effect ~= nil and effect:getSubType() == 18241 then
+    if effect ~= nil and effect:getSubType() == xi.items.VIAL_OF_REFRESH_MUSK then
         target:delStatusEffect(xi.effect.REFRESH)
     end
 

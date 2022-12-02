@@ -4,13 +4,14 @@
 -- Item Effect: Evasion Boost
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.EVASION_BOOST)
-    if effect ~= nil and effect:getSubType() == 14423 then
+    if effect ~= nil and effect:getSubType() == xi.items.MIST_TUNIC then
         target:delStatusEffect(xi.effect.EVASION_BOOST)
     end
     return 0

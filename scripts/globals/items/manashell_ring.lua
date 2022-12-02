@@ -5,13 +5,14 @@
 -- Duration: 3 minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.MAX_MP_BOOST)
-    if effect ~= nil and effect:getSubType() == 15782 then
+    if effect ~= nil and effect:getSubType() == xi.items.MANASHELL_RING then
         target:delStatusEffect(xi.effect.MAX_MP_BOOST)
     end
     return 0

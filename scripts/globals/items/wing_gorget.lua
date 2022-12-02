@@ -4,13 +4,14 @@
 -- Item Effect: gives regain
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.REGAIN)
-    if effect ~= nil and effect:getSubType() == 15170 then
+    if effect ~= nil and effect:getSubType() == xi.items.BLINK_BAND then
         target:delStatusEffect(xi.effect.REGAIN)
     end
     return 0

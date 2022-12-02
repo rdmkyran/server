@@ -4,13 +4,14 @@
 -- Item Effect: gives refresh
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.REFRESH)
-    if effect ~= nil and effect:getSubType() == 14515 then
+    if effect ~= nil and effect:getSubType() == xi.items.HYDRA_DOUBLET then
         target:delStatusEffect(xi.effect.REFRESH)
     end
     return 0

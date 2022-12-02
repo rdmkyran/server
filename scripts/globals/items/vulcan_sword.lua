@@ -5,13 +5,14 @@
 -- Duration: 3 minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENFIRE)
-    if effect ~= nil and effect:getSubType() == 17704 then
+    if effect ~= nil and effect:getSubType() == xi.items.VULCAN_SWORD then
         target:delStatusEffect(xi.effect.ENFIRE)
     end
     return 0

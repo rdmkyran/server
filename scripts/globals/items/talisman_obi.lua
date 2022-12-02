@@ -4,13 +4,14 @@
 -- Effect: 3Min, MP+12 Enmity-2
 -----------------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENCHANTMENT)
-    if effect and effect:getSubType() == 15881 then
+    if effect and effect:getSubType() == xi.items.TALISMAN_OBI then
         target:delStatusEffect(xi.effect.ENCHANTMENT)
     end
     return 0

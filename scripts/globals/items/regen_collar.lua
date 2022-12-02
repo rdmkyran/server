@@ -4,13 +4,14 @@
 -- Item Effect: Restores 40 HP over 120 seconds
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.REGEN)
-    if effect ~= nil and effect:getSubType() == 15526 then
+    if effect ~= nil and effect:getSubType() == xi.items.REGEN_COLLAR then
         target:delStatusEffect(xi.effect.REGEN)
     end
     return 0

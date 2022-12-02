@@ -5,13 +5,14 @@
 -- Duration: 45 seconds
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require("scripts/globals/msg")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENCHANTMENT)
-    if effect ~= nil and effect:getSubType() == 15507 then
+    if effect ~= nil and effect:getSubType() == xi.items.PURGATORY_COLLAR then
         target:delStatusEffect(xi.effect.ENCHANTMENT)
     end
     return 0

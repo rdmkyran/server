@@ -4,13 +4,14 @@
 -- Item Effect: Shock Spikes
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/status")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.SHOCK_SPIKES)
-    if effect ~= nil and effect:getSubType() == 15650 then
+    if effect ~= nil and effect:getSubType() == xi.items.SHOCK_SUBLIGAR then
         target:delStatusEffect(xi.effect.SHOCK_SPIKES)
     end
     return 0

@@ -5,12 +5,13 @@
 -- Duration: 3 Minutes
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
 itemObject.onItemCheck = function(target)
     local effect = target:getStatusEffect(xi.effect.ENCHANTMENT)
-    if effect ~= nil and effect:getSubType() == 18240 then
+    if effect ~= nil and effect:getSubType() == xi.items.SPIRIT_LANTERN then
         target:delStatusEffect(xi.effect.ENCHANTMENT)
     end
 
