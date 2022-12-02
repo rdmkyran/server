@@ -650,11 +650,11 @@ function xi.sparkshop.onEventUpdate(player, csid, option, npc)
         end
 
         -- handles eminent ammo
-        if item.id == 21302 or item.id == 21316 or item.id == 21331 then
+        if item.id == xi.items.EMINENT_ARROW or item.id == xi.items.EMINENT_BOLT or item.id == xi.items.EMINENT_BULLET then
             qty = 99
             cost = 5000
 
-        elseif item.id == 21355 then
+        elseif item.id == xi.items.HACHIYA_SHURIKEN then
             qty = 99
             cost = 7000
         end
