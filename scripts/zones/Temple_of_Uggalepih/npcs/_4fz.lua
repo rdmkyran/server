@@ -19,7 +19,7 @@ end
 
 entity.onTrigger = function(player, npc)
     if player:getZPos() < 11 then
-        player:messageSpecial(ID.text.THE_DOOR_IS_LOCKED, 1136)
+        player:messageSpecial(ID.text.THE_DOOR_IS_LOCKED, xi.items.UGGALEPIH_KEY)
     else
         player:startEvent(47)
     end
@@ -33,7 +33,7 @@ end
 entity.onEventFinish = function(player, csid, option)
     if csid == 46 then
         player:confirmTrade()
-        player:messageSpecial(ID.text.YOUR_KEY_BREAKS, 0, 1136)
+        player:messageSpecial(ID.text.YOUR_KEY_BREAKS, 0, xi.items.UGGALEPIH_KEY)
     end
 end
 

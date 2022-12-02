@@ -13,14 +13,14 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     if npcUtil.tradeHas(trade, xi.items.PRELATE_KEY) then
         player:confirmTrade()
-        player:messageSpecial(ID.text.YOUR_KEY_BREAKS, 0, 1137)
+        player:messageSpecial(ID.text.YOUR_KEY_BREAKS, 0, xi.items.PRELATE_KEY)
         npc:openDoor(6.5)
     end
 end
 
 entity.onTrigger = function(player, npc)
     if player:getXPos() <= -8 then
-        player:messageSpecial(ID.text.THE_DOOR_IS_LOCKED, 1137)
+        player:messageSpecial(ID.text.THE_DOOR_IS_LOCKED, xi.items.PRELATE_KEY)
     else
         npc:openDoor(11) -- retail timed
     end
