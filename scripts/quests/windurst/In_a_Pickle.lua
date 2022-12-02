@@ -2,7 +2,7 @@
 -- In a Pickle
 -----------------------------------
 -- !addquest 2 5
--- Hariga-Origa : !pos -70.244,-3.800,-4.439
+-- Hariga-Origa : !pos -70.244, -3.800, -4.439
 -----------------------------------
 require('scripts/globals/interaction/quest')
 require("scripts/globals/items")
