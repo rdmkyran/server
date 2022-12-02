@@ -4,6 +4,7 @@
 -- Involved in Quest: Under Oath
 -----------------------------------
 local ID = require("scripts/zones/Davoi/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 -----------------------------------

@@ -5,6 +5,7 @@
 -- !pos 68.729 -6.281 -6.432 252
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 require("scripts/globals/quests")
 require("scripts/globals/pathfind")

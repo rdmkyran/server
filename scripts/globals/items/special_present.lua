@@ -4,6 +4,7 @@
 -- Starlight Celebration Fame Reward
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 require('scripts/globals/npc_util')
 require("scripts/globals/msg")
 -----------------------------------
