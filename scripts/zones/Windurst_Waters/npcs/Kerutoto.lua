@@ -25,10 +25,10 @@ entity.onTrigger = function(player, npc)
     -- WAKING DREAMS
     if player:hasKeyItem(xi.ki.WHISPER_OF_DREAMS) then
         local availRewards = 0
-            + (player:hasItem(17599) and 1 or 0) -- Diabolos's Pole
-            + (player:hasItem(14814) and 2 or 0) -- Diabolos's Earring
-            + (player:hasItem(15557) and 4 or 0) -- Diabolos's Ring
-            + (player:hasItem(15516) and 8 or 0) -- Diabolos's Torque
+            + (player:hasItem(xi.items.DIABOLOSS_POLE) and 1 or 0)
+            + (player:hasItem(xi.items.DIABOLOSS_EARRING) and 2 or 0)
+            + (player:hasItem(xi.items.DIABOLOSS_RING) and 4 or 0)
+            + (player:hasItem(xi.items.DIABOLOSS_TORQUE) and 8 or 0)
             + (player:hasSpell(304) and 32 or 16) -- Pact or gil
         player:startEvent(920, 17599, 14814, 15557, 15516, 0, 0, 0, availRewards)
     elseif

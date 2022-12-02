@@ -5,6 +5,7 @@
 -- !pos 99 0 116 231
 -----------------------------------
 require("scripts/globals/settings")
+require("scripts/globals/items")
 require("scripts/globals/quests")
 -----------------------------------
 local entity = {}
@@ -17,7 +18,7 @@ entity.onTrigger = function(player, npc)
 
     if theHolyCrest == 2 then
         player:startEvent(65)
-    elseif (theHolyCrest == 3 and player:hasItem(1159)) or theHolyCrest == 4 then -- Wyvern Egg
+    elseif (theHolyCrest == 3 and player:hasItem(xi.items.WYVERN_EGG)) or theHolyCrest == 4 then
         player:startEvent(62)
     elseif player:getQuestStatus(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.A_SQUIRE_S_TEST_II) == QUEST_ACCEPTED then
         player:startEvent(602)

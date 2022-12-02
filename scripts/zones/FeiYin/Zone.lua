@@ -2,6 +2,7 @@
 -- Zone: FeiYin (204)
 -----------------------------------
 local ID = require('scripts/zones/FeiYin/IDs')
+require("scripts/globals/items")
 require('scripts/globals/conquest')
 require('scripts/globals/keyitems')
 require('scripts/globals/missions')
@@ -31,7 +32,7 @@ zoneObject.onZoneIn = function(player, prevZone)
 
     if
         player:getCharVar("peaceForTheSpiritCS") == 1 and
-        not player:hasItem(1093) -- Antique Coin
+        not player:hasItem(xi.items.ANTIQUE_COIN)
     then
         SpawnMob(ID.mob.MISER_MURPHY) -- RDM AF
     end

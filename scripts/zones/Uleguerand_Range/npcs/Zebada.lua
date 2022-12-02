@@ -28,7 +28,7 @@ entity.onTrigger = function(player, npc)
             -- Both Vanadiel time and unix timestamps are based on seconds. Add the difference to the event.
             player:startEvent(15, VanadielTime() + (zephyrFanCD - os.time()))
         else
-            if player:hasItem(1780) or player:hasItem(1779) then -- Chamnaet Ice -- Cotton Pouch
+            if player:hasItem(xi.items.HANDFUL_OF_CHAMNAET_ICE) or player:hasItem(xi.items.COTTON_POUCH) then
                 player:startEvent(16)
             else
                 player:startEvent(14)
