@@ -29,9 +29,9 @@ zoneObject.onZoneIn = function(player, prevZone)
         player:getCharVar("moraldecline") <= os.time()
     then
         cs = 46
-    elseif player:getCharVar("moral") == 4 and head == 15202 then -- Yagudo Headgear
+    elseif player:getCharVar("moral") == 4 and head == xi.items.YAGUDO_HEADGEAR then
         cs = 47
-    elseif player:getCharVar("moral") == 8 and head == 15216 then -- Tsoo Headgear
+    elseif player:getCharVar("moral") == 8 and head == xi.items.TSOO_HAJAS_HEADGEAR then
         cs = 51
     end
 

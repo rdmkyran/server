@@ -34,7 +34,7 @@ entity.onTrigger = function(player, npc)
 
         if smilebringersconvo == 0 then
             player:startEvent(768)
-        elseif smilebringersconvo == 1 and (head == 15179 or head == 15178) then
+        elseif smilebringersconvo == 1 and (head == xi.items.DREAM_HAT_P1 or head == xi.items.DREAM_HAT) then
             if fame < 1 then
                 player:showText(npc, ID.text.STARLIGHT_FAME_DIALOG, 0, 0)
             elseif fame == 1 then

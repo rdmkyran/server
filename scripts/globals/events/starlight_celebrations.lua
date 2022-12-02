@@ -68,7 +68,7 @@ function xi.events.starlightCelebration.onStarlightSmilebringersTrade(player, tr
         ---------------
         -- Hat Check --
         ---------------
-        if (head == 15179 or head == 15178) then
+        if (head == xi.items.DREAM_HAT_P1 or head == xi.items.DREAM_HAT) then
             if (npcTrades < 14) then
                 for itemInList = 1, #gifts_table do
                     if (item == gifts_table[itemInList] and (item == presents_table[itemInList]) and (player:getFameLevel(xi.quest.fame_area.HOLIDAY) < 9)) then
