@@ -254,11 +254,11 @@ mission.sections =
                         player:delGil(800)
                         if not player:hasItem(xi.items.SOULTRAPPER) then
                             player:addItem(xi.items.SOULTRAPPER)
-                            player:messageSpecial(norgID.text.ITEM_OBTAINED, 18721) -- Soultrapper
+                            player:messageSpecial(norgID.text.ITEM_OBTAINED, xi.items.SOULTRAPPER)
                         end
 
                         player:addItem(18722, 12)
-                        player:messageSpecial(norgID.text.YOU_OBTAIN, 18722, 12) -- Soul Plates
+                        player:messageSpecial(norgID.text.YOU_OBTAIN, xi.items.SOUL_PLATE, 12)
                         mission:setVar(player, 'AndrauseBuy', 0)
                         mission:setVar(player, 'Soulplate', getMidnight())
                     elseif mission:getVar(player, 'AndrauseBuy') == 1 and player:getGil() < 800 then
