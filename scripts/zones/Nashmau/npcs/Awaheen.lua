@@ -13,17 +13,17 @@ entity.onTrade = function(player, npc, trade)
     -- 1 x Imperial Mythril Piece(2186)        2 x Imperial Silver Piece(2185)
     -- 1 x Imperial Silver Piece (2185)       5 x Imperial Bronze Piece(2184)
     local nbr = 0
-    local reward = 0
+    local reward = xi.items.NONE
     if trade:getItemCount() == 1 then
         if trade:hasItemQty(xi.items.IMPERIAL_GOLD_PIECE, 1) then
             nbr = 5
-            reward = 2186
+            reward = xi.items.IMPERIAL_MYTHRIL_PIECE
         elseif trade:hasItemQty(xi.items.IMPERIAL_MYTHRIL_PIECE, 1) then
             nbr = 2
-            reward = 2185
+            reward = xi.items.IMPERIAL_SILVER_PIECE
         elseif trade:hasItemQty(xi.items.IMPERIAL_SILVER_PIECE, 1) then
             nbr = 5
-            reward = 2184
+            reward = xi.items.IMPERIAL_BRONZE_PIECE
         end
     end
 

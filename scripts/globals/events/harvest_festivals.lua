@@ -35,7 +35,7 @@ end
 local function halloweenItemsCheck(player)
     local headSlot = player:getEquipID(xi.slot.HEAD)
     local mainHand = player:getEquipID(xi.slot.MAIN)
-    local reward = 0
+    local reward = xi.items.NONE
 
     -- Normal Quality Rewards
     local pumpkinHead = 13916

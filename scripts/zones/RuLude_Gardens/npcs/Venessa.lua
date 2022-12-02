@@ -37,7 +37,7 @@ local rewards =
 }
 
 entity.onTrade = function(player, npc, trade)
-    local reward = 0
+    local reward = xi.items.NONE
 
     -- Get what reward should be given according to traded item
     for _,prize in pairs(rewards) do

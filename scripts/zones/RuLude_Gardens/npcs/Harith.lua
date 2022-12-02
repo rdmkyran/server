@@ -14,15 +14,15 @@ entity.onTrade = function(player, npc, trade)
 
     if player:getQuestStatus(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.EMPTY_MEMORIES) >= QUEST_ACCEPTED then
         local count = trade:getItemCount()
-        local reward = 0
+        local reward = xi.items.NONE
         local anima = 0
 
         if trade:hasItemQty(xi.items.RECOLLECTION_OF_SUFFERING, 1) and count == 1 then -- Recollection of Suffering
-            reward = 17208
+            reward = xi.items.HAMAYUMI
         elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_ANIMOSITY, 1) and count == 1 then -- Recollection of Animosity
-            reward = 17466
+            reward = xi.items.DIA_WAND
         elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_ANXIETY, 1) and count == 1 then -- Recollection of Anxiety
-            reward = 13177
+            reward = xi.items.STONE_GORGET
         elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_PAIN, 1) and count == 2 then -- Recollection of Pain
             anima = 5262
         elseif trade:hasItemQty(xi.items.RECOLLECTION_OF_GUILT, 1) and count == 2 then -- Recollection of Guilt

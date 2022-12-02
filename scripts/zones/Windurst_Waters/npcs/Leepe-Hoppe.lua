@@ -162,7 +162,7 @@ entity.onEventFinish = function(player, csid, option)
         player:delQuest(xi.quest.log_id.SANDORIA, xi.quest.id.sandoria.TRIAL_BY_ICE)
         player:delQuest(xi.quest.log_id.OTHER_AREAS, xi.quest.id.otherAreas.TRIAL_BY_LIGHTNING)
     elseif csid == 846 or csid == 850 then -- Turn-in event
-        local reward = 0
+        local reward = xi.items.NONE
         if option == 1 then
             reward = xi.items.FENRIRS_STONE
         elseif option == 2 then

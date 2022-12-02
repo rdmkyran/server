@@ -217,7 +217,7 @@ function xi.events.starlightCelebration.tokenMoogleOnFinish(player, id, csid, op
         local snowToken = player:hasKeyItem(xi.keyItem.SNOW_THEMED_GIFT_TOKEN)
         local bellToken = player:hasKeyItem(xi.keyItem.BELL_THEMED_GIFT_TOKEN)
         local starToken = player:hasKeyItem(xi.keyItem.STAR_THEMED_GIFT_TOKEN)
-        local reward = 0
+        local reward = xi.items.NONE
         local reward_table = {}
         local gifts_table =
             {

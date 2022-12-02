@@ -4,6 +4,7 @@
 -- !pos -40 0 -151 178
 -----------------------------------
 local ID = require("scripts/zones/The_Shrine_of_RuAvitau/IDs")
+require("scripts/globals/items")
 require("scripts/globals/missions")
 require("scripts/globals/quests")
 require("scripts/globals/keyitems")
@@ -93,7 +94,7 @@ entity.onEventFinish = function(player, csid, option)
         player:addQuest(xi.quest.log_id.OUTLANDS, xi.quest.id.outlands.DIVINE_MIGHT_REPEAT)
 
     elseif csid == 55 or csid == 59 then -- Turning in Divine Might or Repeat
-        local reward = 0
+        local reward = xi.items.NONE
         if option == 1 then
             reward = xi.items.SUPPANOMIMI
         elseif option == 2 then

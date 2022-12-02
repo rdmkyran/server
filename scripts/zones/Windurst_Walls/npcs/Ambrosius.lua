@@ -26,7 +26,7 @@ entity.onTrade = function(player, npc, trade)
     local postman = player:getQuestStatus(xi.quest.log_id.WINDURST, xi.quest.id.windurst.THE_POSTMAN_ALWAYS_KO_S_TWICE)
 
     if postman ~= QUEST_AVAILABLE then
-        local reward = 0
+        local reward = xi.items.NONE
 
         if trade:hasItemQty(xi.items.TORN_EPISTLE, 1) then reward = reward + 1 end
         if trade:hasItemQty(xi.items.MUDDY_BAR_TAB, 1) then reward = reward + 1 end

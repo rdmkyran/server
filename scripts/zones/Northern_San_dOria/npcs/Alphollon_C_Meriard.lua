@@ -12,7 +12,7 @@ local entity = {}
 entity.onTrade = function(player, npc, trade)
     if trade:getItemCount() == 2 then
         local item = 0
-        local reward = 0
+        local reward = xi.items.NONE
         local abjurList = xi.abjurations
         for i = 1, #abjurList, 5 do
             if trade:hasItemQty(abjurList[i], 1) then
