@@ -4,6 +4,7 @@
 -- http://wiki.ffxiclopedia.org/wiki/Crafts_%26_Hobbies
 -----------------------------------
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 
 xi = xi or {}
@@ -31,16 +32,8 @@ xi.crafting.guild =
 -----------------------------------
 local testItemsByNPC =
 {
-    ["Abd-al-Raziq"]   = {   937,  4157,  4163,   947, 16543,  4116, 16479,  4120, 16609, 10792 },
-    ["Peshi_Yohnts"]   = { 13442, 13441, 13323, 13459, 13091, 17299, 16420, 12508, 13987, 11058 },
-    ["Ponono"]         = { 13583, 13584, 13204, 13075, 12723, 13586, 13752, 12612, 14253, 11000 },
-    ["Piketo-Puketo"]  = {  4355,  4416,  4489,  4381,  4413,  4558,  4546,  4440,  4561,  5930 },
-    ["Thubu_Parohren"] = {  4401,  4379,  4469,  4480,  4462,  4479,  4471,  4478,  4474,  5817 },
-    ["Reinberta"]      = { 12496, 12497, 12495, 13082, 13446, 13084, 12545, 13125, 16515, 11060 },
-    ["Faulpie"]        = { 13594, 16386, 13588, 13195, 12571, 12572, 12980, 12702, 12447, 10577 },
-    ["Mevreauche"]     = { 16530, 12299, 16512, 16650, 16651, 16559, 12427, 16577, 12428, 19788 },
-    ["Ghemp"]          = { 16530, 12299, 16512, 16650, 16651, 16559, 12427, 16577, 12428, 19788 },
-    ["Cheupirudaux"]   = {    22,    23, 17354, 17348, 17053, 17156, 17054,    56, 17101, 18884 },
+    ["Abd-al-Raziq"]   = { xi.items.BLOCK_OF_ANIMAL_GLUE, xi.items.FLASK_OF_POISON_POTION, xi.items.FLASK_OF_BLINDNESS_POTION, xi.items.JAR_OF_FIRESAND , xi.items.FIRE_SWORD      , xi.items.HI_POTION              , xi.items.ACID_KUKRI               , xi.items.X_POTION            , xi.items.BLOODY_SWORD        , xi.items.SAIDA_RING                },
+    ["Peshi_Yohnts"]   = { xi.items.SHELL_RING          , xi.items.BONE_RING             , xi.items.BEETLE_EARRING           , xi.items.HORN_RING       , xi.items.CARAPACE_GORGET , xi.items.ASTRAGALOS             , xi.items.BONE_PATAS               , xi.items.CORAL_HAIRPIN       , xi.items.CORAL_BANGLES       , xi.items.HAJDUK_RING               },
     ["Ponono"]         = { xi.items.CAPE                , xi.items.COTTON_CAPE           , xi.items.HEKO_OBI                 , xi.items.FEATHER_COLLAR  , xi.items.WOOL_BRACERS    , xi.items.RED_CAPE               , xi.items.WOOL_DOUBLET             , xi.items.SILK_CLOAK          , xi.items.ARHATS_HAKAMA       , xi.items.SWITH_CAPE                },
     ["Piketo-Puketo"]  = { xi.items.SALMON_SUB_SANDWICH , xi.items.BOWL_OF_PEA_SOUP      , xi.items.BOWL_OF_VEGETABLE_GRUEL  , xi.items.MEAT_MITHKABOB  , xi.items.APPLE_PIE       , xi.items.BOTTLE_OF_YAGUDO_DRINK , xi.items.PIECE_OF_RAISIN_BREAD    , xi.items.BOWL_OF_WHITEFISH_STEW, xi.items.BOWL_OF_SEAFOOD_STEW, xi.items.BOWL_OF_SPRIGHTLY_SOUP  },
     ["Thubu_Parohren"] = { xi.items.MOAT_CARP           , xi.items.CHEVAL_SALMON         , xi.items.GIANT_CATFISH            , xi.items.GUGRU_TUNA      , xi.items.MONKE_ONKE      , xi.items.BHEFHEL_MARLIN         , xi.items.BLADEFISH                , xi.items.THREE_EYED_FISH     , xi.items.GIGANT_SQUID        , xi.items.TIGER_FISH                },
