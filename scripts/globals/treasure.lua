@@ -121,7 +121,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.500, 800, 2100 },
                 gem = { 0.036, 814, 800, 795, 807, 806 },
-                item = { 0.464, 16702 },
+                item = { 0.464, xi.items.COUGAR_BAGHNAKHS },
             },
 
             [xi.zone.YUGHOTT_GROTTO] = -- 142
@@ -140,7 +140,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.450, 800, 2350 },
                 gem = { 0.100, 814, 800, 795, 807, 806 },
-                item = { 0.450, 16702 },
+                item = { 0.450, xi.items.COUGAR_BAGHNAKHS },
             },
 
             [xi.zone.PALBOROUGH_MINES] = -- 143
@@ -177,7 +177,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.455, 840, 1600 },
                 gem = { 0.136, 795, 800, 814, 807, 806, 809 },
-                item = { 0.409, 17291 },
+                item = { 0.409, xi.items.FLAME_BOOMERANG },
             },
 
             [xi.zone.GIDDEUS] = -- 145
@@ -200,7 +200,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.448, 800, 1600 },
                 gem = { 0.069, 814, 800, 809, 795, 807, 806 },
-                item = { 0.483, 13365 },
+                item = { 0.483, xi.items.SHIELD_EARRING },
             },
 
             [xi.zone.BEADEAUX] = -- 147
@@ -224,7 +224,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.152, 3440, 9000 },
                 gem = { 0.090, 811, 790, 796, 798, 808, 815 },
-                item = { 0.758, 13230 },
+                item = { 0.758, xi.items.ADEPTS_ROPE },
             },
 
             [xi.zone.DAVOI] = -- 149
@@ -248,7 +248,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.429, 3060, 6320 },
                 gem = { 0.107, 811, 790, 808, 796, 799, 788, 815, 798 },
-                item = { 0.464, 13515 },
+                item = { 0.464, xi.items.ELECTRUM_RING },
             },
 
             [xi.zone.CASTLE_OZTROJA] = -- 151
@@ -286,7 +286,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.440, 3200, 6320 },
                 gem = { 0.080, 811, 790, 808, 796, 788, 807, 815, 798 },
-                item = { 0.480, 13840 },
+                item = { 0.480, xi.items.ELECTRUM_HAIRPIN },
             },
 
             [xi.zone.MIDDLE_DELKFUTTS_TOWER] = -- 157
@@ -319,7 +319,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.355, 2450, 7000 },
                 gem = { 0.161, 814, 800, 809, 795, 796, 799, 806 },
-                item = { 0.484, 16674 },
+                item = { 0.484, xi.items.EMETH_PICK },
             },
 
             [xi.zone.UPPER_DELKFUTTS_TOWER] = -- 158
@@ -348,7 +348,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.355, 2450, 7000 },
                 gem = { 0.161, 814, 800, 809, 795, 796, 799, 806 },
-                item = { 0.484, 16674 },
+                item = { 0.484, xi.items.EMETH_PICK },
             },
 
             [xi.zone.CASTLE_ZVAHL_BAILEYS] = -- 161
@@ -389,7 +389,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.382, 5000, 13950 },
                 gem = { 0.008, 811, 790, 808, 788, 799, 815 },
-                item = { 0.610, 13516 },
+                item = { 0.610, xi.items.PHALANX_RING },
             },
 
             [xi.zone.CASTLE_ZVAHL_KEEP] = -- 162
@@ -424,7 +424,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.306, 5000, 10000 },
                 gem = { 0.204, 798, 790, 808, 788, 815, 796 },
-                item = { 0.490, 13516 },
+                item = { 0.490, xi.items.PHALANX_RING },
             },
 
             [xi.zone.SEA_SERPENT_GROTTO] = -- 176
@@ -487,7 +487,7 @@ xi.treasure.treasureInfo =
                 },
                 gil =  { 0.474, 390, 1300 },
                 gem =  { 0.093, 814, 800, 809, 795, 807, 806 },
-                item = { 0.433, 12799 },
+                item = { 0.433, xi.items.BATTLE_GLOVES },
             },
 
             [xi.zone.DANGRUF_WADI] = -- 191
@@ -514,7 +514,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.308, 450, 900 },
                 gem = { 0.230, 814, 800, 809, 795, 807, 806 },
-                item = { 0.462, 12341 },
+                item = { 0.462, xi.items.TROPICAL_SHIELD },
             },
 
             [xi.zone.INNER_HORUTOTO_RUINS] = -- 192
@@ -529,7 +529,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.459, 450, 1034 },
                 gem = { 0.109, 814, 800, 809, 795, 806 },
-                item = { 0.432, 16719 },
+                item = { 0.432, xi.items.MOTH_AXE },
             },
 
             [xi.zone.ORDELLES_CAVES] = -- 193
@@ -579,7 +579,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.310, 1800, 3600 },
                 gem = { 0.214, 800, 809, 806, 807, 796, 795, 814, 799 },
-                item = { 0.476, 13222 },
+                item = { 0.476, xi.items.FORCE_BELT },
             },
 
             [xi.zone.OUTER_HORUTOTO_RUINS] = -- 194
@@ -600,7 +600,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.459, 450, 1034 },
                 gem = { 0.109, 814, 800, 809, 795, 806 },
-                item = { 0.432, 16719 },
+                item = { 0.432, xi.items.MOTH_AXE },
             },
 
             [xi.zone.THE_ELDIEME_NECROPOLIS] = -- 195
@@ -622,7 +622,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.421, 5100, 12450 },
                 gem = { 0.105, 811, 808, 796, 799, 815, 790 },
-                item = { 0.474, 16771 },
+                item = { 0.474, xi.items.FALCASTRA },
             },
 
             [xi.zone.GUSGEN_MINES] = -- 196
@@ -661,7 +661,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.302, 1980, 3600 },
                 gem = { 0.233, 806, 809, 814, 800, 796, 795, 799 },
-                item = { 0.465, 12338, 17426 },
+                item = { 0.465, xi.items.FROST_SHIELD, 17426 },
             },
 
             [xi.zone.CRAWLERS_NEST] = -- 197
@@ -700,7 +700,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.394, 4702, 10000 },
                 gem = { 0.162, 811, 790, 808, 796, 799, 788, 815, 798 },
-                item = { 0.444, 16710 },
+                item = { 0.444, xi.items.GIGANT_AXE },
             },
 
             [xi.zone.MAZE_OF_SHAKHRAMI] = -- 198
@@ -743,7 +743,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.525, 1800, 5200 },
                 gem = { 0.060, 814, 800, 809, 795, 796, 799, 807, 806 },
-                item = { 0.415, 17071 },
+                item = { 0.415, xi.items.HEAT_ROD },
             },
 
             [xi.zone.GARLAIGE_CITADEL] = -- 200
@@ -765,7 +765,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.576, 4425, 10000 },
                 gem = { 0.059, 811, 790, 808, 796, 799, 788, 815, 798 },
-                item = { 0.365, 13723 },
+                item = { 0.365, xi.items.PYRO_ROBE },
             },
 
             [xi.zone.FEIYIN] = -- 204
@@ -804,7 +804,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.469, 4050, 7920 },
                 gem = { 0.091, 811, 790, 808, 796, 799, 788, 815, 798 },
-                item = { 0.440, 13231 },
+                item = { 0.440, xi.items.LIFE_BELT },
             },
 
             [xi.zone.LABYRINTH_OF_ONZOZO] = -- 213
@@ -927,7 +927,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.375, 4700, 25000 },
                 gem = { 0.240, 791, 801, 802, 797, 788, 803, 805, 810, 784 },
-                item = { 0.385, 4820 },
+                item = { 0.385, xi.items.SCROLL_OF_BURST },
             },
 
             [xi.zone.MONASTIC_CAVERN] = -- 150
@@ -959,7 +959,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.818, 7320, 14400 },
                 gem = { 0.055, 801, 810, 784, 802, 797, 803 },
-                item = { 0.127, 13398 },
+                item = { 0.127, xi.items.PHYSICAL_EARRING },
             },
 
             [xi.zone.CASTLE_OZTROJA] = -- 151
@@ -988,7 +988,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.652, 7320, 18000 },
                 gem = { 0.044, 791, 801, 810, 784, 802, 797, 803, 805 },
-                item = { 0.304, 14670 },
+                item = { 0.304, xi.items.SAFEGUARD_RING },
             },
 
             [xi.zone.THE_BOYAHDA_TREE] = -- 153
@@ -1023,7 +1023,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.793, 7110, 20520 },
                 gem = { 0.092, 791, 801, 810, 784, 802, 803, 805, 797 },
-                item = { 0.115, 4447 },
+                item = { 0.115, xi.items.SCREAM_FUNGUS },
             },
 
             [xi.zone.TEMPLE_OF_UGGALEPIH] = -- 159
@@ -1115,7 +1115,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.731, 6300, 26880 },
                 gem = { 0.080, 791, 801, 810, 784, 802, 797, 803, 805 },
-                item = { 0.189, 4995 },
+                item = { 0.189, xi.items.SCROLL_OF_MAGES_BALLAD_II },
             },
 
             [xi.zone.TORAIMARAI_CANAL] = -- 169
@@ -1297,7 +1297,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.500, 7590, 18039 },
                 gem = { 0.250, 801, 810, 802, 797, 803 },
-                item = { 0.250, 4175 },
+                item = { 0.250, xi.items.VILE_ELIXIR_P1 },
             },
 
             [xi.zone.CRAWLERS_NEST] = -- 197
@@ -1328,7 +1328,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.387, 6040, 12100 },
                 gem = { 0.387, 791, 801, 784, 797, 805, 803 },
-                item = { 0.226, 4173 },
+                item = { 0.226, xi.items.HI_RERAISER },
             },
 
             [xi.zone.GARLAIGE_CITADEL] = -- 200
@@ -1360,7 +1360,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.750, 6668, 18700 },
                 gem = { 0.125, 801, 784, 802 },
-                item = { 0.125, 13977 },
+                item = { 0.125, xi.items.LIGHT_GAUNTLETS },
             },
 
             [xi.zone.IFRITS_CAULDRON] = -- 205
