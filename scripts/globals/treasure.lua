@@ -661,7 +661,7 @@ xi.treasure.treasureInfo =
                 },
                 gil = { 0.302, 1980, 3600 },
                 gem = { 0.233, 806, 809, 814, 800, 796, 795, 799 },
-                item = { 0.465, xi.items.FROST_SHIELD, 17426 },
+                item = { 0.465, xi.items.FROST_SHIELD, xi.items.REPLICA_MAUL },
             },
 
             [xi.zone.CRAWLERS_NEST] = -- 197
