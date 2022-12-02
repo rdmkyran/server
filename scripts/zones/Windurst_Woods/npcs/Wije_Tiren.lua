@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Woods/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 -----------------------------------
 local entity = {}
@@ -17,14 +18,14 @@ entity.onTrigger = function(player, npc)
 
     local stock =
     {
-        4148,   290,       --Antidote
-        4509,    10,       --Distilled Water
-        4151,   728,       --Echo Drops
-        4128,  4445,       --Ether
-        4150,  2387,       --Eye Drops
-        4112,   837,       --Potion
-        5014,    98,       --Scroll of Herb Pastoral
-        2864,  9200        --Federation Waystone
+        xi.items.ANTIDOTE,                        290,
+        xi.items.FLASK_OF_DISTILLED_WATER,         10,
+        xi.items.FLASK_OF_ECHO_DROPS,             728,
+        xi.items.ETHER,                          4445,
+        xi.items.FLASK_OF_EYE_DROPS,             2387,
+        xi.items.POTION,                          837,
+        xi.items.SCROLL_OF_HERB_PASTORAL,          98,
+        xi.items.FEDERATION_WAYSTONE,            9200
     }
     xi.shop.general(player, stock, xi.quest.fame_area.WINDURST)
 end
