@@ -8,16 +8,9 @@ local ID = require("scripts/zones/Davoi/IDs")
 require("scripts/globals/keyitems")
 require("scripts/globals/settings")
 require("scripts/globals/dynamis")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
-
-local timelessHourglassID = 4236
-local currency =
-{
-    1452,
-    1453,
-    1454
-}
 
 local shop =
 {
@@ -58,22 +51,22 @@ entity.onTrade = function(player, npc, trade)
             player:startEvent(134)
 
         -- return timeless hourglass for refund
-        elseif count == 1 and trade:hasItemQty(timelessHourglassID, 1) then
+        elseif count == 1 and trade:hasItemQty(xi.items.TIMELESS_HOURGLASS, 1) then
             player:startEvent(153)
 
         -- currency exchanges
         elseif
             count == xi.settings.main.CURRENCY_EXCHANGE_RATE and
-            trade:hasItemQty(currency[1], xi.settings.main.CURRENCY_EXCHANGE_RATE)
+            trade:hasItemQty(xi.items.ORDELLE_BRONZEPIECE, xi.settings.main.CURRENCY_EXCHANGE_RATE)
         then
             player:startEvent(135, xi.settings.main.CURRENCY_EXCHANGE_RATE)
         elseif
             count == xi.settings.main.CURRENCY_EXCHANGE_RATE and
-            trade:hasItemQty(currency[2], xi.settings.main.CURRENCY_EXCHANGE_RATE)
+            trade:hasItemQty(xi.items.MONTIONT_SILVERPIECE, xi.settings.main.CURRENCY_EXCHANGE_RATE)
         then
             player:startEvent(136, xi.settings.main.CURRENCY_EXCHANGE_RATE)
-        elseif count == 1 and trade:hasItemQty(currency[3], 1) then
-            player:startEvent(138, currency[3], currency[2], xi.settings.main.CURRENCY_EXCHANGE_RATE)
+        elseif count == 1 and trade:hasItemQty(xi.items.RANPERRE_GOLDPIECE, 1) then
+            player:startEvent(138, xi.items.RANPERRE_GOLDPIECE, xi.items.MONTIONT_SILVERPIECE, xi.settings.main.CURRENCY_EXCHANGE_RATE)
 
         -- shop
         else
@@ -82,9 +75,9 @@ entity.onTrade = function(player, npc, trade)
             for i = 1, 13, 2 do
                 price = shop[i]
                 item = shop[i + 1]
-                if count == price and trade:hasItemQty(currency[2], price) then
+                if count == price and trade:hasItemQty(xi.items.MONTIONT_SILVERPIECE, price) then
                     player:setLocalVar("hundoItemBought", item)
-                    player:startEvent(137, currency[2], price, item)
+                    player:startEvent(137, xi.items.MONTIONT_SILVERPIECE, price, item)
                     break
                 end
             end
@@ -95,7 +88,7 @@ end
 
 entity.onTrigger = function(player, npc)
     if player:hasKeyItem(xi.ki.VIAL_OF_SHROUDED_SAND) then
-        player:startEvent(133, currency[1], xi.settings.main.CURRENCY_EXCHANGE_RATE, currency[2], xi.settings.main.CURRENCY_EXCHANGE_RATE, currency[3], xi.settings.main.PRISMATIC_HOURGLASS_COST, timelessHourglassID, xi.settings.main.TIMELESS_HOURGLASS_COST)
+        player:startEvent(133, xi.items.ORDELLE_BRONZEPIECE, xi.settings.main.CURRENCY_EXCHANGE_RATE, xi.items.MONTIONT_SILVERPIECE, xi.settings.main.CURRENCY_EXCHANGE_RATE, xi.items.RANPERRE_GOLDPIECE, xi.settings.main.PRISMATIC_HOURGLASS_COST, xi.items.TIMELESS_HOURGLASS, xi.settings.main.TIMELESS_HOURGLASS_COST)
     else
         player:startEvent(130)
     end
@@ -105,7 +98,7 @@ entity.onEventUpdate = function(player, csid, option)
     if csid == 133 then
         -- asking about hourglasses
         if option == 1 then
-            if not player:hasItem(timelessHourglassID) then
+            if not player:hasItem(xi.items.TIMELESS_HOURGLASS) then
                 -- must figure out what changes here to prevent the additional dialog
                 -- player:updateEvent(?)
             end
@@ -118,7 +111,7 @@ entity.onEventUpdate = function(player, csid, option)
 
         -- offer to trade down from a 10k
         elseif option == 10 then
-            player:updateEvent(currency[3], currency[2], xi.settings.main.CURRENCY_EXCHANGE_RATE)
+            player:updateEvent(xi.items.RANPERRE_GOLDPIECE, xi.items.MONTIONT_SILVERPIECE, xi.settings.main.CURRENCY_EXCHANGE_RATE)
 
         -- main menu (param1 = dynamis map bitmask, param2 = gil)
         elseif option == 11 then
@@ -157,39 +150,39 @@ entity.onEventFinish = function(player, csid, option)
     -- singles to hundos
     elseif csid == 135 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, currency[2])
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MONTIONT_SILVERPIECE)
         else
             player:tradeComplete()
-            player:addItem(currency[2])
-            player:messageSpecial(ID.text.ITEM_OBTAINED, currency[2])
+            player:addItem(xi.items.MONTIONT_SILVERPIECE)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.MONTIONT_SILVERPIECE)
         end
 
     -- hundos to 10k pieces
     elseif csid == 136 then
         if player:getFreeSlotsCount() == 0 then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, currency[3])
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.RANPERRE_GOLDPIECE)
         else
             player:tradeComplete()
-            player:addItem(currency[3])
-            player:messageSpecial(ID.text.ITEM_OBTAINED, currency[3])
+            player:addItem(xi.items.RANPERRE_GOLDPIECE)
+            player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.RANPERRE_GOLDPIECE)
         end
 
     -- 10k pieces to hundos
     elseif csid == 138 then
         local slotsReq = math.ceil(xi.settings.main.CURRENCY_EXCHANGE_RATE / 99)
         if player:getFreeSlotsCount() < slotsReq then
-            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, currency[2])
+            player:messageSpecial(ID.text.ITEM_CANNOT_BE_OBTAINED, xi.items.MONTIONT_SILVERPIECE)
         else
             player:tradeComplete()
             for i = 1, slotsReq do
                 if i < slotsReq or (xi.settings.main.CURRENCY_EXCHANGE_RATE % 99) == 0 then
-                    player:addItem(currency[2], xi.settings.main.CURRENCY_EXCHANGE_RATE)
+                    player:addItem(xi.items.MONTIONT_SILVERPIECE, xi.settings.main.CURRENCY_EXCHANGE_RATE)
                 else
-                    player:addItem(currency[2], xi.settings.main.CURRENCY_EXCHANGE_RATE % 99)
+                    player:addItem(xi.items.MONTIONT_SILVERPIECE, xi.settings.main.CURRENCY_EXCHANGE_RATE % 99)
                 end
             end
 
-            player:messageSpecial(ID.text.ITEMS_OBTAINED, currency[2], xi.settings.main.CURRENCY_EXCHANGE_RATE)
+            player:messageSpecial(ID.text.ITEMS_OBTAINED, xi.items.MONTIONT_SILVERPIECE, xi.settings.main.CURRENCY_EXCHANGE_RATE)
         end
 
     -- bought item from shop

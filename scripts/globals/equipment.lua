@@ -1,4 +1,5 @@
 require("scripts/globals/status")
+require("scripts/globals/items")
 
 xi.equipment = xi.equipment or {}
 

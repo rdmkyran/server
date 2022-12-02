@@ -43,27 +43,25 @@ local startingZones =
     {xi.zone.XARCABARD, "Xarcabard", 6, xi.zone.DYNAMIS_XARCABARD, "Trail_Markings"}
 }
 
-local timelessHourglassID = 4236
-
 local currencyHaggle =
 {
-    1455,
-    1456,
-    1457
+    xi.items.ONE_BYNE_BILL,
+    xi.items.ONE_HUNDRED_BYNE_BILL,
+    xi.items.ONE_HUNDRED_EIGHT_KNOT_QUIPU
 }
 
 local currencyAntiqix =
 {
-    1449,
-    1450,
-    1451
+    xi.items.TUKUKU_WHITESHELL,
+    xi.items.LUNGO_NANGO_JADESHELL,
+    xi.items.RIMILALA_STRIPESHELL
 }
 
 local currencyLootblox =
 {
-    1452,
-    1453,
-    1454
+    xi.items.ORDELLE_BRONZEPIECE,
+    xi.items.MONTIONT_SILVERPIECE,
+    xi.items.RANPERRE_GOLDPIECE
 }
 
 local shopLootblox =
