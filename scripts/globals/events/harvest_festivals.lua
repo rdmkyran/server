@@ -37,24 +37,18 @@ local function halloweenItemsCheck(player)
     local mainHand = player:getEquipID(xi.slot.MAIN)
     local reward = xi.items.NONE
 
-    -- Normal Quality Rewards
-    local pumpkinHead = 13916
-    local pumpkinHead2 = 15176
-    local trickStaff = 17565
-    local trickStaff2 = 17587
-
-    local reward_list = { pumpkinHead, pumpkinHead2, trickStaff, trickStaff2 }
+    local reward_list = { xi.items.PUMPKIN_HEAD, xi.items.HORROR_HEAD_II, xi.items.TREAT_STAFF, xi.items.TREAT_STAFF_II }
 
     -- Checks for HQ Upgrade
     for ri = 1, #reward_list do
         if headSlot == reward_list[ri] or mainHand == reward_list[ri] then
-            if headSlot == pumpkinHead and not player:hasItem(xi.items.HORROR_HEAD) then
+            if headSlot == xi.items.PUMPKIN_HEAD and not player:hasItem(xi.items.HORROR_HEAD) then
                 reward = xi.items.HORROR_HEAD
-            elseif headSlot == pumpkinHead2 and not player:hasItem(xi.items.HORROR_HEAD_II) then
+            elseif headSlot == xi.items.PUMPKIN_HEAD_II and not player:hasItem(xi.items.HORROR_HEAD_II) then
                 reward = xi.items.HORROR_HEAD_II
-            elseif mainHand == trickStaff and not player:hasItem(xi.items.TREAT_STAFF) then
+            elseif mainHand == xi.items.TRICK_STAFF and not player:hasItem(xi.items.TREAT_STAFF) then
                 reward = xi.items.TREAT_STAFF
-            elseif mainHand == trickStaff2 and not player:hasItem(xi.items.TREAT_STAFF_II) then
+            elseif mainHand == xi.items.TRICK_STAFF_II and not player:hasItem(xi.items.TREAT_STAFF_II) then
                 reward = xi.items.TREAT_STAFF_II
             end
 
