@@ -14,13 +14,13 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        17389,  496, 1,    -- Bamboo Fishing Rod
-        17395,    9, 2,    -- Lugworm
-        17390,  217, 2,    -- Yew Fishing Rod
-        17396,    3, 3,    -- Little Worm
-        5068,   110, 3,    -- Scroll of Light Threnoldy
-        5066,  1265, 3,    -- Scroll of Lightning Threnoldy
-        17391,   66, 3,    -- Willow Fishing Rod
+        xi.items.BAMBOO_FISHING_ROD,         496, 1,
+        xi.items.LUGWORM,                      9, 2,
+        xi.items.YEW_FISHING_ROD,            217, 2,
+        xi.items.LITTLE_WORM,                  3, 3,
+        xi.items.SCROLL_OF_LIGHT_THRENODY,    110, 3,
+        xi.items.SCROLL_OF_LIGHTNING_THRENODY,  1265, 3,
+        xi.items.WILLOW_FISHING_ROD,          66, 3,
     }
 
     player:showText(npc, ID.text.LUSIANE_SHOP_DIALOG)

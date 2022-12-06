@@ -14,22 +14,22 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4641, 1165, 1,    -- Diaga
-        4662, 7025, 1,    -- Stoneskin
-        4664,  837, 1,    -- Slow
-        4610,  585, 2,    -- Cure II
-        4636,  140, 2,    -- Banish
-        4646, 1165, 2,    -- Banishga
-        4661, 2097, 2,    -- Blink
-        4609,   61, 3,    -- Cure
-        4615, 1363, 3,    -- Curaga
-        4622,  180, 3,    -- Poisona
-        4623,  324, 3,    -- Paralyna
-        4624,  990, 3,    -- Blindna
-        4631,   82, 3,    -- Dia
-        4651,  219, 3,    -- Protect
-        4656, 1584, 3,    -- Shell
-        4663,  360, 3,    -- Aquaveil
+        xi.items.SCROLL_OF_DIAGA,           1165, 1,
+        xi.items.SCROLL_OF_STONESKIN,       7025, 1,
+        xi.items.SCROLL_OF_SLOW,             837, 1,
+        xi.items.SCROLL_OF_CURE_II,          585, 2,
+        xi.items.SCROLL_OF_BANISH,           140, 2,
+        xi.items.SCROLL_OF_BANISHGA,        1165, 2,
+        xi.items.SCROLL_OF_BLINK,           2097, 2,
+        xi.items.SCROLL_OF_CURE,              61, 3,
+        xi.items.SCROLL_OF_CURAGA,          1363, 3,
+        xi.items.SCROLL_OF_POISONA,          180, 3,
+        xi.items.SCROLL_OF_PARALYNA,         324, 3,
+        xi.items.SCROLL_OF_BLINDNA,          990, 3,
+        xi.items.SCROLL_OF_DIA,               82, 3,
+        xi.items.SCROLL_OF_PROTECT,          219, 3,
+        xi.items.SCROLL_OF_SHELL,           1584, 3,
+        xi.items.SCROLL_OF_AQUAVEIL,         360, 3,
     }
 
     player:showText(npc, ID.text.KUSUSU_SHOP_DIALOG)

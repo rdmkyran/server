@@ -84,24 +84,24 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 510 and option == 0 then
         local stockA =
         {
-            4641, 1165, 1, -- Scroll of Diaga
-            4664, 837, 1,  -- Scroll of Slow
-            4662, 7025, 1, -- Scroll of Stoneskin
+            xi.items.SCROLL_OF_DIAGA,           1165, 1,
+            xi.items.SCROLL_OF_SLOW,            837, 1,
+            xi.items.SCROLL_OF_STONESKIN,       7025, 1,
 
-            4636, 140, 2,  -- Scroll of Banish
-            4646, 1165, 2, -- Scroll of Banishga
-            4661, 2097, 2, -- Scroll of Blink
-            4610, 585, 2,  -- Scroll of Cure II
+            xi.items.SCROLL_OF_BANISH,          140, 2,
+            xi.items.SCROLL_OF_BANISHGA,        1165, 2,
+            xi.items.SCROLL_OF_BLINK,           2097, 2,
+            xi.items.SCROLL_OF_CURE_II,         585, 2,
 
-            4663, 360, 3,  -- Scroll of Aquaveil
-            4624, 990, 3,  -- Scroll of Blindna
-            4615, 1363, 3, -- Scroll of Curaga
-            4609, 61, 3,   -- Scroll of Cure
-            4631, 82, 3,   -- Scroll of Dia
-            4623, 324, 3,  -- Scroll of Paralyna
-            4622, 180, 3,  -- Scroll of Poisona
-            4651, 219, 3,  -- Scroll of Protect
-            4656, 1584, 3  -- Scroll of Shell
+            xi.items.SCROLL_OF_AQUAVEIL,        360, 3,
+            xi.items.SCROLL_OF_BLINDNA,         990, 3,
+            xi.items.SCROLL_OF_CURAGA,          1363, 3,
+            xi.items.SCROLL_OF_CURE,            61, 3,
+            xi.items.SCROLL_OF_DIA,             82, 3,
+            xi.items.SCROLL_OF_PARALYNA,        324, 3,
+            xi.items.SCROLL_OF_POISONA,         180, 3,
+            xi.items.SCROLL_OF_PROTECT,         219, 3,
+            xi.items.SCROLL_OF_SHELL,           1584, 3
         }
         xi.shop.nation(player, stockA, xi.nation.SANDORIA)
 
@@ -109,23 +109,23 @@ entity.onEventFinish = function(player, csid, option)
     elseif csid == 510 and option == 1 then
         local stockB =
         {
-            4862, 111, 1,  -- Scroll of Blind
-            4838, 360, 2,  -- Scroll of Bio
-            4828, 82, 2,   -- Scroll of Poison
-            4861, 2250, 2, -- Scroll of Sleep
+            xi.items.SCROLL_OF_BLIND,           111, 1,
+            xi.items.SCROLL_OF_BIO,             360, 2,
+            xi.items.SCROLL_OF_POISON,          82, 2,
+            xi.items.SCROLL_OF_SLEEP,           2250, 2,
 
-            4762, 324, 3,  -- Scroll of Aero
-            4757, 1584, 3, -- Scroll of Blizzard
-            4843, 4644, 3, -- Scroll of Burn
-            4845, 2250, 3, -- Scroll of Choke
-            4848, 6366, 3, -- Scroll of Drown
-            4752, 837, 3,  -- Scroll of Fire
-            4844, 3688, 3, -- Scroll of Frost
-            4846, 1827, 3, -- Scroll of Rasp
-            4847, 1363, 3, -- Scroll of Shock
-            4767, 61, 3,   -- Scroll of Stone
-            4772, 3261, 3, -- Scroll of Thunder
-            4777, 140, 3   -- Scroll of Water
+            xi.items.SCROLL_OF_AERO,            324, 3,
+            xi.items.SCROLL_OF_BLIZZARD,        1584, 3,
+            xi.items.SCROLL_OF_BURN,            4644, 3,
+            xi.items.SCROLL_OF_CHOKE,           2250, 3,
+            xi.items.SCROLL_OF_DROWN,           6366, 3,
+            xi.items.SCROLL_OF_FIRE,            837, 3,
+            xi.items.SCROLL_OF_FROST,           3688, 3,
+            xi.items.SCROLL_OF_RASP,            1827, 3,
+            xi.items.SCROLL_OF_SHOCK,           1363, 3,
+            xi.items.SCROLL_OF_STONE,           61, 3,
+            xi.items.SCROLL_OF_THUNDER,         3261, 3,
+            xi.items.SCROLL_OF_WATER,           140, 3
         }
         xi.shop.nation(player, stockB, xi.nation.SANDORIA)
     end

@@ -14,21 +14,21 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16649, 5864, 2,    -- Bone Pick
-        16405,  104, 3,    -- Cat Baghnakhs
-        16385,  129, 3,    -- Cesti
-        16391, 1521, 3,    -- Brass Knuckles
-        16407, 1521, 3,    -- Brass Baghnakhs
-        16642, 4198, 3,    -- Bone Axe
-        16768,  309, 3,    -- Bronze Zaghnal
-        16769, 2542, 3,    -- Brass Zaghnal
-        16832,   97, 3,    -- Harpoon
-        16448,  143, 3,    -- Bronze Dagger
-        16449,  837, 3,    -- Brass Dagger
-        16450, 1827, 3,    -- Dagger
-        16512, 3215, 3,    -- Bilbo
-        16530,  618, 3,    -- Xiphos
-        16565, 1674, 3,    -- Spatha
+        xi.items.BONE_PICK,                 5864, 2,
+        xi.items.CAT_BAGHNAKHS,              104, 3,
+        xi.items.CESTI,                      129, 3,
+        xi.items.BRASS_KNUCKLES,            1521, 3,
+        xi.items.BRASS_BAGHNAKHS,           1521, 3,
+        xi.items.BONE_AXE,                  4198, 3,
+        xi.items.BRONZE_ZAGHNAL,             309, 3,
+        xi.items.BRASS_ZAGHNAL,             2542, 3,
+        xi.items.HARPOON,                     97, 3,
+        xi.items.BRONZE_DAGGER,              143, 3,
+        xi.items.BRASS_DAGGER,               837, 3,
+        xi.items.DAGGER,                    1827, 3,
+        xi.items.BILBO,                     3215, 3,
+        xi.items.XIPHOS,                     618, 3,
+        xi.items.SPATHA,                    1674, 3,
     }
 
     player:showText(npc, ID.text.TANIKOMANIKO_SHOP_DIALOG)

@@ -14,19 +14,19 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16473,  5589, 1,    -- Kukri
-        16545, 21067, 1,    -- Broadsword
-        16513, 11588, 1,    -- Tuck
-        16558, 61200, 1,    -- Falchion
-        16466,  2182, 2,    -- Knife
-        16537, 30960, 2,    -- Mythril Sword
-        16552,  4072, 2,    -- Scimitar
-        16465,   147, 3,    -- Bronze Knife
-        16405,   104, 3,    -- Cat Baghnakhs
-        16535,   241, 3,    -- Bronze Sword
-        16536,  7128, 3,    -- Iron Sword
-        16517,  9201, 3,    -- Degen
-        16551,   698, 3,    -- Sapara
+        xi.items.KUKRI,                      5589, 1,
+        xi.items.BROADSWORD,                21067, 1,
+        xi.items.TUCK,                      11588, 1,
+        xi.items.FALCHION,                  61200, 1,
+        xi.items.KNIFE,                      2182, 2,
+        xi.items.MYTHRIL_SWORD,             30960, 2,
+        xi.items.SCIMITAR,                   4072, 2,
+        xi.items.BRONZE_KNIFE,                147, 3,
+        xi.items.CAT_BAGHNAKHS,               104, 3,
+        xi.items.BRONZE_SWORD,                241, 3,
+        xi.items.IRON_SWORD,                 7128, 3,
+        xi.items.DEGEN,                      9201, 3,
+        xi.items.SAPARA,                      698, 3,
     }
 
     player:showText(npc, ID.text.SUGANDHI_SHOP_DIALOG)

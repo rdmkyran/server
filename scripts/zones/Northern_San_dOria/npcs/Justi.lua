@@ -14,15 +14,15 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        32, 170726, 1,    -- Dresser
-        55,  69888, 1,    -- Cabinet
-        59,  57333, 1,    -- Chiffonier
-        49,  35272, 2,    -- Coffer
-        1657,   92, 3,    -- Bundling Twine
-        93,    518, 3,    -- Water Cask
-        57,  15881, 3,    -- Cupboard
-        24, 129168, 3,    -- Oak Table
-        46,   8376, 3,    -- Armor Box
+        xi.items.DRESSER,                   170726, 1,
+        xi.items.CABINET,                    69888, 1,
+        xi.items.CHIFFONIER,                 57333, 1,
+        xi.items.COFFER,                     35272, 2,
+        xi.items.SPOOL_OF_BUNDLING_TWINE,     92, 3,
+        xi.items.WATER_CASK,                   518, 3,
+        xi.items.CUPBOARD,                   15881, 3,
+        xi.items.OAK_TABLE,                 129168, 3,
+        xi.items.ARMOR_BOX,                   8376, 3,
     }
 
     player:showText(npc, ID.text.JUSTI_SHOP_DIALOG)

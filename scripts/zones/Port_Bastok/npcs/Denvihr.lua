@@ -14,16 +14,16 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        699, 5688, 1,    -- Oak Log
-        644, 1800, 1,    -- Mythril Ore
-        835,  225, 1,    -- Flax Flower
-        698,   86, 2,    -- Ash Log
-        694, 2543, 2,    -- Chestnut Log
-        643,  810, 2,    -- Iron Ore
-        833,   18, 2,    -- Moko Grass
-        4570,  50, 2,    -- Bird Egg
-        640,   10, 3,    -- Copper Ore
-        136, 1800, 3,    -- Kaiserin Cosmetics
+        xi.items.OAK_LOG,                   5688, 1,
+        xi.items.CHUNK_OF_MYTHRIL_ORE,      1800, 1,
+        xi.items.FLAX_FLOWER,                225, 1,
+        xi.items.ASH_LOG,                     86, 2,
+        xi.items.CHESTNUT_LOG,              2543, 2,
+        xi.items.CHUNK_OF_IRON_ORE,          810, 2,
+        xi.items.CLUMP_OF_MOKO_GRASS,         18, 2,
+        xi.items.BIRD_EGG,                   50, 2,
+        xi.items.CHUNK_OF_COPPER_ORE,         10, 3,
+        xi.items.SET_OF_KAISERIN_COSMETICS, 1800, 3,
     }
 
     player:showText(npc, ID.text.DENVIHR_SHOP_DIALOG)

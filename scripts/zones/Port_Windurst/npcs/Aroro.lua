@@ -14,22 +14,22 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4862,  114, 1,    -- Blind
-        4828,   84, 2,    -- Poison
-        4838,  368, 2,    -- Bio
-        4861, 2300, 2,    -- Sleep
-        4767,   62, 3,    -- Stone
-        4777,  143, 3,    -- Water
-        4762,  331, 3,    -- Aero
-        4752,  855, 3,    -- Fire
-        4757, 1619, 3,    -- Blizzard
-        4772, 3334, 3,    -- Thunder
-        4843, 4747, 3,    -- Burn
-        4844, 3770, 3,    -- Frost
-        4845, 2300, 3,    -- Choke
-        4846, 1867, 3,    -- Rasp
-        4847, 1393, 3,    -- Shock
-        4848, 6508, 3,    -- Drown
+        xi.items.SCROLL_OF_BLIND,            114, 1,
+        xi.items.SCROLL_OF_POISON,            84, 2,
+        xi.items.SCROLL_OF_BIO,              368, 2,
+        xi.items.SCROLL_OF_SLEEP,           2300, 2,
+        xi.items.SCROLL_OF_STONE,             62, 3,
+        xi.items.SCROLL_OF_WATER,            143, 3,
+        xi.items.SCROLL_OF_AERO,             331, 3,
+        xi.items.SCROLL_OF_FIRE,             855, 3,
+        xi.items.SCROLL_OF_BLIZZARD,        1619, 3,
+        xi.items.SCROLL_OF_THUNDER,         3334, 3,
+        xi.items.SCROLL_OF_BURN,            4747, 3,
+        xi.items.SCROLL_OF_FROST,           3770, 3,
+        xi.items.SCROLL_OF_CHOKE,           2300, 3,
+        xi.items.SCROLL_OF_RASP,            1867, 3,
+        xi.items.SCROLL_OF_SHOCK,           1393, 3,
+        xi.items.SCROLL_OF_DROWN,           6508, 3,
     }
 
     player:showText(npc, ID.text.ARORO_SHOP_DIALOG)

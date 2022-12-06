@@ -14,22 +14,22 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12552, 14256, 1,    -- Chainmail
-        12680,  7783, 1,    -- Chain Mittens
-        12672, 23846, 1,    -- Gauntlets
-        12424,  9439, 1,    -- Iron Mask
-        12442, 13179, 2,    -- Studded Bandana
-        12698, 11012, 2,    -- Studded Gloves
-        12570, 20976, 2,    -- Studded Vest
-        12449,  1504, 3,    -- Brass Cap
-        12577,  2286, 3,    -- Brass Harness
-        12705,  1255, 3,    -- Brass Mittens
-        12448,   154, 3,    -- Bronze Cap
-        12576,   576, 3,    -- Bronze Harness
-        12704,   128, 3,    -- Bronze Mittens
-        12440,   396, 3,    -- Leather Bandana
-        12696,   331, 3,    -- Leather Gloves
-        12568,   618, 3,    -- Leather Vest
+        xi.items.CHAINMAIL,                 14256, 1,
+        xi.items.CHAIN_MITTENS,              7783, 1,
+        xi.items.GAUNTLETS,                 23846, 1,
+        xi.items.IRON_MASK,                  9439, 1,
+        xi.items.STUDDED_BANDANA,           13179, 2,
+        xi.items.STUDDED_GLOVES,            11012, 2,
+        xi.items.STUDDED_VEST,              20976, 2,
+        xi.items.BRASS_CAP,                  1504, 3,
+        xi.items.BRASS_HARNESS,              2286, 3,
+        xi.items.BRASS_MITTENS,              1255, 3,
+        xi.items.BRONZE_CAP,                  154, 3,
+        xi.items.BRONZE_HARNESS,              576, 3,
+        xi.items.BRONZE_MITTENS,              128, 3,
+        xi.items.LEATHER_BANDANA,             396, 3,
+        xi.items.LEATHER_GLOVES,              331, 3,
+        xi.items.LEATHER_VEST,                618, 3,
     }
 
     player:showText(npc, ID.text.RAIMBROYS_SHOP_DIALOG + 1)

@@ -14,16 +14,16 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        699, 5688, 1,    -- Oak Log
-        644, 1800, 1,    -- Mythril Ore
-        835,  225, 1,    -- Flax Flower
-        694, 2543, 2,    -- Chestnut Log
-        640,   10, 2,    -- Copper Ore
-        643,  810, 2,    -- Iron Ore
-        833,   18, 2,    -- Moko Grass
-        4570,  50, 2,    -- Bird Egg
-        698,   86, 3,    -- Ash Log
-        1,   1800, 3,    -- Chocobo Bedding
+        xi.items.OAK_LOG,                   5688, 1,
+        xi.items.CHUNK_OF_MYTHRIL_ORE,      1800, 1,
+        xi.items.FLAX_FLOWER,                225, 1,
+        xi.items.CHESTNUT_LOG,              2543, 2,
+        xi.items.CHUNK_OF_COPPER_ORE,         10, 2,
+        xi.items.CHUNK_OF_IRON_ORE,          810, 2,
+        xi.items.CLUMP_OF_MOKO_GRASS,         18, 2,
+        xi.items.BIRD_EGG,                   50, 2,
+        xi.items.ASH_LOG,                     86, 3,
+        xi.items.PILE_OF_CHOCOBO_BEDDING,     1800, 3,
     }
 
     player:showText(npc, ID.text.ALBINIE_SHOP_DIALOG)

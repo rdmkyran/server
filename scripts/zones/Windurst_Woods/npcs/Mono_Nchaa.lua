@@ -15,18 +15,18 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        17318, 3,    2, -- Wooden Arrow
-        17319, 4,    3, -- Bone Arrow
-        17323, 131,  2, -- Ice Arrow
-        17324, 131,  2, -- Lightning Arrow
-        17336, 5,    3, -- Crossbow Bolt
-        17308, 55,   2, -- Hawkeye
-        17280, 1645, 2, -- Boomerang
-        17152, 45,   2, -- Shortbow
-        17153, 503,  2, -- Self Bow
-        17154, 7444, 2, -- Wrapped Bow
-        17216, 165,  2, -- Light Crossbow
-        5009,  2649, 3  -- Scroll of Hunter's Prelude
+        xi.items.WOODEN_ARROW,              3,    2,
+        xi.items.BONE_ARROW,                4,    3,
+        xi.items.ICE_ARROW,                 131,  2,
+        xi.items.LIGHTNING_ARROW,           131,  2,
+        xi.items.CROSSBOW_BOLT,             5,    3,
+        xi.items.HAWKEYE,                   55,   2,
+        xi.items.BOOMERANG,                 1645, 2,
+        xi.items.SHORTBOW,                  45,   2,
+        xi.items.SELF_BOW,                  503,  2,
+        xi.items.WRAPPED_BOW,               7444, 2,
+        xi.items.LIGHT_CROSSBOW,            165,  2,
+        xi.items.SCROLL_OF_HUNTERS_PRELUDE,  2649, 3
     }
 
     player:showText(npc, ID.text.MONONCHAA_SHOP_DIALOG)

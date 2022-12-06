@@ -2,6 +2,7 @@
 -- 75 Era Vendor Shops
 -----------------------------------
 require("scripts/globals/shop")
+require("scripts/globals/items")
 require("modules/module_utils")
 require("scripts/globals/keyitems")
 

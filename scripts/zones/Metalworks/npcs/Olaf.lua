@@ -14,9 +14,9 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        17248, 46836, 2,    -- Arquebus
-        17340,    90, 3,    -- Bullet
-        928,     463, 3,    -- Bomb Ash
+        xi.items.ARQUEBUS,                  46836, 2,
+        xi.items.BULLET,                       90, 3,
+        xi.items.PINCH_OF_BOMB_ASH,             463, 3,
     }
 
     player:showText(npc, ID.text.OLAF_SHOP_DIALOG)

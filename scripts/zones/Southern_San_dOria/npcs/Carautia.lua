@@ -15,20 +15,20 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12808, 11340, 1,    -- Chain Hose
-        12936,  6966, 1,    -- Greaves
-        12306, 10281, 1,    -- Kite Shield
-        12292,  4482, 2,    -- Mahogany Shield
-        12826, 16552, 2,    -- Studded Trousers
-        12954, 10054, 2,    -- Studded Boots
-        12289,   110, 3,    -- Lauan Shield
-        12290,   544, 3,    -- Maple Shield
-        12832,   187, 3,    -- Bronze Subligar
-        12833,  1800, 3,    -- Brass Subligar
-        12824,   482, 3,    -- Leather Trousers
-        12960,   115, 3,    -- Bronze Leggings
-        12961,  1116, 3,    -- Brass Leggings
-        12952,   302, 3,    -- Leather Highboots
+        xi.items.CHAIN_HOSE,                11340, 1,
+        xi.items.GREAVES,                    6966, 1,
+        xi.items.KITE_SHIELD,               10281, 1,
+        xi.items.MAHOGANY_SHIELD,            4482, 2,
+        xi.items.STUDDED_TROUSERS,          16552, 2,
+        xi.items.STUDDED_BOOTS,             10054, 2,
+        xi.items.LAUAN_SHIELD,                110, 3,
+        xi.items.MAPLE_SHIELD,                544, 3,
+        xi.items.BRONZE_SUBLIGAR,             187, 3,
+        xi.items.BRASS_SUBLIGAR,             1800, 3,
+        xi.items.LEATHER_TROUSERS,            482, 3,
+        xi.items.BRONZE_LEGGINGS,             115, 3,
+        xi.items.BRASS_LEGGINGS,             1116, 3,
+        xi.items.LEATHER_HIGHBOOTS,           302, 3,
     }
 
     player:showText(npc, ID.text.CARAUTIA_SHOP_DIALOG)

@@ -14,19 +14,19 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        17051,  1440, 1,    -- Yew Wand
-        17090,  3642, 1,    -- Elm Staff
-        17097, 18422, 1,    -- Elm Pole
-        17026,  4945, 2,    -- Bone Cudgel
-        17096,  4669, 2,    -- Holly Pole
-        17049,    47, 3,    -- Maple Wand
-        17050,   340, 3,    -- Willow Wand
-        17059,    91, 3,    -- Bronze Rod
-        17024,    66, 3,    -- Ash Club
-        17025,  1600, 3,    -- Chestnut Club
-        17088,    58, 3,    -- Ash Staff
-        17089,   584, 3,    -- Holly Staff
-        17095,   386, 3,    -- Ash Pole
+        xi.items.YEW_WAND,                   1440, 1,
+        xi.items.ELM_STAFF,                  3642, 1,
+        xi.items.ELM_POLE,                  18422, 1,
+        xi.items.BONE_CUDGEL,                4945, 2,
+        xi.items.HOLLY_POLE,                 4669, 2,
+        xi.items.MAPLE_WAND,                   47, 3,
+        xi.items.WILLOW_WAND,                 340, 3,
+        xi.items.BRONZE_ROD,                   91, 3,
+        xi.items.ASH_CLUB,                     66, 3,
+        xi.items.CHESTNUT_CLUB,              1600, 3,
+        xi.items.ASH_STAFF,                    58, 3,
+        xi.items.HOLLY_STAFF,                 584, 3,
+        xi.items.ASH_POLE,                    386, 3,
     }
 
     player:showText(npc, ID.text.HOHBIBAMUBIBA_SHOP_DIALOG)

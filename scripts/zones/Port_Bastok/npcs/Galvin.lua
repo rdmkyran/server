@@ -14,14 +14,14 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4128, 4445, 1,    -- Ether
-        4151,  736, 2,    -- Echo Drops
-        4112,  837, 2,    -- Potion
-        17318,   3, 2,    -- Wooden Arrow
-        4150, 2387, 3,    -- Eye Drops
-        4148,  290, 3,    -- Antidote
-        17320,   7, 3,    -- Iron Arrow
-        17336,   5, 3,    -- Crossbow Bolt
+        xi.items.ETHER,                     4445, 1,
+        xi.items.FLASK_OF_ECHO_DROPS,        736, 2,
+        xi.items.POTION,                     837, 2,
+        xi.items.WOODEN_ARROW,                3, 2,
+        xi.items.FLASK_OF_EYE_DROPS,        2387, 3,
+        xi.items.ANTIDOTE,                   290, 3,
+        xi.items.IRON_ARROW,                  7, 3,
+        xi.items.CROSSBOW_BOLT,               5, 3,
     }
 
     player:showText(npc, ID.text.GALVIN_SHOP_DIALOG)

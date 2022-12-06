@@ -15,16 +15,16 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        625,  79, 1,    -- Apple Vinegar
-        623, 117, 1,    -- Bay Leaves
-        4382, 28, 1,    -- Frost Turnip
-        4392, 28, 1,    -- Saruta Orange
-        4363, 39, 2,    -- Faerie Apple
-        4366, 21, 2,    -- La Theine Cabbage
-        633,  14, 3,    -- Olive Oil
-        638, 166, 3,    -- Sage
-        4389, 28, 3,    -- San d'Orian Carrot
-        4431, 68, 3,    -- San d'Orian Grape
+        xi.items.BOTTLE_OF_APPLE_VINEGAR,    79, 1,
+        xi.items.HANDFUL_OF_BAY_LEAVES,     117, 1,
+        xi.items.FROST_TURNIP,              28, 1,
+        xi.items.SARUTA_ORANGE,             28, 1,
+        xi.items.FAERIE_APPLE,              39, 2,
+        xi.items.LA_THEINE_CABBAGE,         21, 2,
+        xi.items.FLASK_OF_OLIVE_OIL,         14, 3,
+        xi.items.SPRIG_OF_SAGE,             166, 3,
+        xi.items.SAN_DORIAN_CARROT,         28, 3,
+        xi.items.BUNCH_OF_SAN_DORIAN_GRAPES, 68, 3,
     }
 
     player:showText(npc, ID.text.RAIMBROYS_SHOP_DIALOG)

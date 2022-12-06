@@ -14,16 +14,16 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        644, 1840, 1,    -- Mythril Ore
-        835,  230, 1,    -- Flax Flower
-        699, 5814, 1,    -- Oak Log
-        698,   87, 2,    -- Ash Log
-        694, 2599, 2,    -- Chestnut Log
-        640,   11, 2,    -- Copper Ore
-        643,  828, 2,    -- Iron Ore
-        4570,  51, 2,    -- Bird Egg
-        833,   18, 3,    -- Moko Grass
-        114, 1840, 3,    -- My First Magic Kit
+        xi.items.CHUNK_OF_MYTHRIL_ORE,      1840, 1,
+        xi.items.FLAX_FLOWER,                230, 1,
+        xi.items.OAK_LOG,                   5814, 1,
+        xi.items.ASH_LOG,                     87, 2,
+        xi.items.CHESTNUT_LOG,              2599, 2,
+        xi.items.CHUNK_OF_COPPER_ORE,         11, 2,
+        xi.items.CHUNK_OF_IRON_ORE,          828, 2,
+        xi.items.BIRD_EGG,                   51, 2,
+        xi.items.CLUMP_OF_MOKO_GRASS,         18, 3,
+        xi.items.MY_FIRST_MAGIC_KIT,        1840, 3,
     }
 
     player:showText(npc, ID.text.ULIPEHKOWA_SHOP_DIALOG)
