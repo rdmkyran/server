@@ -2,6 +2,7 @@
 --    Functions for Shop system
 -----------------------------------
 require("scripts/globals/conquest")
+require("scripts/globals/items")
 require("scripts/globals/settings")
 require("scripts/globals/status")
 require("scripts/globals/keyitems")

@@ -4,6 +4,7 @@
 -- Standard Merchant NPC
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 -----------------------------------
 local entity = {}
@@ -14,10 +15,10 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4116, 4500,  -- Hi-Potion
-        4132, 28000, -- Hi-Ether
-        1020, 300,   -- Sickle
-        1021, 500,   -- Hatchet
+        xi.items.HI_POTION,                 4500,
+        xi.items.HI_ETHER,                  28000,
+        xi.items.SICKLE,                    300,
+        xi.items.HATCHET,                   500,
     }
 
     player:showText(npc, ID.text.PELFTRIX_SHOP_DIALOG)

@@ -5,6 +5,7 @@
 -- !pos 40 32 121 256
 -----------------------------------
 require("scripts/globals/shop")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Western_Adoulin/IDs")
 -----------------------------------
 local entity = {}
@@ -17,20 +18,20 @@ entity.onTrigger = function(player, npc)
     player:showText(npc, ID.text.EUKALLINE_SHOP_TEXT)
     local stock =
     {
-        6085, 52080,  -- Scroll of Indi-Acumen
-        6076, 53460,  -- Scroll of Indi-STR
-        6099, 53460,  -- Scroll of Indi-Slow
-        6096, 61875,  -- Scroll of Indi-Torpor
-        6095, 83160,  -- Scroll of Indi-Slip
-        6098, 94185,  -- Scroll of Indi-Languor
-        6100, 103040, -- Scroll of Indi-Paralysis
-        6097, 504000, -- Scroll of Indi-Vex
-        6092, 537030, -- Scroll of Indi-Frailty
-        6091, 576300, -- Scroll of Indi-Wilt
-        6094, 617100, -- Scroll of Indi-Malaise
-        6101, 617100, -- Scroll of Indi-Gravity
-        6093, 703800, -- Scroll of Indi-Fade
-        6131, 709716, -- Scroll of Indi-Haste
+        xi.items.PLATE_OF_INDI_ACUMEN,      52080,
+        xi.items.PLATE_OF_INDI_STR,         53460,
+        xi.items.PLATE_OF_INDI_SLOW,        53460,
+        xi.items.PLATE_OF_INDI_TORPOR,      61875,
+        xi.items.PLATE_OF_INDI_SLIP,        83160,
+        xi.items.PLATE_OF_INDI_LANGUOR,     94185,
+        xi.items.PLATE_OF_INDI_PARALYSIS,   103040,
+        xi.items.PLATE_OF_INDI_VEX,         504000,
+        xi.items.PLATE_OF_INDI_FRAILTY,     537030,
+        xi.items.PLATE_OF_INDI_WILT,        576300,
+        xi.items.PLATE_OF_INDI_MALAISE,     617100,
+        xi.items.PLATE_OF_INDI_GRAVITY,     617100,
+        xi.items.PLATE_OF_INDI_FADE,        703800,
+        xi.items.PLATE_OF_INDI_HASTE,       709716,
     }
     xi.shop.general(player, stock)
 end

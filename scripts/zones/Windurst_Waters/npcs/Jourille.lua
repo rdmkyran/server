@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters/IDs")
+require("scripts/globals/items")
 require("scripts/globals/conquest")
 require("scripts/globals/shop")
 -----------------------------------
@@ -22,10 +23,10 @@ entity.onTrigger = function(player, npc)
 
         local stock =
         {
-            639,   110,  -- Chestnut
-            4389,   29,  -- San d'Orian Carrot
-            610,    55,  -- San d'Orian Flour
-            4431,   69,  -- San d'Orian Grape
+            xi.items.RONFAURE_CHESTNUT,           110,
+            xi.items.SAN_DORIAN_CARROT,           29,
+            xi.items.BAG_OF_SAN_DORIAN_FLOUR,      55,
+            xi.items.BUNCH_OF_SAN_DORIAN_GRAPES,   69,
         }
         xi.shop.general(player, stock, xi.quest.fame_area.WINDURST)
     end

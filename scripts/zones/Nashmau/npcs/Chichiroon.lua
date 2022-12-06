@@ -4,6 +4,7 @@
 -- Standard Merchant NPC
 -----------------------------------
 local ID = require("scripts/zones/Nashmau/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 -----------------------------------
 local entity = {}

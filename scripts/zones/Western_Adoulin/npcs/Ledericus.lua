@@ -5,6 +5,7 @@
 -- !pos 37 32 117 256
 -----------------------------------
 require("scripts/globals/shop")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Western_Adoulin/IDs")
 -----------------------------------
 local entity = {}
@@ -17,21 +18,21 @@ entity.onTrigger = function(player, npc)
     player:showText(npc, ID.text.LEDERICUS_SHOP_TEXT)
     local stock =
     {
-        4916, 34000,  -- Scroll of Fira
-        4917, 604800, -- Scroll of Fira II
-        4918, 46440,  -- Scroll of Blizzara
-        4919, 652800, -- Scroll of Blizzara II
-        4920, 26600,  -- Scroll of Aerora
-        4921, 556800, -- Scroll of Aerora II
-        4922, 7476,   -- Scroll of Stonera
-        4923, 504000, -- Scroll of Stonera II
-        4924, 54600,  -- Scroll of Thundara
-        4925, 722700, -- Scroll of Thundara II
-        4926, 21000,  -- Scroll of Watera
-        4927, 530265, -- Scroll of Watera II
-        5102, 83160,  -- Scroll of Foil
-        4692, 396825, -- Scroll of Haste II
-        5105, 396825, -- Scroll of Flurry II
+        xi.items.SCROLL_OF_FIRA,            34000,
+        xi.items.SCROLL_OF_FIRA_II,         604800,
+        xi.items.SCROLL_OF_BLIZZARA,        46440,
+        xi.items.SCROLL_OF_BLIZZARA_II,     652800,
+        xi.items.SCROLL_OF_AERORA,          26600,
+        xi.items.SCROLL_OF_AERORA_II,       556800,
+        xi.items.SCROLL_OF_STONERA,         7476,
+        xi.items.SCROLL_OF_STONERA_II,      504000,
+        xi.items.SCROLL_OF_THUNDARA,        54600,
+        xi.items.SCROLL_OF_THUNDARA_II,     722700,
+        xi.items.SCROLL_OF_WATERA,          21000,
+        xi.items.SCROLL_OF_WATERA_II,       530265,
+        xi.items.SCROLL_OF_FOIL,            83160,
+        xi.items.SCROLL_OF_HASTE_II,        396825,
+        xi.items.SCROLL_OF_FLURRY_II,       396825,
     }
     xi.shop.general(player, stock)
 end

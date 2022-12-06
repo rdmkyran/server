@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Woods/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 require("scripts/globals/zone")
 -----------------------------------
@@ -23,13 +24,13 @@ entity.onTrigger = function(player, npc)
 
         local stock =
         {
-            1840,  1840,  -- Semolina
-            4372,    44,  -- Giant Sheep Meat
-            622,     44,  -- Dried Marjoram
-            610,     55,  -- San d'Orian Flour
-            611,     36,  -- Rye Flour
-            4366,    22,  -- La Theine Cabbage
-            4378,    55   -- Selbina Milk
+            xi.items.BAG_OF_SEMOLINA,            1840,
+            xi.items.SLICE_OF_GIANT_SHEEP_MEAT,    44,
+            xi.items.PINCH_OF_DRIED_MARJORAM,       44,
+            xi.items.BAG_OF_SAN_DORIAN_FLOUR,       55,
+            xi.items.BAG_OF_RYE_FLOUR,              36,
+            xi.items.LA_THEINE_CABBAGE,            22,
+            xi.items.JUG_OF_SELBINA_MILK,          55
         }
 
         local rank = GetNationRank(xi.nation.WINDURST)

@@ -6,6 +6,7 @@
 -- !pos 35 0 -56 256
 -----------------------------------
 local ID = require("scripts/zones/Western_Adoulin/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 require("scripts/globals/quests")
@@ -28,11 +29,11 @@ entity.onTrigger = function(player, npc)
     player:showText(npc, ID.text.HUJETTE_SHOP_TEXT)
     local stock =
     {
-        5941, 20,     -- Campfire Choco
-        5940, 8,      -- Trail Cookie
-        5942, 20,     -- Cascade Candy
-        5775, 544,    -- Chocolate Crepe
-        5147, 3000,   -- Snoll Gelato
+        xi.items.BAR_OF_CAMPFIRE_CHOCOLATE, 20,
+        xi.items.TRAIL_COOKIE,              8,
+        xi.items.PIECE_OF_CASCADE_CANDY,    20,
+        xi.items.CHOCOLATE_CREPE,           544,
+        xi.items.CONE_OF_SNOLL_GELATO,      3000,
     }
     xi.shop.general(player, stock)
 end

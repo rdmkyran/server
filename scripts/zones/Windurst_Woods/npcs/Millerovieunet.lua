@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Woods/IDs")
+require("scripts/globals/items")
 require("scripts/globals/events/harvest_festivals")
 require("scripts/globals/shop")
 require("scripts/globals/zone")
@@ -21,7 +22,7 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            954,  4032  -- Magic Pot Shard
+            xi.items.MAGIC_POT_SHARD,            4032
         }
 
         player:showText(npc, ID.text.MILLEROVIEUNET_OPEN_DIALOG)

@@ -5,6 +5,7 @@
 -- !pos -142 -6 47 230
 -----------------------------------
 local ID = require("scripts/zones/Southern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 -----------------------------------
 local entity = {}

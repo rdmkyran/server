@@ -4,6 +4,7 @@
 -- Type: Special Events Vendor Moogles
 -----------------------------------
 local ID = require("scripts/zones/Northern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/events/starlight_celebrations")
 require("scripts/globals/shop")
 -----------------------------------

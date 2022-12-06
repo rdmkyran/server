@@ -5,6 +5,7 @@
 -- !pos 35 -2 2 236
 -----------------------------------
 local ID = require("scripts/zones/Port_Bastok/IDs")
+require("scripts/globals/items")
 require("scripts/globals/conquest")
 require("scripts/globals/shop")
 -----------------------------------

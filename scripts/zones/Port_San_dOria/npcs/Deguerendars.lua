@@ -4,6 +4,7 @@
 -- Tavnazian Archipelago Regional Merchant
 -----------------------------------
 local ID = require("scripts/zones/Port_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/missions")
 require("scripts/globals/shop")
 -----------------------------------

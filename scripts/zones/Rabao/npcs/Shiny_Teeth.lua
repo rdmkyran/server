@@ -5,6 +5,7 @@
 -- !pos -30 8 99 247
 -----------------------------------
 local ID = require("scripts/zones/Rabao/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 -----------------------------------
 local entity = {}

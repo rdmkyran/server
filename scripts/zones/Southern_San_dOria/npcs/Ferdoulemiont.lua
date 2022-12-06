@@ -4,6 +4,7 @@
 -- Standard Merchant NPC
 -----------------------------------
 local ID = require("scripts/zones/Southern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 require("scripts/globals/pathfind")
 -----------------------------------

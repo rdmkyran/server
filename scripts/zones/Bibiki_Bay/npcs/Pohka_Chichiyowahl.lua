@@ -5,6 +5,7 @@
 -- !pos -415 -2 -430 4
 -----------------------------------
 local ID = require("scripts/zones/Bibiki_Bay/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 -----------------------------------
 local entity = {}

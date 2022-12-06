@@ -6,6 +6,7 @@
 --       status of Astral Candescence
 -----------------------------------
 local ID = require("scripts/zones/Al_Zahbi/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 -----------------------------------
 local entity = {}

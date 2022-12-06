@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters/IDs")
+require("scripts/globals/items")
 require("scripts/globals/conquest")
 require("scripts/globals/shop")
 -----------------------------------
@@ -22,11 +23,11 @@ entity.onTrigger = function(player, npc)
 
         local stock =
         {
-            4444,  22,  -- Rarab Tail
-            689,   33,  -- Lauan Log
-            619,   43,  -- Popoto
-            4392,  29,  -- Saruta Orange
-            635,   18   -- Windurstian Tea Leaves
+            xi.items.RARAB_TAIL,                 22,
+            xi.items.LAUAN_LOG,                   33,
+            xi.items.POPOTO,                      43,
+            xi.items.SARUTA_ORANGE,              29,
+            xi.items.CLUMP_OF_WINDURSTIAN_TEA_LEAVES,   18
         }
         xi.shop.general(player, stock, xi.quest.fame_area.WINDURST)
 

@@ -4,6 +4,7 @@
 -- Aragoneu Regional Goods
 -----------------------------------
 local ID = require("scripts/zones/Bastok_Markets/IDs")
+require("scripts/globals/items")
 require("scripts/globals/conquest")
 require("scripts/globals/shop")
 -----------------------------------

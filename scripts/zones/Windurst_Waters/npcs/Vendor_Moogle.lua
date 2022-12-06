@@ -4,6 +4,7 @@
 -- Type: Special Events Vendor Moogles
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters/IDs")
+require("scripts/globals/items")
 require("scripts/globals/events/starlight_celebrations")
 require("scripts/globals/shop")
 -----------------------------------
@@ -11,27 +12,27 @@ local entity = {}
 
 local starlight_stock1 =
     {
-        4215, 40,      -- Popstar
-        4216, 40,      -- Brilliant Snow
-        4217, 25,      -- Sparkling Hand
-        4218, 100,     -- Air Rider
-        4167, 8,       -- Cracker
-        4168, 25,      -- Twinkle Shower
-        4169, 25,      -- Little Comet
-        15178, 500,     -- Dream Hat
-        86,   10000,   -- San d'Orian Tree
-        115,  10000,   -- Bastokan Tree
-        116,  10000,   -- Windurstian Tree
+        xi.items.POPSTAR,                   40,
+        xi.items.BRILLIANT_SNOW,            40,
+        xi.items.SPARKLING_HAND,            25,
+        xi.items.AIR_RIDER,                 100,
+        xi.items.CRACKER,                   8,
+        xi.items.TWINKLE_SHOWER,            25,
+        xi.items.LITTLE_COMET,              25,
+        xi.items.DREAM_HAT,                 500,
+        xi.items.SAN_DORIAN_HOLIDAY_TREE,     10000,
+        xi.items.BASTOKAN_HOLIDAY_TREE,      10000,
+        xi.items.WINDURSTIAN_HOLIDAY_TREE,   10000,
     }
 
     local starlight_stock2 =
     {
-        176, 10000,    -- Snowman Knight
-        177, 10000,    -- Snowman Miner
-        178, 10000,    -- Snowman Mage
-        10875, 5000,    -- Snowman Cap
-        6498, 777,     -- Fortune Fruits
-        4495, 50       -- Goblin Chocolate
+        xi.items.SNOWMAN_KNIGHT,            10000,
+        xi.items.SNOWMAN_MINER,             10000,
+        xi.items.SNOWMAN_MAGE,              10000,
+        xi.items.SNOWMAN_CAP,               5000,
+        xi.items.BUNCH_OF_FORTUNE_FRUITS,   777,
+        xi.items.CHUNK_OF_GOBLIN_CHOCOLATE, 50
     }
 
 entity.onTrade = function(player, npc, trade)

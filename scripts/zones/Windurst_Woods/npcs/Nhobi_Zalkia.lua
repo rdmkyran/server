@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Woods/IDs")
+require("scripts/globals/items")
 require("scripts/globals/events/harvest_festivals")
 require("scripts/globals/shop")
 require("scripts/globals/zone")
@@ -25,9 +26,9 @@ entity.onTrigger = function(player, npc)
 
         local stock =
         {
-            916,   855,  -- Cactuar Needle
-            4412,  299,  -- Thundermelon
-            4491,  184   -- Watermelon
+            xi.items.CACTUAR_NEEDLE,              855,
+            xi.items.THUNDERMELON,               299,
+            xi.items.WATERMELON,                 184
         }
         xi.shop.general(player, stock, xi.quest.fame_area.WINDURST)
     end

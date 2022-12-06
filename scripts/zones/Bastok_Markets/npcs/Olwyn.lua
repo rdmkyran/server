@@ -5,6 +5,7 @@
 -- !pos -322.123 -10.319 -169.418 235
 -----------------------------------
 require("scripts/globals/events/harvest_festivals")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Bastok_Markets/IDs")
 require("scripts/globals/shop")
 -----------------------------------

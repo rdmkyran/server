@@ -5,6 +5,7 @@
 -- !pos -48 -4 30 249
 -----------------------------------
 local ID = require("scripts/zones/Mhaura/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 -----------------------------------
 local entity = {}

@@ -5,6 +5,7 @@
 -- !pos 154 4 -33 256
 -----------------------------------
 require("scripts/globals/shop")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Western_Adoulin/IDs")
 -----------------------------------
 local entity = {}
@@ -17,13 +18,13 @@ entity.onTrigger = function(player, npc)
     player:showText(npc, ID.text.THEOPHYLACTE_SHOP_TEXT)
     local stock =
     {
-        4112, 910,    -- Potion
-        4116, 4500,   -- Hi-Potion
-        4128, 4832,   -- Ether
-        4132, 28000,  -- Hi-Ether
-        4148, 316,    -- Antidote
-        4151, 800,    -- Echo Drops
-        4155, 3360,   -- Remedy
+        xi.items.POTION,                    910,
+        xi.items.HI_POTION,                 4500,
+        xi.items.ETHER,                     4832,
+        xi.items.HI_ETHER,                  28000,
+        xi.items.ANTIDOTE,                  316,
+        xi.items.FLASK_OF_ECHO_DROPS,       800,
+        xi.items.REMEDY,                    3360,
     }
     xi.shop.general(player, stock)
 end

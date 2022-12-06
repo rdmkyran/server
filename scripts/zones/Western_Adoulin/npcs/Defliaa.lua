@@ -6,6 +6,7 @@
 -- !pos 43 2 -113 256
 -----------------------------------
 local ID = require("scripts/zones/Western_Adoulin/IDs")
+require("scripts/globals/items")
 require("scripts/globals/keyitems")
 require("scripts/globals/npc_util")
 require("scripts/globals/utils")
@@ -28,13 +29,13 @@ entity.onTrigger = function(player, npc)
     player:showText(npc, ID.text.DEFLIAA_SHOP_TEXT)
     local stock =
     {
-        5166, 3400,   -- Coeurl Sub
-        4421, 1560,   -- Melon Pie
-        5889, 19440,  -- Stuffed Pitaru
-        5885, 18900,  -- Saltena
-        4396, 280,    -- Sausage Roll
-        4356, 200,    -- White Bread
-        5686, 800,    -- Cheese Sandwich
+        xi.items.COEURL_SUB,                3400,
+        xi.items.MELON_PIE,                 1560,
+        xi.items.STUFFED_PITARU,            19440,
+        xi.items.SALTENA,                   18900,
+        xi.items.SAUSAGE_ROLL,              280,
+        xi.items.LOAF_OF_WHITE_BREAD,       200,
+        xi.items.CHEESE_SANDWICH,           800,
     }
     xi.shop.general(player, stock)
 end

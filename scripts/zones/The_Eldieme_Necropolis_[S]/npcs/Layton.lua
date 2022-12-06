@@ -6,6 +6,7 @@
 -- !pos 382.679 -39.999 3.541 175
 -----------------------------------
 local ID = require("scripts/zones/The_Eldieme_Necropolis_[S]/IDs")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 -----------------------------------
 local entity = {}

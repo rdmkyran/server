@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters/IDs")
+require("scripts/globals/items")
 require("scripts/globals/conquest")
 require("scripts/globals/shop")
 -----------------------------------
@@ -23,13 +24,13 @@ entity.onTrigger = function(player, npc)
 
         local stock =
         {
-            612,     55,  -- Kazham Peppers
-            4432,    55,  -- Kazham Pineapple
-            4390,    36,  -- Mithran Tomato
-            626,    234,  -- Black Pepper
-            630,     88,  -- Ogre Pumpkin
-            632,    110,  -- Kukuru Bean
-            1411,  1656   -- Phalaenopsis
+            xi.items.BUNCH_OF_KAZHAM_PEPPERS,       55,
+            xi.items.KAZHAM_PINEAPPLE,             55,
+            xi.items.MITHRAN_TOMATO,               36,
+            xi.items.PINCH_OF_BLACK_PEPPER,        234,
+            xi.items.OGRE_PUMPKIN,                  88,
+            xi.items.KUKURU_BEAN,                  110,
+            xi.items.PHALAENOPSIS,               1656
         }
         xi.shop.general(player, stock, xi.quest.fame_area.WINDURST)
     end

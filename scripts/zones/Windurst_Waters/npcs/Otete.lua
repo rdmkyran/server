@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters/IDs")
+require("scripts/globals/items")
 require("scripts/globals/conquest")
 require("scripts/globals/shop")
 -----------------------------------
@@ -23,8 +24,8 @@ entity.onTrigger = function(player, npc)
 
         local stock =
         {
-            623,    119, -- Bay Leaves
-            4154,  6440  -- Holy Water
+            xi.items.HANDFUL_OF_BAY_LEAVES,        119,
+            xi.items.FLASK_OF_HOLY_WATER,        6440
         }
         xi.shop.general(player, stock, xi.quest.fame_area.WINDURST)
     end

@@ -4,6 +4,7 @@
 -- Only sells when San d'Oria controlls Li'Telor Region
 -----------------------------------
 local ID = require("scripts/zones/Northern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/events/harvest_festivals")
 require("scripts/globals/shop")
 -----------------------------------

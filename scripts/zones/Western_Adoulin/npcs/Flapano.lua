@@ -69,13 +69,13 @@ entity.onTrigger = function(player, npc)
         player:showText(npc, ID.text.FLAPANO_SHOP_TEXT)
         local stock =
         {
-            5943, 125,   -- Smoked Mackerel
-            4415, 124,   -- Roasted Corn
-            4434, 5000,  -- Mushroom Risotto
-            5145, 5600,  -- Fish and Chips
-            4423, 300,   -- Apple Juice
-            4405, 160,   -- Rice Ball
-            5676, 76475, -- Mushroom Saute
+            xi.items.STRIP_OF_SMOKED_MACKEREL,  125,
+            xi.items.EAR_OF_ROASTED_CORN,       124,
+            xi.items.PLATE_OF_MUSHROOM_RISOTTO, 5000,
+            xi.items.PLATE_OF_FISH_AND_CHIPS,   5600,
+            xi.items.BOTTLE_OF_APPLE_JUICE,     300,
+            xi.items.RICE_BALL,                 160,
+            xi.items.SERVING_OF_MUSHROOM_SAUTE, 76475,
         }
         xi.shop.general(player, stock)
 

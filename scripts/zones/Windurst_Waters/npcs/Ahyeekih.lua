@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 require("scripts/globals/events/harvest_festivals")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Windurst_Waters/IDs")
 require("scripts/globals/conquest")
 require("scripts/globals/shop")
@@ -25,11 +26,11 @@ entity.onTrigger = function(player, npc)
 
         local stock =
         {
-            4503,   184,  -- Buburimu Grape
-            1120,  1620,  -- Casablanca
-            4359,   220,  -- Dhalmel Meat
-            614,     72,  -- Mhaura Garlic
-            4445,    40   -- Yagudo Cherry
+            xi.items.BUNCH_OF_BUBURIMU_GRAPES,    184,
+            xi.items.CASABLANCA,                 1620,
+            xi.items.SLICE_OF_DHALMEL_MEAT,       220,
+            xi.items.BULB_OF_MHAURA_GARLIC,         72,
+            xi.items.YAGUDO_CHERRY,                40
         }
         xi.shop.general(player, stock, xi.quest.fame_area.WINDURST)
     end

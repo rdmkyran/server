@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Woods/IDs")
+require("scripts/globals/items")
 require("scripts/globals/events/harvest_festivals")
 require("scripts/globals/shop")
 require("scripts/globals/zone")
@@ -25,12 +26,12 @@ entity.onTrigger = function(player, npc)
 
         local stock =
         {
-            4352,  128, -- Derfland Pear
-            617,   142, -- Ginger
-            4545,   62, -- Gysahl Greens
-            1412, 1656, -- Olive Flower
-            633,    14, -- Olive Oil
-            951,   110  -- Wijnruit
+            xi.items.DERFLAND_PEAR,              128,
+            xi.items.GINGER_ROOT,                 142,
+            xi.items.BUNCH_OF_GYSAHL_GREENS,      62,
+            xi.items.OLIVE_FLOWER,              1656,
+            xi.items.FLASK_OF_OLIVE_OIL,           14,
+            xi.items.WIJNRUIT,                    110
         }
         xi.shop.general(player, stock, xi.quest.fame_area.WINDURST)
     end

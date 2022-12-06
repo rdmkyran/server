@@ -4,6 +4,7 @@
 -- Derfland Regional Merchant
 -----------------------------------
 local ID = require("scripts/zones/Southern_San_dOria/IDs")
+require("scripts/globals/items")
 require("scripts/globals/events/harvest_festivals")
 require("scripts/globals/shop")
 -----------------------------------

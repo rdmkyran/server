@@ -4,6 +4,7 @@
 -- Fauregandi Regional Merchant
 -----------------------------------
 local ID = require("scripts/zones/Port_Windurst/IDs")
+require("scripts/globals/items")
 require("scripts/globals/conquest")
 require("scripts/globals/shop")
 -----------------------------------
