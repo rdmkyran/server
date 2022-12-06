@@ -107,6 +107,7 @@ void CLatentEffectContainer::CheckLatentsHP()
             case LATENT::HP_UNDER_PERCENT:
             case LATENT::HP_OVER_PERCENT:
             case LATENT::HP_UNDER_TP_UNDER_100:
+            case LATENT::HP_BASE_UNDER_TP_UNDER_100:
             case LATENT::HP_OVER_TP_UNDER_100:
             case LATENT::SANCTION_REGEN_BONUS:
             case LATENT::SIGIL_REGEN_BONUS:
@@ -134,6 +135,7 @@ void CLatentEffectContainer::CheckLatentsTP()
             case LATENT::TP_UNDER:
             case LATENT::TP_OVER:
             case LATENT::HP_UNDER_TP_UNDER_100:
+            case LATENT::HP_BASE_UNDER_TP_UNDER_100:
             case LATENT::HP_OVER_TP_UNDER_100:
             case LATENT::SANCTION_REFRESH_BONUS:
             case LATENT::SIGIL_REFRESH_BONUS:
@@ -681,19 +683,22 @@ bool CLatentEffectContainer::ProcessLatentEffect(CLatentEffect& latentEffect)
     switch (latentEffect.GetConditionsID())
     {
         case LATENT::HP_UNDER_PERCENT:
-            expression = ((float)m_POwner->health.hp / m_POwner->health.maxhp) * 100 <= latentEffect.GetConditionsValue();
+            expression = m_POwner->GetHPP() <= latentEffect.GetConditionsValue();
             break;
         case LATENT::HP_OVER_PERCENT:
-            expression = ((float)m_POwner->health.hp / m_POwner->health.maxhp) * 100 >= latentEffect.GetConditionsValue();
+            expression = m_POwner->GetHPP() >= latentEffect.GetConditionsValue();
             break;
         case LATENT::HP_UNDER_TP_UNDER_100:
-            expression = ((float)m_POwner->health.hp / m_POwner->health.maxhp) * 100 <= latentEffect.GetConditionsValue() && m_POwner->health.tp < 1000;
+            expression = m_POwner->GetHPP() <= latentEffect.GetConditionsValue() && m_POwner->health.tp < 1000;
+            break;
+        case LATENT::HP_BASE_UNDER_TP_UNDER_100:
+            expression = m_POwner->GetHPPNoPercentOrConvert() <= latentEffect.GetConditionsValue() && m_POwner->health.tp < 1000;
             break;
         case LATENT::HP_OVER_TP_UNDER_100:
-            expression = ((float)m_POwner->health.hp / m_POwner->health.maxhp) * 100 >= latentEffect.GetConditionsValue() && m_POwner->health.tp < 1000;
+            expression = m_POwner->GetHPP() >= latentEffect.GetConditionsValue() && m_POwner->health.tp < 1000;
             break;
         case LATENT::MP_UNDER_PERCENT:
-            expression = m_POwner->health.maxmp && ((float)m_POwner->health.mp / m_POwner->health.maxmp) * 100 <= latentEffect.GetConditionsValue();
+            expression = m_POwner->health.maxmp && m_POwner->GetMPP() <= latentEffect.GetConditionsValue();
             break;
         case LATENT::MP_UNDER:
             expression = m_POwner->health.mp <= latentEffect.GetConditionsValue();
@@ -726,21 +731,21 @@ bool CLatentEffectContainer::ProcessLatentEffect(CLatentEffect& latentEffect)
         }
         case LATENT::SANCTION_REGEN_BONUS:
             expression = m_POwner->loc.zone->GetRegionID() >= REGION_TYPE::WEST_AHT_URHGAN && m_POwner->loc.zone->GetRegionID() <= REGION_TYPE::ALZADAAL &&
-                         ((float)m_POwner->health.hp / m_POwner->health.maxhp) * 100 < latentEffect.GetConditionsValue();
+                         m_POwner->GetHPP() < latentEffect.GetConditionsValue();
             break;
         case LATENT::SANCTION_REFRESH_BONUS:
             expression = m_POwner->loc.zone->GetRegionID() >= REGION_TYPE::WEST_AHT_URHGAN && m_POwner->loc.zone->GetRegionID() <= REGION_TYPE::ALZADAAL &&
-                         ((float)m_POwner->health.mp / m_POwner->health.maxmp) * 100 < latentEffect.GetConditionsValue();
+                         m_POwner->GetMPP() < latentEffect.GetConditionsValue();
             break;
         case LATENT::SIGIL_REGEN_BONUS:
             expression = m_POwner->loc.zone->GetRegionID() >= REGION_TYPE::RONFAURE_FRONT &&
                          m_POwner->loc.zone->GetRegionID() <= REGION_TYPE::VALDEAUNIA_FRONT &&
-                         ((float)m_POwner->health.hp / m_POwner->health.maxhp) * 100 < latentEffect.GetConditionsValue();
+                         m_POwner->GetHPP() < latentEffect.GetConditionsValue();
             break;
         case LATENT::SIGIL_REFRESH_BONUS:
             expression = m_POwner->loc.zone->GetRegionID() >= REGION_TYPE::RONFAURE_FRONT &&
                          m_POwner->loc.zone->GetRegionID() <= REGION_TYPE::VALDEAUNIA_FRONT &&
-                         ((float)m_POwner->health.mp / m_POwner->health.maxmp) * 100 < latentEffect.GetConditionsValue();
+                         m_POwner->GetMPP() < latentEffect.GetConditionsValue();
             break;
         case LATENT::STATUS_EFFECT_ACTIVE:
             expression = m_POwner->StatusEffectContainer->HasStatusEffect((EFFECT)latentEffect.GetConditionsValue());

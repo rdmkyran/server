@@ -206,6 +206,19 @@ uint8 CBattleEntity::GetHPP() const
     return hpp;
 }
 
+uint8 CBattleEntity::GetHPPNoPercentOrConvert()
+{
+    TracyZoneScoped;
+    // recalculate max HP using only raw HP mods; no convert or HPP, regardless of source, apply
+    int32 modHP = std::max(1, health.maxhp + getMod(Mod::HP));
+
+    uint8 hpp = (uint8)floor(((float)health.hp / (float)modHP) * 100);
+
+    // it may be possible that with convert gear, this hpp would be > 100, so clamp it
+    // this also handles the case where floor() returns 0 with 1/1000 hp
+    return health.hp <= 0 ? 0 : std::clamp<uint8>(hpp, 1, 100);
+}
+
 int32 CBattleEntity::GetMaxHP() const
 {
     return health.modhp;
@@ -2260,8 +2273,7 @@ bool CBattleEntity::OnAttack(CAttackState& state, action_t& action)
             zanshinChance        = std::clamp<uint16>(zanshinChance, 0, 100);
             // zanshin may only proc on a missed/guarded/countered swing or as SAM main with hasso up (at 25% of the base zanshin rate)
             if ((((actionTarget.reaction & REACTION::MISS) != REACTION::NONE || (actionTarget.reaction & REACTION::GUARDED) != REACTION::NONE || actionTarget.spikesEffect == SUBEFFECT_COUNTER) &&
-                 xirand::GetRandomNumber(100) < zanshinChance) ||
-                (GetMJob() == JOB_SAM && this->StatusEffectContainer->HasStatusEffect(EFFECT_HASSO) && xirand::GetRandomNumber(100) < (zanshinChance / 4)))
+                 xirand::GetRandomNumber(100) < zanshinChance))
             {
                 attackRound.AddAttackSwing(PHYSICAL_ATTACK_TYPE::ZANSHIN, PHYSICAL_ATTACK_DIRECTION::RIGHTATTACK, 1);
             }

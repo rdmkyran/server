@@ -56,9 +56,10 @@ end
 -----------------------------------
 -- function getISPItem(i) returns the item ID and cost of the imperial standing
 -- points item indexed by i (the same value  as that used by the vendor event.)
+-- TODO: Format table, use xi.items enum, and descriptive parameter name
 -----------------------------------
 local function getISPItem(i)
-    local IS_item =
+    local imperialStandingItems =
     {
         -- Common Items
         [1] = { id = xi.items.SCROLL_OF_INSTANT_RERAISE, price = 7 },
@@ -119,7 +120,7 @@ local function getISPItem(i)
         [417] = { id = xi.items.LIEUTENANTS_SASH, price = 56000 },
         [673] = { id = xi.items.LIEUTENANTS_CAPE, price = 56000 }
     }
-    local item = IS_item[i]
+    local item = imperialStandingItems[i]
     if item then
         return item.id, item.price
     end

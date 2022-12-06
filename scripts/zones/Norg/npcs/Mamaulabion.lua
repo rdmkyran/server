@@ -64,7 +64,6 @@ entity.onTrade = function(player, npc, trade)
                     player:startEvent(193) -- Traded an item
                 end
             end
-
         end
     end
 end
@@ -104,7 +103,6 @@ entity.onTrigger = function(player, npc)
     else
         player:startEvent(93) -- Standard dialog
     end
-
 end
 
 entity.onEventUpdate = function(player, csid, option)

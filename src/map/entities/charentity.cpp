@@ -252,6 +252,8 @@ CCharEntity::CCharEntity()
     m_mentorUnlocked   = false;
     m_jobMasterDisplay = false;
     m_EffectsChanged   = false;
+
+    m_nextDataSave = std::chrono::system_clock::now() + std::chrono::seconds(settings::get<uint16>("main.PLAYER_DATA_SAVE") > 0 ? settings::get<uint16>("main.PLAYER_DATA_SAVE") : 120);
 }
 
 CCharEntity::~CCharEntity()
@@ -1518,6 +1520,7 @@ void CCharEntity::OnAbility(CAbilityState& state, action_t& action)
                 }
                 PPet->PAI->MobSkill(PPetTarget, PAbility->getMobSkillID());
             }
+            state.ApplyEnmity();
         }
         // #TODO: make this generic enough to not require an if
         else if ((PAbility->isAoE() || (PAbility->getID() == ABILITY_LIEMENT && getMod(Mod::LIEMENT_EXTENDS_TO_AREA) > 0)) && this->PParty != nullptr)

@@ -29,10 +29,9 @@ entity.onTrigger = function(player, npc)
             xi.items.SARUTA_ORANGE,              29,
             xi.items.CLUMP_OF_WINDURSTIAN_TEA_LEAVES,   18
         }
+
         xi.shop.general(player, stock, xi.quest.fame_area.WINDURST)
-
     end
-
 end
 
 entity.onEventUpdate = function(player, csid, option)

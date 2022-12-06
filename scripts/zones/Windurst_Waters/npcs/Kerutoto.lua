@@ -1,9 +1,10 @@
 -----------------------------------
 -- Area: Windurst Waters
 --  NPC: Kerutoto
--- Starts Quest Food For Thought
--- Involved in Quest: Riding on the Clouds
--- !pos 13 -5 -157 238
+-- Involved in Quests:
+--   Riding on the Clouds
+--   Food for Thought
+-- !pos 13 -5 -157
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Waters/IDs")
 require("scripts/globals/items")

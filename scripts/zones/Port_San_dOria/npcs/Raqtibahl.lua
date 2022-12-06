@@ -30,7 +30,6 @@ entity.onTrade = function(player, npc, trade)
         trade:hasItemQty(xi.items.IMPERIAL_GOLD_PIECE, 1)
     then
         player:startEvent(760) -- accepts gold piece, now wait for next vana'diel day
-
     end
 end
 

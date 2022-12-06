@@ -82,7 +82,6 @@ entity.onTrade = function(player, npc, trade)
                     break
                 end
             end
-
         end
     end
 end
@@ -130,13 +129,11 @@ entity.onEventUpdate = function(player, csid, option)
             end
 
             player:updateEvent(xi.dynamis.getDynamisMapList(player), player:getGil())
-
         end
     end
 end
 
 entity.onEventFinish = function(player, csid, option)
-
     -- bought prismatic hourglass
     if csid == 134 then
         player:tradeComplete()
@@ -199,7 +196,6 @@ entity.onEventFinish = function(player, csid, option)
         end
 
         player:setLocalVar("hundoItemBought", 0)
-
     end
 end
 

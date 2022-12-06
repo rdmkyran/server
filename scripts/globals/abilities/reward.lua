@@ -5,16 +5,16 @@
 -- Recast Time: 1:30
 -- Duration: Instant
 -----------------------------------
-require("scripts/globals/settings")
-require("scripts/globals/status")
-require("scripts/globals/pets")
 require("scripts/globals/msg")
 require("scripts/globals/items")
+require("scripts/globals/pets")
+require("scripts/globals/status")
 -----------------------------------
 local abilityObject = {}
 
 abilityObject.onAbilityCheck = function(player, target, ability)
     local pet = player:getPet()
+
     if not pet then
         return xi.msg.basic.REQUIRES_A_PET, 0
     elseif not player:isJugPet() and pet:getObjType() ~= xi.objType.MOB then
@@ -42,25 +42,23 @@ abilityObject.onAbilityCheck = function(player, target, ability)
 end
 
 abilityObject.onUseAbility = function(player, target, ability, action)
-
     -- 1st need to get the pet food is equipped in the range slot.
-    local rangeObj = player:getEquipID(xi.slot.AMMO)
-
-    local minimumHealing = 0
-    local totalHealing = 0
-    local playerMnd = player:getStat(xi.mod.MND)
+    local rangeObj         = player:getEquipID(xi.slot.AMMO)
+    local minimumHealing   = 0
+    local totalHealing     = 0
+    local playerMnd        = player:getStat(xi.mod.MND)
     local rewardHealingMod = player:getMod(xi.mod.REWARD_HP_BONUS)
-    local regenAmount = 1 -- 1 is the minimum.
-    local regenTime = 180 -- 3 minutes
-
-    local pet = player:getPet()
-    local petCurrentHP = pet:getHP()
-    local petMaxHP = pet:getMaxHP()
+    local regenAmount      = 1 -- 1 is the minimum.
+    local regenTime        = 180 -- 3 minutes
+    local pet              = player:getPet()
+    local petCurrentHP     = pet:getHP()
+    local petMaxHP         = pet:getMaxHP()
 
     -- Need to start to calculate the HP to restore to the pet.
     -- Please note that I used this as base for the calculations:
     -- http://wiki.ffxiclopedia.org/wiki/Reward
 
+    -- TODO: Create lookup table for these switches
     switch (rangeObj) : caseof {
         [xi.items.PET_FOOD_ALPHA_BISCUIT] = function (x)
             minimumHealing = 20
@@ -117,21 +115,19 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             end,
         [xi.items.PET_FOOD_THETA_BISCUIT] = function (x)
             minimumHealing = 1600
-            regenAmount = 20
-            totalHealing = math.floor(minimumHealing + 4 * (playerMnd - 55))
-            end,
+            regenAmount    = 20
+            totalHealing   = math.floor(minimumHealing + 4 * (playerMnd - 55))
+        end,
     }
 
     -- Now calculating the bonus based on gear.
-    local body = player:getEquipID(xi.slot.BODY)
-
-    switch (body) : caseof {
+    switch (player:getEquipID(xi.slot.BODY)) : caseof {
         [xi.items.BEAST_JACKCOAT] = function (x)
             -- This will remove Paralyze, Poison and Blind from the pet.
             pet:delStatusEffect(xi.effect.PARALYSIS)
             pet:delStatusEffect(xi.effect.POISON)
             pet:delStatusEffect(xi.effect.BLINDNESS)
-            end,
+        end,
         [xi.items.BEAST_JACKCOAT_P1] = function (x)
             -- This will remove Paralyze, Poison, Blind, Weight, Slow and Silence from the pet.
             pet:delStatusEffect(xi.effect.PARALYSIS)
@@ -140,13 +136,13 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             pet:delStatusEffect(xi.effect.WEIGHT)
             pet:delStatusEffect(xi.effect.SLOW)
             pet:delStatusEffect(xi.effect.SILENCE)
-            end,
+        end,
         [xi.items.MONSTER_JACKCOAT] = function (x)
             -- This will remove Weight, Slow and Silence from the pet.
             pet:delStatusEffect(xi.effect.WEIGHT)
             pet:delStatusEffect(xi.effect.SLOW)
             pet:delStatusEffect(xi.effect.SILENCE)
-            end,
+        end,
         [xi.items.MONSTER_JACKCOAT_P1] = function (x)
             -- This will remove Paralyze, Poison, Blind, Weight, Slow and Silence from the pet.
             pet:delStatusEffect(xi.effect.PARALYSIS)
@@ -155,7 +151,7 @@ abilityObject.onUseAbility = function(player, target, ability, action)
             pet:delStatusEffect(xi.effect.WEIGHT)
             pet:delStatusEffect(xi.effect.SLOW)
             pet:delStatusEffect(xi.effect.SILENCE)
-            end,
+        end,
     }
 
     -- Adding bonus to the total to heal.

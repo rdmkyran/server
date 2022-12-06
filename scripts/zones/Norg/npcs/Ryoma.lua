@@ -62,7 +62,6 @@ entity.onTrigger = function(player, npc)
     else
         player:startEvent(94)
     end
-
 end
 
 entity.onEventFinish = function(player, csid, option)

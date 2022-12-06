@@ -111,7 +111,7 @@ end
 -- -------------------------------------------------------------------
 
 xi.campaign.getSandOriaNotesItem = function(i)
-    local sandOria_AN =
+    local sandOriaAlliedNotesItems =
     {
         [2] = { id = xi.items.SPRINTERS_SHOES, price = 980 },
         [258] = { id = xi.items.SCROLL_OF_INSTANT_RETRACE, price = 10 },
@@ -151,12 +151,12 @@ xi.campaign.getSandOriaNotesItem = function(i)
         [82] = { id = xi.items.GRIFFINCLAW, price = 150000, adj = 100000 },
         [338] = { id = xi.items.ROYAL_KNIGHT_SIGIL_RING, price = 75000, adj = 50000 }
     }
-    local item = sandOria_AN[i]
+    local item = sandOriaAlliedNotesItems[i]
     return item.id, item.price, item.adj
 end
 
 xi.campaign.getBastokNotesItem = function(i)
-    local bastok_AN =
+    local bastokAlliedNotesItems =
     {
         [2] = { id = xi.items.SPRINTERS_SHOES, price = 980 },
         [258] = { id = xi.items.SCROLL_OF_INSTANT_RETRACE, price = 10 },
@@ -196,12 +196,12 @@ xi.campaign.getBastokNotesItem = function(i)
         [82] = { id = xi.items.LEX_TALIONIS, price = 150000, adj = 100000 },
         [338] = { id = xi.items.FOURTH_DIVISION_MANTLE, price = 75000, adj = 50000 }
     }
-    local item = bastok_AN[i]
+    local item = bastokAlliedNotesItems[i]
     return item.id, item.price, item.adj
 end
 
 xi.campaign.getWindurstNotesItem = function(i)
-    local windurst_AN =
+    local windurstAlliedNotesItems =
     {
         [2] = { id = xi.items.SPRINTERS_SHOES, price = 980 },
         [258] = { id = xi.items.SCROLL_OF_INSTANT_RETRACE, price = 10 },
@@ -245,7 +245,7 @@ xi.campaign.getWindurstNotesItem = function(i)
         [82] = { id = xi.items.GRIFFINCLAW, price = 150000, adj = 10000 },
         [338] = { id = xi.items.ROYAL_KNIGHT_SIGIL_RING, price = 75000, adj = 50000 }
     }
-    local item = windurst_AN[i]
+    local item = windurstAlliedNotesItems[i]
     return item.id, item.price, item.adj
 end
 

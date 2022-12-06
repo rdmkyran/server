@@ -66,7 +66,6 @@ entity.onTrade = function(player, npc, trade)
     else
         player:startEvent(605, 0, 231, 0)
     end
-
 end
 
 entity.onTrigger = function(player, npc)

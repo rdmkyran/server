@@ -11,7 +11,6 @@ local ID = require("scripts/zones/RuLude_Gardens/IDs")
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
-
     if player:getQuestStatus(xi.quest.log_id.JEUNO, xi.quest.id.jeuno.EMPTY_MEMORIES) >= QUEST_ACCEPTED then
         local count = trade:getItemCount()
         local reward = xi.items.NONE

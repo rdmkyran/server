@@ -20,12 +20,12 @@ function isHalloweenEnabled()
         -- According to wiki Harvest Fest is Oct 20 - Nov 1.
         if xi.settings.main.HALLOWEEN_2005 == 1 then
             option = 1
-        elseif HALLOWEEN_2008 == 1 then
-            option = 2
-        elseif HALLOWEEN_2009 == 1 then
-            option = 3
-        elseif HALLOWEEN_2010 == 1 then
-            option = 4
+        -- elseif HALLOWEEN_2008 == 1 then
+        --     option = 2
+        -- elseif HALLOWEEN_2009 == 1 then
+        --     option = 3
+        -- elseif HALLOWEEN_2010 == 1 then
+        --     option = 4
         end
     end
 
@@ -37,11 +37,11 @@ local function halloweenItemsCheck(player)
     local mainHand = player:getEquipID(xi.slot.MAIN)
     local reward = xi.items.NONE
 
-    local reward_list = { xi.items.PUMPKIN_HEAD, xi.items.HORROR_HEAD_II, xi.items.TREAT_STAFF, xi.items.TREAT_STAFF_II }
+    local rewardList = { xi.items.PUMPKIN_HEAD, xi.items.HORROR_HEAD_II, xi.items.TREAT_STAFF, xi.items.TREAT_STAFF_II }
 
     -- Checks for HQ Upgrade
-    for ri = 1, #reward_list do
-        if headSlot == reward_list[ri] or mainHand == reward_list[ri] then
+    for ri = 1, #rewardList do
+        if headSlot == rewardList[ri] or mainHand == rewardList[ri] then
             if headSlot == xi.items.PUMPKIN_HEAD and not player:hasItem(xi.items.HORROR_HEAD) then
                 reward = xi.items.HORROR_HEAD
             elseif headSlot == xi.items.PUMPKIN_HEAD_II and not player:hasItem(xi.items.HORROR_HEAD_II) then
@@ -57,15 +57,15 @@ local function halloweenItemsCheck(player)
     end
 
     -- Checks the possible item rewards to ensure player doesnt already have the item we are about to give them
-    local cnt = #reward_list
+    local cnt = #rewardList
 
     while cnt ~= 0 do
-        local picked = reward_list[math.random(1, #reward_list)]
+        local picked = rewardList[math.random(1, #rewardList)]
         if not player:hasItem(picked) then
             reward = picked
             cnt = 0
         else
-            table.remove(reward_list, picked)
+            table.remove(rewardList, picked)
             cnt = cnt - 1
         end
     end
@@ -86,7 +86,7 @@ function onHalloweenTrade(player, trade, npc)
         -----------------------------------
         -- Treats allowed
         -----------------------------------
-        local treats_table =
+        local treatsTable =
         {
             4510, -- Acorn Cookie
             5646, -- Bloody Chocolate
@@ -133,8 +133,8 @@ function onHalloweenTrade(player, trade, npc)
             5627, -- Yogurt Cake
         }
 
-        for itemInList = 1, #treats_table do
-            if item == treats_table[itemInList] then
+        for itemInList = 1, #treatsTable do
+            if item == treatsTable[itemInList] then
                 local itemReward = halloweenItemsCheck(player)
                 local varName = "harvestFestTreats"
                 local harvestFestTreats
@@ -183,9 +183,9 @@ function onHalloweenTrade(player, trade, npc)
                     local skeleton = 564
                     local darkStalker = math.random(531, 534)
 
-                    local halloween_costume_list = { quadav, orc, yagudo, shade, ghost, hound, skeleton, darkStalker }
+                    local halloweenCostumeList = { quadav, orc, yagudo, shade, ghost, hound, skeleton, darkStalker }
 
-                    local costumePicked = halloween_costume_list[math.random(1, #halloween_costume_list)] -- will randomly pick one of the costumes in the list
+                    local costumePicked = halloweenCostumeList[math.random(1, #halloweenCostumeList)] -- will randomly pick one of the costumes in the list
                     player:addStatusEffect(xi.effect.COSTUME, costumePicked, 0, 3600)
 
                     -- pitchForkCostumeList defines the special costumes per zone that can trigger the pitch fork requirement
@@ -213,9 +213,7 @@ function onHalloweenTrade(player, trade, npc)
 
                         elseif zi == 16 then
                             player:messageSpecial(ID.text.THANK_YOU_TREAT)
-
                         end
-
                     end
                 else
                     player:messageSpecial(ID.text.THANK_YOU)

@@ -9,7 +9,6 @@ local ID = require("scripts/zones/Dynamis-Xarcabard/IDs")
 local entity = {}
 
 entity.onMobEngaged = function(mob, target)
-
     if mob:getAnimationSub() == 3 then
         SetDropRate(107, xi.items.MYSTERIAL_FRAGMENT, 1000)
     else

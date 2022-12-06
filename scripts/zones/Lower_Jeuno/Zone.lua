@@ -16,7 +16,6 @@ local zoneObject = {}
 
 zoneObject.onInitialize = function(zone)
     zone:registerTriggerArea(1, 23, 0, -43, 44, 7, -39) -- Inside Tenshodo HQ. TODO: Find out if this is used other than in ZM 17 (not anymore). Remove if not.
-    xi.events.starlightCelebration.applyStarlightDecorations(zone:getID())
     xi.chocobo.initZone(zone)
 end
 
@@ -97,7 +96,6 @@ zoneObject.onGameHour = function(zone)
             npc:setPos(xi.path.first(lowerJeunoGlobal.lampPath))
             npc:pathThrough(lowerJeunoGlobal.lampPath, bit.bor(xi.path.flag.PATROL, xi.path.flag.WALLHACK))
         end
-
     end
 end
 

@@ -395,7 +395,7 @@ INSERT INTO `item_latents` VALUES (13288,374,10,2,75);   -- "Cure" potency +10% 
 -- -------------------------------------------------------
 -- Sorcerer's Ring
 -- -------------------------------------------------------
-INSERT INTO `item_latents` VALUES (13289,28,10,2,76);    -- "Magic Atk. Bonus"+10 while HP <76% and TP <100%
+INSERT INTO `item_latents` VALUES (13289,28,10,44,76);    -- "Magic Atk. Bonus"+10 while HP <76% and TP <100%
 
 -- -------------------------------------------------------
 -- Fencer's Ring
@@ -439,7 +439,7 @@ INSERT INTO `item_latents` VALUES (13294,238,3,2,75);    -- Enhances "Luminion K
 -- -------------------------------------------------------
 -- Minstrel's Ring
 -- -------------------------------------------------------
-INSERT INTO `item_latents` VALUES (13295,455,-25,2,75);  -- "Shield Bash"+10 while HP <=75% and TP <=100%
+INSERT INTO `item_latents` VALUES (13295,455,25,2,75);  -- Song Spellcast -25% while HP <=75% and TP <=100%
 
 -- -------------------------------------------------------
 -- Tracker's Ring
@@ -464,7 +464,7 @@ INSERT INTO `item_latents` VALUES (13299,361,10,2,75);   -- Enhances "Jump" effe
 -- -------------------------------------------------------
 -- Conjurer's Ring
 -- -------------------------------------------------------
-INSERT INTO `item_latents` VALUES (13300,346,1,2,75);    -- Avatar perpetuation cost -1 while HP <=75% and TP <=100%
+INSERT INTO `item_latents` VALUES (13300,346,1,44,75);    -- Avatar perpetuation cost -1 while HP <=75% and TP <=100%
 
 -- -------------------------------------------------------
 -- Fenrir's Earring
