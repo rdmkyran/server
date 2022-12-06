@@ -121,14 +121,14 @@ xi.eraShops.Sororo =
 -- Port Bastok
 xi.eraShops.Valeriano =
 {
-    4394,     10, -- Ginger Cookie
-    17345,    43, -- Flute
-    17347,   990, -- Piccolo
-    5017,    585, -- Scroll of Scop's Operetta
-    5018,  16920, -- Scroll of Puppet's Operetta
-    5013,   2916, -- Scroll of Fowl Aubade
-    5027,   2059, -- Scroll of Advancing March
-    5072,  90000, -- Scroll of Goddess's Hymnus
+    xi.items.GINGER_COOKIE,                 10,
+    xi.items.FLUTE,                        43,
+    xi.items.PICCOLO,                     990,
+    xi.items.SCROLL_OF_SCOPS_OPERETTA,     585,
+    xi.items.SCROLL_OF_PUPPETS_OPERETTA,  16920,
+    xi.items.SCROLL_OF_FOWL_AUBADE,       2916,
+    xi.items.SCROLL_OF_ADVANCING_MARCH,   2059,
+    xi.items.SCROLL_OF_GODDESSS_HYMNUS,  90000,
 }
 
 xi.eraShops.Numa =
@@ -400,250 +400,250 @@ xi.eraShops.WijeTiren =
 
 xi.eraShops.Creepstix =
 {
-    5023,   8160, -- Scroll of Goblin Gavotte
-    4734,   7074, -- Scroll of Protectra II
-    4738,   1700, -- Scroll of Shellra
+    xi.items.SCROLL_OF_GOBLIN_GAVOTTE,    8160,
+    xi.items.SCROLL_OF_PROTECTRA_II,      7074,
+    xi.items.SCROLL_OF_SHELLRA,           1700,
 }
 
 xi.eraShops.Hasim =
 {
-    4668,   1760, -- Scroll of Barfire
-    4669,   3624, -- Scroll of Barblizzard
-    4670,    930, -- Scroll of Baraero
-    4671,    156, -- Scroll of Barstone
-    4672,   5754, -- Scroll of Barthunder
-    4673,    360, -- Scroll of Barwater
-    4674,   1760, -- Scroll of Barfira
-    4675,   3624, -- Scroll of Barblizzara
-    4676,    930, -- Scroll of Baraera
-    4677,    156, -- Scroll of Barstonra
-    4678,   5754, -- Scroll of Barthundra
-    4679,    360, -- Scroll of Barwatera
-    4680,    244, -- Scroll of Barsleep
-    4612,  23400, -- Scroll of Cure IV
-    4616,  11200, -- Scroll of Curaga II
-    4617,  19932, -- Scroll of Curaga III
-    4653,  32000, -- Scroll of Protect III
+    xi.items.SCROLL_OF_BARFIRE,           1760,
+    xi.items.SCROLL_OF_BARBLIZZARD,       3624,
+    xi.items.SCROLL_OF_BARAERO,            930,
+    xi.items.SCROLL_OF_BARSTONE,           156,
+    xi.items.SCROLL_OF_BARTHUNDER,        5754,
+    xi.items.SCROLL_OF_BARWATER,           360,
+    xi.items.SCROLL_OF_BARFIRA,           1760,
+    xi.items.SCROLL_OF_BARBLIZZARA,       3624,
+    xi.items.SCROLL_OF_BARAERA,            930,
+    xi.items.SCROLL_OF_BARSTONRA,          156,
+    xi.items.SCROLL_OF_BARTHUNDRA,        5754,
+    xi.items.SCROLL_OF_BARWATERA,          360,
+    xi.items.SCROLL_OF_BARSLEEP,           244,
+    xi.items.SCROLL_OF_CURE_IV,          23400,
+    xi.items.SCROLL_OF_CURAGA_II,        11200,
+    xi.items.SCROLL_OF_CURAGA_III,       19932,
+    xi.items.SCROLL_OF_PROTECT_III,      32000,
 }
 
 xi.eraShops.Stinknix =
 {
-    943,    294, -- Poison Dust
-    944,   1035, -- Venom Dust
-    945,   2000, -- Paralysis Dust
-    17320,    7, -- Iron Arrow
-    17336,    5, -- Crossbow Bolt
-    17313, 1107, -- Grenade
+    xi.items.PINCH_OF_POISON_DUST,         294,
+    xi.items.PINCH_OF_VENOM_DUST,         1035,
+    xi.items.PINCH_OF_PARALYSIS_DUST,     2000,
+    xi.items.IRON_ARROW,                   7,
+    xi.items.CROSSBOW_BOLT,                5,
+    xi.items.GRENADE,                   1107,
 }
 
 xi.eraShops.Susu =
 {
-    4647, 20000, -- Scroll of Banishga II
-    4683,  2030, -- Scroll of Barblind
-    4697,  2030, -- Scroll of Barblindra
-    4682,   780, -- Scroll of Barparalyze
-    4696,   780, -- Scroll of Barparalyzra
-    4681,   400, -- Scroll of Barpoison
-    4695,   400, -- Scroll of Barpoisonra
-    4684,  4608, -- Scroll of Barsilence
-    4698,  4608, -- Scroll of Barsilencera
-    4680,   244, -- Scroll of Barsleep
-    4694,   244, -- Scroll of Barsleepra
-    4628,  8586, -- Scroll of Cursna
-    4629, 35000, -- Scroll of Holy
-    4625,  2330, -- Scroll of Silena
-    4626, 19200, -- Scroll of Stona
-    4627, 13300, -- Scroll of Viruna
+    xi.items.SCROLL_OF_BANISHGA_II,     20000,
+    xi.items.SCROLL_OF_BARBLIND,         2030,
+    xi.items.SCROLL_OF_BARBLINDRA,       2030,
+    xi.items.SCROLL_OF_BARPARALYZE,       780,
+    xi.items.SCROLL_OF_BARPARALYZRA,      780,
+    xi.items.SCROLL_OF_BARPOISON,         400,
+    xi.items.SCROLL_OF_BARPOISONRA,       400,
+    xi.items.SCROLL_OF_BARSILENCE,       4608,
+    xi.items.SCROLL_OF_BARSILENCERA,     4608,
+    xi.items.SCROLL_OF_BARSLEEP,          244,
+    xi.items.SCROLL_OF_BARSLEEPRA,        244,
+    xi.items.SCROLL_OF_CURSNA,           8586,
+    xi.items.SCROLL_OF_HOLY,            35000,
+    xi.items.SCROLL_OF_SILENA,           2330,
+    xi.items.SCROLL_OF_STONA,           19200,
+    xi.items.SCROLL_OF_VIRUNA,          13300,
 }
 
 xi.eraShops.Taza =
 {
-    4881, 10304, -- Scroll of Sleepga
-    4658, 26244, -- Scroll of Shell III
-    4735, 19200, -- Scroll of Protectra III
-    4739, 14080, -- Scroll of Shellra II
-    4740, 26244, -- Scroll of Shellra III
-    4685, 15120, -- Scroll of Barpetrify
-    4686,  9600, -- Scroll of Barvirus
-    4699, 15120, -- Scroll of Barpetra
-    4700,  9600, -- Scroll of Barvira
-    4867, 18720, -- Scroll of Sleep II
-    4769, 19932, -- Scroll of Stone III
-    4779, 22682, -- Scroll of Water III
-    4764, 27744, -- Scroll of Aero III
-    4754, 33306, -- Scroll of Fire III
-    4759, 39368, -- Scroll of Blizzard III
-    4774, 45930, -- Scroll of Thunder III
+    xi.items.SCROLL_OF_SLEEPGA,         10304,
+    xi.items.SCROLL_OF_SHELL_III,       26244,
+    xi.items.SCROLL_OF_PROTECTRA_III,   19200,
+    xi.items.SCROLL_OF_SHELLRA_II,      14080,
+    xi.items.SCROLL_OF_SHELLRA_III,     26244,
+    xi.items.SCROLL_OF_BARPETRIFY,      15120,
+    xi.items.SCROLL_OF_BARVIRUS,         9600,
+    xi.items.SCROLL_OF_BARPETRA,        15120,
+    xi.items.SCROLL_OF_BARVIRA,          9600,
+    xi.items.SCROLL_OF_SLEEP_II,        18720,
+    xi.items.SCROLL_OF_STONE_III,       19932,
+    xi.items.SCROLL_OF_WATER_III,       22682,
+    xi.items.SCROLL_OF_AERO_III,        27744,
+    xi.items.SCROLL_OF_FIRE_III,        33306,
+    xi.items.SCROLL_OF_BLIZZARD_III,    39368,
+    xi.items.SCROLL_OF_THUNDER_III,     45930,
 }
 
 -- Upper Jeuno
 xi.eraShops.Coumuna =
 {
-    16705,  4550, -- Greataxe
-    16518, 31000, -- Mythril Degen
-    16460, 12096, -- Kris
-    16467, 14560, -- Mythril Knife
-    16399, 15488, -- Katars
-    16589, 13962, -- Two-Handed Sword
-    16412, 29760, -- Mythril Claws
-    16567, 85250, -- Knight's Sword
+    xi.items.GREATAXE,                   4550,
+    xi.items.MYTHRIL_DEGEN,             31000,
+    xi.items.KRIS,                      12096,
+    xi.items.MYTHRIL_KNIFE,             14560,
+    xi.items.KATARS,                    15488,
+    xi.items.TWO_HANDED_SWORD,          13962,
+    xi.items.MYTHRIL_CLAWS,             29760,
+    xi.items.KNIGHTS_SWORD,             85250,
 }
 
 xi.eraShops.Areebah =
 {
-    636,  119, -- Chamomile
-    951,  110, -- Wijnruit
-    948,   60, -- Carnation
-    941,   80, -- Red Rose
-    949,   96, -- Rain Lily
-    956,  120, -- Lilac
-    957,  120, -- Amaryllis
-    958,  120, -- Marguerite
+    xi.items.CHAMOMILE,                  119,
+    xi.items.WIJNRUIT,                   110,
+    xi.items.CARNATION,                   60,
+    xi.items.RED_ROSE,                    80,
+    xi.items.RAIN_LILY,                   96,
+    xi.items.LILAC,                      120,
+    xi.items.AMARYLLIS,                  120,
+    xi.items.MARGUERITE,                 120,
 }
 
 --Kazham
 xi.eraShops.TojiMumosulah =
 {
-    112,    456, -- Yellow Jar
-    13199,   95, -- Blood Stone
-    13076, 3510, -- Fang Necklace
-    13321, 1667, -- Bone Earring
-    17351, 4747, -- Gemshorn
-    16993,   69, -- Peeled Crayfish
-    16998,   36, -- Insect Paste
-    17876,  165, -- Fish Broth
-    17880,  695, -- Seedbed Soil
-    1021,   450, -- Hatchet
-    4987,   328, -- Scroll of Army's Paeon II
-    4988,  3312, -- Scroll of Army's Paeon III
+    xi.items.YELLOW_JAR,                   456,
+    xi.items.BLOOD_STONE,                 95,
+    xi.items.FANG_NECKLACE,             3510,
+    xi.items.BONE_EARRING,              1667,
+    xi.items.GEMSHORN,                  4747,
+    xi.items.PEELED_CRAYFISH,             69,
+    xi.items.BALL_OF_INSECT_PASTE,        36,
+    xi.items.JUG_OF_FISH_BROTH,          165,
+    xi.items.JUG_OF_SEEDBED_SOIL,        695,
+    xi.items.HATCHET,                     450,
+    xi.items.SCROLL_OF_ARMYS_PAEON_II,    328,
+    xi.items.SCROLL_OF_ARMYS_PAEON_III,  3312,
 }
 
 -- Rulude Gardens
 xi.eraShops.DabihJajalioh =
 {
-    957,     120, -- Amaryllis
-    948,      60, -- Carnation
-    636,     119, -- Chamomile
-    956,     120, -- Lilac
-    958,     120, -- Marguerite
-    949,      96, -- Rain Lily
-    941,      80, -- Red Rose
-    951,     110, -- Wijnruit
+    xi.items.AMARYLLIS,                     120,
+    xi.items.CARNATION,                      60,
+    xi.items.CHAMOMILE,                     119,
+    xi.items.LILAC,                         120,
+    xi.items.MARGUERITE,                    120,
+    xi.items.RAIN_LILY,                      96,
+    xi.items.RED_ROSE,                       80,
+    xi.items.WIJNRUIT,                      110,
 }
 
 -- Mhaura
 xi.eraShops.PikiniMikini =
 {
-    4150, 2335,    -- Eye Drops
-    4148,  284,    -- Antidote
-    4151,  720,    -- Echo Drops
-    4112,  819,    -- Potion
-    4509,   10,    -- Distilled Water
-    917,  1821,    -- Parchment
-    17395,   9,    -- Lugworm
-    1021,  450,    -- Hatchet
-    4376,  108,    -- Meat Jerky
-    5299,  133,    -- Salsa
+    xi.items.FLASK_OF_EYE_DROPS,        2335,
+    xi.items.ANTIDOTE,                   284,
+    xi.items.FLASK_OF_ECHO_DROPS,        720,
+    xi.items.POTION,                     819,
+    xi.items.FLASK_OF_DISTILLED_WATER,    10,
+    xi.items.SHEET_OF_PARCHMENT,         1821,
+    xi.items.LUGWORM,                     9,
+    xi.items.HATCHET,                    450,
+    xi.items.STRIP_OF_MEAT_JERKY,        108,
+    xi.items.DISH_OF_SALSA,              133,
 }
 
 -- Selbina
 xi.eraShops.Dohdjuma =
 {
-    611,    36,    -- Rye Flour
-    5011,  233,    -- Scroll of Sheepfoe Mambo
-    4150, 2335,    -- Eye Drops
-    4148,  284,    -- Antidote
-    4509,   10,    -- Distilled Water
-    4112,  819,    -- Potion
-    17395,  10,    -- Lugworm
-    4378,   54,    -- Selbina Milk
-    4490,  432,    -- Pickled Herring
-    4559, 4485,    -- Herb Quus
+    xi.items.BAG_OF_RYE_FLOUR,             36,
+    xi.items.SCROLL_OF_SHEEPFOE_MAMBO,   233,
+    xi.items.FLASK_OF_EYE_DROPS,        2335,
+    xi.items.ANTIDOTE,                   284,
+    xi.items.FLASK_OF_DISTILLED_WATER,    10,
+    xi.items.POTION,                     819,
+    xi.items.LUGWORM,                    10,
+    xi.items.JUG_OF_SELBINA_MILK,         54,
+    xi.items.PICKLED_HERRING,            432,
+    xi.items.SERVING_OF_HERB_QUUS,      4485,
 }
 
 --Nashmau
 xi.eraShops.Mamaroon =
 {
-    4860,  27000, -- Scroll of Stun
-    4708,   5160, -- Scroll of Enfire
-    4709,   4098, -- Scroll of Enblizzard
-    4710,   2500, -- Scroll of Enaero
-    4711,   2030, -- Scroll of Entone
-    4712,   1515, -- Scroll of Enthunder
-    4713,   7074, -- Scroll of Enwater
-    4859,   9000, -- Scroll of Shock Spikes
-    2502,  29950, -- White Puppet Turban
-    2501,  29950, -- Black Puppet Turban
+    xi.items.SCROLL_OF_STUN,             27000,
+    xi.items.SCROLL_OF_ENFIRE,            5160,
+    xi.items.SCROLL_OF_ENBLIZZARD,        4098,
+    xi.items.SCROLL_OF_ENAERO,            2500,
+    xi.items.SCROLL_OF_ENSTONE,           2030,
+    xi.items.SCROLL_OF_ENTHUNDER,         1515,
+    xi.items.SCROLL_OF_ENWATER,           7074,
+    xi.items.SCROLL_OF_SHOCK_SPIKES,      9000,
+    xi.items.WHITE_PUPPET_TURBAN,        29950,
+    xi.items.BLACK_PUPPET_TURBAN,        29950,
 }
 
 xi.eraShops.Yoyoroon =
 {
-    2239,  4940, -- Tension Spring
-    2243,  4940, -- Loudspeaker
-    2246,  4940, -- Accelerator
-    2251,  4940, -- Armor Plate
-    2254,  4940, -- Stabilizer
-    2258,  4940, -- Mana Jammer
-    2262,  4940, -- Auto-Repair Kit
-    2266,  4940, -- Mana Tank
-    2240,  9925, -- Inhibitor
-    2242,  9925, -- Mana Booster
-    2247,  9925, -- Scope
-    2250,  9925, -- Shock Absorber
-    2255,  9925, -- Volt Gun
-    2260,  9925, -- Stealth Screen
-    2264,  9925, -- Damage Gauge
-    2268,  9925, -- Mana Conserver
+    xi.items.TENSION_SPRING,             4940,
+    xi.items.LOUDSPEAKER,                4940,
+    xi.items.ACCELERATOR,                4940,
+    xi.items.ARMOR_PLATE,                4940,
+    xi.items.STABILIZER,                 4940,
+    xi.items.MANA_JAMMER,                4940,
+    xi.items.AUTO_REPAIR_KIT,            4940,
+    xi.items.MANA_TANK,                  4940,
+    xi.items.INHIBITOR,                  9925,
+    xi.items.MANA_BOOSTER,               9925,
+    xi.items.SCOPE,                      9925,
+    xi.items.SHOCK_ABSORBER,             9925,
+    xi.items.VOLT_GUN,                   9925,
+    xi.items.STEALTH_SCREEN,             9925,
+    xi.items.DAMAGE_GAUGE,               9925,
+    xi.items.MANA_CONSERVER,             9925,
 }
 
 -- Norg
 xi.eraShops.SolbyMaholby =
 {
-    17395,     9, -- Lugworm
-    4899,    450, -- Earth Spirit Pact
+    xi.items.LUGWORM,                       9,
+    xi.items.EARTH_SPIRIT_PACT,            450,
 }
 
 
 -- Port Jeuno
 xi.eraShops.Gekko =
 {
-    4150,  2387, -- Eye Drops
-    4148,   290, -- Antidote
-    4151,   720, -- Echo Drops
-    4112,   837, -- Potion
-    4128,  4445, -- Ether
-    4365,   120, -- Rolanberry
-    189,  36000, -- Autumn's End
-    188,  31224, -- Acolyte's Grief
+    xi.items.FLASK_OF_EYE_DROPS,         2387,
+    xi.items.ANTIDOTE,                    290,
+    xi.items.FLASK_OF_ECHO_DROPS,         720,
+    xi.items.POTION,                      837,
+    xi.items.ETHER,                      4445,
+    xi.items.ROLANBERRY,                  120,
+    xi.items.COPY_OF_AUTUMNS_END_IN_GUSTABERG,  36000,
+    xi.items.COPY_OF_ACOLYTES_GRIEF,     31224,
 }
 
 -- Rabao
 xi.eraShops.Brave_Ox =
 {
-    4654,  77350, -- Protect IV
-    4736,  73710, -- Protectra IV
-    4868,  63700, -- Dispel
-    4860,  31850, -- Stun
-    4720,  31850, -- Flash
-    4750, 546000, -- Reraise III
-    4638,  78260, -- Banish III
-    -- 4701, 20092, -- Cura
-    -- 4702, 62192, -- Sacrifice
-    -- 4703, 64584, -- Esuna
-    -- 4704, 30967, -- Auspice
+    xi.items.SCROLL_OF_PROTECT_IV,       77350,
+    xi.items.SCROLL_OF_PROTECTRA_IV,     73710,
+    xi.items.SCROLL_OF_DISPEL,           63700,
+    xi.items.SCROLL_OF_STUN,             31850,
+    xi.items.SCROLL_OF_FLASH,            31850,
+    xi.items.SCROLL_OF_RERAISE_III,     546000,
+    xi.items.SCROLL_OF_BANISH_III,       78260,
+    -- xi.items.SCROLL_OF_CURA,            20092,
+    -- xi.items.SCROLL_OF_SACRIFICE,       62192,
+    -- xi.items.SCROLL_OF_ESUNA,           64584,
+    -- xi.items.SCROLL_OF_AUSPICE,         30967,
 }
 
 -- Upper Jeuno
 xi.eraShops.Antonia =
 {
-    17061,  6256, -- Mythril Rod
-    17027, 11232, -- Oak Cudgel
-    17036, 18048, -- Mythril Mace
-    17044,  6033, -- Warhammer
-    17098, 37440, -- Oak Pole
-    16836, 44550, -- Halberd
-    16774, 10596, -- Scythe
-    17320,     7, -- Iron Arrow
+    xi.items.MYTHRIL_ROD,                6256,
+    xi.items.OAK_CUDGEL,                11232,
+    xi.items.MYTHRIL_MACE,              18048,
+    xi.items.WARHAMMER,                  6033,
+    xi.items.OAK_POLE,                  37440,
+    xi.items.HALBERD,                   44550,
+    xi.items.SCYTHE,                    10596,
+    xi.items.IRON_ARROW,                    7,
 }
 
 -- Windurst Waters
