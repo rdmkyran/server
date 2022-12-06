@@ -2412,6 +2412,7 @@ xi.items =
     BUNCH_OF_GYSAHL_GREENS                = 4545,
     PIECE_OF_RAISIN_BREAD                 = 4546,
     WINDURST_SALAD                        = 4555,
+    SERVING_OF_ICECAP_ROLANBERRY          = 4556,
     BOTTLE_OF_YAGUDO_DRINK                = 4558,
     SERVING_OF_HERB_QUUS                  = 4559,
     BOWL_OF_VEGETABLE_SOUP                = 4560,

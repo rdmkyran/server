@@ -17,13 +17,13 @@ entity.onTrigger = function(player, npc)
     local stock =
     {
         -- Scrolls are not effected by fame
-        4509,    10 * priceMultiplier, -- Distilled Water
-        4422,   184 * priceMultiplier, -- Orange Juice
-        4423,   276 * priceMultiplier, -- Apple Juice
-        4424,  1012 * priceMultiplier, -- Melon Juice
-        4441,   855 * priceMultiplier, -- Grape Juice
-        4442,   368 * priceMultiplier, -- Pineapple Juice
-        4556,  5544 * priceMultiplier, -- Icecap Rolanberry
+        xi.items.FLASK_OF_DISTILLED_WATER,     10 * priceMultiplier,
+        xi.items.BOTTLE_OF_ORANGE_JUICE,      184 * priceMultiplier,
+        xi.items.BOTTLE_OF_APPLE_JUICE,       276 * priceMultiplier,
+        xi.items.BOTTLE_OF_MELON_JUICE,      1012 * priceMultiplier,
+        xi.items.BOTTLE_OF_GRAPE_JUICE,       855 * priceMultiplier,
+        xi.items.BOTTLE_OF_PINEAPPLE_JUICE,   368 * priceMultiplier,
+        xi.items.SERVING_OF_ICECAP_ROLANBERRY,  5544 * priceMultiplier,
         xi.items.SCROLL_OF_FIRE_CAROL,       6380,
         xi.items.SCROLL_OF_ICE_CAROL,        7440,
         xi.items.SCROLL_OF_WIND_CAROL,       5940,
