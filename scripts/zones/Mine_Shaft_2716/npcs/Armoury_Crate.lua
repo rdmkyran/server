@@ -134,14 +134,14 @@ local loot =
     [xi.job.WAR] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.JANIZARY_EARRING, droprate = 250 },
         },
     },
     [xi.job.MNK] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.COUNTER_EARRING, droprate = 250 },
         },
     },
@@ -149,7 +149,7 @@ local loot =
     [xi.job.WHM] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.HEALING_FEATHER, droprate = 250 },
         },
     },
@@ -157,7 +157,7 @@ local loot =
     [xi.job.BLM] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.SPIRIT_LANTERN, droprate = 250 },
         },
     },
@@ -165,7 +165,7 @@ local loot =
     [xi.job.RDM] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.SANATION_RING, droprate = 250 },
         },
     },
@@ -173,7 +173,7 @@ local loot =
     [xi.job.THF] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.ASSASSINS_RING, droprate = 250 },
         },
     },
@@ -181,7 +181,7 @@ local loot =
     [xi.job.PLD] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.VIAL_OF_REFRESH_MUSK, droprate = 250 },
         },
     },
@@ -189,7 +189,7 @@ local loot =
     [xi.job.DRK] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.TACTICAL_RING, droprate = 250 },
         },
     },
@@ -197,7 +197,7 @@ local loot =
     [xi.job.BST] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.PACIFIST_RING, droprate = 250 },
         },
     },
@@ -205,7 +205,7 @@ local loot =
     [xi.job.BRD] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.GETSUL_RING, droprate = 250 },
         },
     },
@@ -213,7 +213,7 @@ local loot =
     [xi.job.RNG] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.DEADEYE_EARRING, droprate = 250 },
         },
     },
@@ -221,7 +221,7 @@ local loot =
     [xi.job.SAM] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.GAMUSHARA_EARRING, droprate = 250 },
         },
     },
@@ -229,7 +229,7 @@ local loot =
     [xi.job.NIN] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.NARUKO_EARRING, droprate = 250 },
         },
     },
@@ -237,7 +237,7 @@ local loot =
     [xi.job.DRG] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.BAG_OF_WYVERN_FEED, droprate = 250 },
         },
     },
@@ -245,7 +245,7 @@ local loot =
     [xi.job.SMN] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.ASTRAL_POT, droprate = 250 },
         },
     },
@@ -253,7 +253,7 @@ local loot =
     [xi.job.BLU] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.DEATH_CHAKRAM, droprate = 250 },
         },
     },
@@ -261,7 +261,7 @@ local loot =
     [xi.job.COR] =
     {
         {
-            { itemid = 0, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.CORSAIR_BULLET_POUCH, droprate = 250 },
         },
     },
@@ -269,7 +269,7 @@ local loot =
     [xi.job.PUP] =
     {
         {
-            { itemid = 0, droprate = 200 },
+            { itemid = xi.items.NONE, droprate = 200 },
             { itemid = xi.items.ATTUNER,            droprate = 100 },
             { itemid = xi.items.TACTICAL_PROCESSOR, droprate = 100 },
             { itemid = xi.items.DRUM_MAGAZINE,      droprate = 100 },

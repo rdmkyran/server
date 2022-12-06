@@ -46,22 +46,22 @@ entity.onTrigger = function(player, npc)
         {
             {
                 { itemid = xi.items.REMEDY, droprate = 900 },
-                { itemid = 0,               droprate = 100 },
+                { itemid = xi.items.NONE,              droprate = 100 },
             },
 
             {
                 { itemid = xi.items.REMEDY, droprate = 200 },
-                { itemid = 0,               droprate = 800 },
+                { itemid = xi.items.NONE,              droprate = 800 },
             },
 
             {
                 { itemid = xi.items.HI_POTION_P3, droprate = 400 },
-                { itemid = 0, droprate = 600 },
+                { itemid = xi.items.NONE, droprate = 600 },
             },
 
             {
                 { itemid = xi.items.HI_POTION_P3, droprate = 200 },
-                { itemid = 0, droprate = 800 },
+                { itemid = xi.items.NONE, droprate = 800 },
             },
         },
 
@@ -69,17 +69,17 @@ entity.onTrigger = function(player, npc)
         {
             {
                 { itemid = xi.items.REMEDY, droprate = 800 },
-                { itemid = 0,               droprate = 200 },
+                { itemid = xi.items.NONE,              droprate = 200 },
             },
 
             {
                 { itemid = xi.items.RERAISER, droprate = 200 },
-                { itemid = 0,                 droprate = 800 },
+                { itemid = xi.items.NONE,                droprate = 800 },
             },
 
             {
                 { itemid = xi.items.HI_POTION_TANK, droprate = 100 },
-                { itemid = 0,                       droprate = 900 },
+                { itemid = xi.items.NONE,                      droprate = 900 },
             },
         },
 
@@ -87,22 +87,22 @@ entity.onTrigger = function(player, npc)
         {
             {
                 { itemid = xi.items.HI_POTION_P3, droprate = 800 },
-                { itemid = 0, droprate = 200 },
+                { itemid = xi.items.NONE, droprate = 200 },
             },
 
             {
                 { itemid = xi.items.RERAISER, droprate = 200 },
-                { itemid = 0,                 droprate = 800 },
+                { itemid = xi.items.NONE,                droprate = 800 },
             },
 
             {
                 { itemid = xi.items.HI_POTION_TANK, droprate = 100 },
-                { itemid = 0,                       droprate = 900 },
+                { itemid = xi.items.NONE,                      droprate = 900 },
             },
 
             {
                 { itemid = xi.items.HI_ETHER_TANK, droprate = 100 },
-                { itemid = 0,                      droprate = 900 },
+                { itemid = xi.items.NONE,                     droprate = 900 },
             },
         },
     }

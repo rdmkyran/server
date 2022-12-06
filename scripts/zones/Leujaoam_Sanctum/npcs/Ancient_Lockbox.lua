@@ -43,12 +43,12 @@ entity.onTrigger = function(player, npc)
 
             {
                 { itemid = xi.items.HI_POTION_P3, droprate = 100 },
-                { itemid = 0, droprate = 900 },
+                { itemid = xi.items.NONE, droprate = 900 },
             },
 
             {
                 { itemid = xi.items.REMEDY, droprate = 530 },
-                { itemid = 0,               droprate = 470 },
+                { itemid = xi.items.NONE,              droprate = 470 },
             },
         },
 
@@ -60,7 +60,7 @@ entity.onTrigger = function(player, npc)
 
             {
                 { itemid = xi.items.REMEDY, droprate = 530 },
-                { itemid = 0,               droprate = 470 },
+                { itemid = xi.items.NONE,              droprate = 470 },
             },
         },
     }
