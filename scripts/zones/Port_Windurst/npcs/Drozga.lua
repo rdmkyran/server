@@ -14,14 +14,14 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12432, 1493,    -- Faceguard
-        12560, 2296,    -- Scale Mail
-        12688, 1225,    -- Scale Fng. Gnt.
-        12816, 1843,    -- Scale Cuisses
-        12944, 1117,    -- Scale Greaves
-        13192,  437,    -- Leather Belt
-        13327, 1287,    -- Silver Earring
-        13469, 1287,    -- Leather Ring
+        xi.items.FACEGUARD,                 1493,
+        xi.items.SCALE_MAIL,                2296,
+        xi.items.SCALE_FINGER_GAUNTLETS,    1225,
+        xi.items.SCALE_CUISSES,             1843,
+        xi.items.SCALE_GREAVES,             1117,
+        xi.items.LEATHER_BELT,               437,
+        xi.items.SILVER_EARRING,            1287,
+        xi.items.LEATHER_RING,              1287,
     }
 
     player:showText(npc, ID.text.DROZGA_SHOP_DIALOG)

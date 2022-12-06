@@ -17,9 +17,9 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            916,  855,    -- Cactuar Needle
-            4412, 299,    -- Thundermelon
-            4491, 184,    -- Watermelon
+            xi.items.CACTUAR_NEEDLE,             855,
+            xi.items.THUNDERMELON,              299,
+            xi.items.WATERMELON,                184,
         }
 
         player:showText(npc, ID.text.PATOLLE_OPEN_DIALOG)

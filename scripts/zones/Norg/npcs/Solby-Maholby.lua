@@ -14,21 +14,21 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        17395,     9,    -- Lugworm
-        4899,    450,    -- Earth Spirit Pact
-        2870,   9000,    -- Norg Waystone
-        4965,  79380,    -- Scroll of Aisha: Ichi
-        4966,  93243,    -- Scroll of Myoshu: Ichi
-        4967,  90283,    -- Scroll of Yurin: Ichi
-        4968, 133000,    -- Scroll of Migawa: Ichi
-        4970, 140319,    -- Scroll of Gekka: Ichi
-        4971, 140319,    -- Scroll of Yain: Ichi
-        4930, 119250,    -- Scroll of Katon: San
-        4933, 119250,    -- Scroll of Hyoton: San
-        4936, 119250,    -- Scroll of Huton: San
-        4939, 119250,    -- Scroll of Doton: San
-        4942, 119250,    -- Scroll of Raiton: San
-        4945, 119250,    -- Scroll of Suiton: San
+        xi.items.LUGWORM,                       9,
+        xi.items.EARTH_SPIRIT_PACT,            450,
+        xi.items.NORG_WAYSTONE,               9000,
+        xi.items.SCROLL_OF_AISHA_ICHI,       79380,
+        xi.items.SCROLL_OF_MYOSHU_ICHI,      93243,
+        xi.items.SCROLL_OF_YURIN_ICHI,       90283,
+        xi.items.SCROLL_OF_KAKKA_ICHI,      133000,
+        xi.items.SCROLL_OF_GEKKA_ICHI,      140319,
+        xi.items.SCROLL_OF_YAIN_ICHI,       140319,
+        xi.items.SCROLL_OF_KATON_SAN,       119250,
+        xi.items.SCROLL_OF_HYOTON_SAN,      119250,
+        xi.items.SCROLL_OF_HUTON_SAN,       119250,
+        xi.items.SCROLL_OF_DOTON_SAN,       119250,
+        xi.items.SCROLL_OF_RAITON_SAN,      119250,
+        xi.items.SCROLL_OF_SUITON_SAN,      119250,
     }
 
     player:showText(npc, ID.text.SOLBYMAHOLBY_SHOP_DIALOG)

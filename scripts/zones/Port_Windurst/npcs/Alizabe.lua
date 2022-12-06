@@ -20,11 +20,11 @@ entity.onTrigger = function(player, npc)
         else
             local stock =
             {
-                1523,  290,    -- Apple Mint
-                5164, 1945,    -- Ground Wasabi
-                17005,  99,    -- Lufaise Fly
-                5195,  233,    -- Misareaux Parsley
-                1695,  920,    -- Habanero Peppers
+                xi.items.SPRIG_OF_APPLE_MINT,        290,
+                xi.items.JAR_OF_GROUND_WASABI,      1945,
+                xi.items.LUFAISE_FLY,                99,
+                xi.items.SPRIG_OF_MISAREAUX_PARSLEY,  233,
+                xi.items.BUNCH_OF_HABANERO_PEPPERS,  920,
             }
 
             player:showText(npc, ID.text.ALIZABE_OPEN_DIALOG)

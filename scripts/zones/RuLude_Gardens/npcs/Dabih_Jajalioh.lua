@@ -15,24 +15,24 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        948,      60,    -- Carnation
-        636,     119,    -- Chamomile
-        958,     120,    -- Marguerite
-        949,      96,    -- Rain Lily
-        941,      80,    -- Red Rose
-        951,     110,    -- Wijnruit
+        xi.items.CARNATION,                      60,
+        xi.items.CHAMOMILE,                     119,
+        xi.items.MARGUERITE,                    120,
+        xi.items.RAIN_LILY,                      96,
+        xi.items.RED_ROSE,                       80,
+        xi.items.WIJNRUIT,                      110,
         --[[
-        957,     120,    -- Amaryllis (Occasionally)
-        574,     900,    -- Fruit Seeds (Occasionally)
-        1239,    490,    -- Goblin Doll (Occasionally)
-        1240,    165,    -- Koma (Occasionally)
-        956,     120,    -- Lilac (Occasionally)
-        1446,  50000,    -- Lacquer Tree Log (Occasionally)
-        1441, 250000,    -- Libation Abjuration (Occasionally)
-        630,      88,    -- Ogre Pumpkin (Occasionally)
-        4750, 500000,    -- Scroll of Reraise III (Occasionally)
-        1241,    354,    -- Twinkle Powder (Occasionally)
-        2312,   1040,    -- Chocobo Egg (Occasionally)
+        xi.items.AMARYLLIS,                     120,
+        xi.items.BAG_OF_FRUIT_SEEDS,            900,
+        xi.items.GOBLIN_DOLL,                  490,
+        xi.items.KOMA,                         165,
+        xi.items.LILAC,                         120,
+        xi.items.LACQUER_TREE_LOG,           50000,
+        xi.items.LIBATION_ABJURATION,       250000,
+        xi.items.OGRE_PUMPKIN,                   88,
+        xi.items.SCROLL_OF_RERAISE_III,     500000,
+        xi.items.PINCH_OF_TWINKLE_POWDER,      354,
+        xi.items.CHOCOBO_EGG_FAINTLY_WARM,    1040,
         --]]
     }
 

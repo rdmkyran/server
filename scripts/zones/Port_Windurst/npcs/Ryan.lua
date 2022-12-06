@@ -14,21 +14,21 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16640,  290,    -- Bronze Axe
-        16535,  246,    -- Bronze Sword
-        17336,    5,    -- Crossbow Bolt
-        12576,  235,    -- Bronze Harness
-        12577, 2286,    -- Brass Harness
-        12704,  128,    -- Bronze Mittens
-        12705, 1255,    -- Brass Mittens
-        12832,  191,    -- Bronze Subligar
-        12833, 1840,    -- Brass Subligar
-        12960,  117,    -- Bronze Leggings
-        12961, 1140,    -- Brass Leggings
-        12584, 1145,    -- Kenpogi
-        12712,  630,    -- Tekko
-        12840,  915,    -- Sitabaki
-        12968,  584,    -- Kyahan
+        xi.items.BRONZE_AXE,                 290,
+        xi.items.BRONZE_SWORD,               246,
+        xi.items.CROSSBOW_BOLT,                5,
+        xi.items.BRONZE_HARNESS,             235,
+        xi.items.BRASS_HARNESS,             2286,
+        xi.items.BRONZE_MITTENS,             128,
+        xi.items.BRASS_MITTENS,             1255,
+        xi.items.BRONZE_SUBLIGAR,            191,
+        xi.items.BRASS_SUBLIGAR,            1840,
+        xi.items.BRONZE_LEGGINGS,            117,
+        xi.items.BRASS_LEGGINGS,            1140,
+        xi.items.KENPOGI,                   1145,
+        xi.items.TEKKO,                      630,
+        xi.items.SITABAKI,                   915,
+        xi.items.KYAHAN,                     584,
     }
 
     player:showText(npc, ID.text.RYAN_SHOP_DIALOG)

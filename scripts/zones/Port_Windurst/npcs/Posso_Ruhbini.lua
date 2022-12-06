@@ -18,10 +18,10 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            688, 18,    -- Arrowwood Log
-            698, 87,    -- Ash Log
-            618, 25,    -- Blue Peas
-            621, 25,    -- Crying Mustard
+            xi.items.ARROWWOOD_LOG,             18,
+            xi.items.ASH_LOG,                   87,
+            xi.items.BLUE_PEAS,                 25,
+            xi.items.POT_OF_CRYING_MUSTARD,     25,
         }
 
         player:showText(npc, ID.text.POSSORUHBINI_OPEN_DIALOG)

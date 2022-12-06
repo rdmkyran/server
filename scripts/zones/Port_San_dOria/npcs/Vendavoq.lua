@@ -17,11 +17,11 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            640,    11,    -- Copper Ore
-            4450,  694,    -- Coral Fungus
-            4375, 4032,    -- Danceshroom
-            1650, 6500,    -- Kopparnickel Ore
-            5165,  736,    -- Movalpolos Water
+            xi.items.CHUNK_OF_COPPER_ORE,          11,
+            xi.items.CORAL_FUNGUS,               694,
+            xi.items.DANCESHROOM,               4032,
+            xi.items.CHUNK_OF_KOPPARNICKEL_ORE, 6500,
+            xi.items.BOTTLE_OF_MOVALPOLOS_WATER,  736,
         }
 
         player:showText(npc, ID.text.VENDAVOQ_OPEN_DIALOG)

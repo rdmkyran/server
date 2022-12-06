@@ -18,10 +18,10 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            636,   119,    -- Chamomile
-            864,    88,    -- Fish Scales
-            936,    14,    -- Rock Salt
-            1410, 1656,    -- Sweet William
+            xi.items.CHAMOMILE,                   119,
+            xi.items.HANDFUL_OF_FISH_SCALES,       88,
+            xi.items.CHUNK_OF_ROCK_SALT,           14,
+            xi.items.SWEET_WILLIAM,             1656,
         }
 
         player:showText(npc, ID.text.LEBONDUR_OPEN_DIALOG)

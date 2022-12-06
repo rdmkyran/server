@@ -15,20 +15,20 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16450,   1867,    -- Dagger
-        16460,  11128,    -- Kris
-        16466,   2231,    -- Knife
-        16552,   4163,    -- Scimitar
-        16553,  35308,    -- Tulwar
-        16558,  62560,    -- Falchion
-        17060,   2439,    -- Rod
-        16401, 103803,    -- Jamadhars
-        17155,  23887,    -- Composite Bow
-        17298,    294,    -- Tathlum
-        17320,      7,    -- Iron Arrow
-        17340,     92,    -- Bullet
-        17315,   5460,    -- Riot Grenade
-        17284,   8996,    -- Chakram
+        xi.items.DAGGER,                      1867,
+        xi.items.KRIS,                       11128,
+        xi.items.KNIFE,                       2231,
+        xi.items.SCIMITAR,                    4163,
+        xi.items.TULWAR,                     35308,
+        xi.items.FALCHION,                   62560,
+        xi.items.ROD,                         2439,
+        xi.items.JAMADHARS,                 103803,
+        xi.items.COMPOSITE_BOW,              23887,
+        xi.items.TATHLUM,                      294,
+        xi.items.IRON_ARROW,                     7,
+        xi.items.BULLET,                        92,
+        xi.items.RIOT_GRENADE,                5460,
+        xi.items.CHAKRAM,                     8996,
     }
 
     player:showText(npc, ID.text.SHINY_TEETH_SHOP_DIALOG)

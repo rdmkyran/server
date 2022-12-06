@@ -14,21 +14,21 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12301, 31201,    -- Buckler
-        12302, 60260,    -- Darksteel Buckler
-        13979, 24373,    -- Silver Bangles
-        12554, 66066,    -- Banded Mail
-        12682, 35285,    -- Mufflers
-        12810, 52552,    -- Breeches
-        12938, 32382,    -- Sollerets
-        12609,  9423,    -- Black Tunic
-        12737,  4395,    -- White Mitts
-        12865,  6279,    -- Black Slacks
-        12993,  4084,    -- Sandals
-        12578, 28654,    -- Padded Armor
-        12706, 15724,    -- Iron Mittens
-        12836, 23063,    -- Iron Subligar
-        12962, 14327,    -- Leggins
+        xi.items.BUCKLER,                   31201,
+        xi.items.DARKSTEEL_BUCKLER,         60260,
+        xi.items.SILVER_BANGLES,            24373,
+        xi.items.BANDED_MAIL,               66066,
+        xi.items.MUFFLERS,                  35285,
+        xi.items.BREECHES,                  52552,
+        xi.items.SOLLERETS,                 32382,
+        xi.items.BLACK_TUNIC,                9423,
+        xi.items.WHITE_MITTS,                4395,
+        xi.items.BLACK_SLACKS,               6279,
+        xi.items.SANDALS,                    4084,
+        xi.items.PADDED_ARMOR,              28654,
+        xi.items.IRON_MITTENS,              15724,
+        xi.items.IRON_SUBLIGAR,             23063,
+        xi.items.LEGGINGS,                  14327,
     }
 
     player:showText(npc, ID.text.BRAVEWOLF_SHOP_DIALOG)

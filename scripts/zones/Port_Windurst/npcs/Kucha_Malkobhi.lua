@@ -14,14 +14,14 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12635, 273,    -- Tarutaru Kaftan
-        12756, 163,    -- Tarutaru Mitts
-        12886, 236,    -- Tarutaru Braccae
-        13007, 163,    -- Tarutaru Clomps
-        12636, 273,    -- Mithran Separates
-        12757, 163,    -- Mithran Gauntlets
-        12887, 236,    -- Mithran Loincloth
-        13008, 163,    -- Mithran Gaiters
+        xi.items.TARUTARU_KAFTAN,           273,
+        xi.items.TARUTARU_MITTS,            163,
+        xi.items.TARUTARU_BRACCAE,          236,
+        xi.items.TARUTARU_CLOMPS,           163,
+        xi.items.MITHRAN_SEPARATES,         273,
+        xi.items.MITHRAN_GAUNTLETS,         163,
+        xi.items.MITHRAN_LOINCLOTH,         236,
+        xi.items.MITHRAN_GAITERS,           163,
     }
 
     player:showText(npc, ID.text.KUCHAMALKOBHI_SHOP_DIALOG)

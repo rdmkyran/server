@@ -18,9 +18,9 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            4571, 90,    -- Beaugreens
-            4363, 39,    -- Faerie Apple
-            691,  54,    -- Maple Log
+            xi.items.CLUMP_OF_BEAUGREENS,       90,
+            xi.items.FAERIE_APPLE,              39,
+            xi.items.MAPLE_LOG,                  54,
         }
 
         player:showText(npc, ID.text.SHEIAPOHRICHAMAHA_OPEN_DIALOG)
