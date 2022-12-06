@@ -14,9 +14,9 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        6059, 29925,    -- Animus Augeo Schema
-        6060, 29925,    -- Animus Minuo Schema
-        6061, 36300     -- Adloquim Schema
+        xi.items.ANIMUS_AUGEO_SCHEMA,       29925,
+        xi.items.ANIMUS_MINUO_SCHEMA,       29925,
+        xi.items.ADLOQUIUM_SCHEMA,          36300
     }
 
     player:showText(npc, ID.text.SILKE_SHOP_DIALOG)

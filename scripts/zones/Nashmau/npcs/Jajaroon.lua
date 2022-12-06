@@ -14,22 +14,22 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        2176,    48,    -- Fire Card
-        2177,    48,    -- Ice Card
-        2178,    48,    -- Wind Card
-        2179,    48,    -- Earth Card
-        2180,    48,    -- Thunder Card
-        2181,    48,    -- Water Card
-        2182,    48,    -- Light Card
-        2183,    48,    -- Dark Card
-        5870, 10000,    -- Trump Card Case
-        5488, 35200,    -- Samurai Die
-        5489,   600,    -- Ninja Die
-        5490,  9216,    -- Dragoon Die
-        5491, 40000,    -- Summoner Die
-        5492,  3525,    -- Blue Mage Die
-        5493,   316,    -- Corsair Die
-        5494, 82500     -- Puppetmaster Die
+        xi.items.FIRE_CARD,                    48,
+        xi.items.ICE_CARD,                     48,
+        xi.items.WIND_CARD,                    48,
+        xi.items.EARTH_CARD,                   48,
+        xi.items.THUNDER_CARD,                 48,
+        xi.items.WATER_CARD,                   48,
+        xi.items.LIGHT_CARD,                   48,
+        xi.items.DARK_CARD,                    48,
+        xi.items.TRUMP_CARD_CASE,           10000,
+        xi.items.SAMURAI_DIE,               35200,
+        xi.items.NINJA_DIE,                   600,
+        xi.items.DRAGOON_DIE,                9216,
+        xi.items.SUMMONER_DIE,              40000,
+        xi.items.BLUE_MAGE_DIE,              3525,
+        xi.items.CORSAIR_DIE,                 316,
+        xi.items.PUPPETMASTER_DIE,          82500
     }
 
     player:showText(npc, ID.text.JAJAROON_SHOP_DIALOG)

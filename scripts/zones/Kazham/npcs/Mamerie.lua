@@ -14,15 +14,15 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4545,    62,    -- Gysahl Greens
-        840,      7,    -- Chocobo Feather
-        17016,   11,    -- Pet Food Alpha Biscuit
-        17017,   82,    -- Pet Food Beta Biscuit
-        17860,   82,    -- Carrot Broth
-        17862,  695,    -- Bug Broth
-        17864,  126,    -- Herbal Broth
-        17866,  695,    -- Carrion Broth
-        5073, 50784,    -- Scroll of Chocobo Mazurka
+        xi.items.BUNCH_OF_GYSAHL_GREENS,       62,
+        xi.items.CHOCOBO_FEATHER,                7,
+        xi.items.PET_FOOD_ALPHA_BISCUIT,      11,
+        xi.items.PET_FOOD_BETA_BISCUIT,       82,
+        xi.items.JUG_OF_CARROT_BROTH,         82,
+        xi.items.JUG_OF_BUG_BROTH,           695,
+        xi.items.JUG_OF_HERBAL_BROTH,        126,
+        xi.items.JUG_OF_CARRION_BROTH,       695,
+        xi.items.SCROLL_OF_CHOCOBO_MAZURKA, 50784,
     }
 
     player:showText(npc, ID.text.MAMERIE_SHOP_DIALOG)

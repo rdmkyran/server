@@ -14,11 +14,11 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        17395,  9,    -- Lugworm
-        17396,  3,    -- Little worm
-        17016, 11,    -- Pet Food Alpha Biscuit
-        17017, 82,    -- Pet Food Beta Biscuit
-        17862, 98     -- Jug of Bug Broth
+        xi.items.LUGWORM,                    9,
+        xi.items.LITTLE_WORM,                3,
+        xi.items.PET_FOOD_ALPHA_BISCUIT,    11,
+        xi.items.PET_FOOD_BETA_BISCUIT,     82,
+        xi.items.JUG_OF_BUG_BROTH,          98
     }
 
     player:showText(npc, ID.text.DWAGO_SHOP_DIALOG)

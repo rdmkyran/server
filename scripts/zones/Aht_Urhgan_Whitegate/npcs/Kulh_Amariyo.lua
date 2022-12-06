@@ -16,11 +16,11 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4472,   38,    -- Crayfish
-        5458, 1200,    -- Yilanbaligi (Requires Astral Candescence)
-        5459, 1800,    -- Sazanbaligu (Requires Astral Candescence)
-        5460, 4650,    -- Kayabaligi (Requires Astral Candescence)
-        5461,  130     -- Alabaligi (Requires Astral Candescence)
+        xi.items.CRAYFISH,                    38,
+        xi.items.YILANBALIGI,               1200,
+        xi.items.SAZANBALIGI,               1800,
+        xi.items.KAYABALIGI,                4650,
+        xi.items.ALABALIGI,                  130
     }
 
     player:showText(npc, ID.text.KULHAMARIYO_SHOP_DIALOG)

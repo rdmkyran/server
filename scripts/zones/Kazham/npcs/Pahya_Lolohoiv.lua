@@ -14,14 +14,14 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4509,   10,    -- Distilled Water
-        4150, 2387,    -- Eye Drops
-        4148,  290,    -- Antidote
-        4151,  736,    -- Echo Drops
-        4112,  837,    -- Potion
-        4128, 4445,    -- Ether
-        924,   556,    -- Fiend Blood
-        943,   294,    -- Poison Dust
+        xi.items.FLASK_OF_DISTILLED_WATER,    10,
+        xi.items.FLASK_OF_EYE_DROPS,        2387,
+        xi.items.ANTIDOTE,                   290,
+        xi.items.FLASK_OF_ECHO_DROPS,        736,
+        xi.items.POTION,                     837,
+        xi.items.ETHER,                     4445,
+        xi.items.VIAL_OF_FIEND_BLOOD,         556,
+        xi.items.PINCH_OF_POISON_DUST,        294,
     }
 
     player:showText(npc, ID.text.PAHYALOLOHOIV_SHOP_DIALOG)

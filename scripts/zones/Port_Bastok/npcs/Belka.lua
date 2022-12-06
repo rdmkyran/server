@@ -18,12 +18,12 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            4352,  128,    -- Derfland Pear
-            617,   142,    -- Ginger
-            4545,   62,    -- Gysahl Greens
-            1412, 1656,    -- Olive Flower
-            633,    14,    -- Olive Oil
-            951,   110,    -- Wijnruit
+            xi.items.DERFLAND_PEAR,              128,
+            xi.items.GINGER_ROOT,                 142,
+            xi.items.BUNCH_OF_GYSAHL_GREENS,      62,
+            xi.items.OLIVE_FLOWER,              1656,
+            xi.items.FLASK_OF_OLIVE_OIL,           14,
+            xi.items.WIJNRUIT,                    110,
         }
 
         player:showText(npc, ID.text.BELKA_OPEN_DIALOG)

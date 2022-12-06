@@ -14,16 +14,16 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4468,   72,    -- Pamamas
-        4432,   54,    -- Kazham Pineapple
-        4390,   36,    -- Mithran Tomato
-        612,    54,    -- Kazham Peppers
-        628,   236,    -- Cinnamon
-        632,   109,    -- Kukuru Bean
-        5187,  156,    -- Elshimo Coconut
-        5604,  154,    -- Elshimo Pachira Fruit
+        xi.items.BUNCH_OF_PAMAMAS,            72,
+        xi.items.KAZHAM_PINEAPPLE,            54,
+        xi.items.MITHRAN_TOMATO,              36,
+        xi.items.BUNCH_OF_KAZHAM_PEPPERS,      54,
+        xi.items.STICK_OF_CINNAMON,           236,
+        xi.items.KUKURU_BEAN,                 109,
+        xi.items.ELSHIMO_COCONUT,            156,
+        xi.items.ELSHIMO_PACHIRA_FRUIT,      154,
         -- 2869, 9100,    -- Kazham Waystone (SOA)
-        731,  2877,    -- Aquilaria Log
+        xi.items.AQUILARIA_LOG,              2877,
     }
 
     player:showText(npc, ID.text.GHEMISENTERILO_SHOP_DIALOG)

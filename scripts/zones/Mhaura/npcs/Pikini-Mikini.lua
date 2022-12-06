@@ -15,17 +15,17 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4150, 2335,    -- Eye Drops
-        4148,  284,    -- Antidote
-        4151,  720,    -- Echo Drops
-        4112,  819,    -- Potion
-        4509,   10,    -- Distilled Water
-        917,  1821,    -- Parchment
-        17395,   9,    -- Lugworm
-        1021,  450,    -- Hatchet
-        4376,  108,    -- Meat Jerky
-        5299,  133,    -- Salsa
-        2867, 9000,    -- Mhaura Waystone
+        xi.items.FLASK_OF_EYE_DROPS,        2335,
+        xi.items.ANTIDOTE,                   284,
+        xi.items.FLASK_OF_ECHO_DROPS,        720,
+        xi.items.POTION,                     819,
+        xi.items.FLASK_OF_DISTILLED_WATER,    10,
+        xi.items.SHEET_OF_PARCHMENT,         1821,
+        xi.items.LUGWORM,                     9,
+        xi.items.HATCHET,                    450,
+        xi.items.STRIP_OF_MEAT_JERKY,        108,
+        xi.items.DISH_OF_SALSA,              133,
+        xi.items.MHAURA_WAYSTONE,           9000,
     }
 
     player:showText(npc, ID.text.PIKINIMIKINI_SHOP_DIALOG)

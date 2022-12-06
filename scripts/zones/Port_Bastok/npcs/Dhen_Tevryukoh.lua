@@ -19,10 +19,10 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            1413, 1656,    -- Cattleya
-            628,   239,    -- Cinnamon
-            4468,   73,    -- Pamamas
-            721,   147,    -- Rattan Lumber
+            xi.items.CATTLEYA,                  1656,
+            xi.items.STICK_OF_CINNAMON,           239,
+            xi.items.BUNCH_OF_PAMAMAS,            73,
+            xi.items.PIECE_OF_RATTAN_LUMBER,      147,
         }
 
         player:showText(npc, ID.text.DHENTEVRYUKOH_OPEN_DIALOG)

@@ -16,11 +16,11 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12290,   605,    -- Mapple Shield (Requires Astral Candescence)
-        12291,  1815,    -- Elm Shield (Requires Astral Candescence)
-        12292,  4980,    -- Mahogany Shield (Requires Astral Candescence)
-        12293, 15600,    -- Oak Shield (Requires Astral Candescence)
-        12295, 64791     -- Round Shield (Requires Astral Candescence)
+        xi.items.MAPLE_SHIELD,                605,
+        xi.items.ELM_SHIELD,                 1815,
+        xi.items.MAHOGANY_SHIELD,            4980,
+        xi.items.OAK_SHIELD,                15600,
+        xi.items.ROUND_SHIELD,              64791
     }
 
     player:showText(npc, ID.text.SALUHWA_SHOP_DIALOG)

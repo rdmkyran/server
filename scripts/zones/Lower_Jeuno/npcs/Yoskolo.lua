@@ -23,14 +23,14 @@ entity.onTrigger = function(player, npc)
         4441,   855 * priceMultiplier, -- Grape Juice
         4442,   368 * priceMultiplier, -- Pineapple Juice
         4556,  5544 * priceMultiplier, -- Icecap Rolanberry
-        5046,  6380, -- Scroll of Fire Carol
-        5047,  7440, -- Scroll of Ice Carol
-        5048,  5940, -- Scroll of Wind Carol
-        5049,  4600, -- Scroll of Earth Carol
-        5050,  7920, -- Scroll of Lightning Carol
-        5051,  5000, -- Scroll of Water Carol
-        5052,  4200, -- Scroll of Light Carol
-        5053,  8400, -- Scroll of Dark Carol
+        xi.items.SCROLL_OF_FIRE_CAROL,       6380,
+        xi.items.SCROLL_OF_ICE_CAROL,        7440,
+        xi.items.SCROLL_OF_WIND_CAROL,       5940,
+        xi.items.SCROLL_OF_EARTH_CAROL,      4600,
+        xi.items.SCROLL_OF_LIGHTNING_CAROL,  7920,
+        xi.items.SCROLL_OF_WATER_CAROL,      5000,
+        xi.items.SCROLL_OF_LIGHT_CAROL,      4200,
+        xi.items.SCROLL_OF_DARK_CAROL,       8400,
         -- 5078, 60000, -- Scroll of Sentinel's Scherzo (2010 Abyssea)
     }
 

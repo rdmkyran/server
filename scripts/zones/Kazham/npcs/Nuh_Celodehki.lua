@@ -14,10 +14,10 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4398,  993,    -- Fish Mithkabob
-        4536, 3133,    -- Blackened Frog
-        4410,  316,    -- Roast Mushroom
-        4457, 2700,    -- Eel Kabob
+        xi.items.FISH_MITHKABOB,             993,
+        xi.items.BLACKENED_FROG,            3133,
+        xi.items.ROAST_MUSHROOM,             316,
+        xi.items.EEL_KABOB,                 2700,
     }
 
     player:showText(npc, ID.text.NUHCELODENKI_SHOP_DIALOG)

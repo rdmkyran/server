@@ -11,22 +11,22 @@ local entity = {}
 
 local stock =
 {
-    4250,   22,    -- Crackler
-    4167,   25,    -- Cracker
-    4168,   25,    -- Twinkle Shower
-    4169,   25,    -- Little Comet
-    4217,   25,    -- Sparkling Hand
-    4215,   50,    -- Popstar
-    4216,   50,    -- Brilliant Snow
-    5769,   50,    -- Popper
-    4186,  100,    -- Airborne
-    4218,  100,    -- Air Rider
-    5937,  150,    -- Bubble Breeze
-    5883,  200,    -- Falling Star
-    5882,  250,    -- Marine Bliss
-    4257,  300,    -- Papillion
-    5441,  300,    -- Angelwing
-    5936,  300,    -- Mog Missile
+    xi.items.CRACKLER,                    22,
+    xi.items.CRACKER,                     25,
+    xi.items.TWINKLE_SHOWER,              25,
+    xi.items.LITTLE_COMET,                25,
+    xi.items.SPARKLING_HAND,              25,
+    xi.items.POPSTAR,                     50,
+    xi.items.BRILLIANT_SNOW,              50,
+    xi.items.POPPER,                      50,
+    xi.items.AIRBORNE,                   100,
+    xi.items.AIR_RIDER,                  100,
+    xi.items.BUBBLE_BREEZE,              150,
+    xi.items.FALLING_STAR,               200,
+    xi.items.MARINE_BLISS,               250,
+    xi.items.PAPILLION,                  300,
+    xi.items.ANGELWING,                  300,
+    xi.items.MOG_MISSILE,                300,
 }
 
 entity.onTrade = function(player, npc, trade)

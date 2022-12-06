@@ -16,23 +16,23 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16399,  15448,    -- Katars (Requires Astral Candescence)
-        16400,  67760,    -- Darksteel Katars
-        16419,  45760,    -- Patas (Requires Astral Candescence)
-        16448,    156,    -- Bronze Dagger
-        16450,   2030,    -- Dagger
-        16551,    776,    -- Sapara
-        16552,   4525,    -- Scimitar
-        16553,  38800,    -- Tulwar (Requires Astral Candescence)
-        16657,   6600,    -- Tabar
-        16658, 124305,    -- Darksteel Tabar (Requires Astral Candescence)
-        16704,    672,    -- Butterfly Axe
-        16705,   4550,    -- Greataxe (Requires Astral Candescence)
-        16768,    344,    -- Bronze Zaghnal
-        16770,  12540,    -- Zaghnal (Requires Astral Candescence)
-        17024,     72,    -- Ash Club
-        17025,   1740,    -- Chestnut Club (Requires Astral Candescence)
-        18259,    238     -- Angon
+        xi.items.KATARS,                     15448,
+        xi.items.DARKSTEEL_KATARS,           67760,
+        xi.items.PATAS,                      45760,
+        xi.items.BRONZE_DAGGER,                156,
+        xi.items.DAGGER,                      2030,
+        xi.items.SAPARA,                       776,
+        xi.items.SCIMITAR,                    4525,
+        xi.items.TULWAR,                     38800,
+        xi.items.TABAR,                       6600,
+        xi.items.DARKSTEEL_TABAR,           124305,
+        xi.items.BUTTERFLY_AXE,                672,
+        xi.items.GREATAXE,                    4550,
+        xi.items.BRONZE_ZAGHNAL,               344,
+        xi.items.ZAGHNAL,                    12540,
+        xi.items.ASH_CLUB,                      72,
+        xi.items.CHESTNUT_CLUB,               1740,
+        xi.items.ANGON,                        238
     }
 
     player:showText(npc, ID.text.HAGAKOFF_SHOP_DIALOG)

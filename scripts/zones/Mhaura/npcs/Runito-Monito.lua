@@ -14,18 +14,18 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16405,  106,    -- Cat Bagnakhs
-        16407, 1554,    -- Brass Bagnakhs
-        16449,  855,    -- Brass Dagger
-        17059,   92,    -- Bronze Rod
-        17081,  634,    -- Brass Rod
-        16531, 3601,    -- Brass Xiphos
-        16583, 2502,    -- Claymore
-        16704,  618,    -- Butterfly Axe
-        17307,    9,    -- Dart
-        17318,    3,    -- Wooden Arrow
-        17319,    4,    -- Bone Arrow
-        17336,    5,    -- Crossbow Bolts
+        xi.items.CAT_BAGHNAKHS,              106,
+        xi.items.BRASS_BAGHNAKHS,           1554,
+        xi.items.BRASS_DAGGER,               855,
+        xi.items.BRONZE_ROD,                  92,
+        xi.items.BRASS_ROD,                  634,
+        xi.items.BRASS_XIPHOS,              3601,
+        xi.items.CLAYMORE,                  2502,
+        xi.items.BUTTERFLY_AXE,              618,
+        xi.items.DART,                         9,
+        xi.items.WOODEN_ARROW,                 3,
+        xi.items.BONE_ARROW,                   4,
+        xi.items.CROSSBOW_BOLT,                5,
     }
 
     player:showText(npc, ID.text.RUNITOMONITO_SHOP_DIALOG)

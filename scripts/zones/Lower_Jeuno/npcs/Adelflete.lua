@@ -14,16 +14,16 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        806,   1863, -- Tourmaline
-        807,   1863, -- Sardonyx
-        800,   1863, -- Amethyst
-        814,   1863, -- Amber
-        795,   1863, -- Lapis Lazuli
-        809,   1863, -- Clear Topaz
-        799,   1863, -- Onyx
-        796,   1863, -- Light Opal
-        13327, 1250, -- Silver Earring
-        13456, 1250, -- Silver Ring
+        xi.items.TOURMALINE,                  1863,
+        xi.items.SARDONYX,                    1863,
+        xi.items.AMETHYST,                    1863,
+        xi.items.AMBER_STONE,                 1863,
+        xi.items.LAPIS_LAZULI,                1863,
+        xi.items.CLEAR_TOPAZ,                 1863,
+        xi.items.ONYX,                        1863,
+        xi.items.LIGHT_OPAL,                  1863,
+        xi.items.SILVER_EARRING,            1250,
+        xi.items.SILVER_RING,               1250,
     }
 
     player:showText(npc, ID.text.GEMS_BY_KSHAMA_SHOP_DIALOG)

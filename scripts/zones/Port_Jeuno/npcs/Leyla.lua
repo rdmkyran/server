@@ -14,17 +14,17 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        17308,  55,    -- Hawkeye
-        17320,   7,    -- Iron Arrow
-        17336,   5,    -- Crossbow Bolt
-        4509,   10,    -- Distilled Water
-        5038, 1000,    -- Enchanting Etude
-        5037, 1265,    -- Spirited Etude
-        5036, 1567,    -- Learned Etude
-        5035, 1913,    -- Quick Etude
-        5034, 2208,    -- Vivacious Etude
-        5033, 2815,    -- Dextrous Etude
-        5032, 3146,    -- Sinewy Etude
+        xi.items.HAWKEYE,                    55,
+        xi.items.IRON_ARROW,                  7,
+        xi.items.CROSSBOW_BOLT,               5,
+        xi.items.FLASK_OF_DISTILLED_WATER,    10,
+        xi.items.SCROLL_OF_ENCHANTING_ETUDE, 1000,
+        xi.items.SCROLL_OF_SPIRITED_ETUDE,  1265,
+        xi.items.SCROLL_OF_LEARNED_ETUDE,   1567,
+        xi.items.SCROLL_OF_QUICK_ETUDE,     1913,
+        xi.items.SCROLL_OF_VIVACIOUS_ETUDE, 2208,
+        xi.items.SCROLL_OF_DEXTROUS_ETUDE,  2815,
+        xi.items.SCROLL_OF_SINEWY_ETUDE,    3146,
     }
 
     player:showText(npc, ID.text.DUTY_FREE_SHOP_DIALOG)

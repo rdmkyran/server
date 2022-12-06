@@ -14,9 +14,9 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4116,  4500,    -- Hi-Potion
-        4132, 28000,    -- Hi-Ether
-        2563,  3035,    -- Karugo Clay
+        xi.items.HI_POTION,                  4500,
+        xi.items.HI_ETHER,                  28000,
+        xi.items.LUMP_OF_KARUGO_NARUGO_CLAY,  3035,
     }
 
     player:showText(npc, ID.text.SPONDULIX_SHOP_DIALOG)

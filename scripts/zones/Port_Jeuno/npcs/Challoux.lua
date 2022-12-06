@@ -14,9 +14,9 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4545, 62,    -- Gysahl Greens
-        840,   7,    -- Chocobo Feather
-        17307, 9,    -- Dart
+        xi.items.BUNCH_OF_GYSAHL_GREENS,    62,
+        xi.items.CHOCOBO_FEATHER,             7,
+        xi.items.DART,                      9,
     }
 
     player:showText(npc, ID.text.CHALLOUX_SHOP_DIALOG)

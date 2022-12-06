@@ -14,10 +14,10 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12952,   336,    -- Leather Highboots
-        12953,  3438,    -- Lizard Ledelsens
-        12954, 11172,    -- Studded Boots
-        12955, 20532,    -- Cuir Highboots
+        xi.items.LEATHER_HIGHBOOTS,           336,
+        xi.items.LIZARD_LEDELSENS,           3438,
+        xi.items.STUDDED_BOOTS,             11172,
+        xi.items.CUIR_HIGHBOOTS,            20532,
     }
 
     player:showText(npc, ID.text.POPOROON_SHOP_DIALOG)

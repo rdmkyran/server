@@ -18,8 +18,8 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            623,   119,    -- Bay Leaves
-            4154, 6440,    -- Holy Water
+            xi.items.HANDFUL_OF_BAY_LEAVES,       119,
+            xi.items.FLASK_OF_HOLY_WATER,       6440,
         }
 
         player:showText(npc, ID.text.GALDEO_OPEN_DIALOG)

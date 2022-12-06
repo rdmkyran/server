@@ -15,16 +15,16 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4716,  4147,    -- Scroll of Regen
-        4718,  7516,    -- Scroll of Regen II
-        4881, 10752,    -- Scroll of Sleepga
-        4690, 29030,    -- Scroll of Baramnesia
-        4691, 29030,    -- Scroll of Baramnesra
-        4744,  5523,    -- Scroll of Invisible
-        4745,  2400,    -- Scroll of Sneak
-        4746,  1243,    -- Scroll of Deodorize
-        4912, 18032,    -- Scroll of Distract
-        4914, 25038,    -- Scroll of Frazzle
+        xi.items.SCROLL_OF_REGEN,            4147,
+        xi.items.SCROLL_OF_REGEN_II,         7516,
+        xi.items.SCROLL_OF_SLEEPGA,         10752,
+        xi.items.SCROLL_OF_BARAMNESIA,      29030,
+        xi.items.SCROLL_OF_BARAMNESRA,      29030,
+        xi.items.SCROLL_OF_INVISIBLE,        5523,
+        xi.items.SCROLL_OF_SNEAK,            2400,
+        xi.items.SCROLL_OF_DEODORIZE,        1243,
+        xi.items.SCROLL_OF_DISTRACT,        18032,
+        xi.items.SCROLL_OF_FRAZZLE,         25038,
     }
 
     player:showText(npc, ID.text.TYAPADOLIH_SHOP_DIALOG)

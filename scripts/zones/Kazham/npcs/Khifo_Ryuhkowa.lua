@@ -14,20 +14,20 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16473,   5713,    -- Kukri
-        16595, 153014,    -- Ram-Dao
-        16833,    809,    -- Bronze Spear
-        16835,  16228,    -- Spear
-        16839,  75541,    -- Partisan
-        17025,   1600,    -- Chestnut Club
-        17026,   4945,    -- Bone Cudgel
-        17052,   5255,    -- Chestnut Wand
-        17092,  29752,    -- Mahogany Staff
-        17099,  99176,    -- Mahogany Pole
-        17163,  39744,    -- Battle Bow
-        17308,     55,    -- Hawkeye
-        17280,   1610,    -- Boomerang
-        17318,      3,    -- Woden Arrow
+        xi.items.KUKRI,                       5713,
+        xi.items.RAM_DAO,                   153014,
+        xi.items.BRONZE_SPEAR,                 809,
+        xi.items.SPEAR,                      16228,
+        xi.items.PARTISAN,                   75541,
+        xi.items.CHESTNUT_CLUB,               1600,
+        xi.items.BONE_CUDGEL,                 4945,
+        xi.items.CHESTNUT_WAND,               5255,
+        xi.items.MAHOGANY_STAFF,             29752,
+        xi.items.MAHOGANY_POLE,              99176,
+        xi.items.BATTLE_BOW,                 39744,
+        xi.items.HAWKEYE,                       55,
+        xi.items.BOOMERANG,                   1610,
+        xi.items.WOODEN_ARROW,                   3,
     }
 
     player:showText(npc, ID.text.KHIFORYUHKOWA_SHOP_DIALOG)

@@ -14,13 +14,13 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        631,    36, -- Horo Flour
-        4458,  276, -- Goblin Bread
-        4539,  650, -- Goblin Pie
-        4495,   35, -- Goblin Chocolate
-        4543, 1140, -- Goblin Mushpot
-        952,   515, -- Poison Flour
-        1239,  490, -- Goblin Doll
+        xi.items.BAG_OF_HORO_FLOUR,            36,
+        xi.items.LOAF_OF_GOBLIN_BREAD,       276,
+        xi.items.GOBLIN_PIE,                 650,
+        xi.items.CHUNK_OF_GOBLIN_CHOCOLATE,   35,
+        xi.items.GOBLIN_MUSHPOT,            1140,
+        xi.items.BAG_OF_POISON_FLOUR,         515,
+        xi.items.GOBLIN_DOLL,                490,
     }
 
     player:showText(npc, ID.text.PAWKRIX_SHOP_DIALOG)

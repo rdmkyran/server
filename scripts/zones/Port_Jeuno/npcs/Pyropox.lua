@@ -11,20 +11,20 @@ local entity = {}
 
 local stock =
 {
-    4251,   25,    -- Festive Fan
-    4252,   25,    -- Summer Fan
-    4256,   25,    -- Ouka Ranman
-    4184,   50,    -- Kongou Inaho
-    4185,   50,    -- Meifu Goma
-    4253,   50,    -- Spirit Masque
-    5881,   50,    -- Shisai Kaboku
-    4183,  100,    -- Konron Hassen
-    5360,  100,    -- Muteppo
-    5361,  100,    -- Datechochin
-    6268,  150,    -- Komanezumi
-    5884,  250,    -- Rengedama
-    5532,  250,    -- Ichinintousen Koma
-    5725,  300,    -- Goshikitenge
+    xi.items.FESTIVE_FAN,                 25,
+    xi.items.SUMMER_FAN,                  25,
+    xi.items.OUKA_RANMAN,                 25,
+    xi.items.KONGOU_INAHO,                50,
+    xi.items.MEIFU_GOMA,                  50,
+    xi.items.SPIRIT_MASQUE,               50,
+    xi.items.SHISAI_KABOKU,               50,
+    xi.items.KONRON_HASSEN,              100,
+    xi.items.MUTEPPO,                    100,
+    xi.items.DATECHOCHIN,                100,
+    xi.items.KOMANEZUMI,                 150,
+    xi.items.RENGEDAMA,                  250,
+    xi.items.ICHININTOUSEN_KOMA,         250,
+    xi.items.GOSHIKITENGE,               300,
 }
 
 entity.onTrade = function(player, npc, trade)

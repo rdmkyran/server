@@ -16,10 +16,10 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        629,   48,    -- Millioncorn
-        2237,  60,    -- Imperial Flour (Requires Astral Candescence)
-        2214,  68,    -- Imperial Rice (Requires Astral Candescence)
-        2271, 316     -- Coffee Beans (Requires Astral Candescence)
+        xi.items.EAR_OF_MILLIONCORN,          48,
+        xi.items.BAG_OF_IMPERIAL_FLOUR,      60,
+        xi.items.BAG_OF_IMPERIAL_RICE,       68,
+        xi.items.BAG_OF_COFFEE_BEANS,       316
     }
 
     player:showText(npc, ID.text.RUBAHAH_SHOP_DIALOG)

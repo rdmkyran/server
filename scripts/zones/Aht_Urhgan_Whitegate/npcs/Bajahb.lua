@@ -14,11 +14,11 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12424, 10260,    -- Iron Mask
-        12552, 15840,    -- Chainmail
-        12680,  8460,    -- Chain Mittens
-        12808, 12600,    -- Chain Hose
-        12936,  7740     -- Greaves
+        xi.items.IRON_MASK,                 10260,
+        xi.items.CHAINMAIL,                 15840,
+        xi.items.CHAIN_MITTENS,              8460,
+        xi.items.CHAIN_HOSE,                12600,
+        xi.items.GREAVES,                    7740
     }
 
     player:showText(npc, ID.text.BAJAHB_SHOP_DIALOG)

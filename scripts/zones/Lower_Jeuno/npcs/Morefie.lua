@@ -14,9 +14,9 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        13327, 1250, -- Silver Earring
-        13456, 1250, -- Silver Ring
-        13328, 4140, -- Mythril Earring
+        xi.items.SILVER_EARRING,            1250,
+        xi.items.SILVER_RING,               1250,
+        xi.items.MYTHRIL_EARRING,           4140,
     }
 
     player:showText(npc, ID.text.GEMS_BY_KSHAMA_SHOP_DIALOG)

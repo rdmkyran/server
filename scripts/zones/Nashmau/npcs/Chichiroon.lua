@@ -14,17 +14,17 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        5497,  99224,    -- Bolter's Die
-        5498,  85500,    -- Caster's Die
-        5499,  97350,    -- Courser's Die
-        5500, 100650,    -- Blitzer's Die
-        5501, 109440,    -- Tactician's Die
-        5502, 116568,    -- Allies' Die
-        5503,  96250,    -- Miser's Die
-        5504,  95800,    -- Companion's Die
-        5505, 123744,    -- Avenger's Die
-        6368,  69288,    -- Geomancer Die
-        6369,  73920,    -- Rune Fencer Die
+        xi.items.BOLTERS_DIE,                99224,
+        xi.items.CASTERS_DIE,                85500,
+        xi.items.COURSERS_DIE,               97350,
+        xi.items.BLITZERS_DIE,              100650,
+        xi.items.TACTICIANS_DIE,            109440,
+        xi.items.ALLIES_DIE,                116568,
+        xi.items.MISERS_DIE,                 96250,
+        xi.items.COMPANIONS_DIE,             95800,
+        xi.items.AVENGERS_DIE,              123744,
+        xi.items.GEOMANCER_DIE,              69288,
+        xi.items.RUNE_FENCER_DIE,            73920,
     }
 
     player:showText(npc, ID.text.CHICHIROON_SHOP_DIALOG)

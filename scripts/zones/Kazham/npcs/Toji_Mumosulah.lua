@@ -14,20 +14,20 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        112,    456,    -- Yellow Jar
-        13199,   95,    -- Blood Stone
-        13076, 3510,    -- Fang Necklace
-        13321, 1667,    -- Bone Earring
-        17351, 4747,    -- Gemshorn
-        16993,   69,    -- Peeled Crayfish
-        16998,   36,    -- Insect Paste
-        17876,  165,    -- Fish Broth
-        17880,  695,    -- Seedbed Soil
-        1021,   450,    -- Hatchet
-        4987,   328,    -- Scroll of Army's Paeon II
-        5079, 64528,    -- Scroll of Foe Lullaby II
-        4988,  3312,    -- Scroll of Army's Paeon III
-        4964,  8726,    -- Scroll of Monomi: Ichi
+        xi.items.YELLOW_JAR,                   456,
+        xi.items.BLOOD_STONE,                 95,
+        xi.items.FANG_NECKLACE,             3510,
+        xi.items.BONE_EARRING,              1667,
+        xi.items.GEMSHORN,                  4747,
+        xi.items.PEELED_CRAYFISH,             69,
+        xi.items.BALL_OF_INSECT_PASTE,        36,
+        xi.items.JUG_OF_FISH_BROTH,          165,
+        xi.items.JUG_OF_SEEDBED_SOIL,        695,
+        xi.items.HATCHET,                     450,
+        xi.items.SCROLL_OF_ARMYS_PAEON_II,    328,
+        xi.items.SCROLL_OF_FOE_LULLABY_II,  64528,
+        xi.items.SCROLL_OF_ARMYS_PAEON_III,  3312,
+        xi.items.SCROLL_OF_MONOMI_ICHI,      8726,
     }
 
     player:showText(npc, ID.text.TOJIMUMOSULAH_SHOP_DIALOG)

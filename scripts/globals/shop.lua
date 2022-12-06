@@ -108,11 +108,11 @@ xi.shop =
     outpost = function(player)
         local stock =
         {
-            4148,  316, -- Antidote
-            4151,  800, -- Echo Drops
-            4128, 4832, -- Ether
-            4150, 2595, -- Eye Drops
-            4112,  910, -- Potion
+            xi.items.ANTIDOTE,                   316,
+            xi.items.FLASK_OF_ECHO_DROPS,        800,
+            xi.items.ETHER,                     4832,
+            xi.items.FLASK_OF_EYE_DROPS,        2595,
+            xi.items.POTION,                     910,
         }
         xi.shop.general(player, stock)
     end,
@@ -121,20 +121,20 @@ xi.shop =
     celebratory = function(player)
         local stock =
         {
-            4167,   30, -- Cracker
-            4168,   30, -- Twinkle Shower
-            4215,   60, -- Popstar
-            4216,   60, -- Brilliant Snow
-            4256,   30, -- Ouka Ranman
-            4169,   30, -- Little Comet
-            5769,  650, -- Popper
-            4170, 1000, -- Wedding Bell
-            5424, 6000, -- Serene Serinette
-            5425, 6000, -- Joyous Serinette
-            4441, 1116, -- Grape Juice
-            4238, 3000, -- Inferno Crystal
-            4240, 3000, -- Cyclone Crystal
-            4241, 3000, -- Terra Crystal
+            xi.items.CRACKER,                     30,
+            xi.items.TWINKLE_SHOWER,              30,
+            xi.items.POPSTAR,                     60,
+            xi.items.BRILLIANT_SNOW,              60,
+            xi.items.OUKA_RANMAN,                 30,
+            xi.items.LITTLE_COMET,                30,
+            xi.items.POPPER,                     650,
+            xi.items.WEDDING_BELL,              1000,
+            xi.items.SERENE_SERINETTE,          6000,
+            xi.items.JOYOUS_SERINETTE,          6000,
+            xi.items.BOTTLE_OF_GRAPE_JUICE,     1116,
+            xi.items.INFERNO_CRYSTAL,           3000,
+            xi.items.CYCLONE_CRYSTAL,           3000,
+            xi.items.TERRA_CRYSTAL,             3000,
         }
         xi.shop.general(player, stock)
     end,

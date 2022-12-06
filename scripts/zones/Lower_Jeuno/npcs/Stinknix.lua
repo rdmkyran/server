@@ -14,13 +14,13 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        943,    294, -- Poison Dust
-        944,   1035, -- Venom Dust
-        945,   2000, -- Paralysis Dust
-        17320,    7, -- Iron Arrow
-        17336,    5, -- Crossbow Bolt
-        17313, 1107, -- Grenade
-        2865, 10000, -- Dutchy Waystone
+        xi.items.PINCH_OF_POISON_DUST,         294,
+        xi.items.PINCH_OF_VENOM_DUST,         1035,
+        xi.items.PINCH_OF_PARALYSIS_DUST,     2000,
+        xi.items.IRON_ARROW,                   7,
+        xi.items.CROSSBOW_BOLT,                5,
+        xi.items.GRENADE,                   1107,
+        xi.items.DUCHY_WAYSTONE,            10000,
     }
 
     player:showText(npc, ID.text.JUNK_SHOP_DIALOG)
