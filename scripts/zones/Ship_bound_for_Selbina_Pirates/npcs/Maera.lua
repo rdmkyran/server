@@ -15,11 +15,11 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4112,  910,    -- Potion
-        4128, 4832,    -- Ether
-        4148,  316,    -- Antidote
-        4150, 2595,    -- Eye Drops
-        4151,  800,    -- Echo Drops
+        xi.items.POTION,                     910,
+        xi.items.ETHER,                     4832,
+        xi.items.ANTIDOTE,                   316,
+        xi.items.FLASK_OF_EYE_DROPS,        2595,
+        xi.items.FLASK_OF_ECHO_DROPS,        800,
     }
 
     player:showText(npc, ID.text.MAERA_SHOP_DIALOG)

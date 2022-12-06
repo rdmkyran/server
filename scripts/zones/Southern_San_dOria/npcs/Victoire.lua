@@ -14,16 +14,16 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12432, 1450,    -- Faceguard
-        12464, 1936,    -- Headgear
-        12560, 2230,    -- Scale Mail
-        12592, 2745,    -- Doublet
-        12688, 1190,    -- Scale Fng. Gnt.
-        12720, 1515,    -- Gloves
-        12816, 1790,    -- Scale Cuisses
-        12848, 2110,    -- Brais
-        12944, 1085,    -- Scale Greaves
-        12976, 1410,    -- Gaiters
+        xi.items.FACEGUARD,                 1450,
+        xi.items.HEADGEAR,                  1936,
+        xi.items.SCALE_MAIL,                2230,
+        xi.items.DOUBLET,                   2745,
+        xi.items.SCALE_FINGER_GAUNTLETS,    1190,
+        xi.items.GLOVES,                    1515,
+        xi.items.SCALE_CUISSES,             1790,
+        xi.items.BRAIS,                     2110,
+        xi.items.SCALE_GREAVES,             1085,
+        xi.items.GAITERS,                   1410,
     }
 
     player:showText(npc, ID.text.CARAUTIA_SHOP_DIALOG)

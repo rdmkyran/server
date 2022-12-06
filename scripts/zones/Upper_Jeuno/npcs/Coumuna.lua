@@ -14,23 +14,23 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16705,  4550,    -- Greataxe
-        16518, 31000,    -- Mythril Degen
-        16460, 12096,    -- Kris
-        16467, 14560,    -- Mythril Knife
-        16399, 15488,    -- Katars
-        16589, 13962,    -- Two-Handed Sword
-        16412, 29760,    -- Mythril Claws
-        16567, 85250,    -- Knight's Sword
-        16644, 48600,    -- Mythril Axe
-        17061,  6256,    -- Mythril Rod
-        17027, 11232,    -- Oak Cudgel
-        17036, 18048,    -- Mythril Mace
-        17044,  6558,    -- Warhammer
-        17098, 37440,    -- Oak Pole
-        16836, 44550,    -- Halberd
-        16774, 10596,    -- Scythe
-        17320,     8,    -- Iron Arrow
+        xi.items.GREATAXE,                   4550,
+        xi.items.MYTHRIL_DEGEN,             31000,
+        xi.items.KRIS,                      12096,
+        xi.items.MYTHRIL_KNIFE,             14560,
+        xi.items.KATARS,                    15488,
+        xi.items.TWO_HANDED_SWORD,          13962,
+        xi.items.MYTHRIL_CLAWS,             29760,
+        xi.items.KNIGHTS_SWORD,             85250,
+        xi.items.MYTHRIL_AXE,               48600,
+        xi.items.MYTHRIL_ROD,                6256,
+        xi.items.OAK_CUDGEL,                11232,
+        xi.items.MYTHRIL_MACE,              18048,
+        xi.items.WARHAMMER,                  6558,
+        xi.items.OAK_POLE,                  37440,
+        xi.items.HALBERD,                   44550,
+        xi.items.SCYTHE,                    10596,
+        xi.items.IRON_ARROW,                    8,
     }
 
     player:showText(npc, ID.text.VIETTES_SHOP_DIALOG)

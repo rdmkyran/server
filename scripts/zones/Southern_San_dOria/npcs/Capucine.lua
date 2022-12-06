@@ -14,15 +14,15 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12473, 1904,    -- Poet's Circlet
-        12608, 1288,    -- Tunic
-        12601, 2838,    -- Linen Robe
-        12736,  602,    -- Mitts
-        12729, 1605,    -- Linen Cuffs
-        12864,  860,    -- Slacks
-        12857, 2318,    -- Linen Slops
-        12992,  556,    -- Solea
-        12985, 1495,    -- Holly Clogs
+        xi.items.POETS_CIRCLET,             1904,
+        xi.items.TUNIC,                     1288,
+        xi.items.LINEN_ROBE,                2838,
+        xi.items.MITTS,                      602,
+        xi.items.LINEN_CUFFS,               1605,
+        xi.items.SLACKS,                     860,
+        xi.items.LINEN_SLOPS,               2318,
+        xi.items.SOLEA,                      556,
+        xi.items.HOLLY_CLOGS,               1495,
     }
 
     player:showText(npc, ID.text.CAPUCINE_SHOP_DIALOG)

@@ -14,10 +14,10 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        17005,   108,    -- Lufaise Fly
-        17383,  2640,    -- Clothespole
-        688,      20,    -- Arrowwood Log
-        690,    7800,    -- Elm Log
+        xi.items.LUFAISE_FLY,                 108,
+        xi.items.CLOTHESPOLE,                2640,
+        xi.items.ARROWWOOD_LOG,                  20,
+        xi.items.ELM_LOG,                      7800,
         -- 2871,  10000,    -- Safehold Waystone (2010 Abyssea)
         -- 4913, 175827,    -- Scroll of Distract II (2014)
         -- 4915, 217000,    -- Scroll of Frazzle II (2014)
@@ -26,11 +26,11 @@ entity.onTrigger = function(player, npc)
     if player:getCurrentMission(xi.mission.log_id.COP) >= xi.mission.id.cop.SHELTERING_DOUBT then
         stock =
         {
-            17005,   108,    -- Lufaise Fly
-            17383,  2640,    -- Clothespole
-            688,      20,    -- Arrowwood Log
-            690,    7800,    -- Elm Log
-            4638,  66000,    -- Banish III
+            xi.items.LUFAISE_FLY,                 108,
+            xi.items.CLOTHESPOLE,                2640,
+            xi.items.ARROWWOOD_LOG,                  20,
+            xi.items.ELM_LOG,                      7800,
+            xi.items.SCROLL_OF_BANISH_III,       66000,
         -- 2871,  10000,    -- Safehold Waystone (2010 Abyssea)
         -- 4913, 175827,    -- Scroll of Distract II (2014)
         -- 4915, 217000,    -- Scroll of Frazzle II (2014)

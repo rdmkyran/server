@@ -14,19 +14,19 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4394,     10,    -- Ginger Cookie
-        17345,    43,    -- Flute
-        17347,   990,    -- Piccolo
-        5017,    585,    -- Scroll of Scop's Operetta
-        5018,  16920,    -- Scroll of Puppet's Operetta
-        5013,   2916,    -- Scroll of Fowl Aubade
-        5027,   2059,    -- Scroll of Advancing March
-        5072,  90000,    -- Scroll of Goddess's Hymnus
-        5054,  32844,    -- Scroll of Fire Carol II
-        5056,  30912,    -- Scroll of Wind Carol II
-        5057,  27140,    -- Scroll of Earth Carol II
-        5059,  28520,    -- Scroll of Water Carol II
-        4996, 123880,    -- Scroll of Mage's Ballad III
+        xi.items.GINGER_COOKIE,                 10,
+        xi.items.FLUTE,                        43,
+        xi.items.PICCOLO,                     990,
+        xi.items.SCROLL_OF_SCOPS_OPERETTA,     585,
+        xi.items.SCROLL_OF_PUPPETS_OPERETTA,  16920,
+        xi.items.SCROLL_OF_FOWL_AUBADE,       2916,
+        xi.items.SCROLL_OF_ADVANCING_MARCH,   2059,
+        xi.items.SCROLL_OF_GODDESSS_HYMNUS,  90000,
+        xi.items.SCROLL_OF_FIRE_CAROL_II,    32844,
+        xi.items.SCROLL_OF_WIND_CAROL_II,    30912,
+        xi.items.SCROLL_OF_EARTH_CAROL_II,   27140,
+        xi.items.SCROLL_OF_WATER_CAROL_II,   28520,
+        xi.items.SCROLL_OF_MAGES_BALLAD_III, 123880,
     }
 
     player:showText(npc, ID.text.VALERIANO_SHOP_DIALOG)

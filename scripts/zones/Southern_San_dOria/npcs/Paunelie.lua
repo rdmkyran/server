@@ -15,7 +15,7 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        512,  8000,    -- Linkshell
+        xi.items.NEW_LINKSHELL,              8000,
     }
 
     player:showText(npc, ID.text.PAUNELIE_SHOP_DIALOG, 513)

@@ -14,14 +14,14 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12456,  552,    -- Hachimaki
-        12584,  833,    -- Kenpogi
-        12608, 1274,    -- Tunic
-        12712,  458,    -- Tekko
-        12736,  596,    -- Mitts
-        12840,  666,    -- Sitabaki
-        12968,  424,    -- Kyahan
-        12992,  544,    -- Solea
+        xi.items.HACHIMAKI,                  552,
+        xi.items.KENPOGI,                    833,
+        xi.items.TUNIC,                     1274,
+        xi.items.TEKKO,                      458,
+        xi.items.MITTS,                      596,
+        xi.items.SITABAKI,                   666,
+        xi.items.KYAHAN,                     424,
+        xi.items.SOLEA,                      544,
     }
 
     player:showText(npc, ID.text.HERMINIA_SHOP_DIALOG)

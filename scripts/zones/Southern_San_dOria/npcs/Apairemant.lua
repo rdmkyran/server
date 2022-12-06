@@ -20,10 +20,10 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            1108, 703,    -- Sulfur
-            619,   43,    -- Popoto
-            611,   36,    -- Rye Flour
-            4388,  40,    -- Eggplant
+            xi.items.PINCH_OF_SULFUR,           703,
+            xi.items.POPOTO,                      43,
+            xi.items.BAG_OF_RYE_FLOUR,            36,
+            xi.items.EGGPLANT,                   40,
         }
 
         player:showText(npc, ID.text.APAIREMANT_OPEN_DIALOG)

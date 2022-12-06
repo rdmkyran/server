@@ -15,10 +15,10 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4116, 4500,  -- Hi-Potion
-        4132, 28000, -- Hi-Ether
-        1021, 500,   -- Hatchet
-        2554, 100,   -- Asphodel
+        xi.items.HI_POTION,                 4500,
+        xi.items.HI_ETHER,                  28000,
+        xi.items.HATCHET,                   500,
+        xi.items.ASPHODEL,                  100,
     }
 
     player:showText(npc, ID.text.DONT_HURT_GELTPIX)

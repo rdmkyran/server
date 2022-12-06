@@ -14,22 +14,22 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4768,  5751,    -- Scroll of Stone II
-        4778,  8100,    -- Scroll of Water II
-        4763, 11970,    -- Scroll of Aero II
-        4753, 16560,    -- Scroll of Fire II
-        4758, 21870,    -- Scroll of Blizzard II
-        4773, 27900,    -- Scroll of Thunder II
-        4797,  1165,    -- Scroll of Stonega
-        4807,  2097,    -- Scroll of Waterga
-        4792,  4147,    -- Scroll of Aeroga
-        4782,  7025,    -- Scroll of Firaga
-        4787, 10710,    -- Scroll of Blizzaga
-        4802, 15120,    -- Scroll of Thundaga
-        4829, 22680,    -- Scroll of Poison II
-        4839, 12600,    -- Scroll of Bio II
-        4833,  4644,    -- Scroll of Poisonga
-        4859,  8100,    -- Scroll of Shock Spikes
+        xi.items.SCROLL_OF_STONE_II,         5751,
+        xi.items.SCROLL_OF_WATER_II,         8100,
+        xi.items.SCROLL_OF_AERO_II,         11970,
+        xi.items.SCROLL_OF_FIRE_II,         16560,
+        xi.items.SCROLL_OF_BLIZZARD_II,     21870,
+        xi.items.SCROLL_OF_THUNDER_II,      27900,
+        xi.items.SCROLL_OF_STONEGA,          1165,
+        xi.items.SCROLL_OF_WATERGA,          2097,
+        xi.items.SCROLL_OF_AEROGA,           4147,
+        xi.items.SCROLL_OF_FIRAGA,           7025,
+        xi.items.SCROLL_OF_BLIZZAGA,        10710,
+        xi.items.SCROLL_OF_THUNDAGA,        15120,
+        xi.items.SCROLL_OF_POISON_II,       22680,
+        xi.items.SCROLL_OF_BIO_II,          12600,
+        xi.items.SCROLL_OF_POISONGA,         4644,
+        xi.items.SCROLL_OF_SHOCK_SPIKES,     8100,
     }
 
     player:showText(npc, ID.text.CHUTARMIRE_SHOP_DIALOG)

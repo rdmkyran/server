@@ -20,16 +20,16 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            12442, 13179,    -- Studded Bandana
-            12425, 22800,    -- Silver Mask
-            12426, 47025,    -- Banded Helm
-            12570, 20976,    -- Studded Vest
-            12553, 35200,    -- Silver Mail
-            12554, 66792,    -- Banded Mail
-            12698, 11012,    -- Studded Gloves
-            12681, 18800,    -- Silver Mittens
-            12672, 23846,    -- Gauntlets
-            12682, 35673,    -- Mufflers
+            xi.items.STUDDED_BANDANA,           13179,
+            xi.items.SILVER_MASK,               22800,
+            xi.items.BANDED_HELM,               47025,
+            xi.items.STUDDED_VEST,              20976,
+            xi.items.SILVER_MAIL,               35200,
+            xi.items.BANDED_MAIL,               66792,
+            xi.items.STUDDED_GLOVES,            11012,
+            xi.items.SILVER_MITTENS,            18800,
+            xi.items.GAUNTLETS,                 23846,
+            xi.items.MUFFLERS,                  35673,
         }
 
         player:showText(npc, ID.text.DURABLE_SHIELDS_SHOP_DIALOG)

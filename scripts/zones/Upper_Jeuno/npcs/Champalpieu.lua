@@ -14,12 +14,12 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4365, 120,    -- Rolanberry
-        17320,  7,    -- Iron Arrow
-        17336,  5,    -- Crossbow Bolt
-        605,  180,    -- Pickaxe
-        5064, 567,    -- Wind Threnody
-        5067, 420,    -- Water Threnody
+        xi.items.ROLANBERRY,                120,
+        xi.items.IRON_ARROW,                 7,
+        xi.items.CROSSBOW_BOLT,              5,
+        xi.items.PICKAXE,                    180,
+        xi.items.SCROLL_OF_WIND_THRENODY,   567,
+        xi.items.SCROLL_OF_WATER_THRENODY,  420,
     }
 
     player:showText(npc, ID.text.MP_SHOP_DIALOG)

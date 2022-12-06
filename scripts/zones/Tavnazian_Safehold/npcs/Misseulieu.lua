@@ -15,20 +15,20 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12577, 2485, -- Brass Harness
-        12985, 1625, -- Holly Clogs
+        xi.items.BRASS_HARNESS,             2485,
+        xi.items.HOLLY_CLOGS,               1625,
     }
 
     if player:getCurrentMission(xi.mission.log_id.COP) >= xi.mission.id.cop.SHELTERING_DOUBT then
         stock =
         {
-            14317, 4042200,  -- Barone Cosciales (Era Price)
-            15305, 25210200,  -- Barone Gambieras (Era Price)
-            14848, 7276200,  -- Barone Manopolas (Era Price)
-            12577, 2485,    -- Brass Harness
-            12985, 1625,    -- Holly Clogs
-            15389, 8000000, -- Vir Subligar
-            15390, 8000000, -- Femina Subligar
+            xi.items.BARONE_COSCIALES,          4042200,
+            xi.items.BARONE_GAMBIERAS,          25210200,
+            xi.items.BARONE_MANOPOLAS,          7276200,
+            xi.items.BRASS_HARNESS,             2485,
+            xi.items.HOLLY_CLOGS,               1625,
+            xi.items.VIR_SUBLIGAR,              8000000,
+            xi.items.FEMINA_SUBLIGAR,           8000000,
 
         }
     end

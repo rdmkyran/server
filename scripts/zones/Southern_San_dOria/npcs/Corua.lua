@@ -20,10 +20,10 @@ entity.onTrigger = function(player, npc)
     else
         local stock =
         {
-            4389,  29,    -- San d'Orian Carrot
-            4431,  69,    -- San d'Orian Grape
-            639,  110,    -- Chestnut
-            610,   55,    -- San d'Orian Flour
+            xi.items.SAN_DORIAN_CARROT,          29,
+            xi.items.BUNCH_OF_SAN_DORIAN_GRAPES,  69,
+            xi.items.RONFAURE_CHESTNUT,          110,
+            xi.items.BAG_OF_SAN_DORIAN_FLOUR,     55,
         }
 
         player:showText(npc, ID.text.CORUA_OPEN_DIALOG)

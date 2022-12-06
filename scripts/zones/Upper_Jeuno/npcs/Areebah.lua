@@ -14,15 +14,15 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        636,  119,    -- Chamomile
-        951,  110,    -- Wijnruit
-        948,   60,    -- Carnation
-        941,   80,    -- Red Rose
-        949,   96,    -- Rain Lily
-        956,  120,    -- Lilac
-        957,  120,    -- Amaryllis
-        958,  120,    -- Marguerite
-        2370, 520,    -- Flower Seeds
+        xi.items.CHAMOMILE,                  119,
+        xi.items.WIJNRUIT,                   110,
+        xi.items.CARNATION,                   60,
+        xi.items.RED_ROSE,                    80,
+        xi.items.RAIN_LILY,                   96,
+        xi.items.LILAC,                      120,
+        xi.items.AMARYLLIS,                  120,
+        xi.items.MARGUERITE,                 120,
+        xi.items.BAG_OF_FLOWER_SEEDS,       520,
     }
 
     player:showText(npc, ID.text.MP_SHOP_DIALOG)

@@ -14,19 +14,19 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16411, 11491,    -- Claws
-        16451,  7727,    -- Mythril Dagger
-        16513, 11588,    -- Tuck
-        16584, 37800,    -- Mythril Claymore
-        16643, 11040,    -- Battleaxe
-        16705,  4095,    -- Greataxe
-        17050,   333,    -- Willow Wand
-        17051,  1409,    -- Yew Wand
-        17089,   571,    -- Holly Staff
-        17307,     9,    -- Dart
-        17336,     5,    -- Crossbow Bolt
-        17318,     3,    -- Wooden Arrow
-        17320,     7,    -- Iron Arrow
+        xi.items.CLAWS,                     11491,
+        xi.items.MYTHRIL_DAGGER,             7727,
+        xi.items.TUCK,                      11588,
+        xi.items.MYTHRIL_CLAYMORE,          37800,
+        xi.items.BATTLEAXE,                 11040,
+        xi.items.GREATAXE,                   4095,
+        xi.items.WILLOW_WAND,                 333,
+        xi.items.YEW_WAND,                   1409,
+        xi.items.HOLLY_STAFF,                 571,
+        xi.items.DART,                          9,
+        xi.items.CROSSBOW_BOLT,                 5,
+        xi.items.WOODEN_ARROW,                  3,
+        xi.items.IRON_ARROW,                    7,
     }
 
     player:showText(npc, ID.text.TORAPIONT_SHOP_DIALOG)

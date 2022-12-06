@@ -14,22 +14,22 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4610,   585,    -- Scroll of Cure II
-        4611,  3261,    -- Scroll of Cure III
-        4616, 10080,    -- Scroll of Curaga II
-        4620,  5178,    -- Scroll of Raise
-        4629, 31500,    -- Scroll of Holy
-        4632, 10080,    -- Scroll of Dia II
-        4637,  8100,    -- Scroll of Banish II
-        4652,  6366,    -- Scroll of Protect II
-        4657, 15840,    -- Scroll of Shell II
-        4665, 18000,    -- Scroll of Haste
-        4708,  4644,    -- Scroll of Enfire
-        4709,  3688,    -- Scroll of Enblizzard
-        4710,  2250,    -- Scroll of Enaero
-        4711,  1827,    -- Scroll of Enstone
-        4712,  1363,    -- Scroll of Enthunder
-        4713,  6366,    -- Scroll of Enwater
+        xi.items.SCROLL_OF_CURE_II,           585,
+        xi.items.SCROLL_OF_CURE_III,         3261,
+        xi.items.SCROLL_OF_CURAGA_II,       10080,
+        xi.items.SCROLL_OF_RAISE,            5178,
+        xi.items.SCROLL_OF_HOLY,            31500,
+        xi.items.SCROLL_OF_DIA_II,          10080,
+        xi.items.SCROLL_OF_BANISH_II,        8100,
+        xi.items.SCROLL_OF_PROTECT_II,       6366,
+        xi.items.SCROLL_OF_SHELL_II,        15840,
+        xi.items.SCROLL_OF_HASTE,           18000,
+        xi.items.SCROLL_OF_ENFIRE,           4644,
+        xi.items.SCROLL_OF_ENBLIZZARD,       3688,
+        xi.items.SCROLL_OF_ENAERO,           2250,
+        xi.items.SCROLL_OF_ENSTONE,          1827,
+        xi.items.SCROLL_OF_ENTHUNDER,        1363,
+        xi.items.SCROLL_OF_ENWATER,          6366,
     }
 
     player:showText(npc, ID.text.QUELPIA_SHOP_DIALOG)
