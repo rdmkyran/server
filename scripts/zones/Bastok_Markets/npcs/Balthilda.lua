@@ -12,16 +12,16 @@ local entity = {}
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12473, 1904, 3,    -- Poet's Circlet
-        12608, 1288, 3,    -- Tunic
-        12601, 2838, 3,    -- Linen Robe
-        12736,  602, 3,    -- Mitts
-        12729, 1605, 3,    -- Linen Cuffs
-        12864,  860, 3,    -- Slacks
-        12857, 2318, 3,    -- Linen Slops
-        12992,  556, 3,    -- Solea
-        12985, 1495, 3,    -- Holly Clogs
-        13469, 1150, 3,    -- Leather Ring
+        xi.items.POETS_CIRCLET,             1904, 3,
+        xi.items.TUNIC,                     1288, 3,
+        xi.items.LINEN_ROBE,                2838, 3,
+        xi.items.MITTS,                      602, 3,
+        xi.items.LINEN_CUFFS,               1605, 3,
+        xi.items.SLACKS,                     860, 3,
+        xi.items.LINEN_SLOPS,               2318, 3,
+        xi.items.SOLEA,                      556, 3,
+        xi.items.HOLLY_CLOGS,               1495, 3,
+        xi.items.LEATHER_RING,              1150, 3,
     }
 
     player:showText(npc, ID.text.BALTHILDA_SHOP_DIALOG)

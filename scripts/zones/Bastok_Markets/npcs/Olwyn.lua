@@ -17,11 +17,11 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        4128, 4445, 1,    -- Ether
-        4151,  736, 2,    -- Echo Drops
-        4112,  837, 2,    -- Potion
-        4150, 2387, 3,    -- Eye Drops
-        4148,  290, 3,    -- Antidote
+        xi.items.ETHER,                     4445, 1,
+        xi.items.FLASK_OF_ECHO_DROPS,        736, 2,
+        xi.items.POTION,                     837, 2,
+        xi.items.FLASK_OF_EYE_DROPS,        2387, 3,
+        xi.items.ANTIDOTE,                   290, 3,
     }
 
     player:showText(npc, ID.text.OLWYN_SHOP_DIALOG)

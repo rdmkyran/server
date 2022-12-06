@@ -15,8 +15,8 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        17388,  1238, 3,    -- Fastwater F. Rod
-        17382, 11845, 3,    -- S.H. Fishing Rod
+        xi.items.FASTWATER_FISHING_ROD,      1238, 3,
+        xi.items.SINGLE_HOOK_FISHING_ROD,   11845, 3,
         -- 4148,    290, 3,    -- Antidote (2018)
     }
 

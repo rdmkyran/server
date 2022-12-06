@@ -12,18 +12,18 @@ local entity = {}
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        16537, 31648, 1, -- Mythril Sword
-        16545, 21535, 1, -- Broadsword
-        16513, 11845, 1, -- Tuck
-        16558, 62560, 1, -- Falchion
-        16536,  7286, 2, -- Iron Sword
-        16552,  4163, 2, -- Scimitar
-        16535,   246, 3, -- Bronze Sword
-        16517,  9406, 3, -- Degen
-        16551,   713, 3, -- Sapara
-        16530,   618, 3, -- Xiphos
-        16565,  1711, 3, -- Spatha
-        16512,  3215, 3, -- Bilbo
+        xi.items.MYTHRIL_SWORD,             31648, 1,
+        xi.items.BROADSWORD,                21535, 1,
+        xi.items.TUCK,                      11845, 1,
+        xi.items.FALCHION,                  62560, 1,
+        xi.items.IRON_SWORD,                 7286, 2,
+        xi.items.SCIMITAR,                   4163, 2,
+        xi.items.BRONZE_SWORD,                246, 3,
+        xi.items.DEGEN,                      9406, 3,
+        xi.items.SAPARA,                      713, 3,
+        xi.items.XIPHOS,                      618, 3,
+        xi.items.SPATHA,                     1711, 3,
+        xi.items.BILBO,                      3215, 3,
     }
 
     player:showText(npc, ID.text.ZHIKKOM_SHOP_DIALOG)

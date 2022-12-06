@@ -14,22 +14,22 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        12836, 23316, 1, -- Iron Subligar
-        12825,  5003, 1, -- Lizard Trousers
-        12962, 14484, 1, -- Leggins
-        12953,  3162, 1, -- Lizard Ledelsens
-        12301, 31544, 1, -- Buckler
-        12833,  1840, 2, -- Brass Subligar
-        12824,   493, 2, -- Leather Trousers
-        12961,  1140, 2, -- Brass Leggins
-        12952,   309, 2, -- Leather Highboots
-        12300, 11076, 2, -- Targe
-        12832,   191, 3, -- Bronze Subligar
-        12808, 11592, 3, -- Chain Gose
-        12960,   117, 3, -- Bronze Leggins
-        12936,  7120, 3, -- Greaves
+        xi.items.IRON_SUBLIGAR,             23316, 1,
+        xi.items.LIZARD_TROUSERS,            5003, 1,
+        xi.items.LEGGINGS,                  14484, 1,
+        xi.items.LIZARD_LEDELSENS,           3162, 1,
+        xi.items.BUCKLER,                   31544, 1,
+        xi.items.BRASS_SUBLIGAR,             1840, 2,
+        xi.items.LEATHER_TROUSERS,            493, 2,
+        xi.items.BRASS_LEGGINGS,             1140, 2,
+        xi.items.LEATHER_HIGHBOOTS,           309, 2,
+        xi.items.TARGE,                     11076, 2,
+        xi.items.BRONZE_SUBLIGAR,             191, 3,
+        xi.items.CHAIN_HOSE,                11592, 3,
+        xi.items.BRONZE_LEGGINGS,             117, 3,
+        xi.items.GREAVES,                    7120, 3,
         -- 12290,   556, 3, -- Maple Shield (WoTG)
-        12289,   110, 3, -- Lauan Shield
+        xi.items.LAUAN_SHIELD,                110, 3,
     }
 
     player:showText(npc, ID.text.ZEMEDARS_SHOP_DIALOG)
