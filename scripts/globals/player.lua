@@ -141,7 +141,7 @@ xi.player.charCreate = function(player)
     end
 
     if xi.settings.main.NEW_CHARACTER_CUTSCENE == 0 then -- Add coupon that would normally be added in cutscene.
-        player:addItem(xi.items.ADVENTURERS_COUPON)
+        player:addItem(xi.items.ADVENTURER_COUPON)
     end
 
     player:addTitle(xi.title.NEW_ADVENTURER)
