@@ -14,13 +14,13 @@ local entity = {}
 
 local shop =
 {
-    5,  1295, -- Twincoon
-    6,  1466, -- Relic Iron
-    7,  1520, -- Goblin Grease
-    8,  1516, -- Griffon Hide
-    23, 1459, -- Griffon Leather
-    25,  883,  -- Behemoth Horn
-    28, 1458, -- Mammoth Tusk
+    5,  xi.items.TWINCOON,
+    6,  xi.items.PILE_OF_RELIC_IRON,
+    7,  xi.items.JAR_OF_GOBLIN_GREASE,
+    8,  xi.items.GRIFFON_HIDE,
+    23, xi.items.SQUARE_OF_GRIFFON_LEATHER,
+    25,  xi.items.BEHEMOTH_HORN,
+    28, xi.items.MAMMOTH_TUSK,
 }
 
 local maps =

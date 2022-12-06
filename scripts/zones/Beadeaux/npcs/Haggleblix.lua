@@ -12,13 +12,13 @@ require("scripts/globals/items")
 
 local shop =
 {
-    7,  1313, -- Siren's Hair
-    8,  1521, -- Slime Juice
-    9,  1469, -- Wootz Ore
-    12, 4246, -- Cantarella
-    20, 1468, -- Marksman's Oil
-    25, 1461, -- Wootz Ingot
-    33, 1460, -- Koh-I-Noor
+    7,  xi.items.LOCK_OF_SIRENS_HAIR,
+    8,  xi.items.VIAL_OF_SLIME_JUICE,
+    9,  xi.items.CHUNK_OF_WOOTZ_ORE,
+    12, xi.items.BOTTLE_OF_CANTARELLA,
+    20, xi.items.FLASK_OF_MARKSMANS_OIL,
+    25, xi.items.WOOTZ_INGOT,
+    33, xi.items.KOH_I_NOOR,
 }
 
 local maps =

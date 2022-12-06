@@ -14,13 +14,13 @@ local entity = {}
 
 local shop =
 {
-    7,  1312, -- Angel Skin
-    8,  1518, -- Colossal Skull
-    9,  1464, -- Lancewood Log
-    23, 1463, -- Chronos Tooth
-    24, 1467, -- Relic Steel
-    25, 1462, -- Lancewood Lumber
-    28,  658, -- Damascus Ingot
+    7,  xi.items.PIECE_OF_ANGEL_SKIN,
+    8,  xi.items.COLOSSAL_SKULL,
+    9,  xi.items.LANCEWOOD_LOG,
+    23, xi.items.CHRONOS_TOOTH,
+    24, xi.items.CHUNK_OF_RELIC_STEEL,
+    25, xi.items.PIECE_OF_LANCEWOOD_LUMBER,
+    28,  xi.items.DAMASCUS_INGOT,
 }
 
 local maps =

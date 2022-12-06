@@ -66,35 +66,35 @@ local currencyLootblox =
 
 local shopLootblox =
 {
-    5, 1295, -- Twincoon
-    6, 1466, -- Relic Iron
-    7, 1520, -- Goblin Grease
-    8, 1516, -- Griffon Hide
-   23, 1459, -- Griffon Leather
-   25, 883,  -- Behemoth Horn
-   28, 1458, -- Mammoth Tusk
+    5, xi.items.TWINCOON,
+    6, xi.items.PILE_OF_RELIC_IRON,
+    7, xi.items.JAR_OF_GOBLIN_GREASE,
+    8, xi.items.GRIFFON_HIDE,
+   23, xi.items.SQUARE_OF_GRIFFON_LEATHER,
+   25, xi.items.BEHEMOTH_HORN,
+   28, xi.items.MAMMOTH_TUSK,
 }
 
 local shopHaggle =
 {
-    7, 1313, -- Siren's Hair
-    8, 1521, -- Slime Juice
-    9, 1469, -- Wootz Ore
-    12, 4246, -- Cantarella
-    20, 1468, -- Marksman's Oil
-    25, 1461, -- Wootz Ingot
-    33, 1460, -- Koh-I-Noor
+    7, xi.items.LOCK_OF_SIRENS_HAIR,
+    8, xi.items.VIAL_OF_SLIME_JUICE,
+    9, xi.items.CHUNK_OF_WOOTZ_ORE,
+    12, xi.items.BOTTLE_OF_CANTARELLA,
+    20, xi.items.FLASK_OF_MARKSMANS_OIL,
+    25, xi.items.WOOTZ_INGOT,
+    33, xi.items.KOH_I_NOOR,
 }
 
 local shopAntiqix =
 {
-    7, 1312, -- Angel Skin
-    8, 1518, -- Colossal Skull
-    9, 1464, -- Lancewood Log
-   23, 1463, -- Chronos Tooth
-   24, 1467, -- Relic Steel
-   25, 1462, -- Lancewood Lumber
-   28, 658,  -- Damascus Ingot
+    7, xi.items.PIECE_OF_ANGEL_SKIN,
+    8, xi.items.COLOSSAL_SKULL,
+    9, xi.items.LANCEWOOD_LOG,
+   23, xi.items.CHRONOS_TOOTH,
+   24, xi.items.CHUNK_OF_RELIC_STEEL,
+   25, xi.items.PIECE_OF_LANCEWOOD_LUMBER,
+   28, xi.items.DAMASCUS_INGOT,
 }
 
 local maps =
