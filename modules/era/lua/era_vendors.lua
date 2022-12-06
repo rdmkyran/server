@@ -16,106 +16,106 @@ xi.eraShops = xi.eraShops or {}
 --Bastok Markets
 xi.eraShops.Mjoll =
 {
-    17321,    16, 1, -- Silver Arrow
-    17318,     3, 2, -- Wooden Arrow
-    17320,     7, 3, -- Iron Arrow
-    5069,    199, 3, -- Scroll of Dark Threnody
-    5063,   1000, 3, -- Scroll of Ice Threnody
+    xi.items.SILVER_ARROW,                 16, 1,
+    xi.items.WOODEN_ARROW,                  3, 2,
+    xi.items.IRON_ARROW,                    7, 3,
+    xi.items.SCROLL_OF_DARK_THRENODY,      199, 3,
+    xi.items.SCROLL_OF_ICE_THRENODY,      1000, 3,
 }
 
 xi.eraShops.Charging_Chocobo =
 {
-    12801, 58738, 1,    -- Mythril Cuisses
-    12929, 36735, 1,    -- Mythril Leggings
-    12817, 14131, 2,    -- Brass Cuisses
-    12800, 34776, 2,    -- Cuisses
-    12945,  8419, 2,    -- Brass Greaves
-    12928, 21859, 2,    -- Plate Leggings
-    13080, 16891, 2,    -- Gorget
-    12832,   191, 3,    -- Bronze Subligar
-    12816,  1646, 3,    -- Scale Cuisses
-    12960,   117, 3,    -- Bronze Leggings
-    12944,   998, 3,    -- Scale Greaves
+    xi.items.MYTHRIL_CUISSES,           58738, 1,
+    xi.items.MYTHRIL_LEGGINGS,          36735, 1,
+    xi.items.BRASS_CUISSES,             14131, 2,
+    xi.items.CUISSES,                   34776, 2,
+    xi.items.BRASS_GREAVES,              8419, 2,
+    xi.items.PLATE_LEGGINGS,            21859, 2,
+    xi.items.GORGET,                    16891, 2,
+    xi.items.BRONZE_SUBLIGAR,             191, 3,
+    xi.items.SCALE_CUISSES,              1646, 3,
+    xi.items.BRONZE_LEGGINGS,             117, 3,
+    xi.items.SCALE_GREAVES,               998, 3,
 }
 
 xi.eraShops.Zhikkom =
 {
-    16473,  5713, 1, -- Kukri
-    16537, 31648, 1, -- Mythril Sword
-    16545, 21535, 1, -- Broadsword
-    16513, 11845, 1, -- Tuck
-    16558, 62560, 1, -- Falchion
-    16536,  7286, 2, -- Iron Sword
-    16552,  4163, 2, -- Scimitar
-    16466,  2231, 2, -- Knife
-    16465,   150, 3, -- Bronze Knife
-    16405,   106, 3, -- Cat Baghnakhs
-    16535,   246, 3, -- Bronze Sword
-    16517,  9406, 3, -- Degen
-    16551,   713, 3, -- Sapara
+    xi.items.KUKRI,                      5713, 1,
+    xi.items.MYTHRIL_SWORD,             31648, 1,
+    xi.items.BROADSWORD,                21535, 1,
+    xi.items.TUCK,                      11845, 1,
+    xi.items.FALCHION,                  62560, 1,
+    xi.items.IRON_SWORD,                 7286, 2,
+    xi.items.SCIMITAR,                   4163, 2,
+    xi.items.KNIFE,                      2231, 2,
+    xi.items.BRONZE_KNIFE,                150, 3,
+    xi.items.CAT_BAGHNAKHS,               106, 3,
+    xi.items.BRONZE_SWORD,                246, 3,
+    xi.items.DEGEN,                      9406, 3,
+    xi.items.SAPARA,                      713, 3,
 }
 
 xi.eraShops.Peritrage =
 {
-    17218, 14158, 1, -- Zamburak
-    17298,   294, 1, -- Tathlum
-    17217,  2166, 2, -- Crossbow
-    17337,    22, 2, -- Mythril Bolt
-    17216,   165, 3, -- Light Crossbow
-    17336,     5, 3, -- Crossbow Bolt
+    xi.items.ZAMBURAK,                  14158, 1,
+    xi.items.TATHLUM,                     294, 1,
+    xi.items.CROSSBOW,                   2166, 2,
+    xi.items.MYTHRIL_BOLT,                 22, 2,
+    xi.items.LIGHT_CROSSBOW,              165, 3,
+    xi.items.CROSSBOW_BOLT,                 5, 3,
 }
 
 xi.eraShops.Ciqala =
 {
-    16392,  4818, 1, -- Metal Knuckles
-    17044,  6033, 1, -- Warhammer
-    16643, 11285, 1, -- Battleaxe
-    16705,  4186, 1, -- Greataxe
-    16391,   828, 2, -- Brass Knuckles
-    17043,  2083, 2, -- Brass Hammer
-    16641,  1435, 2, -- Brass Axe
-    16704,   618, 2, -- Butterfly Axe
-    16390,   224, 3, -- Bronze Knuckles
-    17042,   312, 3, -- Bronze Hammer
-    16640,   290, 3, -- Bronze Axe
-    17049,    47, 3, -- Maple Wand
-    17088,    58, 3, -- Ash Staff
+    xi.items.METAL_KNUCKLES,             4818, 1,
+    xi.items.WARHAMMER,                  6033, 1,
+    xi.items.BATTLEAXE,                 11285, 1,
+    xi.items.GREATAXE,                   4186, 1,
+    xi.items.BRASS_KNUCKLES,              828, 2,
+    xi.items.BRASS_HAMMER,               2083, 2,
+    xi.items.BRASS_AXE,                  1435, 2,
+    xi.items.BUTTERFLY_AXE,               618, 2,
+    xi.items.BRONZE_KNUCKLES,             224, 3,
+    xi.items.BRONZE_HAMMER,               312, 3,
+    xi.items.BRONZE_AXE,                  290, 3,
+    xi.items.MAPLE_WAND,                   47, 3,
+    xi.items.ASH_STAFF,                    58, 3,
 }
 
 xi.eraShops.Hortense =
 {
-    4976,    64, 3, -- Scroll of Foe Requiem
-    4977,   441, 3, -- Scroll of Foe Requiem II
-    4978,  3960, 3, -- Scroll of Foe Requiem III
-    4979,  6912, 3, -- Scroll of Foe Requiem IV
-    4986,    37, 3, -- Scroll of Army's Paeon
-    4987,   321, 3, -- Scroll of Army's Paeon II
-    4988,  3240, 3, -- Scroll of Army's Paeon III
-    4989,  5940, 3, -- Scroll of Army's Paeon IV
-    5002,    21, 3, -- Scroll of Valor Minuet
-    5003,  1101, 3, -- Scroll of Valor Minuet II
-    5004,  5544, 3, -- Scroll of Valor Minuet III
+    xi.items.SCROLL_OF_FOE_REQUIEM,        64, 3,
+    xi.items.SCROLL_OF_FOE_REQUIEM_II,    441, 3,
+    xi.items.SCROLL_OF_FOE_REQUIEM_III,  3960, 3,
+    xi.items.SCROLL_OF_FOE_REQUIEM_IV,   6912, 3,
+    xi.items.SCROLL_OF_ARMYS_PAEON,        37, 3,
+    xi.items.SCROLL_OF_ARMYS_PAEON_II,    321, 3,
+    xi.items.SCROLL_OF_ARMYS_PAEON_III,  3240, 3,
+    xi.items.SCROLL_OF_ARMYS_PAEON_IV,   5940, 3,
+    xi.items.SCROLL_OF_VALOR_MINUET,       21, 3,
+    xi.items.SCROLL_OF_VALOR_MINUET_II,  1101, 3,
+    xi.items.SCROLL_OF_VALOR_MINUET_III,  5544, 3,
 }
 
 xi.eraShops.Sororo =
 {
-    4641,  1165, 1, -- Diaga
-    4662,  7025, 1, -- Stoneskin
-    4664,   837, 1, -- Slow
-    4610,   585, 2, -- Cure II
-    4636,   140, 2, -- Banish
-    4646,  1165, 2, -- Banishga
-    4661,  2097, 2, -- Blink
-    4609,    61, 3, -- Cure
-    4615,  1363, 3, -- Curaga
-    4622,   180, 3, -- Poisona
-    4623,   324, 3, -- Paralyna
-    4624,   990, 3, -- Blindna
-    4631,    82, 3, -- Dia
-    4651,   219, 3, -- Protect
-    4656,  1584, 3, -- Shell
-    -- 4721, 29700, 3, -- Repose (WoTG)
-    4663,   368, 3, -- Aquaveil
+    xi.items.SCROLL_OF_DIAGA,            1165, 1,
+    xi.items.SCROLL_OF_STONESKIN,        7025, 1,
+    xi.items.SCROLL_OF_SLOW,              837, 1,
+    xi.items.SCROLL_OF_CURE_II,           585, 2,
+    xi.items.SCROLL_OF_BANISH,            140, 2,
+    xi.items.SCROLL_OF_BANISHGA,         1165, 2,
+    xi.items.SCROLL_OF_BLINK,            2097, 2,
+    xi.items.SCROLL_OF_CURE,               61, 3,
+    xi.items.SCROLL_OF_CURAGA,           1363, 3,
+    xi.items.SCROLL_OF_POISONA,           180, 3,
+    xi.items.SCROLL_OF_PARALYNA,          324, 3,
+    xi.items.SCROLL_OF_BLINDNA,           990, 3,
+    xi.items.SCROLL_OF_DIA,                82, 3,
+    xi.items.SCROLL_OF_PROTECT,           219, 3,
+    xi.items.SCROLL_OF_SHELL,            1584, 3,
+    -- xi.items.SCROLL_OF_REPOSE,          29700, 3,
+    xi.items.SCROLL_OF_AQUAVEIL,          368, 3,
 }
 
 -- Port Bastok
@@ -133,26 +133,26 @@ xi.eraShops.Valeriano =
 
 xi.eraShops.Numa =
 {
-    12457, 5079, 1, -- Cotton Hachimaki
-    12585, 7654, 1, -- Cotton Dogi
-    12713, 4212, 1, -- Cotton Tekko
-    12841, 6133, 1, -- Cotton Sitabaki
-    12969, 3924, 1, -- Cotton Kyahan
-    13205, 3825, 1, -- Silver Obi
-    12456,  759, 2, -- Hachimaki
-    12584, 1145, 2, -- Kenpogi
-    12712,  630, 2, -- Tekko
-    12840,  915, 2, -- Sitabaki
-    12968,  584, 2, -- Kyahan
-    704,    132, 2, -- Bamboo Stick
-    605,    180, 3, -- Pickaxe
+    xi.items.COTTON_HACHIMAKI,          5079, 1,
+    xi.items.COTTON_DOGI,               7654, 1,
+    xi.items.COTTON_TEKKO,              4212, 1,
+    xi.items.COTTON_SITABAKI,           6133, 1,
+    xi.items.COTTON_KYAHAN,             3924, 1,
+    xi.items.SILVER_OBI,                3825, 1,
+    xi.items.HACHIMAKI,                  759, 2,
+    xi.items.KENPOGI,                   1145, 2,
+    xi.items.TEKKO,                      630, 2,
+    xi.items.SITABAKI,                   915, 2,
+    xi.items.KYAHAN,                     584, 2,
+    xi.items.BAMBOO_STICK,                 132, 2,
+    xi.items.PICKAXE,                      180, 3,
 }
 
 -- Metalworks
 xi.eraShops.Nogga =
 {
-    17316,  675, 2, -- Bomb Arm
-    17313, 1083, 3, -- Grenade
+    xi.items.BOMB_ARM,                   675, 2,
+    xi.items.GRENADE,                   1083, 3,
 }
 
 
@@ -160,230 +160,230 @@ xi.eraShops.Nogga =
 -- Northern Sandy
 xi.eraShops.Arlenne =
 {
-    17051,  1409, 1, -- Yew Wand
-    17090,  3245, 1, -- Elm Staff
-    17097, 16416, 1, -- Elm Pole
-    16835, 15876, 1, -- Spear
-    16845, 16578, 1, -- Lance
-    16770, 11286, 1, -- Zaghnal
-    17050,   333, 2, -- Willow Wand
-    17089,   571, 2, -- Holly Staff
-    17096,  4568, 2, -- Holly Pole
-    16834,  4680, 2, -- Brass Spear
-    16769,  2542, 2, -- Brass Zaghnal
-    17049,    46, 3, -- Maple Wand
-    17088,    57, 3, -- Ash Staff
-    16833,   792, 3, -- Brass Baghnakhs
-    16768,   309, 3, -- Bronze Zaghnal
+    xi.items.YEW_WAND,                   1409, 1,
+    xi.items.ELM_STAFF,                  3245, 1,
+    xi.items.ELM_POLE,                  16416, 1,
+    xi.items.SPEAR,                     15876, 1,
+    xi.items.LANCE,                     16578, 1,
+    xi.items.ZAGHNAL,                   11286, 1,
+    xi.items.WILLOW_WAND,                 333, 2,
+    xi.items.HOLLY_STAFF,                 571, 2,
+    xi.items.HOLLY_POLE,                 4568, 2,
+    xi.items.BRASS_SPEAR,                4680, 2,
+    xi.items.BRASS_ZAGHNAL,              2542, 2,
+    xi.items.MAPLE_WAND,                   46, 3,
+    xi.items.ASH_STAFF,                    57, 3,
+    xi.items.BRONZE_SPEAR,                792, 3,
+    xi.items.BRONZE_ZAGHNAL,              309, 3,
 }
 
 xi.eraShops.Tavourine =
 {
-    16584, 37800, 1,    -- Mythril Claymore
-    16466,  2182, 1,    -- Knife
-    17060,  2386, 1,    -- Rod
-    16640,   284, 2,    -- Bronze Axe
-    16465,   147, 2,    -- Bronze Knife
-    17059,    91, 2,    -- Bronze Rod
-    16583,  2448, 2,    -- Claymore
-    17035,  4363, 2,    -- Mace
-    17081,   627, 3,    -- Brass Rod
-    17034,   169, 3,    -- Bronze Mace
+    xi.items.MYTHRIL_CLAYMORE,          37800, 1,
+    xi.items.KNIFE,                      2182, 1,
+    xi.items.ROD,                        2386, 1,
+    xi.items.BRONZE_AXE,                  284, 2,
+    xi.items.BRONZE_KNIFE,                147, 2,
+    xi.items.BRONZE_ROD,                   91, 2,
+    xi.items.CLAYMORE,                   2448, 2,
+    xi.items.MACE,                       4363, 2,
+    xi.items.BRASS_ROD,                   627, 3,
+    xi.items.BRONZE_MACE,                 169, 3,
 }
 
 xi.eraShops.Pirvidiauce =
 {
-    12986, 9180, 1, -- Chestnut Sabbots
-    4128,  4445, 1, -- Ether
-    4112,   837, 1, -- Potion
-    17336,    6, 2, -- Crossbow bolt
-    4151,   720, 2, -- Echo Drops
-    12985, 1462, 2, -- Holly Clogs
-    4148,   284, 3, -- Antidote
-    12984,  111, 3, -- Ash Clogs
-    219,    900, 3, -- Ceramic Flowerpot
-    4150,  2335, 3, -- Eye Drops
-    1774,  1984, 3, -- Red Gravel
-    17318,    3, 3, -- Wooden Arrow
+    xi.items.CHESTNUT_SABOTS,           9180, 1,
+    xi.items.ETHER,                      4445, 1,
+    xi.items.POTION,                      837, 1,
+    xi.items.CROSSBOW_BOLT,                6, 2,
+    xi.items.FLASK_OF_ECHO_DROPS,         720, 2,
+    xi.items.HOLLY_CLOGS,               1462, 2,
+    xi.items.ANTIDOTE,                    284, 3,
+    xi.items.ASH_CLOGS,                  111, 3,
+    xi.items.CERAMIC_FLOWERPOT,            900, 3,
+    xi.items.FLASK_OF_EYE_DROPS,         2335, 3,
+    xi.items.PILE_OF_RED_GRAVEL,         1984, 3,
+    xi.items.WOODEN_ARROW,                 3, 3,
 }
 
 xi.eraShops.Coullave =
 {
-    4128,  4445, 1, -- Ether
-    17313, 1107, 1, -- Grenade
-    12456,  552, 1, -- Hachimaki
-    12584,  833, 1, -- Kenpogi
-    12968,  424, 1, -- Kyahan
-    4112,   837, 1, -- Potion
-    12712,  458, 1, -- Tekko
-    12840,  666, 1, -- Sitabaki
-    704,     96, 2, -- Bamboo Stick
-    4151,   736, 2, -- Echo Drops
-    4148,   290, 3, -- Antidote
-    4150,  2387, 3, -- Eye Drops
-    13469, 1150, 3, -- Leather Ring
+    xi.items.ETHER,                      4445, 1,
+    xi.items.GRENADE,                   1107, 1,
+    xi.items.HACHIMAKI,                  552, 1,
+    xi.items.KENPOGI,                    833, 1,
+    xi.items.KYAHAN,                     424, 1,
+    xi.items.POTION,                      837, 1,
+    xi.items.TEKKO,                      458, 1,
+    xi.items.SITABAKI,                   666, 1,
+    xi.items.BAMBOO_STICK,                  96, 2,
+    xi.items.FLASK_OF_ECHO_DROPS,         736, 2,
+    xi.items.ANTIDOTE,                    290, 3,
+    xi.items.FLASK_OF_EYE_DROPS,         2387, 3,
+    xi.items.LEATHER_RING,              1150, 3,
 }
 
 -- Southern Sandoria
 xi.eraShops.Ashene =
 {
-    16455,  4309, 1, -- Baselard
-    16532, 16934, 1, -- Gladius
-    16545, 21067, 1, -- Broadsword
-    16576, 35769, 1, -- Hunting Sword
-    16524, 13406, 1, -- Fleuret
-    16450,  1827, 2, -- Dagger
-    16536,  7128, 2, -- Iron Sword
-    16566,  8294, 2, -- Longsword
-    16385,   129, 3, -- Cesti
-    16448,   140, 3, -- Bronze Dagger
-    16449,   837, 3, -- Brass Dagger
-    16531,  3523, 3, -- Brass Xiphos
-    16535,   241, 3, -- Bronze Sword
-    16565,  1674, 3, -- Spatha
+    xi.items.BASELARD,                   4309, 1,
+    xi.items.GLADIUS,                   16934, 1,
+    xi.items.BROADSWORD,                21067, 1,
+    xi.items.HUNTING_SWORD,             35769, 1,
+    xi.items.FLEURET,                   13406, 1,
+    xi.items.DAGGER,                     1827, 2,
+    xi.items.IRON_SWORD,                 7128, 2,
+    xi.items.LONGSWORD,                  8294, 2,
+    xi.items.CESTI,                       129, 3,
+    xi.items.BRONZE_DAGGER,               140, 3,
+    xi.items.BRASS_DAGGER,                837, 3,
+    xi.items.BRASS_XIPHOS,               3523, 3,
+    xi.items.BRONZE_SWORD,                241, 3,
+    xi.items.SPATHA,                     1674, 3,
 }
 
 xi.eraShops.Carautia =
 {
-    12808, 11340, 1, -- Chain Hose
-    12936,  6966, 1, -- Greaves
-    12306, 10281, 1, -- Kite Shield
-    12292,  4482, 2, -- Mahogany Shield
-    12826, 16552, 2, -- Studded Trousers
-    12954, 10054, 2, -- Studded Boots
-    12290,   544, 3, -- Maple Shield
-    12832,   187, 3, -- Bronze Subligar
-    12833,  1800, 3, -- Brass Subligar
-    12824,   482, 3, -- Leather Trousers
-    12960,   115, 3, -- Bronze Leggings
-    12961,  1116, 3, -- Brass Leggings
-    12952,   302, 3, -- Leather Highboots
+    xi.items.CHAIN_HOSE,                11340, 1,
+    xi.items.GREAVES,                    6966, 1,
+    xi.items.KITE_SHIELD,               10281, 1,
+    xi.items.MAHOGANY_SHIELD,            4482, 2,
+    xi.items.STUDDED_TROUSERS,          16552, 2,
+    xi.items.STUDDED_BOOTS,             10054, 2,
+    xi.items.MAPLE_SHIELD,                544, 3,
+    xi.items.BRONZE_SUBLIGAR,             187, 3,
+    xi.items.BRASS_SUBLIGAR,             1800, 3,
+    xi.items.LEATHER_TROUSERS,            482, 3,
+    xi.items.BRONZE_LEGGINGS,             115, 3,
+    xi.items.BRASS_LEGGINGS,             1116, 3,
+    xi.items.LEATHER_HIGHBOOTS,           302, 3,
 }
 
 xi.eraShops.Ferdoulemiont =
 {
-    845,   1125, 1, -- Black Chocobo Feather
-    17307,    9, 2, -- Dart
-    17862,  680, 3, -- Bug Broth
-    17866,  680, 3, -- Carrion Broth
-    17860,   81, 3, -- Carrot Broth
-    17864,  124, 3, -- Herbal Broth
-    840,      7, 3, -- Chocobo Feather
-    4545,    61, 3, -- Gysahl Greens
-    17016,   10, 3, -- Pet Food Alpha Biscuit
-    17017,   81, 3, -- Pet Food Beta Biscuit
-    5073, 49680, 3, -- Scroll of Chocobo Mazurka
-    4997,    16, 3, -- Scroll of Knight's Minne
-    4998,   864, 3, -- Scroll of Knight's Minne II
-    4999,  5148, 3, -- Scroll of Knight's Minne III
-    2343,  1984, 3, -- La Theine Millet
+    xi.items.BLACK_CHOCOBO_FEATHER,       1125, 1,
+    xi.items.DART,                         9, 2,
+    xi.items.JUG_OF_BUG_BROTH,           680, 3,
+    xi.items.JUG_OF_CARRION_BROTH,       680, 3,
+    xi.items.JUG_OF_CARROT_BROTH,         81, 3,
+    xi.items.JUG_OF_HERBAL_BROTH,        124, 3,
+    xi.items.CHOCOBO_FEATHER,                7, 3,
+    xi.items.BUNCH_OF_GYSAHL_GREENS,       61, 3,
+    xi.items.PET_FOOD_ALPHA_BISCUIT,      10, 3,
+    xi.items.PET_FOOD_BETA_BISCUIT,       81, 3,
+    xi.items.SCROLL_OF_CHOCOBO_MAZURKA, 49680, 3,
+    xi.items.SCROLL_OF_KNIGHTS_MINNE,      16, 3,
+    xi.items.SCROLL_OF_KNIGHTS_MINNE_II,   864, 3,
+    xi.items.SCROLL_OF_KNIGHTS_MINNE_III,  5148, 3,
+    xi.items.LA_THEINE_MILLET,           1984, 3,
 }
 
 xi.eraShops.Benaige =
 {
-    628,   234, 1, -- Cinnamon
-    629,    43, 1, -- Millioncorn
-    622,    43, 2, -- Dried Marjoram
-    610,    54, 2, -- San d'Orian Flour
-    1840, 1800, 2, -- Semolina
-    627,    36, 2, -- Maple Sugar
-    621,    25, 3, -- Crying Mustard
-    611,    36, 3, -- Rye Flour
-    936,    14, 3, -- Rock Salt
-    4509,   10, 3, -- Distilled Water
-    5234,  198, 3, -- Cibol
+    xi.items.STICK_OF_CINNAMON,           234, 1,
+    xi.items.EAR_OF_MILLIONCORN,           43, 1,
+    xi.items.PINCH_OF_DRIED_MARJORAM,      43, 2,
+    xi.items.BAG_OF_SAN_DORIAN_FLOUR,      54, 2,
+    xi.items.BAG_OF_SEMOLINA,           1800, 2,
+    xi.items.POT_OF_MAPLE_SUGAR,           36, 2,
+    xi.items.POT_OF_CRYING_MUSTARD,        25, 3,
+    xi.items.BAG_OF_RYE_FLOUR,             36, 3,
+    xi.items.CHUNK_OF_ROCK_SALT,           14, 3,
+    xi.items.FLASK_OF_DISTILLED_WATER,    10, 3,
+    xi.items.SPRIG_OF_CIBOL,             198, 3,
 }
 
 xi.eraShops.Ostalie =
 {
-    4128,  4445, 1,    -- Ether
-    4112,   837, 1,    -- Potion
-    4151,   736, 2,    -- Echo Drops
-    4148,   290, 3,    -- Antidote
-    12472,  144, 3,    -- Circlet
-    12728,  118, 3,    -- Cuffs
-    4150,  2387, 3,    -- Eye Drops
-    1021,   450, 3,    -- Hatchet
-    13192,  382, 3,    -- Leather Belt
-    13193, 2430, 3,    -- Lizard Belt
-    605,    180, 3,    -- Pickaxe
-    12600,  216, 3,    -- Robe
-    12856,  172, 3,    -- Slops
+    xi.items.ETHER,                      4445, 1,
+    xi.items.POTION,                      837, 1,
+    xi.items.FLASK_OF_ECHO_DROPS,         736, 2,
+    xi.items.ANTIDOTE,                    290, 3,
+    xi.items.CIRCLET,                    144, 3,
+    xi.items.CUFFS,                      118, 3,
+    xi.items.FLASK_OF_EYE_DROPS,         2387, 3,
+    xi.items.HATCHET,                     450, 3,
+    xi.items.LEATHER_BELT,               382, 3,
+    xi.items.LIZARD_BELT,               2430, 3,
+    xi.items.PICKAXE,                      180, 3,
+    xi.items.ROBE,                       216, 3,
+    xi.items.SLOPS,                      172, 3,
 }
 
 -- Windurst
 xi.eraShops.HohbibaMubiba =
 {
-    17051,  1440, 1, -- Yew Wand
-    17090,  3642, 1, -- Elm Staff
-    17097, 18422, 1, -- Elm Pole
-    17059,    91, 1, -- Bronze Rod
-    17050,   340, 2, -- Willow Wand
-    17026,  4945, 2, -- Bone Cudgel
-    17089,   584, 2, -- Holly Staff
-    17096,  4669, 2, -- Holly Pole
-    17049,    47, 3, -- Maple Wand
-    17024,    66, 3, -- Ash Club
-    17025,  1600, 3, -- Chestnut Club
-    17088,    58, 3, -- Ash Staff
-    17095,   386, 3, -- Ash Pole
-    16448,   140, 3, -- Bronze Dagger
+    xi.items.YEW_WAND,                   1440, 1,
+    xi.items.ELM_STAFF,                  3642, 1,
+    xi.items.ELM_POLE,                  18422, 1,
+    xi.items.BRONZE_ROD,                   91, 1,
+    xi.items.WILLOW_WAND,                 340, 2,
+    xi.items.BONE_CUDGEL,                4945, 2,
+    xi.items.HOLLY_STAFF,                 584, 2,
+    xi.items.HOLLY_POLE,                 4669, 2,
+    xi.items.MAPLE_WAND,                   47, 3,
+    xi.items.ASH_CLUB,                     66, 3,
+    xi.items.CHESTNUT_CLUB,              1600, 3,
+    xi.items.ASH_STAFF,                    58, 3,
+    xi.items.ASH_POLE,                    386, 3,
+    xi.items.BRONZE_DAGGER,               140, 3,
 }
 
 xi.eraShops.TanikoManiko =
 {
-    16769, 2542, 1, -- Brass Zaghnal
-    17154, 7999, 1, -- Wrapped Bow
-    17323,  141, 1, -- Ice Arrow
-    17324,  141, 1, -- Lighning Arrow
-    16405,  104, 2, -- Cat Baghnakhs
-    16385,  129, 2, -- Cesti
-    16649, 5864, 2, -- Bone Pick
-    17153,  493, 2, -- Self Bow
-    17318,    3, 2, -- Wooden Arrow
-    17308,   55, 2, -- Hawkeye
-    17280, 1610, 2, -- Boomerang
-    16642, 4198, 3, -- Bone Axe
-    16768,  309, 3, -- Bronze Zaghnal
-    16832,   97, 3, -- Harpoon
-    17152,   40, 3, -- Bone Axe
-    17319,    4, 3, -- Bone Arrow
+    xi.items.BRASS_ZAGHNAL,             2542, 1,
+    xi.items.WRAPPED_BOW,               7999, 1,
+    xi.items.ICE_ARROW,                  141, 1,
+    xi.items.LIGHTNING_ARROW,            141, 1,
+    xi.items.CAT_BAGHNAKHS,              104, 2,
+    xi.items.CESTI,                      129, 2,
+    xi.items.BONE_PICK,                 5864, 2,
+    xi.items.SELF_BOW,                   493, 2,
+    xi.items.WOODEN_ARROW,                 3, 2,
+    xi.items.HAWKEYE,                     55, 2,
+    xi.items.BOOMERANG,                 1610, 2,
+    xi.items.BONE_AXE,                  4198, 3,
+    xi.items.BRONZE_ZAGHNAL,             309, 3,
+    xi.items.HARPOON,                     97, 3,
+    xi.items.SHORTBOW,                    40, 3,
+    xi.items.BONE_ARROW,                   4, 3,
 }
 
 xi.eraShops.GurunaMaguruna =
 {
-    13090,  4714, 1, -- Beetle Gorget
-    12601,  2776, 1, -- Linen Robe
-    12729,  1570, 1, -- Linen Cuffs
-    12608,  1260, 2, -- Tunic
-    12593, 12355, 2, -- Cotton Doublet
-    12696,   324, 2, -- Leather Gloves
-    12736,   589, 2, -- Mitts
-    12721,  6696, 2, -- Cotton Gloves
-    13085,   972, 3, -- Hemp Gorget
-    12592,  2470, 3, -- Doublet
-    12600,   216, 3, -- Robe
-    12568,   604, 3, -- Leather Vest
-    12720,  1363, 3, -- Gloves
-    12728,   118, 3, -- Cuffs
+    xi.items.BEETLE_GORGET,              4714, 1,
+    xi.items.LINEN_ROBE,                 2776, 1,
+    xi.items.LINEN_CUFFS,                1570, 1,
+    xi.items.TUNIC,                      1260, 2,
+    xi.items.COTTON_DOUBLET,            12355, 2,
+    xi.items.LEATHER_GLOVES,              324, 2,
+    xi.items.MITTS,                       589, 2,
+    xi.items.COTTON_GLOVES,              6696, 2,
+    xi.items.HEMP_GORGET,                 972, 3,
+    xi.items.DOUBLET,                    2470, 3,
+    xi.items.ROBE,                        216, 3,
+    xi.items.LEATHER_VEST,                604, 3,
+    xi.items.GLOVES,                     1363, 3,
+    xi.items.CUFFS,                       118, 3,
 }
 
 xi.eraShops.Kumama =
 {
-    12857, 2268, 1, -- Linen Slops
-    12985, 1462, 1, -- Holly Clogs
-    12292, 4481, 1, -- Mahogony Shield
-    12824,  482, 2, -- Leather Trousers
-    12849, 9936, 2, -- Cotton Brais
-    12952,  309, 2, -- Leather Highboots
-    12992,  544, 2, -- Solea
-    12977, 6633, 2, -- Cotton Gaiters
-    12290,  556, 2, -- Maple Shield
-    12848, 1899, 3, -- Brais
-    12856,  172, 3, -- Slops
-    12976, 1269, 3, -- Gaiters
-    12984,  111, 3, -- Ash Clogs
-    12289,  110, 3, -- Lauan Shield
+    xi.items.LINEN_SLOPS,               2268, 1,
+    xi.items.HOLLY_CLOGS,               1462, 1,
+    xi.items.MAHOGANY_SHIELD,           4481, 1,
+    xi.items.LEATHER_TROUSERS,           482, 2,
+    xi.items.COTTON_BRAIS,              9936, 2,
+    xi.items.LEATHER_HIGHBOOTS,          309, 2,
+    xi.items.SOLEA,                      544, 2,
+    xi.items.COTTON_GAITERS,            6633, 2,
+    xi.items.MAPLE_SHIELD,               556, 2,
+    xi.items.BRAIS,                     1899, 3,
+    xi.items.SLOPS,                      172, 3,
+    xi.items.GAITERS,                   1269, 3,
+    xi.items.ASH_CLOGS,                  111, 3,
+    xi.items.LAUAN_SHIELD,               110, 3,
 }
 
 -- Windurst Woods
@@ -670,12 +670,12 @@ xi.eraShops.OrezEbrez =
 -- Windurst Woods
 xi.eraShops.Mono_Nchaa =
 {
-    17318,    3, 2, -- Wooden Arrow
-    17308,   55, 2, -- Hawkeye
-    17216,  165, 2, -- Light Crossbow
-    17319,    4, 3, -- Bone Arrow
-    17336,    5, 3, -- Crossbow Bolt
-    5009,  2649, 3, -- Scroll of Hunter's Prelude
+    xi.items.WOODEN_ARROW,                 3, 2,
+    xi.items.HAWKEYE,                     55, 2,
+    xi.items.LIGHT_CROSSBOW,             165, 2,
+    xi.items.BONE_ARROW,                   4, 3,
+    xi.items.CROSSBOW_BOLT,                5, 3,
+    xi.items.SCROLL_OF_HUNTERS_PRELUDE,  2649, 3,
 }
 
 
