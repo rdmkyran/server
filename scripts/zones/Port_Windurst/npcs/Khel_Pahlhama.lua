@@ -16,7 +16,7 @@ end
 entity.onTrigger = function(player, npc)
     local stock =
     {
-        xi.items.NEW_LINKSHELL,              8000,
+        xi.items.NEW_LINKSHELL, 8000,
     }
 
     player:showText(npc, ID.text.KHEL_PAHLHAMA_SHOP_DIALOG, 513)
