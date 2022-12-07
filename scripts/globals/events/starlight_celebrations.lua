@@ -45,17 +45,17 @@ function xi.events.starlightCelebration.onStarlightSmilebringersTrade(player, tr
         ----------------------
         local gifts_table =
         {
-            1742, -- Present for Kiddies
-            1743, -- Present for Kiddies
-            1744, -- Present for Kiddies
-            1745, -- Present for Kiddies
-            4215, -- Popstar
-            4216, -- Brilliant Snow
-            4217, -- Sparkling Hand
-            4218, -- Air Rider
-            4167, -- Cracker
-            4168, -- Twinkle Shower
-            4169, -- Little Comet
+            xi.items.PRESENT_FOR_THE_KIDDIES,
+            xi.items.PRESENT_FOR_THE_KIDDIES_II,
+            xi.items.PRESENT_FOR_THE_KIDDIES_III,
+            xi.items.PRESENT_FOR_THE_KIDDIES_IV,
+            xi.items.POPSTAR,
+            xi.items.BRILLIANT_SNOW,
+            xi.items.SPARKLING_HAND,
+            xi.items.AIR_RIDER,
+            xi.items.CRACKER,
+            xi.items.TWINKLE_SHOWER,
+            xi.items.LITTLE_COMET,
         }
 
         local presents_table =
@@ -133,18 +133,18 @@ function xi.events.starlightCelebration.npcGiftsMoogleOnFinish(player, id, csid,
         local hasToken = player:hasKeyItem(xi.keyItem.SNOW_THEMED_GIFT_TOKEN)
         local gift_table =
         {
-            5622,   -- Candy Cane
-            5621,   -- Candy Ring
+            xi.items.CANDY_CANE,
+            xi.items.CANDY_RING,
         }
         local fireworks_table =
         {
-            4215, -- Popstar
-            4216, -- Brilliant Snow
-            4217, -- Sparkling Hand
-            4218, -- Air Rider
-            4167, -- Cracker
-            4168, -- Twinkle Shower
-            4169, -- Little Comet
+            xi.items.POPSTAR,
+            xi.items.BRILLIANT_SNOW,
+            xi.items.SPARKLING_HAND,
+            xi.items.AIR_RIDER,
+            xi.items.CRACKER,
+            xi.items.TWINKLE_SHOWER,
+            xi.items.LITTLE_COMET,
         }
         if hasToken == true then
             npcUtil.giveItem(player, gift_table[math.random(1, 2)])
@@ -223,40 +223,40 @@ function xi.events.starlightCelebration.tokenMoogleOnFinish(player, id, csid, op
             {
                 SNOW_TOKEN =
                 {
-                    5552,   -- Black Pudding
-                    18863,  -- Dream Bell
-                    10382,  -- Dream Mittens
-                    10383,  -- Dream Mittens +1
-                    5542,   -- Gateau Aux Fraises
-                    5616,   -- Lebkuchen House
-                    5622,   -- Candy Cane
-                    5621,   -- Candy Ring
-                    177,    -- Snowman Miner
-                    115,    -- Bastokan Tree
+                    xi.items.SERVING_OF_BLACK_PUDDING,
+                    xi.items.DREAM_BELL,
+                    xi.items.DREAM_MITTENS,
+                    xi.items.DREAM_MITTENS_P1,
+                    xi.items.GATEAU_AUX_FRAISES,
+                    xi.items.LEBKUCHEN_HOUSE,
+                    xi.items.CANDY_CANE,
+                    xi.items.CANDY_RING,
+                    xi.items.SNOWMAN_MINER,
+                    xi.items.BASTOKAN_HOLIDAY_TREE,
                 },
                 BELL_TOKEN =
                 {
-                    5552,   -- Black Pudding
-                    5621,   -- Candy Ring
-                    18863,  -- Dream Bell
-                    15752,  -- Dream Boots
-                    15753,  -- Dream Boots +1
-                    5620,   -- Roast Turkey
-                    178,    -- Snowman Mage
-                    116,    -- Windurstian Tree
+                    xi.items.SERVING_OF_BLACK_PUDDING,
+                    xi.items.CANDY_RING,
+                    xi.items.DREAM_BELL,
+                    xi.items.DREAM_BOOTS,
+                    xi.items.DREAM_BOOTS_P1,
+                    xi.items.ROAST_TURKEY,
+                    xi.items.SNOWMAN_MAGE,
+                    xi.items.WINDURSTIAN_HOLIDAY_TREE,
                 },
                 STAR_TOKEN =
                 {
-                    5550,   -- Buche au Chocolat
-                    5622,   -- Candy Cane
-                    5621,   -- Candy Ring
-                    18863,  -- Dream Bell
-                    14519,  -- Dream Robe
-                    14520,  -- Dream Robe +1
-                    5542,   -- Gateau Aux Fraises
-                    5620,   -- Roast Turkey
-                    176,    -- Snowman Knight
-                    86,     -- San d'Orian Tree
+                    xi.items.ROLL_OF_BUCHE_AU_CHOCOLAT,
+                    xi.items.CANDY_CANE,
+                    xi.items.CANDY_RING,
+                    xi.items.DREAM_BELL,
+                    xi.items.DREAM_ROBE,
+                    xi.items.DREAM_ROBE_P1,
+                    xi.items.GATEAU_AUX_FRAISES,
+                    xi.items.ROAST_TURKEY,
+                    xi.items.SNOWMAN_KNIGHT,
+                    xi.items.SAN_DORIAN_HOLIDAY_TREE,
                 },
             }
 
