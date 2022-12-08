@@ -29,7 +29,7 @@ entity.onTrigger = function(player, npc)
         xi.items.CHAIN_HOSE,                11592, 3,
         xi.items.BRONZE_LEGGINGS,             117, 3,
         xi.items.GREAVES,                    7120, 3,
-        -- 12290,   556, 3, -- Maple Shield (WoTG)
+        -- xi.items.MAPLE_SHIELD,                556, 3,
         xi.items.LAUAN_SHIELD,                110, 3,
     }
 

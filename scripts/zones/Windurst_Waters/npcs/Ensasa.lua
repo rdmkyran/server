@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 require("scripts/globals/events/harvest_festivals")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 local ID = require("scripts/zones/Windurst_Waters/IDs")
 -----------------------------------
@@ -19,20 +20,20 @@ entity.onTrigger = function(player, npc)
 
     local stock =
     {
-        104,   3881, 1, -- Tarutaru Folding Screen
-        17336,    5, 2, -- Crossbow Bolt
-        17318,    3, 2, -- Wooden Arrow
-        112,    456, 2, -- Yellow Jar
-        17319,    4, 3, -- Bone Arrow
-        218,    920, 3, -- Earthen Flowerpot
-        17396,    3, 3, -- Little Worm
-        17395,    9, 3, -- Lugworm
-        1890,   576, 3, -- River Foliage
-        5065,   283, 3, -- Earth Threnody
-        5062,   644, 3, -- Fire Threnody
-        1891,   576, 3, -- Sea Foliage
-        92,     905, 3, -- Tarutaru Stool
-        110,   4744, 3, -- White Jar
+        xi.items.TARUTARU_FOLDING_SCREEN,     3881, 1,
+        xi.items.CROSSBOW_BOLT,                5, 2,
+        xi.items.WOODEN_ARROW,                 3, 2,
+        xi.items.YELLOW_JAR,                   456, 2,
+        xi.items.BONE_ARROW,                   4, 3,
+        xi.items.EARTHEN_FLOWERPOT,            920, 3,
+        xi.items.LITTLE_WORM,                  3, 3,
+        xi.items.LUGWORM,                      9, 3,
+        xi.items.BUNDLE_OF_RIVER_FOLIAGE,     576, 3,
+        xi.items.SCROLL_OF_EARTH_THRENODY,    283, 3,
+        xi.items.SCROLL_OF_FIRE_THRENODY,     644, 3,
+        xi.items.BUNDLE_OF_SEA_FOLIAGE,       576, 3,
+        xi.items.TARUTARU_STOOL,                905, 3,
+        xi.items.WHITE_JAR,                   4744, 3,
     }
 
     xi.shop.nation(player, stock, xi.nation.WINDURST)

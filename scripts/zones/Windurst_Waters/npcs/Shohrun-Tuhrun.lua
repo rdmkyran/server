@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 require("scripts/globals/shop")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Windurst_Waters/IDs")
 -----------------------------------
 local entity = {}
@@ -17,22 +18,22 @@ entity.onTrigger = function(player, npc)
 
     local stock =
     {
-        4665, 18000, 1, -- Haste
-        4620,  5178, 2, -- Scroll of Raise
-        4632, 10080, 2, -- Scroll of Dia II
-        4637,  8100, 2, -- Scroll of Banish II
-        4652,  6366, 2, -- Scroll of Protect II
-        4657, 15840, 2, -- Scroll of Shell II
-        4708,  4644, 2, -- Scroll of Enfire
-        4709,  3688, 2, -- Scroll of Enblizzard
-        4710,  2250, 2, -- Scroll of Enaero
-        4711,  1827, 2, -- Scroll of Enstone
-        4712,  1363, 2, -- Scroll of Enthunder
-        4713,  6366, 2, -- Scroll of Enwater
-        4611,  3261, 3, -- Scroll of Cure III
-        4654, 78200, 3, -- Scroll of Protect IV
-        4736, 74520, 3, -- Scroll of Protectra IV
-        4868, 64400, 3, -- Scroll of Dispel
+        xi.items.SCROLL_OF_HASTE,           18000, 1,
+        xi.items.SCROLL_OF_RAISE,            5178, 2,
+        xi.items.SCROLL_OF_DIA_II,          10080, 2,
+        xi.items.SCROLL_OF_BANISH_II,        8100, 2,
+        xi.items.SCROLL_OF_PROTECT_II,       6366, 2,
+        xi.items.SCROLL_OF_SHELL_II,        15840, 2,
+        xi.items.SCROLL_OF_ENFIRE,           4644, 2,
+        xi.items.SCROLL_OF_ENBLIZZARD,       3688, 2,
+        xi.items.SCROLL_OF_ENAERO,           2250, 2,
+        xi.items.SCROLL_OF_ENSTONE,          1827, 2,
+        xi.items.SCROLL_OF_ENTHUNDER,        1363, 2,
+        xi.items.SCROLL_OF_ENWATER,          6366, 2,
+        xi.items.SCROLL_OF_CURE_III,         3261, 3,
+        xi.items.SCROLL_OF_PROTECT_IV,      78200, 3,
+        xi.items.SCROLL_OF_PROTECTRA_IV,    74520, 3,
+        xi.items.SCROLL_OF_DISPEL,          64400, 3,
     }
 
     xi.shop.nation(player, stock, xi.nation.WINDURST)

@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 require("scripts/globals/shop")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Windurst_Waters/IDs")
 -----------------------------------
 local entity = {}
@@ -17,21 +18,21 @@ entity.onTrigger = function(player, npc)
 
     local stock =
     {
-        4411,   756, 1, -- Dhalmel Pie
-        4434,  5050, 1, -- Mushroom Risotto
-        4554, 12762, 1, -- Shallops Tropicale
-        4393,   984, 1, -- Orange Kuchen
-        4506,  5216, 2, -- Mutton Tortilla
-        4440,  6064, 2, -- Whitefish Stew
-        4572,  1669, 2, -- Beaugreen Saute
-        4422,   184, 2, -- Orange Juice
-        4438,  1324, 2, -- Dhalmel Steak
-        4408,   128, 3, -- Tortilla
-        4492,   552, 3, -- Puls
-        4433,  2387, 3, -- Dhalmel Stew
-        4509,    10, 3, -- Distilled Water
-        4493,   184, 3, -- Windurstian Tea
-        4555,  1711, 3, -- Windurst Salad
+        xi.items.DHALMEL_PIE,                 756, 1,
+        xi.items.PLATE_OF_MUSHROOM_RISOTTO,  5050, 1,
+        xi.items.SERVING_OF_SHALLOPS_TROPICALE, 12762, 1,
+        xi.items.ORANGE_KUCHEN,               984, 1,
+        xi.items.MUTTON_TORTILLA,            5216, 2,
+        xi.items.BOWL_OF_WHITEFISH_STEW,     6064, 2,
+        xi.items.SERVING_OF_BEAUGREEN_SAUTE,  1669, 2,
+        xi.items.BOTTLE_OF_ORANGE_JUICE,      184, 2,
+        xi.items.DHALMEL_STEAK,              1324, 2,
+        xi.items.TORTILLA,                    128, 3,
+        xi.items.BOWL_OF_PULS,                552, 3,
+        xi.items.BOWL_OF_DHALMEL_STEW,       2387, 3,
+        xi.items.FLASK_OF_DISTILLED_WATER,     10, 3,
+        xi.items.CUP_OF_WINDURSTIAN_TEA,      184, 3,
+        xi.items.WINDURST_SALAD,             1711, 3,
     }
 
     xi.shop.nation(player, stock, xi.nation.WINDURST)

@@ -18,7 +18,7 @@ entity.onTrigger = function(player, npc)
     {
         xi.items.FASTWATER_FISHING_ROD,      1238, 3,
         xi.items.SINGLE_HOOK_FISHING_ROD,   11845, 3,
-        -- 4148,    290, 3,    -- Antidote (2018)
+        -- xi.items.ANTIDOTE,                     290, 3,
     }
 
     player:showText(npc, ID.text.POHKA_SHOP_DIALOG)

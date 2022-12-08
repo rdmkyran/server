@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 require("scripts/globals/shop")
+require("scripts/globals/items")
 local ID = require("scripts/zones/Windurst_Waters/IDs")
 -----------------------------------
 local entity = {}
@@ -17,22 +18,22 @@ entity.onTrigger = function(player, npc)
 
     local stock =
     {
-        12466, 20000, 1, -- Red Cap
-        12458,  8972, 1, -- Soil Hachimaki
-        12455,  7026, 1, -- Beetle Mask
-        12472,   144, 2, -- Circlet
-        12465,  8024, 2, -- Cotton Headgear
-        12440,   396, 2, -- Leather Bandana
-        12473,  1863, 2, -- Poet's Circlet
-        12499, 14400, 2, -- Flax Headband
-        12457,  3272, 2, -- Cotton Hachimaki
-        12474, 10924, 2, -- Wool Hat
-        12464,  1742, 3, -- Headgear
-        12456,   552, 3, -- Hachimaki
-        12498,  1800, 3, -- Cotton Headband
-        12448,   151, 3, -- Bronze Cap
-        12449,  1471, 3, -- Brass Cap
-        12543,   690, 3, -- Windshear Hat
+        xi.items.RED_CAP,                   20000, 1,
+        xi.items.SOIL_HACHIMAKI,             8972, 1,
+        xi.items.BEETLE_MASK,                7026, 1,
+        xi.items.CIRCLET,                     144, 2,
+        xi.items.COTTON_HEADGEAR,            8024, 2,
+        xi.items.LEATHER_BANDANA,             396, 2,
+        xi.items.POETS_CIRCLET,              1863, 2,
+        xi.items.FLAX_HEADBAND,             14400, 2,
+        xi.items.COTTON_HACHIMAKI,           3272, 2,
+        xi.items.WOOL_HAT,                  10924, 2,
+        xi.items.HEADGEAR,                   1742, 3,
+        xi.items.HACHIMAKI,                   552, 3,
+        xi.items.COTTON_HEADBAND,            1800, 3,
+        xi.items.BRONZE_CAP,                  151, 3,
+        xi.items.BRASS_CAP,                  1471, 3,
+        xi.items.WINDSHEAR_HAT,               690, 3,
     }
 
     xi.shop.nation(player, stock, xi.nation.WINDURST)

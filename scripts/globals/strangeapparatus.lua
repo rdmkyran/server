@@ -23,7 +23,6 @@ xi = xi or {}
 -- }
 -----------------------------------
 
--- TODO: Use xi.items enum
 local strAppData =
 {
     [xi.zone.DANGRUF_WADI] =
@@ -34,19 +33,19 @@ local strAppData =
         cluster = xi.items.FIRE_CLUSTER,
         drop    =
         {
-            17093, 0.0400, 1, -- rune_staff
-            17461, 0.0800, 1, -- rune_rod
-            18084, 0.1200, 1, -- rune_halberd
-            17158, 0.1600, 1, -- rune_bow
-            16563, 0.2000, 1, -- rune_blade
-            12742, 0.2400, 1, -- rune_bangles
-            16647, 0.2800, 1, -- rune_axe
-            18206, 0.3200, 1, -- rune_chopper
-            16408, 0.3600, 1, -- rune_baghnakhs
-            221,   0.4000, 1, -- arcane_flowerpot
-            17333, 0.5200, 6, -- rune_arrow
-            1229,  0.7000, 2, -- adaman_nugget
-            931,   1.0000, 8, -- cermet_chunk
+            xi.items.RUNE_STAFF,                0.0400, 1,
+            xi.items.RUNE_ROD,                  0.0800, 1,
+            xi.items.RUNE_HALBERD,              0.1200, 1,
+            xi.items.RUNE_BOW,                  0.1600, 1,
+            xi.items.RUNE_BLADE,                0.2000, 1,
+            xi.items.RUNE_BANGLES,              0.2400, 1,
+            xi.items.RUNE_AXE,                  0.2800, 1,
+            xi.items.RUNE_CHOPPER,              0.3200, 1,
+            xi.items.RUNE_BAGHNAKHS,            0.3600, 1,
+            xi.items.ARCANE_FLOWERPOT,            0.4000, 1,
+            xi.items.RUNE_ARROW,                0.5200, 6,
+            xi.items.ADAMAN_NUGGET,              0.7000, 2,
+            xi.items.CERMET_CHUNK,                1.0000, 8,
         },
     },
     [xi.zone.ORDELLES_CAVES] =
@@ -57,19 +56,19 @@ local strAppData =
         cluster = xi.items.WIND_CLUSTER,
         drop    =
         {
-            17093, 0.0400, 1, -- rune_staff
-            17461, 0.0800, 1, -- rune_rod
-            18084, 0.1200, 1, -- rune_halberd
-            17158, 0.1600, 1, -- rune_bow
-            16563, 0.2000, 1, -- rune_blade
-            12742, 0.2400, 1, -- rune_bangles
-            16647, 0.2800, 1, -- rune_axe
-            18206, 0.3200, 1, -- rune_chopper
-            16408, 0.3600, 1, -- rune_baghnakhs
-            221,   0.4000, 1, -- arcane_flowerpot
-            17333, 0.5200, 6, -- rune_arrow
-            1229,  0.7000, 2, -- adaman_nugget
-            931,   1.0000, 8, -- cermet_chunk
+            xi.items.RUNE_STAFF,                0.0400, 1,
+            xi.items.RUNE_ROD,                  0.0800, 1,
+            xi.items.RUNE_HALBERD,              0.1200, 1,
+            xi.items.RUNE_BOW,                  0.1600, 1,
+            xi.items.RUNE_BLADE,                0.2000, 1,
+            xi.items.RUNE_BANGLES,              0.2400, 1,
+            xi.items.RUNE_AXE,                  0.2800, 1,
+            xi.items.RUNE_CHOPPER,              0.3200, 1,
+            xi.items.RUNE_BAGHNAKHS,            0.3600, 1,
+            xi.items.ARCANE_FLOWERPOT,            0.4000, 1,
+            xi.items.RUNE_ARROW,                0.5200, 6,
+            xi.items.ADAMAN_NUGGET,              0.7000, 2,
+            xi.items.CERMET_CHUNK,                1.0000, 8,
         },
     },
     [xi.zone.OUTER_HORUTOTO_RUINS] =
@@ -80,19 +79,19 @@ local strAppData =
         cluster = xi.items.LIGHTNING_CLUSTER,
         drop    =
         {
-            17093, 0.0400, 1, -- rune_staff
-            17461, 0.0800, 1, -- rune_rod
-            18084, 0.1200, 1, -- rune_halberd
-            17158, 0.1600, 1, -- rune_bow
-            16563, 0.2000, 1, -- rune_blade
-            12742, 0.2400, 1, -- rune_bangles
-            16647, 0.2800, 1, -- rune_axe
-            18206, 0.3200, 1, -- rune_chopper
-            16408, 0.3600, 1, -- rune_baghnakhs
-            221,   0.4000, 1, -- arcane_flowerpot
-            17333, 0.5200, 6, -- rune_arrow
-            1229,  0.7000, 2, -- adaman_nugget
-            931,   1.0000, 8, -- cermet_chunk
+            xi.items.RUNE_STAFF,                0.0400, 1,
+            xi.items.RUNE_ROD,                  0.0800, 1,
+            xi.items.RUNE_HALBERD,              0.1200, 1,
+            xi.items.RUNE_BOW,                  0.1600, 1,
+            xi.items.RUNE_BLADE,                0.2000, 1,
+            xi.items.RUNE_BANGLES,              0.2400, 1,
+            xi.items.RUNE_AXE,                  0.2800, 1,
+            xi.items.RUNE_CHOPPER,              0.3200, 1,
+            xi.items.RUNE_BAGHNAKHS,            0.3600, 1,
+            xi.items.ARCANE_FLOWERPOT,            0.4000, 1,
+            xi.items.RUNE_ARROW,                0.5200, 6,
+            xi.items.ADAMAN_NUGGET,              0.7000, 2,
+            xi.items.CERMET_CHUNK,                1.0000, 8,
         },
     },
     [xi.zone.THE_ELDIEME_NECROPOLIS] =
@@ -103,19 +102,19 @@ local strAppData =
         cluster = xi.items.ICE_CLUSTER,
         drop    =
         {
-            17093, 0.0400, 1, -- rune_staff
-            17461, 0.0800, 1, -- rune_rod
-            18084, 0.1200, 1, -- rune_halberd
-            17158, 0.1600, 1, -- rune_bow
-            16563, 0.2000, 1, -- rune_blade
-            12742, 0.2400, 1, -- rune_bangles
-            16647, 0.2800, 1, -- rune_axe
-            18206, 0.3200, 1, -- rune_chopper
-            16408, 0.3600, 1, -- rune_baghnakhs
-            221,   0.4000, 1, -- arcane_flowerpot
-            17333, 0.5200, 6, -- rune_arrow
-            1229,  0.7000, 2, -- adaman_nugget
-            931,   1.0000, 8, -- cermet_chunk
+            xi.items.RUNE_STAFF,                0.0400, 1,
+            xi.items.RUNE_ROD,                  0.0800, 1,
+            xi.items.RUNE_HALBERD,              0.1200, 1,
+            xi.items.RUNE_BOW,                  0.1600, 1,
+            xi.items.RUNE_BLADE,                0.2000, 1,
+            xi.items.RUNE_BANGLES,              0.2400, 1,
+            xi.items.RUNE_AXE,                  0.2800, 1,
+            xi.items.RUNE_CHOPPER,              0.3200, 1,
+            xi.items.RUNE_BAGHNAKHS,            0.3600, 1,
+            xi.items.ARCANE_FLOWERPOT,            0.4000, 1,
+            xi.items.RUNE_ARROW,                0.5200, 6,
+            xi.items.ADAMAN_NUGGET,              0.7000, 2,
+            xi.items.CERMET_CHUNK,                1.0000, 8,
         },
     },
     [xi.zone.GUSGEN_MINES] =
@@ -126,19 +125,19 @@ local strAppData =
         cluster = xi.items.EARTH_CLUSTER,
         drop    =
         {
-            17093, 0.0400, 1, -- rune_staff
-            17461, 0.0800, 1, -- rune_rod
-            18084, 0.1200, 1, -- rune_halberd
-            17158, 0.1600, 1, -- rune_bow
-            16563, 0.2000, 1, -- rune_blade
-            12742, 0.2400, 1, -- rune_bangles
-            16647, 0.2800, 1, -- rune_axe
-            18206, 0.3200, 1, -- rune_chopper
-            16408, 0.3600, 1, -- rune_baghnakhs
-            221,   0.4000, 1, -- arcane_flowerpot
-            17333, 0.5200, 6, -- rune_arrow
-            1229,  0.7000, 2, -- adaman_nugget
-            931,   1.0000, 8, -- cermet_chunk
+            xi.items.RUNE_STAFF,                0.0400, 1,
+            xi.items.RUNE_ROD,                  0.0800, 1,
+            xi.items.RUNE_HALBERD,              0.1200, 1,
+            xi.items.RUNE_BOW,                  0.1600, 1,
+            xi.items.RUNE_BLADE,                0.2000, 1,
+            xi.items.RUNE_BANGLES,              0.2400, 1,
+            xi.items.RUNE_AXE,                  0.2800, 1,
+            xi.items.RUNE_CHOPPER,              0.3200, 1,
+            xi.items.RUNE_BAGHNAKHS,            0.3600, 1,
+            xi.items.ARCANE_FLOWERPOT,            0.4000, 1,
+            xi.items.RUNE_ARROW,                0.5200, 6,
+            xi.items.ADAMAN_NUGGET,              0.7000, 2,
+            xi.items.CERMET_CHUNK,                1.0000, 8,
         },
     },
     [xi.zone.CRAWLERS_NEST] =
@@ -149,19 +148,19 @@ local strAppData =
         cluster = xi.items.WATER_CLUSTER,
         drop    =
         {
-            17093, 0.0400, 1, -- rune_staff
-            17461, 0.0800, 1, -- rune_rod
-            18084, 0.1200, 1, -- rune_halberd
-            17158, 0.1600, 1, -- rune_bow
-            16563, 0.2000, 1, -- rune_blade
-            12742, 0.2400, 1, -- rune_bangles
-            16647, 0.2800, 1, -- rune_axe
-            18206, 0.3200, 1, -- rune_chopper
-            16408, 0.3600, 1, -- rune_baghnakhs
-            221,   0.4000, 1, -- arcane_flowerpot
-            17333, 0.5200, 6, -- rune_arrow
-            1229,  0.7000, 2, -- adaman_nugget
-            931,   1.0000, 8, -- cermet_chunk
+            xi.items.RUNE_STAFF,                0.0400, 1,
+            xi.items.RUNE_ROD,                  0.0800, 1,
+            xi.items.RUNE_HALBERD,              0.1200, 1,
+            xi.items.RUNE_BOW,                  0.1600, 1,
+            xi.items.RUNE_BLADE,                0.2000, 1,
+            xi.items.RUNE_BANGLES,              0.2400, 1,
+            xi.items.RUNE_AXE,                  0.2800, 1,
+            xi.items.RUNE_CHOPPER,              0.3200, 1,
+            xi.items.RUNE_BAGHNAKHS,            0.3600, 1,
+            xi.items.ARCANE_FLOWERPOT,            0.4000, 1,
+            xi.items.RUNE_ARROW,                0.5200, 6,
+            xi.items.ADAMAN_NUGGET,              0.7000, 2,
+            xi.items.CERMET_CHUNK,                1.0000, 8,
         },
     },
     [xi.zone.MAZE_OF_SHAKHRAMI] =
@@ -172,19 +171,19 @@ local strAppData =
         cluster = xi.items.DARK_CLUSTER,
         drop    =
         {
-            17093, 0.0400, 1, -- rune_staff
-            17461, 0.0800, 1, -- rune_rod
-            18084, 0.1200, 1, -- rune_halberd
-            17158, 0.1600, 1, -- rune_bow
-            16563, 0.2000, 1, -- rune_blade
-            12742, 0.2400, 1, -- rune_bangles
-            16647, 0.2800, 1, -- rune_axe
-            18206, 0.3200, 1, -- rune_chopper
-            16408, 0.3600, 1, -- rune_baghnakhs
-            221,   0.4000, 1, -- arcane_flowerpot
-            17333, 0.5200, 6, -- rune_arrow
-            1229,  0.7000, 2, -- adaman_nugget
-            931,   1.0000, 8, -- cermet_chunk
+            xi.items.RUNE_STAFF,                0.0400, 1,
+            xi.items.RUNE_ROD,                  0.0800, 1,
+            xi.items.RUNE_HALBERD,              0.1200, 1,
+            xi.items.RUNE_BOW,                  0.1600, 1,
+            xi.items.RUNE_BLADE,                0.2000, 1,
+            xi.items.RUNE_BANGLES,              0.2400, 1,
+            xi.items.RUNE_AXE,                  0.2800, 1,
+            xi.items.RUNE_CHOPPER,              0.3200, 1,
+            xi.items.RUNE_BAGHNAKHS,            0.3600, 1,
+            xi.items.ARCANE_FLOWERPOT,            0.4000, 1,
+            xi.items.RUNE_ARROW,                0.5200, 6,
+            xi.items.ADAMAN_NUGGET,              0.7000, 2,
+            xi.items.CERMET_CHUNK,                1.0000, 8,
         },
     },
     [xi.zone.GARLAIGE_CITADEL] =
@@ -195,19 +194,19 @@ local strAppData =
         cluster = xi.items.LIGHT_CLUSTER,
         drop    =
         {
-            17093, 0.0400, 1, -- rune_staff
-            17461, 0.0800, 1, -- rune_rod
-            18084, 0.1200, 1, -- rune_halberd
-            17158, 0.1600, 1, -- rune_bow
-            16563, 0.2000, 1, -- rune_blade
-            12742, 0.2400, 1, -- rune_bangles
-            16647, 0.2800, 1, -- rune_axe
-            18206, 0.3200, 1, -- rune_chopper
-            16408, 0.3600, 1, -- rune_baghnakhs
-            221,   0.4000, 1, -- arcane_flowerpot
-            17333, 0.5200, 6, -- rune_arrow
-            1229,  0.7000, 2, -- adaman_nugget
-            931,   1.0000, 8, -- cermet_chunk
+            xi.items.RUNE_STAFF,                0.0400, 1,
+            xi.items.RUNE_ROD,                  0.0800, 1,
+            xi.items.RUNE_HALBERD,              0.1200, 1,
+            xi.items.RUNE_BOW,                  0.1600, 1,
+            xi.items.RUNE_BLADE,                0.2000, 1,
+            xi.items.RUNE_BANGLES,              0.2400, 1,
+            xi.items.RUNE_AXE,                  0.2800, 1,
+            xi.items.RUNE_CHOPPER,              0.3200, 1,
+            xi.items.RUNE_BAGHNAKHS,            0.3600, 1,
+            xi.items.ARCANE_FLOWERPOT,            0.4000, 1,
+            xi.items.RUNE_ARROW,                0.5200, 6,
+            xi.items.ADAMAN_NUGGET,              0.7000, 2,
+            xi.items.CERMET_CHUNK,                1.0000, 8,
         },
     },
 }

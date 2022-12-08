@@ -5,6 +5,7 @@
 -- Confirmed shop stock, August 2013
 -----------------------------------
 require("scripts/globals/events/harvest_festivals")
+require("scripts/globals/items")
 require("scripts/globals/shop")
 require("scripts/globals/conquest")
 local ID = require("scripts/zones/Windurst_Waters/IDs")
@@ -20,20 +21,20 @@ entity.onTrigger = function(player, npc)
 
     local stock =
     {
-        17313, 1107, 1, -- Grenade
-        4112,   837, 1, -- Potion
-        951,    108, 1, -- Wijnruit
-        636,    119, 2, -- Chamomile
-        4151,   736, 2, -- Echo Drops
-        4128,  4445, 2, -- Ether
-        4148,   290, 3, -- Antidote
-        1892,  3960, 3, -- Desalinator
-        622,     44, 3, -- Dried Marjoram
-        4150,  2387, 3, -- Eye Drops
-        605,    180, 3, -- Pickaxe
-        1893,  3960, 3, -- Salinator
-        1020,   276, 3, -- Sickle
-        1241,   354, 3, -- Twinkle Powder
+        xi.items.GRENADE,                   1107, 1,
+        xi.items.POTION,                      837, 1,
+        xi.items.WIJNRUIT,                     108, 1,
+        xi.items.CHAMOMILE,                    119, 2,
+        xi.items.FLASK_OF_ECHO_DROPS,         736, 2,
+        xi.items.ETHER,                      4445, 2,
+        xi.items.ANTIDOTE,                    290, 3,
+        xi.items.ONZ_OF_DESALINATOR,         3960, 3,
+        xi.items.PINCH_OF_DRIED_MARJORAM,       44, 3,
+        xi.items.FLASK_OF_EYE_DROPS,         2387, 3,
+        xi.items.PICKAXE,                      180, 3,
+        xi.items.SALINATOR,                  3960, 3,
+        xi.items.SICKLE,                      276, 3,
+        xi.items.PINCH_OF_TWINKLE_POWDER,     354, 3,
     }
 
     local rank = GetNationRank(xi.nation.WINDURST)
