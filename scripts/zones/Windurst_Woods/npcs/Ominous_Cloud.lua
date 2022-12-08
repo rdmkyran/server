@@ -5,48 +5,49 @@
 -- !pos -20.632 -3.939 -40.554 241
 -----------------------------------
 local ID = require("scripts/zones/Windurst_Woods/IDs")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
 entity.onTrade = function(player, npc, trade)
     local toolList =
     {
-        { 1161, 5308 }, -- uchitake
-        { 1164, 5309 }, -- tsurara
-        { 1167, 5310 }, -- kawahori-ogi
-        { 1170, 5311 }, -- makibishi
-        { 1173, 5312 }, -- hiraishin
-        { 1176, 5313 }, -- mizu-deppo
-        { 1179, 5314 }, -- shihei
-        { 1182, 5315 }, -- jusatsu
-        { 1185, 5316 }, -- kaginawa
-        { 1188, 5317 }, -- sairui-ran
-        { 1191, 5318 }, -- kodoku
-        { 1194, 5319 }, -- shinobi-tabi
-        { 2553, 5417 }, -- sanjaku-tenugui
-        { 2555, 5734 }, -- soshi
-        { 2642, 5863 }, -- kabenro
-        { 2643, 5864 }, -- jinko
-        { 2970, 5866 }, -- mokujin
-        { 2971, 5867 }, -- inoshishinofuda
-        { 2972, 5868 }, -- shikanofuda
-        { 2973, 5869 }, -- chonofuda
+        { xi.items.UCHITAKE,                  xi.items.TOOLBAG_UCHITAKE           },
+        { xi.items.TSURARA,                   xi.items.TOOLBAG_TSURARA            },
+        { xi.items.KAWAHORI_OGI,              xi.items.TOOLBAG_KAWAHORI_OGI       },
+        { xi.items.MAKIBISHI,                 xi.items.TOOLBAG_MAKIBISHI          },
+        { xi.items.HIRAISHIN,                 xi.items.TOOLBAG_HIRAISHIN          },
+        { xi.items.MIZU_DEPPO,                xi.items.TOOLBAG_MIZU_DEPPO         },
+        { xi.items.SHIHEI,                    xi.items.TOOLBAG_SHIHEI             },
+        { xi.items.JUSATSU,                   xi.items.TOOLBAG_JUSATSU            },
+        { xi.items.KAGINAWA,                  xi.items.TOOLBAG_KAGINAWA           },
+        { xi.items.SAIRUI_RAN,                xi.items.TOOLBAG_SAIRUI_RAN         },
+        { xi.items.KODOKU,                    xi.items.TOOLBAG_KODOKU             },
+        { xi.items.SHINOBI_TABI,              xi.items.TOOLBAG_SHINOBI_TABI       },
+        { xi.items.SANJAKU_TENUGUI,           xi.items.TOOLBAG_SANJAKU_TENUGUI    },
+        { xi.items.SOSHI,                     xi.items.TOOLBAG_SOSHI              },
+        { xi.items.KABENRO,                   xi.items.TOOLBAG_KABENRO            },
+        { xi.items.JINKO,                     xi.items.TOOLBAG_JINKO              },
+        { xi.items.MOKUJIN,                   xi.items.TOOLBAG_MOKUJIN            },
+        { xi.items.INOSHISHINOFUDA,           xi.items.TOOLBAG_INOSHISHINOFUDA    },
+        { xi.items.SHIKANOFUDA,               xi.items.TOOLBAG_SHIKANOFUDA        },
+        { xi.items.CHONOFUDA,                 xi.items.TOOLBAG_CHONOFUDA          },
 
-        { 17301, 6299 }, -- shuriken
-        { 17302, 6297 }, -- juji shuriken
-        { 17303, 6298 }, -- manji shuriken
-        { 17304, 6302 }, -- fuma shuriken
-        { 18712, 6300 }, -- koga shuriken
-        { 19783, 6303 }, -- iga shuriken
-        { 21351, 6304 }, -- roppo shuriken
-        { 21352, 6305 }, -- roppo shuriken +1
-        { 21353, 6306 }, -- happo shuriken
-        { 21354, 6307 }, -- happo shuriken +1
-        { 21355, 6308 }, -- hachiya shuriken
-        { 21356, 6309 }, -- suppa shuriken
-        { 21357, 6301 }, -- togakushi shuriken
-        { 22276, 6447 }, -- sasuke shuriken
-        { 22277, 6448 }, -- sasuke shuriken +1
+        { xi.items.SHURIKEN,                  xi.items.SHURIKEN_POUCH             },
+        { xi.items.JUJI_SHURIKEN,             xi.items.JUJI_SHURIKEN_POUCH        },
+        { xi.items.MANJI_SHURIKEN,            xi.items.MANJI_SHURIKEN_POUCH       },
+        { xi.items.FUMA_SHURIKEN,             xi.items.FUMA_SHURIKEN_POUCH        },
+        { xi.items.KOGA_SHURIKEN,             xi.items.KOGA_SHURIKEN_POUCH        },
+        { xi.items.IGA_SHURIKEN,              xi.items.IGA_SHURIKEN_POUCH         },
+        { xi.items.ROPPO_SHURIKEN,            xi.items.ROPPO_SHURIKEN_POUCH       },
+        { xi.items.ROPPO_SHURIKEN_P1,         xi.items.ROPPO_SHURIKEN_P1_POUCH    },
+        { xi.items.HAPPO_SHURIKEN,            xi.items.HAPPO_SHURIKEN_POUCH       },
+        { xi.items.HAPPO_SHURIKEN_P1,         xi.items.HAPPO_SHURIKEN_P1_POUCH    },
+        { xi.items.HACHIYA_SHURIKEN,          xi.items.HACHIYA_SHURIKEN_POUCH     },
+        { xi.items.SUPPA_SHURIKEN,            xi.items.SUPPA_SHURIKEN_POUCH       },
+        { xi.items.TOGAKUSHI_SHURIKEN,        xi.items.TOGAKUSHI_SHURIKEN_POUCH   },
+        { xi.items.SASUKE_SHURIKEN,           xi.items.SASUKE_SHURIKEN_POUCH      },
+        { xi.items.SASUKE_SHURIKEN_P1,        xi.items.SASUKE_SHURIKEN_POUCH_P1   },
     }
 
     local fruitNeeded = 0
