@@ -3,6 +3,7 @@
 -----------------------------------
 require("modules/module_utils")
 require("scripts/globals/shop")
+require("scripts/globals/items")
 -----------------------------------
 local m = Module:new("guild_no_kits")
 
