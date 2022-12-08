@@ -21,7 +21,7 @@ abilityObject.onAbilityCheck = function(player, target, ability)
         return xi.msg.basic.NO_EFFECT_ON_PET, 0
     else
         local id = player:getEquipID(xi.slot.AMMO)
-        if (id >= 17016 and id <= 17023) then
+        if (id >= xi.items.PET_FOOD_ALPHA_BISCUIT and id <= xi.items.PET_FOOD_THETA_BISCUIT) then
             local playerLevel = player:getMainLvl()
             local itemLevels = {}
             itemLevels[xi.items.PET_FOOD_ALPHA_BISCUIT] = 12

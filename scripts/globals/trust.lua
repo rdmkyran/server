@@ -8,6 +8,7 @@ require("scripts/globals/msg")
 require("scripts/globals/roe")
 require("scripts/globals/settings")
 require("scripts/globals/status")
+require("scripts/globals/items")
 -----------------------------------
 
 xi = xi or {}
@@ -212,7 +213,7 @@ end
 xi.trust.onTradeCipher = function(player, trade, csid, rovCs, arkAngelCs)
     local itemId   = trade:getItemId(0)
     local subId    = trade:getItemSubId(0)
-    local isCipher = itemId >= 10112 and itemId <= 10193
+    local isCipher = itemId >= xi.items.CIPHER_OF_ZEIDS_ALTER_EGO and itemId <= xi.items.CIPHER_OF_MONBERAUXS_ALTER_EGO
 
     -- subId is a smallInt in the database (16 bits).
     -- The bottom 12 bits of the subId are the spellId taught by the ciper
@@ -244,7 +245,7 @@ xi.trust.onTradeCipher = function(player, trade, csid, rovCs, arkAngelCs)
 
         -- TODO Blocking for ROV ciphers
         local rovBlock = false
-        local arkAngelCipher = itemId >= 10188 and itemId <= 10192
+        local arkAngelCipher = itemId >= xi.items.CIPHER_OF_AA_HMS_ALTER_EGO and itemId <= xi.items.CIPHER_OF_AA_GKS_ALTER_EGO
 
         if rovBlock then
             player:startEvent(rovCs)
