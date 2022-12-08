@@ -37,34 +37,34 @@ local digReq =
 
 local crystalMap =
 {
-    [xi.weather.HOT_SPELL    ] = 4096, -- fire crystal
-    [xi.weather.HEAT_WAVE    ] = 4104, -- fire cluster
-    [xi.weather.RAIN         ] = 4101, -- water crystal
-    [xi.weather.SQUALL       ] = 4109, -- water cluster
-    [xi.weather.DUST_STORM   ] = 4099, -- earth crystal
-    [xi.weather.SAND_STORM   ] = 4107, -- earth cluster
-    [xi.weather.WIND         ] = 4098, -- wind crystal
-    [xi.weather.GALES        ] = 4106, -- wind cluster
-    [xi.weather.SNOW         ] = 4097, -- ice crystal
-    [xi.weather.BLIZZARDS    ] = 4105, -- ice cluster
-    [xi.weather.THUNDER      ] = 4100, -- lightning crystal
-    [xi.weather.THUNDERSTORMS] = 4108, -- lightning cluster
-    [xi.weather.AURORAS      ] = 4102, -- light crystal
-    [xi.weather.STELLAR_GLARE] = 4110, -- light cluster
-    [xi.weather.GLOOM        ] = 4103, -- dark crystal
-    [xi.weather.DARKNESS     ] = 4111, -- dark cluster
+    [xi.weather.HOT_SPELL    ] = xi.items.FIRE_CRYSTAL,
+    [xi.weather.HEAT_WAVE    ] = xi.items.FIRE_CLUSTER,
+    [xi.weather.RAIN         ] = xi.items.WATER_CRYSTAL,
+    [xi.weather.SQUALL       ] = xi.items.WATER_CLUSTER,
+    [xi.weather.DUST_STORM   ] = xi.items.EARTH_CRYSTAL,
+    [xi.weather.SAND_STORM   ] = xi.items.EARTH_CLUSTER,
+    [xi.weather.WIND         ] = xi.items.WIND_CRYSTAL,
+    [xi.weather.GALES        ] = xi.items.WIND_CLUSTER,
+    [xi.weather.SNOW         ] = xi.items.ICE_CRYSTAL,
+    [xi.weather.BLIZZARDS    ] = xi.items.ICE_CLUSTER,
+    [xi.weather.THUNDER      ] = xi.items.LIGHTNING_CRYSTAL,
+    [xi.weather.THUNDERSTORMS] = xi.items.LIGHTNING_CLUSTER,
+    [xi.weather.AURORAS      ] = xi.items.LIGHT_CRYSTAL,
+    [xi.weather.STELLAR_GLARE] = xi.items.LIGHT_CLUSTER,
+    [xi.weather.GLOOM        ] = xi.items.DARK_CRYSTAL,
+    [xi.weather.DARKNESS     ] = xi.items.DARK_CLUSTER,
 }
 
 local oreMap =
 {
-    [xi.day.FIRESDAY    ] = 1255, -- fire ore
-    [xi.day.EARTHSDAY   ] = 1258, -- earth ore
-    [xi.day.WATERSDAY   ] = 1260, -- water ore
-    [xi.day.WINDSDAY    ] = 1257, -- wind ore
-    [xi.day.ICEDAY      ] = 1256, -- ice ore
-    [xi.day.LIGHTNINGDAY] = 1259, -- lightning ore
-    [xi.day.LIGHTSDAY   ] = 1261, -- light ore
-    [xi.day.DARKSDAY    ] = 1262, -- dark ore
+    [xi.day.FIRESDAY    ] = xi.items.CHUNK_OF_FIRE_ORE,
+    [xi.day.EARTHSDAY   ] = xi.items.CHUNK_OF_EARTH_ORE,
+    [xi.day.WATERSDAY   ] = xi.items.CHUNK_OF_WATER_ORE,
+    [xi.day.WINDSDAY    ] = xi.items.CHUNK_OF_WIND_ORE,
+    [xi.day.ICEDAY      ] = xi.items.CHUNK_OF_ICE_ORE,
+    [xi.day.LIGHTNINGDAY] = xi.items.CHUNK_OF_LIGHTNING_ORE,
+    [xi.day.LIGHTSDAY   ] = xi.items.CHUNK_OF_LIGHT_ORE,
+    [xi.day.DARKSDAY    ] = xi.items.CHUNK_OF_DARK_ORE,
 }
 
 -----------------------------------
@@ -1024,7 +1024,7 @@ local function getChocoboDiggingItem(player)
             }
 
             for _, v in pairs(moonPhases) do
-                if item[1] == 1255 then
+                if item[1] == xi.items.CHUNK_OF_FIRE_ORE then
                     if moon >= v[1] and moon <= v[2] then
                         itemWeight = itemWeight * v[3]
                     end
@@ -1070,7 +1070,7 @@ local function getChocoboDiggingItem(player)
         }
 
         for _, v in pairs(moonPhases) do
-            if possibleItems[i][1] == 1255 then
+            if possibleItems[i][1] == xi.items.CHUNK_OF_FIRE_ORE then
                 if moon >= v[1] and moon <= v[2] then
                     itemWeight = itemWeight * v[3]
                 end
@@ -1086,9 +1086,9 @@ local function getChocoboDiggingItem(player)
     end
 
     -- Item is a crystal or ore
-    if itemId == 4096 then
+    if itemId == xi.items.FIRE_CRYSTAL then
         itemId = crystalMap[weather]
-    elseif itemId == 1255 then
+    elseif itemId == xi.items.CHUNK_OF_FIRE_ORE then
         itemId = oreMap[VanadielDayOfTheWeek()]
     end
 
