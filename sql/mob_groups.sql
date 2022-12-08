@@ -9024,8 +9024,8 @@ INSERT INTO `mob_groups` VALUES (2,3120,128,'Peryton',330,0,1991,0,0,69,72,0);
 INSERT INTO `mob_groups` VALUES (3,1341,128,'Fire_Elemental',330,4,6860,0,0,66,68,0);
 INSERT INTO `mob_groups` VALUES (4,71,128,'Air_Elemental',330,4,0,0,0,66,68,0);
 INSERT INTO `mob_groups` VALUES (5,4125,128,'Valley_Manticore',330,0,2537,0,0,71,74,0);
-INSERT INTO `mob_groups` VALUES (6,44,128,'Adamantoise',0,128,21,10000,0,72,74,0);
-INSERT INTO `mob_groups` VALUES (7,268,128,'Aspidochelone',0,128,183,13000,0,85,88,0);
+INSERT INTO `mob_groups` VALUES (6,44,128,'Adamantoise',0,128,21,10000,0,70,70,0);
+INSERT INTO `mob_groups` VALUES (7,268,128,'Aspidochelone',0,128,183,13000,0,85,85,0);
 INSERT INTO `mob_groups` VALUES (8,3643,128,'Skahnowa',0,128,0,0,0,1,1,0);
 INSERT INTO `mob_groups` VALUES (9,6856,128,'Tolba',0,128,0,0,0,0,0,0);
 
@@ -11373,7 +11373,7 @@ INSERT INTO `mob_groups` VALUES (27,0,167,'Trion',0,128,0,0,0,0,0,0);
 -- Chamber_of_Oracles (Zone 168)
 -- ------------------------------------------------------------
 
-INSERT INTO `mob_groups` VALUES (1,673,168,'Centurio_V-III',0,128,8000,0,0,70,70,0);
+INSERT INTO `mob_groups` VALUES (1,673,168,'Centurio_V-III',0,128,0,8000,0,70,70,0);
 INSERT INTO `mob_groups` VALUES (2,4000,168,'Triarius_V-VIII',0,128,0,7000,0,68,68,0);
 INSERT INTO `mob_groups` VALUES (3,3194,168,'Princeps_V-XI',0,128,0,6800,0,68,68,0);
 INSERT INTO `mob_groups` VALUES (4,5345,168,'Maat_sam',0,128,0,2300,0,70,70,0);

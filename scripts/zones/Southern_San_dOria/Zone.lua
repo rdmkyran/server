@@ -32,6 +32,8 @@ zoneObject.onZoneIn = function(player, prevZone)
     then
         player:setPos(161, -2, 161, 94)
     end
+
+    xi.moghouse.exitJobChange(player, prevZone)
 end
 
 zoneObject.onConquestUpdate = function(zone, updatetype)
@@ -52,6 +54,8 @@ zoneObject.onEventFinish = function(player, csid, option)
     if csid == 503 then
         player:messageSpecial(ID.text.ITEM_OBTAINED, xi.items.ADVENTURER_COUPON)
     end
+
+    xi.moghouse.exitJobChangeFinish(player, csid, option)
 end
 
 return zoneObject

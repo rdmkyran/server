@@ -33,6 +33,8 @@ zoneObject.onZoneIn = function(player, prevZone)
         end
     end
 
+    xi.moghouse.exitJobChange(player, prevZone)
+
     return cs
 end
 
@@ -55,6 +57,8 @@ zoneObject.onEventFinish = function(player, csid, option)
     if csid == 10002 then
         player:setPos(0, 0, 0, 0, 225)
     end
+
+    xi.moghouse.exitJobChangeFinish(player, csid, option)
 end
 
 return zoneObject

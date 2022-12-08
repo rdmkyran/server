@@ -26,7 +26,7 @@ local riverneB01Global =
         ..............................................................................................]]
     unstableDisplacementTrigger = function(player, npc, event)
         if npc:getAnimation() == xi.anim.OPEN_DOOR then
-            player:startEvent(event)
+            player:startMenuEvent(event)
         else
             player:messageSpecial(ID.text.SD_VERY_SMALL)
         end

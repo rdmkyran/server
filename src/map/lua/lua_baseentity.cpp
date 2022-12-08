@@ -977,6 +977,18 @@ void CLuaBaseEntity::startOptionalCutscene(int32 EventID, sol::variadic_args va)
 }
 
 /************************************************************************
+ *  Function: startMenuEvent()
+ *  Purpose : Starts an event which is closable due to an attack.
+ *  Example : player:startMenuEvent(4)
+ *  Notes   : Event ID must be associated with the zone.
+ ************************************************************************/
+
+void CLuaBaseEntity::startMenuEvent(int32 EventID, sol::variadic_args va)
+{
+    StartEventHelper(EventID, va, EVENT_TYPE::MENU);
+}
+
+/************************************************************************
  *  Function: updateEvent()
  *  Purpose : Sends new arguments to an event
  *  Example : player:updateEvent(ring[1],ring[2],ring[3])
@@ -1094,25 +1106,13 @@ void CLuaBaseEntity::release(sol::object const& p0)
 {
     XI_DEBUG_BREAK_IF(m_PBaseEntity->objtype != TYPE_PC);
 
-    auto* PChar = static_cast<CCharEntity*>(m_PBaseEntity);
+    auto* PChar       = static_cast<CCharEntity*>(m_PBaseEntity);
+    uint8 stopMessage = (p0 != sol::lua_nil) ? p0.as<uint8>() : 0;
 
-    RELEASE_TYPE releaseType = RELEASE_TYPE::STANDARD;
-    uint8        stopMessage = (p0 != sol::lua_nil) ? p0.as<uint8>() : 0;
-
-    if (PChar->isInEvent())
+    if (PChar)
     {
-        // Message: Event skipped
-        releaseType = RELEASE_TYPE::SKIPPING;
-        if (stopMessage == 0)
-        {
-            PChar->pushPacket(new CMessageSystemPacket(0, 0, 117));
-        }
+        charutils::releaseEvent(PChar, stopMessage != 0);
     }
-
-    PChar->inSequence = false;
-    PChar->pushPacket(new CReleasePacket(PChar, releaseType));
-    PChar->pushPacket(new CReleasePacket(PChar, RELEASE_TYPE::EVENT));
-    PChar->endCurrentEvent();
 }
 
 /************************************************************************
@@ -3121,6 +3121,32 @@ void CLuaBaseEntity::setHomePoint()
 
     sql->Query(fmtQuery, PChar->profile.home_point.destination, PChar->profile.home_point.p.rotation, PChar->profile.home_point.p.x,
                PChar->profile.home_point.p.y, PChar->profile.home_point.p.z, PChar->id);
+}
+
+/************************************************************************
+ *  Function: isCurrentHomepoint()
+ *  Purpose : Checks to see if where the player is standing now is roughly its homepoint.
+ *  Example : player:isCurrentHomePoint()
+ *  Notes   : Used on moghouse exits after job change.
+ ************************************************************************/
+
+bool CLuaBaseEntity::isCurrentHomepoint()
+{
+    XI_DEBUG_BREAK_IF(m_PBaseEntity == nullptr || m_PBaseEntity->objtype != TYPE_PC);
+
+    auto* PChar         = static_cast<CCharEntity*>(m_PBaseEntity);
+    auto  currentZone   = PChar->loc.zone;
+    auto  homepointZone = PChar->profile.home_point.zone;
+    auto  pos           = PChar->loc.p;
+    auto  homepoint     = PChar->profile.home_point.p;
+
+    if ((abs(pos.x - homepoint.x) <= 1) && (abs(pos.y - homepoint.y) <= 1) &&
+        (abs(pos.z - homepoint.z) <= 1) && (currentZone == homepointZone))
+    {
+        return true;
+    }
+
+    return false;
 }
 
 /************************************************************************
@@ -15509,6 +15535,7 @@ void CLuaBaseEntity::Register()
     SOL_REGISTER("startEvent", CLuaBaseEntity::startEvent);
     SOL_REGISTER("startCutscene", CLuaBaseEntity::startCutscene);
     SOL_REGISTER("startOptionalCutscene", CLuaBaseEntity::startOptionalCutscene);
+    SOL_REGISTER("startMenuEvent", CLuaBaseEntity::startMenuEvent);
     SOL_REGISTER("startEventString", CLuaBaseEntity::startEventString);
     SOL_REGISTER("updateEvent", CLuaBaseEntity::updateEvent);
     SOL_REGISTER("updateEventString", CLuaBaseEntity::updateEventString);
@@ -15612,6 +15639,7 @@ void CLuaBaseEntity::Register()
     SOL_REGISTER("setTeleportMenu", CLuaBaseEntity::setTeleportMenu);
     SOL_REGISTER("getTeleportMenu", CLuaBaseEntity::getTeleportMenu);
     SOL_REGISTER("setHomePoint", CLuaBaseEntity::setHomePoint);
+    SOL_REGISTER("isCurrentHomepoint", CLuaBaseEntity::isCurrentHomepoint);
     SOL_REGISTER("resetPlayer", CLuaBaseEntity::resetPlayer);
 
     SOL_REGISTER("goToEntity", CLuaBaseEntity::goToEntity);
