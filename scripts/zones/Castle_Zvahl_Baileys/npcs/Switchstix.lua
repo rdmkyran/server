@@ -364,7 +364,6 @@ entity.onEventFinish = function(player, csid, option)
 
         -- Stage 4 cutscenes
     elseif (csid >= 68 and csid <= 82) or csid == 86 then
-        -- TODO: Use xi.items enum below
         local eventToItemId =
         {
                 [68] = xi.items.CAESTUS, -- Spharai
