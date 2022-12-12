@@ -249,7 +249,7 @@ local abcShop =
     [17] = { item = xi.items.GUNNERS_MANTLE, abc =  75 },
     [18] = { item = xi.items.STEALTH_EARRING, abc =  75 },
     [19] = { item = xi.items.MUSICAL_EARRING, abc =  75 },
-    [20] = { item =  xi.items.METAL_CHIP, abc =  75 },
+    [20] = { item = xi.items.METAL_CHIP, abc =  75 },
 }
 
 -----------------------------------

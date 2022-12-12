@@ -282,13 +282,13 @@ content.loot =
 
         {
             quantity = 2,
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
             { itemid = xi.items.METAL_CHIP, droprate =  59 },
-            { itemid =    xi.items.NONE, droprate = 100 },
+            { itemid = xi.items.NONE, droprate = 100 },
         },
     },
 }

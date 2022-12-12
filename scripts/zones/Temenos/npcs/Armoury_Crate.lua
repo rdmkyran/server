@@ -186,7 +186,7 @@ local loot =
 
             {
                 { itemid = xi.items.PIECE_OF_ULTIMAS_HEART, droprate = 265 },
-                { itemid =    xi.items.NONE, droprate = 735 },
+                { itemid = xi.items.NONE, droprate = 735 },
             },
         },
 

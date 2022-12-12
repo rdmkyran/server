@@ -14,7 +14,7 @@ local loot =
     [801] =
     {
         {
-            { itemid =    xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.NONE, droprate = 200 },
             { itemid = xi.items.CLUSTER_OF_BITTER_MEMORIES, droprate = 100 },
             { itemid = xi.items.CLUSTER_OF_BURNING_MEMORIES, droprate = 100 },
             { itemid = xi.items.CLUSTER_OF_FLEETING_MEMORIES, droprate = 100 },
@@ -25,7 +25,7 @@ local loot =
             { itemid = xi.items.CLUSTER_OF_STARTLING_MEMORIES, droprate = 100 },
         },
         {
-            { itemid =    xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.NONE, droprate = 200 },
             { itemid = xi.items.CLUSTER_OF_BITTER_MEMORIES, droprate = 100 },
             { itemid = xi.items.CLUSTER_OF_BURNING_MEMORIES, droprate = 100 },
             { itemid = xi.items.CLUSTER_OF_FLEETING_MEMORIES, droprate = 100 },
@@ -36,7 +36,7 @@ local loot =
             { itemid = xi.items.CLUSTER_OF_STARTLING_MEMORIES, droprate = 100 },
         },
         {
-            { itemid =    xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.NONE, droprate = 200 },
             { itemid = xi.items.CLUSTER_OF_BITTER_MEMORIES, droprate = 100 },
             { itemid = xi.items.CLUSTER_OF_BURNING_MEMORIES, droprate = 100 },
             { itemid = xi.items.CLUSTER_OF_FLEETING_MEMORIES, droprate = 100 },
@@ -47,7 +47,7 @@ local loot =
             { itemid = xi.items.CLUSTER_OF_STARTLING_MEMORIES, droprate = 100 },
         },
         {
-            { itemid =    xi.items.NONE, droprate = 500 },
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.VIOLENT_VISION, droprate = 100 },
             { itemid = xi.items.PAINFUL_VISION, droprate = 100 },
             { itemid = xi.items.TIMOROUS_VISION, droprate = 100 },

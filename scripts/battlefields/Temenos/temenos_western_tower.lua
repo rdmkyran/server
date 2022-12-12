@@ -314,12 +314,12 @@ content.loot =
 
         {
             quantity = 3,
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 100 },
+            { itemid = xi.items.NONE, droprate = 100 },
             { itemid = xi.items.SPOOL_OF_COILED_YARN, droprate = 172 },
             { itemid = xi.items.SPOOL_OF_RUBY_SILK_THREAD, droprate = 138 },
             { itemid = xi.items.SPOOL_OF_SCARLET_ODOSHI, droprate = 138 },
@@ -337,7 +337,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
@@ -353,7 +353,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.NONE, droprate = 200 },
             { itemid = xi.items.SPOOL_OF_COILED_YARN, droprate = 179 },
             { itemid = xi.items.SPOOL_OF_RUBY_SILK_THREAD, droprate = 571 },
             { itemid = xi.items.DARK_ORICHALCUM_INGOT, droprate =  71 },
@@ -374,7 +374,7 @@ content.loot =
 
         {
             quantity = 3,
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
@@ -394,7 +394,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 750 },
+            { itemid = xi.items.NONE, droprate = 750 },
             { itemid = xi.items.SPOOL_OF_COILED_YARN, droprate = 536 },
             { itemid = xi.items.SPOOL_OF_SCARLET_ODOSHI, droprate = 107 },
             { itemid = xi.items.SPOOL_OF_RUBY_SILK_THREAD, droprate =  60 },
@@ -419,7 +419,7 @@ content.loot =
 
         {
             quantity = 2,
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
@@ -436,7 +436,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 500 },
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.SPOOL_OF_SCARLET_ODOSHI, droprate = 533 },
             { itemid = xi.items.SQUARE_OF_SMALT_LEATHER, droprate =  90 },
             { itemid = xi.items.SPOOL_OF_RUBY_SILK_THREAD, droprate = 133 },
@@ -458,7 +458,7 @@ content.loot =
 
         {
             quantity = 2,
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
@@ -475,7 +475,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.NONE, droprate = 200 },
             { itemid = xi.items.PLAITED_CORD, droprate =  59 },
             { itemid = xi.items.SQUARE_OF_ECARLATE_CLOTH, droprate = 294 },
             { itemid = xi.items.SQUARE_OF_SMALT_LEATHER, droprate =  59 },
@@ -496,7 +496,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
@@ -513,7 +513,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 400 },
+            { itemid = xi.items.NONE, droprate = 400 },
             { itemid = xi.items.PLAITED_CORD, droprate = 200 },
             { itemid = xi.items.SPOOL_OF_GLITTERING_YARN, droprate = 400 },
             { itemid = xi.items.SPOOL_OF_COILED_YARN, droprate = 100 },
@@ -534,7 +534,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
@@ -552,7 +552,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 100 },
+            { itemid = xi.items.NONE, droprate = 100 },
             { itemid = xi.items.METAL_CHIP, droprate =  55 },
         },
     },

@@ -45,13 +45,13 @@ local loot =
     [3] = -- Crafting
     {
         {
-            { itemid =  xi.items.CHUNK_OF_ADAMAN_ORE, droprate = 50 },
+            { itemid = xi.items.CHUNK_OF_ADAMAN_ORE, droprate = 50 },
             { itemid = xi.items.HANDFUL_OF_CLOT_PLASMA, droprate = 50 },
-            { itemid =  xi.items.DARKSTEEL_SHEET, droprate = 50 },
-            { itemid =  xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate = 50 },
+            { itemid = xi.items.DARKSTEEL_SHEET, droprate = 50 },
+            { itemid = xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate = 50 },
             { itemid = xi.items.OXBLOOD, droprate = 50 },
             { itemid = xi.items.LIGHT_STEEL_INGOT, droprate = 50 },
-            { itemid =  xi.items.SPOOL_OF_RAINBOW_THREAD, droprate = 50 },
+            { itemid = xi.items.SPOOL_OF_RAINBOW_THREAD, droprate = 50 },
             { itemid = xi.items.PONZE_OF_SHELL_POWDER, droprate = 50 },
         },
     },
@@ -79,7 +79,7 @@ local loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
     },

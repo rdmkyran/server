@@ -26,7 +26,7 @@ local loot =
         },
 
         {
-            { itemid =     xi.items.NONE, droprate =  600 },
+            { itemid = xi.items.NONE, droprate =  600 },
             { itemid = xi.items.SURVIVAL_BELT,     droprate = 100 },
             { itemid = xi.items.GUARDING_GORGET,   droprate = 100 },
             { itemid = xi.items.ENHANCING_EARRING, droprate = 100 },
@@ -60,7 +60,7 @@ local loot =
         },
 
         {
-            { itemid =     xi.items.NONE, droprate =  125 },
+            { itemid = xi.items.NONE, droprate =  125 },
             { itemid = xi.items.SCROLL_OF_REFRESH,     droprate = 125 },
             { itemid = xi.items.SCROLL_OF_ERASE,       droprate = 125 },
             { itemid = xi.items.SCROLL_OF_ABSORB_INT,  droprate = 125 },
@@ -223,7 +223,7 @@ local loot =
         },
 
         {
-            { itemid =     xi.items.NONE, droprate =  700 },
+            { itemid = xi.items.NONE, droprate =  700 },
             { itemid = xi.items.SINGERS_EARRING,    droprate = 20 },
             { itemid = xi.items.ASHIGARU_EARRING,   droprate = 20 },
             { itemid = xi.items.MAGICIANS_EARRING,  droprate = 20 },

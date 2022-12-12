@@ -14,7 +14,7 @@ local loot =
     [65] =
     {
         {
-            { itemid =    xi.items.NONE, droprate = 125 },
+            { itemid = xi.items.NONE, droprate = 125 },
             { itemid = xi.items.FIRE_SPIRIT_PACT, droprate = 125 },
             { itemid = xi.items.SCROLL_OF_PHALANX, droprate = 125 },
             { itemid = xi.items.SCROLL_OF_UTSUSEMI_NI, droprate = 125 },
@@ -25,7 +25,7 @@ local loot =
         },
 
         {
-            { itemid =     xi.items.NONE, droprate = 125 },
+            { itemid = xi.items.NONE, droprate = 125 },
             { itemid = xi.items.ENHANCING_EARRING, droprate = 125 },
             { itemid = xi.items.SPIRIT_TORQUE, droprate = 125 },
             { itemid = xi.items.GUARDING_GORGET, droprate = 125 },
@@ -54,7 +54,7 @@ local loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 800 },
+            { itemid = xi.items.NONE, droprate = 800 },
             { itemid = xi.items.RERAISER, droprate = 200 },
         },
     },
@@ -63,7 +63,7 @@ local loot =
     [66] =
     {
         {
-            { itemid =     xi.items.NONE, droprate = 250 },
+            { itemid = xi.items.NONE, droprate = 250 },
             { itemid = xi.items.ASSAULT_EARRING, droprate = 125 },
             { itemid = xi.items.VASSAGOS_SCYTHE, droprate = 125 },
             { itemid = xi.items.CHICKEN_KNIFE, droprate = 125 },
@@ -87,12 +87,12 @@ local loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 875 },
+            { itemid = xi.items.NONE, droprate = 875 },
             { itemid = xi.items.SCROLL_OF_RAISE_II, droprate = 125 },
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 800 },
+            { itemid = xi.items.NONE, droprate = 800 },
             { itemid = xi.items.SCROLL_OF_RAISE_II, droprate = 200 },
         },
     },
@@ -114,7 +114,7 @@ local loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 250 },
+            { itemid = xi.items.NONE, droprate = 250 },
             { itemid = xi.items.SCROLL_OF_FREEZE, droprate = 125 },
             { itemid = xi.items.SCROLL_OF_QUAKE, droprate = 125 },
             { itemid = xi.items.SCROLL_OF_RAISE_II, droprate = 125 },
@@ -124,7 +124,7 @@ local loot =
         },
 
         {
-            { itemid =   xi.items.NONE, droprate = 800 },
+            { itemid = xi.items.NONE, droprate = 800 },
             { itemid = xi.items.PETRIFIED_LOG, droprate = 200 },
         },
     },
@@ -148,7 +148,7 @@ local loot =
         },
 
         {
-            { itemid =     xi.items.NONE, droprate = 125 },
+            { itemid = xi.items.NONE, droprate = 125 },
             { itemid = xi.items.AVATAR_BELT, droprate = 125 },
             { itemid = xi.items.DAGGER_BELT, droprate = 125 },
             { itemid = xi.items.LANCE_BELT, droprate = 125 },
@@ -159,7 +159,7 @@ local loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 500 },
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.SCROLL_OF_DISPEL, droprate = 125 },
             { itemid = xi.items.SCROLL_OF_ERASE, droprate = 125 },
             { itemid = xi.items.SCROLL_OF_MAGIC_FINALE, droprate = 125 },
@@ -167,17 +167,17 @@ local loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 136 },
+            { itemid = xi.items.NONE, droprate = 136 },
             { itemid = xi.items.BIRD_EGG, droprate = 125 },
-            { itemid =  xi.items.BIRD_FEATHER, droprate =  50 },
-            { itemid =  xi.items.CHESTNUT_LOG, droprate = 125 },
-            { itemid =  xi.items.ELM_LOG, droprate = 188 },
+            { itemid = xi.items.BIRD_FEATHER, droprate =  50 },
+            { itemid = xi.items.CHESTNUT_LOG, droprate = 125 },
+            { itemid = xi.items.ELM_LOG, droprate = 188 },
             { itemid = xi.items.HI_ETHER, droprate =  63 },
             { itemid = xi.items.HORN_QUIVER, droprate = 313 },
         },
 
         {
-            { itemid =   xi.items.NONE, droprate = 123 },
+            { itemid = xi.items.NONE, droprate = 123 },
             { itemid = xi.items.IRON_INGOT, droprate =  63 },
             { itemid = xi.items.LAPIS_LAZULI, droprate = 125 },
             { itemid = xi.items.LIGHT_OPAL, droprate = 125 },
@@ -202,31 +202,31 @@ local loot =
         },
 
         {
-            { itemid =   xi.items.NONE, droprate = 334 },
+            { itemid = xi.items.NONE, droprate = 334 },
             { itemid = xi.items.CRAB_SHELL, droprate = 666 },
         },
 
         {
-            { itemid =  xi.items.BEETLE_QUIVER, droprate = 444 },
+            { itemid = xi.items.BEETLE_QUIVER, droprate = 444 },
             { itemid = xi.items.JUG_OF_FISH_OIL_BROTH, droprate = 556 },
         },
 
         {
-            { itemid =   xi.items.NONE, droprate = 450 },
+            { itemid = xi.items.NONE, droprate = 450 },
             { itemid = xi.items.BRASS_INGOT, droprate = 100 },
             { itemid = xi.items.BRONZE_SHEET, droprate = 150 },
             { itemid = xi.items.BRONZE_INGOT, droprate = 300 },
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 300 },
-            { itemid =  xi.items.MYTHRIL_BEASTCOIN, droprate = 500 },
+            { itemid = xi.items.NONE, droprate = 300 },
+            { itemid = xi.items.MYTHRIL_BEASTCOIN, droprate = 500 },
             { itemid = xi.items.MANNEQUIN_HANDS, droprate = 100 },
             { itemid = xi.items.MANNEQUIN_HEAD, droprate = 100 },
         },
 
         {
-            { itemid =     xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.NONE, droprate = 200 },
             { itemid = xi.items.PLATOON_CESTI, droprate = 100 },
             { itemid = xi.items.PLATOON_DAGGE, droprate = 100 },
             { itemid = xi.items.PLATOON_AXE, droprate = 100 },
@@ -246,19 +246,19 @@ local loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 800 },
+            { itemid = xi.items.NONE, droprate = 800 },
             { itemid = xi.items.MANNEQUIN_HANDS, droprate = 200 },
         },
 
         {
-            { itemid =     xi.items.NONE, droprate = 250 },
+            { itemid = xi.items.NONE, droprate = 250 },
             { itemid = xi.items.WRESTLERS_MANTLE, droprate = 250 },
             { itemid = xi.items.MAGICIANS_MANTLE, droprate = 250 },
             { itemid = xi.items.PILFERERS_MANTLE, droprate = 250 },
         },
 
         {
-            { itemid =     xi.items.NONE, droprate = 200 },
+            { itemid = xi.items.NONE, droprate = 200 },
             { itemid = xi.items.HEALERS_SHIELD, droprate = 200 },
             { itemid = xi.items.GENIN_ASPIS, droprate = 200 },
             { itemid = xi.items.KILLER_TARGE, droprate = 200 },
@@ -266,14 +266,14 @@ local loot =
         },
 
         {
-            { itemid =   xi.items.NONE, droprate = 250 },
+            { itemid = xi.items.NONE, droprate = 250 },
             { itemid = xi.items.BAG_OF_HERB_SEEDS, droprate = 250 },
             { itemid = xi.items.BAG_OF_VEGETABLE_SEEDS, droprate = 250 },
             { itemid = xi.items.BAG_OF_GRAIN_SEEDS, droprate = 250 },
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 500 },
+            { itemid = xi.items.NONE, droprate = 500 },
             { itemid = xi.items.SCROLL_OF_DISPEL, droprate = 125 },
             { itemid = xi.items.SCROLL_OF_UTSUSEMI_NI, droprate = 125 },
             { itemid = xi.items.SCROLL_OF_MAGIC_FINALE, droprate = 125 },
@@ -281,7 +281,7 @@ local loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 800 },
+            { itemid = xi.items.NONE, droprate = 800 },
             { itemid = xi.items.SCORPION_QUIVER, droprate = 200 },
         },
     },
@@ -297,7 +297,7 @@ local loot =
             { itemid = xi.items.HAVOC_SCYTHE, droprate = 188 },
             { itemid = xi.items.KRIEGSBEIL, droprate =  27 },
             { itemid = xi.items.LEOPARD_AXE, droprate = 170 },
-            { itemid =  xi.items.LIBATION_ABJURATION, droprate = 295 },
+            { itemid = xi.items.LIBATION_ABJURATION, droprate = 295 },
             { itemid = xi.items.METEOR_CESTI, droprate =  27 },
             { itemid = xi.items.PURGATORY_MACE, droprate =  71 },
             { itemid = xi.items.SOMNUS_SIGNA, droprate = 196 },
@@ -308,41 +308,41 @@ local loot =
             { itemid = xi.items.GRIM_STAFF, droprate = 259 },
             { itemid = xi.items.GROSVENEURS_BOW, droprate = 241 },
             { itemid = xi.items.HARLEQUINS_HORN, droprate = 143 },
-            { itemid =  xi.items.OBLATION_ABJURATION, droprate = 161 },
+            { itemid = xi.items.OBLATION_ABJURATION, droprate = 161 },
             { itemid = xi.items.STYLET, droprate = 143 },
             { itemid = xi.items.ZEN_POLE, droprate =  36 },
         },
 
         {
-            { itemid =   xi.items.ADAMAN_CHAIN, droprate = 446 },
-            { itemid =   xi.items.ADAMANTOISE_SHELL, droprate = 420 },
-            { itemid =  xi.items.PIECE_OF_ANGEL_SKIN, droprate =  71 },
+            { itemid = xi.items.ADAMAN_CHAIN, droprate = 446 },
+            { itemid = xi.items.ADAMANTOISE_SHELL, droprate = 420 },
+            { itemid = xi.items.PIECE_OF_ANGEL_SKIN, droprate =  71 },
             { itemid = xi.items.STRIDER_BOOTS, droprate =  26 },
         },
 
         {
-            { itemid =  xi.items.CORAL_FRAGMENT, droprate = 116 },
-            { itemid =  xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  89 },
-            { itemid =  xi.items.DEMON_HORN, droprate =  71 },
-            { itemid =  xi.items.EBONY_LOG, droprate = 152 },
-            { itemid =  xi.items.CHUNK_OF_GOLD_ORE, droprate = 107 },
-            { itemid =  xi.items.SPOOL_OF_GOLD_THREAD, droprate =  89 },
+            { itemid = xi.items.CORAL_FRAGMENT, droprate = 116 },
+            { itemid = xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  89 },
+            { itemid = xi.items.DEMON_HORN, droprate =  71 },
+            { itemid = xi.items.EBONY_LOG, droprate = 152 },
+            { itemid = xi.items.CHUNK_OF_GOLD_ORE, droprate = 107 },
+            { itemid = xi.items.SPOOL_OF_GOLD_THREAD, droprate =  89 },
             { itemid = xi.items.SLAB_OF_GRANITE, droprate =  45 },
             { itemid = xi.items.HI_RERAISER, droprate =  71 },
-            { itemid =  xi.items.MAHOGANY_LOG, droprate = 107 },
-            { itemid =  xi.items.PETRIFIED_LOG, droprate = 223 },
-            { itemid =  xi.items.CHUNK_OF_PLATINUM_ORE, droprate = 116 },
-            { itemid =  xi.items.SQUARE_OF_RAINBOW_CLOTH, droprate =  54 },
-            { itemid =  xi.items.RAM_HORN, droprate =  54 },
+            { itemid = xi.items.MAHOGANY_LOG, droprate = 107 },
+            { itemid = xi.items.PETRIFIED_LOG, droprate = 223 },
+            { itemid = xi.items.CHUNK_OF_PLATINUM_ORE, droprate = 116 },
+            { itemid = xi.items.SQUARE_OF_RAINBOW_CLOTH, droprate =  54 },
+            { itemid = xi.items.RAM_HORN, droprate =  54 },
             { itemid = xi.items.SQUARE_OF_RAXA, droprate =  71 },
             { itemid = xi.items.RERAISER, droprate =  45 },
-            { itemid =  xi.items.HANDFUL_OF_WYVERN_SCALES, droprate =  54 },
+            { itemid = xi.items.HANDFUL_OF_WYVERN_SCALES, droprate =  54 },
             { itemid = xi.items.VILE_ELIXIR, droprate =  63 },
             { itemid = xi.items.VILE_ELIXIR_P1, droprate =  45 },
         },
 
         {
-            { itemid =  xi.items.ADAMAN_CHAIN, droprate = 268 },
+            { itemid = xi.items.ADAMAN_CHAIN, droprate = 268 },
             { itemid = xi.items.ADAMANTOISE_EGG, droprate = 121 },
             { itemid = xi.items.AGILITY_POTION, droprate =  80 },
             { itemid = xi.items.DEXTERITY_POTION, droprate = 143 },
@@ -351,14 +351,14 @@ local loot =
         },
 
         {
-            { itemid =   xi.items.CHUNK_OF_ADAMAN_ORE, droprate = 107 },
-            { itemid =  xi.items.CHARISMA_POTION, droprate =  89 },
-            { itemid =   xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate = 179 },
-            { itemid =  xi.items.ICARUS_WING, droprate = 134 },
-            { itemid =  xi.items.INTELLIGENCE_POTION, droprate = 152 },
-            { itemid =  xi.items.MIND_POTION, droprate =  80 },
-            { itemid =   xi.items.CHUNK_OF_ORICHALCUM_ORE, droprate =  80 },
-            { itemid =   xi.items.CHUNK_OF_PLATINUM_ORE, droprate = 107 },
+            { itemid = xi.items.CHUNK_OF_ADAMAN_ORE, droprate = 107 },
+            { itemid = xi.items.CHARISMA_POTION, droprate =  89 },
+            { itemid = xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate = 179 },
+            { itemid = xi.items.ICARUS_WING, droprate = 134 },
+            { itemid = xi.items.INTELLIGENCE_POTION, droprate = 152 },
+            { itemid = xi.items.MIND_POTION, droprate =  80 },
+            { itemid = xi.items.CHUNK_OF_ORICHALCUM_ORE, droprate =  80 },
+            { itemid = xi.items.CHUNK_OF_PLATINUM_ORE, droprate = 107 },
             { itemid = xi.items.PRINCELY_SWORD, droprate = 152 },
         },
 
@@ -370,41 +370,41 @@ local loot =
         },
 
         {
-            { itemid =  xi.items.CORAL_FRAGMENT, droprate = 139 },
-            { itemid =  xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  59 },
-            { itemid =  xi.items.DEMON_HORN, droprate =  50 },
-            { itemid =  xi.items.EBONY_LOG, droprate = 109 },
-            { itemid =  xi.items.CHUNK_OF_GOLD_ORE, droprate =  69 },
+            { itemid = xi.items.CORAL_FRAGMENT, droprate = 139 },
+            { itemid = xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  59 },
+            { itemid = xi.items.DEMON_HORN, droprate =  50 },
+            { itemid = xi.items.EBONY_LOG, droprate = 109 },
+            { itemid = xi.items.CHUNK_OF_GOLD_ORE, droprate =  69 },
             { itemid = xi.items.SLAB_OF_GRANITE, droprate =  99 },
             { itemid = xi.items.HI_RERAISER, droprate =  79 },
-            { itemid =  xi.items.MAHOGANY_LOG, droprate = 129 },
-            { itemid =  xi.items.CHUNK_OF_MYTHRIL_ORE, droprate = 119 },
-            { itemid =  xi.items.PHOENIX_FEATHER, droprate =  69 },
-            { itemid =  xi.items.PETRIFIED_LOG, droprate = 168 },
-            { itemid =  xi.items.CHUNK_OF_PLATINUM_ORE, droprate = 129 },
-            { itemid =  xi.items.RAM_HORN, droprate = 109 },
+            { itemid = xi.items.MAHOGANY_LOG, droprate = 129 },
+            { itemid = xi.items.CHUNK_OF_MYTHRIL_ORE, droprate = 119 },
+            { itemid = xi.items.PHOENIX_FEATHER, droprate =  69 },
+            { itemid = xi.items.PETRIFIED_LOG, droprate = 168 },
+            { itemid = xi.items.CHUNK_OF_PLATINUM_ORE, droprate = 129 },
+            { itemid = xi.items.RAM_HORN, droprate = 109 },
             { itemid = xi.items.SQUARE_OF_RAXA, droprate =  79 },
             { itemid = xi.items.VILE_ELIXIR, droprate =  69 },
-            { itemid =  xi.items.HANDFUL_OF_WYVERN_SCALES, droprate =  79 },
+            { itemid = xi.items.HANDFUL_OF_WYVERN_SCALES, droprate =  79 },
             { itemid = xi.items.RERAISER, droprate =  50 },
-            { itemid =  xi.items.SPOOL_OF_GOLD_THREAD, droprate =  89 },
+            { itemid = xi.items.SPOOL_OF_GOLD_THREAD, droprate =  89 },
         },
 
         {
             { itemid = xi.items.VIAL_OF_BLACK_BEETLE_BLOOD, droprate = 109 },
-            { itemid =  xi.items.SQUARE_OF_DAMASCENE_CLOTH, droprate =  89 },
-            { itemid =  xi.items.DAMASCUS_INGOT, droprate =  79 },
-            { itemid =  xi.items.SPOOL_OF_MALBORO_FIBER, droprate =  99 },
-            { itemid =  xi.items.PHILOSOPHERS_STONE, droprate = 188 },
-            { itemid =  xi.items.PHOENIX_FEATHER, droprate = 238 },
+            { itemid = xi.items.SQUARE_OF_DAMASCENE_CLOTH, droprate =  89 },
+            { itemid = xi.items.DAMASCUS_INGOT, droprate =  79 },
+            { itemid = xi.items.SPOOL_OF_MALBORO_FIBER, droprate =  99 },
+            { itemid = xi.items.PHILOSOPHERS_STONE, droprate = 188 },
+            { itemid = xi.items.PHOENIX_FEATHER, droprate = 238 },
             { itemid = xi.items.SQUARE_OF_RAXA, droprate = 109 },
         },
 
         {
-            { itemid =  xi.items.DIVINE_LOG, droprate =  79 },
+            { itemid = xi.items.DIVINE_LOG, droprate =  79 },
             { itemid = xi.items.LACQUER_TREE_LOG, droprate = 257 },
-            { itemid =  xi.items.PETRIFIED_LOG, droprate = 337 },
-            { itemid =  xi.items.SQUARE_OF_SHINING_CLOTH, droprate = 149 },
+            { itemid = xi.items.PETRIFIED_LOG, droprate = 337 },
+            { itemid = xi.items.SQUARE_OF_SHINING_CLOTH, droprate = 149 },
         },
     },
 
@@ -485,14 +485,14 @@ local loot =
         {
             { itemid = xi.items.SCROLL_OF_QUAKE, droprate = 100 },
             { itemid = xi.items.PIECE_OF_WISTERIA_LUMBER, droprate = 100 },
-            { itemid =  xi.items.MAHOGANY_LOG, droprate = 100 },
-            { itemid =  xi.items.EBONY_LOG, droprate = 100 },
+            { itemid = xi.items.MAHOGANY_LOG, droprate = 100 },
+            { itemid = xi.items.EBONY_LOG, droprate = 100 },
             { itemid = xi.items.SCROLL_OF_FREEZE, droprate = 100 },
-            { itemid =  xi.items.DARKSTEEL_INGOT, droprate = 100 },
+            { itemid = xi.items.DARKSTEEL_INGOT, droprate = 100 },
             { itemid = xi.items.SCROLL_OF_RAISE_II, droprate = 100 },
-            { itemid =  xi.items.PETRIFIED_LOG, droprate = 100 },
-            { itemid =  xi.items.GOLD_INGOT, droprate = 100 },
-            { itemid =  xi.items.CORAL_FRAGMENT, droprate = 100 },
+            { itemid = xi.items.PETRIFIED_LOG, droprate = 100 },
+            { itemid = xi.items.GOLD_INGOT, droprate = 100 },
+            { itemid = xi.items.CORAL_FRAGMENT, droprate = 100 },
         },
 
         {
@@ -557,34 +557,34 @@ local loot =
         },
 
         {
-            { itemid =  xi.items.AQUAMARINE, droprate =  51 },
-            { itemid =  xi.items.CHRYSOBERYL, droprate =  32 },
-            { itemid =  xi.items.DARKSTEEL_INGOT, droprate =  39 },
-            { itemid =  xi.items.EBONY_LOG, droprate =  21 },
+            { itemid = xi.items.AQUAMARINE, droprate =  51 },
+            { itemid = xi.items.CHRYSOBERYL, droprate =  32 },
+            { itemid = xi.items.DARKSTEEL_INGOT, droprate =  39 },
+            { itemid = xi.items.EBONY_LOG, droprate =  21 },
             { itemid = xi.items.HI_RERAISER, droprate =  32 },
-            { itemid =  xi.items.GOLD_INGOT, droprate =  55 },
-            { itemid =  xi.items.JADEITE, droprate =  62 },
-            { itemid =  xi.items.MYTHRIL_INGOT, droprate =  81 },
-            { itemid =  xi.items.MOONSTONE, droprate =  56 },
-            { itemid =  xi.items.PAINITE, droprate = 195 },
-            { itemid =  xi.items.STEEL_INGOT, droprate =  58 },
-            { itemid =  xi.items.SUNSTONE, droprate =  38 },
-            { itemid =  xi.items.TRANSLUCENT_ROCK, droprate =  11 },
+            { itemid = xi.items.GOLD_INGOT, droprate =  55 },
+            { itemid = xi.items.JADEITE, droprate =  62 },
+            { itemid = xi.items.MYTHRIL_INGOT, droprate =  81 },
+            { itemid = xi.items.MOONSTONE, droprate =  56 },
+            { itemid = xi.items.PAINITE, droprate = 195 },
+            { itemid = xi.items.STEEL_INGOT, droprate =  58 },
+            { itemid = xi.items.SUNSTONE, droprate =  38 },
+            { itemid = xi.items.TRANSLUCENT_ROCK, droprate =  11 },
             { itemid = xi.items.VILE_ELIXIR_P1, droprate =  21 },
-            { itemid =  xi.items.YELLOW_ROCK, droprate =  15 },
-            { itemid =  xi.items.ZIRCON, droprate =  26 },
-            { itemid =  xi.items.RED_ROCK, droprate =  21 },
-            { itemid =  xi.items.MAHOGANY_LOG, droprate =  17 },
-            { itemid =  xi.items.BLUE_ROCK, droprate =   9 },
-            { itemid =  xi.items.FLUORITE, droprate =  62 },
-            { itemid =  xi.items.PURPLE_ROCK, droprate =  11 },
-            { itemid =  xi.items.BLACK_ROCK, droprate =  11 },
-            { itemid =  xi.items.GREEN_ROCK, droprate =  11 },
-            { itemid =  xi.items.WHITE_ROCK, droprate =   9 },
+            { itemid = xi.items.YELLOW_ROCK, droprate =  15 },
+            { itemid = xi.items.ZIRCON, droprate =  26 },
+            { itemid = xi.items.RED_ROCK, droprate =  21 },
+            { itemid = xi.items.MAHOGANY_LOG, droprate =  17 },
+            { itemid = xi.items.BLUE_ROCK, droprate =   9 },
+            { itemid = xi.items.FLUORITE, droprate =  62 },
+            { itemid = xi.items.PURPLE_ROCK, droprate =  11 },
+            { itemid = xi.items.BLACK_ROCK, droprate =  11 },
+            { itemid = xi.items.GREEN_ROCK, droprate =  11 },
+            { itemid = xi.items.WHITE_ROCK, droprate =   9 },
         },
 
         {
-            { itemid =     xi.items.NONE, droprate =  932 },
+            { itemid = xi.items.NONE, droprate =  932 },
             { itemid = xi.items.KRAKEN_CLUB, droprate =   13 },
             { itemid = xi.items.WALKURE_MASK, droprate =   55 },
         },
@@ -733,16 +733,16 @@ local loot =
         },
 
         {
-            { itemid =   xi.items.DAMASCUS_INGOT, droprate = 275 },
-            { itemid =   xi.items.GIANT_BIRD_PLUME, droprate = 275 },
+            { itemid = xi.items.DAMASCUS_INGOT, droprate = 275 },
+            { itemid = xi.items.GIANT_BIRD_PLUME, droprate = 275 },
             { itemid = xi.items.CLAYMORE_GRIP, droprate = 144 },
             { itemid = xi.items.POLE_GRIP,     droprate = 203 },
             { itemid = xi.items.SPEAR_STRAP,   droprate = 116 },
         },
 
         {
-            { itemid =   xi.items.ADAMAN_INGOT, droprate = 159 },
-            { itemid =   xi.items.ORICHALCUM_INGOT, droprate = 290 },
+            { itemid = xi.items.ADAMAN_INGOT, droprate = 159 },
+            { itemid = xi.items.ORICHALCUM_INGOT, droprate = 290 },
             { itemid = xi.items.TITANIS_EARRING, droprate = 406 },
         },
 

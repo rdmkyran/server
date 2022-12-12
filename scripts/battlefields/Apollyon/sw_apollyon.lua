@@ -476,7 +476,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.SQUARE_OF_BROWN_DOESKIN, droprate =  464 },
             { itemid = xi.items.BLACK_RIVET, droprate =  250 },
             { itemid = xi.items.SHEET_OF_KUROGANE, droprate =  110 },
@@ -506,7 +506,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 999 },
+            { itemid = xi.items.NONE, droprate = 999 },
             { itemid = xi.items.SQUARE_OF_CHARCOAL_COTTON, droprate = 154 },
             { itemid = xi.items.SPOOL_OF_BENEDICT_YARN, droprate =  95 },
             { itemid = xi.items.SQUARE_OF_ASTRAL_LEATHER, droprate = 269 },
@@ -525,7 +525,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 120 },
+            { itemid = xi.items.NONE, droprate = 120 },
             { itemid = xi.items.ARGYRO_RIVET, droprate = 120 },
             { itemid = xi.items.POT_OF_EBONY_LACQUER, droprate = 595 },
             { itemid = xi.items.BLUE_RIVET, droprate = 100 },
@@ -537,7 +537,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 120 },
+            { itemid = xi.items.NONE, droprate = 120 },
             { itemid = xi.items.ARGYRO_RIVET, droprate = 120 },
             { itemid = xi.items.POT_OF_EBONY_LACQUER, droprate = 595 },
             { itemid = xi.items.BLUE_RIVET, droprate = 100 },
@@ -549,15 +549,15 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 638 },
+            { itemid = xi.items.NONE, droprate = 638 },
             { itemid = xi.items.OXBLOOD, droprate =  32 },
             { itemid = xi.items.PONZE_OF_SHELL_POWDER, droprate =  40 },
             { itemid = xi.items.LIGHT_STEEL_INGOT, droprate =  31 },
             { itemid = xi.items.HANDFUL_OF_CLOT_PLASMA, droprate =  71 },
-            { itemid =  xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  31 },
-            { itemid =  xi.items.DARKSTEEL_SHEET, droprate =  63 },
-            { itemid =  xi.items.CHUNK_OF_ADAMAN_ORE, droprate =  31 },
-            { itemid =  xi.items.SPOOL_OF_RAINBOW_THREAD, droprate =  63 },
+            { itemid = xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  31 },
+            { itemid = xi.items.DARKSTEEL_SHEET, droprate =  63 },
+            { itemid = xi.items.CHUNK_OF_ADAMAN_ORE, droprate =  31 },
+            { itemid = xi.items.SPOOL_OF_RAINBOW_THREAD, droprate =  63 },
         },
     },
 
@@ -569,7 +569,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
@@ -584,7 +584,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 400 },
+            { itemid = xi.items.NONE, droprate = 400 },
             { itemid = xi.items.SPOOL_OF_LIGHT_FILAMENT, droprate = 468 },
             { itemid = xi.items.FETID_LANOLIN_CUBE, droprate = 340 },
             { itemid = xi.items.ANCIENT_BRASS_INGOT, droprate = 255 },
@@ -600,7 +600,7 @@ content.loot =
 
         {
             { itemid = xi.items.METAL_CHIP, droprate =  59 },
-            { itemid =    xi.items.NONE, droprate = 100 },
+            { itemid = xi.items.NONE, droprate = 100 },
         },
     },
 }

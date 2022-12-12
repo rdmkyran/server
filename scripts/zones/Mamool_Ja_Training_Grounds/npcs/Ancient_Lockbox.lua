@@ -35,17 +35,17 @@ entity.onTrigger = function(player, npc)
         {
             {
                 { itemid = xi.items.HI_POTION_P2, droprate = 900 },
-                { itemid =    xi.items.NONE, droprate = 100 },
+                { itemid = xi.items.NONE, droprate = 100 },
             },
 
             {
                 { itemid = xi.items.HI_POTION_TANK, droprate = 100 },
-                { itemid =     xi.items.NONE,                  droprate = 900 },
+                { itemid = xi.items.NONE,                  droprate = 900 },
             },
 
             {
                 { itemid = xi.items.RERAISER, droprate = 530 },
-                { itemid =    xi.items.NONE,             droprate = 470 },
+                { itemid = xi.items.NONE,             droprate = 470 },
             },
         },
 
@@ -53,17 +53,17 @@ entity.onTrigger = function(player, npc)
         {
             {
                 { itemid = xi.items.HI_POTION_TANK, droprate = 100 },
-                { itemid =     xi.items.NONE,                  droprate = 900 },
+                { itemid = xi.items.NONE,                  droprate = 900 },
             },
 
             {
                 { itemid = xi.items.RERAISER, droprate = 300 },
-                { itemid =    xi.items.NONE,             droprate = 700 },
+                { itemid = xi.items.NONE,             droprate = 700 },
             },
 
             {
                 { itemid = xi.items.HI_RERAISER, droprate = 500 },
-                { itemid =    xi.items.NONE,                droprate = 500 },
+                { itemid = xi.items.NONE,                droprate = 500 },
             },
         },
     }

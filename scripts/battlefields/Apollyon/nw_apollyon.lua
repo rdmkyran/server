@@ -407,7 +407,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 100 },
+            { itemid = xi.items.NONE, droprate = 100 },
             { itemid = xi.items.SPOOL_OF_DIABOLIC_YARN, droprate =  25 },
             { itemid = xi.items.SQUARE_OF_FLAMESHUN_CLOTH, droprate = 175 },
             { itemid = xi.items.BLUE_RIVET, droprate = 100 },
@@ -427,7 +427,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 100 },
+            { itemid = xi.items.NONE, droprate = 100 },
             { itemid = xi.items.WHITE_RIVET, droprate = 235 },
             { itemid = xi.items.SQUARE_OF_CANVAS_TOILE, droprate =  59 },
             { itemid = xi.items.BLACK_RIVET, droprate = 235 },
@@ -443,7 +443,7 @@ content.loot =
     {
         {
             quantity = 5,
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
@@ -457,26 +457,26 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 400 },
-            { itemid =  xi.items.CHUNK_OF_ADAMAN_ORE, droprate =  50 },
+            { itemid = xi.items.NONE, droprate = 400 },
+            { itemid = xi.items.CHUNK_OF_ADAMAN_ORE, droprate =  50 },
             { itemid = xi.items.HANDFUL_OF_CLOT_PLASMA, droprate =  50 },
-            { itemid =  xi.items.DARKSTEEL_SHEET, droprate =  50 },
-            { itemid =  xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  50 },
+            { itemid = xi.items.DARKSTEEL_SHEET, droprate =  50 },
+            { itemid = xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  50 },
             { itemid = xi.items.OXBLOOD, droprate =  50 },
             { itemid = xi.items.LIGHT_STEEL_INGOT, droprate =  50 },
-            { itemid =  xi.items.SPOOL_OF_RAINBOW_THREAD, droprate =  50 },
+            { itemid = xi.items.SPOOL_OF_RAINBOW_THREAD, droprate =  50 },
             { itemid = xi.items.PONZE_OF_SHELL_POWDER, droprate =  50 },
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 400 },
-            { itemid =  xi.items.CHUNK_OF_ADAMAN_ORE, droprate =  50 },
+            { itemid = xi.items.NONE, droprate = 400 },
+            { itemid = xi.items.CHUNK_OF_ADAMAN_ORE, droprate =  50 },
             { itemid = xi.items.HANDFUL_OF_CLOT_PLASMA, droprate =  50 },
-            { itemid =  xi.items.DARKSTEEL_SHEET, droprate =  50 },
-            { itemid =  xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  50 },
+            { itemid = xi.items.DARKSTEEL_SHEET, droprate =  50 },
+            { itemid = xi.items.CHUNK_OF_DARKSTEEL_ORE, droprate =  50 },
             { itemid = xi.items.OXBLOOD, droprate =  50 },
             { itemid = xi.items.LIGHT_STEEL_INGOT, droprate =  50 },
-            { itemid =  xi.items.SPOOL_OF_RAINBOW_THREAD, droprate =  50 },
+            { itemid = xi.items.SPOOL_OF_RAINBOW_THREAD, droprate =  50 },
             { itemid = xi.items.PONZE_OF_SHELL_POWDER, droprate =  50 },
         },
     },
@@ -491,12 +491,12 @@ content.loot =
 
         {
             quantity = 2,
-            { itemid =    xi.items.NONE, droprate = 1000 },
+            { itemid = xi.items.NONE, droprate = 1000 },
             { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 100 },
+            { itemid = xi.items.NONE, droprate = 100 },
             { itemid = xi.items.SPOOL_OF_DIABOLIC_YARN, droprate =  80 },
             { itemid = xi.items.SQUARE_OF_FLAMESHUN_CLOTH, droprate =  70 },
             { itemid = xi.items.SQUARE_OF_BROWN_DOESKIN, droprate =  48 },
@@ -571,7 +571,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 300 },
+            { itemid = xi.items.NONE, droprate = 300 },
             { itemid = xi.items.SPOOL_OF_DIABOLIC_YARN, droprate = 109 },
             { itemid = xi.items.SQUARE_OF_FLAMESHUN_CLOTH, droprate = 152 },
             { itemid = xi.items.SQUARE_OF_BROWN_DOESKIN, droprate = 283 },
@@ -599,7 +599,7 @@ content.loot =
         },
 
         {
-            { itemid =    xi.items.NONE, droprate = 100 },
+            { itemid = xi.items.NONE, droprate = 100 },
             { itemid = xi.items.METAL_CHIP, droprate =  59 },
         },
     },
