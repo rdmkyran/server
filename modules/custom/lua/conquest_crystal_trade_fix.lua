@@ -50,7 +50,7 @@ m:addOverride("xi.conquest.overseerOnTrade", function(player, npc, trade, guardN
     -- Garrison Trade
     if
         guardType == xi.conq.guard.OUTPOST and
-        (trade:getItemId() >= 1528 and trade:getItemId() <= 1543)
+        (trade:getItemId() >= xi.items.RED_CRYPTEX and trade:getItemId() <= xi.items.COEURL_LEATHER_MISSIVE)
     then
         xi.garrison.onTrade(player, npc, trade, guardNation)
     end
