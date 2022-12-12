@@ -160,9 +160,9 @@ CCharEntity::CCharEntity()
         m_missionLog[i].current = 0xFFFF;
     }
 
-    m_missionLog[4].current = 0;   // MISSION_TOAU
-    m_missionLog[5].current = 0;   // MISSION_WOTG
-    m_missionLog[6].current = 101; // MISSION_COP
+    m_missionLog[4].current = 0; // MISSION_TOAU
+    m_missionLog[5].current = 0; // MISSION_WOTG
+    m_missionLog[6].current = 0; // MISSION_COP
     for (auto& i : m_missionLog)
     {
         i.statusUpper = 0;
@@ -655,6 +655,23 @@ CItemEquipment* CCharEntity::getEquip(SLOTTYPE slot)
     return item;
 }
 
+std::vector<CItemEquipment*> CCharEntity::getVisibleEquip()
+{
+    std::vector<CItemEquipment*> visibleItems;
+    CItemEquipment*              item = nullptr;
+
+    for (SLOTTYPE slot : { SLOT_HEAD, SLOT_BODY, SLOT_HANDS, SLOT_LEGS, SLOT_FEET })
+    {
+        item = getEquip(slot);
+        if (item != nullptr)
+        {
+            visibleItems.push_back(item);
+        }
+    }
+
+    return visibleItems;
+}
+
 void CCharEntity::ReloadPartyInc()
 {
     m_reloadParty = true;
@@ -745,7 +762,7 @@ bool CCharEntity::PersistData()
 
     if (dataToPersist & CHAR_PERSIST::EFFECTS)
     {
-        StatusEffectContainer->SaveStatusEffects(true);
+        StatusEffectContainer->SaveStatusEffects(true, false);
     }
 
     /* TODO

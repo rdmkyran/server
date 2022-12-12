@@ -121,8 +121,6 @@ xi.campaign.getSandOriaNotesItem = function(i)
         [1282] = { id = xi.items.RECALL_RING_JUGNER, price = 5000, adj = 5000 },
         [1538] = { id = xi.items.RECALL_RING_PASHHOW, price = 5000, adj = 5000 },
         [1794] = { id = xi.items.RECALL_RING_MERIPHATAUD, price = 5000, adj = 5000 },
-        [2050] = { id = xi.items.CIPHER_OF_VALAINERALS_ALTER_EGO, price = 2000 },
-        [2306] = { id = xi.items.CIPHER_OF_ADELHEIDS_ALTER_EGO, price = 2000 },
         -- Stars Service
         [18] = { id = xi.items.IRON_RAM_CHAINMAIL, price = 15000, adj = 10000 },
         [274] = { id = xi.items.IRON_RAM_MUFFLERS, price = 10500, adj = 7000 },
@@ -166,8 +164,6 @@ xi.campaign.getBastokNotesItem = function(i)
         [1282] = { id = xi.items.RECALL_RING_JUGNER, price = 5000 },
         [1538] = { id = xi.items.RECALL_RING_PASHHOW, price = 5000 },
         [1794] = { id = xi.items.RECALL_RING_MERIPHATAUD, price = 5000 },
-        [2050] = { id = xi.items.CIPHER_OF_VALAINERALS_ALTER_EGO, price = 2000 },
-        [2306] = { id = xi.items.CIPHER_OF_ADELHEIDS_ALTER_EGO, price = 2000 },
         -- Stars Service
         [18] = { id = xi.items.FOURTH_DIVISION_CUIRASS, price = 15000, adj = 10000 },
         [274] = { id = xi.items.FOURTH_DIVISION_GAUNTLETS, price = 10500, adj = 7000 },
@@ -211,8 +207,6 @@ xi.campaign.getWindurstNotesItem = function(i)
         [1282] = { id = xi.items.RECALL_RING_JUGNER, price = 5000 },
         [1538] = { id = xi.items.RECALL_RING_PASHHOW, price = 5000 },
         [1794] = { id = xi.items.RECALL_RING_MERIPHATAUD, price = 5000 },
-        [2050] = { id = xi.items.CIPHER_OF_VALAINERALS_ALTER_EGO, price = 2000 },
-        [2306] = { id = xi.items.CIPHER_OF_ADELHEIDS_ALTER_EGO, price = 2000 },
         -- Stars Service
         [18] = { id = xi.items.COBRA_UNIT_COAT, price = 15000, adj = 10000 },
         [274] = { id = xi.items.COBRA_UNIT_CUFFS, price = 10500, adj = 7000 },
