@@ -19,44 +19,44 @@ local quest = Quest:new(xi.quest.log_id.OTHER_AREAS, xi.quest.id.otherAreas.UNIN
 
 local rewards =
 {
-    { droprate = 509, rewardId =  4247 }, -- Miratete's Memoirs
-    { droprate = 35,  rewardId =  4550 }, -- Bream Risotto
-    { droprate = 30,  rewardId =  1132 }, -- Raxa
-    { droprate = 30,  rewardId =  5144 }, -- Crimson Jelly
-    { droprate = 30,  rewardId =  4279 }, -- Tavnazian Salad
-    { droprate = 29,  rewardId =   678 }, -- Aluminum Ore
-    { droprate = 29,  rewardId =  5142 }, -- Bison Steak
-    { droprate = 29,  rewardId =  4544 }, -- Mushroom Stew
-    { droprate = 27,  rewardId =  1766 }, -- Tiger Eye
-    { droprate = 24,  rewardId =  1841 }, -- Unicorn Horn
-    { droprate = 24,  rewardId =    61 }, -- Armoire
-    { droprate = 24,  rewardId =  1602 }, -- Mannequin Body
-    { droprate = 21,  rewardId =  4434 }, -- Mushroom Risotto
-    { droprate = 19,  rewardId =  1603 }, -- Mannequin Hands
-    { droprate = 18,  rewardId =  1770 }, -- Oversized Fang
-    { droprate = 18,  rewardId =  1771 }, -- Dragon Bone
-    { droprate = 16,  rewardId =   690 }, -- Elm Log
-    { droprate = 15,  rewardId =  1604 }, -- Mannequin Legs
-    { droprate = 11,  rewardId =  1605 }, -- Mannequin Feet
-    { droprate = 11,  rewardId =   646 }, -- Adaman Ore
-    { droprate = 11,  rewardId =   860 }, -- Behemoth Hide
-    { droprate = 10,  rewardId =  1765 }, -- Habu Skin
-    { droprate = 7,   rewardId =  1842 }, -- Cloud Evoker
-    { droprate = 7,   rewardId =  1601 }, -- Mannequin Head
-    { droprate = 6,   rewardId =   739 }, -- Orichalcum  Ore
-    { droprate = 4,   rewardId =  5158 }, -- Vermillion Jelly
-    { droprate = 4,   rewardId =  5185 }, -- Leremieu Salad
-    { droprate = 3,   rewardId =   908 }, -- Adamantoise Shell
-    { droprate = 3,   rewardId =  1312 }, -- Angel Skin
-    { droprate = 3,   rewardId =  4486 }, -- Dragon Heart
-    { droprate = 3,   rewardId =  5157 }, -- Marbled Steak
-    { droprate = 3,   rewardId =  4268 }, -- Sea Spray Risotto
-    { droprate = 3,   rewardId =  1313 }, -- Siren's Hair
-    { droprate = 3,   rewardId =  5264 }, -- Yellow Liquid
-    { droprate = 2,   rewardId =  4330 }, -- Witch Risotto
-    { droprate = 2,   rewardId =     1 }, -- 10,000 Gil Speical cased to ID 1
-    { droprate = 2,   rewardId = 14470 }, -- Assault Breastplate
-    { droprate = 2,   rewardId =  4344 }, -- Witch Stew
+    { droprate = 509, rewardId = xi.items.MIRATETES_MEMOIRS          },
+    { droprate = 35,  rewardId = xi.items.PLATE_OF_BREAM_RISOTTO     },
+    { droprate = 30,  rewardId = xi.items.SQUARE_OF_RAXA             },
+    { droprate = 30,  rewardId = xi.items.SERVING_OF_CRIMSON_JELLY   },
+    { droprate = 30,  rewardId = xi.items.TAVNAZIAN_SALAD            },
+    { droprate = 29,  rewardId = xi.items.CHUNK_OF_ALUMINUM_ORE      },
+    { droprate = 29,  rewardId = xi.items.SERVING_OF_BISON_STEAK     },
+    { droprate = 29,  rewardId = xi.items.BOWL_OF_MUSHROOM_STEW      },
+    { droprate = 27,  rewardId = xi.items.TIGER_EYE                  },
+    { droprate = 24,  rewardId = xi.items.UNICORN_HORN               },
+    { droprate = 24,  rewardId = xi.items.ARMOIRE                    },
+    { droprate = 24,  rewardId = xi.items.MANNEQUIN_BODY             },
+    { droprate = 21,  rewardId = xi.items.PLATE_OF_MUSHROOM_RISOTTO  },
+    { droprate = 19,  rewardId = xi.items.MANNEQUIN_HANDS            },
+    { droprate = 18,  rewardId = xi.items.OVERSIZED_FANG             },
+    { droprate = 18,  rewardId = xi.items.DRAGON_BONE                },
+    { droprate = 16,  rewardId = xi.items.ELM_LOG                    },
+    { droprate = 15,  rewardId = xi.items.MANNEQUIN_LEGS             },
+    { droprate = 11,  rewardId = xi.items.MANNEQUIN_FEET             },
+    { droprate = 11,  rewardId = xi.items.CHUNK_OF_ADAMAN_ORE        },
+    { droprate = 11,  rewardId = xi.items.BEHEMOTH_HIDE              },
+    { droprate = 10,  rewardId = xi.items.HABU_SKIN                  },
+    { droprate = 7,   rewardId = xi.items.CLOUD_EVOKER               },
+    { droprate = 7,   rewardId = xi.items.MANNEQUIN_HEAD             },
+    { droprate = 6,   rewardId = xi.items.CHUNK_OF_ORICHALCUM_ORE    },
+    { droprate = 4,   rewardId = xi.items.SERVING_OF_VERMILLION_JELLY},
+    { droprate = 4,   rewardId = xi.items.LEREMIEU_SALAD             },
+    { droprate = 3,   rewardId = xi.items.ADAMANTOISE_SHELL          },
+    { droprate = 3,   rewardId = xi.items.PIECE_OF_ANGEL_SKIN        },
+    { droprate = 3,   rewardId = xi.items.DRAGON_HEART               },
+    { droprate = 3,   rewardId = xi.items.SERVING_OF_MARBLED_STEAK   },
+    { droprate = 3,   rewardId = xi.items.PLATE_OF_SEA_SPRAY_RISOTTO },
+    { droprate = 3,   rewardId = xi.items.LOCK_OF_SIRENS_HAIR        },
+    { droprate = 3,   rewardId = xi.items.BOTTLE_OF_YELLOW_LIQUID    },
+    { droprate = 2,   rewardId = xi.items.PLATE_OF_WITCH_RISOTTO     },
+    { droprate = 2,   rewardId = xi.items.PILE_OF_CHOCOBO_BEDDING    },
+    { droprate = 2,   rewardId = xi.items.ASSAULT_BREASTPLATE        },
+    { droprate = 2,   rewardId = xi.items.BOWL_OF_WITCH_STEW         },
 }
 
 local updateUninvitedGuests = function(player, clearVars)
