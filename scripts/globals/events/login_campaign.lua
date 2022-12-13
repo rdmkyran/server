@@ -4,6 +4,7 @@
 ------------------------------------
 require("scripts/globals/settings")
 require("scripts/globals/npc_util")
+require("scripts/globals/items")
 local prizes = require("scripts/globals/events/login_campaign_data")
 ------------------------------------
 
