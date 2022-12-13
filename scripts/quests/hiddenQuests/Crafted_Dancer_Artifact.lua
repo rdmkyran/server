@@ -20,9 +20,9 @@ local quest = HiddenQuest:new("DncArtifact")
 
 local dncArtifactOptions =
 {
-    [1] = { xi.items.DANCERS_TIARA_F,     { xi.items.SQUARE_OF_IMPERIAL_SILK_CLOTH, xi.items.SQUARE_OF_WOLF_FELT,     xi.items.SQUARE_OF_SILVER_BROCADE }, },
-    [2] = { xi.items.DANCERS_BANGLES_F,   { xi.items.SQUARE_OF_KARAKUL_CLOTH,       xi.items.SQUARE_OF_RAINBOW_CLOTH, xi.items.SQUARE_OF_RAINBOW_VELVET }, },
-    [3] = { xi.items.DANCERS_TOE_SHOES_F, { xi.items.SQUARE_OF_WAMOURA_CLOTH,       xi.items.SQUARE_OF_MOBLINWEAVE,   xi.items.SQUARE_OF_GOLD_BROCADE   }, },
+    [1] = { xi.items.DANCERS_TIARA_F,     { xi.items.SQUARE_OF_IMPERIAL_SILK_CLOTH, xi.items.SQUARE_OF_WOLF_FELT,       xi.items.SQUARE_OF_SILVER_BROCADE }, },
+    [2] = { xi.items.DANCERS_BANGLES_F,   { xi.items.SQUARE_OF_KARAKUL_CLOTH,       xi.items.SQUARE_OF_RAINBOW_CLOTH,   xi.items.SQUARE_OF_RAINBOW_VELVET }, },
+    [3] = { xi.items.DANCERS_TOE_SHOES_F, { xi.items.SQUARE_OF_WAMOURA_CLOTH,       xi.items.SQUARE_OF_MOBLINWEAVE,     xi.items.SQUARE_OF_GOLD_BROCADE   }, },
 }
 
 quest.sections =
