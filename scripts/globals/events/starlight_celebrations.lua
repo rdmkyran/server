@@ -621,10 +621,9 @@ function xi.events.starlightCelebration.merryMakersGoblinOnFinish(player, csid, 
 end
 
 function xi.events.starlightCelebration.merryMakersGoblinOnTrade(player, npc, trade, id)
-    local item = trade:getItemId()
     local questStatus = player:getLocalVar("[StarlightMerryMakers]Started")
     if questStatus ~= 0 then
-        if item == xi.items.CHUNK_OF_GOBLIN_CHOCOLATE then
+        if npcUtil.tradeHasExactly(trade, xi.items.CHUNK_OF_GOBLIN_CHOCOLATE) then
             player:setLocalVar("[StarlightMerryMakers]GoblinTrust", npc:getID())
             player:tradeComplete()
             player:showText(npc, id.text.MERRYMAKER_TRADE)
