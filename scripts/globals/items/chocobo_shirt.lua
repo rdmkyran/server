@@ -4,6 +4,7 @@
 -- Dispense: Crystals
 -----------------------------------
 require("scripts/globals/msg")
+require("scripts/globals/items")
 -----------------------------------
 local itemObject = {}
 
@@ -26,7 +27,7 @@ itemObject.onItemUse = function(target)
     -- 4101 Water
     -- 4102 Light
     -- 4103 Dark
-    local itemID = 4095 + VanadielDayElement()
+    local itemID = xi.items.FIRE_CRYSTAL + VanadielDayElement()
     target:addItem(itemID, math.random(2, 12))
 end
 
