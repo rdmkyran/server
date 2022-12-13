@@ -27,7 +27,7 @@ itemObject.onItemUse = function(target)
     -- 4101 Water
     -- 4102 Light
     -- 4103 Dark
-    local itemID = xi.items.FIRE_CRYSTAL + VanadielDayElement()
+    local itemID = xi.items.FIRE_CRYSTAL + VanadielDayElement() - 1
     target:addItem(itemID, math.random(2, 12))
 end
 
