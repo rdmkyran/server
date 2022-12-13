@@ -28,26 +28,26 @@ content:addEssentialMobs({ "Snow_Devil" })
 content.loot =
 {
     {
-        { itemid = xi.items.NONE, droprate = xi.battlefield.dropChance.VERY_LOW },
-        { itemid = xi.items.SQUARE_OF_GALATEIA, droprate = xi.battlefield.dropChance.NORMAL },
-        { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN, droprate = xi.battlefield.dropChance.VERY_LOW },
-        { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI, droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.NONE,                      droprate = xi.battlefield.dropChance.VERY_LOW },
+        { itemid = xi.items.SQUARE_OF_GALATEIA,        droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN,    droprate = xi.battlefield.dropChance.VERY_LOW },
+        { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI,    droprate = xi.battlefield.dropChance.NORMAL },
     },
 
     {
-        { itemid = xi.items.NONE, droprate = xi.battlefield.dropChance.EXTREMELY_HIGH },
-        { itemid = xi.items.CLOUD_EVOKER, droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.NONE,                      droprate = xi.battlefield.dropChance.EXTREMELY_HIGH },
+        { itemid = xi.items.CLOUD_EVOKER,              droprate = xi.battlefield.dropChance.LOW },
     },
 
     {
         quantity = 2,
-        { itemid = xi.items.NONE, droprate = xi.battlefield.dropChance.HIGH },
-        { itemid = xi.items.MARTIAL_BHUJ, droprate = xi.battlefield.dropChance.NORMAL },
-        { itemid = xi.items.MARTIAL_GUN, droprate = xi.battlefield.dropChance.NORMAL },
-        { itemid = xi.items.MARTIAL_STAFF, droprate = xi.battlefield.dropChance.LOW },
-        { itemid = xi.items.HEXEREI_CAPE, droprate = xi.battlefield.dropChance.LOW },
-        { itemid = xi.items.SETTLERS_CAPE, droprate = xi.battlefield.dropChance.LOW },
-        { itemid = xi.items.SCROLL_OF_RAISE_III, droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.NONE,                      droprate = xi.battlefield.dropChance.HIGH },
+        { itemid = xi.items.MARTIAL_BHUJ,              droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.MARTIAL_GUN,               droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.MARTIAL_STAFF,             droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.HEXEREI_CAPE,              droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.SETTLERS_CAPE,             droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.SCROLL_OF_RAISE_III,       droprate = xi.battlefield.dropChance.NORMAL },
     },
 }
 

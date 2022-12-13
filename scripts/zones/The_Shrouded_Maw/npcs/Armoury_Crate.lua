@@ -13,19 +13,19 @@ local loot =
     [705] =
     {
         {
-            { itemid = xi.items.NONE, droprate = 950 },
-            { itemid = xi.items.CLOUD_EVOKER, droprate =  50 },
+            { itemid = xi.items.NONE,                      droprate = 950 },
+            { itemid = xi.items.CLOUD_EVOKER,              droprate =  50 },
         },
         {
-            { itemid = xi.items.NONE, droprate = 750 },
-            { itemid = xi.items.GEIST_EARRING, droprate = 250 },
-            { itemid = xi.items.QUICK_BELT, droprate = 250 },
+            { itemid = xi.items.NONE,                      droprate = 750 },
+            { itemid = xi.items.GEIST_EARRING,             droprate = 250 },
+            { itemid = xi.items.QUICK_BELT,                droprate = 250 },
         },
         {
-            { itemid = xi.items.NONE, droprate = 350 },
-            { itemid = xi.items.CROSSBOWMANS_RING, droprate = 200 },
-            { itemid = xi.items.WOODSMAN_RING, droprate = 150 },
-            { itemid = xi.items.ETHER_RING, droprate = 300 },
+            { itemid = xi.items.NONE,                      droprate = 350 },
+            { itemid = xi.items.CROSSBOWMANS_RING,         droprate = 200 },
+            { itemid = xi.items.WOODSMAN_RING,             droprate = 150 },
+            { itemid = xi.items.ETHER_RING,                droprate = 300 },
         },
     },
 }

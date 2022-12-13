@@ -15,20 +15,20 @@ entity.onTrigger = function(player, npc)
         [xi.assault.mission.SEAGULL_GROUNDED] =
         {
             {
-                { itemid = xi.items.APPRAISAL_BOX,     droprate = 400 },
-                { itemid = xi.items.APPRAISAL_SWORD,   droprate = 200 },
-                { itemid = xi.items.APPRAISAL_POLEARM, droprate = 200 },
-                { itemid = xi.items.APPRAISAL_GLOVES,  droprate = 200 },
+                { itemid = xi.items.APPRAISAL_BOX,             droprate = 400 },
+                { itemid = xi.items.APPRAISAL_SWORD,           droprate = 200 },
+                { itemid = xi.items.APPRAISAL_POLEARM,         droprate = 200 },
+                { itemid = xi.items.APPRAISAL_GLOVES,          droprate = 200 },
             },
         },
 
         [xi.assault.mission.REQUIEM] =
         {
             {
-                { itemid = xi.items.APPRAISAL_BOX,     droprate = 400 },
-                { itemid = xi.items.APPRAISAL_GLOVES,  droprate = 200 },
-                { itemid = xi.items.APPRAISAL_POLEARM, droprate = 200 },
-                { itemid = xi.items.APPRAISAL_AXE,     droprate = 200 },
+                { itemid = xi.items.APPRAISAL_BOX,             droprate = 400 },
+                { itemid = xi.items.APPRAISAL_GLOVES,          droprate = 200 },
+                { itemid = xi.items.APPRAISAL_POLEARM,         droprate = 200 },
+                { itemid = xi.items.APPRAISAL_AXE,             droprate = 200 },
             },
         },
     }
@@ -38,37 +38,37 @@ entity.onTrigger = function(player, npc)
         [xi.assault.mission.SEAGULL_GROUNDED] =
         {
             {
-                { itemid = xi.items.HI_RERAISER, droprate = 700 },
-                { itemid = xi.items.NONE,        droprate = 300 },
+                { itemid = xi.items.HI_RERAISER,               droprate = 700 },
+                { itemid = xi.items.NONE,                      droprate = 300 },
             },
 
             {
-                { itemid = xi.items.HI_POTION_TANK, droprate = 100 },
-                { itemid = xi.items.HI_ETHER_TANK,  droprate = 100 },
-                { itemid = xi.items.NONE,           droprate = 800 },
+                { itemid = xi.items.HI_POTION_TANK,            droprate = 100 },
+                { itemid = xi.items.HI_ETHER_TANK,             droprate = 100 },
+                { itemid = xi.items.NONE,                      droprate = 800 },
             },
 
             {
-                { itemid = xi.items.HI_POTION_P3, droprate = 530 },
-                { itemid = xi.items.NONE, droprate = 470 },
+                { itemid = xi.items.HI_POTION_P3,              droprate = 530 },
+                { itemid = xi.items.NONE,                      droprate = 470 },
             },
         },
 
         [xi.assault.mission.REQUIEM] =
         {
             {
-                { itemid = xi.items.HI_POTION_P3, droprate = 500 },
-                { itemid = xi.items.NONE,         droprate = 500 },
+                { itemid = xi.items.HI_POTION_P3,              droprate = 500 },
+                { itemid = xi.items.NONE,                      droprate = 500 },
             },
 
             {
-                { itemid = xi.items.HI_ETHER_TANK, droprate = 100 },
-                { itemid = xi.items.NONE,          droprate = 900 },
+                { itemid = xi.items.HI_ETHER_TANK,             droprate = 100 },
+                { itemid = xi.items.NONE,                      droprate = 900 },
             },
 
             {
-                { itemid = xi.items.HI_RERAISER, droprate = 500 },
-                { itemid = xi.items.NONE,        droprate = 500 },
+                { itemid = xi.items.HI_RERAISER,               droprate = 500 },
+                { itemid = xi.items.NONE,                      droprate = 500 },
             },
         },
     }

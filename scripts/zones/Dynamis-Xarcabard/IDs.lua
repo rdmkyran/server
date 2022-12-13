@@ -128,7 +128,7 @@ zones[xi.zone.DYNAMIS_XARCABARD] =
                 param = { 3358, 3429, 3430, 3431, 3432, 3433 },
                 trade =
                 {
-                    { item = xi.items.SHROUDED_BIJOU,                             mob = 17330177 }, -- Dynamis Lord
+                    { item = xi.items.SHROUDED_BIJOU,            mob = 17330177 }, -- Dynamis Lord
                     { item = { xi.items.FIENDISH_TOME_CHAPTER_26, 3430, 3431, 3432, 3433 }, mob = 17330191 }, -- Arch Dynamis Lord
                 }
             },

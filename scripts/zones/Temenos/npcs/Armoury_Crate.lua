@@ -16,31 +16,31 @@ local loot =
     [1301] =
     {
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
     },
 
@@ -48,45 +48,45 @@ local loot =
     [1304] =
     {
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.DARK_ORICHALCUM_INGOT, droprate = 250 },
-            { itemid = xi.items.SQUARE_OF_DIABOLIC_SILK, droprate =  94 },
-            { itemid = xi.items.SPOOL_OF_CHAMELEON_YARN, droprate =  63 },
-            { itemid = xi.items.CHUNK_OF_SNOWY_CERMET, droprate = 125 },
-            { itemid = xi.items.SQUARE_OF_SMALT_LEATHER, droprate =  63 },
-            { itemid = xi.items.PANTIN_WIRE, droprate = 281 },
-            { itemid = xi.items.SQUARE_OF_FILET_LACE, droprate = 125 },
+            { itemid = xi.items.DARK_ORICHALCUM_INGOT,     droprate = 250 },
+            { itemid = xi.items.SQUARE_OF_DIABOLIC_SILK,   droprate =  94 },
+            { itemid = xi.items.SPOOL_OF_CHAMELEON_YARN,   droprate =  63 },
+            { itemid = xi.items.CHUNK_OF_SNOWY_CERMET,     droprate = 125 },
+            { itemid = xi.items.SQUARE_OF_SMALT_LEATHER,   droprate =  63 },
+            { itemid = xi.items.PANTIN_WIRE,               droprate = 281 },
+            { itemid = xi.items.SQUARE_OF_FILET_LACE,      droprate = 125 },
         },
 
         {
-            { itemid = xi.items.CERULEAN_CHIP, droprate = 1000 },
+            { itemid = xi.items.CERULEAN_CHIP,             droprate = 1000 },
         },
     },
 
@@ -94,46 +94,46 @@ local loot =
     [1305] =
     {
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.SQUARE_OF_BENEDICT_SILK, droprate =  53 },
-            { itemid = xi.items.SQUARE_OF_SUPPLE_SKIN, droprate = 132 },
-            { itemid = xi.items.PLAITED_CORD, droprate = 105 },
-            { itemid = xi.items.UTOPIAN_GOLD_THREAD, droprate = 211 },
-            { itemid = xi.items.SHEET_OF_COBALT_MYTHRIL, droprate = 211 },
-            { itemid = xi.items.SQUARE_OF_ECARLATE_CLOTH, droprate = 100 },
-            { itemid = xi.items.SPOOL_OF_SILKWORM_THREAD, droprate = 211 },
-            { itemid = xi.items.SQUARE_OF_BRILLIANTINE, droprate = 105 },
+            { itemid = xi.items.SQUARE_OF_BENEDICT_SILK,   droprate =  53 },
+            { itemid = xi.items.SQUARE_OF_SUPPLE_SKIN,     droprate = 132 },
+            { itemid = xi.items.PLAITED_CORD,              droprate = 105 },
+            { itemid = xi.items.UTOPIAN_GOLD_THREAD,       droprate = 211 },
+            { itemid = xi.items.SHEET_OF_COBALT_MYTHRIL,   droprate = 211 },
+            { itemid = xi.items.SQUARE_OF_ECARLATE_CLOTH,  droprate = 100 },
+            { itemid = xi.items.SPOOL_OF_SILKWORM_THREAD,  droprate = 211 },
+            { itemid = xi.items.SQUARE_OF_BRILLIANTINE,    droprate = 105 },
         },
 
         {
-            { itemid = xi.items.SILVER_CHIP, droprate = 1000 },
+            { itemid = xi.items.SILVER_CHIP,               droprate = 1000 },
         },
     },
 
@@ -143,50 +143,50 @@ local loot =
         [1] =
         {
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
                 { itemid = xi.items.PIECE_OF_ULTIMAS_CEREBRUM, droprate = 659 },
-                { itemid = xi.items.SEGMENT_OF_ULTIMAS_TAIL, droprate = 394 },
-                { itemid = xi.items.SEGMENT_OF_ULTIMAS_LEG, droprate = 388 },
-                { itemid = xi.items.SEGMENT_OF_ULTIMAS_CLAW, droprate = 404 },
+                { itemid = xi.items.SEGMENT_OF_ULTIMAS_TAIL,   droprate = 394 },
+                { itemid = xi.items.SEGMENT_OF_ULTIMAS_LEG,    droprate = 388 },
+                { itemid = xi.items.SEGMENT_OF_ULTIMAS_CLAW,   droprate = 404 },
             },
 
             {
-                { itemid = xi.items.SEGMENT_OF_ULTIMAS_TAIL, droprate = 394 },
-                { itemid = xi.items.SEGMENT_OF_ULTIMAS_CLAW, droprate = 402 },
+                { itemid = xi.items.SEGMENT_OF_ULTIMAS_TAIL,   droprate = 394 },
+                { itemid = xi.items.SEGMENT_OF_ULTIMAS_CLAW,   droprate = 402 },
                 { itemid = xi.items.PIECE_OF_ULTIMAS_CEREBRUM, droprate = 659 },
-                { itemid = xi.items.SEGMENT_OF_ULTIMAS_LEG, droprate = 383 },
+                { itemid = xi.items.SEGMENT_OF_ULTIMAS_LEG,    droprate = 383 },
             },
 
             {
-                { itemid = xi.items.PIECE_OF_ULTIMAS_HEART, droprate = 265 },
-                { itemid = xi.items.NONE, droprate = 735 },
+                { itemid = xi.items.PIECE_OF_ULTIMAS_HEART,    droprate = 265 },
+                { itemid = xi.items.NONE,                      droprate = 735 },
             },
         },
 
@@ -194,35 +194,35 @@ local loot =
         [2] =
         {
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+                { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
             },
 
             {
-                { itemid = xi.items.SQUARE_OF_BENEDICT_SILK, droprate = 200 },
-                { itemid = xi.items.SQUARE_OF_ECARLATE_CLOTH, droprate = 200 },
-                { itemid = xi.items.SPOOL_OF_GLITTERING_YARN, droprate = 200 },
-                { itemid = xi.items.SPOOL_OF_SILKWORM_THREAD, droprate = 400 },
-                { itemid = xi.items.SQUARE_OF_SUPPLE_SKIN, droprate = 200 },
+                { itemid = xi.items.SQUARE_OF_BENEDICT_SILK,   droprate = 200 },
+                { itemid = xi.items.SQUARE_OF_ECARLATE_CLOTH,  droprate = 200 },
+                { itemid = xi.items.SPOOL_OF_GLITTERING_YARN,  droprate = 200 },
+                { itemid = xi.items.SPOOL_OF_SILKWORM_THREAD,  droprate = 400 },
+                { itemid = xi.items.SQUARE_OF_SUPPLE_SKIN,     droprate = 200 },
             },
         },
     },

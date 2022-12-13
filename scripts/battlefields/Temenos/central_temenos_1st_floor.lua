@@ -85,20 +85,20 @@ content.loot =
     {
         {
             quantity = 7,
-            { itemid = xi.items.ANCIENT_BEASTCOIN, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = xi.items.SQUARE_OF_ECARLATE_CLOTH, droprate = 265 },
+            { itemid = xi.items.SQUARE_OF_ECARLATE_CLOTH,  droprate = 265 },
             { itemid = xi.items.SPOOL_OF_RUBY_SILK_THREAD, droprate = 118 },
-            { itemid = xi.items.SPOOL_OF_COILED_YARN, droprate = 147 },
-            { itemid = xi.items.SPOOL_OF_GLITTERING_YARN, droprate = 147 },
-            { itemid = xi.items.SPOOL_OF_SCARLET_ODOSHI, droprate = 118 },
-            { itemid = xi.items.SPOOL_OF_LUMINIAN_THREAD, droprate = 235 },
+            { itemid = xi.items.SPOOL_OF_COILED_YARN,      droprate = 147 },
+            { itemid = xi.items.SPOOL_OF_GLITTERING_YARN,  droprate = 147 },
+            { itemid = xi.items.SPOOL_OF_SCARLET_ODOSHI,   droprate = 118 },
+            { itemid = xi.items.SPOOL_OF_LUMINIAN_THREAD,  droprate = 235 },
         },
 
         {
-            { itemid = xi.items.ORCHID_CHIP, droprate = 1000 },
+            { itemid = xi.items.ORCHID_CHIP,               droprate = 1000 },
         },
     }
 }

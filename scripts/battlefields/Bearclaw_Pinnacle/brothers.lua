@@ -60,25 +60,25 @@ content:addEssentialMobs({ "Eldertaur", "Mindertaur" })
 content.loot =
 {
     {
-        { itemid = xi.items.NONE, droprate = xi.battlefield.dropChance.VERY_LOW },
-        { itemid = xi.items.SQUARE_OF_ELTORO_LEATHER, droprate = xi.battlefield.dropChance.NORMAL },
-        { itemid = xi.items.PIECE_OF_CASSIA_LUMBER, droprate = xi.battlefield.dropChance.NORMAL },
-        { itemid = xi.items.DRAGON_BONE, droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.NONE,                      droprate = xi.battlefield.dropChance.VERY_LOW },
+        { itemid = xi.items.SQUARE_OF_ELTORO_LEATHER,  droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.PIECE_OF_CASSIA_LUMBER,    droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.DRAGON_BONE,               droprate = xi.battlefield.dropChance.NORMAL },
     },
 
     {
-        { itemid = xi.items.NONE, droprate = xi.battlefield.dropChance.EXTREMELY_HIGH },
-        { itemid = xi.items.CLOUD_EVOKER, droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.NONE,                      droprate = xi.battlefield.dropChance.EXTREMELY_HIGH },
+        { itemid = xi.items.CLOUD_EVOKER,              droprate = xi.battlefield.dropChance.LOW },
     },
 
     {
         quantity = 2,
-        { itemid = xi.items.NONE, droprate = xi.battlefield.dropChance.HIGH },
-        { itemid = xi.items.SCOUTERS_ROPE, droprate = xi.battlefield.dropChance.LOW },
-        { itemid = xi.items.HEDGEHOG_BOMB, droprate = xi.battlefield.dropChance.LOW },
-        { itemid = xi.items.MARTIAL_ANELACE, droprate = xi.battlefield.dropChance.LOW },
-        { itemid = xi.items.MARTIAL_LANCE, droprate = xi.battlefield.dropChance.LOW },
-        { itemid = xi.items.SCROLL_OF_RAISE_III, droprate = xi.battlefield.dropChance.HIGH },
+        { itemid = xi.items.NONE,                      droprate = xi.battlefield.dropChance.HIGH },
+        { itemid = xi.items.SCOUTERS_ROPE,             droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.HEDGEHOG_BOMB,             droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.MARTIAL_ANELACE,           droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.MARTIAL_LANCE,             droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.SCROLL_OF_RAISE_III,       droprate = xi.battlefield.dropChance.HIGH },
     },
 }
 

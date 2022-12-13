@@ -28,25 +28,25 @@ content:addEssentialMobs({ "Bearclaw_Rabbit", "Bearclaw_Leveret" })
 content.loot =
 {
     {
-        { itemid = xi.items.NONE, droprate = xi.battlefield.dropChance.VERY_LOW },
-        { itemid = xi.items.SQUARE_OF_GALATEIA, droprate = xi.battlefield.dropChance.NORMAL },
-        { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN, droprate = xi.battlefield.dropChance.VERY_LOW },
-        { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI, droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.NONE,                      droprate = xi.battlefield.dropChance.VERY_LOW },
+        { itemid = xi.items.SQUARE_OF_GALATEIA,        droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN,    droprate = xi.battlefield.dropChance.VERY_LOW },
+        { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI,    droprate = xi.battlefield.dropChance.NORMAL },
     },
 
     {
-        { itemid = xi.items.NONE, droprate = xi.battlefield.dropChance.EXTREMELY_HIGH },
-        { itemid = xi.items.CLOUD_EVOKER, droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.NONE,                      droprate = xi.battlefield.dropChance.EXTREMELY_HIGH },
+        { itemid = xi.items.CLOUD_EVOKER,              droprate = xi.battlefield.dropChance.LOW },
     },
 
     {
         quantity = 2,
-        { itemid = xi.items.NONE, droprate = xi.battlefield.dropChance.HIGH },
-        { itemid = xi.items.MARTIAL_SWORD, droprate = xi.battlefield.dropChance.NORMAL },
-        { itemid = xi.items.SHAMO, droprate = xi.battlefield.dropChance.NORMAL },
-        { itemid = xi.items.VENTURERS_BELT, droprate = xi.battlefield.dropChance.LOW },
-        { itemid = xi.items.SERENE_RING, droprate = xi.battlefield.dropChance.LOW },
-        { itemid = xi.items.SCROLL_OF_RAISE_III, droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.NONE,                      droprate = xi.battlefield.dropChance.HIGH },
+        { itemid = xi.items.MARTIAL_SWORD,             droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.SHAMO,                     droprate = xi.battlefield.dropChance.NORMAL },
+        { itemid = xi.items.VENTURERS_BELT,            droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.SERENE_RING,               droprate = xi.battlefield.dropChance.LOW },
+        { itemid = xi.items.SCROLL_OF_RAISE_III,       droprate = xi.battlefield.dropChance.NORMAL },
     },
 }
 
