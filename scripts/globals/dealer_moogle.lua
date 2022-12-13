@@ -345,11 +345,10 @@ local itemList =
     [45] =
     {
         {
-            -- TODO: Move to items.lua
-            21074, -- Kupo Rod
-            25645, -- Kupo Masque
-            25726, -- Kupo Suit
-            26406, -- Kupo Shield
+            xi.items.KUPO_ROD,
+            xi.items.KUPO_MASQUE,
+            xi.items.KUPO_SUIT,
+            xi.items.KUPO_SHIELD,
         },
     },
 
