@@ -13,24 +13,24 @@ local prizes =
         ["price"] = 10,
         ["items"] =
         {
-            1126, -- Beastmen's Seal
-            1127, -- Kindred's Seal
-            2955, -- Kindred's Crest
-            2956, -- High Kindred's Crest
-            2957, -- Sacred Kindred's Crest
-            -- 1857, -- Cordial Invite
-            -- 2306, -- Martial Ball Invite
-            -- 5364, -- Training Grounds Key
-            -- 2487, -- Mercenary Camp Entry Slip
-            -- 5741, -- Flask Of Pest Repellent
-            -- 3557, -- Athena Orb
-            -- 5113, -- Cracked Nut
-            -- 3541, -- Seasoning Stone
-            -- 3543, -- Fossilized Fang
-            -- 3542, -- Fossilized Bone
-            -- 5724, -- Pungent Powder
-            -- 6535, -- Pungent Powder II
-            -- 9890, -- Tarazacum Orb
+            xi.items.BEASTMENS_SEAL,
+            xi.items.KINDREDS_SEAL,
+            xi.items.KINDREDS_CREST,
+            xi.items.HIGH_KINDREDS_CREST,
+            xi.items.SACRED_KINDREDS_CREST,
+            -- xi.items.CORDIAL_INVITE,
+            -- xi.items.MARTIAL_BALL_INVITE,
+            -- xi.items.TRAINING_GROUNDS_KEY,
+            -- xi.items.MERCENARY_CAMP_ENTRY_SLIP,
+            -- xi.items.FLASK_OF_PEST_REPELLENT,
+            -- xi.items.ATHENA_ORB,
+            -- xi.items.CRACKED_NUT,
+            -- xi.items.SEASONING_STONE,
+            -- xi.items.FOSSILIZED_FANG,
+            -- xi.items.FOSSILIZED_BONE,
+            -- xi.items.PINCH_OF_PUNGENT_POWDER,
+            -- xi.items.PINCH_OF_PUNGENT_POWDER_II,
+            -- xi.items.TARAZACUM_ORB,
         },
     },
 
@@ -39,26 +39,26 @@ local prizes =
         ["price"] = 100,
         ["items"] =
         {
-            8734,  -- Mog Kupon I-S1
-            8966,  -- Eudaemon Blade
-            8967,  -- Eudaemon Cape
-            8968,  -- Eudaemon Ring
-            8969,  -- Eudaemon Sash
-            8970,  -- Eudaemon Shield
-            17006, -- Drill Calamary
-            17007, -- Dwarf Pugil
-            6413,  -- Astral Cube
-            -- 9891,  -- Zinnia Orb
-            -- 10112, -- Cipher: Zeid
-            -- 10113, -- Cipher: Lion
-            10118, -- Cipher: Naja
-            10120, -- Cipher: Lehko
-            -- 10124, -- Cipher: Luzaf
-            -- 10125, -- Cipher: Najelith
-            -- 10129, -- Cipher: Domina
-            -- 10134, -- Cipher: S. Sibyl
-            -- 10142, -- Cipher: Karaha
-            -- 10149, -- Cipher: Areuhat
+            xi.items.MOG_KUPON_I_S1,
+            xi.items.EUDAEMON_BLADE,
+            xi.items.EUDAEMON_CAPE,
+            xi.items.EUDAEMON_RING,
+            xi.items.EUDAEMON_SASH,
+            xi.items.EUDAEMON_SHIELD,
+            xi.items.DRILL_CALAMARY,
+            xi.items.DWARF_PUGIL,
+            xi.items.ASTRAL_CUBE,
+            -- xi.items.ZINNIA_ORB,
+            -- xi.items.CIPHER_OF_ZEIDS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_LIONS_ALTER_EGO,
+            xi.items.CIPHER_OF_NAJAS_ALTER_EGO,
+            xi.items.CIPHER_OF_LEHKOS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_LUZAFS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_NAJELITHS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_D_SHANTOTTOS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_STAR_SIBYLS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_KARAHAS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_AREUHATS_ALTER_EGO,
         },
     },
 
@@ -67,21 +67,21 @@ local prizes =
         ["price"] = 100,
         ["items"] =
         {
-            -- 10136, -- Cipher: Uka
-            -- 10141, -- Cipher: Kuyin
-            -- 10144, -- Cipher: Abenzio
-            -- 10145, -- Cipher: Rughadjeen
-            -- 10150, -- Cipher: Lhe
-            -- 10151, -- Cipher: Mayakov
-            -- 10155, -- Cipher: Brygid
-            -- 10156, -- Cipher: Mildaurion
-            -- 10161, -- Cipher: Rongelouts
-            -- 10166, -- Cipher: Robel-Akbel
-            -- 10178, -- Cipher: Ullegore
-            -- 10179, -- Cipher: Teodor
-            -- 10183, -- Cipher: Darrcuiln
-            20713, -- Excalipoor
-            6008,  -- Copse Candy
+            -- xi.items.CIPHER_OF_UKAS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_KUYINS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_ABENZIOS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_RUGHADJEENS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_LHES_ALTER_EGO,
+            -- xi.items.CIPHER_OF_MAYAKOVS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_BRYGIDS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_MILDAURIONS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_RONGELOUTSS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_ROBEL_AKBELS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_ULLEGORES_ALTER_EGO,
+            -- xi.items.CIPHER_OF_TEODORS_ALTER_EGO,
+            -- xi.items.CIPHER_OF_DARRCUILNS_ALTER_EGO,
+            xi.items.EXCALIPOOR,
+            xi.items.PIECE_OF_COPSE_CANDY,
         },
     },
 
@@ -90,27 +90,27 @@ local prizes =
         ["price"] = 300,
         ["items"] =
         {
-            -- 10187, -- Cipher: Shantotto II
-            10069, -- ♪Goobbue
-            10051, -- ♪Crab
-            10058, -- ♪Beetle
+            -- xi.items.CIPHER_OF_SHANTOTTOS_ALTER_EGO_II,
+            xi.items.GOBBUE,
+            xi.items.CRAB,
+            xi.items.BEETLE,
             -- TODO: The other mounts
-            10384, -- Cumulus Masque
-            20666, -- Blizzard Brand
-            -- 25658, -- Wyrm. Masque +1
-            -- 25757, -- Wyrmking Suit +1
-            -- 5854,  -- Frayed Pouch (B)
-            -- 5855,  -- Frayed Pouch (A)
-            -- 5856,  -- Frayed Pouch (G)
-            -- 5857,  -- Frayed Pouch (D)
-            -- 5858,  -- Frayed Pouch (R)
-            -- 5946,  -- Frayed Sack (D)
-            -- 5947,  -- Frayed Sack (L)
-            -- 4064,  -- Rem's Tale Ch.1
-            -- 4065,  -- Rem's Tale Ch.2
-            -- 4066,  -- Rem's Tale Ch.3
-            -- 4067,  -- Rem's Tale Ch.4
-            -- 4068,  -- Rem's Tale Ch.5
+            xi.items.CUMULUS_MASQUE,
+            xi.items.BLIZZARD_BRAND,
+            -- xi.items.WYRMKING_MASQUE_P1,
+            -- xi.items.WYRMKING_SUIT_P1,
+            -- xi.items.FRAYED_POUCH_OF_BIRTH,
+            -- xi.items.FRAYED_POUCH_OF_ADVANCEMENT,
+            -- xi.items.FRAYED_POUCH_OF_GLORY,
+            -- xi.items.FRAYED_POUCH_OF_DECAY,
+            -- xi.items.FRAYED_POUCH_OF_RUIN,
+            -- xi.items.FRAYED_SACK_OF_DEVIOUSNESS,
+            -- xi.items.FRAYED_SACK_OF_LIMINALITY,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_1,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_2,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_3,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_4,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_5,
         },
     },
 
@@ -120,7 +120,7 @@ local prizes =
         ["items"] =
         {
             -- TODO: Special month-to-month things
-            10073, -- ♪Dhalmel
+            xi.items.DHALMEL,
         },
 
     },
@@ -130,23 +130,23 @@ local prizes =
         ["price"] = 750,
         ["items"] =
         {
-            3885, -- Melodious Plans
-            3886, -- Timbre Case Kit
-            3887, -- Musichinery Kit
-            -- 9079, -- Kitchen Brick
-            -- 9080, -- Kitchen Stove
-            -- 9081, -- Kitchen Plate
-            3339, -- Honey Wine
-            3341, -- Beastly Shank
-            3343, -- Blue Pondweed
-            -- 1873, -- Brigand's Chart
-            -- 1874, -- Pirate's Chart
-            -- 6381, -- Fisherman's Feast
-            -- 4069, -- Copy Of Rem's Tale, Chapter 6
-            -- 4070, -- Copy Of Rem's Tale, Chapter 7
-            -- 4071, -- Copy Of Rem's Tale, Chapter 8
-            -- 4072, -- Copy Of Rem's Tale, Chapter 9
-            -- 4073, -- Copy Of Rem's Tale, Chapter 10
+            xi.items.COPY_OF_MELODIOUS_PLANS,
+            xi.items.TIMBRE_CASE_KIT,
+            xi.items.MUSICHINERY_KIT,
+            -- xi.items.KITCHEN_BRICK,
+            -- xi.items.KITCHEN_STOVE,
+            -- xi.items.KITCHEN_PLATE,
+            xi.items.HONEY_WINE,
+            xi.items.BEASTLY_SHANK,
+            xi.items.BLUE_PONDWEED,
+            -- xi.items.BRIGANDS_CHART,
+            -- xi.items.PIRATES_CHART,
+            -- xi.items.FISHERMANS_FEAST,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_6,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_7,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_8,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_9,
+            -- xi.items.COPY_OF_REMS_TALE_CHAPTER_10,
         },
     },
 
@@ -155,12 +155,12 @@ local prizes =
         ["price"] = 1000,
         ["items"] =
         {
-            -- 6499,  -- Patio Design Plans
-            26165, -- Facility Ring
-            26164, -- Caliber Ring
-            -- 6486,  -- Frayed Sack (Pel)
-            -- 6487,  -- Frayed Sack (Fer)
-            -- 6488,  -- Frayed Sack (Tau)
+            -- xi.items.PATIO_DESIGN_PLAN_DOCUMENT,
+            xi.items.FACILITY_RING,
+            xi.items.CALIBER_RING,
+            -- xi.items.FRAYED_SACK_OF_FECUNDITY,
+            -- xi.items.FRAYED_SACK_OF_PLENTY,
+            -- xi.items.FRAYED_SACK_OF_OPULENCE,
         },
     },
 
@@ -169,14 +169,14 @@ local prizes =
         ["price"] = 1500,
         ["items"] =
         {
-            3340, -- Sweet Tea
-            3342, -- Savory Shank
-            3344, -- Red Pondweed
-            -- 8720, -- Maliya. Coral Orb
-            -- 8722, -- Hepatizon Ingot
-            -- 8724, -- Beryllium Ingot
-            -- 8726, -- Exalted Lumber
-            -- 8728, -- Sif's Macrame
+            xi.items.SWEET_TEA,
+            xi.items.SAVORY_SHANK,
+            xi.items.RED_PONDWOOD,
+            -- xi.items.MALIYAKALEYA_ORB,
+            -- xi.items.HEPATIZON_INGOT,
+            -- xi.items.BERYLLIUM_INGOT,
+            -- xi.items.PIECE_OF_EXALTED_LUMBER,
+            -- xi.items.SPOOL_OF_SIFS_MACRAME,
         },
     },
 }
