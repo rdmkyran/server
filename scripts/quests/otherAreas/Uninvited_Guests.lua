@@ -19,44 +19,44 @@ local quest = Quest:new(xi.quest.log_id.OTHER_AREAS, xi.quest.id.otherAreas.UNIN
 
 local rewards =
 {
-    { droprate = 509, rewardId = xi.items.MIRATETES_MEMOIRS          },
-    { droprate = 35,  rewardId = xi.items.PLATE_OF_BREAM_RISOTTO     },
-    { droprate = 30,  rewardId = xi.items.SQUARE_OF_RAXA             },
-    { droprate = 30,  rewardId = xi.items.SERVING_OF_CRIMSON_JELLY   },
-    { droprate = 30,  rewardId = xi.items.TAVNAZIAN_SALAD            },
-    { droprate = 29,  rewardId = xi.items.CHUNK_OF_ALUMINUM_ORE      },
-    { droprate = 29,  rewardId = xi.items.SERVING_OF_BISON_STEAK     },
-    { droprate = 29,  rewardId = xi.items.BOWL_OF_MUSHROOM_STEW      },
-    { droprate = 27,  rewardId = xi.items.TIGER_EYE                  },
-    { droprate = 24,  rewardId = xi.items.UNICORN_HORN               },
-    { droprate = 24,  rewardId = xi.items.ARMOIRE                    },
-    { droprate = 24,  rewardId = xi.items.MANNEQUIN_BODY             },
-    { droprate = 21,  rewardId = xi.items.PLATE_OF_MUSHROOM_RISOTTO  },
-    { droprate = 19,  rewardId = xi.items.MANNEQUIN_HANDS            },
-    { droprate = 18,  rewardId = xi.items.OVERSIZED_FANG             },
-    { droprate = 18,  rewardId = xi.items.DRAGON_BONE                },
-    { droprate = 16,  rewardId = xi.items.ELM_LOG                    },
-    { droprate = 15,  rewardId = xi.items.MANNEQUIN_LEGS             },
-    { droprate = 11,  rewardId = xi.items.MANNEQUIN_FEET             },
-    { droprate = 11,  rewardId = xi.items.CHUNK_OF_ADAMAN_ORE        },
-    { droprate = 11,  rewardId = xi.items.BEHEMOTH_HIDE              },
-    { droprate = 10,  rewardId = xi.items.HABU_SKIN                  },
-    { droprate = 7,   rewardId = xi.items.CLOUD_EVOKER               },
-    { droprate = 7,   rewardId = xi.items.MANNEQUIN_HEAD             },
-    { droprate = 6,   rewardId = xi.items.CHUNK_OF_ORICHALCUM_ORE    },
-    { droprate = 4,   rewardId = xi.items.SERVING_OF_VERMILLION_JELLY},
-    { droprate = 4,   rewardId = xi.items.LEREMIEU_SALAD             },
-    { droprate = 3,   rewardId = xi.items.ADAMANTOISE_SHELL          },
-    { droprate = 3,   rewardId = xi.items.PIECE_OF_ANGEL_SKIN        },
-    { droprate = 3,   rewardId = xi.items.DRAGON_HEART               },
-    { droprate = 3,   rewardId = xi.items.SERVING_OF_MARBLED_STEAK   },
-    { droprate = 3,   rewardId = xi.items.PLATE_OF_SEA_SPRAY_RISOTTO },
-    { droprate = 3,   rewardId = xi.items.LOCK_OF_SIRENS_HAIR        },
-    { droprate = 3,   rewardId = xi.items.BOTTLE_OF_YELLOW_LIQUID    },
-    { droprate = 2,   rewardId = xi.items.PLATE_OF_WITCH_RISOTTO     },
-    { droprate = 2,   rewardId = xi.items.PILE_OF_CHOCOBO_BEDDING    },
-    { droprate = 2,   rewardId = xi.items.ASSAULT_BREASTPLATE        },
-    { droprate = 2,   rewardId = xi.items.BOWL_OF_WITCH_STEW         },
+    { droprate = 509, rewardId = xi.items.MIRATETES_MEMOIRS           },
+    { droprate = 35,  rewardId = xi.items.PLATE_OF_BREAM_RISOTTO      },
+    { droprate = 30,  rewardId = xi.items.SQUARE_OF_RAXA              },
+    { droprate = 30,  rewardId = xi.items.SERVING_OF_CRIMSON_JELLY    },
+    { droprate = 30,  rewardId = xi.items.TAVNAZIAN_SALAD             },
+    { droprate = 29,  rewardId = xi.items.CHUNK_OF_ALUMINUM_ORE       },
+    { droprate = 29,  rewardId = xi.items.SERVING_OF_BISON_STEAK      },
+    { droprate = 29,  rewardId = xi.items.BOWL_OF_MUSHROOM_STEW       },
+    { droprate = 27,  rewardId = xi.items.TIGER_EYE                   },
+    { droprate = 24,  rewardId = xi.items.UNICORN_HORN                },
+    { droprate = 24,  rewardId = xi.items.ARMOIRE                     },
+    { droprate = 24,  rewardId = xi.items.MANNEQUIN_BODY              },
+    { droprate = 21,  rewardId = xi.items.PLATE_OF_MUSHROOM_RISOTTO   },
+    { droprate = 19,  rewardId = xi.items.MANNEQUIN_HANDS             },
+    { droprate = 18,  rewardId = xi.items.OVERSIZED_FANG              },
+    { droprate = 18,  rewardId = xi.items.DRAGON_BONE                 },
+    { droprate = 16,  rewardId = xi.items.ELM_LOG                     },
+    { droprate = 15,  rewardId = xi.items.MANNEQUIN_LEGS              },
+    { droprate = 11,  rewardId = xi.items.MANNEQUIN_FEET              },
+    { droprate = 11,  rewardId = xi.items.CHUNK_OF_ADAMAN_ORE         },
+    { droprate = 11,  rewardId = xi.items.BEHEMOTH_HIDE               },
+    { droprate = 10,  rewardId = xi.items.HABU_SKIN                   },
+    { droprate = 7,   rewardId = xi.items.CLOUD_EVOKER                },
+    { droprate = 7,   rewardId = xi.items.MANNEQUIN_HEAD              },
+    { droprate = 6,   rewardId = xi.items.CHUNK_OF_ORICHALCUM_ORE     },
+    { droprate = 4,   rewardId = xi.items.SERVING_OF_VERMILLION_JELLY },
+    { droprate = 4,   rewardId = xi.items.LEREMIEU_SALAD              },
+    { droprate = 3,   rewardId = xi.items.ADAMANTOISE_SHELL           },
+    { droprate = 3,   rewardId = xi.items.PIECE_OF_ANGEL_SKIN         },
+    { droprate = 3,   rewardId = xi.items.DRAGON_HEART                },
+    { droprate = 3,   rewardId = xi.items.SERVING_OF_MARBLED_STEAK    },
+    { droprate = 3,   rewardId = xi.items.PLATE_OF_SEA_SPRAY_RISOTTO  },
+    { droprate = 3,   rewardId = xi.items.LOCK_OF_SIRENS_HAIR         },
+    { droprate = 3,   rewardId = xi.items.BOTTLE_OF_YELLOW_LIQUID     },
+    { droprate = 2,   rewardId = xi.items.PLATE_OF_WITCH_RISOTTO      },
+    { droprate = 2,   rewardId = xi.items.PILE_OF_CHOCOBO_BEDDING     },
+    { droprate = 2,   rewardId = xi.items.ASSAULT_BREASTPLATE         },
+    { droprate = 2,   rewardId = xi.items.BOWL_OF_WITCH_STEW          },
 }
 
 local updateUninvitedGuests = function(player, clearVars)
@@ -198,18 +198,18 @@ quest.sections =
 
                     -- Restart quest after conquest tally
                     if player:getCharVar("UninvitedGuestsReset") <= os.time() and
-                    not player:hasKeyItem(xi.ki.MONARCH_LINN_PATROL_PERMIT) then
+                        not player:hasKeyItem(xi.ki.MONARCH_LINN_PATROL_PERMIT) then
                         return quest:progressEvent(573)
                     -- Player won, give reward
                     elseif uninvitedGuests == 1 then
                         return quest:progressEvent(572)
                     -- Uninvited Guests Failure - mocks player until conquest tally
                     elseif uninvitedGuests == 2 or (uninvitedGuests == 3 and
-                    player:getCharVar("UninvitedGuestsReset")) >= os.time() then
+                        player:getCharVar("UninvitedGuestsReset")) >= os.time() then
                         return quest:progressEvent(575)
                     -- Reissues permit post failure
                     elseif uninvitedGuests == 3 and
-                    player:getCharVar("UninvitedGuestsReset") <= os.time() then
+                        player:getCharVar("UninvitedGuestsReset") <= os.time() then
                         return quest:progressEvent(574)
                     end
                 end,
