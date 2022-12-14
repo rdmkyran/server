@@ -197,19 +197,26 @@ quest.sections =
                     local uninvitedGuests =  player:getCharVar("UninvitedGuestsStatus")
 
                     -- Restart quest after conquest tally
-                    if player:getCharVar("UninvitedGuestsReset") <= os.time() and
-                        not player:hasKeyItem(xi.ki.MONARCH_LINN_PATROL_PERMIT) then
+                    if
+                        player:getCharVar("UninvitedGuestsReset") <= os.time() and
+                        not player:hasKeyItem(xi.ki.MONARCH_LINN_PATROL_PERMIT)
+                    then
                         return quest:progressEvent(573)
                     -- Player won, give reward
                     elseif uninvitedGuests == 1 then
                         return quest:progressEvent(572)
                     -- Uninvited Guests Failure - mocks player until conquest tally
-                    elseif uninvitedGuests == 2 or (uninvitedGuests == 3 and
-                        player:getCharVar("UninvitedGuestsReset")) >= os.time() then
+                    elseif
+                        uninvitedGuests == 2 or
+                        (uninvitedGuests == 3 and
+                        player:getCharVar("UninvitedGuestsReset")) >= os.time()
+                    then
                         return quest:progressEvent(575)
                     -- Reissues permit post failure
-                    elseif uninvitedGuests == 3 and
-                        player:getCharVar("UninvitedGuestsReset") <= os.time() then
+                    elseif
+                        uninvitedGuests == 3 and
+                        player:getCharVar("UninvitedGuestsReset") <= os.time()
+                    then
                         return quest:progressEvent(574)
                     end
                 end,
