@@ -76,7 +76,7 @@ xi.treasure.treasureInfo =
                     { -389.971,   32.247, -229.970,   0 },
                 },
                 gil = { 0.762, 5200, 12500 },
-                gem = { 0.238, 811, 798, 815, 790, 799, 788, 808 },
+                gem = { 0.238, xi.items.AMETRINE, xi.items.TURQUOISE, xi.items.SPHENE, xi.items.GARNET, xi.items.ONYX, xi.items.PERIDOT, xi.items.GOSHENITE },
             },
 
             [xi.zone.OLDTON_MOVALPOLOS] = -- 11
@@ -100,7 +100,7 @@ xi.treasure.treasureInfo =
                     { -142.762,    8.000, -310.777, 192 },
                 },
                 gil = { 0.731, 3200, 6400 },
-                gem = { 0.269, 811, 808, 796, 799, 788, 815, 798 },
+                gem = { 0.269, xi.items.AMETRINE, xi.items.GOSHENITE, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.PERIDOT, xi.items.SPHENE, xi.items.TURQUOISE },
             },
 
             [xi.zone.SACRARIUM] = -- 28
@@ -136,7 +136,7 @@ xi.treasure.treasureInfo =
                     {   8.974, -2.179, -133.075, 190 }, -- (F-11)
                 },
                 gil = { 0.929, 5100, 9900 },
-                gem = { 0.071, 790, 799, 815, 788, 796 },
+                gem = { 0.071, xi.items.GARNET, xi.items.ONYX, xi.items.SPHENE, xi.items.PERIDOT, xi.items.LIGHT_OPAL },
             },
 
             [xi.zone.FORT_GHELSBA] = -- 141
@@ -152,7 +152,7 @@ xi.treasure.treasureInfo =
                     { 143.690,  -45.584, -102.603,  71 },
                 },
                 gil = { 0.500, 800, 2100 },
-                gem = { 0.036, 814, 800, 795, 807, 806 },
+                gem = { 0.036, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.LAPIS_LAZULI, xi.items.SARDONYX, xi.items.TOURMALINE },
                 item = { 0.464, xi.items.COUGAR_BAGHNAKHS },
             },
 
@@ -171,7 +171,7 @@ xi.treasure.treasureInfo =
                     { -151.230,   -0.359,  -21.489, 253 },
                 },
                 gil = { 0.450, 800, 2350 },
-                gem = { 0.100, 814, 800, 795, 807, 806 },
+                gem = { 0.100, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.LAPIS_LAZULI, xi.items.SARDONYX, xi.items.TOURMALINE },
                 item = { 0.450, xi.items.COUGAR_BAGHNAKHS },
             },
 
@@ -208,7 +208,7 @@ xi.treasure.treasureInfo =
                     {  99.917,  -32.000,  -41.557,  60 },
                 },
                 gil = { 0.455, 840, 1600 },
-                gem = { 0.136, 795, 800, 814, 807, 806, 809 },
+                gem = { 0.136, xi.items.LAPIS_LAZULI, xi.items.AMETHYST, xi.items.AMBER_STONE, xi.items.SARDONYX, xi.items.TOURMALINE, xi.items.CLEAR_TOPAZ },
                 item = { 0.409, xi.items.FLAME_BOOMERANG },
             },
 
@@ -231,7 +231,7 @@ xi.treasure.treasureInfo =
                     {  213.192,   -2.309, -299.255, 236 },
                 },
                 gil = { 0.448, 800, 1600 },
-                gem = { 0.069, 814, 800, 809, 795, 807, 806 },
+                gem = { 0.069, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.CLEAR_TOPAZ, xi.items.LAPIS_LAZULI, xi.items.SARDONYX, xi.items.TOURMALINE },
                 item = { 0.483, xi.items.SHIELD_EARRING },
             },
 
@@ -255,7 +255,7 @@ xi.treasure.treasureInfo =
                     {  22.898,   -2.981,   84.606, 214 },
                 },
                 gil = { 0.152, 3440, 9000 },
-                gem = { 0.090, 811, 790, 796, 798, 808, 815 },
+                gem = { 0.090, xi.items.AMETRINE, xi.items.GARNET, xi.items.LIGHT_OPAL, xi.items.TURQUOISE, xi.items.GOSHENITE, xi.items.SPHENE },
                 item = { 0.758, xi.items.ADEPTS_ROPE },
             },
 
@@ -279,7 +279,7 @@ xi.treasure.treasureInfo =
                     {  -14.535,    0.583,  -67.930, 173 },
                 },
                 gil = { 0.429, 3060, 6320 },
-                gem = { 0.107, 811, 790, 808, 796, 799, 788, 815, 798 },
+                gem = { 0.107, xi.items.AMETRINE, xi.items.GARNET, xi.items.GOSHENITE, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.PERIDOT, xi.items.SPHENE, xi.items.TURQUOISE },
                 item = { 0.464, xi.items.ELECTRUM_RING },
             },
 
@@ -317,7 +317,7 @@ xi.treasure.treasureInfo =
                     {  -19.589,  -15.750,  -15.309,  65 },
                 },
                 gil = { 0.440, 3200, 6320 },
-                gem = { 0.080, 811, 790, 808, 796, 788, 807, 815, 798 },
+                gem = { 0.080, xi.items.AMETRINE, xi.items.GARNET, xi.items.GOSHENITE, xi.items.LIGHT_OPAL, xi.items.PERIDOT, xi.items.SARDONYX, xi.items.SPHENE, xi.items.TURQUOISE },
                 item = { 0.480, xi.items.ELECTRUM_HAIRPIN },
             },
 
@@ -350,7 +350,7 @@ xi.treasure.treasureInfo =
                     { -504.196, -112.000,   55.353, 247 },
                 },
                 gil = { 0.355, 2450, 7000 },
-                gem = { 0.161, 814, 800, 809, 795, 796, 799, 806 },
+                gem = { 0.161, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.CLEAR_TOPAZ, xi.items.LAPIS_LAZULI, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.TOURMALINE },
                 item = { 0.484, xi.items.EMETH_PICK },
             },
 
@@ -379,7 +379,7 @@ xi.treasure.treasureInfo =
                     { -220.087, -143.601,   19.370, 191 },
                 },
                 gil = { 0.355, 2450, 7000 },
-                gem = { 0.161, 814, 800, 809, 795, 796, 799, 806 },
+                gem = { 0.161, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.CLEAR_TOPAZ, xi.items.LAPIS_LAZULI, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.TOURMALINE },
                 item = { 0.484, xi.items.EMETH_PICK },
             },
 
@@ -420,7 +420,7 @@ xi.treasure.treasureInfo =
                     {   52.638,  -24.000,   20.112, 127 },
                 },
                 gil = { 0.382, 5000, 13950 },
-                gem = { 0.008, 811, 790, 808, 788, 799, 815 },
+                gem = { 0.008, xi.items.AMETRINE, xi.items.GARNET, xi.items.GOSHENITE, xi.items.PERIDOT, xi.items.ONYX, xi.items.SPHENE },
                 item = { 0.610, xi.items.PHALANX_RING },
             },
 
@@ -455,7 +455,7 @@ xi.treasure.treasureInfo =
                     {  -88.958,    -0.100,  -156.748,   129 },
                 },
                 gil = { 0.306, 5000, 10000 },
-                gem = { 0.204, 798, 790, 808, 788, 815, 796 },
+                gem = { 0.204, xi.items.TURQUOISE, xi.items.GARNET, xi.items.GOSHENITE, xi.items.PERIDOT, xi.items.SPHENE, xi.items.LIGHT_OPAL },
                 item = { 0.490, xi.items.PHALANX_RING },
             },
 
@@ -493,7 +493,7 @@ xi.treasure.treasureInfo =
                     { 186.575,    8.570,   99.976,   3 },
                 },
                 gil = { 0.929, 3355, 8900 },
-                gem = { 0.071, 811, 808, 790, 796, 815, 788, 799, 798 },
+                gem = { 0.071, xi.items.AMETRINE, xi.items.GOSHENITE, xi.items.GARNET, xi.items.LIGHT_OPAL, xi.items.SPHENE, xi.items.PERIDOT, xi.items.ONYX, xi.items.TURQUOISE },
             },
 
             [xi.zone.KING_RANPERRES_TOMB] = -- 190
@@ -545,7 +545,7 @@ xi.treasure.treasureInfo =
                     { -419.957,    3.876,  335.875, 195 },
                 },
                 gil = { 0.308, 450, 900 },
-                gem = { 0.230, 814, 800, 809, 795, 807, 806 },
+                gem = { 0.230, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.CLEAR_TOPAZ, xi.items.LAPIS_LAZULI, xi.items.SARDONYX, xi.items.TOURMALINE },
                 item = { 0.462, xi.items.TROPICAL_SHIELD },
             },
 
@@ -560,7 +560,7 @@ xi.treasure.treasureInfo =
                     { -60.365,     8.035,  -55.641, 190 },
                 },
                 gil = { 0.459, 450, 1034 },
-                gem = { 0.109, 814, 800, 809, 795, 806 },
+                gem = { 0.109, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.CLEAR_TOPAZ, xi.items.LAPIS_LAZULI, xi.items.TOURMALINE },
                 item = { 0.432, xi.items.MOTH_AXE },
             },
 
@@ -610,7 +610,7 @@ xi.treasure.treasureInfo =
                     { -167.160,    0.068,  289.223,  62 },
                 },
                 gil = { 0.310, 1800, 3600 },
-                gem = { 0.214, 800, 809, 806, 807, 796, 795, 814, 799 },
+                gem = { 0.214, xi.items.AMETHYST, xi.items.CLEAR_TOPAZ, xi.items.TOURMALINE, xi.items.SARDONYX, xi.items.LIGHT_OPAL, xi.items.LAPIS_LAZULI, xi.items.AMBER_STONE, xi.items.ONYX },
                 item = { 0.476, xi.items.FORCE_BELT },
             },
 
@@ -631,7 +631,7 @@ xi.treasure.treasureInfo =
                     { -411.050,    0.000,  -620.06,   0 },
                 },
                 gil = { 0.459, 450, 1034 },
-                gem = { 0.109, 814, 800, 809, 795, 806 },
+                gem = { 0.109, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.CLEAR_TOPAZ, xi.items.LAPIS_LAZULI, xi.items.TOURMALINE },
                 item = { 0.432, xi.items.MOTH_AXE },
             },
 
@@ -653,7 +653,7 @@ xi.treasure.treasureInfo =
                     { -438.279,    0.350,  304.854, 190 },
                 },
                 gil = { 0.421, 5100, 12450 },
-                gem = { 0.105, 811, 808, 796, 799, 815, 790 },
+                gem = { 0.105, xi.items.AMETRINE, xi.items.GOSHENITE, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.SPHENE, xi.items.GARNET },
                 item = { 0.474, xi.items.FALCASTRA },
             },
 
@@ -692,7 +692,7 @@ xi.treasure.treasureInfo =
                     {   50.596,  -19.842,  126.625, 153 },
                 },
                 gil = { 0.302, 1980, 3600 },
-                gem = { 0.233, 806, 809, 814, 800, 796, 795, 799 },
+                gem = { 0.233, xi.items.TOURMALINE, xi.items.CLEAR_TOPAZ, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.LIGHT_OPAL, xi.items.LAPIS_LAZULI, xi.items.ONYX },
                 item = { 0.465, xi.items.FROST_SHIELD, xi.items.REPLICA_MAUL },
             },
 
@@ -731,7 +731,7 @@ xi.treasure.treasureInfo =
                     { -89.586,   -9.624,   95.296,  46 },
                 },
                 gil = { 0.394, 4702, 10000 },
-                gem = { 0.162, 811, 790, 808, 796, 799, 788, 815, 798 },
+                gem = { 0.162, xi.items.AMETRINE, xi.items.GARNET, xi.items.GOSHENITE, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.PERIDOT, xi.items.SPHENE, xi.items.TURQUOISE },
                 item = { 0.444, xi.items.GIGANT_AXE },
             },
 
@@ -774,7 +774,7 @@ xi.treasure.treasureInfo =
                     {  270.951,   20.000, -247.144, 212 },
                 },
                 gil = { 0.525, 1800, 5200 },
-                gem = { 0.060, 814, 800, 809, 795, 796, 799, 807, 806 },
+                gem = { 0.060, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.CLEAR_TOPAZ, xi.items.LAPIS_LAZULI, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.SARDONYX, xi.items.TOURMALINE },
                 item = { 0.415, xi.items.HEAT_ROD },
             },
 
@@ -796,7 +796,7 @@ xi.treasure.treasureInfo =
                     { -142.400,    0.000,  328.437, 128 },
                 },
                 gil = { 0.576, 4425, 10000 },
-                gem = { 0.059, 811, 790, 808, 796, 799, 788, 815, 798 },
+                gem = { 0.059, xi.items.AMETRINE, xi.items.GARNET, xi.items.GOSHENITE, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.PERIDOT, xi.items.SPHENE, xi.items.TURQUOISE },
                 item = { 0.365, xi.items.PYRO_ROBE },
             },
 
@@ -835,7 +835,7 @@ xi.treasure.treasureInfo =
                     {  -95.248,  -16.005,  164.285,  13 },
                 },
                 gil = { 0.469, 4050, 7920 },
-                gem = { 0.091, 811, 790, 808, 796, 799, 788, 815, 798 },
+                gem = { 0.091, xi.items.AMETRINE, xi.items.GARNET, xi.items.GOSHENITE, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.PERIDOT, xi.items.SPHENE, xi.items.TURQUOISE },
                 item = { 0.440, xi.items.LIFE_BELT },
             },
 
@@ -876,7 +876,7 @@ xi.treasure.treasureInfo =
                     { -165.973,    8.771,  -93.768, 138 },
                 },
                 gil = { 0.806, 3200, 11679 },
-                gem = { 0.194, 811, 790, 808, 796, 799, 788, 815, 798 },
+                gem = { 0.194, xi.items.AMETRINE, xi.items.GARNET, xi.items.GOSHENITE, xi.items.LIGHT_OPAL, xi.items.ONYX, xi.items.PERIDOT, xi.items.SPHENE, xi.items.TURQUOISE },
             },
         },
     },
@@ -905,7 +905,7 @@ xi.treasure.treasureInfo =
                     { 134.130,   20.000,  107.904, 190 },
                 },
                 gil = { 0.927, 9800, 19180 },
-                gem = { 0.073, 791, 797, 784, 803, 805, 801, 802 },
+                gem = { 0.073, xi.items.AQUAMARINE, xi.items.PAINITE, xi.items.JADEITE, xi.items.SUNSTONE, xi.items.ZIRCON, xi.items.CHRYSOBERYL, xi.items.MOONSTONE },
             },
 
             [xi.zone.RUAUN_GARDENS] = -- 130
@@ -929,7 +929,7 @@ xi.treasure.treasureInfo =
                     { -425.500,  -36.000,   69.185, 103 },
                 },
                 gil = { 0.821, 9576, 19460 },
-                gem = { 0.179, 791, 801, 810, 784, 802, 797, 805, 803 },
+                gem = { 0.179, xi.items.AQUAMARINE, xi.items.CHRYSOBERYL, xi.items.FLUORITE, xi.items.JADEITE, xi.items.MOONSTONE, xi.items.PAINITE, xi.items.ZIRCON, xi.items.SUNSTONE },
             },
 
             [xi.zone.BEADEAUX] = -- 147
@@ -958,7 +958,7 @@ xi.treasure.treasureInfo =
                     { 170.601,   39.831,   25.066,  25 },
                 },
                 gil = { 0.375, 4700, 25000 },
-                gem = { 0.240, 791, 801, 802, 797, 788, 803, 805, 810, 784 },
+                gem = { 0.240, xi.items.AQUAMARINE, xi.items.CHRYSOBERYL, xi.items.MOONSTONE, xi.items.PAINITE, xi.items.PERIDOT, xi.items.SUNSTONE, xi.items.ZIRCON, xi.items.FLUORITE, xi.items.JADEITE },
                 item = { 0.385, xi.items.SCROLL_OF_BURST },
             },
 
@@ -990,7 +990,7 @@ xi.treasure.treasureInfo =
                     { -21.343,   -0.797, -177.934, 107 },
                 },
                 gil = { 0.818, 7320, 14400 },
-                gem = { 0.055, 801, 810, 784, 802, 797, 803 },
+                gem = { 0.055, xi.items.CHRYSOBERYL, xi.items.FLUORITE, xi.items.JADEITE, xi.items.MOONSTONE, xi.items.PAINITE, xi.items.SUNSTONE },
                 item = { 0.127, xi.items.PHYSICAL_EARRING },
             },
 
@@ -1019,7 +1019,7 @@ xi.treasure.treasureInfo =
                     { -100.197,  -72.511,  -13.141,  65 },
                 },
                 gil = { 0.652, 7320, 18000 },
-                gem = { 0.044, 791, 801, 810, 784, 802, 797, 803, 805 },
+                gem = { 0.044, xi.items.AQUAMARINE, xi.items.CHRYSOBERYL, xi.items.FLUORITE, xi.items.JADEITE, xi.items.MOONSTONE, xi.items.PAINITE, xi.items.SUNSTONE, xi.items.ZIRCON },
                 item = { 0.304, xi.items.SAFEGUARD_RING },
             },
 
@@ -1054,7 +1054,7 @@ xi.treasure.treasureInfo =
                     {  251.809,    6.141,  -18.487,  12 },
                 },
                 gil = { 0.793, 7110, 20520 },
-                gem = { 0.092, 791, 801, 810, 784, 802, 803, 805, 797 },
+                gem = { 0.092, xi.items.AQUAMARINE, xi.items.CHRYSOBERYL, xi.items.FLUORITE, xi.items.JADEITE, xi.items.MOONSTONE, xi.items.SUNSTONE, xi.items.ZIRCON, xi.items.PAINITE },
                 item = { 0.115, xi.items.SCREAM_FUNGUS },
             },
 
@@ -1082,7 +1082,7 @@ xi.treasure.treasureInfo =
                     {  -65.184,    0.022,   27.081,  65 },
                 },
                 gil = { 0.846, 7320, 14400 },
-                gem = { 0.154, 797, 801, 810, 802, 805, 803 },
+                gem = { 0.154, xi.items.PAINITE, xi.items.CHRYSOBERYL, xi.items.FLUORITE, xi.items.MOONSTONE, xi.items.ZIRCON, xi.items.SUNSTONE },
             },
 
             [xi.zone.DEN_OF_RANCOR] = -- 160
@@ -1106,7 +1106,7 @@ xi.treasure.treasureInfo =
                     { 460.201,    5.092,  331.775,  65 },
                 },
                 gil = { 0.700, 8000, 16770 },
-                gem = { 0.300, 797, 805 },
+                gem = { 0.300, xi.items.PAINITE, xi.items.ZIRCON },
             },
 
             [xi.zone.CASTLE_ZVAHL_BAILEYS] = -- 161
@@ -1146,7 +1146,7 @@ xi.treasure.treasureInfo =
                     {  103.469,   -8.000,  183.912,  65 },
                 },
                 gil = { 0.731, 6300, 26880 },
-                gem = { 0.080, 791, 801, 810, 784, 802, 797, 803, 805 },
+                gem = { 0.080, xi.items.AQUAMARINE, xi.items.CHRYSOBERYL, xi.items.FLUORITE, xi.items.JADEITE, xi.items.MOONSTONE, xi.items.PAINITE, xi.items.SUNSTONE, xi.items.ZIRCON },
                 item = { 0.189, xi.items.SCROLL_OF_MAGES_BALLAD_II },
             },
 
@@ -1191,7 +1191,7 @@ xi.treasure.treasureInfo =
                     {   95.977,   21.500,  -56.045, 159 },
                 },
                 gil = { 0.900, 7440, 14280 },
-                gem = { 0.100, 791, 801, 784, 802, 797, 803, 805 },
+                gem = { 0.100, xi.items.AQUAMARINE, xi.items.CHRYSOBERYL, xi.items.JADEITE, xi.items.MOONSTONE, xi.items.PAINITE, xi.items.SUNSTONE, xi.items.ZIRCON },
             },
 
             [xi.zone.KUFTAL_TUNNEL] = -- 174
@@ -1245,7 +1245,7 @@ xi.treasure.treasureInfo =
                     { -27.946,  -21.825, -183.709,  30 },
                 },
                 gil = { 0.943, 5200, 16100 },
-                gem = { 0.057, 802, 801, 797, 784, 803, 791, 805, 810 },
+                gem = { 0.057, xi.items.MOONSTONE, xi.items.CHRYSOBERYL, xi.items.PAINITE, xi.items.JADEITE, xi.items.SUNSTONE, xi.items.AQUAMARINE, xi.items.ZIRCON, xi.items.FLUORITE },
             },
 
             [xi.zone.SEA_SERPENT_GROTTO] = -- 176
@@ -1276,7 +1276,7 @@ xi.treasure.treasureInfo =
                     { -356.233,   15.475, -104.030, 254 },
                 },
                 gil = { 0.550, 6145, 19580 },
-                gem = { 0.450, 791, 810, 784, 802, 803, 797, 801 },
+                gem = { 0.450, xi.items.AQUAMARINE, xi.items.FLUORITE, xi.items.JADEITE, xi.items.MOONSTONE, xi.items.SUNSTONE, xi.items.PAINITE, xi.items.CHRYSOBERYL },
             },
 
             [xi.zone.VELUGANNON_PALACE] = -- 177
@@ -1297,7 +1297,7 @@ xi.treasure.treasureInfo =
                     {  379.929,   15.574, -219.582,  65 },
                 },
                 gil = { 0.500, 9940, 18900 },
-                gem = { 0.500, 791, 805 },
+                gem = { 0.500, xi.items.AQUAMARINE, xi.items.ZIRCON },
             },
 
             [xi.zone.THE_ELDIEME_NECROPOLIS] = -- 195
@@ -1328,7 +1328,7 @@ xi.treasure.treasureInfo =
                     { -386.548,   -3.000,  335.046,   2 },
                 },
                 gil = { 0.500, 7590, 18039 },
-                gem = { 0.250, 801, 810, 802, 797, 803 },
+                gem = { 0.250, xi.items.CHRYSOBERYL, xi.items.FLUORITE, xi.items.MOONSTONE, xi.items.PAINITE, xi.items.SUNSTONE },
                 item = { 0.250, xi.items.VILE_ELIXIR_P1 },
             },
 
@@ -1359,7 +1359,7 @@ xi.treasure.treasureInfo =
                     { -150.126,   -0.904,  341.438, 206 },
                 },
                 gil = { 0.387, 6040, 12100 },
-                gem = { 0.387, 791, 801, 784, 797, 805, 803 },
+                gem = { 0.387, xi.items.AQUAMARINE, xi.items.CHRYSOBERYL, xi.items.JADEITE, xi.items.PAINITE, xi.items.ZIRCON, xi.items.SUNSTONE },
                 item = { 0.226, xi.items.HI_RERAISER },
             },
 
@@ -1391,7 +1391,7 @@ xi.treasure.treasureInfo =
                     {   20.042,   -9.250,  376.955, 193 },
                 },
                 gil = { 0.750, 6668, 18700 },
-                gem = { 0.125, 801, 784, 802 },
+                gem = { 0.125, xi.items.CHRYSOBERYL, xi.items.JADEITE, xi.items.MOONSTONE },
                 item = { 0.125, xi.items.LIGHT_GAUNTLETS },
             },
 
@@ -1425,7 +1425,7 @@ xi.treasure.treasureInfo =
                     { 160.900,   -0.068,  -22.165, 182 },
                 },
                 gil = { 0.897, 7200, 21060 },
-                gem = { 0.103, 802, 797, 803, 801, 810, 791 },
+                gem = { 0.103, xi.items.MOONSTONE, xi.items.PAINITE, xi.items.SUNSTONE, xi.items.CHRYSOBERYL, xi.items.FLUORITE, xi.items.AQUAMARINE },
             },
 
             [xi.zone.QUICKSAND_CAVES] = -- 208
@@ -1452,7 +1452,7 @@ xi.treasure.treasureInfo =
                     { 677.287,    3.220, -581.735, 192 },
                 },
                 gil = { 0.773, 6160, 16100 },
-                gem = { 0.227, 791, 801, 810, 784, 797, 803 }
+                gem = { 0.227, xi.items.AQUAMARINE, xi.items.CHRYSOBERYL, xi.items.FLUORITE, xi.items.JADEITE, xi.items.PAINITE, xi.items.SUNSTONE }
             },
         },
     },
