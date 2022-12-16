@@ -124,7 +124,7 @@ content.loot =
 
         {
             { itemid = xi.items.METAL_CHIP,                droprate =  59 },
-            { itemid = xi.items.NONE,                      droprate = 100 }, 
+            { itemid = xi.items.NONE,                      droprate = 100 },
         },
     }
 }
