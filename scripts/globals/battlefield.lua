@@ -1509,7 +1509,7 @@ function xi.battlefield.HandleLootRolls(battlefield, lootTable, players, npc)
         {
             {  11, xi.items.BEASTLY_SHANK },
             {  76, xi.items.BLUE_PONDWEED },
-            { 107,    xi.items.HONEY_WINE },
+            { 107, xi.items.HONEY_WINE },
         }
 
         if xi.settings.main.LandKingSystem_NQ > 0 then
