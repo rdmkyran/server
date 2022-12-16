@@ -3,6 +3,7 @@
 -- Desc: this file contains functions that are shared by multiple luas in this zone's directory
 -----------------------------------
 require("scripts/globals/keyitems")
+require("scripts/globals/items")
 require("scripts/globals/npc_util")
 require("scripts/globals/settings")
 require("scripts/globals/status")
