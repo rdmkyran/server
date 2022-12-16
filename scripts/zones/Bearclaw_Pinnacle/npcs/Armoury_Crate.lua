@@ -3,6 +3,7 @@
 --  NPC: Armoury Crate
 -----------------------------------
 require("scripts/globals/battlefield")
+require("scripts/globals/items")
 -----------------------------------
 local entity = {}
 
@@ -13,33 +14,33 @@ local entity = {}
      [641] =
      {
          {
-             { itemid =    0, droprate =  50 }, -- nothing
-             { itemid = 1769, droprate = 450 }, -- Square of Galateia
-             { itemid = 1764, droprate =  50 }, -- Kejusu Satin
-             { itemid = 1763, droprate = 450 }, -- Viridian Urushi
+             { itemid = xi.items.NONE,                      droprate =  50 }, 
+             { itemid = xi.items.SQUARE_OF_GALATEIA,        droprate = 450 }, 
+             { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN,    droprate =  50 }, 
+             { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI,    droprate = 450 }, 
          },
 
          {
-             { itemid =    0, droprate = 950 }, -- nothing
-             { itemid = 1842, droprate =  50 }, -- Cloud Evoker
+             { itemid = xi.items.NONE,                      droprate = 950 }, 
+             { itemid = xi.items.CLOUD_EVOKER,              droprate =  50 }, 
          },
 
          {
-             { itemid =     0, droprate = 325 }, -- nothing
-             { itemid = 18380, droprate = 225 }, -- Martial Sword
-             { itemid = 17798, droprate = 125 }, -- Shamo
-             { itemid = 15301, droprate =  50 }, -- Venturer's Belt
-             { itemid = 14673, droprate = 100 }, -- Serene Ring
-             { itemid =  4748, droprate = 175 }, -- Scroll of Raise III
+             { itemid = xi.items.NONE,                      droprate = 325 }, 
+             { itemid = xi.items.MARTIAL_SWORD,             droprate = 225 }, 
+             { itemid = xi.items.SHAMO,                     droprate = 125 }, 
+             { itemid = xi.items.VENTURERS_BELT,            droprate =  50 }, 
+             { itemid = xi.items.SERENE_RING,               droprate = 100 }, 
+             { itemid = xi.items.SCROLL_OF_RAISE_III,       droprate = 175 }, 
          },
 
          {
-             { itemid =     0, droprate = 325 }, -- nothing
-             { itemid = 18380, droprate = 225 }, -- Martial Sword
-             { itemid = 17798, droprate = 125 }, -- Shamo
-             { itemid = 15301, droprate =  50 }, -- Venturer's Belt
-             { itemid = 14673, droprate = 100 }, -- Serene Ring
-             { itemid =  4748, droprate = 175 }, -- Scroll of Raise III
+             { itemid = xi.items.NONE,                      droprate = 325 }, 
+             { itemid = xi.items.MARTIAL_SWORD,             droprate = 225 }, 
+             { itemid = xi.items.SHAMO,                     droprate = 125 }, 
+             { itemid = xi.items.VENTURERS_BELT,            droprate =  50 }, 
+             { itemid = xi.items.SERENE_RING,               droprate = 100 }, 
+             { itemid = xi.items.SCROLL_OF_RAISE_III,       droprate = 175 }, 
          },
      },
 
@@ -47,35 +48,35 @@ local entity = {}
      [642] =
      {
          {
-             { itemid =    0, droprate = 100 }, -- nothing
-             { itemid = 1769, droprate = 500 }, -- Square of Galateia
-             { itemid = 1764, droprate = 150 }, -- Kejusu Satin
-             { itemid = 1763, droprate = 250 }, -- Viridian Urushi
+             { itemid = xi.items.NONE,                      droprate = 100 }, 
+             { itemid = xi.items.SQUARE_OF_GALATEIA,        droprate = 500 }, 
+             { itemid = xi.items.SQUARE_OF_KEJUSU_SATIN,    droprate = 150 }, 
+             { itemid = xi.items.POT_OF_VIRIDIAN_URUSHI,    droprate = 250 }, 
          },
 
          {
-             { itemid =    0, droprate = 950 }, -- nothing
-             { itemid = 1842, droprate =  50 }, -- Cloud Evoker
+             { itemid = xi.items.NONE,                      droprate = 950 }, 
+             { itemid = xi.items.CLOUD_EVOKER,              droprate =  50 }, 
          },
 
          {
-             { itemid =     0, droprate = 250 }, -- nothing
-             { itemid = 18221, droprate = 125 }, -- Martial Bhuj
-             { itemid = 17210, droprate = 125 }, -- Martial Gun
-             { itemid = 17593, droprate = 125 }, -- Martial Staff
-             { itemid = 13628, droprate = 125 }, -- Hexerei Cape
-             { itemid = 13647, droprate = 125 }, -- Settler's Cape
-             { itemid =  4748, droprate = 125 }, -- Scroll of Raise III
+             { itemid = xi.items.NONE,                      droprate = 250 }, 
+             { itemid = xi.items.MARTIAL_BHUJ,              droprate = 125 }, 
+             { itemid = xi.items.MARTIAL_GUN,               droprate = 125 }, 
+             { itemid = xi.items.MARTIAL_STAFF,             droprate = 125 }, 
+             { itemid = xi.items.HEXEREI_CAPE,              droprate = 125 }, 
+             { itemid = xi.items.SETTLERS_CAPE,             droprate = 125 }, 
+             { itemid = xi.items.SCROLL_OF_RAISE_III,       droprate = 125 }, 
          },
 
          {
-             { itemid =     0, droprate = 250 }, -- nothing
-             { itemid = 18221, droprate = 125 }, -- Martial Bhuj
-             { itemid = 17210, droprate = 125 }, -- Martial Gun
-             { itemid = 17593, droprate = 125 }, -- Martial Staff
-             { itemid = 13628, droprate = 125 }, -- Hexerei Cape
-             { itemid = 13647, droprate = 125 }, -- Settler's Cape
-             { itemid =  4748, droprate = 125 }, -- Scroll of Raise III
+             { itemid = xi.items.NONE,                      droprate = 250 }, 
+             { itemid = xi.items.MARTIAL_BHUJ,              droprate = 125 }, 
+             { itemid = xi.items.MARTIAL_GUN,               droprate = 125 }, 
+             { itemid = xi.items.MARTIAL_STAFF,             droprate = 125 }, 
+             { itemid = xi.items.HEXEREI_CAPE,              droprate = 125 }, 
+             { itemid = xi.items.SETTLERS_CAPE,             droprate = 125 }, 
+             { itemid = xi.items.SCROLL_OF_RAISE_III,       droprate = 125 }, 
          },
      },
 

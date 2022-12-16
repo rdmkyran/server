@@ -149,15 +149,15 @@ content.loot =
     {
         {
             quantity = 6,
-            { itemid = 1875, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = 1934, droprate = 200 },
-            { itemid = 1930, droprate = 200 },
-            { itemid = 1958, droprate = 200 },
-            { itemid = 2658, droprate = 400 },
-            { itemid = 1940, droprate = 200 },
+            { itemid = xi.items.SQUARE_OF_BENEDICT_SILK,   droprate = 200 },
+            { itemid = xi.items.SQUARE_OF_ECARLATE_CLOTH,  droprate = 200 },
+            { itemid = xi.items.SPOOL_OF_GLITTERING_YARN,  droprate = 200 },
+            { itemid = xi.items.SPOOL_OF_SILKWORM_THREAD,  droprate = 400 },
+            { itemid = xi.items.SQUARE_OF_SUPPLE_SKIN,     droprate = 200 },
         },
     },
 
@@ -165,25 +165,25 @@ content.loot =
     {
         {
             quantity = 7,
-            { itemid = 1875, droprate = 1000 },
+            { itemid = xi.items.ANCIENT_BEASTCOIN,         droprate = 1000 },
         },
 
         {
-            { itemid = 1920, droprate = 659 },
-            { itemid = 1924, droprate = 394 },
-            { itemid = 1923, droprate = 388 },
-            { itemid = 1922, droprate = 404 },
+            { itemid = xi.items.PIECE_OF_ULTIMAS_CEREBRUM, droprate = 659 },
+            { itemid = xi.items.SEGMENT_OF_ULTIMAS_TAIL,   droprate = 394 },
+            { itemid = xi.items.SEGMENT_OF_ULTIMAS_LEG,    droprate = 388 },
+            { itemid = xi.items.SEGMENT_OF_ULTIMAS_CLAW,   droprate = 404 },
         },
 
         {
-            { itemid = 1924, droprate = 394 },
-            { itemid = 1922, droprate = 402 },
-            { itemid = 1920, droprate = 659 },
-            { itemid = 1923, droprate = 383 },
+            { itemid = xi.items.SEGMENT_OF_ULTIMAS_TAIL,   droprate = 394 },
+            { itemid = xi.items.SEGMENT_OF_ULTIMAS_CLAW,   droprate = 402 },
+            { itemid = xi.items.PIECE_OF_ULTIMAS_CEREBRUM, droprate = 659 },
+            { itemid = xi.items.SEGMENT_OF_ULTIMAS_LEG,    droprate = 383 },
         },
 
         {
-            { itemid = 1921, droprate = 265 },
+            { itemid = xi.items.PIECE_OF_ULTIMAS_HEART,    droprate = 265 },
             { itemid =    0, droprate = 735 },
         },
     },
