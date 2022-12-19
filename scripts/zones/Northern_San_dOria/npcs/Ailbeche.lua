@@ -22,6 +22,7 @@ entity.onTrade = function(player, npc, trade)
         if (head == xi.items.DREAM_HAT_P1 or head == xi.items.DREAM_HAT) then
             xi.events.starlightCelebration.onStarlightSmilebringersTrade(player, trade, npc)
 
+        if xi.events.starlightCelebration.onStarlightSmilebringersTrade(player, trade, npc) then
             return
         end
     end

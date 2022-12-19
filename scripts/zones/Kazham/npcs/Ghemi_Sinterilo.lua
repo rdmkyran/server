@@ -24,7 +24,7 @@ entity.onTrigger = function(player, npc)
         xi.items.ELSHIMO_COCONUT,            156,
         xi.items.ELSHIMO_PACHIRA_FRUIT,      154,
         -- 2869, 9100,    -- Kazham Waystone (SOA)
-        xi.items.AQUILARIA_LOG,              2877,
+        -- xi.items.AQUILARIA_LOG,          2877, -- (Abyssea)
     }
 
     player:showText(npc, ID.text.GHEMISENTERILO_SHOP_DIALOG)
