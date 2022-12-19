@@ -46,9 +46,9 @@ function xi.events.starlightCelebration.onStarlightSmilebringersTrade(player, tr
         local gifts_table =
         {
             xi.items.PRESENT_FOR_THE_KIDDIES,
-            xi.items.PRESENT_FOR_THE_KIDDIES_II,
-            xi.items.PRESENT_FOR_THE_KIDDIES_III,
-            xi.items.PRESENT_FOR_THE_KIDDIES_IV,
+            xi.items.PRESENT_FOR_THE_KIDDIES_2,
+            xi.items.PRESENT_FOR_THE_KIDDIES_3,
+            xi.items.PRESENT_FOR_THE_KIDDIES_EX,
             xi.items.POPSTAR,
             xi.items.BRILLIANT_SNOW,
             xi.items.SPARKLING_HAND,
