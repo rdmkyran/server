@@ -2832,6 +2832,7 @@ xi.items =
     BLACKENED_SIREDON                     = 5266,
     CHUNK_OF_SHUMEYO_SALT                 = 5267,
     CCB_POLYMER_PUMP                      = 5268,
+    SPECIAL_PRESENT                       = 5269,
     CLUSTER_OF_BURNING_MEMORIES           = 5286,
     CLUSTER_OF_BITTER_MEMORIES            = 5287,
     CLUSTER_OF_FLEETING_MEMORIES          = 5288,
