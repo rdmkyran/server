@@ -518,7 +518,7 @@ xi.treasure.treasureInfo =
                     {  -40.195,   -0.008, -130.093, 193 },
                 },
                 gil =  { 0.474, 390, 1300 },
-                gem =  { 0.093, 814, 800, 809, 795, 807, 806 },
+                gem =  { 0.093, xi.items.AMBER_STONE, xi.items.AMETHYST, xi.items.CLEAR_TOPAZ, xi.items.LAPIS_LAZULI, xi.items.SARDONYX, xi.items.TOURMALINE },
                 item = { 0.433, xi.items.BATTLE_GLOVES },
             },
 
