@@ -1,6 +1,7 @@
 -----------------------------------
 -- Abyssea Sturdy Pyxis - Pop Item
 -----------------------------------
+require("scripts/globals/items")
 
 xi = xi or {}
 xi.pyxis = xi.pyxis or {}
@@ -12,7 +13,7 @@ xi.pyxis.popitem = {}
 ---------------------------------
 local popitemDrops =
 {
-    [xi.zone.ABYSSEA_KONSCHTAT ] = { 2903, 2904, 2906, 2907, 2908, 2909, 2910, 2911, 2912, 2913, 2914 },
+    [xi.zone.ABYSSEA_KONSCHTAT ] = { xi.items.VIAL_OF_EFT_BLOOD, xi.items.GIANT_SLUG_EYESTALK, xi.items.ROTTING_EYEBALL, xi.items.TINY_MORBOL_VINE, xi.items.OBLIVISPORE_MUSHROOM, xi.items.CLUMP_OF_SNAKESKIN_MOSS, xi.items.ARMORED_DRAGONHORN, xi.items.RIPPED_EFT_SKIN, xi.items.GIANT_BUGARD_TUSK, xi.items.CLOUDED_LENS, xi.items.MURMURING_GLOBULE },
     [xi.zone.ABYSSEA_TAHRONGI  ] = { },
     [xi.zone.ABYSSEA_LA_THEINE ] = { },
     [xi.zone.ABYSSEA_ATTOHWA   ] = { },
