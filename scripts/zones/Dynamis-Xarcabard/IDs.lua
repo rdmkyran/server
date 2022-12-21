@@ -129,7 +129,7 @@ zones[xi.zone.DYNAMIS_XARCABARD] =
                 trade =
                 {
                     { item = xi.items.SHROUDED_BIJOU,            mob = 17330177 }, -- Dynamis Lord
-                    { item = { xi.items.FIENDISH_TOME_CHAPTER_26, 3430, 3431, 3432, 3433 }, mob = 17330191 }, -- Arch Dynamis Lord
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_26, xi.items.FIENDISH_TOME_CHAPTER_27, xi.items.FIENDISH_TOME_CHAPTER_28, xi.items.FIENDISH_TOME_CHAPTER_29, xi.items.FIENDISH_TOME_CHAPTER_30 }, mob = 17330191 }, -- Arch Dynamis Lord
                 }
             },
 

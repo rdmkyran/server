@@ -151,7 +151,7 @@ zones[xi.zone.DYNAMIS_VALKURM] =
             --     trade =
             --     {
             --         { item = xi.items.CREEPERS_JUJU,                     mob = 16936961 }, -- Cirrate Christelle
-            --         { item = { xi.items.FIENDISH_TOME_II_CHAPTER_1, 3471, 3472, 3473 }, mob = 16937290 }, -- Arch Christelle
+            --         { item = { xi.items.FIENDISH_TOME_II_CHAPTER_1, xi.items.FIENDISH_TOME_II_CHAPTER_2, xi.items.FIENDISH_TOME_II_CHAPTER_3, xi.items.FIENDISH_TOME_II_CHAPTER_4 }, mob = 16937290 }, -- Arch Christelle
             --     }
             -- },
             -- [16937586] = { trade = { { item = xi.items.NIGHTMARE_BUD, mob = 16937311 } } }, -- Lost Nant'ina

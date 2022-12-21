@@ -87,7 +87,7 @@ zones[xi.zone.DYNAMIS_SAN_DORIA] =
                 trade =
                 {
                     { item = xi.items.BARBARIC_BIJOU,                             mob = 17534977 }, -- Overlord's Tombstone
-                    { item = { xi.items.FIENDISH_TOME_CHAPTER_1, 3405, 3406, 3407, 3408 }, mob = 17535213 }, -- Arch Overlord Tombstone
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_1, xi.items.FIENDISH_TOME_CHAPTER_2, xi.items.FIENDISH_TOME_CHAPTER_3, xi.items.FIENDISH_TOME_CHAPTER_4, xi.items.FIENDISH_TOME_CHAPTER_5 }, mob = 17535213 }, -- Arch Overlord Tombstone
                 }
             },
             [17535224] = { trade = { { item = xi.items.ODIOUS_SCALE, mob = 17535207 } } }, -- Bladeburner Rokgevok

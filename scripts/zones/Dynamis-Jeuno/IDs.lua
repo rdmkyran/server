@@ -78,7 +78,7 @@ zones[xi.zone.DYNAMIS_JEUNO] =
                 trade =
                 {
                     { item = xi.items.ROVING_BIJOU,                             mob = 17547265 }, -- Goblin Golem
-                    { item = { xi.items.FIENDISH_TOME_CHAPTER_16, 3420, 3421, 3422, 3423 }, mob = 17547499 }, -- Arch Goblin Golem
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_16, xi.items.FIENDISH_TOME_CHAPTER_17, xi.items.FIENDISH_TOME_CHAPTER_18, xi.items.FIENDISH_TOME_CHAPTER_19, xi.items.FIENDISH_TOME_CHAPTER_20 }, mob = 17547499 }, -- Arch Goblin Golem
                 }
             },
             [17547510] = { trade = { { item = xi.items.ODIOUS_CUP, mob = 17547493 } } }, -- Quicktrix Hexhands

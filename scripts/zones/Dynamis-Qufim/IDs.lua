@@ -205,7 +205,7 @@ zones[xi.zone.DYNAMIS_QUFIM] =
             --     trade =
             --     {
             --         { item = xi.items.UNDYING_JUJU,                       mob = 16945153 }, -- Antaeus
-            --         { item = { xi.items.FIENDISH_TOME_II_CHAPTER_10, 3480, 3481, 3482 }, mob = 16945403 }, -- Arch Antaeus
+            --         { item = { xi.items.FIENDISH_TOME_II_CHAPTER_10, xi.items.FIENDISH_TOME_II_CHAPTER_11, xi.items.FIENDISH_TOME_II_CHAPTER_12, xi.items.FIENDISH_TOME_II_CHAPTER_13 }, mob = 16945403 }, -- Arch Antaeus
             --     }
             -- },
             -- [16945639] = { trade = { { item = xi.items.VIAL_OF_NIGHTMARE_BLOOD, mob = 16945421 } } }, -- Lost Stringes

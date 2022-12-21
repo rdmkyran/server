@@ -90,7 +90,7 @@ zones[xi.zone.DYNAMIS_WINDURST] =
                 trade =
                 {
                     { item = xi.items.DIVINE_BIJOU,                             mob = 17543169 }, -- Tzee Xicu Idol
-                    { item = { xi.items.FIENDISH_TOME_CHAPTER_11, 3415, 3416, 3417, 3418 }, mob = 17543469 }, -- Arch Tzee Xicu Idol
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_11, xi.items.FIENDISH_TOME_CHAPTER_12, xi.items.FIENDISH_TOME_CHAPTER_13, xi.items.FIENDISH_TOME_CHAPTER_14, xi.items.FIENDISH_TOME_CHAPTER_15 }, mob = 17543469 }, -- Arch Tzee Xicu Idol
                 }
             },
             [17543480] = { trade = { { item = xi.items.ODIOUS_NECKLACE, mob = 17543464 } } }, -- Xuu Bhoqa the Enigma

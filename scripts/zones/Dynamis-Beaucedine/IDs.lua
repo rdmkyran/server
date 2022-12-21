@@ -154,7 +154,7 @@ zones[xi.zone.DYNAMIS_BEAUCEDINE] =
                 trade =
                 {
                     { item = xi.items.LEERING_BIJOU,                             mob = 17326081 }, -- Angra Mainyu
-                    { item = { xi.items.FIENDISH_TOME_CHAPTER_21, 3425, 3426, 3427, 3428 }, mob = 17326098 }, -- Arch Angra Mainyu
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_21, xi.items.FIENDISH_TOME_CHAPTER_22, xi.items.FIENDISH_TOME_CHAPTER_23, xi.items.FIENDISH_TOME_CHAPTER_24, xi.items.FIENDISH_TOME_CHAPTER_25 }, mob = 17326098 }, -- Arch Angra Mainyu
                 }
             },
 

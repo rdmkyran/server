@@ -173,7 +173,7 @@ zones[xi.zone.DYNAMIS_BUBURIMU] =
             --     trade =
             --     {
             --         { item = xi.items.REVELATORY_JUJU,                             mob = 16941057 }, -- Apocalyptic Beast
-            --         { item = { xi.items.FIENDISH_TOME_II_CHAPTER_5, 3475, 3476, 3477, 3478 }, mob = 16941368 }, -- Arch Apocalyptic Beast
+            --         { item = { xi.items.FIENDISH_TOME_II_CHAPTER_5, xi.items.FIENDISH_TOME_II_CHAPTER_6, xi.items.FIENDISH_TOME_II_CHAPTER_7, xi.items.FIENDISH_TOME_II_CHAPTER_8, xi.items.FIENDISH_TOME_II_CHAPTER_9 }, mob = 16941368 }, -- Arch Apocalyptic Beast
             --     }
             -- },
             -- [16941677] = { trade = { { item = xi.items.NIGHTMARE_SHANK, mob = 16941552 } } }, -- Lost Stihi

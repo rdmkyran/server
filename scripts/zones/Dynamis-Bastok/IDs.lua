@@ -105,7 +105,7 @@ zones[xi.zone.DYNAMIS_BASTOK] =
                 trade =
                 {
                     { item = xi.items.STEELWALL_BIJOU,                             mob = 17539073 }, -- Gu'Dha Effigy
-                    { item = { xi.items.FIENDISH_TOME_CHAPTER_6, 3410, 3411, 3412, 3413 }, mob = 17539312 }, -- Arch Gu'Dha Effigy
+                    { item = { xi.items.FIENDISH_TOME_CHAPTER_6, xi.items.FIENDISH_TOME_CHAPTER_7, xi.items.FIENDISH_TOME_CHAPTER_8, xi.items.FIENDISH_TOME_CHAPTER_9, xi.items.FIENDISH_TOME_CHAPTER_10 }, mob = 17539312 }, -- Arch Gu'Dha Effigy
                 }
             },
             [17539323] = { trade = { { item = xi.items.ODIOUS_CHARM, mob = 17539307 } } }, -- Zo'Pha Forgesoul
