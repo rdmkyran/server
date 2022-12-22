@@ -375,9 +375,9 @@ function xi.events.starlightCelebration.smileBringerSergeantOnTrigger(player, np
                         player:startEvent(7011, elapsedTime, 10, 0, 35, 240, 17695260, 600, 0)
                     elseif (elapsedTime > recordTime and elapsedTime <= 540) then -- qualifying time
                         if hasTree == true then
-                            player:startEvent(7005, elapsedTime, 5622, 0, 44519, -412436, 28, 1, 1)
+                            player:startEvent(7005, elapsedTime, xi.items.CANDY_CANE, 0, 44519, -412436, 28, 1, 1)
                         else
-                            player:startEvent(7005, elapsedTime, 138, 0, 44519, -412436, 28, 1, 1)
+                            player:startEvent(7005, elapsedTime, xi.items.JEUNOAN_TREE, 0, 44519, -412436, 28, 1, 1)
                         end
                     elseif (elapsedTime < recordTime) then -- new record
                         if hasTree == true then
