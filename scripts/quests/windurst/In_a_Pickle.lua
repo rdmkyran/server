@@ -15,9 +15,10 @@ local quest = Quest:new(xi.quest.log_id.WINDURST, xi.quest.id.windurst.IN_A_PICK
 
 quest.reward =
 {
-    gil = 200,
-    fame = 8,
+    fame = 75,
     fameArea = xi.quest.fame_area.WINDURST,
+    item = xi.items.BONE_HAIRPIN,
+    itemParams = { fromTrade = true, }
 }
 
 quest.sections =
@@ -55,6 +56,7 @@ quest.sections =
                     if npcUtil.tradeHasExactly(trade, xi.items.SMOOTH_STONE) then
                         local rand = math.random(1, 4)
                         if rand <= 2 then
+                            player:confirmTrade()
                             return quest:progressEvent(659)
                         elseif rand == 3 then
                             player:confirmTrade()
@@ -75,10 +77,7 @@ quest.sections =
             {
                 [659] = function(player, csid, option, npc)
                     if quest:complete(player) then
-                        player:confirmTrade()
                         player:needToZone(true)
-                        npcUtil.giveItem(player, xi.items.BONE_HAIRPIN)
-                        player:addFame(xi.quest.fame_area.WINDURST, 75)
                     end
                 end,
             },
@@ -95,16 +94,19 @@ quest.sections =
             ['Chamama'] =
             {
                 onTrade = function(player, npc, trade)
-                    if npcUtil.tradeHasExactly(trade, xi.items.SMOOTH_STONE) then
-                        local rand = math.random(1, 4)
-                        if rand <= 2 then
-                            return quest:progressEvent(662, 200)
-                        elseif rand == 3 then
-                            player:confirmTrade()
-                            return quest:progressEvent(657) -- IN A PICKLE: Too Light
-                        elseif rand == 4 then
-                            player:confirmTrade()
-                            return quest:progressEvent(658) -- IN A PICKLE: Too Small
+                    if quest:getVar(player, 'repeat') == 1 then
+                        if npcUtil.tradeHasExactly(trade, xi.items.SMOOTH_STONE) then
+                            local rand = math.random(1, 4)
+                            if rand <= 2 then
+                                player:confirmTrade()
+                                return quest:progressEvent(662, 200)
+                            elseif rand == 3 then
+                                player:confirmTrade()
+                                return quest:progressEvent(657) -- IN A PICKLE: Too Light
+                            elseif rand == 4 then
+                                player:confirmTrade()
+                                return quest:progressEvent(658) -- IN A PICKLE: Too Small
+                            end
                         end
                     end
                 end,
@@ -128,10 +130,10 @@ quest.sections =
                 end,
 
                 [662] = function(player, csid, option, npc)
-                    player:confirmTrade()
                     player:needToZone(true)
                     quest:setVar(player, 'repeat', 0)
                     player:addFame(xi.quest.fame_area.WINDURST, 8)
+                    player:addGil(200)
                 end,
             },
         },
