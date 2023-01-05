@@ -1649,7 +1649,6 @@ UPDATE `synth_recipes` SET ContentTag = 'TOAU' WHERE ResultName = 'Copper Bullet
 UPDATE `synth_recipes` SET ContentTag = 'TOAU' WHERE ResultName = 'Automaton Oil' AND ID = 61025;
 UPDATE `synth_recipes` SET ContentTag = 'TOAU' WHERE ResultName = 'Little Comet' AND ID = 61517;
 UPDATE `synth_recipes` SET ContentTag = 'TOAU' WHERE ResultName = 'Bullet' AND ID = 62001;
-UPDATE `synth_recipes` SET ContentTag = 'TOAU' WHERE ResultName = 'Bokuto' AND ID = 62007;
 UPDATE `synth_recipes` SET ContentTag = 'TOAU' WHERE ResultName = 'Poison Katars' AND ID = 62014;
 UPDATE `synth_recipes` SET ContentTag = 'TOAU' WHERE ResultName = 'Iron Bullet' AND ID = 62028;
 UPDATE `synth_recipes` SET ContentTag = 'TOAU' WHERE ResultName = 'Stabilizer' AND ID = 62032;
@@ -2789,5 +2788,6 @@ UPDATE `synth_recipes` SET ContentTag = 'ROV' WHERE ID = 65015;
 UPDATE `synth_recipes` SET ContentTag = 'ROV' WHERE ResultName = 'Bagua Charm' AND ID = 65016;
 UPDATE `synth_recipes` SET ContentTag = 'ROV' WHERE ID = 65017;
 UPDATE `synth_recipes` SET ContentTag = 'ROV' WHERE ResultName = 'Wispy Broth' AND ID = 70520;
+UPDATE `synth_recipes` SET ContentTag = 'ROV' WHERE ResultName = 'Pearl' AND ID = 50514; -- OOE change
 
 UNLOCK TABLES;
