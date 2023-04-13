@@ -2102,6 +2102,8 @@ INSERT INTO `synth_recipes` VALUES (29973,1,0,0,0,23,0,0,0,0,0,4100,4242,17081,0
 INSERT INTO `synth_recipes` VALUES (29974,1,0,0,0,52,0,0,0,0,0,4100,4242,14864,0,0,0,0,0,0,0,744,744,744,744,1,1,2,3,'Palmer\'s Bangles (desynth)'); -- 2022.03.04 Base on FFXIclopedia
 INSERT INTO `synth_recipes` VALUES (29975,1,0,0,0,37,0,0,0,0,0,4100,4242,13082,0,0,0,0,0,0,0,744,744,744,744,3,4,5,6,'Chain Gorget (desynth)'); -- 2022.03.04 Base on FFXIclopedia
 INSERT INTO `synth_recipes` VALUES (29976,1,0,0,0,78,0,0,0,0,0,4100,4242,2167,0,0,0,0,0,0,0,1225,1225,1225,1225,1,2,3,3,'Lamian Armlet (desynth)'); -- 2022.03.04 Base on FFXIclopedia
+INSERT INTO `synth_recipes` VALUES (29977,1,0,0,0,25,0,0,0,0,0,4100,4242,13332,0,0,0,0,0,0,0,4099,4099,744,744,1,1,1,2,'Clear Earring (desynth)');
+INSERT INTO `synth_recipes` VALUES (29978,1,0,0,0,25,0,0,0,0,0,4100,4242,13375,0,0,0,0,0,0,0,4099,4099,744,744,1,1,1,2,'Knowledge Earring (desynth)');
 INSERT INTO `synth_recipes` VALUES (30001,0,0,0,0,0,1,1,0,0,1,4099,4241,917,4497,13568,0,0,0,0,0,5230,5231,5231,5231,1,1,1,1,'Love Chocolate');
 INSERT INTO `synth_recipes` VALUES (30002,1,0,0,0,0,1,0,0,0,0,4098,4240,498,0,0,0,0,0,0,0,817,817,817,817,3,6,9,12,'Yagudo Necklace (desynth)');
 INSERT INTO `synth_recipes` VALUES (30003,0,2011,0,0,0,2,0,0,0,0,4098,4240,840,840,840,840,840,840,2145,0,1221,1221,1221,1221,18,24,30,36,'Chocobo Fletchings');
@@ -3584,7 +3586,7 @@ INSERT INTO `synth_recipes` VALUES (55516,0,0,0,0,0,0,70,115,0,0,4099,4241,1396,
 -- INSERT INTO `synth_recipes` VALUES (55520,0,2028,0,0,0,0,0,116,255,0,4099,4241,1713,4014,9002,9061,9256,9256,0,0,25968,25969,25969,25969,1,1,1,1,'Mousai Crackows');  -- 2021.11.09 Same as Mousai Seraweels.
 -- INSERT INTO `synth_recipes` VALUES (55521,0,2028,0,0,0,0,0,116,255,0,4099,4241,1714,4014,9002,9061,9256,9256,0,0,25561,25562,25562,25562,1,1,1,1,'Mousai Turban');  -- 2021.11.09 Same as Mousai Seraweels.
 -- INSERT INTO `synth_recipes` VALUES (55522,0,2028,0,0,0,0,0,116,255,0,4099,4241,1714,4014,9002,9061,9256,9256,9256,0,25901,25902,25902,25902,1,1,1,1,'Mousai Seraweels');  -- 2021.11.09 - FFXIclopedia and JPWiki show Bonecraft 115-119.  BGWiki shows as 116.  All show unknown Alchemy.
-INSERT INTO `synth_recipes` VALUES (55523,0,0,70,0,70,0,0,117,0,0,4099,4241,4080,4081,26031,0,0,0,0,0,26032,26033,26033,26033,1,1,1,1,'Moonbow Whistle');  -- 2021.11.09 FFXIclopedia and BGWiki agree at 117 with unknown Goldsmithing and Woodworking. JPWiki is guessing Bonecraft 118 with 70 Goldsmithing and Woodworking.  
+INSERT INTO `synth_recipes` VALUES (55523,0,0,70,0,70,0,0,117,0,0,4099,4241,4080,4081,26031,0,0,0,0,0,26032,26033,26033,26033,1,1,1,1,'Moonbow Whistle');  -- 2021.11.09 FFXIclopedia and BGWiki agree at 117 with unknown Goldsmithing and Woodworking. JPWiki is guessing Bonecraft 118 with 70 Goldsmithing and Woodworking.
 INSERT INTO `synth_recipes` VALUES (55524,0,0,0,0,0,0,0,117,0,0,4099,4241,9003,9005,9006,9061,0,0,0,0,22278,22279,22279,22279,1,1,1,1,'Staunch Tathlum');
 -- INSERT INTO `synth_recipes` VALUES (55525,0,2028,0,0,0,0,0,255,0,0,4096,4238,4076,9255,9255,9256,9256,9256,12742,0,25996,25997,25997,25997,1,1,1,1,'Raetic Bangles');  -- 2021.11.09 FFXIclopedia and JPWiki show Bonecraft 115-119.
 -- INSERT INTO `synth_recipes` VALUES (55526,0,2029,0,255,0,0,0,255,0,0,4102,4244,9004,9062,9253,9834,9844,9845,9845,9854,21715,21716,21717,21717,1,1,1,1,'Monster Axe');  -- 2021.11.09 FFXIclopedia and JPWiki show Bonecraft 111-113.

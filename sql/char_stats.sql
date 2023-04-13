@@ -19,6 +19,7 @@ CREATE TABLE IF NOT EXISTS `char_stats` (
   `mjob` tinyint(2) unsigned NOT NULL DEFAULT '0',
   `sjob` tinyint(2) unsigned NOT NULL DEFAULT '0',
   `death` int(10) unsigned NOT NULL DEFAULT '0',
+  `has_raise` tinyint(1) unsigned NOT NULL DEFAULT '0',
   `2h` int(10) unsigned NOT NULL DEFAULT '0',
   `title` smallint(4) unsigned NOT NULL DEFAULT '0',
   `bazaar_message` BLOB,
